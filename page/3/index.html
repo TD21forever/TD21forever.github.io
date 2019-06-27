@@ -497,7 +497,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 21:58:39" itemprop="dateModified" datetime="2019-06-27T21:58:39+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 23:07:27" itemprop="dateModified" datetime="2019-06-27T23:07:27+08:00">2019-06-27</time>
               
             
           </span>
@@ -551,201 +551,28 @@
       
         
           
-            <h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
-<li>基础学习教程<ol>
-<li><a href="https://link.zhihu.com/?target=http%3A//www.runoob.com/python3/python3-tutorial.html" target="_blank" rel="noopener">Python3 教程 | 菜鸟教程</a></li>
-<li><a href="https://link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial3/" target="_blank" rel="noopener">Python tutorial 3.5.2 documentation</a></li>
-<li><a href="http://codingpy.com/books/thinkpython2/" target="_blank" rel="noopener">《Think Python》</a></li>
-<li>如果你不喜欢看文档,<a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦Python</a>视频教程</li>
-</ol>
-</li>
-<li>练练手<ol>
-<li>github上的一些项目</li>
-<li><a href="https://github.com/TD21forever/Mini-Python-Project" target="_blank" rel="noopener">别人的一些项目</a></li>
-</ol>
-</li>
-</ol>
-<p>&lt; !–more–&gt;</p>
-<h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
-<ul>
-<li>String（字符串）</li>
-<li>Number（数字）</li>
-<li>List（列表）</li>
-<li>Tuple（元组）</li>
-<li>Set（集合）</li>
-<li>Dictionary（字典）</li>
-</ul>
-<h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
-<li><p>字符串的基本操作</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">"自动化科协"</span></span><br><span class="line">department = <span class="string">"软件部"</span></span><br><span class="line">print(name+department)<span class="comment">#字符串做加法</span></span><br><span class="line">print(name*<span class="number">10</span>)<span class="comment">#字符串做乘法</span></span><br><span class="line">print(name[<span class="number">0</span>])<span class="comment">#取字符串的第一位</span></span><br><span class="line">print(name[<span class="number">-1</span>])<span class="comment">#取字符串的最后一位</span></span><br></pre></td></tr></table></figure>
+            <p>
+              资料
+基础学习教程
+Python3 教程 | 菜鸟教程
+Python tutorial 3.5.2 documentation
+《Think Python》
+如果你不喜欢看文档,莫烦Python视频教程
 
 
-</li>
-</ol>
-<ol start="2">
-<li><p>格式化字符串</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">date_1 = <span class="string">"%d年%d月%d日是%s的生日"</span> %(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_1)<span class="comment">#%d代表数字，%s代表字符串</span></span><br><span class="line">date_2 = <span class="string">"&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日"</span>.format(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_2)<span class="comment">#这样就不用%了</span></span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="3">
-<li><p>切片（slice）</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="string">'自动化科协软件部'</span></span><br><span class="line">new_string = string[<span class="number">3</span>:<span class="number">5</span>]<span class="comment">#3包括5不包括</span></span><br><span class="line">print(new_string)</span><br><span class="line">a = <span class="string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span></span><br><span class="line">new_a = a[<span class="number">11</span>:<span class="number">20</span>]<span class="comment">#11包括20不包括</span></span><br><span class="line">print(new_a)</span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ol>
-<h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
-<p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a,b,c,d = <span class="number">20</span>, <span class="number">5.5</span>, <span class="literal">True</span>, <span class="number">4</span>+<span class="number">3j</span></span><br><span class="line"><span class="keyword">print</span> (a,b,c,d)</span><br><span class="line"><span class="keyword">print</span> (type(a),type(b),type(c)，type(d))<span class="comment">#这里用到了type这个函数</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
-<li><p>列表的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>] <span class="comment">#列表的建立用[]</span></span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="2">
-<li><p>列表的遍历（迭代）</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:<span class="comment">#用这种方式遍历</span></span><br><span class="line">	print(one)</span><br><span class="line">```</span><br><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:</span><br><span class="line">	print(type(one))</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ol>
-<ol start="3">
-<li><p>列表的一些操作</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list_1.reverse()</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.append(<span class="string">'我添加了一个元素'</span>)</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.remove(<span class="literal">None</span>)</span><br><span class="line">print(list_1)</span><br></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ol>
-<h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
-<li><p>元组的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tuple_1 = (<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))<span class="comment">#元组的建立用()</span></span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="2">
-<li><p>元组和列表不同之处</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">Tuple = (<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line">List[<span class="number">0</span>] = <span class="number">5</span></span><br><span class="line">print(List)</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ol>
-<h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
-<li><p>集合的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set_1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">1</span>&#125;</span><br><span class="line">print(set_1)</span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ol>
-<h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
-<li><p>字典的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">slogan= &#123;</span><br><span class="line">	<span class="string">'Adidas'</span>:<span class="string">'没有不可能（impossible is nothing)'</span>,</span><br><span class="line">	<span class="string">'Nike'</span> :<span class="string">'Just do it'</span>,</span><br><span class="line">	<span class="string">'Lining'</span>:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="string">'4399'</span>	:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="comment"># '4399'	:"4399v587"</span></span><br><span class="line">&#125;</span><br><span class="line">print(slogan[<span class="string">'Lining'</span>])</span><br><span class="line">print(slogan[<span class="string">'4399'</span>])</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ol>
-<hr>
-<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_boyfriend</span><span class="params">(face,height,money)</span>:</span></span><br><span class="line">	<span class="keyword">if</span> face &gt; <span class="number">85</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> height &gt; <span class="number">185</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> money &gt; <span class="number">100000000000000</span>:</span><br><span class="line">		print(<span class="string">"OH God! He must be the one!!!!"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		print(<span class="string">"Who are you?"</span>)</span><br><span class="line"></span><br><span class="line">find_boyfriend(<span class="number">12</span>,<span class="number">170</span>,<span class="number">11</span>)</span><br></pre></td></tr></table></figure>
-
-<h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
-<li><p>语义化</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">print(<span class="number">1</span> <span class="keyword">in</span> List)</span><br><span class="line">wo = <span class="string">"帅"</span></span><br><span class="line"><span class="keyword">if</span> wo <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">"丑"</span>:</span><br><span class="line">	print(<span class="string">"我很帅"</span>)</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="2">
-<li><p>列表解析</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">b = [i <span class="keyword">for</span> i <span class="keyword">in</span> List]</span><br><span class="line">print(b)</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">b = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="3">
-<li><p>值交换</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">temp = b</span><br><span class="line">b = a</span><br><span class="line">a= temp</span><br><span class="line">print(a,b)</span><br><span class="line">a,b = b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="4">
-<li><p>join函数</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">"这是一堂"</span>,<span class="string">'严肃的'</span>,<span class="string">"python课程"</span>]</span><br><span class="line">print(<span class="string">"哈哈哈哈啊哈哈"</span>.join(a))</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="5">
-<li><p>列表或者字符串逆序</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="string">'123456789'</span></span><br><span class="line">print(b[<span class="number">2</span>::<span class="number">3</span>])</span><br><span class="line">print(b[::<span class="number">-1</span>])<span class="comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span></span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="6">
-<li><p>比大小</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="number">10</span></span><br><span class="line"><span class="number">3</span> &lt; b <span class="keyword">and</span> b &lt; <span class="number">12</span> </span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">10</span>&lt;<span class="number">12</span>)</span><br><span class="line">print(<span class="number">4</span>&lt;<span class="number">10</span>&lt;<span class="number">9</span>)</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<ol start="7">
-<li><p>列表和集合互用，消除重复元素</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>]</span><br><span class="line">print(list(set(list_1)))</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ol>
-<h3 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h3><ol>
-<li>大一少打游戏 晚自习多看点课外书</li>
-<li>英语很重要 四六级大一总得过了吧</li>
-<li>如果有机会之后会讲什么<ol>
-<li>Markdown<ol>
-<li>Typora…</li>
-<li><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="noopener">作业部落</a></li>
-<li><a href="https://ouweiya.gitbooks.io/markdown/" target="_blank" rel="noopener">常用语法笔记</a></li>
-</ol>
-</li>
-<li>Git<ol>
-<li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000" target="_blank" rel="noopener">廖雪峰</a></li>
-<li><a href="https://morvanzhou.github.io/tutorials/others/git/5-1-github/" target="_blank" rel="noopener">莫烦</a></li>
-</ol>
-</li>
-<li>Linux</li>
-<li>正则表达式<ol>
-<li><a href="https://regex101.com/" target="_blank" rel="noopener">正则表达式</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li>关于问问题<ol>
-<li>百度谷歌能解决最好</li>
-<li>如果要问别人，请把代码贴在<a href="https://paste.ubuntu.com/" target="_blank" rel="noopener">这里</a></li>
-</ol>
-</li>
-</ol>
-
+练练手
+github上的一些项目
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/11/05/python-tutorial/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -862,7 +689,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 22:37:07" itemprop="dateModified" datetime="2019-06-27T22:37:07+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 23:06:18" itemprop="dateModified" datetime="2019-06-27T23:06:18+08:00">2019-06-27</time>
               
             
           </span>
@@ -916,146 +743,26 @@
       
         
           
-            <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
-<li><p>什么是全连接层</p>
-<ul>
-<li><p>我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 <strong>全连接(Fully-connected layer)</strong></p>
-</li>
-<li><p>全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了</p>
-</li>
-<li><p>全连接的目的是什么呢？因为传统的网络我们的输出都是分类，也就是几个类别的概率甚至就是一个数–类别号，那么全连接层就是高度提纯的特征了，方便交给最后的分类器或者回归</p>
-</li>
-<li><p><a href="https://blog.csdn.net/u011021773/article/details/78121359" target="_blank" rel="noopener">解释一下全连接层</a></p>
-<p><img src="C:%5CUsers%5CTD21forever%5CDesktop%5C%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5%5C%E5%85%A8%E8%BF%9E%E6%8E%A5.png" alt></p>
-<p>&lt; !–more–&gt;</p>
-</li>
-</ul>
-</li>
-<li><p>一些英文</p>
-<ol>
-<li><strong>Stride</strong>-&gt;步长</li>
-<li><strong>Filter</strong>-&gt;卷积核</li>
-<li><strong>Padding</strong>-&gt;填充</li>
-<li><strong>Kernel size</strong>-&gt;卷积核的大小</li>
-<li><strong>Normalization layer</strong>-&gt;归一层</li>
-<li><strong>Convolutional layer</strong>-&gt;卷积层</li>
-<li><strong>Fully-Connected layer</strong>-&gt;全连接层</li>
-</ol>
-</li>
-<li><p>一些解释</p>
-<ol>
-<li><p>为什么要用卷积运算</p>
-<blockquote>
-<p>卷积运算的目的是提取输入的不同特征，第一层卷积层可能只能提取一些低级的特征如边缘、线条和角等层级，更多层的网络能从低级特征中迭代提取更复杂的特征。</p>
-</blockquote>
-</li>
-<li><p>为什么要用激活函数</p>
-</li>
-<li><p>为什么要有池化层</p>
-<blockquote>
-<p>通常在卷积层之后会得到维度很大的特征，将特征切成几个区域，取其最大值或平均值，得到新的、维度较小的特征。</p>
-</blockquote>
-</li>
-<li><p>为什么要用全连接层</p>
-<blockquote>
-<p>把所有局部特征结合变成全局特征，用来计算最后每一类的得分。</p>
-</blockquote>
-</li>
-<li><p>数据预处理</p>
-<ol>
-<li><a href="https://blog.csdn.net/elaine_bao/article/details/50889856" target="_blank" rel="noopener">资料1</a></li>
-</ol>
-</li>
-<li><p>训练速率</p>
-<blockquote>
-<p>如果设置的学习速率太小，你的模型可能需要几年才能收敛;如果学习速率太大，在开始训练几个样本之后，你的损失值(loss)可能会迅速增加。一般来说，0.01 的学习速率是安全的</p>
-</blockquote>
-</li>
-</ol>
-</li>
-<li><p>搭建一个神经网络一般的步骤<a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/搭建一个神经网络图解.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9B%BE%E8%A7%A3.jpg" alt></a></p>
-</li>
-<li><p>典型神经网络训练过程</p>
-<ul>
-<li>定义一个有着可学习的参数（或者权重）的神经网络</li>
-<li>对着一个输入的数据集进行迭代:<code>for step, (inputs,labels) in enumerate(train_loader)</code></li>
-<li>用神经网络对输入进行处理 <code>output = cnn(inputs)</code></li>
-<li>计算<strong>Loss</strong> (对输出值的修正到底有多少)<code>loss_func = nn.CrossEntropyLoss()</code></li>
-<li>梯度归零<code>optimizer.zero_grad()</code></li>
-<li>将梯度传播回神经网络的参数中 <code>loss.backward()</code></li>
-<li>更新网络中的权重 <code>optimizer.step()</code>通常使用简单的更新规则(SGD): <code>weight = weight + learning_rate * gradient</code></li>
-</ul>
-</li>
-<li><p>如何计算卷积后图片大小(尺寸)</p>
-<ol>
-<li><a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/计算卷积后图片大小.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E8%AE%A1%E7%AE%97%E5%8D%B7%E7%A7%AF%E5%90%8E%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.jpg" alt></a></li>
-<li>图片的尺寸= (原来的尺寸-卷积核的尺寸+填充*2)/步长+1</li>
-<li>深度 = 卷积核的数量</li>
-</ol>
-</li>
-<li><p>计算池化后图片的大小(尺寸)</p>
-<ol>
-<li><a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/池化后图片的大小-1.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E6%B1%A0%E5%8C%96%E5%90%8E%E5%9B%BE%E7%89%87%E7%9A%84%E5%A4%A7%E5%B0%8F-1.jpg" alt></a></li>
-<li>图片的尺寸 = （原来的尺寸-卷积核的尺寸）/步长+1</li>
-<li>深度不变</li>
-<li>为什么要把特征图摊平？</li>
-</ol>
-</li>
-</ol>
-<hr>
-<h3 id="Alexnet"><a href="#Alexnet" class="headerlink" title="Alexnet"></a>Alexnet</h3><ol>
-<li><p>图解</p>
-<p><img src="C:%5CUsers%5CTD21forever%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1561646029186.png" alt="1561646029186"></p>
-</li>
-<li><p>各种图片尺寸的解读</p>
-<ol>
-<li><code>CONV1</code>55 = (227-11+2*0)/4+1 = 55</li>
-<li><code>MAXPOOL1</code> 27 = (55-3)/2+1 = 27</li>
-<li><code>CONV2</code> 27 = (27-5+2*2)/1 +1= 27</li>
-<li><code>MAXPOOL2</code> 13 = (27-3)/2+1 = 13</li>
-<li><code>MAXPOOL3</code> 6 = (13-3)/2 +1 = 6</li>
-</ol>
-</li>
-<li><p>Alexnet为啥取得比较好的效果</p>
-<ol>
-<li><p>使用了<strong>Relu</strong>激活函数</p>
-</li>
-<li><p>Dropout</p>
-<blockquote>
-<p>Dropout也是经常说的一个概念，能够比较有效地防止神经网络的过拟合。 相对于一般如线性模型使用正则的方法来防止模型过拟合，而在神经网络中Dropout通过修改神经网络本身结构来实现。对于某一层神经元，通过定义的概率来<strong>随机删除一些神经元</strong>，同时保持输入层与输出层神经元的个人不变，然后按照神经网络的学习方法进行参数更新，下一次迭代中，重新随机删除一些神经元，直至训练结束。</p>
-</blockquote>
-</li>
-</ol>
-</li>
-</ol>
-<h3 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h3><ol>
-<li><p>为什么要用torch.nn.Sequential</p>
-<ol>
-<li><code>torch.nn.Sequential</code>是一个<code>Sequential</code>容器，模块将按照构造函数中传递的顺序添加到模块中</li>
-<li><a href="https://ptorch.com/news/57.html" target="_blank" rel="noopener">点击这里查看更多</a></li>
-</ol>
-</li>
-<li><p>一些函数的参数介绍</p>
-<ol>
-<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">nn.Conv2d(                 	<span class="comment"># input shape (1, 28, 28)	</span></span><br><span class="line">          in_channels=<span class="number">1</span>,              <span class="comment"># input height</span></span><br><span class="line">          out_channels=<span class="number">16</span>,            <span class="comment"># n_filters</span></span><br><span class="line">          kernel_size=<span class="number">5</span>,              <span class="comment"># filter size</span></span><br><span class="line">          stride=<span class="number">1</span>,                   <span class="comment"># filter movement/step</span></span><br><span class="line">          padding=<span class="number">2</span> ),	 <span class="comment"># if want same width and length of this image after con2d, 						    padding=(kernel_size-1)/2 if stride=1</span></span><br><span class="line">                               <span class="comment"># output shape (16, 28, 28)</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://blog.csdn.net/Z_lbj/article/details/79766690" target="_blank" rel="noopener">torch.max()</a></p>
-</li>
-</ol>
-</li>
-</ol>
-<h3 id="待解决问题"><a href="#待解决问题" class="headerlink" title="待解决问题"></a>待解决问题</h3><ol>
-<li>如何使用已经保存了的神经网络</li>
-<li><code>res = conv5_out.view(conv5_out.size(0), -1) out = self.dense(res)</code> 这两行代码的意思</li>
-<li>为什么要用激活函数？</li>
-</ol>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
-<li><a href="https://blog.csdn.net/qq_33414271/article/details/79337141" target="_blank" rel="noopener">卷积神经网络（CNN）的理解和实现</a></li>
-<li><a href="https://community.bigquant.com/t/%E4%B8%80%E6%97%A5%E6%90%9E%E6%87%82%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/126015" target="_blank" rel="noopener">一日搞懂卷积神经网络</a></li>
-<li><a href="https://blog.csdn.net/jacke121/article/details/80595928" target="_blank" rel="noopener">Pytorch view()、squeeze()、unsqueeze()、torch.max()</a></li>
-</ol>
+            <p>
+              前期准备
+什么是全连接层
 
+我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 全连接(Fully-connected layer)
+
+全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了
+
+全连接的
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/10/30/cnnalexnet-e6-a8-a1-e5-9e-8b-e7-ae-80-e5-8d-95-e6-80-bb-e7-bb-93/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -1172,7 +879,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 22:12:11" itemprop="dateModified" datetime="2019-06-27T22:12:11+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 23:07:41" itemprop="dateModified" datetime="2019-06-27T23:07:41+08:00">2019-06-27</time>
               
             
           </span>
@@ -1226,35 +933,22 @@
       
         
           
-            <h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
-<li><p>Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
-</li>
-<li><p>希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group" target="_blank" rel="noopener">这里可以解决</a></p>
-</li>
-<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
-<pre><code>RewriteEngine On
-RewriteCond %{HTTP_HOST} ^laozuo.org [NC]
-RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
-</ul>
-<p>&lt; !–more–&gt;</p>
-<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><ol>
-<li><a href="https://www.seoimo.com/wordpress-vps/" target="_blank" rel="noopener">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
-<li><a href="https://www.jianshu.com/p/d7b208efe04c" target="_blank" rel="noopener">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
-<li><a href="https://www.banwagong.com/625.html" target="_blank" rel="noopener">搬瓦工VPS安装WordPress详细图文教程</a></li>
-</ol>
-<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><ol>
-<li>vps配置优化</li>
-<li><a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts" target="_blank" rel="noopener">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup" target="_blank" rel="noopener">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https" target="_blank" rel="noopener">HTTP全部301重定向到HTTPS</a></li>
-</ol>
-<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><ol>
-<li>购买服务器和域名</li>
-<li>域名解析(域名绑定服务器ip)</li>
-<li>vps中搭建LAMP环境</li>
-<li>添加域名<code>lnmp vhost add</code></li>
-<li>安装wordpress</li>
-</ol>
+            <p>
+              1. 关于wordpress建站过程中遇到的一些问题及解决方案
+Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “SFTP over SSH”即可。
 
+希
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/10/12/wordpress-e4-bd-bf-e7-94-a8-e5-bf-83-e5-be-97/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
