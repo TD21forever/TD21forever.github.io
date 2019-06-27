@@ -39,6 +39,50 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
 
 
 
@@ -94,20 +138,20 @@
 
 
 
-  <meta name="description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    数据的三级模式目的：将用户应用和数据库分离  模式(概念集)  也称逻辑">
+  <meta name="description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    &amp;lt; !–more–&amp;gt; 数据的三级模式​    目的：将用户应">
 <meta name="keywords" content="数据库,笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据库原理笔记（1）——三级模式二级映射">
 <meta property="og:url" content="www.dcts.top/2019/04/20/e6-95-b0-e6-8d-ae-e5-ba-93-e5-8e-9f-e7-90-86-e7-ac-94-e8-ae-b0-ef-bc-881-ef-bc-89-e4-b8-89-e7-ba-a7-e6-a8-a1-e5-bc-8f-e4-ba-8c-e7-ba-a7-e6-98-a0-e5-b0-84/index.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    数据的三级模式目的：将用户应用和数据库分离  模式(概念集)  也称逻辑">
+<meta property="og:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    &amp;lt; !–more–&amp;gt; 数据的三级模式​    目的：将用户应">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/04/20181108225103455.png">
-<meta property="og:updated_time" content="2019-06-27T09:48:45.769Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181108225103455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTQ4MzA3,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2019-06-27T14:13:02.114Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库原理笔记（1）——三级模式二级映射">
-<meta name="twitter:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    数据的三级模式目的：将用户应用和数据库分离  模式(概念集)  也称逻辑">
-<meta name="twitter:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/04/20181108225103455.png">
+<meta name="twitter:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    &amp;lt; !–more–&amp;gt; 数据的三级模式​    目的：将用户应">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20181108225103455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTQ4MzA3,size_16,color_FFFFFF,t_70">
 
 
 
@@ -454,7 +498,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 22:13:02" itemprop="dateModified" datetime="2019-06-27T22:13:02+08:00">2019-06-27</time>
               
             
           </span>
@@ -488,6 +532,13 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
           
 
@@ -506,7 +557,7 @@
       
 
       
-        <h5 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h5><ul>
+        <h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><ul>
 <li><p>数据库（DataBase）</p>
 <blockquote>
 <p>相关数据的集合，数据由DBMS统一管理和维护</p>
@@ -523,7 +574,9 @@
 </blockquote>
 </li>
 </ul>
-<h5 id="数据的三级模式"><a href="#数据的三级模式" class="headerlink" title="数据的三级模式"></a>数据的三级模式</h5><p><strong>目的：将用户应用和数据库分离<a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/04/20181108225103455.png" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/04/20181108225103455.png" alt></a></strong></p>
+<p>&lt; !–more–&gt;</p>
+<h3 id="数据的三级模式"><a href="#数据的三级模式" class="headerlink" title="数据的三级模式"></a>数据的三级模式</h3><p>​    <strong>目的：将用户应用和数据库分离</strong></p>
+<p><img src="https://img-blog.csdnimg.cn/20181108225103455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTQ4MzA3,size_16,color_FFFFFF,t_70" alt="img"></p>
 <ol>
 <li><p>模式(概念集)</p>
 <ul>
@@ -540,7 +593,7 @@
 <li>用户能看到的数据库中的各个表，这些表中包含的数据以及数据之间的联系（表的逻辑结构）是跟某个应用或用户具体的需求相关的</li>
 <li>外模式描述的是一个特定用户感兴趣的那部分数据库，隐藏数据库的其他部分</li>
 <li>是模式的子集，不同用户外模式不同</li>
-<li>DBMS提供外模式描述语言(Sub-DDL)</li>
+<li>DBMS提供外模式描述语言(Sub-DDL) </li>
 </ul>
 </li>
 <li><p>内模式(物理级)</p>
@@ -556,27 +609,24 @@
 </ol>
 </li>
 </ol>
-<h5 id="数据的二级映像"><a href="#数据的二级映像" class="headerlink" title="数据的二级映像"></a>数据的二级映像</h5><ol>
-<li><p>外模式/模式</p>
-<ul>
+<h3 id="数据的二级映像"><a href="#数据的二级映像" class="headerlink" title="数据的二级映像"></a>数据的二级映像</h3><ol>
+<li>外模式/模式<ul>
 <li>当模式改变时，只要相应改变外模式/模式映像，即可使外模式保持不变</li>
 <li>数据的逻辑独立性</li>
 </ul>
 </li>
-<li><p>模式/内模式</p>
-<ul>
+<li>模式/内模式<ul>
 <li>当存储方式发生改变时，只需要修改这个模式/内模式映像就可以保持模式不变</li>
 <li>数据的物理独立性</li>
 </ul>
 </li>
-<li><p>SQL的三级模式</p>
-<ol>
+<li>SQL的三级模式<ol>
 <li>基本表<ul>
 <li>基本表是模式的基本内容</li>
 <li>实际存在的关系</li>
 </ul>
 </li>
-<li>视图<ul>
+<li>视图 <ul>
 <li>外模式的基本单位</li>
 <li>视图是逻辑上的定义，实际并不存在（虚表）</li>
 </ul>
@@ -599,6 +649,12 @@
     
     
     
+
+    
+      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/images/wechatmid.jpg" alt="陈末 wechat" style="width: 200px; max-width: 100%;">
+  <div>扫二维码关注我的微信公众号</div>
+</div>
 
     
 
@@ -631,8 +687,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/04/19/e5-be-ae-e4-bf-a1-e8-81-8a-e5-a4-a9-e8-ae-b0-e5-bd-95-e7-94-9f-e6-88-90-e8-af-8d-e4-ba-91-ef-bc-88ios-e7-b3-bb-e7-bb-9f-ef-bc-89/" rel="next" title="微信聊天记录生成词云（IOS系统）">
-                <i class="fa fa-chevron-left"></i> 微信聊天记录生成词云（IOS系统）
+              <a href="/2019/04/16/145/" rel="next" title="Python正则">
+                <i class="fa fa-chevron-left"></i> Python正则
               </a>
             
           </div>
@@ -714,7 +770,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -726,24 +782,26 @@
                 <div class="site-state-item site-state-categories">
                   
                     
+                      <a href="/categories/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">分类</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
                 </div>
               
 
@@ -753,58 +811,60 @@
                 <div class="site-state-item site-state-tags">
                   
                     
+                      <a href="/tags/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">24</span>
-                    <span class="site-state-item-name">标签</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">23</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
                 </div>
               
             </nav>
@@ -814,6 +874,21 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/TD21forever" title="GitHub &rarr; https://github.com/TD21forever" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+            </div>
           
 
           
@@ -840,7 +915,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#数据的三级模式"><span class="nav-number">2.</span> <span class="nav-text">数据的三级模式</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#三级模式总结"><span class="nav-number">2.1.</span> <span class="nav-text">三级模式总结</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#数据的二级映像"><span class="nav-number">3.</span> <span class="nav-text">数据的二级映像</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的三级模式"><span class="nav-number">2.</span> <span class="nav-text">数据的三级模式</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#三级模式总结"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">三级模式总结</span></a></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的二级映像"><span class="nav-number">3.</span> <span class="nav-text">数据的二级映像</span></a></li></div>
             
 
           </div>
@@ -861,7 +936,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">  <a href="http://www.beian.miit.gov.cn" rel="noopener" target="_blank">浙ICP备18047530号 </a>&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -887,6 +962,32 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 

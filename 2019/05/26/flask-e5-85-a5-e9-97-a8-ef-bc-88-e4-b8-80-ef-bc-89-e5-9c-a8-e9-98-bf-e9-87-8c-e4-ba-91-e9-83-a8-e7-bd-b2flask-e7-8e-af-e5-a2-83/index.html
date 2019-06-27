@@ -39,6 +39,50 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
 
 
 
@@ -94,19 +138,19 @@
 
 
 
-  <meta name="description" content="[TOC] 在阿里云部署Flask环境参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000   导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt">
+  <meta name="description" content="阿里云部署flask参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000  导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt  安装方法 pip">
 <meta name="keywords" content="笔记,FLask,阿里云">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Flask入门（一）——在阿里云部署Flask环境">
 <meta property="og:url" content="www.dcts.top/2019/05/26/flask-e5-85-a5-e9-97-a8-ef-bc-88-e4-b8-80-ef-bc-89-e5-9c-a8-e9-98-bf-e9-87-8c-e4-ba-91-e9-83-a8-e7-bd-b2flask-e7-8e-af-e5-a2-83/index.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="[TOC] 在阿里云部署Flask环境参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000   导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt">
+<meta property="og:description" content="阿里云部署flask参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000  导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt  安装方法 pip">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/05/%E5%9B%BE%E7%89%871.png">
-<meta property="og:updated_time" content="2019-06-27T09:48:45.779Z">
+<meta property="og:updated_time" content="2019-06-27T14:12:47.022Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Flask入门（一）——在阿里云部署Flask环境">
-<meta name="twitter:description" content="[TOC] 在阿里云部署Flask环境参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000   导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt">
+<meta name="twitter:description" content="阿里云部署flask参考文档 通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）  注意事项 app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000  导出的requirements.txt  导出方法 pip freeze &amp;gt; requirements.txt  安装方法 pip">
 <meta name="twitter:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/05/%E5%9B%BE%E7%89%871.png">
 
 
@@ -454,7 +498,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 22:12:47" itemprop="dateModified" datetime="2019-06-27T22:12:47+08:00">2019-06-27</time>
               
             
           </span>
@@ -495,6 +539,13 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
           
 
@@ -513,65 +564,69 @@
       
 
       
-        <p>[TOC]</p>
-<h2 id="在阿里云部署Flask环境"><a href="#在阿里云部署Flask环境" class="headerlink" title="在阿里云部署Flask环境"></a>在阿里云部署Flask环境</h2><h4 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
+        <h2 id="阿里云部署flask"><a href="#阿里云部署flask" class="headerlink" title="阿里云部署flask"></a>阿里云部署flask</h2><h4 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
 <li><a href="https://juejin.im/post/5a5a1408518825733060e232#heading-6" target="_blank" rel="noopener">通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）</a></li>
 </ul>
 <h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
-<li>app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000</li>
-</ul>
-<ul>
+<li><p>app.run(host=’0.0.0.0’,port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000</p>
+</li>
 <li><p>导出的<code>requirements.txt</code></p>
 <ul>
 <li><p>导出方法 <code>pip freeze &gt; requirements.txt</code></p>
 </li>
 <li><p>安装方法 <code>pip install -r requirement.txt</code></p>
-<p>alembic==1.0.9<br>Babel==2.6.0<br>blinker==1.4<br>Click==7.0<br>coverage==4.5.3<br>decorator==4.4.0<br>defusedxml==0.6.0<br>dominate==2.3.5<br>Flask==1.0.2<br>Flask-Babel==0.12.2<br>Flask-Bootstrap==3.3.7.1<br>Flask-Login==0.4.1<br>Flask-Mail==0.9.1<br>Flask-Migrate==2.4.0<br>Flask-OpenID==1.2.5<br>Flask-SQLAlchemy==2.3.2<br>Flask-WhooshAlchemy==0.56<br>Flask-WTF==0.14.2<br>flipflop==1.0<br>guess-language==0.2<br>itsdangerous==1.1.0<br>Jinja2==2.10.1<br>Mako==1.0.9<br>MarkupSafe==1.1.1<br>pbr==5.1.3<br>python-dateutil==2.8.0<br>python-editor==1.0.4<br>python3-openid==3.1.0<br>pytz==2019.1<br>six==1.12.0<br>SQLAlchemy==1.3.3<br>sqlalchemy-migrate==0.12.0<br>sqlparse==0.3.0<br>Tempita==0.5.2<br>visitor==0.1.3<br>Werkzeug==0.15.2<br>Whoosh==2.7.4<br>WTForms==2.2.1</p>
+<p>&lt; !–more– &gt;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">alembic==<span class="number">1.0</span><span class="number">.9</span></span><br><span class="line">Babel==<span class="number">2.6</span><span class="number">.0</span></span><br><span class="line">blinker==<span class="number">1.4</span></span><br><span class="line">Click==<span class="number">7.0</span></span><br><span class="line">coverage==<span class="number">4.5</span><span class="number">.3</span></span><br><span class="line">decorator==<span class="number">4.4</span><span class="number">.0</span></span><br><span class="line">defusedxml==<span class="number">0.6</span><span class="number">.0</span></span><br><span class="line">dominate==<span class="number">2.3</span><span class="number">.5</span></span><br><span class="line">Flask==<span class="number">1.0</span><span class="number">.2</span></span><br><span class="line">Flask-Babel==<span class="number">0.12</span><span class="number">.2</span></span><br><span class="line">Flask-Bootstrap==<span class="number">3.3</span><span class="number">.7</span><span class="number">.1</span></span><br><span class="line">Flask-Login==<span class="number">0.4</span><span class="number">.1</span></span><br><span class="line">Flask-Mail==<span class="number">0.9</span><span class="number">.1</span></span><br><span class="line">Flask-Migrate==<span class="number">2.4</span><span class="number">.0</span></span><br><span class="line">Flask-OpenID==<span class="number">1.2</span><span class="number">.5</span></span><br><span class="line">Flask-SQLAlchemy==<span class="number">2.3</span><span class="number">.2</span></span><br><span class="line">Flask-WhooshAlchemy==<span class="number">0.56</span></span><br><span class="line">Flask-WTF==<span class="number">0.14</span><span class="number">.2</span></span><br><span class="line">flipflop==<span class="number">1.0</span></span><br><span class="line">guess-language==<span class="number">0.2</span></span><br><span class="line">itsdangerous==<span class="number">1.1</span><span class="number">.0</span></span><br><span class="line">Jinja2==<span class="number">2.10</span><span class="number">.1</span></span><br><span class="line">Mako==<span class="number">1.0</span><span class="number">.9</span></span><br><span class="line">MarkupSafe==<span class="number">1.1</span><span class="number">.1</span></span><br><span class="line">pbr==<span class="number">5.1</span><span class="number">.3</span></span><br><span class="line">python-dateutil==<span class="number">2.8</span><span class="number">.0</span></span><br><span class="line">python-editor==<span class="number">1.0</span><span class="number">.4</span></span><br><span class="line">python3-openid==<span class="number">3.1</span><span class="number">.0</span></span><br><span class="line">pytz==<span class="number">2019.1</span></span><br><span class="line">six==<span class="number">1.12</span><span class="number">.0</span></span><br><span class="line">SQLAlchemy==<span class="number">1.3</span><span class="number">.3</span></span><br><span class="line">sqlalchemy-migrate==<span class="number">0.12</span><span class="number">.0</span></span><br><span class="line">sqlparse==<span class="number">0.3</span><span class="number">.0</span></span><br><span class="line">Tempita==<span class="number">0.5</span><span class="number">.2</span></span><br><span class="line">visitor==<span class="number">0.1</span><span class="number">.3</span></span><br><span class="line">Werkzeug==<span class="number">0.15</span><span class="number">.2</span></span><br><span class="line">Whoosh==<span class="number">2.7</span><span class="number">.4</span></span><br><span class="line">WTForms==<span class="number">2.2</span><span class="number">.1</span></span><br></pre></td></tr></table></figure>
+
+
 </li>
 </ul>
 </li>
 </ul>
 <ul>
 <li><p><code>gunicorn</code> 设置启动参数 部署到服务器上时 <strong>‘127.0.0.1’ 改为你的服务器的私有IP</strong>，<strong>并在服务器上设置相关端口（如5000）的安全组 test改为项目运行入口 如run</strong></p>
-<pre><code>gunicorn -w 4 -b 172.19.172.207:5000 run:app</code></pre></li>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gunicorn -w 4 -b 172.19.172.207:5000 run:app</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ul>
 <ul>
 <li><p>安装和配置Nginx</p>
-<pre><code># file_name=default
-server {
-    listen 80;
-    server_name example.org; # 这是HOST机器的外部域名，用地址也行
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> file_name=default</span><br><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name example.org; # 这是HOST机器的外部域名，用地址也行</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://your.私有IP:5000; # 指向 gunicorn host 的服务地址，注意，这里填我们服务器的私有IP</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 
-    location / {
-        proxy_pass http://your.私有IP:5000; # 指向 gunicorn host 的服务地址，注意，这里填我们服务器的私有IP
-        proxy_set_header Host $host;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
-  }</code></pre></li>
+
+</li>
 </ul>
-<p>用xshell将项目的文件传到服务器上（不用传在本地建的虚拟环境中使用的包） 至此，理论上在浏览器中输入公有的ip地址，就可以访问项目</p>
+<p>  用xshell将项目的文件传到服务器上（不用传在本地建的虚拟环境中使用的包） 至此，理论上在浏览器中输入公有的ip地址，就可以访问项目</p>
 <ul>
-<li>有关<code>gunicorn</code>的相关操作<ul>
-<li>pkill gunicorn  //关闭gunicorn</li>
+<li><p>有关<code>gunicorn</code>的相关操作</p>
+<ul>
+<li><p>pkill gunicorn  //关闭gunicorn</p>
+</li>
+<li><p>pstree -ap|grep gunicorn</p>
+</li>
 </ul>
 </li>
 </ul>
-<pre><code>*       pstree -ap|grep gunicorn</code></pre><h2 id="阿里云配置MongoDB"><a href="#阿里云配置MongoDB" class="headerlink" title="阿里云配置MongoDB"></a>阿里云配置MongoDB</h2><h4 id="参考文档-1"><a href="#参考文档-1" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
-<li><a href="https://www.cnblogs.com/pfnie/articles/6759105.html" target="_blank" rel="noopener">[Linux下MongoDB安装和配置详解](https://www.cnblogs.com/pfnie/articles/6759105.html)</a></li>
+<h2 id="阿里云配置MongoDB"><a href="#阿里云配置MongoDB" class="headerlink" title="阿里云配置MongoDB"></a>阿里云配置MongoDB</h2><h4 id="参考文档-1"><a href="#参考文档-1" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
+<li><a href="https://www.cnblogs.com/pfnie/articles/6759105.html" target="_blank" rel="noopener">Linux下MongoDB安装和配置详解</a></li>
 </ul>
 <h4 id="注意事项-1"><a href="#注意事项-1" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
 <li><p>先开启服务器Mongod，在使用Mongo操作数据库</p>
-<pre><code>#必须在mongod的目录下
-./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf
-#如果已经添加到了系统路径，可以直接
-mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</code></pre></li>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>必须在mongod的目录下</span><br><span class="line">./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br><span class="line"><span class="meta">#</span>如果已经添加到了系统路径，可以直接</span><br><span class="line">mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ul>
 <ul>
 <li><p>错误<code>./mongod: error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory</code> 解决办法：<code>apt-get install libcurl4-openssl-dev</code></p>
 </li>
 <li><p>将mongod路径添加到系统路径中，方便随处执行mongod命令</p>
-<pre><code>export PATH=$PATH:/usr/local/mongoDB/mongodbserver/bin
-source /etc/profil  使系统环境变量立即生效</code></pre></li>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$PATH:/usr/local/mongoDB/mongodbserver/bin</span><br><span class="line">source /etc/profil  使系统环境变量立即生效</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
 </ul>
 <h2 id="上传MongoDB数据到服务器"><a href="#上传MongoDB数据到服务器" class="headerlink" title="上传MongoDB数据到服务器"></a>上传MongoDB数据到服务器</h2><h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
 <li><a href="https://www.cnblogs.com/kevingrace/p/8184087.html" target="_blank" rel="noopener">MongoDB日常运维操作命令小结</a>  </li>
@@ -600,6 +655,12 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
     
     
     
+
+    
+      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/images/wechatmid.jpg" alt="陈末 wechat" style="width: 200px; max-width: 100%;">
+  <div>扫二维码关注我的微信公众号</div>
+</div>
 
     
 
@@ -717,7 +778,7 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -729,24 +790,26 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
                 <div class="site-state-item site-state-categories">
                   
                     
+                      <a href="/categories/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">分类</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
                 </div>
               
 
@@ -756,58 +819,60 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
                 <div class="site-state-item site-state-tags">
                   
                     
+                      <a href="/tags/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">24</span>
-                    <span class="site-state-item-name">标签</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">23</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
                 </div>
               
             </nav>
@@ -817,6 +882,21 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/TD21forever" title="GitHub &rarr; https://github.com/TD21forever" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+            </div>
           
 
           
@@ -843,7 +923,7 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#在阿里云部署Flask环境"><span class="nav-number">1.</span> <span class="nav-text">在阿里云部署Flask环境</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文档"><span class="nav-number">1.0.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意事项"><span class="nav-number">1.0.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#阿里云配置MongoDB"><span class="nav-number">2.</span> <span class="nav-text">阿里云配置MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文档-1"><span class="nav-number">2.0.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意事项-1"><span class="nav-number">2.0.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#上传MongoDB数据到服务器"><span class="nav-number">3.</span> <span class="nav-text">上传MongoDB数据到服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考资料"><span class="nav-number">3.0.1.</span> <span class="nav-text">参考资料</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#存在的问题"><span class="nav-number">4.</span> <span class="nav-text">存在的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关参考资料"><span class="nav-number">5.</span> <span class="nav-text">相关参考资料</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#扫描二维码查看网站"><span class="nav-number">5.1.</span> <span class="nav-text">扫描二维码查看网站</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#阿里云部署flask"><span class="nav-number">1.</span> <span class="nav-text">阿里云部署flask</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文档"><span class="nav-number">1.0.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意事项"><span class="nav-number">1.0.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#阿里云配置MongoDB"><span class="nav-number">2.</span> <span class="nav-text">阿里云配置MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文档-1"><span class="nav-number">2.0.1.</span> <span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意事项-1"><span class="nav-number">2.0.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#上传MongoDB数据到服务器"><span class="nav-number">3.</span> <span class="nav-text">上传MongoDB数据到服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#参考资料"><span class="nav-number">3.0.1.</span> <span class="nav-text">参考资料</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#存在的问题"><span class="nav-number">4.</span> <span class="nav-text">存在的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关参考资料"><span class="nav-number">5.</span> <span class="nav-text">相关参考资料</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#扫描二维码查看网站"><span class="nav-number">5.1.</span> <span class="nav-text">扫描二维码查看网站</span></a></li></ol></li></div>
             
 
           </div>
@@ -864,7 +944,7 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">  <a href="http://www.beian.miit.gov.cn" rel="noopener" target="_blank">浙ICP备18047530号 </a>&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -890,6 +970,32 @@ source /etc/profil  使系统环境变量立即生效</code></pre></li>
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 

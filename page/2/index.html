@@ -39,6 +39,50 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
 
 
 
@@ -391,6 +435,505 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="www.dcts.top/2019/04/12/dcgan-e5-ad-a6-e4-b9-a0-e7-ac-94-e8-ae-b0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/04/12/dcgan-e5-ad-a6-e4-b9-a0-e7-ac-94-e8-ae-b0/" class="post-title-link" itemprop="url">DCGAN学习笔记</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-12 11:04:48" itemprop="dateCreated datePublished" datetime="2019-04-12T11:04:48+08:00">2019-04-12</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-27 22:31:43" itemprop="dateModified" datetime="2019-06-27T22:31:43+08:00">2019-06-27</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="1-什么是GAN（Generative-Adversarial-Net）？"><a href="#1-什么是GAN（Generative-Adversarial-Net）？" class="headerlink" title="1. 什么是GAN（Generative Adversarial Net）？"></a>1. 什么是GAN（Generative Adversarial Net）？</h4><blockquote>
+<p>假设有一个警察和一个造假币者，造假者按照真实钱币的样子来<strong>造假</strong>，警察来分辨遇到的钱币是真还是假。最初的时候，造假者的造假能力不高，所以警察可以很容易的分辨出来。当被识别出来的时候，造假者就会继续<strong>修炼自己的技艺</strong>。与此同时，警察的分辨能力也要相应<strong>提高</strong>。这样的过程就是一种生成<strong>对抗</strong>的过程。对抗到最后，造假者已经能够创造出可以以假乱真的钱币，警察难以区分真假。所以猜对的<strong>概率变成0.5</strong></p>
+<p>来源：<a href="https://zhuanlan.zhihu.com/p/28853704" target="_blank" rel="noopener">知乎</a></p>
+</blockquote>
+<h5 id="1-1-生成模型-Generator"><a href="#1-1-生成模型-Generator" class="headerlink" title="1.1 生成模型(Generator)"></a>1.1 生成模型(Generator)</h5><p>​    生成模型G的输入是随机噪声Z。</p>
+<h5 id="1-2-判别模型-Discriminator"><a href="#1-2-判别模型-Discriminator" class="headerlink" title="1.2 判别模型(Discriminator)"></a>1.2 判别模型(Discriminator)</h5><p>​    判别模型D输入x，输出0-1范围内的一个实数，用来判断这个图片是真实图    片的概率有多大，相当于一个二分类器。</p>
+<h5 id="1-3-工作原理"><a href="#1-3-工作原理" class="headerlink" title="1.3 工作原理"></a>1.3 工作原理</h5><p>​    <img src="https://pic4.zhimg.com/v2-eb171ce8dbd1f461d51c0611a71fdb0f_b.jpg" alt="img"></p>
+<blockquote>
+<p><strong>X是真实数据</strong>，真实数据<strong>符合Pdata(x)分布</strong>。<strong>z是噪声数据</strong>，噪声数据<strong>符合Pz(z)分布</strong>，比如高斯分布或者均匀分布。然后从噪声z进行抽样，通过G之后生成数据x=G(z)。然后真实数据与生成数据一起送入分类器D，后面接一个<strong>sigmoid</strong>函数，输出判定类别。</p>
+</blockquote>
+<h5 id="1-4-GAN目标优化函数"><a href="#1-4-GAN目标优化函数" class="headerlink" title="1.4 GAN目标优化函数"></a>1.4 GAN目标优化函数</h5><p><img src="https://pic3.zhimg.com/v2-c93b874f77316d54f01aa653f8c24a86_b.jpg" alt="img"></p>
+<ol>
+<li><p>固定G训练D时：</p>
+<p><img src="https://pic3.zhimg.com/v2-474547ca59dd2737f0c4a8833f4ffcde_b.png" alt="img"></p>
+<p>D是判断模型，真实的数据希望被D分成1，生成的数据希望被D分成0。</p>
+<p>第一项表示真实数据，如果错认成了0，那么log(D(x))&lt;&lt;0,期望会变成负无穷大</p>
+<p>第二项表示生成数据，如果错认成了1，那么log(D(x))&lt;&lt;0,期望会变成负无穷大</p>
+<p>从而修正参数，使得V大起来，<strong>所以训练D的目的是希望这个式子的值越大越好</strong></p>
+</li>
+<li><p>固定D训练G时：</p>
+<p>G是生成模型，希望D判断G生成的数据为1</p>
+<p>目标函数第一项不包含G，是常数，直接忽略。</p>
+<p>第二项只有当D为1时，V是最小的，<strong>所以训练G的目的是希望这个式子的值越小越好</strong></p>
+</li>
+<li><p><img src="https://pic2.zhimg.com/v2-dfa0c29336f15c4e9f047d8d1dae50f1_b.jpg" alt="img"></p>
+<p>第二个式子和第一个式子等价。在训练的时候，第二个式子训练效果比较好 常用第二个式子的形式。</p>
+</li>
+</ol>
+<h5 id="1-5-描述"><a href="#1-5-描述" class="headerlink" title="1.5 描述"></a>1.5 描述</h5><p><img src="https://pic3.zhimg.com/v2-aab535a56ee0fabaa3d52998d1baf616_b.png" alt="img"></p>
+<blockquote>
+<p>第一个图是一开始的情况，黑色的线表示数据x的实际分布，绿色的线表示数据的生成分布，我们希望绿色的线能够趋近于黑色的线，也就是让生成的数据分布与实际分布相同。然后蓝色的线表示生成的数据x对应于D的分布。在a图中，<strong>D还刚开始训练，本身分类的能力还有限，因此有波动</strong>，但是初步区分实际数据和生成数据还是可以的。到b图，D训练得比较好了，可以很明显的区分出生成数据，大家可以看到，随着绿色的线与黑色的线的偏移，蓝色的线下降了，也就是生成数据的概率下降了。那么，由于绿色的线的目标是提升概率，因此就<strong>会往蓝色线高的方向移动</strong>，也就是c图。那么随着训练的持续，由于G网络的提升，G也反过来影响D的分布。</p>
+</blockquote>
+<h4 id="2-什么是DCGAN（Deep-Convolutional-GAN）？"><a href="#2-什么是DCGAN（Deep-Convolutional-GAN）？" class="headerlink" title="2. 什么是DCGAN（Deep Convolutional GAN）？"></a>2. 什么是DCGAN（Deep Convolutional GAN）？</h4><h5 id="2-1-DCGAN对GAN的改造"><a href="#2-1-DCGAN对GAN的改造" class="headerlink" title="2.1 DCGAN对GAN的改造"></a>2.1 DCGAN对GAN的改造</h5><ol>
+<li>去掉了G网络和D网络中的pooling layer</li>
+<li>在G网络和D网络中都使用Batch Normalization</li>
+<li>去掉全连接的隐藏层</li>
+<li>在G网络中除最后一层使用RELU，最后一层使用Tanh</li>
+<li>在D网络中每一层使用LeakyRELU。</li>
+</ol>
+<p><strong><em>ps:要这样做只是因为看起来效果好。就是纯粹工程调出来了一个不错的效果。</em></strong></p>
+<h5 id="2-2-一些约定俗成的规矩"><a href="#2-2-一些约定俗成的规矩" class="headerlink" title="2.2 一些约定俗成的规矩"></a>2.2 一些约定俗成的规矩</h5><ul>
+<li>在Discriminator和generator中大部分层都使用batch normalization，而在最后一层时通常不会使用batch normalizaiton，目的 是为了保证模型能够学习到数据的正确的均值和方差</li>
+<li>因为会从random的分布生成图像，所以一般做需要增大图像的空间维度时如7<em>7-&gt;14</em>14， 一般会使用strdie为2的deconv（transposed convolution）</li>
+<li>通常在DCGAN中会使用Adam优化算法而不是SGD。</li>
+</ul>
+<h4 id="3-用pytorch实现DCGAN"><a href="#3-用pytorch实现DCGAN" class="headerlink" title="3. 用pytorch实现DCGAN"></a>3. 用pytorch实现DCGAN</h4><p>计算尺寸大小的公式：<code>H_out=(H_in-1)*stride-2*padding+kernel_size</code></p>
+<h5 id="3-1-生成器定义"><a href="#3-1-生成器定义" class="headerlink" title="3.1 生成器定义"></a>3.1 生成器定义</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">NetG</span><span class="params">(nn.Module)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, ngf, nz)</span>:</span></span><br><span class="line">        super(NetG, self).__init__()</span><br><span class="line">        <span class="comment"># layer1输入的是一个100x1x1的随机噪声, 输出尺寸(ngf*8)x4x4</span></span><br><span class="line">        self.layer1 = nn.Sequential(</span><br><span class="line">            nn.ConvTranspose2d(nz, ngf * <span class="number">8</span>, kernel_size=<span class="number">4</span>, stride=<span class="number">1</span>, padding=<span class="number">0</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ngf * <span class="number">8</span>),</span><br><span class="line">            nn.ReLU(inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer2输出尺寸(ngf*4)x8x8</span></span><br><span class="line">        self.layer2 = nn.Sequential(</span><br><span class="line">            nn.ConvTranspose2d(ngf * <span class="number">8</span>, ngf * <span class="number">4</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ngf * <span class="number">4</span>),</span><br><span class="line">            nn.ReLU(inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer3输出尺寸(ngf*2)x16x16</span></span><br><span class="line">        self.layer3 = nn.Sequential(</span><br><span class="line">            nn.ConvTranspose2d(ngf * <span class="number">4</span>, ngf * <span class="number">2</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ngf * <span class="number">2</span>),</span><br><span class="line">            nn.ReLU(inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer4输出尺寸(ngf)x32x32</span></span><br><span class="line">        self.layer4 = nn.Sequential(</span><br><span class="line">            nn.ConvTranspose2d(ngf * <span class="number">2</span>, ngf, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ngf),</span><br><span class="line">            nn.ReLU(inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer5输出尺寸 3x96x96</span></span><br><span class="line">        self.layer5 = nn.Sequential(</span><br><span class="line">            nn.ConvTranspose2d(ngf, <span class="number">3</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.Tanh()</span><br><span class="line">        )</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 定义NetG的前向传播</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">forward</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        out = self.layer1(x)</span><br><span class="line">        out = self.layer2(out)</span><br><span class="line">        out = self.layer3(out)</span><br><span class="line">        out = self.layer4(out)</span><br><span class="line">        out = self.layer5(out)</span><br><span class="line">        <span class="comment"># print(out)</span></span><br><span class="line">        <span class="keyword">return</span> out</span><br></pre></td></tr></table></figure>
+
+<p>直接使用·<code>nn.Sequential</code> 将上卷积、激活、池化等操作拼接起来即可，这里需要注意上卷积 <code>ConvTransposed2d</code>的使用。当 kernel size 为 4、stride 为 2、padding 为 1 时，根据公式 <code>H_out=(H_in-1)*stride-2*padding+kernel_size</code>，输出尺寸刚好变成输入的两倍。最后一层采用 kernel size 为 5、stride 为 3、padding 为 1，是为了将 32×32 上采样到 96×96，这是本例中图片的尺寸，与论文中 64×64 的尺寸不一样。最后一层用 <code>Tanh</code>将输出图片的像素归一化至 -1<del>1，如果希望归一化至 0</del>1，则需使用 <code>Sigmoid</code>。</p>
+<h5 id="3-2-判别器的定义"><a href="#3-2-判别器的定义" class="headerlink" title="3.2 判别器的定义"></a>3.2 判别器的定义</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义鉴别器网络D</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">NetD</span><span class="params">(nn.Module)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, ndf)</span>:</span></span><br><span class="line">        super(NetD, self).__init__()</span><br><span class="line">        <span class="comment"># layer1 输入 3 x 96 x 96, 输出 (ndf) x 32 x 32</span></span><br><span class="line">        self.layer1 = nn.Sequential(</span><br><span class="line">            nn.Conv2d(<span class="number">3</span>, ndf, kernel_size=<span class="number">5</span>, stride=<span class="number">3</span>, padding=<span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ndf),</span><br><span class="line">            nn.LeakyReLU(<span class="number">0.2</span>, inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer2 输出 (ndf*2) x 16 x 16</span></span><br><span class="line">        self.layer2 = nn.Sequential(</span><br><span class="line">            nn.Conv2d(ndf, ndf * <span class="number">2</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ndf * <span class="number">2</span>),</span><br><span class="line">            nn.LeakyReLU(<span class="number">0.2</span>, inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer3 输出 (ndf*4) x 8 x 8</span></span><br><span class="line">        self.layer3 = nn.Sequential(</span><br><span class="line">            nn.Conv2d(ndf * <span class="number">2</span>, ndf * <span class="number">4</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ndf * <span class="number">4</span>),</span><br><span class="line">            nn.LeakyReLU(<span class="number">0.2</span>, inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer4 输出 (ndf*8) x 4 x 4</span></span><br><span class="line">        self.layer4 = nn.Sequential(</span><br><span class="line">            nn.Conv2d(ndf * <span class="number">4</span>, ndf * <span class="number">8</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.BatchNorm2d(ndf * <span class="number">8</span>),</span><br><span class="line">            nn.LeakyReLU(<span class="number">0.2</span>, inplace=<span class="literal">True</span>)</span><br><span class="line">        )</span><br><span class="line">        <span class="comment"># layer5 输出一个数(概率)</span></span><br><span class="line">        self.layer5 = nn.Sequential(</span><br><span class="line">            nn.Conv2d(ndf * <span class="number">8</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">1</span>, <span class="number">0</span>, bias=<span class="literal">False</span>),</span><br><span class="line">            nn.Sigmoid()</span><br><span class="line">        )</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 定义NetD的前向传播</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">forward</span><span class="params">(self,x)</span>:</span></span><br><span class="line">        out = self.layer1(x)</span><br><span class="line">        out = self.layer2(out)</span><br><span class="line">        out = self.layer3(out)</span><br><span class="line">        out = self.layer4(out)</span><br><span class="line">        out = self.layer5(out)</span><br><span class="line">        <span class="comment"># print(out)</span></span><br><span class="line">        <span class="keyword">return</span> out</span><br></pre></td></tr></table></figure>
+
+<p>可以看出判别器和生成器的网络结构几乎是对称的，从卷积核大小到 padding、stride 等设置，<strong>几乎一模一样</strong>。例如生成器的最后一个卷积层的尺度是（5，3，1），判别器的第一个卷积层的尺度也是（5，3，1）。另外，这里需要注意的是生成器的激活函数用的是 ReLU，而判别器使用的是 LeakyReLU，二者并无本质区别，这里的选择更多是<strong>经验总结</strong>。每一个样本经过判别器后，输出一个 0~1 的数，表示这个样本是真图片的概率。</p>
+<h5 id="3-3-训练模型"><a href="#3-3-训练模型" class="headerlink" title="3.3 训练模型"></a>3.3 训练模型</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> argparse</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">import</span> torchvision</span><br><span class="line"><span class="keyword">import</span> torchvision.utils <span class="keyword">as</span> vutils</span><br><span class="line"><span class="keyword">import</span> torch.nn <span class="keyword">as</span> nn</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</span><br><span class="line"><span class="keyword">from</span> model <span class="keyword">import</span> NetD, NetG</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__getitem__</span><span class="params">(self, item)</span>:</span></span><br><span class="line">        image, label = self.imgs[item]</span><br><span class="line">        image = Image.open(image)</span><br><span class="line">        img = transform(image)</span><br><span class="line">        print(image, img.shape)</span><br><span class="line">        <span class="keyword">return</span> img, label</span><br><span class="line"></span><br><span class="line">parser = argparse.ArgumentParser()</span><br><span class="line">parser.add_argument(<span class="string">'--batchSize'</span>, type=int, default=<span class="number">64</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--imageSize'</span>, type=int, default=<span class="number">96</span>,help=<span class="string">'size of image'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--nz'</span>, type=int, default=<span class="number">100</span>, help=<span class="string">'size of the latent z vector'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--ngf'</span>, type=int, default=<span class="number">64</span>,help=<span class="string">'num of G feature map'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--ndf'</span>, type=int, default=<span class="number">64</span>,help=<span class="string">'num of D feature map'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--epoch'</span>, type=int, default=<span class="number">400</span>, help=<span class="string">'number of epochs to train for'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--lr'</span>, type=float, default=<span class="number">0.0002</span>, help=<span class="string">'learning rate, default=0.0002'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--beta1'</span>, type=float, default=<span class="number">0.5</span>, help=<span class="string">'beta1 for adam. default=0.5'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--data_path'</span>, default=<span class="string">'data/'</span>, help=<span class="string">'folder to train data'</span>)</span><br><span class="line">parser.add_argument(<span class="string">'--outf'</span>, default=<span class="string">'imgs/'</span>, help=<span class="string">'folder to output images and model checkpoints'</span>)</span><br><span class="line">opt = parser.parse_args()</span><br><span class="line"><span class="comment"># 定义是否使用GPU</span></span><br><span class="line">device = torch.device(<span class="string">"cuda"</span> <span class="keyword">if</span> torch.cuda.is_available() <span class="keyword">else</span> <span class="string">"cpu"</span>)</span><br><span class="line">print(device)</span><br><span class="line"></span><br><span class="line"><span class="comment">#图像读入与预处理</span></span><br><span class="line">transforms = torchvision.transforms.Compose([</span><br><span class="line">    torchvision.transforms.Resize(opt.imageSize),</span><br><span class="line">    <span class="comment"># torchvision.transforms.ToPILImage(mode=None),</span></span><br><span class="line">    torchvision.transforms.ToTensor(),</span><br><span class="line">    torchvision.transforms.Normalize((<span class="number">0.5</span>, <span class="number">0.5</span>, <span class="number">0.5</span>), (<span class="number">0.5</span>, <span class="number">0.5</span>, <span class="number">0.5</span>)), ])</span><br><span class="line"></span><br><span class="line">dataset = torchvision.datasets.ImageFolder(opt.data_path, transform=transforms)</span><br><span class="line"></span><br><span class="line">dataloader = torch.utils.data.DataLoader(</span><br><span class="line">    dataset=dataset,</span><br><span class="line">    batch_size=opt.batchSize,</span><br><span class="line">    shuffle=<span class="literal">True</span>,</span><br><span class="line">    drop_last=<span class="literal">True</span>,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">netG = NetG(opt.ngf, opt.nz).to(device)</span><br><span class="line">netD = NetD(opt.ndf).to(device)</span><br><span class="line"><span class="comment">#是否要使用训练过的模型</span></span><br><span class="line"><span class="comment"># netD.load_state_dict(torch.load("D.pth"))</span></span><br><span class="line"><span class="comment"># netG.load_state_dict(torch.load("G.pth"))</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">criterion = nn.BCELoss()</span><br><span class="line">optimizerG = torch.optim.Adam(netG.parameters(), lr=opt.lr, betas=(opt.beta1, <span class="number">0.999</span>))</span><br><span class="line">optimizerD = torch.optim.Adam(netD.parameters(), lr=opt.lr, betas=(opt.beta1, <span class="number">0.999</span>))</span><br><span class="line"></span><br><span class="line">label = torch.FloatTensor(opt.batchSize)</span><br><span class="line">real_label = <span class="number">1</span></span><br><span class="line">fake_label = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> epoch <span class="keyword">in</span> range(<span class="number">1</span>, opt.epoch + <span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> i, (imgs,_) <span class="keyword">in</span> enumerate(dataloader):</span><br><span class="line">        <span class="comment"># 固定生成器G，训练鉴别器D</span></span><br><span class="line">        optimizerD.zero_grad()</span><br><span class="line">        <span class="comment">## 让D尽可能的把真图片判别为1</span></span><br><span class="line">        imgs=imgs.to(device)</span><br><span class="line">        output = netD(imgs)</span><br><span class="line">        label.data.fill_(real_label)</span><br><span class="line">        label=label.to(device)</span><br><span class="line">        errD_real = criterion(output, label)</span><br><span class="line">        errD_real.backward()</span><br><span class="line">        <span class="comment">## 让D尽可能把假图片判别为0</span></span><br><span class="line">        label.data.fill_(fake_label)</span><br><span class="line">        noise = torch.randn(opt.batchSize, opt.nz, <span class="number">1</span>, <span class="number">1</span>)</span><br><span class="line">        noise=noise.to(device)</span><br><span class="line">        fake = netG(noise)  <span class="comment"># 生成假图</span></span><br><span class="line">        output = netD(fake.detach()) <span class="comment">#避免梯度传到G，因为G不用更新</span></span><br><span class="line">        errD_fake = criterion(output, label)</span><br><span class="line">        errD_fake.backward()</span><br><span class="line">        errD = errD_fake + errD_real</span><br><span class="line">        optimizerD.step()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 固定鉴别器D，训练生成器G</span></span><br><span class="line">        optimizerG.zero_grad()</span><br><span class="line">        <span class="comment"># 让D尽可能把G生成的假图判别为1</span></span><br><span class="line">        label.data.fill_(real_label)</span><br><span class="line">        label = label.to(device)</span><br><span class="line">        output = netD(fake)</span><br><span class="line">        errG = criterion(output, label)</span><br><span class="line">        errG.backward()</span><br><span class="line">        optimizerG.step()</span><br><span class="line"></span><br><span class="line">        print(<span class="string">'[%d/%d][%d/%d] Loss_D: %.3f Loss_G %.3f'</span></span><br><span class="line">              % (epoch, opt.epoch, i, len(dataloader), errD.item(), errG.item()))</span><br><span class="line"></span><br><span class="line">    vutils.save_image(fake.data,</span><br><span class="line">                      <span class="string">'%s/fake_samples_epoch_%03d.png'</span> % (opt.outf, epoch),</span><br><span class="line">                      normalize=<span class="literal">True</span>)</span><br><span class="line">    torch.save(netG.state_dict(), <span class="string">'%s/netG_%03d.pth'</span> % (opt.outf, epoch))</span><br><span class="line">    torch.save(netD.state_dict(), <span class="string">'%s/netD_%03d.pth'</span> % (opt.outf, epoch))</span><br></pre></td></tr></table></figure>
+
+<p>（1）训练判别器。</p>
+<ul>
+<li>固定生成器</li>
+<li>对于真图片，判别器的输出概率值尽可能接近 1</li>
+<li>对于生成器生成的假图片，判别器尽可能输出 0</li>
+</ul>
+<p>（2）训练生成器。</p>
+<ul>
+<li>固定判别器</li>
+<li>生成器生成图片，尽可能让判别器输出 1</li>
+</ul>
+<p>（3）返回第一步，循环交替训练</p>
+<h5 id="3-4-实验结果分析"><a href="#3-4-实验结果分析" class="headerlink" title="3.4 实验结果分析"></a>3.4 实验结果分析</h5><p><img src="C:%5CUsers%5CTD21forever%5CDesktop%5CCoding%5Cpy%5C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%5Cdcgan%5Cimgs%5Cfake_samples_epoch_051.png" alt="fake_samples_epoch_051"></p>
+<pre><code>50 epoch</code></pre><p><img src="C:%5CUsers%5CTD21forever%5CDesktop%5CCoding%5Cpy%5C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%5Cdcgan%5Cimgs%5Cfake_samples_epoch_200.png" alt="fake_samples_epoch_200"></p>
+<p>​                                        200 epoch</p>
+<p><img src="C:%5CUsers%5CTD21forever%5CDesktop%5CCoding%5Cpy%5C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%5Cdcgan%5Cimgs%5Cfake_samples_epoch_400.png" alt="fake_samples_epoch_400"></p>
+<p>​                                            400 epoch</p>
+<h4 id="4-参考资料"><a href="#4-参考资料" class="headerlink" title="4. 参考资料"></a>4. 参考资料</h4><ul>
+<li><a href="https://mp.weixin.qq.com/s/vx0txFUf10QDBlldz0VJmg" target="_blank" rel="noopener">如何用基于PyTorch的生成对抗网络生成动漫头像？</a></li>
+<li>[Pytorch实战3：DCGAN深度卷积对抗生成网络生成动漫头像](</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="www.dcts.top/2019/04/05/vim-e5-b8-b8-e7-94-a8-e6-93-8d-e4-bd-9c-e6-95-b4-e7-90-86vimtutor/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/04/05/vim-e5-b8-b8-e7-94-a8-e6-93-8d-e4-bd-9c-e6-95-b4-e7-90-86vimtutor/" class="post-title-link" itemprop="url">Vim常用操作整理(Vimtutor)</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-05 11:59:54" itemprop="dateCreated datePublished" datetime="2019-04-05T11:59:54+08:00">2019-04-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-27 21:59:39" itemprop="dateModified" datetime="2019-06-27T21:59:39+08:00">2019-06-27</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
+<li><code>k</code> 上</li>
+<li><code>j</code> 下</li>
+<li><code>h</code> 左</li>
+<li><code>l</code> 右</li>
+<li><code>0</code> 回到首行</li>
+<li><code>CTRL+G</code> 显示当前阅读进度、光标行号</li>
+<li><code>gg</code> 回到文件第一行</li>
+<li><code>G</code> 跳转到文件最后一行</li>
+<li><code>CTRL+o</code> 返回旧的光标位置</li>
+<li><code>CTRL+i</code> 返回新的光标位置</li>
+</ul>
+<p>&lt; !–more–&gt;</p>
+<p>​    <em>operator [number] motion</em></p>
+<ul>
+<li><code>w</code> 到下一个单词前</li>
+<li><code>e</code> 到下一个单词结束</li>
+<li><code>$</code> 从光标到当前末尾</li>
+</ul>
+<h4 id="更改文本内容"><a href="#更改文本内容" class="headerlink" title="更改文本内容"></a>更改文本内容</h4><ul>
+<li><code>x</code> 删除当前字符</li>
+<li><code>d</code> 删除操作符<ul>
+<li><code>dd</code> 删除整行</li>
+<li><code>d$</code> 删除从光标到末尾</li>
+</ul>
+</li>
+<li><code>p</code> 另起一行放入删除的内容<ul>
+<li><code>y</code> 用于复制文本</li>
+</ul>
+</li>
+<li><code>r</code> 替换单个字符<ul>
+<li><code>R</code> 进入替换模式 一直可以替换</li>
+</ul>
+</li>
+<li><code>c</code> 更改操作符<ul>
+<li><code>c$</code> 更改从光标到行末尾</li>
+<li><code>ce</code> 更改光标到单词末尾</li>
+</ul>
+</li>
+<li><code>:s/old/new</code> 用新字符串替换旧字符串<ul>
+<li><code>:s/old/new/gc</code> g表示行内所有 c表示询问是否替换</li>
+<li><code>:%s/old/new/g</code> 全文替换</li>
+</ul>
+</li>
+</ul>
+<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><ul>
+<li><code>i</code> 光标前插入</li>
+<li><code>a</code> 光标自动后移一位</li>
+<li><code>A</code> 光标移到一行的末尾</li>
+<li><code>o</code> 光标移到新的一行</li>
+<li><code>O</code> 光标移到上面一行</li>
+</ul>
+<h4 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h4><ul>
+<li><code>/</code> 往下查找字符串</li>
+<li><code>？</code> 往上查找字符串</li>
+<li><code>n</code> 下一个匹配项</li>
+<li><code>N</code> 上一个匹配项</li>
+<li><code>set xxx</code> 如果要关闭 <code>set noxxx</code><ul>
+<li><code>ic</code> 查找时忽略大小写</li>
+<li><code>is</code> 查找短语时显示部分匹配</li>
+<li><code>hls</code> 高亮显示所有匹配</li>
+</ul>
+</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><code>u</code> 撤销</li>
+<li><code>U</code> 撤销一行</li>
+<li><code>CTRL+R</code> 重做</li>
+<li><code>%</code> 匹配括号</li>
+<li><code>:!command</code> 用于在vim中执行外部命令<ul>
+<li><code>:r FILENAME</code> 提取磁盘文件并插入到光标后面</li>
+<li><code>:r !dir</code> 读取dir命令放到光标后面</li>
+</ul>
+</li>
+<li><code>v</code> 选中某些内容<ul>
+<li><code>v :w FILENAME</code> 将选中的内容保存在FILENAME中</li>
+</ul>
+</li>
+<li><code>CTRL + w</code> 在窗口之间跳转</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="www.dcts.top/2019/02/22/e6-91-84-e5-bd-b1-e5-ad-a6-e4-b9-a0-e7-ac-94-e8-ae-b0-ef-bc-88-e4-ba-8c-ef-bc-89-pr-e5-bf-ab-e6-8d-b7-e9-94-ae/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -453,7 +996,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 22:13:08" itemprop="dateModified" datetime="2019-06-27T22:13:08+08:00">2019-06-27</time>
               
             
           </span>
@@ -514,18 +1057,20 @@
       
         
           
-            <h1 id="pr快捷键"><a href="#pr快捷键" class="headerlink" title="pr快捷键"></a>pr快捷键</h1><blockquote>
+            <blockquote>
 <p><a href="https://www.bilibili.com/video/av7301488" target="_blank" rel="noopener">视频来源B站影视飓风</a></p>
 </blockquote>
 <ol>
-<li><p>快速转场</p>
-<ol>
+<li>快速转场<ol>
 <li><code>Shift + D</code> 音频和视频的转场</li>
 <li><code>Ctrl + D</code> 单独添加视频转场</li>
 <li><code>Ctrl + Shift + D</code> 单独添加音频转场</li>
 <li>在效果面板中可以设置默认的转场类型</li>
 </ol>
 </li>
+</ol>
+<p>&lt; !–more–&gt;</p>
+<ol>
 <li><p>波纹剪辑</p>
 <ol>
 <li><code>Q 和 W</code></li>
@@ -574,15 +1119,10 @@
 <li>Ctrl + Alt + V 超级黏贴</li>
 </ol>
 </li>
-</ol>
-<hr>
-<ol>
-<li>序列封闭空隙</li>
-</ol>
-<hr>
-<h3 id="制作电影宽荧幕遮幅"><a href="#制作电影宽荧幕遮幅" class="headerlink" title="制作电影宽荧幕遮幅"></a>制作电影宽荧幕遮幅</h3><blockquote>
+<li><p>制作电影宽荧幕遮幅</p>
 <p>调整图层 效果 搜索裁剪 上11.8 下11.8 添加关键帧 动态效果</p>
-</blockquote>
+</li>
+</ol>
 
           
         
@@ -701,7 +1241,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 22:15:30" itemprop="dateModified" datetime="2019-06-27T22:15:30+08:00">2019-06-27</time>
               
             
           </span>
@@ -762,16 +1302,31 @@
       
         
           
-            <h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><pre><code>光圈是表示镜头中孔径大小的比值。
-光圈越大数值越小,光圈越小数值越大。
-光圈越大越明亮,光圈越小越暗。
-光圈越大虚化越强,光圈越小虚化越弱。</code></pre><h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><pre><code>比1/4秒慢的，就是很慢的快门速度了。
-比1/60秒慢的，就是慢门。
-比1/250秒快的，就是高速快门。
-比1/2000秒快的，就是很高的高速快门了。
-
-1. 快门慢 曝光时间长 亮（长曝光）
-2. 快门快 运动快的东西也会被凝固住</code></pre><h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><pre><code>ISO越高越亮 但是照片质量会下降</code></pre><p><img src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
+            <h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
+<li>光圈是表示镜头中孔径大小的比值。</li>
+<li>光圈越大数值越小,光圈越小数值越大。</li>
+<li>光圈越大越明亮,光圈越小越暗。</li>
+<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
+</ul>
+<p>&lt; !–more–&gt;</p>
+<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
+<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
+</li>
+<li><p>比1/60秒慢的，就是慢门。</p>
+</li>
+<li><p>比1/250秒快的，就是高速快门。</p>
+</li>
+<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
+</li>
+<li><p>快门慢 曝光时间长 亮（长曝光）</p>
+</li>
+<li><p>快门快 运动快的东西也会被凝固住</p>
+</li>
+</ul>
+<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
+<li>ISO越高越亮 但是照片质量会下降</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
 
           
         
@@ -890,7 +1445,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 21:58:00" itemprop="dateModified" datetime="2019-06-27T21:58:00+08:00">2019-06-27</time>
               
             
           </span>
@@ -944,15 +1499,14 @@
       
         
           
-            <p> 关于约数的数小知识</p>
-<h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1</p>
+            <h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1</p>
 <ol>
-<li>首先要知道<a href="https://baike.baidu.com/item/%E7%BA%A6%E6%95%B0%E4%B8%AA%E6%95%B0%E5%AE%9A%E7%90%86" target="_blank" rel="noopener"><strong>约数个数定理</strong></a></li>
-</ol>
+<li><p>首先要知道<a href="https://baike.baidu.com/item/%E7%BA%A6%E6%95%B0%E4%B8%AA%E6%95%B0%E5%AE%9A%E7%90%86" target="_blank" rel="noopener"><strong>约数个数定理</strong></a></p>
 <p>例题：正整数12共有多少个正约数</p>
+<p>&lt; !–more–&gt;</p>
 <p>解：将12分解质因数12=2^2×3^1</p>
 <p>由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4</p>
-<ol start="2">
+</li>
 <li><p>14 个约数，按照约数个数定理，可以分为1*14 或者 2*7</p>
 <ul>
 <li><p>如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以另一个数的13次方等于那个四位数，2的13次方已经大于2000，所以这种情况不可能</p>
@@ -1083,7 +1637,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+                <time title="修改时间：2019-06-27 21:58:39" itemprop="dateModified" datetime="2019-06-27T21:58:39+08:00">2019-06-27</time>
               
             
           </span>
@@ -1137,9 +1691,7 @@
       
         
           
-            <p>Python Tutorial</p>
-<ol>
-<li><h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
+            <h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
 <li>基础学习教程<ol>
 <li><a href="https://link.zhihu.com/?target=http%3A//www.runoob.com/python3/python3-tutorial.html" target="_blank" rel="noopener">Python3 教程 | 菜鸟教程</a></li>
 <li><a href="https://link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial3/" target="_blank" rel="noopener">Python tutorial 3.5.2 documentation</a></li>
@@ -1153,8 +1705,8 @@
 </ol>
 </li>
 </ol>
-</li>
-<li><h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
+<p>&lt; !–more–&gt;</p>
+<h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
 <ul>
 <li>String（字符串）</li>
 <li>Number（数字）</li>
@@ -1163,151 +1715,148 @@
 <li>Set（集合）</li>
 <li>Dictionary（字典）</li>
 </ul>
-<hr>
-</li>
-</ol>
 <h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
 <li><p>字符串的基本操作</p>
-<pre><code>name = &quot;自动化科协&quot;
-department = &quot;软件部&quot;
-print(name+department)#字符串做加法
-print(name*10)#字符串做乘法
-print(name[0])#取字符串的第一位
-print(name[-1])#取字符串的最后一位</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">"自动化科协"</span></span><br><span class="line">department = <span class="string">"软件部"</span></span><br><span class="line">print(name+department)<span class="comment">#字符串做加法</span></span><br><span class="line">print(name*<span class="number">10</span>)<span class="comment">#字符串做乘法</span></span><br><span class="line">print(name[<span class="number">0</span>])<span class="comment">#取字符串的第一位</span></span><br><span class="line">print(name[<span class="number">-1</span>])<span class="comment">#取字符串的最后一位</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="2">
 <li><p>格式化字符串</p>
-<pre><code>date_1 = &quot;%d年%d月%d日是%s的生日&quot; %(1964,9,10,&apos;马云&apos;)
-print(date_1)#%d代表数字，%s代表字符串
-date_2 = &quot;{}年{}月{}日是{}的生日&quot;.format(1964,9,10,&apos;马云&apos;)
-print(date_2)#这样就不用%了</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">date_1 = <span class="string">"%d年%d月%d日是%s的生日"</span> %(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_1)<span class="comment">#%d代表数字，%s代表字符串</span></span><br><span class="line">date_2 = <span class="string">"&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日"</span>.format(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_2)<span class="comment">#这样就不用%了</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="3">
 <li><p>切片（slice）</p>
-<pre><code>string = &apos;自动化科协软件部&apos;
-new_string = string[3:5]#3包括5不包括
-print(new_string)
-a = &apos;大家好这是我的联系电话110120119,大家有空请别联系我&apos;
-new_a = a[11:20]#11包括20不包括
-print(new_a)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="string">'自动化科协软件部'</span></span><br><span class="line">new_string = string[<span class="number">3</span>:<span class="number">5</span>]<span class="comment">#3包括5不包括</span></span><br><span class="line">print(new_string)</span><br><span class="line">a = <span class="string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span></span><br><span class="line">new_a = a[<span class="number">11</span>:<span class="number">20</span>]<span class="comment">#11包括20不包括</span></span><br><span class="line">print(new_a)</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
 </ol>
 <h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
 <p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
 </blockquote>
-<pre><code>a,b,c,d = 20, 5.5, True, 4+3j
-print(a,b,c,d)
-print(type(a),type(b),type(c)，type(d))#这里用到了type这个函数</code></pre><h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a,b,c,d = <span class="number">20</span>, <span class="number">5.5</span>, <span class="literal">True</span>, <span class="number">4</span>+<span class="number">3j</span></span><br><span class="line"><span class="keyword">print</span> (a,b,c,d)</span><br><span class="line"><span class="keyword">print</span> (type(a),type(b),type(c)，type(d))<span class="comment">#这里用到了type这个函数</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
 <li><p>列表的建立</p>
-<pre><code>list_1 = [1111,&apos;2222&apos;,3.333,True,[&apos;This is a list&apos;],None] #列表的建立用[]</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>] <span class="comment">#列表的建立用[]</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="2">
 <li><p>列表的遍历（迭代）</p>
-<pre><code>for one in list_1:#用这种方式遍历
-    print(one)
-​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for one in list_1:</span><br><span class="line">	print(type(one))</span><br><span class="line">​</span><br></pre></td></tr></table></figure></code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:<span class="comment">#用这种方式遍历</span></span><br><span class="line">	print(one)</span><br><span class="line">```</span><br><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:</span><br><span class="line">	print(type(one))</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
 </ol>
 <ol start="3">
 <li><p>列表的一些操作</p>
-<pre><code>list_1.reverse()
-print(list_1)
-list_1.append(&apos;我添加了一个元素&apos;)
-print(list_1)
-list_1.remove(None)
-print(list_1)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list_1.reverse()</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.append(<span class="string">'我添加了一个元素'</span>)</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.remove(<span class="literal">None</span>)</span><br><span class="line">print(list_1)</span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
 </ol>
 <h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
 <li><p>元组的建立</p>
-<pre><code>tuple_1 = (1111,&apos;2222&apos;,3.333,True,[&apos;This is a list&apos;],None,(1,2,3))#元组的建立用()</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tuple_1 = (<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))<span class="comment">#元组的建立用()</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="2">
 <li><p>元组和列表不同之处</p>
-<pre><code>List = [1,2]
-Tuple = (3,4)
-List[0] = 5
-print(List)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">Tuple = (<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line">List[<span class="number">0</span>] = <span class="number">5</span></span><br><span class="line">print(List)</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
 </ol>
 <h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
 <li><p>集合的建立</p>
-<pre><code>set_1 = {1,2,3,4,4,4,5,5,2,1}
-print(set_1)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set_1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">1</span>&#125;</span><br><span class="line">print(set_1)</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
 </ol>
 <h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
 <li><p>字典的建立</p>
-<pre><code>slogan= {
-    &apos;Adidas&apos;:&apos;没有不可能（impossible is nothing)&apos;,
-    &apos;Nike&apos; :&apos;Just do it&apos;,
-    &apos;Lining&apos;:&apos;一切皆有可能&apos;,
-    &apos;4399&apos;    :&apos;一切皆有可能&apos;,
-    # &apos;4399&apos;    :&quot;4399v587&quot;
-}
-print(slogan[&apos;Lining&apos;])
-print(slogan[&apos;4399&apos;])</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">slogan= &#123;</span><br><span class="line">	<span class="string">'Adidas'</span>:<span class="string">'没有不可能（impossible is nothing)'</span>,</span><br><span class="line">	<span class="string">'Nike'</span> :<span class="string">'Just do it'</span>,</span><br><span class="line">	<span class="string">'Lining'</span>:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="string">'4399'</span>	:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="comment"># '4399'	:"4399v587"</span></span><br><span class="line">&#125;</span><br><span class="line">print(slogan[<span class="string">'Lining'</span>])</span><br><span class="line">print(slogan[<span class="string">'4399'</span>])</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
 </ol>
 <hr>
-<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><pre><code>def find_boyfriend(face,height,money):
-    if face &gt; 85:
-        print(&quot;oh he is my boyfriend&quot;)
-        return
-    elif height &gt; 185:
-        print(&quot;oh he is my boyfriend&quot;)
-        return
-    elif money &gt; 100000000000000:
-        print(&quot;OH God! He must be the one!!!!&quot;)
-        return
-    else:
-        print(&quot;Who are you?&quot;)
+<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_boyfriend</span><span class="params">(face,height,money)</span>:</span></span><br><span class="line">	<span class="keyword">if</span> face &gt; <span class="number">85</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> height &gt; <span class="number">185</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> money &gt; <span class="number">100000000000000</span>:</span><br><span class="line">		print(<span class="string">"OH God! He must be the one!!!!"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		print(<span class="string">"Who are you?"</span>)</span><br><span class="line"></span><br><span class="line">find_boyfriend(<span class="number">12</span>,<span class="number">170</span>,<span class="number">11</span>)</span><br></pre></td></tr></table></figure>
 
-find_boyfriend(12,170,11)</code></pre><hr>
 <h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
 <li><p>语义化</p>
-<pre><code>List = [1,2,3,4,5]
-print(1 in List)
-wo = &quot;帅&quot;
-if wo is not &quot;丑&quot;:
-    print(&quot;我很帅&quot;)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">print(<span class="number">1</span> <span class="keyword">in</span> List)</span><br><span class="line">wo = <span class="string">"帅"</span></span><br><span class="line"><span class="keyword">if</span> wo <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">"丑"</span>:</span><br><span class="line">	print(<span class="string">"我很帅"</span>)</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="2">
 <li><p>列表解析</p>
-<pre><code>b = [i for i in List]
-print(b)
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">b = [i <span class="keyword">for</span> i <span class="keyword">in</span> List]</span><br><span class="line">print(b)</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">b = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
 
-​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">b = []</span><br><span class="line">for i in List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">​</span><br></pre></td></tr></table></figure></code></pre></li>
+
+</li>
 </ol>
 <ol start="3">
 <li><p>值交换</p>
-<pre><code>a,b = 5,10
-temp = b
-b = a
-a= temp
-print(a,b)
-a,b = b,a
-print(a,b)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">temp = b</span><br><span class="line">b = a</span><br><span class="line">a= temp</span><br><span class="line">print(a,b)</span><br><span class="line">a,b = b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="4">
 <li><p>join函数</p>
-<pre><code>a=[&quot;这是一堂&quot;,&apos;严肃的&apos;,&quot;python课程&quot;]
-print(&quot;哈哈哈哈啊哈哈&quot;.join(a))</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">"这是一堂"</span>,<span class="string">'严肃的'</span>,<span class="string">"python课程"</span>]</span><br><span class="line">print(<span class="string">"哈哈哈哈啊哈哈"</span>.join(a))</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="5">
 <li><p>列表或者字符串逆序</p>
-<pre><code>b = &apos;123456789&apos;
-print(b[2::3])
-print(b[::-1])#从头到尾 如果第三个参数是负数 默认从尾部开始算</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="string">'123456789'</span></span><br><span class="line">print(b[<span class="number">2</span>::<span class="number">3</span>])</span><br><span class="line">print(b[::<span class="number">-1</span>])<span class="comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="6">
 <li><p>比大小</p>
-<pre><code>b = 10
-3 &lt; b and b &lt; 12 
-print(3&lt;10&lt;12)
-print(4&lt;10&lt;9)</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="number">10</span></span><br><span class="line"><span class="number">3</span> &lt; b <span class="keyword">and</span> b &lt; <span class="number">12</span> </span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">10</span>&lt;<span class="number">12</span>)</span><br><span class="line">print(<span class="number">4</span>&lt;<span class="number">10</span>&lt;<span class="number">9</span>)</span><br></pre></td></tr></table></figure>
+
+
+</li>
 </ol>
 <ol start="7">
 <li><p>列表和集合互用，消除重复元素</p>
-<pre><code>list_1 = [1,1,1,2,2,2,3,3,3,3,4,4]
-print(list(set(list_1)))</code></pre></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>]</span><br><span class="line">print(list(set(list_1)))</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
 </ol>
-<hr>
-<h2 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h2><ol>
+<h3 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h3><ol>
 <li>大一少打游戏 晚自习多看点课外书</li>
 <li>英语很重要 四六级大一总得过了吧</li>
 <li>如果有机会之后会讲什么<ol>
@@ -1376,519 +1925,11 @@ print(list(set(list_1)))</code></pre></li>
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="www.dcts.top/2018/10/30/cnnalexnet-e6-a8-a1-e5-9e-8b-e7-ae-80-e5-8d-95-e6-80-bb-e7-bb-93/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="陈末">
-      <meta itemprop="description" content="在别人看不见的地方">
-      <meta itemprop="image" content="/images/touxiang.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="C1oser">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/10/30/cnnalexnet-e6-a8-a1-e5-9e-8b-e7-ae-80-e5-8d-95-e6-80-bb-e7-bb-93/" class="post-title-link" itemprop="url">CNN&Alexnet模型简单总结</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-10-30 22:21:27" itemprop="dateCreated datePublished" datetime="2018-10-30T22:21:27+08:00">2018-10-30</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
-<li><p>什么是全连接层</p>
-<ul>
-<li>我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 <strong>全连接(Fully-connected layer)</strong></li>
-<li>全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了</li>
-<li>全连接的目的是什么呢？因为传统的网络我们的输出都是分类，也就是几个类别的概率甚至就是一个数–类别号，那么全连接层就是高度提纯的特征了，方便交给最后的分类器或者回归</li>
-<li><img src="C:%5CUsers%5CTD21forever%5CDesktop%5CDocument%5C%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%5C%E5%A4%A7%E4%BA%8C%E4%B8%8A%5C%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5%5C%E5%85%A8%E8%BF%9E%E6%8E%A5.png" alt><a href="https://blog.csdn.net/u011021773/article/details/78121359" target="_blank" rel="noopener">解释一下全连接层</a></li>
-</ul>
-</li>
-<li><p>一些英文</p>
-<ol>
-<li><strong>Stride</strong>-&gt;步长</li>
-<li><strong>Filter</strong>-&gt;卷积核</li>
-<li><strong>Padding</strong>-&gt;填充</li>
-<li><strong>Kernel size</strong>-&gt;卷积核的大小</li>
-<li><strong>Normalization layer</strong>-&gt;归一层</li>
-<li><strong>Convolutional layer</strong>-&gt;卷积层</li>
-<li><strong>Fully-Connected layer</strong>-&gt;全连接层</li>
-</ol>
-</li>
-<li><p>一些解释</p>
-<ol>
-<li><p>为什么要用卷积运算</p>
-<blockquote>
-<p>卷积运算的目的是提取输入的不同特征，第一层卷积层可能只能提取一些低级的特征如边缘、线条和角等层级，更多层的网络能从低级特征中迭代提取更复杂的特征。</p>
-</blockquote>
-</li>
-<li><p>为什么要用激活函数</p>
-</li>
-<li><p>为什么要有池化层</p>
-<blockquote>
-<p>通常在卷积层之后会得到维度很大的特征，将特征切成几个区域，取其最大值或平均值，得到新的、维度较小的特征。</p>
-</blockquote>
-</li>
-<li><p>为什么要用全连接层</p>
-<blockquote>
-<p>把所有局部特征结合变成全局特征，用来计算最后每一类的得分。</p>
-</blockquote>
-</li>
-<li><p>数据预处理</p>
-<ol>
-<li><a href="https://blog.csdn.net/elaine_bao/article/details/50889856" target="_blank" rel="noopener">资料1</a></li>
-</ol>
-</li>
-<li><p>训练速率</p>
-<blockquote>
-<p>如果设置的学习速率太小，你的模型可能需要几年才能收敛;如果学习速率太大，在开始训练几个样本之后，你的损失值(loss)可能会迅速增加。一般来说，0.01 的学习速率是安全的</p>
-</blockquote>
-</li>
-</ol>
-</li>
-<li><p>搭建一个神经网络一般的步骤<a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/搭建一个神经网络图解.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9B%BE%E8%A7%A3.jpg" alt></a></p>
-</li>
-<li><p>典型神经网络训练过程</p>
-<ul>
-<li>定义一个有着可学习的参数（或者权重）的神经网络</li>
-<li>对着一个输入的数据集进行迭代:<code>for step, (inputs,labels) in enumerate(train_loader)</code></li>
-<li>用神经网络对输入进行处理 <code>output = cnn(inputs)</code></li>
-<li>计算<strong>Loss</strong> (对输出值的修正到底有多少)<code>loss_func = nn.CrossEntropyLoss()</code></li>
-<li>梯度归零<code>optimizer.zero_grad()</code></li>
-<li>将梯度传播回神经网络的参数中 <code>loss.backward()</code></li>
-<li>更新网络中的权重 <code>optimizer.step()</code>通常使用简单的更新规则(SGD): <code>weight = weight + learning_rate * gradient</code></li>
-</ul>
-</li>
-<li><p>如何计算卷积后图片大小(尺寸)</p>
-<ol>
-<li><a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/计算卷积后图片大小.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E8%AE%A1%E7%AE%97%E5%8D%B7%E7%A7%AF%E5%90%8E%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.jpg" alt></a></li>
-<li>图片的尺寸= (原来的尺寸-卷积核的尺寸+填充*2)/步长+1</li>
-<li>深度 = 卷积核的数量</li>
-</ol>
-</li>
-<li><p>计算池化后图片的大小(尺寸)</p>
-<ol>
-<li><a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/池化后图片的大小-1.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/%E6%B1%A0%E5%8C%96%E5%90%8E%E5%9B%BE%E7%89%87%E7%9A%84%E5%A4%A7%E5%B0%8F-1.jpg" alt></a></li>
-<li>图片的尺寸 = （原来的尺寸-卷积核的尺寸）/步长+1</li>
-<li>深度不变</li>
-<li>为什么要把特征图摊平？</li>
-</ol>
-</li>
-</ol>
-<hr>
-<h3 id="Alexnet"><a href="#Alexnet" class="headerlink" title="Alexnet"></a>Alexnet</h3><ol>
-<li><p>图解<a href="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/Alexnet-1.jpg" target="_blank" rel="noopener"><img src="http://www.dcts.xyz/wordpress/wp-content/uploads/2018/10/Alexnet-1.jpg" alt></a></p>
-</li>
-<li><p>各种图片尺寸的解读</p>
-<ol>
-<li><code>CONV1</code>55 = (227-11+2*0)/4+1 = 55</li>
-<li><code>MAXPOOL1</code> 27 = (55-3)/2+1 = 27</li>
-<li><code>CONV2</code> 27 = (27-5+2*2)/1 +1= 27</li>
-<li><code>MAXPOOL2</code> 13 = (27-3)/2+1 = 13</li>
-<li><code>MAXPOOL3</code> 6 = (13-3)/2 +1 = 6</li>
-</ol>
-</li>
-<li><p>Alexnet为啥取得比较好的效果</p>
-<ol>
-<li><p>使用了<strong>Relu</strong>激活函数</p>
-</li>
-<li><p>Dropout</p>
-<blockquote>
-<p>Dropout也是经常说的一个概念，能够比较有效地防止神经网络的过拟合。 相对于一般如线性模型使用正则的方法来防止模型过拟合，而在神经网络中Dropout通过修改神经网络本身结构来实现。对于某一层神经元，通过定义的概率来<strong>随机删除一些神经元</strong>，同时保持输入层与输出层神经元的个人不变，然后按照神经网络的学习方法进行参数更新，下一次迭代中，重新随机删除一些神经元，直至训练结束。</p>
-</blockquote>
-</li>
-</ol>
-</li>
-</ol>
-<hr>
-<h3 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h3><ol>
-<li>为什么要用torch.nn.Sequential<ol>
-<li><code>torch.nn.Sequential</code>是一个<code>Sequential</code>容器，模块将按照构造函数中传递的顺序添加到模块中</li>
-<li><a href="https://ptorch.com/news/57.html" target="_blank" rel="noopener">点击这里查看更多</a></li>
-</ol>
-</li>
-<li>一些函数的参数介绍<ol>
-<li>nn.Conv2d(                     # input shape (1, 28, 28)    <pre><code>in_channels=1,              # input height
-out_channels=16,            # n_filters
-kernel_size=5,              # filter size
-stride=1,                   # filter movement/step
-padding=2 ),         # if want same width and length of this image after con2d,                             padding=(kernel_size-1)/2 if stride=1
-                     # output shape (16, 28, 28)</code></pre></li>
-</ol>
-</li>
-</ol>
-<pre><code>2.  [torch.max()](https://blog.csdn.net/Z_lbj/article/details/79766690)</code></pre><hr>
-<h3 id="待解决问题"><a href="#待解决问题" class="headerlink" title="待解决问题"></a>待解决问题</h3><ol>
-<li>如何使用已经保存了的神经网络</li>
-<li><code>res = conv5_out.view(conv5_out.size(0), -1) out = self.dense(res)</code> 这两行代码的意思</li>
-<li>为什么要用激活函数？</li>
-</ol>
-<hr>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
-<li><a href="https://blog.csdn.net/qq_33414271/article/details/79337141" target="_blank" rel="noopener">卷积神经网络（CNN）的理解和实现</a></li>
-<li><a href="https://community.bigquant.com/t/%E4%B8%80%E6%97%A5%E6%90%9E%E6%87%82%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/126015" target="_blank" rel="noopener">一日搞懂卷积神经网络</a></li>
-<li><a href="https://blog.csdn.net/jacke121/article/details/80595928" target="_blank" rel="noopener">Pytorch view()、squeeze()、unsqueeze()、torch.max()</a></li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="www.dcts.top/2018/10/12/wordpress-e4-bd-bf-e7-94-a8-e5-bf-83-e5-be-97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="陈末">
-      <meta itemprop="description" content="在别人看不见的地方">
-      <meta itemprop="image" content="/images/touxiang.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="C1oser">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2018/10/12/wordpress-e4-bd-bf-e7-94-a8-e5-bf-83-e5-be-97/" class="post-title-link" itemprop="url">wordpress使用心得</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-10-12 00:58:18" itemprop="dateCreated datePublished" datetime="2018-10-12T00:58:18+08:00">2018-10-12</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><hr>
-<ul>
-<li><p>Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
-</li>
-<li><p>希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group" target="_blank" rel="noopener">这里可以解决</a></p>
-</li>
-<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
-<pre><code>RewriteEngine On
-RewriteCond %{HTTP_HOST} ^laozuo.org [NC]
-RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
-</ul>
-<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><hr>
-<ol>
-<li><a href="https://www.seoimo.com/wordpress-vps/" target="_blank" rel="noopener">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
-<li><a href="https://www.jianshu.com/p/d7b208efe04c" target="_blank" rel="noopener">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
-<li><a href="https://www.banwagong.com/625.html" target="_blank" rel="noopener">搬瓦工VPS安装WordPress详细图文教程</a></li>
-</ol>
-<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><hr>
-<ol>
-<li>vps配置优化</li>
-<li><a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts" target="_blank" rel="noopener">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup" target="_blank" rel="noopener">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https" target="_blank" rel="noopener">HTTP全部301重定向到HTTPS</a></li>
-</ol>
-<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><hr>
-<ol>
-<li>购买服务器和域名</li>
-<li>域名解析(域名绑定服务器ip)</li>
-<li>vps中搭建LAMP环境</li>
-<li>添加域名<code>lnmp vhost add</code></li>
-<li>安装wordpress</li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -1932,7 +1973,7 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1944,24 +1985,26 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
                 <div class="site-state-item site-state-categories">
                   
                     
+                      <a href="/categories/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">分类</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
                 </div>
               
 
@@ -1971,58 +2014,60 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
                 <div class="site-state-item site-state-tags">
                   
                     
+                      <a href="/tags/">
                     
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">24</span>
-                    <span class="site-state-item-name">标签</span>
                   
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">23</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
                 </div>
               
             </nav>
@@ -2032,6 +2077,21 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/TD21forever" title="GitHub &rarr; https://github.com/TD21forever" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+            </div>
           
 
           
@@ -2062,7 +2122,7 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">  <a href="http://www.beian.miit.gov.cn" rel="noopener" target="_blank">浙ICP备18047530号 </a>&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -2088,6 +2148,32 @@ RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre></li>
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
