@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.1.2',
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="Python Tutorial  资料 基础学习教程 Python3 教程 | 菜鸟教程 Python tutorial 3.5.2 documentation 《Think Python》 如果你不喜欢看文档,莫烦Python视频教程   练练手 github上的一些项目 别人的一些项目     标准数据类型Python3 中有六个标准的数据类型：  String（字符串） Number（数字）">
+<meta name="keywords" content="Python,Tutorial">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python Tutorial">
+<meta property="og:url" content="www.dcts.top/2018/11/05/python-tutorial/index.html">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="Python Tutorial  资料 基础学习教程 Python3 教程 | 菜鸟教程 Python tutorial 3.5.2 documentation 《Think Python》 如果你不喜欢看文档,莫烦Python视频教程   练练手 github上的一些项目 别人的一些项目     标准数据类型Python3 中有六个标准的数据类型：  String（字符串） Number（数字）">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-27T09:48:45.780Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python Tutorial">
+<meta name="twitter:description" content="Python Tutorial  资料 基础学习教程 Python3 教程 | 菜鸟教程 Python tutorial 3.5.2 documentation 《Think Python》 如果你不喜欢看文档,莫烦Python视频教程   练练手 github上的一些项目 别人的一些项目     标准数据类型Python3 中有六个标准的数据类型：  String（字符串） Number（数字）">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="www.dcts.top/2018/11/05/python-tutorial/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Python Tutorial | C1oser</title>
+  
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">C1oser</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-schedule">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sitemap">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>站点地图</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-commonweal">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/404/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="www.dcts.top/2018/11/05/python-tutorial/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Python Tutorial
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-11-05 18:40:03" itemprop="dateCreated datePublished" datetime="2018-11-05T18:40:03+08:00">2018-11-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-27 17:48:45" itemprop="dateModified" datetime="2019-06-27T17:48:45+08:00">2019-06-27</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Python Tutorial</p>
+<ol>
+<li><h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
+<li>基础学习教程<ol>
+<li><a href="https://link.zhihu.com/?target=http%3A//www.runoob.com/python3/python3-tutorial.html" target="_blank" rel="noopener">Python3 教程 | 菜鸟教程</a></li>
+<li><a href="https://link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial3/" target="_blank" rel="noopener">Python tutorial 3.5.2 documentation</a></li>
+<li><a href="http://codingpy.com/books/thinkpython2/" target="_blank" rel="noopener">《Think Python》</a></li>
+<li>如果你不喜欢看文档,<a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦Python</a>视频教程</li>
+</ol>
+</li>
+<li>练练手<ol>
+<li>github上的一些项目</li>
+<li><a href="https://github.com/TD21forever/Mini-Python-Project" target="_blank" rel="noopener">别人的一些项目</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
+<ul>
+<li>String（字符串）</li>
+<li>Number（数字）</li>
+<li>List（列表）</li>
+<li>Tuple（元组）</li>
+<li>Set（集合）</li>
+<li>Dictionary（字典）</li>
+</ul>
+<hr>
+</li>
+</ol>
+<h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
+<li><p>字符串的基本操作</p>
+<pre><code>name = &quot;自动化科协&quot;
+department = &quot;软件部&quot;
+print(name+department)#字符串做加法
+print(name*10)#字符串做乘法
+print(name[0])#取字符串的第一位
+print(name[-1])#取字符串的最后一位</code></pre></li>
+</ol>
+<ol start="2">
+<li><p>格式化字符串</p>
+<pre><code>date_1 = &quot;%d年%d月%d日是%s的生日&quot; %(1964,9,10,&apos;马云&apos;)
+print(date_1)#%d代表数字，%s代表字符串
+date_2 = &quot;{}年{}月{}日是{}的生日&quot;.format(1964,9,10,&apos;马云&apos;)
+print(date_2)#这样就不用%了</code></pre></li>
+</ol>
+<ol start="3">
+<li><p>切片（slice）</p>
+<pre><code>string = &apos;自动化科协软件部&apos;
+new_string = string[3:5]#3包括5不包括
+print(new_string)
+a = &apos;大家好这是我的联系电话110120119,大家有空请别联系我&apos;
+new_a = a[11:20]#11包括20不包括
+print(new_a)</code></pre></li>
+</ol>
+<h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
+<p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
+</blockquote>
+<pre><code>a,b,c,d = 20, 5.5, True, 4+3j
+print(a,b,c,d)
+print(type(a),type(b),type(c)，type(d))#这里用到了type这个函数</code></pre><h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
+<li><p>列表的建立</p>
+<pre><code>list_1 = [1111,&apos;2222&apos;,3.333,True,[&apos;This is a list&apos;],None] #列表的建立用[]</code></pre></li>
+</ol>
+<ol start="2">
+<li><p>列表的遍历（迭代）</p>
+<pre><code>for one in list_1:#用这种方式遍历
+    print(one)
+​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for one in list_1:</span><br><span class="line">	print(type(one))</span><br><span class="line">​</span><br></pre></td></tr></table></figure></code></pre></li>
+</ol>
+<ol start="3">
+<li><p>列表的一些操作</p>
+<pre><code>list_1.reverse()
+print(list_1)
+list_1.append(&apos;我添加了一个元素&apos;)
+print(list_1)
+list_1.remove(None)
+print(list_1)</code></pre></li>
+</ol>
+<h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
+<li><p>元组的建立</p>
+<pre><code>tuple_1 = (1111,&apos;2222&apos;,3.333,True,[&apos;This is a list&apos;],None,(1,2,3))#元组的建立用()</code></pre></li>
+</ol>
+<ol start="2">
+<li><p>元组和列表不同之处</p>
+<pre><code>List = [1,2]
+Tuple = (3,4)
+List[0] = 5
+print(List)</code></pre></li>
+</ol>
+<h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
+<li><p>集合的建立</p>
+<pre><code>set_1 = {1,2,3,4,4,4,5,5,2,1}
+print(set_1)</code></pre></li>
+</ol>
+<h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
+<li><p>字典的建立</p>
+<pre><code>slogan= {
+    &apos;Adidas&apos;:&apos;没有不可能（impossible is nothing)&apos;,
+    &apos;Nike&apos; :&apos;Just do it&apos;,
+    &apos;Lining&apos;:&apos;一切皆有可能&apos;,
+    &apos;4399&apos;    :&apos;一切皆有可能&apos;,
+    # &apos;4399&apos;    :&quot;4399v587&quot;
+}
+print(slogan[&apos;Lining&apos;])
+print(slogan[&apos;4399&apos;])</code></pre></li>
+</ol>
+<hr>
+<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><pre><code>def find_boyfriend(face,height,money):
+    if face &gt; 85:
+        print(&quot;oh he is my boyfriend&quot;)
+        return
+    elif height &gt; 185:
+        print(&quot;oh he is my boyfriend&quot;)
+        return
+    elif money &gt; 100000000000000:
+        print(&quot;OH God! He must be the one!!!!&quot;)
+        return
+    else:
+        print(&quot;Who are you?&quot;)
+
+find_boyfriend(12,170,11)</code></pre><hr>
+<h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
+<li><p>语义化</p>
+<pre><code>List = [1,2,3,4,5]
+print(1 in List)
+wo = &quot;帅&quot;
+if wo is not &quot;丑&quot;:
+    print(&quot;我很帅&quot;)</code></pre></li>
+</ol>
+<ol start="2">
+<li><p>列表解析</p>
+<pre><code>b = [i for i in List]
+print(b)
+
+​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">b = []</span><br><span class="line">for i in List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">​</span><br></pre></td></tr></table></figure></code></pre></li>
+</ol>
+<ol start="3">
+<li><p>值交换</p>
+<pre><code>a,b = 5,10
+temp = b
+b = a
+a= temp
+print(a,b)
+a,b = b,a
+print(a,b)</code></pre></li>
+</ol>
+<ol start="4">
+<li><p>join函数</p>
+<pre><code>a=[&quot;这是一堂&quot;,&apos;严肃的&apos;,&quot;python课程&quot;]
+print(&quot;哈哈哈哈啊哈哈&quot;.join(a))</code></pre></li>
+</ol>
+<ol start="5">
+<li><p>列表或者字符串逆序</p>
+<pre><code>b = &apos;123456789&apos;
+print(b[2::3])
+print(b[::-1])#从头到尾 如果第三个参数是负数 默认从尾部开始算</code></pre></li>
+</ol>
+<ol start="6">
+<li><p>比大小</p>
+<pre><code>b = 10
+3 &lt; b and b &lt; 12 
+print(3&lt;10&lt;12)
+print(4&lt;10&lt;9)</code></pre></li>
+</ol>
+<ol start="7">
+<li><p>列表和集合互用，消除重复元素</p>
+<pre><code>list_1 = [1,1,1,2,2,2,3,3,3,3,4,4]
+print(list(set(list_1)))</code></pre></li>
+</ol>
+<hr>
+<h2 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h2><ol>
+<li>大一少打游戏 晚自习多看点课外书</li>
+<li>英语很重要 四六级大一总得过了吧</li>
+<li>如果有机会之后会讲什么<ol>
+<li>Markdown<ol>
+<li>Typora…</li>
+<li><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="noopener">作业部落</a></li>
+<li><a href="https://ouweiya.gitbooks.io/markdown/" target="_blank" rel="noopener">常用语法笔记</a></li>
+</ol>
+</li>
+<li>Git<ol>
+<li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000" target="_blank" rel="noopener">廖雪峰</a></li>
+<li><a href="https://morvanzhou.github.io/tutorials/others/git/5-1-github/" target="_blank" rel="noopener">莫烦</a></li>
+</ol>
+</li>
+<li>Linux</li>
+<li>正则表达式<ol>
+<li><a href="https://regex101.com/" target="_blank" rel="noopener">正则表达式</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>关于问问题<ol>
+<li>百度谷歌能解决最好</li>
+<li>如果要问别人，请把代码贴在<a href="https://paste.ubuntu.com/" target="_blank" rel="noopener">这里</a></li>
+</ol>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/Python/" rel="tag"># Python</a>
+          
+            <a href="/tags/Tutorial/" rel="tag"># Tutorial</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/30/cnnalexnet-e6-a8-a1-e5-9e-8b-e7-ae-80-e5-8d-95-e6-80-bb-e7-bb-93/" rel="next" title="CNN&Alexnet模型简单总结">
+                <i class="fa fa-chevron-left"></i> CNN&Alexnet模型简单总结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/12/e5-85-b3-e4-ba-8e-e7-ba-a6-e6-95-b0-e7-9a-84-e6-95-b0-e5-b0-8f-e7-9f-a5-e8-af-86/" rel="prev" title="关于约数的数小知识">
+                关于约数的数小知识 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/touxiang.jpg" alt="陈末">
+            
+              <p class="site-author-name" itemprop="name">陈末</p>
+              <div class="site-description motion-element" itemprop="description">在别人看不见的地方</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">24</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#资料"><span class="nav-number">1.</span> <span class="nav-text">资料</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#标准数据类型"><span class="nav-number">2.</span> <span class="nav-text">标准数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String（字符串）"><span class="nav-number">3.</span> <span class="nav-text">String（字符串）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Number（数字）"><span class="nav-number">4.</span> <span class="nav-text">Number（数字）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List（列表）"><span class="nav-number">5.</span> <span class="nav-text">List（列表）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tuple（元组）"><span class="nav-number">6.</span> <span class="nav-text">Tuple（元组）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Set（集合）"><span class="nav-number">7.</span> <span class="nav-text">Set（集合）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dictionary（字典）"><span class="nav-number">8.</span> <span class="nav-text">Dictionary（字典）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他的一些操作"><span class="nav-number">9.</span> <span class="nav-text">其他的一些操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#骚操作"><span class="nav-number">10.</span> <span class="nav-text">骚操作</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#同样重要的题外话"><span class="nav-number"></span> <span class="nav-text">同样重要的题外话</span></a></li></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.2"></script>
+
+  <script src="/js/motion.js?v=7.1.2"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.2"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.2"></script>
+
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
