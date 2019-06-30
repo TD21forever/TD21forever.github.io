@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[博客待办事项]]></title>
+    <url>%2F2019%2F06%2F30%2F%E5%8D%9A%E5%AE%A2%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%2F</url>
+    <content type="text"><![CDATA[图片管理 页面美化（还是有点丑。。） 标签和分类整理 评论 源文件的分支 https://www.zhihu.com/question/21193762 建站笔记整理 百度搜索、站内搜索 字数统计 ….]]></content>
+      <tags>
+        <tag>杂类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F06%2F27%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
