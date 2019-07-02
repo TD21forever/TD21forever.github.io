@@ -114,7 +114,7 @@
     root: '/',
     scheme: 'Mist',
     version: '7.1.2',
-    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":true,"dimmer":false},
     back2top: true,
     back2top_sidebar: false,
     fancybox: false,
@@ -622,7 +622,7 @@
 </ul>
 <ul>
 <li><p>安装和配置Nginx</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> file_name=default</span></span><br><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name example.org; # 这是HOST机器的外部域名，用地址也行</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://your.私有IP:5000; # 指向 gunicorn host 的服务地址，注意，这里填我们服务器的私有IP</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> file_name=default</span><br><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name example.org; # 这是HOST机器的外部域名，用地址也行</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://your.私有IP:5000; # 指向 gunicorn host 的服务地址，注意，这里填我们服务器的私有IP</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 
 
 </li>
@@ -640,7 +640,7 @@
 </ul>
 <h4 id="注意事项-1"><a href="#注意事项-1" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
 <li><p>先开启服务器Mongod，在使用Mongo操作数据库</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">必须在mongod的目录下</span></span><br><span class="line">./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br><span class="line"><span class="meta">#</span><span class="bash">如果已经添加到了系统路径，可以直接</span></span><br><span class="line">mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>必须在mongod的目录下</span><br><span class="line">./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br><span class="line"><span class="meta">#</span>如果已经添加到了系统路径，可以直接</span><br><span class="line">mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf</span><br></pre></td></tr></table></figure>
 
 
 </li>
@@ -738,8 +738,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/19/机器学习入门/" rel="next" title="机器学习入门（一）">
-                <i class="fa fa-chevron-left"></i> 机器学习入门（一）
+              <a href="/2019/06/27/hello-world/" rel="prev" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -748,8 +748,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/27/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
+              <a href="/2019/05/19/机器学习入门/" rel="next" title="机器学习入门（一）">
+                机器学习入门（一） <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -1029,15 +1029,9 @@
 </div>
 
 
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.2</div>
 
 
 
