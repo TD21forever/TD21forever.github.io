@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-CN">
+<html class="theme-next mist use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -112,7 +112,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Mist',
     version: '7.1.2',
     sidebar: {"position":"right","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
@@ -147,7 +147,7 @@
 <meta property="og:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    数据的三级模式​    目的：将用户应用和数据库分离   模式(概念集)">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F%E4%BA%8C%E7%BA%A7%E6%98%A0%E5%B0%84.png">
-<meta property="og:updated_time" content="2019-07-01T15:04:11.658Z">
+<meta property="og:updated_time" content="2019-07-02T06:05:06.341Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库原理笔记（1）——三级模式二级映射">
 <meta name="twitter:description" content="概念 数据库（DataBase）  相关数据的集合，数据由DBMS统一管理和维护   数据库系统（DataBase System）  由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员   数据库管理系统（DataBase Management System）  向用户提供一套命令，管理数据库    数据的三级模式​    目的：将用户应用和数据库分离   模式(概念集)">
@@ -345,38 +345,6 @@
         
         
           
-          <li class="menu-item menu-item-schedule">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-sitemap">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>站点地图</a>
-
-  </li>
-        
-        
-        
-          
           <li class="menu-item menu-item-commonweal">
 
     
@@ -402,6 +370,9 @@
       
     </ul>
   
+
+  
+    
 
   
 
@@ -444,9 +415,6 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          
-            
-
           
           <div id="content" class="content">
             
@@ -527,7 +495,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-01 23:04:11" itemprop="dateModified" datetime="2019-07-01T23:04:11+08:00">2019-07-01</time>
+                <time title="修改时间：2019-07-02 14:05:06" itemprop="dateModified" datetime="2019-07-02T14:05:06+08:00">2019-07-02</time>
               
             
           </span>
@@ -569,6 +537,34 @@
             </span>
           
 
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">898</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">1 分钟</span>
+              
+            </div>
           
 
           
@@ -631,7 +627,7 @@
 <li>定义了数据库中全部数据的物理结构，定义了存储方法、存储策略</li>
 <li>DBMS提供内模式描述语言(内模式DDL)</li>
 </ul>
-<h6 id="三级模式总结"><a href="#三级模式总结" class="headerlink" title="三级模式总结"></a>三级模式总结</h6><ol>
+<h4 id="三级模式总结"><a href="#三级模式总结" class="headerlink" title="三级模式总结"></a>三级模式总结</h4><ol>
 <li>一个应用程序只能启用一个外模式，一个外模式可被多个应用程序使用</li>
 <li>对于一个数据库系统来说，只有一个模式和外模式，但可以有多个外模式</li>
 </ol>
@@ -959,7 +955,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的三级模式"><span class="nav-number">2.</span> <span class="nav-text">数据的三级模式</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#三级模式总结"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">三级模式总结</span></a></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的二级映像"><span class="nav-number">3.</span> <span class="nav-text">数据的二级映像</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的三级模式"><span class="nav-number">2.</span> <span class="nav-text">数据的三级模式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#三级模式总结"><span class="nav-number">2.1.</span> <span class="nav-text">三级模式总结</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据的二级映像"><span class="nav-number">3.</span> <span class="nav-text">数据的二级映像</span></a></li></ol></div>
             
 
           </div>
@@ -987,7 +983,21 @@
   <span class="author" itemprop="copyrightHolder">陈末</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">26k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">23 分钟</span>
   
 </div>
 
@@ -1000,7 +1010,7 @@
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.2</div>
 
 
 
@@ -1120,9 +1130,7 @@
   
 
 
-  <script src="/js/affix.js?v=7.1.2"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.1.2"></script>
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
 
 
 
