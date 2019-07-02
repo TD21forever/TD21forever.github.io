@@ -522,6 +522,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/11/12/约数/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/12/约数/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -737,6 +750,19 @@
 
           
             
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/11/05/python-tutorial/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/05/python-tutorial/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -958,6 +984,19 @@ github上的一些项目
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/10/30/ALEXNET/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/30/ALEXNET/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -1176,6 +1215,19 @@ github上的一些项目
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/10/12/wordpress/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/12/wordpress/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -1296,7 +1348,6 @@ Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文
 
           </div>
           
-
         </div>
         
           
@@ -1660,6 +1711,32 @@ Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文
   
 
   
+  
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz',
+    appKey: 'L9IqquaIalKDno3lcMO3kmHB',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
 

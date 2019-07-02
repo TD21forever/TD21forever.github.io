@@ -139,7 +139,7 @@
 
 
   <meta name="description" content="1. 什么是GAN（Generative Adversarial Net）？ 假设有一个警察和一个造假币者，造假者按照真实钱币的样子来造假，警察来分辨遇到的钱币是真还是假。最初的时候，造假者的造假能力不高，所以警察可以很容易的分辨出来。当被识别出来的时候，造假者就会继续修炼自己的技艺。与此同时，警察的分辨能力也要相应提高。这样的过程就是一种生成对抗的过程。对抗到最后，造假者已经能够创造出可以以假乱">
-<meta name="keywords" content="DCGAN,学习笔记,机器学习">
+<meta name="keywords" content="学习笔记,DCGAN,机器学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="DCGAN学习笔记">
 <meta property="og:url" content="www.dcts.top/2019/04/12/DCGANNOTE/index.html">
@@ -530,6 +530,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/04/12/DCGANNOTE/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/12/DCGANNOTE/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -696,9 +709,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/DCGAN/" rel="tag"># DCGAN</a>
-          
             <a href="/tags/学习笔记/" rel="tag"># 学习笔记</a>
+          
+            <a href="/tags/DCGAN/" rel="tag"># DCGAN</a>
           
             <a href="/tags/机器学习/" rel="tag"># 机器学习</a>
           
@@ -758,10 +771,22 @@
 
           </div>
           
-
-  
-
-
+  <div class="comments" id="comments"></div>
+    
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/valine@1.1.6/dist/Valine.min.js"></script>
+    <script>
+        new Valine({
+            av: AV,
+            el: '.comments',
+            notify: true, // 邮件提醒 v1.1.4新增，下一步中有具体的邮箱设置
+            verify: true,
+            app_id: '',
+            app_key: '',
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+        });
+    </script>
+    
 
         </div>
         
@@ -1156,6 +1181,32 @@
   
 
   
+  
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz',
+    appKey: 'L9IqquaIalKDno3lcMO3kmHB',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
