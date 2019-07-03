@@ -154,23 +154,23 @@
 
 
 
-  <meta name="description" content="前期准备 什么是全连接层  我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 全连接(Fully-connected layer)  全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了  全连接的目的是什么呢？因为传统的网络我们的输出都是分类，也就是几个类别的概率甚至就是一个数–类别号，那么全连接层就是高度提纯的特征了，方便交给最后的分类器或者回归  解">
+  <meta name="description" content="Alexnet是CNN的领航之作,也是我学习的第一个框架,本文为学习过程中的笔记,大部分来自网络">
 <meta name="keywords" content="Alexnet,CNN">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CNN&amp;Alexnet模型简单总结">
 <meta property="og:url" content="www.dcts.top/2018/10/30/ALEXNET/index.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="前期准备 什么是全连接层  我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 全连接(Fully-connected layer)  全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了  全连接的目的是什么呢？因为传统的网络我们的输出都是分类，也就是几个类别的概率甚至就是一个数–类别号，那么全连接层就是高度提纯的特征了，方便交给最后的分类器或者回归  解">
+<meta property="og:description" content="Alexnet是CNN的领航之作,也是我学习的第一个框架,本文为学习过程中的笔记,大部分来自网络">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/%E5%85%A8%E8%BF%9E%E6%8E%A5.png">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9B%BE%E8%A7%A3.jpg">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/%E8%AE%A1%E7%AE%97%E5%8D%B7%E7%A7%AF%E5%90%8E%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.jpg">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/%E8%AE%A1%E7%AE%97%E5%8D%B7%E7%A7%AF%E5%90%8E%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.jpg">
 <meta property="og:image" content="http://ptyurqh4r.bkt.clouddn.com/Alexnet.jpg">
-<meta property="og:updated_time" content="2019-07-01T14:38:45.750Z">
+<meta property="og:updated_time" content="2019-07-03T15:27:32.123Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CNN&amp;Alexnet模型简单总结">
-<meta name="twitter:description" content="前期准备 什么是全连接层  我们把所有神经元都会和下一层的所有神经元相连的这种连接，叫做 全连接(Fully-connected layer)  全连接一般会把卷积输出的二维特征图转化成一维的一个向量,把一张图高度浓缩成一个数了  全连接的目的是什么呢？因为传统的网络我们的输出都是分类，也就是几个类别的概率甚至就是一个数–类别号，那么全连接层就是高度提纯的特征了，方便交给最后的分类器或者回归  解">
+<meta name="twitter:description" content="Alexnet是CNN的领航之作,也是我学习的第一个框架,本文为学习过程中的笔记,大部分来自网络">
 <meta name="twitter:image" content="http://ptyurqh4r.bkt.clouddn.com/%E5%85%A8%E8%BF%9E%E6%8E%A5.png">
 
 
@@ -515,7 +515,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-01 22:38:45" itemprop="dateModified" datetime="2019-07-01T22:38:45+08:00">2019-07-01</time>
+                <time title="修改时间：2019-07-03 23:27:32" itemprop="dateModified" datetime="2019-07-03T23:27:32+08:00">2019-07-03</time>
               
             
           </span>
@@ -600,6 +600,8 @@
             </div>
           
 
+          
+            <div class="post-description">Alexnet是CNN的领航之作,也是我学习的第一个框架,本文为学习过程中的笔记,大部分来自网络</div>
           
 
         </div>
@@ -794,9 +796,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/Alexnet/" rel="tag"># Alexnet</a>
+            <a href="/tags/Alexnet/" rel="tag"><i class="fa fa-tag"></i> Alexnet</a>
           
-            <a href="/tags/CNN/" rel="tag"># CNN</a>
+            <a href="/tags/CNN/" rel="tag"><i class="fa fa-tag"></i> CNN</a>
           
         </div>
       
@@ -946,7 +948,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -1013,7 +1017,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">25</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">27</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1659,6 +1667,44 @@
   
 
   
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      const selection = document.getSelection();
+      const selected = selection.rangeCount > 0 ? selection.getRangeAt(0) : false;
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+      if (selected) {
+        selection.removeAllRanges();
+        selection.addRange(selected);
+      }
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
 
   
 

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[科目二复习]]></title>
+    <url>%2F2019%2F07%2F03%2F%E7%A7%91%E7%9B%AE%E4%BA%8C%E5%A4%8D%E4%B9%A0%2F</url>
+    <content type="text"><![CDATA[前言以为今天不练车，一觉睡到大天亮。起来看到手机里十几个教练的未接电话就蒙了。原来早上的喇叭声，不是堵车是在喊我练车。。。。 可他也没提前通知，让我误以为今天他去上虞考试不练车，哎。搞得我有点惭愧 所以复习下科目二的几个点，弥补下内心的愧疚 倒车入库 遇到肩膀线向右打一圈多，回方向把车子放正。 倒车遇到肩膀线向右打死，遇到库角回半圈，看到底部蓝线回完 看反光镜，左边大往右边调，右边大往左边调 换一档，遇到肩膀线向左打一圈半 前轮压线后，倒退，车身与石头成一条直线，向左打死 回方向盘，调整车距 侧边停车 保持左边1.5米左右 倒车，肩膀线向右打死 看到红牛罐回完 左后轮压黄线向左打死 等到前轮进入黄线，停车，换一档，打转向灯 看到红牛罐回完，离合器压一压减速 注意开出来不要压线 S弯 肩膀线右打一圈，拉直车身，保持左边50cm左右进入 肩膀线左打一圈进入第一个弯道，看左后轮，不要压线，看距离调整车距 回完，对点，进入第二个弯道，看前轮，头伸出去，调整距离不要压线 直角转弯 提前打转向灯，往右靠一点，肩膀线向左打死，速度慢一点 取卡和上坡停车 取卡往左靠，距离边线30cm之内 上坡对点，向右靠 踩离合踩刹车，拉手刹，慢抬离合，车子抖起来松刹车，不准溜坡，上不去踩油门]]></content>
+      <categories>
+        <category>学车</category>
+      </categories>
+      <tags>
+        <tag>科目二</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[博客待办事项]]></title>
     <url>%2F2019%2F06%2F30%2F%E5%8D%9A%E5%AE%A2%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9%2F</url>
     <content type="text"><![CDATA[图片管理 页面美化（还是有点丑。。） 标签和分类整理 评论 源文件的分支 https://www.zhihu.com/question/21193762 建站笔记整理 百度搜索 站内搜索 字数统计 微信公众号底部链接 文章摘要（阅读更多） 侧边栏社交 分享]]></content>
       <categories>
         <category>博客</category>
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F06%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[Flask入门（一）——在阿里云部署Flask环境]]></title>
@@ -64,9 +70,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[微信聊天记录生成词云（IOS系统）]]></title>
+    <title><![CDATA[微信聊天记录分析（IOS系统）]]></title>
     <url>%2F2019%2F04%2F19%2F%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E8%AF%8D%E4%BA%91%2F</url>
-    <content type="text"><![CDATA[使用itunes备份ios手机到pc上 遇到问题： 默认备份到C盘 C盘容量不够 解决方案： 将C盘文件转移到D盘中 使用工具 导出指定wx聊天记录 处理聊天记录 正则表达式 Excel … 使用Jieba和WordCloud做词云 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051import jieba from PIL import Image import numpy as np from wordcloud import WordCloud, ImageColorGenerator import matplotlib.pyplot as plt #读取文件内容 txt_path='./1.txt' txt_open=(open(txt_path,encoding='UTF-8').read()) #图片路径 tran_pic = './12.jpg' #设置字体 font='./STFangSong.ttf' #设置背景图片并转化为数组的形式 image = Image.open(tran_pic) image_= np.array(image) #jieba分词 world_jieba_after = jieba.cut(txt_open, cut_all=True)#True全模式分词 world_merge= ' '.join(world_jieba_after) wc = WordCloud( background_color="white", # 背景颜色 max_words=2000,# 词云显示的最大词数 mask=image_, # 设置背景图片 max_font_size=700, # 字体最大值 collocations=False, margin=2, # width=540, width=768, # height=960, height=1024, font_path=font ) #生成词云 wc.generate(world_merge) #背景图片生成颜色值 image_colors = ImageColorGenerator(image_) plt.figure() plt.imshow(wc) plt.axis('off') plt.show() # 保存图片 wc.to_file('2.png') 注意事项 词云背景自定义 忽略白色部分 所以需要将图片不需要的部分变白方法： 可以用ps 扣除主体后 加一个白色的图层 使用在线抠图网站 效果展示]]></content>
+    <content type="text"><![CDATA[获得聊天记录 使用itunes或其他工具备份ios手机到pc上不要加密备份 使用工具，导出指定wx聊天记录。扫文章底部二维码关注公众号，回复 聊天记录 可获得工具。一共提供了两个工具，选择其一即可 处理和分析聊天记录 正则表达式 Excel 字数统计 Sublime Text …. 生成词云 使用在线生成词云网站 图悦 使用Jieba和WordCloud做词云 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152import jiebafrom PIL import Imageimport numpy as npfrom wordcloud import WordCloud, ImageColorGeneratorimport matplotlib.pyplot as plt#读取文件内容txt_path='聊天文件地址如./11.txt'txt_open=(open(txt_path,encoding='UTF-8').read())#图片路径tran_pic = '如./12.jpg'#设置字体#可自行上网寻找 提供网站 http://www.cyhd.net/html/2014/fonts_0815/19.htmlfont='字体地址 如 ./STFangSong.ttf'#设置背景图片并转化为数组的形式image = Image.open(tran_pic)image_= np.array(image)#jieba分词world_jieba_after = jieba.cut(txt_open, cut_all=True)#True全模式分词world_merge= ' '.join(world_jieba_after)wc = WordCloud( background_color="white", # 背景颜色 max_words=2000,# 词云显示的最大词数 mask=image_, # 设置背景图片 max_font_size=700, # 字体最大值 collocations=False, margin=2, # width=540, width=768, # height=960, height=1024, font_path=font)#生成词云wc.generate(world_merge)#背景图片生成颜色值image_colors = ImageColorGenerator(image_)plt.figure()plt.imshow(wc)plt.axis('off')plt.show()# 保存图片wc.to_file('2.png') 注意事项 使用上述代码时，词云背景自定义需要忽略白色部分（白色的地方没有信息），所以需要将图片不需要的部分变白，方法如下： 可以用ps 扣除主体后 加一个白色的图层 使用在线抠图网站 词云效果 使用H5制作总结报告我是用的是易企秀，学习成本较低，效果如下]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -144,8 +150,11 @@
     <url>%2F2018%2F11%2F12%2F%E7%BA%A6%E6%95%B0%2F</url>
     <content type="text"><![CDATA[一个问题有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1 首先要知道约数个数定理 例题：正整数12共有多少个正约数 解：将12分解质因数12=2^2×3^1 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4 14 个约数，按照约数个数定理，可以分为1*14 或者 2*7 如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以另一个数的13次方等于那个四位数，2的13次方已经大于2000，所以这种情况不可能 如果是2*7个，(1+1)×(6+1)，即一个数的1次方乘以另一个数的6次方等于那个四位数，2的6次方等于64,3的6次方等于729 另一个数，是个位为1的质因数，最小也有11吧，729*11 大于2000了，64*11等于704，64*31等于1984 所以为1984]]></content>
       <categories>
-        <category>笔记</category>
+        <category>基础知识</category>
       </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Python Tutorial]]></title>

@@ -154,17 +154,18 @@
 
 
 
-  <meta name="description" content="一个问题有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1  首先要知道约数个数定理 例题：正整数12共有多少个正约数 解：将12分解质因数12=2^2×3^1 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4  14 个约数，按照约数个数定理，可以分为1*14 或者 2*7  如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以">
+  <meta name="description" content="上ACM课的时候刘老师提出的一个问题">
+<meta name="keywords" content="算法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于约数的数小知识">
 <meta property="og:url" content="www.dcts.top/2018/11/12/约数/index.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="一个问题有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1  首先要知道约数个数定理 例题：正整数12共有多少个正约数 解：将12分解质因数12=2^2×3^1 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4  14 个约数，按照约数个数定理，可以分为1*14 或者 2*7  如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以">
+<meta property="og:description" content="上ACM课的时候刘老师提出的一个问题">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-27T15:06:48.536Z">
+<meta property="og:updated_time" content="2019-07-03T15:27:53.822Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于约数的数小知识">
-<meta name="twitter:description" content="一个问题有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1  首先要知道约数个数定理 例题：正整数12共有多少个正约数 解：将12分解质因数12=2^2×3^1 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4  14 个约数，按照约数个数定理，可以分为1*14 或者 2*7  如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以">
+<meta name="twitter:description" content="上ACM课的时候刘老师提出的一个问题">
 
 
 
@@ -508,7 +509,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-27 23:06:48" itemprop="dateModified" datetime="2019-06-27T23:06:48+08:00">2019-06-27</time>
+                <time title="修改时间：2019-07-03 23:27:53" itemprop="dateModified" datetime="2019-07-03T23:27:53+08:00">2019-07-03</time>
               
             
           </span>
@@ -525,7 +526,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/笔记/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础知识/" itemprop="url" rel="index"><span itemprop="name">基础知识</span></a></span>
 
                 
                 
@@ -593,6 +594,8 @@
             </div>
           
 
+          
+            <div class="post-description">上ACM课的时候刘老师提出的一个问题</div>
           
 
         </div>
@@ -663,6 +666,15 @@
     
 
     <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/算法/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
+          
+        </div>
       
 
       
@@ -810,7 +822,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -877,7 +891,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">25</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">27</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1523,6 +1541,44 @@
   
 
   
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      const selection = document.getSelection();
+      const selected = selection.rangeCount > 0 ? selection.getRangeAt(0) : false;
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+      if (selected) {
+        selection.removeAllRanges();
+        selection.addRange(selected);
+      }
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
 
   
 
