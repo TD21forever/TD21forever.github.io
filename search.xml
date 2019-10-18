@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[操作系统实验一]]></title>
+    <url>%2Fpost%2Fe11b459a.html</url>
+    <content type="text"><![CDATA[一、前言记录杭电操作系统实验一:编译内核&amp;增加nice系统调用.本文仅严格记录本人成功的实验流程,方便日后修改. 二、实验准备 虚拟机: VirtualBox 6.0.12 官网 Ubuntu: 18.04.3(desktop-amd64) 阿里云镜像 内核版本:5.3.7 官网 三、主要参考资料 资料1:Ubuntu 18.04环境下编译Linux内核以及添加系统调用 资料2:添加一个系统调用，实现对指定进程的nice值的修改或读取功能，并返回系统最新的nice值即优先级prio 四、 实验过程4.1编译内核 编译内核严格按照Ubuntu 18.04环境下编译Linux内核以及添加系统调用这篇参考资料进行,直至重启系统后使用命令uname -a 显示最新内核 耗时:晚上睡觉前开始sudo make 一觉醒来就搞定了 部分截图: 4.2增加系统调用主要参考资料:添加一个系统调用，实现对指定进程的nice值的修改或读取功能，并返回系统最新的nice值即优先级prio 以下命令在/usr/src/linux-5.3.6中执行 4.2.1 题目描述 添加一个系统调用，实现对指定进程的nice值的修改或读取功能，并返回系统最新的nice值即优先级prio。建议调用原型为：int mysetnice(pid_t pid, int flag, int nicevalue,void_user*prio,void_user*nice) 参数含义： pid：进程ID flag：若值为0，表示读取nice值；若值为1表示修改nice值。 prio，nice：指向进程当前优先级及nice值。 返回值：系统调用成功时返回0，失败时返回错误码EFAULT。 写一个简单的应用程序测试 4.2.2 步骤描述 修改系统调用表 申明系统调用服务例程原型 实现系统调用服务例程 重新编译 编写测试函数进行测试 4.2.3 具体操作 修改系统调用表 sudo vim arch/x86/entry/syscalls/syscall_64.tbl 一定要使用__x64 否则报如下错误 申明系统调用服务例程原型 sudo vim include/linux/syscalls.h 添加以下代码 asmlinkage long sys_mysetnice(pid_t pid,int flag,int nicevalue,void __user*prio,void __user*nice); 实现系统调用服务例程 vim kernel/sys.c 1234567891011121314151617181920212223242526SYSCALL_DEFINE5(mysetnice,pid_t,pid,int,flag,int,nicevalue,void __user*,prio,void __user*,nice)&#123; struct pid * kpid; struct task_struct * task; kpid = find_get_pid(pid);/* 返回pid */ task = pid_task(kpid, PIDTYPE_PID);/* 返回task_struct */ int n; n = task_nice(task);/* 返回进程当前nice值 */ int p; p = task_prio(task);/*返回进程当前prio值*/ if(flag == 1) &#123; set_user_nice(task, nicevalue);/* 修改进程nice值 */ n = task_nice(task);/*重新取得进程nice值*/ p = task_prio(task);/*重新获取进程prio值 这里和参考资料不一样!!! */ copy_to_user(nice,&amp;n,sizeof(n));/*将nice值拷贝到用户空间*/ copy_to_user(prio,&amp;p,sizeof(p));/*将prio值拷贝到用户空间*/ return 0; &#125; else if(flag == 0) &#123; copy_to_user(nice,&amp;n,sizeof(n));/*将nice值拷贝到用户空间*/ copy_to_user(prio,&amp;p,sizeof(p));/*将prio值拷贝到用户空间*/ return 0; &#125; return EFAULT;&#125; 编译 使用ccache加快编译 参考文档:ubuntu 使用ccache加快linux内核编译速度 注意将usr改为自己的用户名,6G改为10G 123456sudo make clean#仍采用原内核配置文件sudo make localmodconfig #使用localmodconfig加速编译sudo make -j8 #使用多线程编译sudo make modules_installsudo make install 整个过程大概只用了30分钟 编写测试函数 vim test.c 12345678910111213141516171819202122232425262728293031323334353637383940#define _GNU_SOURCE#include &lt;unistd.h&gt;#include&lt;sys/syscall.h&gt;#include&lt;stdio.h&gt;#include&lt;stdlib.h&gt;int main()&#123; pid_t pid; int nicevalue; int flag; int p = 0; int n = 0; int *prio; int *nice; prio = &amp;p; nice = &amp;n; /* * 获取pid * */ printf("请输入pid：\n"); scanf("%d",&amp;pid); /* * 获取nice； * */ printf("pid赋值成功\n请输入nice：\n"); scanf("%d",&amp;nicevalue); /* * 获取flag； * */ printf("nice赋值成功\n请输入flag：\n"); scanf("%d",&amp;flag); /* * 调用添加的系统调用； * */ syscall(334,pid,flag,nicevalue,prio,nice); /* * 输出最新的prio以及nice； * */ printf("现在的nice为%d\n,prio为%d\n",n,p); return 0;&#125; 123topgcc test.c./a.out ​]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[大一学习资料清单]]></title>
     <url>%2Fpost%2F4e7be00e.html</url>
     <content type="text"><![CDATA[大一上学习资料清单 一些资料 杭电助手的“助手期末福利” 提供各类卷子和资料 群里发的一些资料 是我往年准备考试时使用的一些试卷和答案，我不整理了，需要的话自取 英语 听英文歌学英语 高数、线代、概率论 小元老师（视频） 线代、高数、概率论都有，讲的很形象，适合当做正课来听。（正餐，类似大学课堂上课） 3Blue1Brown（视频） 主要是线代和高数的微积分这块，用动画的形式讲解线代的本质、微积分的本质（零食，课外补充帮助理解） 马同学（博客） 帮助通俗易懂地去理解一些概念和定义（甜点，遇到那个概念不懂的时候可以去他博客里查） C语言 浙大翁凯老师的课 几乎每个杭电的都会看这个老师的C语言 杭电oj 编程语言的学习需要自己上手敲代码才会印象深刻，可以在杭电oj上刷题，在problem archive板块下从11页开始刷。刷OJ时请先到FAQ板块去了解下OJ上提交代码的规则 写C语言的软件（IDE、文本编辑器） 首先你需要自行百度去了解什么是IDE，什么是文本编辑器 简单说文本编辑器就是用来码字的，比如win10的文本文档，只是在码字这个基础上装了很多插件，是其可以编译运行代码 IDE（很笨重，但不用折腾，安装了就能用）： Visual Studio 号称宇宙最强IDE，但我个人不推荐新手尝试 DevC++ 如果你是跟着翁凯老师学的 就用这个吧 code block 文本编辑器（轻量但是需要装插件，需要折腾，请自行百度了解）: sublime text3 我的主力写代码软件 vs code atom 记事本 建议去自行了解的一些工具 什么是Git？ 什么是Github，在Github我能找到什么？ 什么是Markdown？为什么要用符号来帮助写文章？（本篇文章使用markdown完成） pygments 一个可以使代码高亮的网站，高亮后的代码放入word文档就不会很丑]]></content>
@@ -167,8 +179,8 @@
         <category>编程</category>
       </categories>
       <tags>
-        <tag>DCGAN</tag>
         <tag>学习笔记</tag>
+        <tag>DCGAN</tag>
         <tag>机器学习</tag>
       </tags>
   </entry>
@@ -180,9 +192,9 @@
         <category>编程</category>
       </categories>
       <tags>
-        <tag>学习笔记</tag>
         <tag>Linux</tag>
         <tag>vim</tag>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
