@@ -26,23 +26,23 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="记录Docker的简单操作">
+<meta name="description" content="科目二总算顺利结束啦~">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker笔记">
-<meta property="og:url" content="https://www.dcts.top/post/5c266b64.html">
+<meta property="og:title" content="科目二结束">
+<meta property="og:url" content="https://www.dcts.top/post/762968e9">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="记录Docker的简单操作">
+<meta property="og:description" content="科目二总算顺利结束啦~">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-10-18T17:26:13.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:46:15.912Z">
+<meta property="article:published_time" content="2019-07-10T15:57:45.000Z">
+<meta property="article:modified_time" content="2020-12-10T09:39:27.860Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="学车">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/5c266b64.html">
+<link rel="canonical" href="https://www.dcts.top/post/762968e9">
 
 
 <script data-pjax class="page-configurations">
@@ -54,7 +54,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>Docker笔记 | C1oser</title>
+<title>科目二结束 | C1oser</title>
   
 
   <script data-pjax>
@@ -215,7 +215,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-With-GPU"><span class="nav-text">Docker With GPU</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Run"><span class="nav-text">Docker Run</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Tips"><span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Images"><span class="nav-text">Docker Images</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Container"><span class="nav-text">Docker Container</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84docker%E5%8A%A0%E9%80%9F%E5%99%A8%E3%80%82"><span class="nav-text">使用阿里云的docker加速器。</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%80%83%E8%AF%95"><span class="nav-text">考试</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A5-9-24"><span class="nav-text">7月10日 9:24</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A59-14"><span class="nav-text">7月10日9:14</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A5-9-00"><span class="nav-text">7月10日 9:00</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%83%E8%BD%A6"><span class="nav-text">练车</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -290,7 +290,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/5c266b64.html">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/762968e9">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -303,7 +303,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Docker笔记
+          科目二结束
         </h1>
 
         <div class="post-meta-container">
@@ -314,7 +314,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2020-10-19 01:26:13" itemprop="dateCreated datePublished" datetime="2020-10-19T01:26:13+08:00">2020-10-19</time>
+      <time title="创建时间：2019-07-10 23:57:45" itemprop="dateCreated datePublished" datetime="2019-07-10T23:57:45+08:00">2019-07-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -322,21 +322,35 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+          <a href="/categories/%E5%8D%81%E5%88%86%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">十分人生</span></a>
         </span>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/post/762968e9#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/762968e9" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">记录Docker的简单操作</div>
+            <div class="post-description">科目二总算顺利结束啦~</div>
         </div>
       </header>
 
@@ -344,52 +358,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h4 id="Docker-With-GPU"><a href="#Docker-With-GPU" class="headerlink" title="Docker With GPU"></a>Docker With GPU</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 测试是否可以看到所有显卡，如果没有 nvidia/cuda:10.0-base，则会先下载该镜像</span></span><br><span class="line">docker run --gpus all nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在一个容器上使用两块GPU</span></span><br><span class="line">docker run --gpus 2 nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定使用的GPU</span></span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=1,2&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=UUID-ABCDEF,1&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># Specifying a capability (graphics, compute, ...) for my container</span></span><br><span class="line">docker run --gpus all,capabilities=utility nvidia/cuda:10.0-base nvidia-smi</span><br></pre></td></tr></table></figure>
-
-<h4 id="Docker-Run"><a href="#Docker-Run" class="headerlink" title="Docker Run"></a>Docker Run</h4><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -p xxxx<span class="function">:xxxx-v</span> [主机代码目录]:[容器内代码映射目录] <span class="params">--gpus</span> all <span class="params">--name</span> [创建的容器名称] [镜像名称]:[镜像tag] <span class="string">/bin/bash</span> -c <span class="string">&quot;sh trainer/train.sh&quot;</span></span><br><span class="line"></span><br><span class="line">docker run -it -p 5555<span class="function">:22</span> -v <span class="string">&quot;$PWD:/workspace&quot;</span> <span class="params">--gpus</span> all <span class="params">--name</span> xxx imagesName<span class="function">:tag</span> <span class="string">/bin/bash</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>-it</code>：这是两个参数，一个是 <code>-i</code> 表示交互式操作，一个是 <code>-t</code> 为终端。我们这里打算进入 bash 执行一些命令并查看返回结果，因此我们需要交互式终端。</li>
-<li><code>--rm</code>：这个参数是说容器退出后随之将其删除。默认情况下，为了排障需求，退出的容器并不会立即删除，除非手动 <code>docker rm</code>。</li>
-<li><code>ubuntu:16.04</code>：这是指用 <code>ubuntu:16.04</code> 镜像为基础来启动容器。</li>
-<li><code>bash</code>：放在镜像名后的是命令，这里我们希望有个交互式 Shell，因此用 bash。</li>
-<li><code>-v</code> : “[主机工作目录]:[容器内工作映射目录]” ： 指定容器内文件的挂载路径</li>
-<li><code>-p</code> <code>5555</code>:<code>22</code>是将宿主机的<code>5555</code>端口映射到容器的<code>2333</code>端口  </li>
-</ul>
-<h4 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h4><ul>
-<li><p>Docker 需要用户具有 sudo 权限，为了避免每次命令都输入<code>sudo</code>，可以把用户加入 Docker 用户组 </p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo groupadd docker <span class="comment">#添加docker用户组</span></span><br><span class="line">sudo gpasswd -a <span class="variable">$USER</span> docker <span class="comment">#将登陆用户加入到docker用户组中</span></span><br><span class="line">newgrp docker <span class="comment">#更新用户组</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h4 id="Docker-Images"><a href="#Docker-Images" class="headerlink" title="Docker Images"></a>Docker Images</h4><p> Image 文件可以看作是容器的模板。Docker 根据 Image 文件生成容器的实例。同一个 Image 文件，可以生成多个同时运行的容器实例。 </p>
-<ul>
-<li><p><code>docker image ls  or  docker images</code></p>
-</li>
-<li><p><code>docker image rm [imageName] or [imageID]</code></p>
-</li>
-<li><p><code>docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]</code><br> 例子：<code>docker pull ubuntu:16.04</code></p>
-</li>
-</ul>
-<h4 id="Docker-Container"><a href="#Docker-Container" class="headerlink" title="Docker Container"></a>Docker Container</h4><ul>
-<li><p><code>docker ps -a</code> 来查看当前系统的容器</p>
-</li>
-<li><p><code>docker start [-i] container-id</code><strong>启动</strong>某个容器，必须是已经创建的。 加上<code>-i</code> 参数之后，可以直接<strong>进入</strong>交互模式</p>
-</li>
-<li><p>除了通过<code>-i</code><strong>进入</strong>交互模式，还有一种方法，那就是通过<code>attach</code>: <code>docker attach container-id</code> </p>
-</li>
-<li><p>退出但是保持容器运行，按<code>CTRL+Q+P</code>三个键 - 退出 </p>
-</li>
-<li><p>使用<code>docker start/restart</code> 命令来启动/重启一个容器</p>
-</li>
-<li><p>使用<code>docker stop/rm</code>命令来停止/删除一个容器</p>
-</li>
-</ul>
-<h4 id="使用阿里云的docker加速器。"><a href="#使用阿里云的docker加速器。" class="headerlink" title="使用阿里云的docker加速器。"></a>使用阿里云的docker加速器。</h4><p>在阿里云申请一个账号，<br>打开连接 <a target="_blank" rel="noopener" href="https://cr.console.aliyun.com/#/accelerator">https://cr.console.aliyun.com/#/accelerator</a> 拷贝您的专属加速器地址。</p>
-<p>修改修改daemon配置文件/etc/docker/daemon.json来使用加速器(下面是4个命令，分别单独执行)</p>
-<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/docker/daemon.json</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://jxus37ad.mirror.aliyuncs.com&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure>
-
-<p>​    </p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>总算结束了这该死的科目二，这几天下来身心俱疲，每次早起练车内心都是强烈的抗拒，刚熬过大学的期末考，暑假又是一个接一个的训练、考试，实在是难以说服自己去接受。好在过了，长舒一口气。拿驾照之路还长，不过这几天可以歇一歇了，再接着训练科三之前，总算是可以做点自己计划中的事情，就再回味回味这份经历。</p>
+<h3 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h3><h4 id="7月10日-9-24"><a href="#7月10日-9-24" class="headerlink" title="7月10日 9:24"></a>7月10日 9:24</h4><p>油门踩到底，下了坡，听到旁边机子说考试合格，然后被安全员指挥到起始位置。下车，和安全员说谢谢，走出考场，路上一直在口吐芬芳，骂着这该死的科目二总算结束了。</p>
+<h4 id="7月10日9-14"><a href="#7月10日9-14" class="headerlink" title="7月10日9:14"></a>7月10日9:14</h4><p>上车踩了踩离合，转了转方向盘，觉得很舒服。起步后一直在自言自语，给自己提醒要对的点。说真的，下次不一定有这么舒服的离合，这么舒服的方向盘，这么舒服的肩膀线，这么舒服的天气，这么熟悉的道路了。</p>
+<h4 id="7月10日-9-00"><a href="#7月10日-9-00" class="headerlink" title="7月10日 9:00"></a>7月10日 9:00</h4><p>在D区等6号车，车上的大哥一直很顺利，开到上坡久久没下来我就知道他没了，有点害怕，感觉是辆破车啊。</p>
+<hr>
+<p>考试比我想象的顺利，我把原因归结为运气好。今天确实天时地利人和，甚至于今天去的<strong>10个人居然全都过了</strong>。但考前实在是太紧张，漫长的等待时间把内心的焦躁快推到了极限了，一直在担忧，没有肩膀线怎么办，点对错了怎么办，车子不习惯怎么办，上坡熄火怎么办…..</p>
+<p>想想驾考是我经历的第一场，与不同龄人同台竞争的考试，考试水平与学历与年龄与见识无关。客观的来说其实驾考的内容很少，而且容错率挺高的，科目二要记住的内容加起来估计也就模电一章的知识点的量，考前还能练考场，相当于考前就把试卷发你了，而且允许你做两次。但你说让我现在再去考一次？我死都不想再踏进那个考场半步了，而且我肯定会挂…..</p>
+<h3 id="练车"><a href="#练车" class="headerlink" title="练车"></a>练车</h3><p>看知乎上有好多关于驾考的话题，像什么科目二考试技巧、科目二挂科怎么办….之类的，我考前还以此为参考资料，考完觉得其实没必要去看这些技巧和心灵鸡汤之类的东西。其实最好还是以教练教的为标准，有不懂得就直接问教练就好了，怕忘记就自己根据教练讲的记在本子上。知乎上的话题大多经过作者艺术渲染，带入太多个人情绪了，而且和教练教的方法不一定统一，反而影响了心态，慌了自己手脚。</p>
+<p>花了两天时间把科目二的内容学会了，然后考前连着四、五天一直在练车。练车最烦的还是等待，等待实在是漫长，坐在车里玩手机，没心思背单词，知乎刷了一遍又一遍，就干等着，浪费时间。每天重复同样的内容，几个点对来对去，明明就这么点内容，考前练到第三天就已经对学车产生了生生的厌恶，心想着我特么要是没过我就不学车了。</p>
+<p>还是有进步的，毕竟从第一天连离合踩都不稳到今天起码踩着离合能溜溜弯。很期待科目三结束后自己的进步。</p>
 
     </div>
 
@@ -411,18 +389,21 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/Docker/" rel="tag"><i class="fa fa-tag"></i> Docker</a>
+              <a href="/tags/%E5%AD%A6%E8%BD%A6/" rel="tag"><i class="fa fa-tag"></i> 学车</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/d07d5346.html" rel="prev" title="Screen命令笔记">
-                  <i class="fa fa-chevron-left"></i> Screen命令笔记
+                <a href="/post/2d9df1e8" rel="prev" title="科目二复习">
+                  <i class="fa fa-chevron-left"></i> 科目二复习
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/post/1520b5d6" rel="next" title="写在大二下的期末考后">
+                  写在大二下的期末考后 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -434,6 +415,7 @@
 
 
 
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -574,10 +556,22 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/5c266b64.html',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/762968e9',]
       });
       });
   </script>
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/post/762968e9",
+      serverURLs: "https://6roslgtm.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
+</script>
 
     </div>
 </body>

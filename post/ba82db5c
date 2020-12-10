@@ -26,12 +26,12 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
 <meta name="description" content="上ACM课的时候刘老师提出的一个问题">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于约数的数小知识">
-<meta property="og:url" content="https://www.dcts.top/post/ba82db5c.html">
+<meta property="og:url" content="https://www.dcts.top/post/ba82db5c">
 <meta property="og:site_name" content="C1oser">
 <meta property="og:description" content="上ACM课的时候刘老师提出的一个问题">
 <meta property="og:locale" content="zh_CN">
@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/ba82db5c.html">
+<link rel="canonical" href="https://www.dcts.top/post/ba82db5c">
 
 
 <script data-pjax class="page-configurations">
@@ -290,7 +290,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/ba82db5c.html">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/ba82db5c">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -326,6 +326,20 @@
         </span>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/post/ba82db5c#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/ba82db5c" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -391,12 +405,12 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/9dac317c.html" rel="prev" title="Python Tutorial">
+                <a href="/post/9dac317c" rel="prev" title="Python Tutorial">
                   <i class="fa fa-chevron-left"></i> Python Tutorial
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/271a4a90.html" rel="next" title="摄影学习笔记（一）————  基础知识介绍">
+                <a href="/post/271a4a90" rel="next" title="摄影学习笔记（一）————  基础知识介绍">
                   摄影学习笔记（一）————  基础知识介绍 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
@@ -410,6 +424,7 @@
 
 
 
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -550,10 +565,22 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/ba82db5c.html',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/ba82db5c',]
       });
       });
   </script>
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/post/ba82db5c",
+      serverURLs: "https://6roslgtm.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
+</script>
 
     </div>
 </body>

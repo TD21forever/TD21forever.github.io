@@ -26,26 +26,23 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="光圈,快门,ISO">
+<meta name="description" content="弥补下内心的愧疚....">
 <meta property="og:type" content="article">
-<meta property="og:title" content="摄影学习笔记（一）————  基础知识介绍">
-<meta property="og:url" content="https://www.dcts.top/post/271a4a90.html">
+<meta property="og:title" content="科目二复习">
+<meta property="og:url" content="https://www.dcts.top/post/2d9df1e8">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="光圈,快门,ISO">
+<meta property="og:description" content="弥补下内心的愧疚....">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg">
-<meta property="article:published_time" content="2019-02-22T09:17:45.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:41:23.636Z">
+<meta property="article:published_time" content="2019-07-03T13:55:24.000Z">
+<meta property="article:modified_time" content="2020-12-10T09:39:17.616Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="入门">
-<meta property="article:tag" content="摄影">
+<meta property="article:tag" content="学车">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/271a4a90.html">
+<link rel="canonical" href="https://www.dcts.top/post/2d9df1e8">
 
 
 <script data-pjax class="page-configurations">
@@ -57,7 +54,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>摄影学习笔记（一）————  基础知识介绍 | C1oser</title>
+<title>科目二复习 | C1oser</title>
   
 
   <script data-pjax>
@@ -218,7 +215,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%85%89%E5%9C%88"><span class="nav-text">1. 光圈</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%BF%AB%E9%97%A8"><span class="nav-text">2. 快门</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-ISO"><span class="nav-text">3. ISO</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%80%92%E8%BD%A6%E5%85%A5%E5%BA%93"><span class="nav-text">倒车入库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%A7%E8%BE%B9%E5%81%9C%E8%BD%A6"><span class="nav-text">侧边停车</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#S%E5%BC%AF"><span class="nav-text">S弯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B4%E8%A7%92%E8%BD%AC%E5%BC%AF"><span class="nav-text">直角转弯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%96%E5%8D%A1%E5%92%8C%E4%B8%8A%E5%9D%A1%E5%81%9C%E8%BD%A6"><span class="nav-text">取卡和上坡停车</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -293,7 +290,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/271a4a90.html">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/2d9df1e8">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -306,7 +303,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          摄影学习笔记（一）————  基础知识介绍
+          科目二复习
         </h1>
 
         <div class="post-meta-container">
@@ -317,7 +314,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2019-02-22 17:17:45" itemprop="dateCreated datePublished" datetime="2019-02-22T17:17:45+08:00">2019-02-22</time>
+      <time title="创建时间：2019-07-03 21:55:24" itemprop="dateCreated datePublished" datetime="2019-07-03T21:55:24+08:00">2019-07-03</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -325,10 +322,24 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+          <a href="/categories/%E5%8D%81%E5%88%86%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">十分人生</span></a>
         </span>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/post/2d9df1e8#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/2d9df1e8" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -339,7 +350,7 @@
     </span>
 </div>
 
-            <div class="post-description">光圈,快门,ISO</div>
+            <div class="post-description">弥补下内心的愧疚....</div>
         </div>
       </header>
 
@@ -347,30 +358,39 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
-<li>光圈是表示镜头中孔径大小的比值。</li>
-<li>光圈越大数值越小,光圈越小数值越大。</li>
-<li>光圈越大越明亮,光圈越小越暗。</li>
-<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
-</ul>
-<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
-<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
-</li>
-<li><p>比1/60秒慢的，就是慢门。</p>
-</li>
-<li><p>比1/250秒快的，就是高速快门。</p>
-</li>
-<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
-</li>
-<li><p>快门慢 曝光时间长 亮（长曝光）</p>
-</li>
-<li><p>快门快 运动快的东西也会被凝固住</p>
-</li>
-</ul>
-<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
-<li>ISO越高越亮 但是照片质量会下降</li>
-</ul>
-<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>以为今天不练车，一觉睡到大天亮。起来看到手机里十几个教练的未接电话就蒙了。原来早上的喇叭声，不是堵车是在喊我练车。。。。</p>
+<p>可他也没提前通知，让我误以为今天他去上虞考试不练车，哎。搞得我有点惭愧</p>
+<p>所以复习下科目二的几个点，弥补下内心的愧疚</p>
+<h3 id="倒车入库"><a href="#倒车入库" class="headerlink" title="倒车入库"></a>倒车入库</h3><ol>
+<li>遇到肩膀线向右打一圈多，回方向把车子放正。</li>
+<li>倒车遇到肩膀线向右打死，遇到库角回半圈，看到底部蓝线回完</li>
+<li>看反光镜，左边大往右边调，右边大往左边调</li>
+<li>换一档，遇到肩膀线向左打一圈半</li>
+<li>前轮压线后，倒退，车身与石头成一条直线，向左打死</li>
+<li>回方向盘，调整车距</li>
+</ol>
+<h3 id="侧边停车"><a href="#侧边停车" class="headerlink" title="侧边停车"></a>侧边停车</h3><ol>
+<li>保持左边1.5米左右</li>
+<li>倒车，肩膀线向右打死</li>
+<li>看到红牛罐回完</li>
+<li>左后轮压黄线向左打死</li>
+<li>等到前轮进入黄线，停车，换一档，打转向灯</li>
+<li>看到红牛罐回完，离合器压一压减速</li>
+<li>注意开出来不要压线</li>
+</ol>
+<h3 id="S弯"><a href="#S弯" class="headerlink" title="S弯"></a>S弯</h3><ol>
+<li>肩膀线右打一圈，拉直车身，保持左边50cm左右进入</li>
+<li>肩膀线左打一圈进入第一个弯道，看左后轮，不要压线，看距离调整车距</li>
+<li>回完，对点，进入第二个弯道，看前轮，头伸出去，调整距离不要压线</li>
+</ol>
+<h3 id="直角转弯"><a href="#直角转弯" class="headerlink" title="直角转弯"></a>直角转弯</h3><ol>
+<li>提前打转向灯，往右靠一点，肩膀线向左打死，速度慢一点</li>
+</ol>
+<h3 id="取卡和上坡停车"><a href="#取卡和上坡停车" class="headerlink" title="取卡和上坡停车"></a>取卡和上坡停车</h3><ol>
+<li>取卡往左靠，距离边线30cm之内</li>
+<li>上坡对点，向右靠</li>
+<li>踩离合踩刹车，拉手刹，慢抬离合，车子抖起来松刹车，不准溜坡，上不去踩油门</li>
+</ol>
 
     </div>
 
@@ -392,21 +412,20 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/%E5%85%A5%E9%97%A8/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
-              <a href="/tags/%E6%91%84%E5%BD%B1/" rel="tag"><i class="fa fa-tag"></i> 摄影</a>
+              <a href="/tags/%E5%AD%A6%E8%BD%A6/" rel="tag"><i class="fa fa-tag"></i> 学车</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/ba82db5c.html" rel="prev" title="关于约数的数小知识">
-                  <i class="fa fa-chevron-left"></i> 关于约数的数小知识
+                <a href="/post/7bc2355c" rel="prev" title="博客待办事项">
+                  <i class="fa fa-chevron-left"></i> 博客待办事项
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/4235b453.html" rel="next" title="摄影学习笔记（二）———— Pr快捷键">
-                  摄影学习笔记（二）———— Pr快捷键 <i class="fa fa-chevron-right"></i>
+                <a href="/post/762968e9" rel="next" title="科目二结束">
+                  科目二结束 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -419,6 +438,7 @@
 
 
 
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -559,10 +579,22 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/271a4a90.html',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/2d9df1e8',]
       });
       });
   </script>
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
+      el: '#valine-comments',
+      path: "/post/2d9df1e8",
+      serverURLs: "https://6roslgtm.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
+</script>
 
     </div>
 </body>
