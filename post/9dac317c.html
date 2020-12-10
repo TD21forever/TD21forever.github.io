@@ -36,7 +36,7 @@
 <meta property="og:description" content="大一软件部上课课件,python入门资料整理">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2018-11-05T10:40:03.000Z">
-<meta property="article:modified_time" content="2019-09-04T15:39:19.355Z">
+<meta property="article:modified_time" content="2020-12-10T07:46:01.741Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="Tutorial">
@@ -238,7 +238,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -347,7 +347,7 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
+      <span>5 分钟</span>
     </span>
 </div>
 
@@ -384,26 +384,13 @@
 </ul>
 <h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
 <li><p>字符串的基本操作</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">name <span class="token operator">=</span> <span class="token string">"自动化科协"</span>
-department <span class="token operator">=</span> <span class="token string">"软件部"</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token operator">+</span>department<span class="token punctuation">)</span><span class="token comment">#字符串做加法</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token operator">*</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token comment">#字符串做乘法</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#取字符串的第一位</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#取字符串的最后一位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;自动化科协&quot;</span></span><br><span class="line">department = <span class="string">&quot;软件部&quot;</span></span><br><span class="line">print(name+department)<span class="comment">#字符串做加法</span></span><br><span class="line">print(name*<span class="number">10</span>)<span class="comment">#字符串做乘法</span></span><br><span class="line">print(name[<span class="number">0</span>])<span class="comment">#取字符串的第一位</span></span><br><span class="line">print(name[-<span class="number">1</span>])<span class="comment">#取字符串的最后一位</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>格式化字符串</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">date_1 <span class="token operator">=</span> <span class="token string">"%d年%d月%d日是%s的生日"</span> <span class="token operator">%</span><span class="token punctuation">(</span><span class="token number">1964</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token string">'马云'</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>date_1<span class="token punctuation">)</span><span class="token comment">#%d代表数字，%s代表字符串</span>
-date_2 <span class="token operator">=</span> <span class="token string">"&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token number">1964</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token string">'马云'</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>date_2<span class="token punctuation">)</span><span class="token comment">#这样就不用%了</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">date_1 = <span class="string">&quot;%d年%d月%d日是%s的生日&quot;</span> %(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">&#x27;马云&#x27;</span>)</span><br><span class="line">print(date_1)<span class="comment">#%d代表数字，%s代表字符串</span></span><br><span class="line">date_2 = <span class="string">&quot;&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日&quot;</span>.<span class="built_in">format</span>(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">&#x27;马云&#x27;</span>)</span><br><span class="line">print(date_2)<span class="comment">#这样就不用%了</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>切片（slice）</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">string <span class="token operator">=</span> <span class="token string">'自动化科协软件部'</span>
-new_string <span class="token operator">=</span> string<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token comment">#3包括5不包括</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>new_string<span class="token punctuation">)</span>
-a <span class="token operator">=</span> <span class="token string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span>
-new_a <span class="token operator">=</span> a<span class="token punctuation">[</span><span class="token number">11</span><span class="token punctuation">:</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token comment">#11包括20不包括</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>new_a<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="string">&#x27;自动化科协软件部&#x27;</span></span><br><span class="line">new_string = string[<span class="number">3</span>:<span class="number">5</span>]<span class="comment">#3包括5不包括</span></span><br><span class="line">print(new_string)</span><br><span class="line">a = <span class="string">&#x27;大家好这是我的联系电话110120119,大家有空请别联系我&#x27;</span></span><br><span class="line">new_a = a[<span class="number">11</span>:<span class="number">20</span>]<span class="comment">#11包括20不包括</span></span><br><span class="line">print(new_a)</span><br></pre></td></tr></table></figure>
 
 
 </li>
@@ -411,22 +398,15 @@ new_a <span class="token operator">=</span> a<span class="token punctuation">[</
 <h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
 <p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
 </blockquote>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">5.5</span><span class="token punctuation">,</span> <span class="token boolean">True</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token operator">+</span><span class="token number">3j</span>
-<span class="token keyword">print</span> <span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">)</span>
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token builtin">type</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token builtin">type</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>，<span class="token builtin">type</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#这里用到了type这个函数</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a,b,c,d = <span class="number">20</span>, <span class="number">5.5</span>, <span class="literal">True</span>, <span class="number">4</span>+<span class="number">3j</span></span><br><span class="line"><span class="built_in">print</span> (a,b,c,d)</span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">type</span>(a),<span class="built_in">type</span>(b),<span class="built_in">type</span>(c)，<span class="built_in">type</span>(d))<span class="comment">#这里用到了type这个函数</span></span><br></pre></td></tr></table></figure>
 
 
 <h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
 <li><p>列表的建立</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1111</span><span class="token punctuation">,</span><span class="token string">'2222'</span><span class="token punctuation">,</span><span class="token number">3.333</span><span class="token punctuation">,</span><span class="token boolean">True</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'This is a list'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token boolean">None</span><span class="token punctuation">]</span> <span class="token comment">#列表的建立用[]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1111</span>,<span class="string">&#x27;2222&#x27;</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">&#x27;This is a list&#x27;</span>],<span class="literal">None</span>] <span class="comment">#列表的建立用[]</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>列表的遍历（迭代）</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">for</span> one <span class="token keyword">in</span> list_1<span class="token punctuation">:</span><span class="token comment">#用这种方式遍历</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>one<span class="token punctuation">)</span>
-```
-<span class="token keyword">for</span> one <span class="token keyword">in</span> list_1<span class="token punctuation">:</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>one<span class="token punctuation">)</span><span class="token punctuation">)</span>
-```<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:<span class="comment">#用这种方式遍历</span></span><br><span class="line">	print(one)</span><br><span class="line">```</span><br><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:</span><br><span class="line">	print(<span class="built_in">type</span>(one))</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
 
 
 
@@ -434,12 +414,7 @@ new_a <span class="token operator">=</span> a<span class="token punctuation">[</
 </ol>
 <ol start="3">
 <li><p>列表的一些操作</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1<span class="token punctuation">.</span>reverse<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span>
-list_1<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">'我添加了一个元素'</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span>
-list_1<span class="token punctuation">.</span>remove<span class="token punctuation">(</span><span class="token boolean">None</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list_1.reverse()</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.append(<span class="string">&#x27;我添加了一个元素&#x27;</span>)</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.remove(<span class="literal">None</span>)</span><br><span class="line">print(list_1)</span><br></pre></td></tr></table></figure>
 
 
 
@@ -448,13 +423,10 @@ list_1<span class="token punctuation">.</span>remove<span class="token punctuati
 </ol>
 <h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
 <li><p>元组的建立</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">tuple_1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1111</span><span class="token punctuation">,</span><span class="token string">'2222'</span><span class="token punctuation">,</span><span class="token number">3.333</span><span class="token punctuation">,</span><span class="token boolean">True</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'This is a list'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token boolean">None</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#元组的建立用()</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tuple_1 = (<span class="number">1111</span>,<span class="string">&#x27;2222&#x27;</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">&#x27;This is a list&#x27;</span>],<span class="literal">None</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))<span class="comment">#元组的建立用()</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>元组和列表不同之处</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">List <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span>
-Tuple <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span>
-List<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">5</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>List<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">Tuple = (<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line">List[<span class="number">0</span>] = <span class="number">5</span></span><br><span class="line">print(List)</span><br></pre></td></tr></table></figure>
 
 
 
@@ -463,23 +435,14 @@ List<span class="token punctuation">[</span><span class="token number">0</span><
 </ol>
 <h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
 <li><p>集合的建立</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">set_1 <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">&#125;</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>set_1<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set_1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">1</span>&#125;</span><br><span class="line">print(set_1)</span><br></pre></td></tr></table></figure>
 
 
 </li>
 </ol>
 <h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
 <li><p>字典的建立</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">slogan<span class="token operator">=</span> <span class="token punctuation">&#123;</span>
-	<span class="token string">'Adidas'</span><span class="token punctuation">:</span><span class="token string">'没有不可能（impossible is nothing)'</span><span class="token punctuation">,</span>
-	<span class="token string">'Nike'</span> <span class="token punctuation">:</span><span class="token string">'Just do it'</span><span class="token punctuation">,</span>
-	<span class="token string">'Lining'</span><span class="token punctuation">:</span><span class="token string">'一切皆有可能'</span><span class="token punctuation">,</span>
-	<span class="token string">'4399'</span>	<span class="token punctuation">:</span><span class="token string">'一切皆有可能'</span><span class="token punctuation">,</span>
-	<span class="token comment"># '4399'	:"4399v587"</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>slogan<span class="token punctuation">[</span><span class="token string">'Lining'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>slogan<span class="token punctuation">[</span><span class="token string">'4399'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">slogan= &#123;</span><br><span class="line">	<span class="string">&#x27;Adidas&#x27;</span>:<span class="string">&#x27;没有不可能（impossible is nothing)&#x27;</span>,</span><br><span class="line">	<span class="string">&#x27;Nike&#x27;</span> :<span class="string">&#x27;Just do it&#x27;</span>,</span><br><span class="line">	<span class="string">&#x27;Lining&#x27;</span>:<span class="string">&#x27;一切皆有可能&#x27;</span>,</span><br><span class="line">	<span class="string">&#x27;4399&#x27;</span>	:<span class="string">&#x27;一切皆有可能&#x27;</span>,</span><br><span class="line">	<span class="comment"># &#x27;4399&#x27;	:&quot;4399v587&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">print(slogan[<span class="string">&#x27;Lining&#x27;</span>])</span><br><span class="line">print(slogan[<span class="string">&#x27;4399&#x27;</span>])</span><br></pre></td></tr></table></figure>
 
 
 
@@ -487,67 +450,29 @@ List<span class="token punctuation">[</span><span class="token number">0</span><
 </li>
 </ol>
 <hr>
-<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">find_boyfriend</span><span class="token punctuation">(</span>face<span class="token punctuation">,</span>height<span class="token punctuation">,</span>money<span class="token punctuation">)</span><span class="token punctuation">:</span>
-	<span class="token keyword">if</span> face <span class="token operator">></span> <span class="token number">85</span><span class="token punctuation">:</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"oh he is my boyfriend"</span><span class="token punctuation">)</span>
-		<span class="token keyword">return</span>
-	<span class="token keyword">elif</span> height <span class="token operator">></span> <span class="token number">185</span><span class="token punctuation">:</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"oh he is my boyfriend"</span><span class="token punctuation">)</span>
-		<span class="token keyword">return</span>
-	<span class="token keyword">elif</span> money <span class="token operator">></span> <span class="token number">100000000000000</span><span class="token punctuation">:</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"OH God! He must be the one!!!!"</span><span class="token punctuation">)</span>
-		<span class="token keyword">return</span>
-	<span class="token keyword">else</span><span class="token punctuation">:</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Who are you?"</span><span class="token punctuation">)</span>
-
-find_boyfriend<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token number">170</span><span class="token punctuation">,</span><span class="token number">11</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_boyfriend</span>(<span class="params">face,height,money</span>):</span></span><br><span class="line">	<span class="keyword">if</span> face &gt; <span class="number">85</span>:</span><br><span class="line">		print(<span class="string">&quot;oh he is my boyfriend&quot;</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> height &gt; <span class="number">185</span>:</span><br><span class="line">		print(<span class="string">&quot;oh he is my boyfriend&quot;</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> money &gt; <span class="number">100000000000000</span>:</span><br><span class="line">		print(<span class="string">&quot;OH God! He must be the one!!!!&quot;</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		print(<span class="string">&quot;Who are you?&quot;</span>)</span><br><span class="line"></span><br><span class="line">find_boyfriend(<span class="number">12</span>,<span class="number">170</span>,<span class="number">11</span>)</span><br></pre></td></tr></table></figure>
 
 <h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
 <li><p>语义化</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">List <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token keyword">in</span> List<span class="token punctuation">)</span>
-wo <span class="token operator">=</span> <span class="token string">"帅"</span>
-<span class="token keyword">if</span> wo <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token string">"丑"</span><span class="token punctuation">:</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"我很帅"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">print(<span class="number">1</span> <span class="keyword">in</span> List)</span><br><span class="line">wo = <span class="string">&quot;帅&quot;</span></span><br><span class="line"><span class="keyword">if</span> wo <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">&quot;丑&quot;</span>:</span><br><span class="line">	print(<span class="string">&quot;我很帅&quot;</span>)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>列表解析</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token punctuation">[</span>i <span class="token keyword">for</span> i <span class="token keyword">in</span> List<span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
-
-```
-b <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> List<span class="token punctuation">:</span>
-    b<span class="token punctuation">.</span>append<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
-```<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">b = [i <span class="keyword">for</span> i <span class="keyword">in</span> List]</span><br><span class="line">print(b)</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">b = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>值交换</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">,</span>b <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">,</span><span class="token number">10</span>
-temp <span class="token operator">=</span> b
-b <span class="token operator">=</span> a
-a<span class="token operator">=</span> temp
-<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span>
-a<span class="token punctuation">,</span>b <span class="token operator">=</span> b<span class="token punctuation">,</span>a
-<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">temp = b</span><br><span class="line">b = a</span><br><span class="line">a= temp</span><br><span class="line">print(a,b)</span><br><span class="line">a,b = b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>join函数</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"这是一堂"</span><span class="token punctuation">,</span><span class="token string">'严肃的'</span><span class="token punctuation">,</span><span class="token string">"python课程"</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"哈哈哈哈啊哈哈"</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">&quot;这是一堂&quot;</span>,<span class="string">&#x27;严肃的&#x27;</span>,<span class="string">&quot;python课程&quot;</span>]</span><br><span class="line">print(<span class="string">&quot;哈哈哈哈啊哈哈&quot;</span>.join(a))</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>列表或者字符串逆序</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token string">'123456789'</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="string">&#x27;123456789&#x27;</span></span><br><span class="line">print(b[<span class="number">2</span>::<span class="number">3</span>])</span><br><span class="line">print(b[::-<span class="number">1</span>])<span class="comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>比大小</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token number">10</span>
-<span class="token number">3</span> <span class="token operator">&lt;</span> b <span class="token keyword">and</span> b <span class="token operator">&lt;</span> <span class="token number">12</span> 
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token operator">&lt;</span><span class="token number">10</span><span class="token operator">&lt;</span><span class="token number">12</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token operator">&lt;</span><span class="token number">10</span><span class="token operator">&lt;</span><span class="token number">9</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="number">10</span></span><br><span class="line"><span class="number">3</span> &lt; b <span class="keyword">and</span> b &lt; <span class="number">12</span> </span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">10</span>&lt;<span class="number">12</span>)</span><br><span class="line">print(<span class="number">4</span>&lt;<span class="number">10</span>&lt;<span class="number">9</span>)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>列表和集合互用，消除重复元素</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">set</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>]</span><br><span class="line">print(<span class="built_in">list</span>(<span class="built_in">set</span>(list_1)))</span><br></pre></td></tr></table></figure>
 
 
 

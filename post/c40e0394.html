@@ -41,7 +41,7 @@
 <meta property="og:image" content="http://qiniu.dcts.top/%E8%AE%A1%E7%AE%97%E5%8D%B7%E7%A7%AF%E5%90%8E%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.jpg">
 <meta property="og:image" content="http://qiniu.dcts.top/Alexnet.jpg">
 <meta property="article:published_time" content="2018-10-30T14:21:27.000Z">
-<meta property="article:modified_time" content="2019-09-04T02:37:42.825Z">
+<meta property="article:modified_time" content="2020-12-10T08:10:53.766Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="Alexnet">
 <meta property="article:tag" content="CNN">
@@ -244,7 +244,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -485,13 +485,8 @@
 </li>
 <li><p>一些函数的参数介绍</p>
 <ol>
-<li><pre><code class="python">nn.Conv2d(                     # input shape (1, 28, 28)    
-          in_channels=1,              # input height
-          out_channels=16,            # n_filters
-          kernel_size=5,              # filter size
-          stride=1,                   # filter movement/step
-          padding=2 ),     # if want same width and length of this image after con2d,                             padding=(kernel_size-1)/2 if stride=1
-                               # output shape (16, 28, 28)</code></pre>
+<li><p>Conv2d</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> nn.Conv2d(                 	<span class="comment"># input shape (1, 28, 28)	</span></span><br><span class="line">           in_channels=<span class="number">1</span>,              <span class="comment"># input height</span></span><br><span class="line">           out_channels=<span class="number">16</span>,            <span class="comment"># n_filters</span></span><br><span class="line">           kernel_size=<span class="number">5</span>,              <span class="comment"># filter size</span></span><br><span class="line">           stride=<span class="number">1</span>,                   <span class="comment"># filter movement/step</span></span><br><span class="line">           padding=<span class="number">2</span> ) <span class="comment"># if want same width and length of this image after con2d. </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Padding=(kernel_size-1)/2 if stride=1</span></span><br><span class="line"><span class="comment"># output shape (16, 28, 28)</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </li>
 <li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Z_lbj/article/details/79766690">torch.max()</a></p>
 </li>

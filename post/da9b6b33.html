@@ -39,7 +39,7 @@
 <meta property="og:image" content="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg">
 <meta property="og:image" content="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png">
 <meta property="article:published_time" content="2019-11-22T06:27:21.000Z">
-<meta property="article:modified_time" content="2019-11-22T17:04:29.966Z">
+<meta property="article:modified_time" content="2020-12-10T08:36:57.311Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="笔记">
 <meta property="article:tag" content="操作系统">
@@ -220,7 +220,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%86%85%E6%A0%B8%E6%80%81%E5%92%8C%E7%94%A8%E6%88%B7%E6%80%81-%E7%89%B9%E6%9D%83%E7%BA%A7"><span class="nav-text">1.内核态和用户态,特权级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%BB%80%E4%B9%88%E6%98%AF%E5%8D%95%E4%BD%93%E5%BC%8F%E7%BB%93%E6%9E%84"><span class="nav-text">2.什么是单体式结构?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3"><span class="nav-text">部分源码理解</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-task-struct"><span class="nav-text">1. task_struct</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-list-head"><span class="nav-text">2. list_head</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%B8%80%E4%BA%9B%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3"><span class="nav-text">3. 一些函数的理解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-list-for-each"><span class="nav-text">3.1 list_for_each</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-struct-pid"><span class="nav-text">3.2 struct pid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-pid-task"><span class="nav-text">3.3 pid_task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-container-of"><span class="nav-text">3.5 container_of</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-for-each-process"><span class="nav-text">3.6 for_each_process</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-next-task"><span class="nav-text">3.6 next_task</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9C%B0%E5%9D%80"><span class="nav-text">代码地址</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%86%85%E6%A0%B8%E6%80%81%E5%92%8C%E7%94%A8%E6%88%B7%E6%80%81-%E7%89%B9%E6%9D%83%E7%BA%A7"><span class="nav-text">1.内核态和用户态,特权级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%BB%80%E4%B9%88%E6%98%AF%E5%8D%95%E4%BD%93%E5%BC%8F%E7%BB%93%E6%9E%84"><span class="nav-text">2.什么是单体式结构?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%AE%E5%86%85%E6%A0%B8%E7%BB%93%E6%9E%84"><span class="nav-text">3.什么是微内核结构</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3"><span class="nav-text">部分源码理解</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-task-struct"><span class="nav-text">1. task_struct</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-list-head"><span class="nav-text">2. list_head</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%B8%80%E4%BA%9B%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3"><span class="nav-text">3. 一些函数的理解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-list-for-each"><span class="nav-text">3.1 list_for_each</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-struct-pid"><span class="nav-text">3.2 struct pid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-pid-task"><span class="nav-text">3.3 pid_task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-4-list-entry"><span class="nav-text">3.4 list_entry</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-container-of"><span class="nav-text">3.5 container_of</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-for-each-process"><span class="nav-text">3.6 for_each_process</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-next-task"><span class="nav-text">3.6 next_task</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9C%B0%E5%9D%80"><span class="nav-text">代码地址</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -242,7 +242,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -368,145 +368,77 @@
 <p>在内核态下，CPU可执行任何指令，在用户态下CPU只能执行非特权指令。当CPU处于内核态，可以随意进入用户态；而当CPU处于用户态，只能通过<strong>中断的方式</strong>进入内核态。一般程序一开始都是运行于用户态，当程序需要使用系统资源时，就必须通过调用软中断进入内核态. </p>
 <p> Intel x86架构的cpu一共有0～4四个特权级，0级最高，3级最低，硬件上在执行每条指令时都会对指令所具有的特权级做相应的检查。硬件已经提供了一套特权级使用的相关机制，软件自然要好好利用，这属于操作系统要做的事情，<strong>对于UNIX/LINUX来说，只使用了0级特权级别和3级特权级</strong>。也就是说在UNIX/LINUX系统中，一条工作在0级特权级的指令具有了CPU能提供的最高权力，而一条工作在3级特权的指令具有CPU提供的最低或者说最基本权力 </p>
 <h3 id="2-什么是单体式结构"><a href="#2-什么是单体式结构" class="headerlink" title="2.什么是单体式结构?"></a>2.什么是单体式结构?</h3><p>大内核，将OS的全部功能都做进内核中，包括调度、文件系统、网络、设备驱动器、存储管理。比如设备驱动管理、资源分配、进程间通信、进程间切换管理、文件系统、存储管理、网络等。单体内核是指在一大块代码中实际包含了所有操作系统功能，并作为一个单一进程运行，具有唯一地址空间。大部分UNIX（包括Linxu）系统都采用的单体内核。</p>
-<p>###3.什么是微内核结构</p>
-<p>微内核只是将OS中最核心的功能加入内核，包括IPC通信、地址空间分配和基本的调度，这些东西处在内核态运行。如：WINCE系统。而其他功能如设备驱动、文件系统、存储管理、网络等作为一个个处于用户态的进程而向外提供某种服务来实现，而且这些处于用户态的进程可以针对某些特定的应用和环境需求进行定制</p>
+<h3 id="3-什么是微内核结构"><a href="#3-什么是微内核结构" class="headerlink" title="3.什么是微内核结构"></a>3.什么是微内核结构</h3><p>微内核只是将OS中最核心的功能加入内核，包括IPC通信、地址空间分配和基本的调度，这些东西处在内核态运行。如：WINCE系统。而其他功能如设备驱动、文件系统、存储管理、网络等作为一个个处于用户态的进程而向外提供某种服务来实现，而且这些处于用户态的进程可以针对某些特定的应用和环境需求进行定制</p>
 <h2 id="部分源码理解"><a href="#部分源码理解" class="headerlink" title="部分源码理解"></a>部分源码理解</h2><h3 id="1-task-struct"><a href="#1-task-struct" class="headerlink" title="1. task_struct"></a>1. task_struct</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/npy_lp/article/details/7292563">1.Linux进程管理之task_struct结构体（上）</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/npy_lp/article/details/7335187">2.Linux进程管理之task_struct结构体（下）</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shihuvini/p/10043251.html">Linux pid与tgid概念</a></p>
 <ol>
 <li><p>表示进程亲属关系的成员  </p>
- <pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>real_parent<span class="token punctuation">;</span> <span class="token comment">/* real parent process */</span>
-<span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>parent<span class="token punctuation">;</span> <span class="token comment">/* recipient of SIGCHLD, wait4() reports */</span>
-<span class="token keyword">struct</span> <span class="token class-name">list_head</span> children<span class="token punctuation">;</span>	<span class="token comment">/* list of my children */</span>
-<span class="token keyword">struct</span> <span class="token class-name">list_head</span> sibling<span class="token punctuation">;</span>	<span class="token comment">/* linkage in my parent's children list */</span>
-<span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>group_leader<span class="token punctuation">;</span>	<span class="token comment">/* threadgroup leader */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+ <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">real_parent</span>;</span> <span class="comment">/* real parent process */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">parent</span>;</span> <span class="comment">/* recipient of SIGCHLD, wait4() reports */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">children</span>;</span>	<span class="comment">/* list of my children */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">sibling</span>;</span>	<span class="comment">/* linkage in my parent&#x27;s children list */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">group_leader</span>;</span>	<span class="comment">/* threadgroup leader */</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>进程名</p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">char comm[TASK_COMM_LEN];<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> comm[TASK_COMM_LEN];</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
-<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><pre class="line-numbers language-C" data-language="C"><code class="language-C">#kernel&#x2F;inclue&#x2F;linux&#x2F;types.h 
-struct list_head &#123;
-	struct list_head *next, *prev;
-&#125;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#kernel/inclue/linux/types.h </span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> &#123;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> *<span class="title">next</span>, *<span class="title">prev</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg" alt="这里写图片描述"></p>
-<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#head是一个list_head</span>
-<span class="token comment">#define list_for_each(pos, head) \</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span>pos <span class="token operator">=</span> <span class="token punctuation">(</span>head<span class="token punctuation">)</span>-<span class="token operator">></span>next<span class="token punctuation">;</span> pos <span class="token operator">!=</span> <span class="token punctuation">(</span>head<span class="token punctuation">)</span><span class="token punctuation">;</span>pos <span class="token operator">=</span> pos-<span class="token operator">></span>next<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg"></p>
+<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// head是一个list_head</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_for_each(pos, head) \</span></span><br><span class="line"><span class="keyword">for</span> (pos = (head)-&gt;next; pos != (head);pos = pos-&gt;next)</span><br></pre></td></tr></table></figure>
 
 <p>它实际上是一个 for 循环，利用传入的pos 作为循环变量，从表头 head开始，逐项向后（next方向）移动 pos ，直至又回到 head </p>
 <p>注意：此宏必要把list_head放在数据结构第一项成员，至此，它的地址也就是结构变量的地址。</p>
-<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg" alt="这里写图片描述"></p>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg"></p>
 <h4 id="3-2-struct-pid"><a href="#3-2-struct-pid" class="headerlink" title="3.2 struct pid"></a>3.2 struct pid</h4><p>很多时候在写内核模块的时候，需要通过进程的<strong>pid</strong>(int)找到对应进程的<strong>task_struct</strong>,其中首先就需要通过进程的pid找到进程的<strong>struct pid</strong>，然后再通过<strong>struct pid</strong>找到进程的<strong>task_struct</strong>,实现从pid到task_struct的内核函数struct pid 是进程描述符，在<code>include/linux/pid.h</code> 中，其定义如下：</p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid
-&#123;
-        atomic_t count;
-        unsigned int level;
-        &#x2F;* lists of tasks that use this pid *&#x2F;
-        struct hlist_head tasks[PIDTYPE_MAX];
-        struct rcu_head rcu;
-        struct upid numbers[1];
-&#125;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">pid</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">        <span class="keyword">atomic_t</span> count;</span><br><span class="line">        <span class="keyword">unsigned</span> <span class="keyword">int</span> level;</span><br><span class="line">        <span class="comment">/* lists of tasks that use this pid */</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_head</span> <span class="title">tasks</span>[<span class="title">PIDTYPE_MAX</span>];</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">rcu_head</span> <span class="title">rcu</span>;</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">upid</span> <span class="title">numbers</span>[1];</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><code>struct pid *find_get_pid(pid_t nr)</code></li>
 </ul>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">&#x2F;&#x2F;是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1
-struct pid *find_get_pid(pid_t nr)  
-&#123;  
-    struct pid *pid; 
-    rcu_read_lock();  
-    pid &#x3D; get_pid(find_vpid(nr));  
-    rcu_read_unlock();  
-    return pid;  
-&#125;  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1</span></span><br><span class="line"><span class="function">struct pid *<span class="title">find_get_pid</span><span class="params">(<span class="keyword">pid_t</span> nr)</span>  </span></span><br><span class="line"><span class="function"></span>&#123;  </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">pid</span> *<span class="title">pid</span>;</span> </span><br><span class="line">    rcu_read_lock();  </span><br><span class="line">    pid = get_pid(find_vpid(nr));  </span><br><span class="line">    rcu_read_unlock();  </span><br><span class="line">    <span class="keyword">return</span> pid;  </span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure>
 
 <p> <code>find_get_pid</code>和<code>find_vpid</code>有一点差异，就是使用<code>find_get_pid</code>将返回的<code>struct pid</code>中的字段count加1，而<code>find_vpid</code>没有加1 </p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">static inline struct pid *get_pid(struct pid *pid)
-&#123;
-        if (pid)
-                atomic_inc(&amp;pid-&gt;count);
-        return pid;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">inline</span> struct pid *<span class="title">get_pid</span><span class="params">(struct pid *pid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pid)</span><br><span class="line">                atomic_inc(&amp;pid-&gt;count);</span><br><span class="line">        <span class="keyword">return</span> pid;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><code>find_vpid</code>和<code>find_pid_ns</code>是一样的</p>
 <ul>
 <li><code>struct pid *find_vpid(int nr) </code></li>
 </ul>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid *find_vpid(int nr)
-&#123;
-        return find_pid_ns(nr, task_active_pid_ns(current));
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_vpid</span><span class="params">(<span class="keyword">int</span> nr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> find_pid_ns(nr, task_active_pid_ns(current));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><code>struct pid *find_pid_ns(int nr, struct pid_namespace *ns)</code></li>
 </ul>
 <p><a target="_blank" rel="noopener" href="http://blog.chinaunix.net/uid-27033491-id-3291637.html">find_pid_ns详解</a></p>
-<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid *find_pid_ns(int nr, struct pid_namespace *ns)
-&#123;
-        return idr_find(&amp;ns-&gt;idr, nr);
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_pid_ns</span><span class="params">(<span class="keyword">int</span> nr, struct pid_namespace *ns)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> idr_find(&amp;ns-&gt;idr, nr);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-
-<p> <img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png" alt="img"> </p>
+<p> <img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png"> </p>
 <h4 id="3-3-pid-task"><a href="#3-3-pid-task" class="headerlink" title="3.3 pid_task"></a>3.3 pid_task</h4><p>根据PID(结构体)查找task_struct(PCB),一般<code>p = pid_task(find_vpid(pid), PIDTYPE_PID);</code></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span><span class="token function">pid_task</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">pid</span> <span class="token operator">*</span>pid<span class="token punctuation">,</span> <span class="token keyword">enum</span> <span class="token class-name">pid_type</span> type<span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    <span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>result <span class="token operator">=</span> <span class="token constant">NULL</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>pid<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        <span class="token keyword">struct</span> <span class="token class-name">hlist_node</span> <span class="token operator">*</span>first<span class="token punctuation">;</span>
-        first <span class="token operator">=</span> <span class="token function">rcu_dereference_check</span><span class="token punctuation">(</span><span class="token function">hlist_first_rcu</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>pid<span class="token operator">-></span>tasks<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-        <span class="token function">lockdep_tasklist_lock_is_held</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>first<span class="token punctuation">)</span>
-            result <span class="token operator">=</span> <span class="token function">hlist_entry</span><span class="token punctuation">(</span>first<span class="token punctuation">,</span> <span class="token keyword">struct</span> <span class="token class-name">task_struct</span><span class="token punctuation">,</span> pids<span class="token punctuation">[</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">.</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> result<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct task_struct *<span class="title">pid_task</span><span class="params">(struct pid *pid, <span class="keyword">enum</span> pid_type type)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">result</span> =</span> <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">if</span> (pid) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_node</span> *<span class="title">first</span>;</span></span><br><span class="line">        first = rcu_dereference_check(hlist_first_rcu(&amp;pid-&gt;tasks[type]),</span><br><span class="line">        lockdep_tasklist_lock_is_held());</span><br><span class="line">        <span class="keyword">if</span> (first)</span><br><span class="line">            result = hlist_entry(first, struct task_struct, pids[(type)].node);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>####3.4 list_entry</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#list_entry 就是 container_of </span>
-<span class="token comment">#define list_entry(ptr, type, member) \</span>
-	container_of<span class="token punctuation">(</span>ptr, type, member<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h4 id="3-4-list-entry"><a href="#3-4-list-entry" class="headerlink" title="3.4 list_entry"></a>3.4 list_entry</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// list_entry 就是 container_of </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_entry(ptr, type, member) \</span></span><br><span class="line">	container_of(ptr, type, member)</span><br></pre></td></tr></table></figure>
 
 <p> 那<code>container_of(ptr, type, member)</code>,又是什么呢</p>
 <h4 id="3-5-container-of"><a href="#3-5-container-of" class="headerlink" title="3.5 container_of"></a>3.5 container_of</h4><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/hicjiajia/archive/2012/07/01/2571791.html">资料</a> </p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zsj100213/article/details/81843523">通俗理解</a></p>
 <p><code>container_of(ptr, type, member)</code></p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define container_of(ptr, type, member) (&#123;			\</span>
-        const typeof<span class="token punctuation">(</span> <span class="token punctuation">((</span>type *<span class="token punctuation">)</span><span class="token number">0</span><span class="token punctuation">)</span>-<span class="token operator">></span>member <span class="token punctuation">)</span> *__mptr <span class="token operator">=</span> <span class="token punctuation">(</span>ptr<span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token punctuation">\</span>
-        <span class="token punctuation">(</span>type *<span class="token punctuation">)</span><span class="token punctuation">(</span> <span class="token punctuation">(</span>char *<span class="token punctuation">)</span>__mptr - offsetof<span class="token punctuation">(</span>type,member<span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>	
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> container_of(ptr, type, member) (&#123;			\</span></span><br><span class="line">        <span class="function"><span class="keyword">const</span> <span class="title">typeof</span><span class="params">( ((type *)<span class="number">0</span>)-&gt;member )</span> *__mptr </span>= (ptr);	\</span><br><span class="line">        (type *)( (<span class="keyword">char</span> *)__mptr - offsetof(type,member) );&#125;)	</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p> container_of()的作用就是通过一个结构变量中一个成员的地址找到这个结构体变量的首地址</p>
 <p>比如</p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c">Struct test
-<span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> i<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> j<span class="token punctuation">;</span>
-    <span class="token keyword">char</span> k<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-Struct test temp<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Struct test</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">int</span> j;</span><br><span class="line">    <span class="keyword">char</span> k;</span><br><span class="line">&#125;;</span><br><span class="line">Struct test temp;</span><br></pre></td></tr></table></figure>
 
 <p>现在呢如果我想通过<code>temp.j</code>的地址找到<code>temp</code>的首地址就可以使用<code>container_of(&amp;(temp.j),struct test,j);</code> </p>
 <p>如果我能知道<code>temp.j</code>的地址A,也能知道<code>temp.j</code>的偏移量B,那么A-B就是temp的首地址</p>
 <p>网上有一种很形象的比喻:<code>x-&gt;member = ptr</code>，求 x (结构体)的地址是多少</p>
-<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define for_each_process(p) \</span>
-	<span class="token keyword">for</span> <span class="token punctuation">(</span>p <span class="token operator">=</span> <span class="token operator">&amp;</span>init_task <span class="token punctuation">;</span> <span class="token punctuation">(</span>p <span class="token operator">=</span> next_task<span class="token punctuation">(</span>p<span class="token punctuation">))</span> <span class="token operator">!=</span> <span class="token operator">&amp;</span>init_task <span class="token punctuation">;</span> <span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> for_each_process(p) \</span></span><br><span class="line">	<span class="keyword">for</span> (p = &amp;init_task ; (p = next_task(p)) != &amp;init_task ; )</span><br></pre></td></tr></table></figure>
 
 <p>就是个for循环,其中<code>p = next_task(p)</code>,这个<code>next_task</code>是怎么实现的呢</p>
 <h4 id="3-6-next-task"><a href="#3-6-next-task" class="headerlink" title="3.6 next_task"></a>3.6 next_task</h4><p>Linux内核链表,其中next_task也是宏循环控制语句，在<code>/include/linux/sched/signal.h</code>中：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define next_task(p) \</span>
-	list_entry_rcu<span class="token punctuation">((</span>p<span class="token punctuation">)</span>-<span class="token operator">></span>tasks.next, struct task_struct, tasks<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> next_task(p) \</span></span><br><span class="line">	list_entry_rcu((p)-&gt;tasks.next, struct task_struct, tasks)</span><br></pre></td></tr></table></figure>
 
 <p>而task_struct中有：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">struct task_struct <span class="token punctuation">&#123;</span>    
-<span class="token punctuation">..</span>.
-	struct list_head		tasks<span class="token punctuation">;</span>
-<span class="token punctuation">..</span>.
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> &#123;</span>    </span><br><span class="line">...</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span>		<span class="title">tasks</span>;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>这里的<code>list_entry_rcu</code>作用和<code>list_entry</code>是一样的,我通过task_struct中, 1️⃣ tasks这个成员变量,2️⃣tasks这个成员变量的地址<code>(p)-&gt;tasks.next</code>,得到下一个task_struct的首地址,即下一个进程</p>
 <h2 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h2><p><a target="_blank" rel="noopener" href="https://github.com/TD21forever/HDU_operating_system">杭电操作系统实验二代码</a></p>

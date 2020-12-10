@@ -36,7 +36,7 @@
 <meta property="og:description" content="从原理、代码讲解、代码实现三个方面记录Faster-Rcnn学习时的点点滴滴">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-03-21T14:49:11.000Z">
-<meta property="article:modified_time" content="2020-03-21T14:56:03.305Z">
+<meta property="article:modified_time" content="2020-12-10T08:23:09.153Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="机器学习">
 <meta property="article:tag" content="Faster-Rcnn">
@@ -239,7 +239,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -324,7 +324,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
+          <a href="/categories/%E4%B8%83%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">七分技术</span></a>
         </span>
     </span>
 
@@ -401,34 +401,20 @@
 <li><p>平台：Ubantu<strong>（由于需要编译 win10下编译实在是太麻烦，建议Linux用于选择此份代码）</strong></p>
 </li>
 <li><p>环境：Pytorch1.2.0； torchvision==0.4.0; CUDA 9.2 或者 10.0（<strong>虽然博客说明是Pytorch1.0.0，但实测Pytorch1.2.0完全没问题，安装方法就按照官网，按如下指令安装）</strong></p>
-<pre class="line-numbers language-none"><code class="language-none"># CUDA 9.2
-conda install pytorch&#x3D;&#x3D;1.2.0 torchvision&#x3D;&#x3D;0.4.0 cudatoolkit&#x3D;9.2 -c pytorch
-
-# CUDA 10.0
-conda install pytorch&#x3D;&#x3D;1.2.0 torchvision&#x3D;&#x3D;0.4.0 cudatoolkit&#x3D;10.0 -c pytorch
-
-# CPU Only
-conda install pytorch&#x3D;&#x3D;1.2.0 torchvision&#x3D;&#x3D;0.4.0 cpuonly -c pytorch<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># CUDA 9.2</span></span><br><span class="line">conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=9.2 -c pytorch</span><br><span class="line"></span><br><span class="line"><span class="comment"># CUDA 10.0</span></span><br><span class="line">conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch</span><br><span class="line"></span><br><span class="line"><span class="comment"># CPU Only</span></span><br><span class="line">conda install pytorch==1.2.0 torchvision==0.4.0 cpuonly -c pytorch</span><br></pre></td></tr></table></figure>
 
 <p>我安装的是CUDA10的版本。<strong>注意</strong>，官方例子中 -c 会使得无法使用清华的源，<strong>因此，实际操作时</strong></p>
-<pre class="line-numbers language-none"><code class="language-none"># CUDA 10.0
-conda install pytorch&#x3D;&#x3D;1.2.0 torchvision&#x3D;&#x3D;0.4.0 cudatoolkit&#x3D;10.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># CUDA 10.0</span></span><br><span class="line">conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
 <p>遇到的一些问题：</p>
 <ul>
 <li><p><strong>注意一定要切换分支！！！</strong> 博客中也提到了，如果使用Pytorch1.0以上，需要切换分支！</p>
-<pre class="line-numbers language-none"><code class="language-none">git checkout pytorch-1.0<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><code>git checkout pytorch-1.0</code></p>
 </li>
-<li><pre><code>#进入faster-rcnn.pytorch文件，同时在内创建一个data文件夹
-cd faster-rcnn.pytorch &amp;&amp; mkdir data
-#安装依赖的pyhon包，这一步若是报错说没有权限访问安装就在开头加上 sudo
-pip install -r requirements.txt
-#下载coco kit，并make
-git clone https://github.com/pdollar/coco.git
-cd coco/PythonAPI
-make</code></pre>
+<li><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#进入faster-rcnn.pytorch文件，同时在内创建一个data文件夹</span></span><br><span class="line">cd faster-rcnn.pytorch &amp;&amp; mkdir data</span><br><span class="line"><span class="comment">#安装依赖的pyhon包，这一步若是报错说没有权限访问安装就在开头加上 sudo</span></span><br><span class="line">pip install -r requirements.txt</span><br><span class="line"><span class="comment">#下载coco kit，并make</span></span><br><span class="line">git clone https:<span class="regexp">//gi</span>thub.com<span class="regexp">/pdollar/</span>coco.git</span><br><span class="line">cd coco/PythonAPI</span><br><span class="line">make</span><br></pre></td></tr></table></figure>
+
 <p>这一步博客没讲清楚，对coco的PythonAPI编译以后（make了以后），将<code>/PythonAPI/pycocotools</code> 这个文件夹，复制到<code>faster-rcnn.pytorch\lib</code> 下，对<code>lib</code>下的<code>pycocotools</code> 的文件夹进行替换！ 原因就是lib下的pycocotools太老了，有一些功能用不了了！</p>
 </li>
 <li><p>然后继续按照博客的来</p>
@@ -436,10 +422,7 @@ make</code></pre>
 <li><p>这份代码可以使用VGG16，也可以使用ResNet101，都需要预训练参数（<strong>应该是在ImageNet中训练的特征提取网络</strong>），博客中给了下载链接。我使用的是VGG16的预训练模型，下载好的文件名为<code>vgg16_caffe.pth</code> ，约有527MB大小。</p>
 </li>
 <li><p>对于数据的准备，博客中并没有说明如何制作数据，如何制作.txt后缀的文件，可以参考Keras版本的实现，使用keras版本中<code>voc2faster-rcnn.py</code>文件即可生成四个.txt。(但我在实现的时候，只设置了训练集也就是说只有trainval.txt里面是存在数据的)</p>
-<p><code>├── test.txt    </code></p>
-<p><code>      ├── train.txt   </code>       </p>
-<p><code>├── trainval.txt  </code>       </p>
-<p><code>     └── val.txt</code></p>
+  <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">├── test.txt    </span><br><span class="line">├── train.txt           </span><br><span class="line">├── trainval.txt         </span><br><span class="line">└── val.txt </span><br></pre></td></tr></table></figure>
 </li>
 <li><p><code>from scipy.misc import imread</code>出现错误,这点在博客中没有提及</p>
 <p>这是因为scipy库中的imread要被弃用也就是不能用了，这时需要改成这样<code>from imageio import imread</code> </p>

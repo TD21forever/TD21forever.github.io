@@ -44,7 +44,7 @@
 <meta property="og:image" content="http://qiniu.dcts.top/52F_FX$7PQ5X60FQ7H66JTF.jpg">
 <meta property="og:image" content="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80%E5%8E%9F%E5%9E%8B%E5%A3%B0%E6%98%8E.png">
 <meta property="article:published_time" content="2019-10-18T18:10:26.000Z">
-<meta property="article:modified_time" content="2019-10-25T07:54:48.944Z">
+<meta property="article:modified_time" content="2020-12-10T09:10:12.272Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="笔记">
 <meta property="article:tag" content="操作系统">
@@ -247,7 +247,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -356,7 +356,7 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
+      <span>5 分钟</span>
     </span>
 </div>
 
@@ -384,16 +384,13 @@
 <li><p>耗时:晚上睡觉前开始<code>sudo make</code> 一觉醒来就搞定了</p>
 </li>
 <li><p>部分截图:</p>
-<div align=center>
-    <img data-src="http://qiniu.dcts.top/1.jpg" alt="1" style="zoom:33%;" />
-    <img data-src="http://qiniu.dcts.top/2.jpg" alt="2" style="zoom: 33%;" />
-    <img data-src="http://qiniu.dcts.top/3.jpg" alt="3" style="zoom:33%;" />
-    <img data-src="http://qiniu.dcts.top/4.jpg" alt="4" style="zoom: 33%;" />
+<div align=center >
+    <img data-src="http://qiniu.dcts.top/1.jpg" alt="1" style="zoom:33%;display:float;flex:left" />
+    <img data-src="http://qiniu.dcts.top/2.jpg" alt="2" style="zoom: 33%;display:float;flex:left" />
+    <img data-src="http://qiniu.dcts.top/3.jpg" alt="3" style="zoom:33%;display:float;flex:left" />
+    <img data-src="http://qiniu.dcts.top/4.jpg" alt="4" style="zoom: 33%;display:float;flex:left" />
     <img data-src="http://qiniu.dcts.top/5.jpg" alt="5" style="zoom: 33%;" />
-
-
-
-
+</div>
 
 </li>
 </ul>
@@ -404,10 +401,10 @@
 </ol>
 <p><strong>参数含义</strong>：</p>
 <ul>
-<li>pid：进程ID</li>
-<li>flag：若值为0，表示读取nice值；若值为1表示修改nice值。</li>
-<li>prio，nice：指向进程当前优先级及nice值。</li>
-<li>返回值：系统调用成功时返回0，失败时返回错误码EFAULT。</li>
+<li><code>pid</code>：进程ID</li>
+<li><code>flag</code>：若值为0，表示读取nice值；若值为1表示修改nice值。</li>
+<li><code>prio</code>，nice：指向进程当前优先级及nice值。</li>
+<li><code>返回值</code>：系统调用成功时返回0，失败时返回错误码EFAULT。</li>
 </ul>
 <ol start="2">
 <li>写一个简单的应用程序测试</li>
@@ -425,101 +422,30 @@
 <img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E8%A1%A8.png" alt="1571416426714" style="zoom: 150%;" />
 
 <p><strong>一定要使用__x64 否则报如下错误</strong></p>
-<p><img data-src="http://qiniu.dcts.top/52F_FX$7PQ5X60FQ7H66JTF.jpg" alt="img"></p>
+<p><img data-src="http://qiniu.dcts.top/52F_FX$7PQ5X60FQ7H66JTF.jpg"></p>
 </li>
 <li><p>申明系统调用服务例程原型</p>
 <p><code>sudo vim include/linux/syscalls.h </code></p>
 <p><strong>添加以下代码</strong></p>
 <p><code>asmlinkage long sys_mysetnice(pid_t pid,int flag,int nicevalue,void __user*prio,void __user*nice);</code></p>
-<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80%E5%8E%9F%E5%9E%8B%E5%A3%B0%E6%98%8E.png" alt="1571416522866"></p>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80%E5%8E%9F%E5%9E%8B%E5%A3%B0%E6%98%8E.png"></p>
 </li>
 <li><p>实现系统调用服务例程</p>
 <p><code>vim kernel/sys.c </code></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">SYSCALL_DEFINE5</span><span class="token punctuation">(</span>mysetnice<span class="token punctuation">,</span>pid_t<span class="token punctuation">,</span>pid<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token punctuation">,</span>flag<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token punctuation">,</span>nicevalue<span class="token punctuation">,</span><span class="token keyword">void</span> __user<span class="token operator">*</span><span class="token punctuation">,</span>prio<span class="token punctuation">,</span><span class="token keyword">void</span> __user<span class="token operator">*</span><span class="token punctuation">,</span>nice<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">struct</span> <span class="token class-name">pid</span> <span class="token operator">*</span> kpid<span class="token punctuation">;</span>
-    <span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span> task<span class="token punctuation">;</span>
-    kpid <span class="token operator">=</span> <span class="token function">find_get_pid</span><span class="token punctuation">(</span>pid<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/* 返回pid */</span>
-    task <span class="token operator">=</span> <span class="token function">pid_task</span><span class="token punctuation">(</span>kpid<span class="token punctuation">,</span> PIDTYPE_PID<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/* 返回task_struct */</span>
-    <span class="token keyword">int</span> n<span class="token punctuation">;</span>
-    n <span class="token operator">=</span> <span class="token function">task_nice</span><span class="token punctuation">(</span>task<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/* 返回进程当前nice值 */</span>
-    <span class="token keyword">int</span> p<span class="token punctuation">;</span>
-    p <span class="token operator">=</span> <span class="token function">task_prio</span><span class="token punctuation">(</span>task<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*返回进程当前prio值*/</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
-    <span class="token punctuation">&#123;</span>
-        <span class="token function">set_user_nice</span><span class="token punctuation">(</span>task<span class="token punctuation">,</span> nicevalue<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/* 修改进程nice值 */</span>
-        n <span class="token operator">=</span> <span class="token function">task_nice</span><span class="token punctuation">(</span>task<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*重新取得进程nice值*/</span>
-        p <span class="token operator">=</span> <span class="token function">task_prio</span><span class="token punctuation">(</span>task<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*重新获取进程prio值 这里和参考资料不一样!!! */</span>
-        <span class="token function">copy_to_user</span><span class="token punctuation">(</span>nice<span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">,</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*将nice值拷贝到用户空间*/</span>
-        <span class="token function">copy_to_user</span><span class="token punctuation">(</span>prio<span class="token punctuation">,</span><span class="token operator">&amp;</span>p<span class="token punctuation">,</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*将prio值拷贝到用户空间*/</span>
-        <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
-    <span class="token punctuation">&#123;</span>
-        <span class="token function">copy_to_user</span><span class="token punctuation">(</span>nice<span class="token punctuation">,</span><span class="token operator">&amp;</span>n<span class="token punctuation">,</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*将nice值拷贝到用户空间*/</span>
-        <span class="token function">copy_to_user</span><span class="token punctuation">(</span>prio<span class="token punctuation">,</span><span class="token operator">&amp;</span>p<span class="token punctuation">,</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">/*将prio值拷贝到用户空间*/</span>
-        <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> EFAULT<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">SYSCALL_DEFINE5(mysetnice,<span class="keyword">pid_t</span>,pid,<span class="keyword">int</span>,flag,<span class="keyword">int</span>,nicevalue,<span class="keyword">void</span> __user*,prio,<span class="keyword">void</span> __user*,nice)&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">pid</span> * <span class="title">kpid</span>;</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> * <span class="title">task</span>;</span></span><br><span class="line">    kpid = find_get_pid(pid);<span class="comment">/* 返回pid */</span></span><br><span class="line">    task = pid_task(kpid, PIDTYPE_PID);<span class="comment">/* 返回task_struct */</span></span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    n = task_nice(task);<span class="comment">/* 返回进程当前nice值 */</span></span><br><span class="line">    <span class="keyword">int</span> p;</span><br><span class="line">    p = task_prio(task);<span class="comment">/*返回进程当前prio值*/</span></span><br><span class="line">    <span class="keyword">if</span>(flag == <span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        set_user_nice(task, nicevalue);<span class="comment">/* 修改进程nice值 */</span></span><br><span class="line">        n = task_nice(task);<span class="comment">/*重新取得进程nice值*/</span></span><br><span class="line">        p = task_prio(task);<span class="comment">/*重新获取进程prio值 这里和参考资料不一样!!! */</span></span><br><span class="line">        copy_to_user(nice,&amp;n,<span class="keyword">sizeof</span>(n));<span class="comment">/*将nice值拷贝到用户空间*/</span></span><br><span class="line">        copy_to_user(prio,&amp;p,<span class="keyword">sizeof</span>(p));<span class="comment">/*将prio值拷贝到用户空间*/</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;  </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(flag == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        copy_to_user(nice,&amp;n,<span class="keyword">sizeof</span>(n));<span class="comment">/*将nice值拷贝到用户空间*/</span></span><br><span class="line">        copy_to_user(prio,&amp;p,<span class="keyword">sizeof</span>(p));<span class="comment">/*将prio值拷贝到用户空间*/</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> EFAULT;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>编译</p>
 <p>使用ccache<strong>加快编译</strong></p>
 <p>参考文档:<a target="_blank" rel="noopener" href="https://blog.csdn.net/fuyuande/article/details/90485882">ubuntu 使用ccache加快linux内核编译速度</a> <strong>注意将</strong><code>usr</code><strong>改为自己的用户名,6G改为10G</strong></p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">make</span> clean
-<span class="token comment">#仍采用原内核配置文件</span>
-<span class="token function">sudo</span> <span class="token function">make</span> localmodconfig <span class="token comment">#使用localmodconfig加速编译</span>
-<span class="token function">sudo</span> <span class="token function">make</span> -j8 <span class="token comment">#使用多线程编译</span>
-<span class="token function">sudo</span> <span class="token function">make</span> modules_install
-<span class="token function">sudo</span> <span class="token function">make</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> make clean</span><br><span class="line"><span class="comment">#仍采用原内核配置文件</span></span><br><span class="line"><span class="variable">$sudo</span> make localmodconfig <span class="comment">#使用localmodconfig加速编译</span></span><br><span class="line"><span class="variable">$sudo</span> make -j8 <span class="comment">#使用多线程编译</span></span><br><span class="line"><span class="variable">$sudo</span> make modules_install</span><br><span class="line"><span class="variable">$sudo</span> make install</span><br></pre></td></tr></table></figure>
 
 <p><strong>整个过程大概只用了30分钟,编译完内核后一定要重启!!!!!</strong></p>
 </li>
 <li><p>编写测试函数</p>
 <p><code>vim test.c</code></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token expression">_GNU_SOURCE</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;unistd.h></span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;sys/syscall.h></span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;stdio.h></span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;stdlib.h></span></span>
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    pid_t pid<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> nicevalue<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> flag<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> p <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> <span class="token operator">*</span>prio<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> <span class="token operator">*</span>nice<span class="token punctuation">;</span>
-    prio <span class="token operator">=</span> <span class="token operator">&amp;</span>p<span class="token punctuation">;</span>
-    nice <span class="token operator">=</span> <span class="token operator">&amp;</span>n<span class="token punctuation">;</span>
-    <span class="token comment">/*
- *     获取pid
- *         */</span>
-    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"请输入pid：\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>pid<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">/*
- *     获取nice；
- *         */</span>
-    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"pid赋值成功\n请输入nice：\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>nicevalue<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">/*
- *     获取flag；
- *         */</span>
-    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"nice赋值成功\n请输入flag：\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span><span class="token operator">&amp;</span>flag<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">/*
- *     调用添加的系统调用；
- *         */</span>
-    <span class="token function">syscall</span><span class="token punctuation">(</span><span class="token number">334</span><span class="token punctuation">,</span>pid<span class="token punctuation">,</span>flag<span class="token punctuation">,</span>nicevalue<span class="token punctuation">,</span>prio<span class="token punctuation">,</span>nice<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">/*
- *     输出最新的prio以及nice；
- *         */</span>
-    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"现在的nice为%d\n,prio为%d\n"</span><span class="token punctuation">,</span>n<span class="token punctuation">,</span>p<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token function">top</span>
-gcc test.c
-./a.out<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> _GNU_SOURCE</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/syscall.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">pid_t</span> pid;</span><br><span class="line">    <span class="keyword">int</span> nicevalue;</span><br><span class="line">    <span class="keyword">int</span> flag;</span><br><span class="line">    <span class="keyword">int</span> p = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> *prio;</span><br><span class="line">    <span class="keyword">int</span> *nice;</span><br><span class="line">    prio = &amp;p;</span><br><span class="line">    nice = &amp;n;</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"> *     获取pid</span></span><br><span class="line"><span class="comment"> *         */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;请输入pid：\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;pid);</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"> *     获取nice；</span></span><br><span class="line"><span class="comment"> *         */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pid赋值成功\n请输入nice：\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;nicevalue);</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"> *     获取flag；</span></span><br><span class="line"><span class="comment"> *         */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;nice赋值成功\n请输入flag：\n&quot;</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;flag);</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"> *     调用添加的系统调用；</span></span><br><span class="line"><span class="comment"> *         */</span></span><br><span class="line">    syscall(<span class="number">334</span>,pid,flag,nicevalue,prio,nice);</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"> *     输出最新的prio以及nice；</span></span><br><span class="line"><span class="comment"> *         */</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;现在的nice为%d\n,prio为%d\n&quot;</span>,n,p);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>编译运行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">top</span><br><span class="line">gcc test.c</span><br><span class="line">$./a.out</span><br></pre></td></tr></table></figure>
 
 
 

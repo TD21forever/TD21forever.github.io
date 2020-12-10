@@ -238,7 +238,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -361,31 +361,30 @@
     <div class="post-body" itemprop="articleBody">
         <h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
 <li><p>安装</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token function">screen</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>创建窗口</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">screen</span> -S xxx //创建一个名叫xxx的窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ screen -S xxx //创建一个名叫xxx的窗口</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>退出</p>
 <p>方法一：</p>
-<pre class="line-numbers language-none"><code class="language-none">Ctrl a +d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl <span class="keyword">a</span> +d</span><br></pre></td></tr></table></figure>
 
 <p>方法二：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">screen</span> -d name //首先要退出窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ screen -d name //首先要退出窗口</span><br></pre></td></tr></table></figure>
 
 
 </li>
 </ul>
 <ul>
 <li><p>查看窗口列表</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">screen</span> -ls<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ screen -ls</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>重新进入窗口</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">screen</span> -r 窗口号<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ screen -r 窗口号</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>杀死窗口并清除</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">kill</span> -9 窗口号//首先杀死进程
-$ <span class="token function">screen</span> -wipe //自动清理死掉的窗口<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">kill</span> -9 窗口号//首先杀死进程</span><br><span class="line">$ screen -wipe //自动清理死掉的窗口</span><br></pre></td></tr></table></figure>
 
 
 

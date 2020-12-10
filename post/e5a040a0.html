@@ -38,7 +38,7 @@
 <meta property="og:image" content="http://qiniu.dcts.top/%E5%BE%AE%E4%BF%A1%E8%AF%8D%E4%BA%91%E5%9B%BE%E7%89%87.png">
 <meta property="og:image" content="http://qiniu.dcts.top/H5%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg">
 <meta property="article:published_time" content="2019-04-19T05:16:18.000Z">
-<meta property="article:modified_time" content="2019-09-04T02:45:45.823Z">
+<meta property="article:modified_time" content="2020-12-10T09:15:12.985Z">
 <meta property="article:author" content="陈末">
 <meta property="article:tag" content="词云">
 <meta property="article:tag" content="微信聊天记录">
@@ -241,7 +241,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -379,58 +379,7 @@
 <li><p>使用Jieba和WordCloud做词云</p>
 </li>
 </ol>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> jieba
-<span class="token keyword">from</span> PIL <span class="token keyword">import</span> Image
-<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
-<span class="token keyword">from</span> wordcloud <span class="token keyword">import</span> WordCloud<span class="token punctuation">,</span> ImageColorGenerator
-<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
-
-<span class="token comment">#读取文件内容</span>
-txt_path<span class="token operator">=</span><span class="token string">'聊天文件地址如./11.txt'</span>
-txt_open<span class="token operator">=</span><span class="token punctuation">(</span><span class="token builtin">open</span><span class="token punctuation">(</span>txt_path<span class="token punctuation">,</span>encoding<span class="token operator">=</span><span class="token string">'UTF-8'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-<span class="token comment">#图片路径</span>
-tran_pic <span class="token operator">=</span> <span class="token string">'如./12.jpg'</span>
-
-<span class="token comment">#设置字体</span>
-<span class="token comment">#可自行上网寻找 提供网站 http://www.cyhd.net/html/2014/fonts_0815/19.html</span>
-font<span class="token operator">=</span><span class="token string">'字体地址 如 ./STFangSong.ttf'</span>
-
-<span class="token comment">#设置背景图片并转化为数组的形式</span>
-image <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>tran_pic<span class="token punctuation">)</span>
-image_<span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>image<span class="token punctuation">)</span>
-
-<span class="token comment">#jieba分词</span>
-world_jieba_after <span class="token operator">=</span> jieba<span class="token punctuation">.</span>cut<span class="token punctuation">(</span>txt_open<span class="token punctuation">,</span> cut_all<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span><span class="token comment">#True全模式分词</span>
-world_merge<span class="token operator">=</span> <span class="token string">' '</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>world_jieba_after<span class="token punctuation">)</span>
-
-wc <span class="token operator">=</span> WordCloud<span class="token punctuation">(</span>
-    background_color<span class="token operator">=</span><span class="token string">"white"</span><span class="token punctuation">,</span>  <span class="token comment"># 背景颜色</span>
-    max_words<span class="token operator">=</span><span class="token number">2000</span><span class="token punctuation">,</span><span class="token comment"># 词云显示的最大词数</span>
-    mask<span class="token operator">=</span>image_<span class="token punctuation">,</span>  <span class="token comment"># 设置背景图片</span>
-    max_font_size<span class="token operator">=</span><span class="token number">700</span><span class="token punctuation">,</span>  <span class="token comment"># 字体最大值</span>
-
-    collocations<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
-    margin<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">,</span>
-    <span class="token comment"># width=540,</span>
-    width<span class="token operator">=</span><span class="token number">768</span><span class="token punctuation">,</span>
-    <span class="token comment"># height=960,</span>
-    height<span class="token operator">=</span><span class="token number">1024</span><span class="token punctuation">,</span>
-    font_path<span class="token operator">=</span>font
-
-<span class="token punctuation">)</span>
-<span class="token comment">#生成词云</span>
-wc<span class="token punctuation">.</span>generate<span class="token punctuation">(</span>world_merge<span class="token punctuation">)</span>
-
-<span class="token comment">#背景图片生成颜色值</span>
-image_colors <span class="token operator">=</span> ImageColorGenerator<span class="token punctuation">(</span>image_<span class="token punctuation">)</span>
-
-plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span><span class="token punctuation">)</span>
-plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>wc<span class="token punctuation">)</span>
-plt<span class="token punctuation">.</span>axis<span class="token punctuation">(</span><span class="token string">'off'</span><span class="token punctuation">)</span>
-plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token comment"># 保存图片</span>
-wc<span class="token punctuation">.</span>to_file<span class="token punctuation">(</span><span class="token string">'2.png'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud, ImageColorGenerator</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment">#读取文件内容</span></span><br><span class="line">txt_path=<span class="string">&#x27;聊天文件地址如./11.txt&#x27;</span></span><br><span class="line">txt_open=(<span class="built_in">open</span>(txt_path,encoding=<span class="string">&#x27;UTF-8&#x27;</span>).read())</span><br><span class="line"></span><br><span class="line"><span class="comment">#图片路径</span></span><br><span class="line">tran_pic = <span class="string">&#x27;如./12.jpg&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置字体</span></span><br><span class="line"><span class="comment">#可自行上网寻找 提供网站 http://www.cyhd.net/html/2014/fonts_0815/19.html</span></span><br><span class="line">font=<span class="string">&#x27;字体地址 如 ./STFangSong.ttf&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置背景图片并转化为数组的形式</span></span><br><span class="line">image = Image.<span class="built_in">open</span>(tran_pic)</span><br><span class="line">image_= np.array(image)</span><br><span class="line"></span><br><span class="line"><span class="comment">#jieba分词</span></span><br><span class="line">world_jieba_after = jieba.cut(txt_open, cut_all=<span class="literal">True</span>)<span class="comment">#True全模式分词</span></span><br><span class="line">world_merge= <span class="string">&#x27; &#x27;</span>.join(world_jieba_after)</span><br><span class="line"></span><br><span class="line">wc = WordCloud(</span><br><span class="line">    background_color=<span class="string">&quot;white&quot;</span>,  <span class="comment"># 背景颜色</span></span><br><span class="line">    max_words=<span class="number">2000</span>,<span class="comment"># 词云显示的最大词数</span></span><br><span class="line">    mask=image_,  <span class="comment"># 设置背景图片</span></span><br><span class="line">    max_font_size=<span class="number">700</span>,  <span class="comment"># 字体最大值</span></span><br><span class="line"></span><br><span class="line">    collocations=<span class="literal">False</span>,</span><br><span class="line">    margin=<span class="number">2</span>,</span><br><span class="line">    <span class="comment"># width=540,</span></span><br><span class="line">    width=<span class="number">768</span>,</span><br><span class="line">    <span class="comment"># height=960,</span></span><br><span class="line">    height=<span class="number">1024</span>,</span><br><span class="line">    font_path=font</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"><span class="comment">#生成词云</span></span><br><span class="line">wc.generate(world_merge)</span><br><span class="line"></span><br><span class="line"><span class="comment">#背景图片生成颜色值</span></span><br><span class="line">image_colors = ImageColorGenerator(image_)</span><br><span class="line"></span><br><span class="line">plt.figure()</span><br><span class="line">plt.imshow(wc)</span><br><span class="line">plt.axis(<span class="string">&#x27;off&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"><span class="comment"># 保存图片</span></span><br><span class="line">wc.to_file(<span class="string">&#x27;2.png&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
 <li>使用上述代码时，词云背景自定义需要忽略白色部分（白色的地方没有信息），所以需要将图片不需要的部分变白，方法如下：<ol>
@@ -439,7 +388,7 @@ wc<span class="token punctuation">.</span>to_file<span class="token punctuation"
 </ol>
 </li>
 </ol>
-<h3 id="词云效果"><a href="#词云效果" class="headerlink" title="词云效果"></a>词云效果</h3><p><img data-src="http://qiniu.dcts.top/%E5%BE%AE%E4%BF%A1%E8%AF%8D%E4%BA%91%E5%9B%BE%E7%89%87.png" alt="1561645682389"></p>
+<h3 id="词云效果"><a href="#词云效果" class="headerlink" title="词云效果"></a>词云效果</h3><p><img data-src="http://qiniu.dcts.top/%E5%BE%AE%E4%BF%A1%E8%AF%8D%E4%BA%91%E5%9B%BE%E7%89%87.png"></p>
 <h3 id="使用H5制作总结报告"><a href="#使用H5制作总结报告" class="headerlink" title="使用H5制作总结报告"></a>使用H5制作总结报告</h3><p>我是用的是<a href="%5Bhttp://www.eqxiu.com%5D(http://www.eqxiu.com/)">易企秀</a>，学习成本较低，效果如下</p>
 <p><img data-src="http://qiniu.dcts.top/H5%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"></p>
 
