@@ -229,6 +229,214 @@
       </tags>
   </entry>
   <entry>
+    <title>Screen命令笔记</title>
+    <url>/post/d07d5346.html</url>
+    <content><![CDATA[<h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
+<li><p>安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建窗口</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -S xxx //创建一个名叫xxx的窗口</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>退出</p>
+<p>方法一：</p>
+<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">Ctrl <span class="keyword">a</span> +d</span><br></pre></td></tr></table></figure>
+
+<p>方法二：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -d name //首先要退出窗口</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>查看窗口列表</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -ls</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重新进入窗口</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -r 窗口号</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>杀死窗口并清除</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">kill</span> -9 窗口号//首先杀死进程</span><br><span class="line">$ screen -wipe //自动清理死掉的窗口</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python正则</title>
+    <url>/post/ca4e4d5f.html</url>
+    <content><![CDATA[<h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
+<li><p>  在带有 <code>&#39;r&#39;</code> 前缀的字符串字面值中，反斜杠不必做任何特殊处理。反斜重复两次将导致理解障碍，所以高度推荐，就算是最简单的表达式，也要使用原始字符串。</p>
+</li>
+<li><p>  <code>&#39;*&#39;</code>, <code>&#39;+&#39;</code>，和 <code>&#39;?&#39;</code> 修饰符都是 _贪婪的_；它们在字符串进行尽可能多的匹配。有时候并不需要这种行为。如果正则式 <code>&lt;.*&gt;</code> 希望找到 <code>&#39;&lt;a&gt; b &lt;c&gt;&#39;</code>，它将会匹配整个字符串，而不仅是 <code>&#39;&lt;a&gt;&#39;</code>。在修饰符之后添加 <code>?</code> 将使样式以 <strong>非贪婪</strong>即最小方式进行匹配；尽量 少 的字符将会被匹配。 使用正则式 <code>&lt;.*?&gt;</code> 将会仅仅匹配 <code>&#39;&lt;a&gt;&#39;</code>。</p>
+</li>
+<li><p>  特殊字符在集合中，失去它的特殊含义。比如 <code>[(+*)]</code> 只会匹配这几个文法字符 <code>&#39;(&#39;</code>, <code>&#39;+&#39;</code>, <code>&#39;*&#39;</code>, or <code>&#39;)&#39;</code></p>
+</li>
+<li><p>  <code>\B</code>匹配空字符串，但 不 能在词的开头或者结尾。意思就是 <code>r&#39;py\B&#39;</code> 匹配 <code>&#39;python&#39;</code>, <code>&#39;py3&#39;</code>, <code>&#39;py2&#39;</code>, 但不匹配 <code>&#39;py&#39;</code>, <code>&#39;py.&#39;</code>, 或者 <code>&#39;py!&#39;</code>. <code>\B</code> 是 <code>\b</code> 的取非。(说人话就是后边必须有点东西)</p>
+</li>
+</ul>
+<h4 id="模块内容"><a href="#模块内容" class="headerlink" title="模块内容"></a>模块内容</h4><ul>
+<li>  <code>re.compile(pattern, flags=0)</code> 可以让正则多次使用</li>
+<li>  <code>re.search(pattern, string, flags=0)</code>扫描整个字符串，找到匹配样式的第一个位置，并返回一个相应的<strong>匹配对象</strong>如果没有匹配，就返回一个 <code>None</code></li>
+<li>  <code>re.match(pattern, string, flags=0)</code>注意<strong>即便是 <code>MULTILINE</code> 多行模式,<code>re.match()</code> 也只匹配字符串的开始位置</strong>，而不匹配每行开始。如果你想定位 string 的任何位置，使用 <code>search()</code>来替代</li>
+<li>  <code>re.split(pattern, string, maxsplit=0, flags=0)</code> 用 <code>pattern</code>分开 <code>string</code> 。 如果在 <code>pattern</code> 中捕获到括号，那么所有的组里的文字也会包含在列表里。如果 <code>maxsplit</code> 非零， 最多进行 <code>maxsplit</code>次分隔， 剩下的字符全部返回到列表的最后一个元素。</li>
+<li>  <code>re.findall(pattern, string, flags=0)</code> 对 <code>string</code> 返回一个不重复的<code>pattern</code> 的<strong>匹配列表</strong>， <code>string</code> 从左到右进行扫描，匹配按找到的顺序返回。如果样式里存在一到多个组，就返回一个组合列表；就是一个元组的列表（如果样式里有超过一个组合的话）。空匹配也会包含在结果里。</li>
+<li>  <code>re.finditer(pattern, string, flags=0)</code> <code>pattern</code> 在 <code>string</code> 里所有的非重复匹配，返回为一个<code>迭代器 iterator</code>保存了<strong>匹配对象</strong> 。<code>string</code>从左到右扫描，匹配按顺序排列。空匹配也包含在结果里。(用迭代器保存返回的<strong>匹配对象</strong>)</li>
+</ul>
+<h3 id="正则对象"><a href="#正则对象" class="headerlink" title="正则对象"></a>正则对象</h3><p>编译后的正则表达式对象支持的方法和属性</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pattern = re.<span class="built_in">compile</span>(<span class="string">&quot;d&quot;</span>)</span><br><span class="line">pattern.search()</span><br><span class="line">pattern.match()</span><br><span class="line">pattern.findall()</span><br><span class="line">pattern.finditer()</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<h3 id="匹配对象"><a href="#匹配对象" class="headerlink" title="匹配对象"></a>匹配对象</h3><p>匹配对象总是有一个布尔值 True。如果没有匹配的话<code>match()</code> 和<code>search()</code>返回 None 所以你可以简单的用 if 语句来判断是否匹配</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">match = re.search(pattern, string)</span><br><span class="line"><span class="keyword">if</span> match:</span><br><span class="line">    process(match)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="组的概念"><a href="#组的概念" class="headerlink" title="组的概念"></a>组的概念</h3><p>正则式中的每个组都有一个序号，它是按定义时从左到右的顺序<strong>从1开始编号</strong>的。其实，re的正则式还有一个0号组，<strong>它就是整个正则式本身。</strong></p>
+<ul>
+<li><p><code>match.group()</code></p>
+</li>
+<li><p><code>group(0)</code> 与 <code>group()</code> 等价，其结果为整个正则式匹配到的内容，包括没有包到组里面的内容</p>
+</li>
+<li><p><code>match.groups()</code></p>
+<ul>
+<li>匹配组里面的内容，把他们都列出来放到元组里</li>
+</ul>
+</li>
+<li><p><code>match.__getitem__()</code></p>
+</li>
+<li><p><code>match.lastgroup</code></p>
+<ul>
+<li>最后一个匹配到的组的组名,如果没有产生匹配的话返回<code>None</code>。</li>
+</ul>
+</li>
+<li><p><code>match.start()</code></p>
+<ul>
+<li>返回给定的组开始的位置</li>
+</ul>
+</li>
+<li><p><code>match.end()</code></p>
+<ul>
+<li>返回给定的组结束的位置+1</li>
+</ul>
+</li>
+<li><p><code>match.span()</code></p>
+<ul>
+<li>返回（start,end）的形式</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;&gt; p=re.compile( r’(?P&lt;name&gt;[a-z]+)/s+(?P&lt;age&gt;/d+)/s+(?P&lt;tel&gt;/d+).*’ , re.I )</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p.groupindex</span><br><span class="line"></span><br><span class="line">&#123;<span class="string">&#x27;age&#x27;</span>: <span class="number">2</span>, <span class="string">&#x27;tel&#x27;</span>: <span class="number">3</span>, <span class="string">&#x27;name&#x27;</span>: <span class="number">1</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s=’Tom <span class="number">24</span> <span class="number">88888888</span>  &lt;=’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m=p.search(s)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.groups()                           <span class="comment"># 看看匹配的各组的情况</span></span><br><span class="line"></span><br><span class="line">(<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;24&#x27;</span>, <span class="string">&#x27;8888888&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(‘name’)                   <span class="comment"># 使用组名获取匹配的字符串</span></span><br><span class="line"></span><br><span class="line">‘Tom’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group( <span class="number">1</span> )                         <span class="comment"># 使用组序号获取匹配的字符串，同使用组名的效果一样</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(<span class="number">0</span>)                           <span class="comment"># 0 组里面是什么呢？</span></span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;Tom 24 88888888  &lt;=&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>正则</tag>
+        <tag>进阶</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vim常用操作整理(Vimtutor)</title>
+    <url>/post/d852f757.html</url>
+    <content><![CDATA[<h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
+<li>  <code>k</code> 上</li>
+<li>  <code>j</code> 下</li>
+<li>  <code>h</code> 左</li>
+<li>  <code>l</code> 右</li>
+<li>  <code>0</code> 回到首行</li>
+<li>  <code>CTRL+G</code> 显示当前阅读进度、光标行号</li>
+<li>  <code>gg</code> 回到文件第一行</li>
+<li>  <code>G</code> 跳转到文件最后一行</li>
+<li>  <code>CTRL+o</code> 返回旧的光标位置</li>
+<li>  <code>CTRL+i</code> 返回新的光标位置</li>
+</ul>
+<p>​    <em>operator [number] motion</em></p>
+<ul>
+<li>  <code>w</code> 到下一个单词前</li>
+<li>  <code>e</code> 到下一个单词结束</li>
+<li>  <code>$</code> 从光标到当前末尾</li>
+</ul>
+<h4 id="更改文本内容"><a href="#更改文本内容" class="headerlink" title="更改文本内容"></a>更改文本内容</h4><ul>
+<li>  <code>x</code> 删除当前字符</li>
+<li><code>d</code> 删除操作符<ul>
+<li>  <code>dd</code> 删除整行</li>
+<li>  <code>d$</code> 删除从光标到末尾</li>
+</ul>
+</li>
+<li><code>p</code> 另起一行放入删除的内容<ul>
+<li>  <code>y</code> 用于复制文本</li>
+</ul>
+</li>
+<li><code>r</code> 替换单个字符<ul>
+<li>  <code>R</code> 进入替换模式 一直可以替换</li>
+</ul>
+</li>
+<li><code>c</code> 更改操作符<ul>
+<li>  <code>c$</code> 更改从光标到行末尾</li>
+<li>  <code>ce</code> 更改光标到单词末尾</li>
+</ul>
+</li>
+<li><code>:s/old/new</code> 用新字符串替换旧字符串<ul>
+<li>  <code>:s/old/new/gc</code> g表示行内所有 c表示询问是否替换</li>
+<li>  <code>:%s/old/new/g</code> 全文替换</li>
+</ul>
+</li>
+</ul>
+<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><ul>
+<li>  <code>i</code> 光标前插入</li>
+<li>  <code>a</code> 光标自动后移一位</li>
+<li>  <code>A</code> 光标移到一行的末尾</li>
+<li>  <code>o</code> 光标移到新的一行</li>
+<li>  <code>O</code> 光标移到上面一行</li>
+</ul>
+<h4 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h4><ul>
+<li>  <code>/</code> 往下查找字符串</li>
+<li>  <code>？</code> 往上查找字符串</li>
+<li>  <code>n</code> 下一个匹配项</li>
+<li>  <code>N</code> 上一个匹配项</li>
+<li><code>set xxx</code> 如果要关闭 <code>set noxxx</code><ul>
+<li>  <code>ic</code> 查找时忽略大小写</li>
+<li>  <code>is</code> 查找短语时显示部分匹配</li>
+<li>  <code>hls</code> 高亮显示所有匹配</li>
+</ul>
+</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li>  <code>u</code> 撤销</li>
+<li>  <code>U</code> 撤销一行</li>
+<li>  <code>CTRL+R</code> 重做</li>
+<li>  <code>%</code> 匹配括号</li>
+<li><code>:!command</code> 用于在vim中执行外部命令<ul>
+<li>  <code>:r FILENAME</code> 提取磁盘文件并插入到光标后面</li>
+<li>  <code>:r !dir</code> 读取dir命令放到光标后面</li>
+</ul>
+</li>
+<li><code>v</code> 选中某些内容<ul>
+<li>  <code>v :w FILENAME</code> 将选中的内容保存在FILENAME中</li>
+</ul>
+</li>
+<li>  <code>CTRL + w</code> 在窗口之间跳转</li>
+</ul>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Linux</tag>
+        <tag>Vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CNN&amp;Alexnet模型简单总结</title>
     <url>/post/c40e0394.html</url>
     <content><![CDATA[<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
@@ -380,211 +588,42 @@
       </tags>
   </entry>
   <entry>
-    <title>Python正则</title>
-    <url>/post/ca4e4d5f.html</url>
-    <content><![CDATA[<h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
-<li><p>  在带有 <code>&#39;r&#39;</code> 前缀的字符串字面值中，反斜杠不必做任何特殊处理。反斜重复两次将导致理解障碍，所以高度推荐，就算是最简单的表达式，也要使用原始字符串。</p>
+    <title>wordpress使用心得</title>
+    <url>/post/de09af32.html</url>
+    <content><![CDATA[<h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
+<li><p>  Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
 </li>
-<li><p>  <code>&#39;*&#39;</code>, <code>&#39;+&#39;</code>，和 <code>&#39;?&#39;</code> 修饰符都是 _贪婪的_；它们在字符串进行尽可能多的匹配。有时候并不需要这种行为。如果正则式 <code>&lt;.*&gt;</code> 希望找到 <code>&#39;&lt;a&gt; b &lt;c&gt;&#39;</code>，它将会匹配整个字符串，而不仅是 <code>&#39;&lt;a&gt;&#39;</code>。在修饰符之后添加 <code>?</code> 将使样式以 <strong>非贪婪</strong>即最小方式进行匹配；尽量 少 的字符将会被匹配。 使用正则式 <code>&lt;.*?&gt;</code> 将会仅仅匹配 <code>&#39;&lt;a&gt;&#39;</code>。</p>
+<li><p>  希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group">这里可以解决</a></p>
 </li>
-<li><p>  特殊字符在集合中，失去它的特殊含义。比如 <code>[(+*)]</code> 只会匹配这几个文法字符 <code>&#39;(&#39;</code>, <code>&#39;+&#39;</code>, <code>&#39;*&#39;</code>, or <code>&#39;)&#39;</code></p>
-</li>
-<li><p>  <code>\B</code>匹配空字符串，但 不 能在词的开头或者结尾。意思就是 <code>r&#39;py\B&#39;</code> 匹配 <code>&#39;python&#39;</code>, <code>&#39;py3&#39;</code>, <code>&#39;py2&#39;</code>, 但不匹配 <code>&#39;py&#39;</code>, <code>&#39;py.&#39;</code>, 或者 <code>&#39;py!&#39;</code>. <code>\B</code> 是 <code>\b</code> 的取非。(说人话就是后边必须有点东西)</p>
-</li>
-</ul>
-<h4 id="模块内容"><a href="#模块内容" class="headerlink" title="模块内容"></a>模块内容</h4><ul>
-<li>  <code>re.compile(pattern, flags=0)</code> 可以让正则多次使用</li>
-<li>  <code>re.search(pattern, string, flags=0)</code>扫描整个字符串，找到匹配样式的第一个位置，并返回一个相应的<strong>匹配对象</strong>如果没有匹配，就返回一个 <code>None</code></li>
-<li>  <code>re.match(pattern, string, flags=0)</code>注意<strong>即便是 <code>MULTILINE</code> 多行模式,<code>re.match()</code> 也只匹配字符串的开始位置</strong>，而不匹配每行开始。如果你想定位 string 的任何位置，使用 <code>search()</code>来替代</li>
-<li>  <code>re.split(pattern, string, maxsplit=0, flags=0)</code> 用 <code>pattern</code>分开 <code>string</code> 。 如果在 <code>pattern</code> 中捕获到括号，那么所有的组里的文字也会包含在列表里。如果 <code>maxsplit</code> 非零， 最多进行 <code>maxsplit</code>次分隔， 剩下的字符全部返回到列表的最后一个元素。</li>
-<li>  <code>re.findall(pattern, string, flags=0)</code> 对 <code>string</code> 返回一个不重复的<code>pattern</code> 的<strong>匹配列表</strong>， <code>string</code> 从左到右进行扫描，匹配按找到的顺序返回。如果样式里存在一到多个组，就返回一个组合列表；就是一个元组的列表（如果样式里有超过一个组合的话）。空匹配也会包含在结果里。</li>
-<li>  <code>re.finditer(pattern, string, flags=0)</code> <code>pattern</code> 在 <code>string</code> 里所有的非重复匹配，返回为一个<code>迭代器 iterator</code>保存了<strong>匹配对象</strong> 。<code>string</code>从左到右扫描，匹配按顺序排列。空匹配也包含在结果里。(用迭代器保存返回的<strong>匹配对象</strong>)</li>
-</ul>
-<h3 id="正则对象"><a href="#正则对象" class="headerlink" title="正则对象"></a>正则对象</h3><p>编译后的正则表达式对象支持的方法和属性</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pattern = re.<span class="built_in">compile</span>(<span class="string">&quot;d&quot;</span>)</span><br><span class="line">pattern.search()</span><br><span class="line">pattern.match()</span><br><span class="line">pattern.findall()</span><br><span class="line">pattern.finditer()</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<h3 id="匹配对象"><a href="#匹配对象" class="headerlink" title="匹配对象"></a>匹配对象</h3><p>匹配对象总是有一个布尔值 True。如果没有匹配的话<code>match()</code> 和<code>search()</code>返回 None 所以你可以简单的用 if 语句来判断是否匹配</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">match = re.search(pattern, string)</span><br><span class="line"><span class="keyword">if</span> match:</span><br><span class="line">    process(match)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="组的概念"><a href="#组的概念" class="headerlink" title="组的概念"></a>组的概念</h3><p>正则式中的每个组都有一个序号，它是按定义时从左到右的顺序<strong>从1开始编号</strong>的。其实，re的正则式还有一个0号组，<strong>它就是整个正则式本身。</strong></p>
-<ul>
-<li><p><code>match.group()</code></p>
-</li>
-<li><p><code>group(0)</code> 与 <code>group()</code> 等价，其结果为整个正则式匹配到的内容，包括没有包到组里面的内容</p>
-</li>
-<li><p><code>match.groups()</code></p>
-<ul>
-<li>匹配组里面的内容，把他们都列出来放到元组里</li>
-</ul>
-</li>
-<li><p><code>match.__getitem__()</code></p>
-</li>
-<li><p><code>match.lastgroup</code></p>
-<ul>
-<li>最后一个匹配到的组的组名,如果没有产生匹配的话返回<code>None</code>。</li>
-</ul>
-</li>
-<li><p><code>match.start()</code></p>
-<ul>
-<li>返回给定的组开始的位置</li>
-</ul>
-</li>
-<li><p><code>match.end()</code></p>
-<ul>
-<li>返回给定的组结束的位置+1</li>
-</ul>
-</li>
-<li><p><code>match.span()</code></p>
-<ul>
-<li>返回（start,end）的形式</li>
-</ul>
+<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
+<pre><code>  RewriteEngine On
+  RewriteCond %&#123;HTTP_HOST&#125; ^laozuo.org [NC]
+  RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre>
 </li>
 </ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;&gt; p=re.compile( r’(?P&lt;name&gt;[a-z]+)/s+(?P&lt;age&gt;/d+)/s+(?P&lt;tel&gt;/d+).*’ , re.I )</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p.groupindex</span><br><span class="line"></span><br><span class="line">&#123;<span class="string">&#x27;age&#x27;</span>: <span class="number">2</span>, <span class="string">&#x27;tel&#x27;</span>: <span class="number">3</span>, <span class="string">&#x27;name&#x27;</span>: <span class="number">1</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s=’Tom <span class="number">24</span> <span class="number">88888888</span>  &lt;=’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m=p.search(s)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.groups()                           <span class="comment"># 看看匹配的各组的情况</span></span><br><span class="line"></span><br><span class="line">(<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;24&#x27;</span>, <span class="string">&#x27;8888888&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(‘name’)                   <span class="comment"># 使用组名获取匹配的字符串</span></span><br><span class="line"></span><br><span class="line">‘Tom’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group( <span class="number">1</span> )                         <span class="comment"># 使用组序号获取匹配的字符串，同使用组名的效果一样</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(<span class="number">0</span>)                           <span class="comment"># 0 组里面是什么呢？</span></span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;Tom 24 88888888  &lt;=&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>正则</tag>
-        <tag>进阶</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Screen命令笔记</title>
-    <url>/post/d07d5346.html</url>
-    <content><![CDATA[<h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
-<li><p>安装</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>创建窗口</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -S xxx //创建一个名叫xxx的窗口</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>退出</p>
-<p>方法一：</p>
-<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">Ctrl <span class="keyword">a</span> +d</span><br></pre></td></tr></table></figure>
-
-<p>方法二：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -d name //首先要退出窗口</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<ul>
-<li><p>查看窗口列表</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -ls</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重新进入窗口</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -r 窗口号</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>杀死窗口并清除</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">kill</span> -9 窗口号//首先杀死进程</span><br><span class="line">$ screen -wipe //自动清理死掉的窗口</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ul>
+<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><ol>
+<li> <a href="https://www.seoimo.com/wordpress-vps/">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
+<li> <a href="https://www.jianshu.com/p/d7b208efe04c">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
+<li> <a href="https://www.banwagong.com/625.html">搬瓦工VPS安装WordPress详细图文教程</a></li>
+</ol>
+<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><ol>
+<li> vps配置优化</li>
+<li> <a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https">HTTP全部301重定向到HTTPS</a></li>
+</ol>
+<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><ol>
+<li> 购买服务器和域名</li>
+<li> 域名解析(域名绑定服务器ip)</li>
+<li> vps中搭建LAMP环境</li>
+<li> 添加域名<code>lnmp vhost add</code></li>
+<li> 安装wordpress</li>
+</ol>
 ]]></content>
       <categories>
-        <category>三分技术</category>
+        <category>七分热爱</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vim常用操作整理(Vimtutor)</title>
-    <url>/post/d852f757.html</url>
-    <content><![CDATA[<h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
-<li>  <code>k</code> 上</li>
-<li>  <code>j</code> 下</li>
-<li>  <code>h</code> 左</li>
-<li>  <code>l</code> 右</li>
-<li>  <code>0</code> 回到首行</li>
-<li>  <code>CTRL+G</code> 显示当前阅读进度、光标行号</li>
-<li>  <code>gg</code> 回到文件第一行</li>
-<li>  <code>G</code> 跳转到文件最后一行</li>
-<li>  <code>CTRL+o</code> 返回旧的光标位置</li>
-<li>  <code>CTRL+i</code> 返回新的光标位置</li>
-</ul>
-<p>​    <em>operator [number] motion</em></p>
-<ul>
-<li>  <code>w</code> 到下一个单词前</li>
-<li>  <code>e</code> 到下一个单词结束</li>
-<li>  <code>$</code> 从光标到当前末尾</li>
-</ul>
-<h4 id="更改文本内容"><a href="#更改文本内容" class="headerlink" title="更改文本内容"></a>更改文本内容</h4><ul>
-<li>  <code>x</code> 删除当前字符</li>
-<li><code>d</code> 删除操作符<ul>
-<li>  <code>dd</code> 删除整行</li>
-<li>  <code>d$</code> 删除从光标到末尾</li>
-</ul>
-</li>
-<li><code>p</code> 另起一行放入删除的内容<ul>
-<li>  <code>y</code> 用于复制文本</li>
-</ul>
-</li>
-<li><code>r</code> 替换单个字符<ul>
-<li>  <code>R</code> 进入替换模式 一直可以替换</li>
-</ul>
-</li>
-<li><code>c</code> 更改操作符<ul>
-<li>  <code>c$</code> 更改从光标到行末尾</li>
-<li>  <code>ce</code> 更改光标到单词末尾</li>
-</ul>
-</li>
-<li><code>:s/old/new</code> 用新字符串替换旧字符串<ul>
-<li>  <code>:s/old/new/gc</code> g表示行内所有 c表示询问是否替换</li>
-<li>  <code>:%s/old/new/g</code> 全文替换</li>
-</ul>
-</li>
-</ul>
-<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><ul>
-<li>  <code>i</code> 光标前插入</li>
-<li>  <code>a</code> 光标自动后移一位</li>
-<li>  <code>A</code> 光标移到一行的末尾</li>
-<li>  <code>o</code> 光标移到新的一行</li>
-<li>  <code>O</code> 光标移到上面一行</li>
-</ul>
-<h4 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h4><ul>
-<li>  <code>/</code> 往下查找字符串</li>
-<li>  <code>？</code> 往上查找字符串</li>
-<li>  <code>n</code> 下一个匹配项</li>
-<li>  <code>N</code> 上一个匹配项</li>
-<li><code>set xxx</code> 如果要关闭 <code>set noxxx</code><ul>
-<li>  <code>ic</code> 查找时忽略大小写</li>
-<li>  <code>is</code> 查找短语时显示部分匹配</li>
-<li>  <code>hls</code> 高亮显示所有匹配</li>
-</ul>
-</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li>  <code>u</code> 撤销</li>
-<li>  <code>U</code> 撤销一行</li>
-<li>  <code>CTRL+R</code> 重做</li>
-<li>  <code>%</code> 匹配括号</li>
-<li><code>:!command</code> 用于在vim中执行外部命令<ul>
-<li>  <code>:r FILENAME</code> 提取磁盘文件并插入到光标后面</li>
-<li>  <code>:r !dir</code> 读取dir命令放到光标后面</li>
-</ul>
-</li>
-<li><code>v</code> 选中某些内容<ul>
-<li>  <code>v :w FILENAME</code> 将选中的内容保存在FILENAME中</li>
-</ul>
-</li>
-<li>  <code>CTRL + w</code> 在窗口之间跳转</li>
-</ul>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Linux</tag>
-        <tag>Vim</tag>
+        <tag>博客</tag>
+        <tag>wordpress</tag>
       </tags>
   </entry>
   <entry>
@@ -832,45 +871,6 @@
       </tags>
   </entry>
   <entry>
-    <title>wordpress使用心得</title>
-    <url>/post/de09af32.html</url>
-    <content><![CDATA[<h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
-<li><p>  Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
-</li>
-<li><p>  希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group">这里可以解决</a></p>
-</li>
-<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
-<pre><code>  RewriteEngine On
-  RewriteCond %&#123;HTTP_HOST&#125; ^laozuo.org [NC]
-  RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre>
-</li>
-</ul>
-<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><ol>
-<li> <a href="https://www.seoimo.com/wordpress-vps/">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
-<li> <a href="https://www.jianshu.com/p/d7b208efe04c">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
-<li> <a href="https://www.banwagong.com/625.html">搬瓦工VPS安装WordPress详细图文教程</a></li>
-</ol>
-<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><ol>
-<li> vps配置优化</li>
-<li> <a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https">HTTP全部301重定向到HTTPS</a></li>
-</ol>
-<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><ol>
-<li> 购买服务器和域名</li>
-<li> 域名解析(域名绑定服务器ip)</li>
-<li> vps中搭建LAMP环境</li>
-<li> 添加域名<code>lnmp vhost add</code></li>
-<li> 安装wordpress</li>
-</ol>
-]]></content>
-      <categories>
-        <category>七分热爱</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>wordpress</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用jupyter遇到的一些问题</title>
     <url>/post/9c79ba11.html</url>
     <content><![CDATA[<h2 id="一个报错"><a href="#一个报错" class="headerlink" title="一个报错"></a>一个报错</h2><p><code>import win32api; ImportError: DLL load failed: 找不到指定的程序</code></p>
@@ -912,26 +912,6 @@
       </tags>
   </entry>
   <entry>
-    <title>写在大二上学期</title>
-    <url>/post/7ce73c6e.html</url>
-    <content><![CDATA[<p>太久没写点东西了。有些情感压抑太久无处爆发，想敲点字出来又肚里实在是没墨。很多话就这么堵在嗓子眼，就着凌晨两点的咖啡一口咽下。</p>
-<p>我觉得一个把大学过得像高中的人是很失败的。高中只有学习，大学里有学习，还有生活。而生活本身就不是一件容易的事情。大学是换了一个更大的监狱，多了几个门多了几堵围墙。每天忙忙碌碌地上课，碌碌无为到半夜。我这大学一年多，最最开心的时候是大一上期末考最后一门考试成绩出来，我知道我转专业有希望了。当尘埃落定，生活又露出真实的狰狞模样。我依然喜欢我做的事情，我也清楚我现在所学是在积累是在等某一天的厚积薄发，但是这过程太孤独太枯燥了太漫长了。</p>
-<p>今年很有幸，认识了很多好老师。这些老师都有一些共同的特点，把学生当朋友，不把成绩分数当做评判的唯一标准，能用人话分享知识，上课不点名，但是座无虚席。acm的刘春英老师也好，李国冰也好，韩敦敦也好。还有吴老师陈老师冯老师，你能很明显的感受到他们确实是希望你通过这一学期的课，能学到点东西。能抢到他们的课，三生有幸。当然今年压力也很大，因为如果我没学好我就不能找老师教的不好的借口了。</p>
-<p>今年没做什么好玩的项目，帮儿子做了个网页应该是班里最好的吧，大概是唯一能吹嘘自己的东西了。没得什么奖，参加了一个数学竞赛拿了6分。怎么看待明知道一些比赛得不了奖还积极去参加这种行为？是因为德育分吗，是因为当时脑子热交了钱吗，是因为想要多一份难忘的记忆吗。</p>
-<p>大学里取长和补短到底哪个重要，我问了很多人这个问题。其实我之所以为有这种疑问，是因为我在逃避我的短处。我数学很差，所以我觉得我参加数学竞赛很愚蠢，我觉得我做不出ACM的题就是因为我对数字不敏感。我希望人们告诉我大学里要多取长不用去补短，以此得到心里的慰藉。</p>
-<p>最近听了很多演讲，马云的，黄西的，我发现成功的人也有一些共同点。对未来充分的积极乐观，对困难挫折的永不退缩。很土的两句话，但他们都做到了然后成功了。我很害怕未来，因为它不能被预测，不能被明确量化。我纠结我这个学期绩点会不会不好看，会不会没奖学金拿，我会因为别人发了一条拿了多少多少奖学金的说说感到不适，并不是嫉妒，而是对自己无能的自责。这真的不是我想要的生活啊。</p>
-<p>我一直觉得，知道自己要做什么比自己在做什么更重要。前几天看数据结构书发现书上Dijkstra最优路径的代码其实就是在实现优先队列，就那一下下的触动，那一下下的成就感，我虽然反应慢，但好像也没那么蠢嘛。开学的时候一直在想，等我把作业全部写完，我就怎么样怎么样。如果把自己的房间装饰的很漂亮在请客的话，可能就没有朋友了。作业是写不完的，我要把时间花在自己身上，想做自己喜欢做的事情，学得慢怎么了，哪怕一天学一个知识点，一天做一道题，哪怕花几个小时写这么几个字。但我很快乐。</p>
-<p>今年很满足，在物质上得到了自己渴望得到的一切。今年有点遗憾，对物质的追求略大于精神满足。</p>
-<p>今年的第二个冬天。想Luke了，想一起去Glenelg Beach吹海风</p>
-]]></content>
-      <categories>
-        <category>十分人生</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写在大二下的期末考后</title>
     <url>/post/1520b5d6.html</url>
     <content><![CDATA[<h3 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h3><p>感谢秦老师，有点惭愧，感觉今年创新实践的成就根本对不起这个满绩的成绩</p>
@@ -945,6 +925,52 @@
 
 <p>感谢李国冰老师，四学期的体育三学期满绩。跟了李国冰一年，学了好多做人的道理，大学应该是除去知识后所有能力的培养。大骗子李国冰，有缘江湖再见</p>
 <img data-src="http://qiniu.dcts.top/%E6%88%B7%E5%A4%96%E6%8B%93%E5%B1%95%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95.jpg" style="zoom: 33%;" />]]></content>
+      <categories>
+        <category>十分人生</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客待办事项</title>
+    <url>/post/7bc2355c.html</url>
+    <content><![CDATA[<ul>
+<li><del>图片管理</del></li>
+<li>页面美化（还是有点丑。。）</li>
+<li><del>标签和分类整理</del></li>
+<li><del>评论</del></li>
+<li>源文件的分支  <a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li>
+<li>建站笔记整理</li>
+<li>百度搜索</li>
+<li><del>站内搜索</del></li>
+<li><del>字数统计</del></li>
+<li><del>微信公众号底部链接</del></li>
+<li><del>文章摘要（阅读更多）</del></li>
+<li>侧边栏社交</li>
+<li>分享</li>
+</ul>
+]]></content>
+      <categories>
+        <category>七分热爱</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写在大二上学期</title>
+    <url>/post/7ce73c6e.html</url>
+    <content><![CDATA[<p>太久没写点东西了。有些情感压抑太久无处爆发，想敲点字出来又肚里实在是没墨。很多话就这么堵在嗓子眼，就着凌晨两点的咖啡一口咽下。</p>
+<p>我觉得一个把大学过得像高中的人是很失败的。高中只有学习，大学里有学习，还有生活。而生活本身就不是一件容易的事情。大学是换了一个更大的监狱，多了几个门多了几堵围墙。每天忙忙碌碌地上课，碌碌无为到半夜。我这大学一年多，最最开心的时候是大一上期末考最后一门考试成绩出来，我知道我转专业有希望了。当尘埃落定，生活又露出真实的狰狞模样。我依然喜欢我做的事情，我也清楚我现在所学是在积累是在等某一天的厚积薄发，但是这过程太孤独太枯燥了太漫长了。</p>
+<p>今年很有幸，认识了很多好老师。这些老师都有一些共同的特点，把学生当朋友，不把成绩分数当做评判的唯一标准，能用人话分享知识，上课不点名，但是座无虚席。acm的刘春英老师也好，李国冰也好，韩敦敦也好。还有吴老师陈老师冯老师，你能很明显的感受到他们确实是希望你通过这一学期的课，能学到点东西。能抢到他们的课，三生有幸。当然今年压力也很大，因为如果我没学好我就不能找老师教的不好的借口了。</p>
+<p>今年没做什么好玩的项目，帮儿子做了个网页应该是班里最好的吧，大概是唯一能吹嘘自己的东西了。没得什么奖，参加了一个数学竞赛拿了6分。怎么看待明知道一些比赛得不了奖还积极去参加这种行为？是因为德育分吗，是因为当时脑子热交了钱吗，是因为想要多一份难忘的记忆吗。</p>
+<p>大学里取长和补短到底哪个重要，我问了很多人这个问题。其实我之所以为有这种疑问，是因为我在逃避我的短处。我数学很差，所以我觉得我参加数学竞赛很愚蠢，我觉得我做不出ACM的题就是因为我对数字不敏感。我希望人们告诉我大学里要多取长不用去补短，以此得到心里的慰藉。</p>
+<p>最近听了很多演讲，马云的，黄西的，我发现成功的人也有一些共同点。对未来充分的积极乐观，对困难挫折的永不退缩。很土的两句话，但他们都做到了然后成功了。我很害怕未来，因为它不能被预测，不能被明确量化。我纠结我这个学期绩点会不会不好看，会不会没奖学金拿，我会因为别人发了一条拿了多少多少奖学金的说说感到不适，并不是嫉妒，而是对自己无能的自责。这真的不是我想要的生活啊。</p>
+<p>我一直觉得，知道自己要做什么比自己在做什么更重要。前几天看数据结构书发现书上Dijkstra最优路径的代码其实就是在实现优先队列，就那一下下的触动，那一下下的成就感，我虽然反应慢，但好像也没那么蠢嘛。开学的时候一直在想，等我把作业全部写完，我就怎么样怎么样。如果把自己的房间装饰的很漂亮在请客的话，可能就没有朋友了。作业是写不完的，我要把时间花在自己身上，想做自己喜欢做的事情，学得慢怎么了，哪怕一天学一个知识点，一天做一道题，哪怕花几个小时写这么几个字。但我很快乐。</p>
+<p>今年很满足，在物质上得到了自己渴望得到的一切。今年有点遗憾，对物质的追求略大于精神满足。</p>
+<p>今年的第二个冬天。想Luke了，想一起去Glenelg Beach吹海风</p>
+]]></content>
       <categories>
         <category>十分人生</category>
       </categories>
@@ -1006,29 +1032,43 @@
       </tags>
   </entry>
   <entry>
-    <title>博客待办事项</title>
-    <url>/post/7bc2355c.html</url>
-    <content><![CDATA[<ul>
-<li><del>图片管理</del></li>
-<li>页面美化（还是有点丑。。）</li>
-<li><del>标签和分类整理</del></li>
-<li><del>评论</del></li>
-<li>源文件的分支  <a href="https://www.zhihu.com/question/21193762">https://www.zhihu.com/question/21193762</a></li>
-<li>建站笔记整理</li>
-<li>百度搜索</li>
-<li><del>站内搜索</del></li>
-<li><del>字数统计</del></li>
-<li><del>微信公众号底部链接</del></li>
-<li><del>文章摘要（阅读更多）</del></li>
-<li>侧边栏社交</li>
-<li>分享</li>
-</ul>
+    <title>微信聊天记录分析（IOS系统）</title>
+    <url>/post/e5a040a0.html</url>
+    <content><![CDATA[<h3 id="获得聊天记录"><a href="#获得聊天记录" class="headerlink" title="获得聊天记录"></a>获得聊天记录</h3><ol>
+<li> 使用itunes或其他工具备份ios手机到pc上<strong>不要加密备份</strong></li>
+<li> 使用工具，导出指定wx聊天记录。扫文章底部二维码关注公众号，回复 <strong>聊天记录</strong> 可获得工具。一共提供了两个工具，选择其一即可</li>
+</ol>
+<h3 id="处理和分析聊天记录"><a href="#处理和分析聊天记录" class="headerlink" title="处理和分析聊天记录"></a>处理和分析聊天记录</h3><ol>
+<li> 正则表达式</li>
+<li> Excel</li>
+<li> <a href="http://www.eteste.com/">字数统计</a></li>
+<li> Sublime Text</li>
+<li> ….</li>
+</ol>
+<h3 id="生成词云"><a href="#生成词云" class="headerlink" title="生成词云"></a>生成词云</h3><ol>
+<li><p>使用在线生成词云网站 <a href="http://www.picdata.cn/picdata/index.php">图悦</a></p>
+</li>
+<li><p>使用Jieba和WordCloud做词云</p>
+</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud, ImageColorGenerator</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment">#读取文件内容</span></span><br><span class="line">txt_path=<span class="string">&#x27;聊天文件地址如./11.txt&#x27;</span></span><br><span class="line">txt_open=(<span class="built_in">open</span>(txt_path,encoding=<span class="string">&#x27;UTF-8&#x27;</span>).read())</span><br><span class="line"></span><br><span class="line"><span class="comment">#图片路径</span></span><br><span class="line">tran_pic = <span class="string">&#x27;如./12.jpg&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置字体</span></span><br><span class="line"><span class="comment">#可自行上网寻找 提供网站 http://www.cyhd.net/html/2014/fonts_0815/19.html</span></span><br><span class="line">font=<span class="string">&#x27;字体地址 如 ./STFangSong.ttf&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置背景图片并转化为数组的形式</span></span><br><span class="line">image = Image.<span class="built_in">open</span>(tran_pic)</span><br><span class="line">image_= np.array(image)</span><br><span class="line"></span><br><span class="line"><span class="comment">#jieba分词</span></span><br><span class="line">world_jieba_after = jieba.cut(txt_open, cut_all=<span class="literal">True</span>)<span class="comment">#True全模式分词</span></span><br><span class="line">world_merge= <span class="string">&#x27; &#x27;</span>.join(world_jieba_after)</span><br><span class="line"></span><br><span class="line">wc = WordCloud(</span><br><span class="line">    background_color=<span class="string">&quot;white&quot;</span>,  <span class="comment"># 背景颜色</span></span><br><span class="line">    max_words=<span class="number">2000</span>,<span class="comment"># 词云显示的最大词数</span></span><br><span class="line">    mask=image_,  <span class="comment"># 设置背景图片</span></span><br><span class="line">    max_font_size=<span class="number">700</span>,  <span class="comment"># 字体最大值</span></span><br><span class="line"></span><br><span class="line">    collocations=<span class="literal">False</span>,</span><br><span class="line">    margin=<span class="number">2</span>,</span><br><span class="line">    <span class="comment"># width=540,</span></span><br><span class="line">    width=<span class="number">768</span>,</span><br><span class="line">    <span class="comment"># height=960,</span></span><br><span class="line">    height=<span class="number">1024</span>,</span><br><span class="line">    font_path=font</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"><span class="comment">#生成词云</span></span><br><span class="line">wc.generate(world_merge)</span><br><span class="line"></span><br><span class="line"><span class="comment">#背景图片生成颜色值</span></span><br><span class="line">image_colors = ImageColorGenerator(image_)</span><br><span class="line"></span><br><span class="line">plt.figure()</span><br><span class="line">plt.imshow(wc)</span><br><span class="line">plt.axis(<span class="string">&#x27;off&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"><span class="comment"># 保存图片</span></span><br><span class="line">wc.to_file(<span class="string">&#x27;2.png&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
+<li>使用上述代码时，词云背景自定义需要忽略白色部分（白色的地方没有信息），所以需要将图片不需要的部分变白，方法如下：<ol>
+<li>  可以用ps 扣除主体后 加一个白色的图层</li>
+<li> 使用<a href="https://www.gaoding.com/clip?id=30840600">在线抠图网站</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="词云效果"><a href="#词云效果" class="headerlink" title="词云效果"></a>词云效果</h3><p><img data-src="http://qiniu.dcts.top/%E5%BE%AE%E4%BF%A1%E8%AF%8D%E4%BA%91%E5%9B%BE%E7%89%87.png"></p>
+<h3 id="使用H5制作总结报告"><a href="#使用H5制作总结报告" class="headerlink" title="使用H5制作总结报告"></a>使用H5制作总结报告</h3><p>我是用的是<a href="%5Bhttp://www.eqxiu.com%5D(http://www.eqxiu.com/)">易企秀</a>，学习成本较低，效果如下</p>
+<p><img data-src="http://qiniu.dcts.top/H5%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"></p>
 ]]></content>
       <categories>
         <category>七分热爱</category>
       </categories>
       <tags>
-        <tag>博客</tag>
+        <tag>词云</tag>
       </tags>
   </entry>
   <entry>
@@ -1136,43 +1176,39 @@
       </tags>
   </entry>
   <entry>
-    <title>微信聊天记录分析（IOS系统）</title>
-    <url>/post/e5a040a0.html</url>
-    <content><![CDATA[<h3 id="获得聊天记录"><a href="#获得聊天记录" class="headerlink" title="获得聊天记录"></a>获得聊天记录</h3><ol>
-<li> 使用itunes或其他工具备份ios手机到pc上<strong>不要加密备份</strong></li>
-<li> 使用工具，导出指定wx聊天记录。扫文章底部二维码关注公众号，回复 <strong>聊天记录</strong> 可获得工具。一共提供了两个工具，选择其一即可</li>
-</ol>
-<h3 id="处理和分析聊天记录"><a href="#处理和分析聊天记录" class="headerlink" title="处理和分析聊天记录"></a>处理和分析聊天记录</h3><ol>
-<li> 正则表达式</li>
-<li> Excel</li>
-<li> <a href="http://www.eteste.com/">字数统计</a></li>
-<li> Sublime Text</li>
-<li> ….</li>
-</ol>
-<h3 id="生成词云"><a href="#生成词云" class="headerlink" title="生成词云"></a>生成词云</h3><ol>
-<li><p>使用在线生成词云网站 <a href="http://www.picdata.cn/picdata/index.php">图悦</a></p>
+    <title>摄影学习笔记（一）————  基础知识介绍</title>
+    <url>/post/271a4a90.html</url>
+    <content><![CDATA[<h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
+<li>光圈是表示镜头中孔径大小的比值。</li>
+<li>光圈越大数值越小,光圈越小数值越大。</li>
+<li>光圈越大越明亮,光圈越小越暗。</li>
+<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
+</ul>
+<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
+<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
 </li>
-<li><p>使用Jieba和WordCloud做词云</p>
+<li><p>比1/60秒慢的，就是慢门。</p>
 </li>
-</ol>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud, ImageColorGenerator</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment">#读取文件内容</span></span><br><span class="line">txt_path=<span class="string">&#x27;聊天文件地址如./11.txt&#x27;</span></span><br><span class="line">txt_open=(<span class="built_in">open</span>(txt_path,encoding=<span class="string">&#x27;UTF-8&#x27;</span>).read())</span><br><span class="line"></span><br><span class="line"><span class="comment">#图片路径</span></span><br><span class="line">tran_pic = <span class="string">&#x27;如./12.jpg&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置字体</span></span><br><span class="line"><span class="comment">#可自行上网寻找 提供网站 http://www.cyhd.net/html/2014/fonts_0815/19.html</span></span><br><span class="line">font=<span class="string">&#x27;字体地址 如 ./STFangSong.ttf&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#设置背景图片并转化为数组的形式</span></span><br><span class="line">image = Image.<span class="built_in">open</span>(tran_pic)</span><br><span class="line">image_= np.array(image)</span><br><span class="line"></span><br><span class="line"><span class="comment">#jieba分词</span></span><br><span class="line">world_jieba_after = jieba.cut(txt_open, cut_all=<span class="literal">True</span>)<span class="comment">#True全模式分词</span></span><br><span class="line">world_merge= <span class="string">&#x27; &#x27;</span>.join(world_jieba_after)</span><br><span class="line"></span><br><span class="line">wc = WordCloud(</span><br><span class="line">    background_color=<span class="string">&quot;white&quot;</span>,  <span class="comment"># 背景颜色</span></span><br><span class="line">    max_words=<span class="number">2000</span>,<span class="comment"># 词云显示的最大词数</span></span><br><span class="line">    mask=image_,  <span class="comment"># 设置背景图片</span></span><br><span class="line">    max_font_size=<span class="number">700</span>,  <span class="comment"># 字体最大值</span></span><br><span class="line"></span><br><span class="line">    collocations=<span class="literal">False</span>,</span><br><span class="line">    margin=<span class="number">2</span>,</span><br><span class="line">    <span class="comment"># width=540,</span></span><br><span class="line">    width=<span class="number">768</span>,</span><br><span class="line">    <span class="comment"># height=960,</span></span><br><span class="line">    height=<span class="number">1024</span>,</span><br><span class="line">    font_path=font</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"><span class="comment">#生成词云</span></span><br><span class="line">wc.generate(world_merge)</span><br><span class="line"></span><br><span class="line"><span class="comment">#背景图片生成颜色值</span></span><br><span class="line">image_colors = ImageColorGenerator(image_)</span><br><span class="line"></span><br><span class="line">plt.figure()</span><br><span class="line">plt.imshow(wc)</span><br><span class="line">plt.axis(<span class="string">&#x27;off&#x27;</span>)</span><br><span class="line">plt.show()</span><br><span class="line"><span class="comment"># 保存图片</span></span><br><span class="line">wc.to_file(<span class="string">&#x27;2.png&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
-<li>使用上述代码时，词云背景自定义需要忽略白色部分（白色的地方没有信息），所以需要将图片不需要的部分变白，方法如下：<ol>
-<li>  可以用ps 扣除主体后 加一个白色的图层</li>
-<li> 使用<a href="https://www.gaoding.com/clip?id=30840600">在线抠图网站</a></li>
-</ol>
+<li><p>比1/250秒快的，就是高速快门。</p>
 </li>
-</ol>
-<h3 id="词云效果"><a href="#词云效果" class="headerlink" title="词云效果"></a>词云效果</h3><p><img data-src="http://qiniu.dcts.top/%E5%BE%AE%E4%BF%A1%E8%AF%8D%E4%BA%91%E5%9B%BE%E7%89%87.png"></p>
-<h3 id="使用H5制作总结报告"><a href="#使用H5制作总结报告" class="headerlink" title="使用H5制作总结报告"></a>使用H5制作总结报告</h3><p>我是用的是<a href="%5Bhttp://www.eqxiu.com%5D(http://www.eqxiu.com/)">易企秀</a>，学习成本较低，效果如下</p>
-<p><img data-src="http://qiniu.dcts.top/H5%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"></p>
+<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
+</li>
+<li><p>快门慢 曝光时间长 亮（长曝光）</p>
+</li>
+<li><p>快门快 运动快的东西也会被凝固住</p>
+</li>
+</ul>
+<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
+<li>ISO越高越亮 但是照片质量会下降</li>
+</ul>
+<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
 ]]></content>
       <categories>
-        <category>七分热爱</category>
+        <category>三分技术</category>
       </categories>
       <tags>
-        <tag>词云</tag>
+        <tag>入门</tag>
+        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -1247,44 +1283,8 @@
         <category>三分技术</category>
       </categories>
       <tags>
+        <tag>摄影</tag>
         <tag>Pr</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>摄影学习笔记（一）————  基础知识介绍</title>
-    <url>/post/271a4a90.html</url>
-    <content><![CDATA[<h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
-<li>光圈是表示镜头中孔径大小的比值。</li>
-<li>光圈越大数值越小,光圈越小数值越大。</li>
-<li>光圈越大越明亮,光圈越小越暗。</li>
-<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
-</ul>
-<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
-<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
-</li>
-<li><p>比1/60秒慢的，就是慢门。</p>
-</li>
-<li><p>比1/250秒快的，就是高速快门。</p>
-</li>
-<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
-</li>
-<li><p>快门慢 曝光时间长 亮（长曝光）</p>
-</li>
-<li><p>快门快 运动快的东西也会被凝固住</p>
-</li>
-</ul>
-<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
-<li>ISO越高越亮 但是照片质量会下降</li>
-</ul>
-<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>入门</tag>
-        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -1374,97 +1374,6 @@
 </li>
 </ol>
 <p>​    </p>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>操作系统实验二</title>
-    <url>/post/da9b6b33.html</url>
-    <content><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="1-内核态和用户态-特权级"><a href="#1-内核态和用户态-特权级" class="headerlink" title="1.内核态和用户态,特权级"></a>1.内核态和用户态,特权级</h3><p>Linux中每个进程有两个栈，分别用于用户态和内核态的进程执行，其中的内核栈就是用于内核态的堆栈，它和进程的task_struct结构，更具体的是thread_info结构一起放在两个连续的页框大小的空间内。 现在我们从特权级的调度来理解用户态和内核态就比较好理解了，当程序运行在<strong>3级特权级</strong>上时，就可以称之为运行在<strong>用户态</strong>，因为这是最低特权级，是普通的用户进程运行的特权级，大部分用户直接面对的程序都是运行在用户态；反之，当程序运行在<strong>0级特权级</strong>上时，就可以称之为运行在<strong>内核态</strong>。虽然用户态下和内核态下工作的程序有很多差别，但最重要的差别就在于特权级的不同，即权力的不同。运行在用户态的程序不能访问操作系统内核数据结构合程序。</p>
-<p>当我们在系统中执行一个程序时，大部分时间是运行在用户态下的。在其需要操作系统帮助完成某些它没有权力和能力完成的工作时就会切换到内核态。 Linux进程的4GB地址空间，3G-4G部分大家是共享的，是内核态的地址空间，这里存放在整个内核的代码和所有的内核模块，以及内核所维护的数据。用户运行一个程序，该程序所创建的进程开始是运行在用户态的，如果要执行文件操作，网络数据发送等操作，<strong>必须通过write，send等系统调用</strong>，这些系统调用会调用内核中的代码来完成操作，这时，必须切换到<strong>Ring0</strong>，然后进入3GB-4GB中的内核地址空间去执行这些代码完成操作，完成后，切换回<strong>Ring3</strong>，回到用户态。这样，用户态的程序就不能随意操作内核地址空间，具有一定的安全保护作用。保护模式，通过内存页表操作等机制，保证进程间的地址空间不会互相冲突，一个进程的操作不会修改另一个进程的地址空间中的数据。</p>
-<p>在内核态下，CPU可执行任何指令，在用户态下CPU只能执行非特权指令。当CPU处于内核态，可以随意进入用户态；而当CPU处于用户态，只能通过<strong>中断的方式</strong>进入内核态。一般程序一开始都是运行于用户态，当程序需要使用系统资源时，就必须通过调用软中断进入内核态. </p>
-<p> Intel x86架构的cpu一共有0～4四个特权级，0级最高，3级最低，硬件上在执行每条指令时都会对指令所具有的特权级做相应的检查。硬件已经提供了一套特权级使用的相关机制，软件自然要好好利用，这属于操作系统要做的事情，<strong>对于UNIX/LINUX来说，只使用了0级特权级别和3级特权级</strong>。也就是说在UNIX/LINUX系统中，一条工作在0级特权级的指令具有了CPU能提供的最高权力，而一条工作在3级特权的指令具有CPU提供的最低或者说最基本权力 </p>
-<h3 id="2-什么是单体式结构"><a href="#2-什么是单体式结构" class="headerlink" title="2.什么是单体式结构?"></a>2.什么是单体式结构?</h3><p>大内核，将OS的全部功能都做进内核中，包括调度、文件系统、网络、设备驱动器、存储管理。比如设备驱动管理、资源分配、进程间通信、进程间切换管理、文件系统、存储管理、网络等。单体内核是指在一大块代码中实际包含了所有操作系统功能，并作为一个单一进程运行，具有唯一地址空间。大部分UNIX（包括Linxu）系统都采用的单体内核。</p>
-<h3 id="3-什么是微内核结构"><a href="#3-什么是微内核结构" class="headerlink" title="3.什么是微内核结构"></a>3.什么是微内核结构</h3><p>微内核只是将OS中最核心的功能加入内核，包括IPC通信、地址空间分配和基本的调度，这些东西处在内核态运行。如：WINCE系统。而其他功能如设备驱动、文件系统、存储管理、网络等作为一个个处于用户态的进程而向外提供某种服务来实现，而且这些处于用户态的进程可以针对某些特定的应用和环境需求进行定制</p>
-<h2 id="部分源码理解"><a href="#部分源码理解" class="headerlink" title="部分源码理解"></a>部分源码理解</h2><h3 id="1-task-struct"><a href="#1-task-struct" class="headerlink" title="1. task_struct"></a>1. task_struct</h3><p><a href="https://blog.csdn.net/npy_lp/article/details/7292563">1.Linux进程管理之task_struct结构体（上）</a></p>
-<p><a href="https://blog.csdn.net/npy_lp/article/details/7335187">2.Linux进程管理之task_struct结构体（下）</a></p>
-<p><a href="https://www.cnblogs.com/shihuvini/p/10043251.html">Linux pid与tgid概念</a></p>
-<ol>
-<li><p>表示进程亲属关系的成员  </p>
- <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">real_parent</span>;</span> <span class="comment">/* real parent process */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">parent</span>;</span> <span class="comment">/* recipient of SIGCHLD, wait4() reports */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">children</span>;</span>	<span class="comment">/* list of my children */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">sibling</span>;</span>	<span class="comment">/* linkage in my parent&#x27;s children list */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">group_leader</span>;</span>	<span class="comment">/* threadgroup leader */</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>进程名</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span> comm[TASK_COMM_LEN];</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#kernel/inclue/linux/types.h </span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> &#123;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> *<span class="title">next</span>, *<span class="title">prev</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg"></p>
-<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// head是一个list_head</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_for_each(pos, head) \</span></span><br><span class="line"><span class="keyword">for</span> (pos = (head)-&gt;next; pos != (head);pos = pos-&gt;next)</span><br></pre></td></tr></table></figure>
-
-<p>它实际上是一个 for 循环，利用传入的pos 作为循环变量，从表头 head开始，逐项向后（next方向）移动 pos ，直至又回到 head </p>
-<p>注意：此宏必要把list_head放在数据结构第一项成员，至此，它的地址也就是结构变量的地址。</p>
-<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg"></p>
-<h4 id="3-2-struct-pid"><a href="#3-2-struct-pid" class="headerlink" title="3.2 struct pid"></a>3.2 struct pid</h4><p>很多时候在写内核模块的时候，需要通过进程的<strong>pid</strong>(int)找到对应进程的<strong>task_struct</strong>,其中首先就需要通过进程的pid找到进程的<strong>struct pid</strong>，然后再通过<strong>struct pid</strong>找到进程的<strong>task_struct</strong>,实现从pid到task_struct的内核函数struct pid 是进程描述符，在<code>include/linux/pid.h</code> 中，其定义如下：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">pid</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">        <span class="keyword">atomic_t</span> count;</span><br><span class="line">        <span class="keyword">unsigned</span> <span class="keyword">int</span> level;</span><br><span class="line">        <span class="comment">/* lists of tasks that use this pid */</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_head</span> <span class="title">tasks</span>[<span class="title">PIDTYPE_MAX</span>];</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">rcu_head</span> <span class="title">rcu</span>;</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">upid</span> <span class="title">numbers</span>[1];</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>struct pid *find_get_pid(pid_t nr)</code></li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1</span></span><br><span class="line"><span class="function">struct pid *<span class="title">find_get_pid</span><span class="params">(<span class="keyword">pid_t</span> nr)</span>  </span></span><br><span class="line"><span class="function"></span>&#123;  </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">pid</span> *<span class="title">pid</span>;</span> </span><br><span class="line">    rcu_read_lock();  </span><br><span class="line">    pid = get_pid(find_vpid(nr));  </span><br><span class="line">    rcu_read_unlock();  </span><br><span class="line">    <span class="keyword">return</span> pid;  </span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure>
-
-<p> <code>find_get_pid</code>和<code>find_vpid</code>有一点差异，就是使用<code>find_get_pid</code>将返回的<code>struct pid</code>中的字段count加1，而<code>find_vpid</code>没有加1 </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">inline</span> struct pid *<span class="title">get_pid</span><span class="params">(struct pid *pid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pid)</span><br><span class="line">                atomic_inc(&amp;pid-&gt;count);</span><br><span class="line">        <span class="keyword">return</span> pid;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>find_vpid</code>和<code>find_pid_ns</code>是一样的</p>
-<ul>
-<li><code>struct pid *find_vpid(int nr) </code></li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_vpid</span><span class="params">(<span class="keyword">int</span> nr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> find_pid_ns(nr, task_active_pid_ns(current));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>struct pid *find_pid_ns(int nr, struct pid_namespace *ns)</code></li>
-</ul>
-<p><a href="http://blog.chinaunix.net/uid-27033491-id-3291637.html">find_pid_ns详解</a></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_pid_ns</span><span class="params">(<span class="keyword">int</span> nr, struct pid_namespace *ns)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> idr_find(&amp;ns-&gt;idr, nr);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p> <img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png"> </p>
-<h4 id="3-3-pid-task"><a href="#3-3-pid-task" class="headerlink" title="3.3 pid_task"></a>3.3 pid_task</h4><p>根据PID(结构体)查找task_struct(PCB),一般<code>p = pid_task(find_vpid(pid), PIDTYPE_PID);</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct task_struct *<span class="title">pid_task</span><span class="params">(struct pid *pid, <span class="keyword">enum</span> pid_type type)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">result</span> =</span> <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">if</span> (pid) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_node</span> *<span class="title">first</span>;</span></span><br><span class="line">        first = rcu_dereference_check(hlist_first_rcu(&amp;pid-&gt;tasks[type]),</span><br><span class="line">        lockdep_tasklist_lock_is_held());</span><br><span class="line">        <span class="keyword">if</span> (first)</span><br><span class="line">            result = hlist_entry(first, struct task_struct, pids[(type)].node);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="3-4-list-entry"><a href="#3-4-list-entry" class="headerlink" title="3.4 list_entry"></a>3.4 list_entry</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// list_entry 就是 container_of </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_entry(ptr, type, member) \</span></span><br><span class="line">	container_of(ptr, type, member)</span><br></pre></td></tr></table></figure>
-
-<p> 那<code>container_of(ptr, type, member)</code>,又是什么呢</p>
-<h4 id="3-5-container-of"><a href="#3-5-container-of" class="headerlink" title="3.5 container_of"></a>3.5 container_of</h4><p><a href="https://www.cnblogs.com/hicjiajia/archive/2012/07/01/2571791.html">资料</a> </p>
-<p><a href="https://blog.csdn.net/zsj100213/article/details/81843523">通俗理解</a></p>
-<p><code>container_of(ptr, type, member)</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> container_of(ptr, type, member) (&#123;			\</span></span><br><span class="line">        <span class="function"><span class="keyword">const</span> <span class="title">typeof</span><span class="params">( ((type *)<span class="number">0</span>)-&gt;member )</span> *__mptr </span>= (ptr);	\</span><br><span class="line">        (type *)( (<span class="keyword">char</span> *)__mptr - offsetof(type,member) );&#125;)	</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p> container_of()的作用就是通过一个结构变量中一个成员的地址找到这个结构体变量的首地址</p>
-<p>比如</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Struct test</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">int</span> j;</span><br><span class="line">    <span class="keyword">char</span> k;</span><br><span class="line">&#125;;</span><br><span class="line">Struct test temp;</span><br></pre></td></tr></table></figure>
-
-<p>现在呢如果我想通过<code>temp.j</code>的地址找到<code>temp</code>的首地址就可以使用<code>container_of(&amp;(temp.j),struct test,j);</code> </p>
-<p>如果我能知道<code>temp.j</code>的地址A,也能知道<code>temp.j</code>的偏移量B,那么A-B就是temp的首地址</p>
-<p>网上有一种很形象的比喻:<code>x-&gt;member = ptr</code>，求 x (结构体)的地址是多少</p>
-<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> for_each_process(p) \</span></span><br><span class="line">	<span class="keyword">for</span> (p = &amp;init_task ; (p = next_task(p)) != &amp;init_task ; )</span><br></pre></td></tr></table></figure>
-
-<p>就是个for循环,其中<code>p = next_task(p)</code>,这个<code>next_task</code>是怎么实现的呢</p>
-<h4 id="3-6-next-task"><a href="#3-6-next-task" class="headerlink" title="3.6 next_task"></a>3.6 next_task</h4><p>Linux内核链表,其中next_task也是宏循环控制语句，在<code>/include/linux/sched/signal.h</code>中：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> next_task(p) \</span></span><br><span class="line">	list_entry_rcu((p)-&gt;tasks.next, struct task_struct, tasks)</span><br></pre></td></tr></table></figure>
-
-<p>而task_struct中有：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> &#123;</span>    </span><br><span class="line">...</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span>		<span class="title">tasks</span>;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这里的<code>list_entry_rcu</code>作用和<code>list_entry</code>是一样的,我通过task_struct中, 1️⃣ tasks这个成员变量,2️⃣tasks这个成员变量的地址<code>(p)-&gt;tasks.next</code>,得到下一个task_struct的首地址,即下一个进程</p>
-<h2 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h2><p><a href="https://github.com/TD21forever/HDU_operating_system">杭电操作系统实验二代码</a></p>
 ]]></content>
       <categories>
         <category>三分技术</category>
@@ -1566,6 +1475,97 @@
       <tags>
         <tag>笔记</tag>
         <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统实验二</title>
+    <url>/post/da9b6b33.html</url>
+    <content><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="1-内核态和用户态-特权级"><a href="#1-内核态和用户态-特权级" class="headerlink" title="1.内核态和用户态,特权级"></a>1.内核态和用户态,特权级</h3><p>Linux中每个进程有两个栈，分别用于用户态和内核态的进程执行，其中的内核栈就是用于内核态的堆栈，它和进程的task_struct结构，更具体的是thread_info结构一起放在两个连续的页框大小的空间内。 现在我们从特权级的调度来理解用户态和内核态就比较好理解了，当程序运行在<strong>3级特权级</strong>上时，就可以称之为运行在<strong>用户态</strong>，因为这是最低特权级，是普通的用户进程运行的特权级，大部分用户直接面对的程序都是运行在用户态；反之，当程序运行在<strong>0级特权级</strong>上时，就可以称之为运行在<strong>内核态</strong>。虽然用户态下和内核态下工作的程序有很多差别，但最重要的差别就在于特权级的不同，即权力的不同。运行在用户态的程序不能访问操作系统内核数据结构合程序。</p>
+<p>当我们在系统中执行一个程序时，大部分时间是运行在用户态下的。在其需要操作系统帮助完成某些它没有权力和能力完成的工作时就会切换到内核态。 Linux进程的4GB地址空间，3G-4G部分大家是共享的，是内核态的地址空间，这里存放在整个内核的代码和所有的内核模块，以及内核所维护的数据。用户运行一个程序，该程序所创建的进程开始是运行在用户态的，如果要执行文件操作，网络数据发送等操作，<strong>必须通过write，send等系统调用</strong>，这些系统调用会调用内核中的代码来完成操作，这时，必须切换到<strong>Ring0</strong>，然后进入3GB-4GB中的内核地址空间去执行这些代码完成操作，完成后，切换回<strong>Ring3</strong>，回到用户态。这样，用户态的程序就不能随意操作内核地址空间，具有一定的安全保护作用。保护模式，通过内存页表操作等机制，保证进程间的地址空间不会互相冲突，一个进程的操作不会修改另一个进程的地址空间中的数据。</p>
+<p>在内核态下，CPU可执行任何指令，在用户态下CPU只能执行非特权指令。当CPU处于内核态，可以随意进入用户态；而当CPU处于用户态，只能通过<strong>中断的方式</strong>进入内核态。一般程序一开始都是运行于用户态，当程序需要使用系统资源时，就必须通过调用软中断进入内核态. </p>
+<p> Intel x86架构的cpu一共有0～4四个特权级，0级最高，3级最低，硬件上在执行每条指令时都会对指令所具有的特权级做相应的检查。硬件已经提供了一套特权级使用的相关机制，软件自然要好好利用，这属于操作系统要做的事情，<strong>对于UNIX/LINUX来说，只使用了0级特权级别和3级特权级</strong>。也就是说在UNIX/LINUX系统中，一条工作在0级特权级的指令具有了CPU能提供的最高权力，而一条工作在3级特权的指令具有CPU提供的最低或者说最基本权力 </p>
+<h3 id="2-什么是单体式结构"><a href="#2-什么是单体式结构" class="headerlink" title="2.什么是单体式结构?"></a>2.什么是单体式结构?</h3><p>大内核，将OS的全部功能都做进内核中，包括调度、文件系统、网络、设备驱动器、存储管理。比如设备驱动管理、资源分配、进程间通信、进程间切换管理、文件系统、存储管理、网络等。单体内核是指在一大块代码中实际包含了所有操作系统功能，并作为一个单一进程运行，具有唯一地址空间。大部分UNIX（包括Linxu）系统都采用的单体内核。</p>
+<h3 id="3-什么是微内核结构"><a href="#3-什么是微内核结构" class="headerlink" title="3.什么是微内核结构"></a>3.什么是微内核结构</h3><p>微内核只是将OS中最核心的功能加入内核，包括IPC通信、地址空间分配和基本的调度，这些东西处在内核态运行。如：WINCE系统。而其他功能如设备驱动、文件系统、存储管理、网络等作为一个个处于用户态的进程而向外提供某种服务来实现，而且这些处于用户态的进程可以针对某些特定的应用和环境需求进行定制</p>
+<h2 id="部分源码理解"><a href="#部分源码理解" class="headerlink" title="部分源码理解"></a>部分源码理解</h2><h3 id="1-task-struct"><a href="#1-task-struct" class="headerlink" title="1. task_struct"></a>1. task_struct</h3><p><a href="https://blog.csdn.net/npy_lp/article/details/7292563">1.Linux进程管理之task_struct结构体（上）</a></p>
+<p><a href="https://blog.csdn.net/npy_lp/article/details/7335187">2.Linux进程管理之task_struct结构体（下）</a></p>
+<p><a href="https://www.cnblogs.com/shihuvini/p/10043251.html">Linux pid与tgid概念</a></p>
+<ol>
+<li><p>表示进程亲属关系的成员  </p>
+ <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">real_parent</span>;</span> <span class="comment">/* real parent process */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">parent</span>;</span> <span class="comment">/* recipient of SIGCHLD, wait4() reports */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">children</span>;</span>	<span class="comment">/* list of my children */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">sibling</span>;</span>	<span class="comment">/* linkage in my parent&#x27;s children list */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">group_leader</span>;</span>	<span class="comment">/* threadgroup leader */</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进程名</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span> comm[TASK_COMM_LEN];</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#kernel/inclue/linux/types.h </span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> &#123;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> *<span class="title">next</span>, *<span class="title">prev</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg"></p>
+<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// head是一个list_head</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_for_each(pos, head) \</span></span><br><span class="line"><span class="keyword">for</span> (pos = (head)-&gt;next; pos != (head);pos = pos-&gt;next)</span><br></pre></td></tr></table></figure>
+
+<p>它实际上是一个 for 循环，利用传入的pos 作为循环变量，从表头 head开始，逐项向后（next方向）移动 pos ，直至又回到 head </p>
+<p>注意：此宏必要把list_head放在数据结构第一项成员，至此，它的地址也就是结构变量的地址。</p>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg"></p>
+<h4 id="3-2-struct-pid"><a href="#3-2-struct-pid" class="headerlink" title="3.2 struct pid"></a>3.2 struct pid</h4><p>很多时候在写内核模块的时候，需要通过进程的<strong>pid</strong>(int)找到对应进程的<strong>task_struct</strong>,其中首先就需要通过进程的pid找到进程的<strong>struct pid</strong>，然后再通过<strong>struct pid</strong>找到进程的<strong>task_struct</strong>,实现从pid到task_struct的内核函数struct pid 是进程描述符，在<code>include/linux/pid.h</code> 中，其定义如下：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">pid</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">        <span class="keyword">atomic_t</span> count;</span><br><span class="line">        <span class="keyword">unsigned</span> <span class="keyword">int</span> level;</span><br><span class="line">        <span class="comment">/* lists of tasks that use this pid */</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_head</span> <span class="title">tasks</span>[<span class="title">PIDTYPE_MAX</span>];</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">rcu_head</span> <span class="title">rcu</span>;</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">upid</span> <span class="title">numbers</span>[1];</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>struct pid *find_get_pid(pid_t nr)</code></li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1</span></span><br><span class="line"><span class="function">struct pid *<span class="title">find_get_pid</span><span class="params">(<span class="keyword">pid_t</span> nr)</span>  </span></span><br><span class="line"><span class="function"></span>&#123;  </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">pid</span> *<span class="title">pid</span>;</span> </span><br><span class="line">    rcu_read_lock();  </span><br><span class="line">    pid = get_pid(find_vpid(nr));  </span><br><span class="line">    rcu_read_unlock();  </span><br><span class="line">    <span class="keyword">return</span> pid;  </span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure>
+
+<p> <code>find_get_pid</code>和<code>find_vpid</code>有一点差异，就是使用<code>find_get_pid</code>将返回的<code>struct pid</code>中的字段count加1，而<code>find_vpid</code>没有加1 </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">inline</span> struct pid *<span class="title">get_pid</span><span class="params">(struct pid *pid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pid)</span><br><span class="line">                atomic_inc(&amp;pid-&gt;count);</span><br><span class="line">        <span class="keyword">return</span> pid;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>find_vpid</code>和<code>find_pid_ns</code>是一样的</p>
+<ul>
+<li><code>struct pid *find_vpid(int nr) </code></li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_vpid</span><span class="params">(<span class="keyword">int</span> nr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> find_pid_ns(nr, task_active_pid_ns(current));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>struct pid *find_pid_ns(int nr, struct pid_namespace *ns)</code></li>
+</ul>
+<p><a href="http://blog.chinaunix.net/uid-27033491-id-3291637.html">find_pid_ns详解</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_pid_ns</span><span class="params">(<span class="keyword">int</span> nr, struct pid_namespace *ns)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> idr_find(&amp;ns-&gt;idr, nr);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p> <img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png"> </p>
+<h4 id="3-3-pid-task"><a href="#3-3-pid-task" class="headerlink" title="3.3 pid_task"></a>3.3 pid_task</h4><p>根据PID(结构体)查找task_struct(PCB),一般<code>p = pid_task(find_vpid(pid), PIDTYPE_PID);</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">struct task_struct *<span class="title">pid_task</span><span class="params">(struct pid *pid, <span class="keyword">enum</span> pid_type type)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">result</span> =</span> <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">if</span> (pid) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_node</span> *<span class="title">first</span>;</span></span><br><span class="line">        first = rcu_dereference_check(hlist_first_rcu(&amp;pid-&gt;tasks[type]),</span><br><span class="line">        lockdep_tasklist_lock_is_held());</span><br><span class="line">        <span class="keyword">if</span> (first)</span><br><span class="line">            result = hlist_entry(first, struct task_struct, pids[(type)].node);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-4-list-entry"><a href="#3-4-list-entry" class="headerlink" title="3.4 list_entry"></a>3.4 list_entry</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// list_entry 就是 container_of </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> list_entry(ptr, type, member) \</span></span><br><span class="line">	container_of(ptr, type, member)</span><br></pre></td></tr></table></figure>
+
+<p> 那<code>container_of(ptr, type, member)</code>,又是什么呢</p>
+<h4 id="3-5-container-of"><a href="#3-5-container-of" class="headerlink" title="3.5 container_of"></a>3.5 container_of</h4><p><a href="https://www.cnblogs.com/hicjiajia/archive/2012/07/01/2571791.html">资料</a> </p>
+<p><a href="https://blog.csdn.net/zsj100213/article/details/81843523">通俗理解</a></p>
+<p><code>container_of(ptr, type, member)</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> container_of(ptr, type, member) (&#123;			\</span></span><br><span class="line">        <span class="function"><span class="keyword">const</span> <span class="title">typeof</span><span class="params">( ((type *)<span class="number">0</span>)-&gt;member )</span> *__mptr </span>= (ptr);	\</span><br><span class="line">        (type *)( (<span class="keyword">char</span> *)__mptr - offsetof(type,member) );&#125;)	</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p> container_of()的作用就是通过一个结构变量中一个成员的地址找到这个结构体变量的首地址</p>
+<p>比如</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Struct test</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">int</span> j;</span><br><span class="line">    <span class="keyword">char</span> k;</span><br><span class="line">&#125;;</span><br><span class="line">Struct test temp;</span><br></pre></td></tr></table></figure>
+
+<p>现在呢如果我想通过<code>temp.j</code>的地址找到<code>temp</code>的首地址就可以使用<code>container_of(&amp;(temp.j),struct test,j);</code> </p>
+<p>如果我能知道<code>temp.j</code>的地址A,也能知道<code>temp.j</code>的偏移量B,那么A-B就是temp的首地址</p>
+<p>网上有一种很形象的比喻:<code>x-&gt;member = ptr</code>，求 x (结构体)的地址是多少</p>
+<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> for_each_process(p) \</span></span><br><span class="line">	<span class="keyword">for</span> (p = &amp;init_task ; (p = next_task(p)) != &amp;init_task ; )</span><br></pre></td></tr></table></figure>
+
+<p>就是个for循环,其中<code>p = next_task(p)</code>,这个<code>next_task</code>是怎么实现的呢</p>
+<h4 id="3-6-next-task"><a href="#3-6-next-task" class="headerlink" title="3.6 next_task"></a>3.6 next_task</h4><p>Linux内核链表,其中next_task也是宏循环控制语句，在<code>/include/linux/sched/signal.h</code>中：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> next_task(p) \</span></span><br><span class="line">	list_entry_rcu((p)-&gt;tasks.next, struct task_struct, tasks)</span><br></pre></td></tr></table></figure>
+
+<p>而task_struct中有：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> &#123;</span>    </span><br><span class="line">...</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span>		<span class="title">tasks</span>;</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这里的<code>list_entry_rcu</code>作用和<code>list_entry</code>是一样的,我通过task_struct中, 1️⃣ tasks这个成员变量,2️⃣tasks这个成员变量的地址<code>(p)-&gt;tasks.next</code>,得到下一个task_struct的首地址,即下一个进程</p>
+<h2 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h2><p><a href="https://github.com/TD21forever/HDU_operating_system">杭电操作系统实验二代码</a></p>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -1788,22 +1788,6 @@
       </tags>
   </entry>
   <entry>
-    <title>科目三过啦</title>
-    <url>/post/280328b7.html</url>
-    <content><![CDATA[<p>科三内容真的挺少的，折算成大学课程，估计就一节课45分钟的量。所以早早地预约，练了四个上午，就去考场熟悉道路，准备第二天的考试。考前一天熟悉道路，我练的不好，每个人开四次，挂了两次。烈日当头，车里如摆设般的空调，没有空调的候车室，轮流练车时无止境的等待，加上练车时教练还在一旁啰啰嗦嗦，实在是磨人耐心。想着老子要是这次没过，就特么不学了。练车时我都感觉自己是一具没有灵魂的空壳，全程靠教练指挥，越练越拘谨，越练越没信心。</p>
-<p>第二天考试，和我一辆车里的另一个哥们先考，在公交车站牌，刹车踩重了，“档位与速度不匹配”，挂了，回起点，又出发，又在公交车站牌，刹车踩轻了，“未按规定减速慢行”，挂了….吓得我立马找机会塞了安全员一张毛爷爷。于是，我起步忘按喇叭，拍大腿提醒我。公交车站牌敲窗户提醒我，帮忙踩了脚刹车。第一个路口帮忙踩了脚刹车。百米冲刺速度降太慢，帮忙踩了脚刹车。靠边停车，帮忙点了下刹车，我立马踩离合刹车跟进，回空挡拉手刹一气呵成，“成绩合格”。然后我科三就结束了，结束的意犹未尽。</p>
-<p>我挺不愿意提这件事情的，因为我清楚地记得当我爸妈说别人科三都是这么做的时，我还义正言辞“我才不会这么做，他凭什么拿我钱，我干嘛给他钱？”，当时还愤慨激昂，觉得自己不干这种”肮脏“的事情，现在呢，”如果没有那几脚刹车，我明确肯定我是过不了科三的“，我考完这么感慨。真的，我到现在还是这么感慨的，甚至觉得多给一张也不为过。事后想了想，这样做其实是把安全员和我绑在了同一条船上，大学的象牙塔里呆久了，又怎会知道社会里水有多深。</p>
-<hr>
-<p>其实7月22日上午就考完了,但那天一直都不愿去回忆，有太多让我后怕的东西。如果我是第一个考试的，如果第一个哥们没挂掉，我可能就没时间和安全员打招呼，就不会有之后的提醒和帮踩刹车，就会在同一个点挂两次，就又特么又要在大太阳底下没完没了的开25码，开过来开过去，又要浪费这么枯燥无聊的等待时间。还好啊，都结束了。</p>
-]]></content>
-      <categories>
-        <category>十分人生</category>
-      </categories>
-      <tags>
-        <tag>学车</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>科目二复习</title>
     <url>/post/2d9df1e8.html</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>以为今天不练车，一觉睡到大天亮。起来看到手机里十几个教练的未接电话就蒙了。原来早上的喇叭声，不是堵车是在喊我练车。。。。</p>
@@ -1896,6 +1880,22 @@
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>科目三过啦</title>
+    <url>/post/280328b7.html</url>
+    <content><![CDATA[<p>科三内容真的挺少的，折算成大学课程，估计就一节课45分钟的量。所以早早地预约，练了四个上午，就去考场熟悉道路，准备第二天的考试。考前一天熟悉道路，我练的不好，每个人开四次，挂了两次。烈日当头，车里如摆设般的空调，没有空调的候车室，轮流练车时无止境的等待，加上练车时教练还在一旁啰啰嗦嗦，实在是磨人耐心。想着老子要是这次没过，就特么不学了。练车时我都感觉自己是一具没有灵魂的空壳，全程靠教练指挥，越练越拘谨，越练越没信心。</p>
+<p>第二天考试，和我一辆车里的另一个哥们先考，在公交车站牌，刹车踩重了，“档位与速度不匹配”，挂了，回起点，又出发，又在公交车站牌，刹车踩轻了，“未按规定减速慢行”，挂了….吓得我立马找机会塞了安全员一张毛爷爷。于是，我起步忘按喇叭，拍大腿提醒我。公交车站牌敲窗户提醒我，帮忙踩了脚刹车。第一个路口帮忙踩了脚刹车。百米冲刺速度降太慢，帮忙踩了脚刹车。靠边停车，帮忙点了下刹车，我立马踩离合刹车跟进，回空挡拉手刹一气呵成，“成绩合格”。然后我科三就结束了，结束的意犹未尽。</p>
+<p>我挺不愿意提这件事情的，因为我清楚地记得当我爸妈说别人科三都是这么做的时，我还义正言辞“我才不会这么做，他凭什么拿我钱，我干嘛给他钱？”，当时还愤慨激昂，觉得自己不干这种”肮脏“的事情，现在呢，”如果没有那几脚刹车，我明确肯定我是过不了科三的“，我考完这么感慨。真的，我到现在还是这么感慨的，甚至觉得多给一张也不为过。事后想了想，这样做其实是把安全员和我绑在了同一条船上，大学的象牙塔里呆久了，又怎会知道社会里水有多深。</p>
+<hr>
+<p>其实7月22日上午就考完了,但那天一直都不愿去回忆，有太多让我后怕的东西。如果我是第一个考试的，如果第一个哥们没挂掉，我可能就没时间和安全员打招呼，就不会有之后的提醒和帮踩刹车，就会在同一个点挂两次，就又特么又要在大太阳底下没完没了的开25码，开过来开过去，又要浪费这么枯燥无聊的等待时间。还好啊，都结束了。</p>
+]]></content>
+      <categories>
+        <category>十分人生</category>
+      </categories>
+      <tags>
+        <tag>学车</tag>
       </tags>
   </entry>
   <entry>

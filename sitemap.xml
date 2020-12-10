@@ -291,14 +291,7 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/Alexnet/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/tags/CNN/</loc>
+    <loc>http://www.dcts.top/tags/Linux/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -319,14 +312,35 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/Linux/</loc>
+    <loc>http://www.dcts.top/tags/Vim/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/Vim/</loc>
+    <loc>http://www.dcts.top/tags/Alexnet/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/CNN/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/wordpress/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -361,20 +375,6 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/tags/wordpress/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.dcts.top/tags/jupyter-notebook/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -396,13 +396,6 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.dcts.top/tags/%E8%AF%8D%E4%BA%91/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -410,7 +403,7 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/Pr/</loc>
+    <loc>http://www.dcts.top/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -418,6 +411,13 @@
   
   <url>
     <loc>http://www.dcts.top/tags/%E6%91%84%E5%BD%B1/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/Pr/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

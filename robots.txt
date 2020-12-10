@@ -11,3 +11,5 @@ Disallow: /fancybox/
 
 Sitemap: http://www.dcts.top/sitemap.xml
 Sitemap: http://www.dcts.top/baidusitemap.xml
+Sitemap: https://www.dcts.top/sitemap.xml
+Sitemap: https://www.dcts.top/baidusitemap.xml

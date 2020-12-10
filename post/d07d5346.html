@@ -328,20 +328,6 @@
     </span>
 
   
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/post/d07d5346.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/d07d5346.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
@@ -440,7 +426,6 @@
 
 
 
-    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -585,18 +570,6 @@ document.addEventListener('pjax:success', () => {
       });
       });
   </script>
-
-<script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz","appKey":"L9IqquaIalKDno3lcMO3kmHB","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":7,"lang":"zh-cn","visitor":false,"comment_count":false,"recordIP":false,"serverURLs":null,"enableQQ":true,"requiredFields":["nick","mail"]}, {
-      el: '#valine-comments',
-      path: "/post/d07d5346.html",
-      serverURLs: "https://6wfw4kph.api.lncldglobal.com"
-    }));
-  }, window.Valine);
-});
-</script>
 
     </div>
 </body>
