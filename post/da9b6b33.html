@@ -1,201 +1,68 @@
 <!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<html class="theme-next mist use-motion" lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.9.0">
-  <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
-<style>
-.pace .pace-progress {
-    background: #1E92FB; /*进度条颜色*/
-    height: 3px;
-}
-.pace .pace-progress-inner {
-     box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
-}
-.pace .pace-activity {
-    border-top-color: #1E92FB;    /*上边框颜色*/
-    border-left-color: #1E92FB;    /*左边框颜色*/
-}
-</style>
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
 
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 
+<link rel="stylesheet" href="/css/main.css">
 
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-    
-    
-    <link rel="stylesheet" href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
-  
-
-
-
-
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
-
-<link rel="stylesheet" href="/css/main.css?v=7.1.2">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
-
-
-
-
-
-
-
-<script id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Mist',
-    version: '7.1.2',
-    sidebar: {"position":"right","display":"post","offset":12,"onmobile":true,"dimmer":false},
-    back2top: true,
-    back2top_sidebar: false,
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-  
-
-
-
-
-  <meta name="description" content="杭电操作系统实验二记录">
-<meta name="keywords" content="笔记,操作系统">
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="杭电操作系统实验二记录">
 <meta property="og:type" content="article">
 <meta property="og:title" content="操作系统实验二">
-<meta property="og:url" content="https://www.dcts.top/post/da9b6b33.html">
+<meta property="og:url" content="http://www.dcts.top/post/da9b6b33.html">
 <meta property="og:site_name" content="C1oser">
 <meta property="og:description" content="杭电操作系统实验二记录">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg">
 <meta property="og:image" content="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg">
 <meta property="og:image" content="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png">
-<meta property="og:updated_time" content="2019-11-22T17:04:29.966Z">
+<meta property="article:published_time" content="2019-11-22T06:27:21.000Z">
+<meta property="article:modified_time" content="2019-11-22T17:04:29.966Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="操作系统">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="操作系统实验二">
-<meta name="twitter:description" content="杭电操作系统实验二记录">
 <meta name="twitter:image" content="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg">
 
 
+<link rel="canonical" href="http://www.dcts.top/post/da9b6b33.html">
 
 
-
-  
-  
-  <link rel="canonical" href="https://www.dcts.top/post/da9b6b33">
-
-
-
-<script id="page.configurations">
+<script data-pjax class="page-configurations">
+  // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
   };
 </script>
-
-  <title>操作系统实验二 | C1oser</title>
+<title>操作系统实验二 | C1oser</title>
   
 
-
-
-
-
-
-  <script>
+  <script data-pjax>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -206,415 +73,296 @@
   </script>
 
 
-
-
-
-
-
   <noscript>
   <style>
-  .use-motion .motion-element,
-  .use-motion .brand,
+  body { margin-top: 2rem; }
+
   .use-motion .menu-item,
-  .sidebar-inner,
+  .use-motion .sidebar,
   .use-motion .post-block,
   .use-motion .pagination,
   .use-motion .comments,
   .use-motion .post-header,
   .use-motion .post-body,
-  .use-motion .collection-title { opacity: initial; }
+  .use-motion .collection-header {
+    visibility: visible;
+  }
 
-  .use-motion .logo,
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
   .use-motion .site-title,
-  .use-motion .site-subtitle {
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
     opacity: initial;
     top: initial;
   }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
   </style>
 </noscript>
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
 
-  
-  
-    
-  
-
-  <div class="container sidebar-position-right page-post-detail">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">C1oser</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
-    
-    
   </div>
 
-  <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
   </div>
 </div>
 
 
 
 <nav class="site-nav">
-  
-    <ul id="menu" class="menu">
-      
-        
-        
-        
-          
-          <li class="menu-item menu-item-home">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-about">
+        <li class="menu-item menu-item-tags">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-categories">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-categories">
+        <li class="menu-item menu-item-about">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-archives">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-commonweal">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/404/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
-
-  </li>
-
-      
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
-        </li>
-      
-    </ul>
-  
-
-  
-    
-
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-
-    </div>
-  
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 </nav>
 
 
 
-  
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
 
-
+    </div>
+  </div>
 
 </div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%86%85%E6%A0%B8%E6%80%81%E5%92%8C%E7%94%A8%E6%88%B7%E6%80%81-%E7%89%B9%E6%9D%83%E7%BA%A7"><span class="nav-text">1.内核态和用户态,特权级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%BB%80%E4%B9%88%E6%98%AF%E5%8D%95%E4%BD%93%E5%BC%8F%E7%BB%93%E6%9E%84"><span class="nav-text">2.什么是单体式结构?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3"><span class="nav-text">部分源码理解</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-task-struct"><span class="nav-text">1. task_struct</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-list-head"><span class="nav-text">2. list_head</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%B8%80%E4%BA%9B%E5%87%BD%E6%95%B0%E7%9A%84%E7%90%86%E8%A7%A3"><span class="nav-text">3. 一些函数的理解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-list-for-each"><span class="nav-text">3.1 list_for_each</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-struct-pid"><span class="nav-text">3.2 struct pid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-pid-task"><span class="nav-text">3.3 pid_task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-container-of"><span class="nav-text">3.5 container_of</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-for-each-process"><span class="nav-text">3.6 for_each_process</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-next-task"><span class="nav-text">3.6 next_task</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9C%B0%E5%9D%80"><span class="nav-text">代码地址</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">35</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
     </header>
 
     
 
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-          <div id="content" class="content">
-            
 
-  <div id="posts" class="posts-expand">
-    
+    <div class="main-inner post posts-expand">
+
 
   
 
-  
+
+<div class="post-block">
   
   
 
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/da9b6b33.html">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.dcts.top/post/da9b6b33.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
       <meta itemprop="name" content="陈末">
       <meta itemprop="description" content="在别人看不见的地方">
-      <meta itemprop="image" content="/images/touxiang.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="C1oser">
     </span>
-
-    
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          操作系统实验二
+        </h1>
 
-        
-        
-          <h2 class="post-title" itemprop="name headline">操作系统实验二
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              
-            
-          </h2>
-        
+      <time title="创建时间：2019-11-22 14:27:21" itemprop="dateCreated datePublished" datetime="2019-11-22T14:27:21+08:00">2019-11-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
+        </span>
+    </span>
 
-        <div class="post-meta">
-          <span class="post-time">
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/post/da9b6b33.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/da9b6b33.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>8 分钟</span>
+    </span>
+</div>
 
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-11-22 14:27:21" itemprop="dateCreated datePublished" datetime="2019-11-22T14:27:21+08:00">2019-11-22</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-11-23 01:04:29" itemprop="dateModified" datetime="2019-11-23T01:04:29+08:00">2019-11-23</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/编程/" itemprop="url" rel="index"><span itemprop="name">编程</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/post/da9b6b33.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/post/da9b6b33.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
-            <i class="fa fa-eye"></i>
-             阅读次数： 
-            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
-            </span>
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">5.2k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">5 分钟</span>
-              
-            </div>
-          
-
-          
             <div class="post-description">杭电操作系统实验二记录</div>
-          
-
         </div>
       </header>
-    
 
     
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="1-内核态和用户态-特权级"><a href="#1-内核态和用户态-特权级" class="headerlink" title="1.内核态和用户态,特权级"></a>1.内核态和用户态,特权级</h3><p>Linux中每个进程有两个栈，分别用于用户态和内核态的进程执行，其中的内核栈就是用于内核态的堆栈，它和进程的task_struct结构，更具体的是thread_info结构一起放在两个连续的页框大小的空间内。 现在我们从特权级的调度来理解用户态和内核态就比较好理解了，当程序运行在<strong>3级特权级</strong>上时，就可以称之为运行在<strong>用户态</strong>，因为这是最低特权级，是普通的用户进程运行的特权级，大部分用户直接面对的程序都是运行在用户态；反之，当程序运行在<strong>0级特权级</strong>上时，就可以称之为运行在<strong>内核态</strong>。虽然用户态下和内核态下工作的程序有很多差别，但最重要的差别就在于特权级的不同，即权力的不同。运行在用户态的程序不能访问操作系统内核数据结构合程序。</p>
 <p>当我们在系统中执行一个程序时，大部分时间是运行在用户态下的。在其需要操作系统帮助完成某些它没有权力和能力完成的工作时就会切换到内核态。 Linux进程的4GB地址空间，3G-4G部分大家是共享的，是内核态的地址空间，这里存放在整个内核的代码和所有的内核模块，以及内核所维护的数据。用户运行一个程序，该程序所创建的进程开始是运行在用户态的，如果要执行文件操作，网络数据发送等操作，<strong>必须通过write，send等系统调用</strong>，这些系统调用会调用内核中的代码来完成操作，这时，必须切换到<strong>Ring0</strong>，然后进入3GB-4GB中的内核地址空间去执行这些代码完成操作，完成后，切换回<strong>Ring3</strong>，回到用户态。这样，用户态的程序就不能随意操作内核地址空间，具有一定的安全保护作用。保护模式，通过内存页表操作等机制，保证进程间的地址空间不会互相冲突，一个进程的操作不会修改另一个进程的地址空间中的数据。</p>
 <p>在内核态下，CPU可执行任何指令，在用户态下CPU只能执行非特权指令。当CPU处于内核态，可以随意进入用户态；而当CPU处于用户态，只能通过<strong>中断的方式</strong>进入内核态。一般程序一开始都是运行于用户态，当程序需要使用系统资源时，就必须通过调用软中断进入内核态. </p>
@@ -622,981 +370,284 @@
 <h3 id="2-什么是单体式结构"><a href="#2-什么是单体式结构" class="headerlink" title="2.什么是单体式结构?"></a>2.什么是单体式结构?</h3><p>大内核，将OS的全部功能都做进内核中，包括调度、文件系统、网络、设备驱动器、存储管理。比如设备驱动管理、资源分配、进程间通信、进程间切换管理、文件系统、存储管理、网络等。单体内核是指在一大块代码中实际包含了所有操作系统功能，并作为一个单一进程运行，具有唯一地址空间。大部分UNIX（包括Linxu）系统都采用的单体内核。</p>
 <p>###3.什么是微内核结构</p>
 <p>微内核只是将OS中最核心的功能加入内核，包括IPC通信、地址空间分配和基本的调度，这些东西处在内核态运行。如：WINCE系统。而其他功能如设备驱动、文件系统、存储管理、网络等作为一个个处于用户态的进程而向外提供某种服务来实现，而且这些处于用户态的进程可以针对某些特定的应用和环境需求进行定制</p>
-<h2 id="部分源码理解"><a href="#部分源码理解" class="headerlink" title="部分源码理解"></a>部分源码理解</h2><h3 id="1-task-struct"><a href="#1-task-struct" class="headerlink" title="1. task_struct"></a>1. task_struct</h3><p><a href="https://blog.csdn.net/npy_lp/article/details/7292563" rel="external nofollow noopener noreferrer" target="_blank">1.Linux进程管理之task_struct结构体（上）</a></p>
-<p><a href="https://blog.csdn.net/npy_lp/article/details/7335187" rel="external nofollow noopener noreferrer" target="_blank">2.Linux进程管理之task_struct结构体（下）</a></p>
-<p><a href="https://www.cnblogs.com/shihuvini/p/10043251.html" rel="external nofollow noopener noreferrer" target="_blank">Linux pid与tgid概念</a></p>
+<h2 id="部分源码理解"><a href="#部分源码理解" class="headerlink" title="部分源码理解"></a>部分源码理解</h2><h3 id="1-task-struct"><a href="#1-task-struct" class="headerlink" title="1. task_struct"></a>1. task_struct</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/npy_lp/article/details/7292563">1.Linux进程管理之task_struct结构体（上）</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/npy_lp/article/details/7335187">2.Linux进程管理之task_struct结构体（下）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shihuvini/p/10043251.html">Linux pid与tgid概念</a></p>
 <ol>
 <li><p>表示进程亲属关系的成员  </p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">real_parent</span>;</span> <span class="comment">/* real parent process */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">parent</span>;</span> <span class="comment">/* recipient of SIGCHLD, wait4() reports */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">children</span>;</span>	<span class="comment">/* list of my children */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> <span class="title">sibling</span>;</span>	<span class="comment">/* linkage in my parent's children list */</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">group_leader</span>;</span>	<span class="comment">/* threadgroup leader */</span></span><br></pre></td></tr></table></figure>
+ <pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>real_parent<span class="token punctuation">;</span> <span class="token comment">/* real parent process */</span>
+<span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>parent<span class="token punctuation">;</span> <span class="token comment">/* recipient of SIGCHLD, wait4() reports */</span>
+<span class="token keyword">struct</span> <span class="token class-name">list_head</span> children<span class="token punctuation">;</span>	<span class="token comment">/* list of my children */</span>
+<span class="token keyword">struct</span> <span class="token class-name">list_head</span> sibling<span class="token punctuation">;</span>	<span class="token comment">/* linkage in my parent's children list */</span>
+<span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>group_leader<span class="token punctuation">;</span>	<span class="token comment">/* threadgroup leader */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>进程名</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> comm[TASK_COMM_LEN];</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">char comm[TASK_COMM_LEN];<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 </li>
 </ol>
-<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#kernel/inclue/linux/types.h </span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> &#123;</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">list_head</span> *<span class="title">next</span>, *<span class="title">prev</span>;</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="2-list-head"><a href="#2-list-head" class="headerlink" title="2. list_head"></a>2. list_head</h3><pre class="line-numbers language-C" data-language="C"><code class="language-C">#kernel&#x2F;inclue&#x2F;linux&#x2F;types.h 
+struct list_head &#123;
+	struct list_head *next, *prev;
+&#125;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p><img src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg" alt="这里写图片描述"></p>
-<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">head是一个list_head</span></span><br><span class="line"><span class="meta">#</span><span class="bash">define list_for_each(pos, head) \</span></span><br><span class="line">    for (pos = (head)-&gt;next; pos != (head);pos = pos-&gt;next)</span><br></pre></td></tr></table></figure>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8%E5%85%84%E5%BC%9F%E5%AD%A9%E5%AD%90%E5%85%B3%E7%B3%BB.jpg" alt="这里写图片描述"></p>
+<h3 id="3-一些函数的理解"><a href="#3-一些函数的理解" class="headerlink" title="3. 一些函数的理解"></a>3. 一些函数的理解</h3><h4 id="3-1-list-for-each"><a href="#3-1-list-for-each" class="headerlink" title="3.1 list_for_each"></a>3.1 list_for_each</h4><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#head是一个list_head</span>
+<span class="token comment">#define list_for_each(pos, head) \</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>pos <span class="token operator">=</span> <span class="token punctuation">(</span>head<span class="token punctuation">)</span>-<span class="token operator">></span>next<span class="token punctuation">;</span> pos <span class="token operator">!=</span> <span class="token punctuation">(</span>head<span class="token punctuation">)</span><span class="token punctuation">;</span>pos <span class="token operator">=</span> pos-<span class="token operator">></span>next<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>它实际上是一个 for 循环，利用传入的pos 作为循环变量，从表头 head开始，逐项向后（next方向）移动 pos ，直至又回到 head </p>
 <p>注意：此宏必要把list_head放在数据结构第一项成员，至此，它的地址也就是结构变量的地址。</p>
-<p><img src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg" alt="这里写图片描述"></p>
+<p><img data-src="http://qiniu.dcts.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E9%93%BE%E8%A1%A8.jpg" alt="这里写图片描述"></p>
 <h4 id="3-2-struct-pid"><a href="#3-2-struct-pid" class="headerlink" title="3.2 struct pid"></a>3.2 struct pid</h4><p>很多时候在写内核模块的时候，需要通过进程的<strong>pid</strong>(int)找到对应进程的<strong>task_struct</strong>,其中首先就需要通过进程的pid找到进程的<strong>struct pid</strong>，然后再通过<strong>struct pid</strong>找到进程的<strong>task_struct</strong>,实现从pid到task_struct的内核函数struct pid 是进程描述符，在<code>include/linux/pid.h</code> 中，其定义如下：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">pid</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">        <span class="keyword">atomic_t</span> count;</span><br><span class="line">        <span class="keyword">unsigned</span> <span class="keyword">int</span> level;</span><br><span class="line">        <span class="comment">/* lists of tasks that use this pid */</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_head</span> <span class="title">tasks</span>[<span class="title">PIDTYPE_MAX</span>];</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">rcu_head</span> <span class="title">rcu</span>;</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">upid</span> <span class="title">numbers</span>[1];</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid
+&#123;
+        atomic_t count;
+        unsigned int level;
+        &#x2F;* lists of tasks that use this pid *&#x2F;
+        struct hlist_head tasks[PIDTYPE_MAX];
+        struct rcu_head rcu;
+        struct upid numbers[1];
+&#125;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><code>struct pid *find_get_pid(pid_t nr)</code></li>
 </ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1</span></span><br><span class="line"><span class="function">struct pid *<span class="title">find_get_pid</span><span class="params">(<span class="keyword">pid_t</span> nr)</span>  </span></span><br><span class="line"><span class="function"></span>&#123;  </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">pid</span> *<span class="title">pid</span>;</span> </span><br><span class="line">    rcu_read_lock();  </span><br><span class="line">    pid = get_pid(find_vpid(nr));  </span><br><span class="line">    rcu_read_unlock();  </span><br><span class="line">    <span class="keyword">return</span> pid;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">&#x2F;&#x2F;是通过进程号pid_t nr得到进程描述符(结构体)，并将结构体中的count加1
+struct pid *find_get_pid(pid_t nr)  
+&#123;  
+    struct pid *pid; 
+    rcu_read_lock();  
+    pid &#x3D; get_pid(find_vpid(nr));  
+    rcu_read_unlock();  
+    return pid;  
+&#125;  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p> <code>find_get_pid</code>和<code>find_vpid</code>有一点差异，就是使用<code>find_get_pid</code>将返回的<code>struct pid</code>中的字段count加1，而<code>find_vpid</code>没有加1 </p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">inline</span> struct pid *<span class="title">get_pid</span><span class="params">(struct pid *pid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pid)</span><br><span class="line">                atomic_inc(&amp;pid-&gt;count);</span><br><span class="line">        <span class="keyword">return</span> pid;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">static inline struct pid *get_pid(struct pid *pid)
+&#123;
+        if (pid)
+                atomic_inc(&amp;pid-&gt;count);
+        return pid;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><code>find_vpid</code>和<code>find_pid_ns</code>是一样的</p>
 <ul>
-<li><code>struct pid *find_vpid(int nr)</code></li>
+<li><code>struct pid *find_vpid(int nr) </code></li>
 </ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_vpid</span><span class="params">(<span class="keyword">int</span> nr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> find_pid_ns(nr, task_active_pid_ns(current));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid *find_vpid(int nr)
+&#123;
+        return find_pid_ns(nr, task_active_pid_ns(current));
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><code>struct pid *find_pid_ns(int nr, struct pid_namespace *ns)</code></li>
 </ul>
-<p><a href="http://blog.chinaunix.net/uid-27033491-id-3291637.html" rel="external nofollow noopener noreferrer" target="_blank">find_pid_ns详解</a></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct pid *<span class="title">find_pid_ns</span><span class="params">(<span class="keyword">int</span> nr, struct pid_namespace *ns)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> idr_find(&amp;ns-&gt;idr, nr);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="http://blog.chinaunix.net/uid-27033491-id-3291637.html">find_pid_ns详解</a></p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">struct pid *find_pid_ns(int nr, struct pid_namespace *ns)
+&#123;
+        return idr_find(&amp;ns-&gt;idr, nr);
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p> <img src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png" alt="img"> </p>
+
+
+<p> <img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%A7%8D%E8%8E%B7%E5%8F%96pid.png" alt="img"> </p>
 <h4 id="3-3-pid-task"><a href="#3-3-pid-task" class="headerlink" title="3.3 pid_task"></a>3.3 pid_task</h4><p>根据PID(结构体)查找task_struct(PCB),一般<code>p = pid_task(find_vpid(pid), PIDTYPE_PID);</code></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">struct task_struct *<span class="title">pid_task</span><span class="params">(struct pid *pid, <span class="keyword">enum</span> pid_type type)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">task_struct</span> *<span class="title">result</span> = <span class="title">NULL</span>;</span></span><br><span class="line">    <span class="keyword">if</span> (pid) &#123;</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">hlist_node</span> *<span class="title">first</span>;</span></span><br><span class="line">        first = rcu_dereference_check(hlist_first_rcu(&amp;pid-&gt;tasks[type]),</span><br><span class="line">        lockdep_tasklist_lock_is_held());</span><br><span class="line">        <span class="keyword">if</span> (first)</span><br><span class="line">            result = hlist_entry(first, struct task_struct, pids[(type)].node);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span><span class="token function">pid_task</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">pid</span> <span class="token operator">*</span>pid<span class="token punctuation">,</span> <span class="token keyword">enum</span> <span class="token class-name">pid_type</span> type<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">struct</span> <span class="token class-name">task_struct</span> <span class="token operator">*</span>result <span class="token operator">=</span> <span class="token constant">NULL</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>pid<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        <span class="token keyword">struct</span> <span class="token class-name">hlist_node</span> <span class="token operator">*</span>first<span class="token punctuation">;</span>
+        first <span class="token operator">=</span> <span class="token function">rcu_dereference_check</span><span class="token punctuation">(</span><span class="token function">hlist_first_rcu</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>pid<span class="token operator">-></span>tasks<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token function">lockdep_tasklist_lock_is_held</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>first<span class="token punctuation">)</span>
+            result <span class="token operator">=</span> <span class="token function">hlist_entry</span><span class="token punctuation">(</span>first<span class="token punctuation">,</span> <span class="token keyword">struct</span> <span class="token class-name">task_struct</span><span class="token punctuation">,</span> pids<span class="token punctuation">[</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">.</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+    <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>####3.4 list_entry</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">list_entry 就是 container_of </span></span><br><span class="line"><span class="meta">#</span><span class="bash">define list_entry(ptr, <span class="built_in">type</span>, member) \</span></span><br><span class="line">	container_of(ptr, type, member)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#list_entry 就是 container_of </span>
+<span class="token comment">#define list_entry(ptr, type, member) \</span>
+	container_of<span class="token punctuation">(</span>ptr, type, member<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p> 那<code>container_of(ptr, type, member)</code>,又是什么呢</p>
-<h4 id="3-5-container-of"><a href="#3-5-container-of" class="headerlink" title="3.5 container_of"></a>3.5 container_of</h4><p><a href="https://www.cnblogs.com/hicjiajia/archive/2012/07/01/2571791.html" rel="external nofollow noopener noreferrer" target="_blank">资料</a> </p>
-<p><a href="https://blog.csdn.net/zsj100213/article/details/81843523" rel="external nofollow noopener noreferrer" target="_blank">通俗理解</a></p>
+<h4 id="3-5-container-of"><a href="#3-5-container-of" class="headerlink" title="3.5 container_of"></a>3.5 container_of</h4><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/hicjiajia/archive/2012/07/01/2571791.html">资料</a> </p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zsj100213/article/details/81843523">通俗理解</a></p>
 <p><code>container_of(ptr, type, member)</code></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">define container_of(ptr, <span class="built_in">type</span>, member) (&#123;			\</span></span><br><span class="line">        const typeof( ((type *)0)-&gt;member ) *__mptr = (ptr);	\</span><br><span class="line">        (type *)( (char *)__mptr - offsetof(type,member) );&#125;)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define container_of(ptr, type, member) (&#123;			\</span>
+        const typeof<span class="token punctuation">(</span> <span class="token punctuation">((</span>type *<span class="token punctuation">)</span><span class="token number">0</span><span class="token punctuation">)</span>-<span class="token operator">></span>member <span class="token punctuation">)</span> *__mptr <span class="token operator">=</span> <span class="token punctuation">(</span>ptr<span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token punctuation">\</span>
+        <span class="token punctuation">(</span>type *<span class="token punctuation">)</span><span class="token punctuation">(</span> <span class="token punctuation">(</span>char *<span class="token punctuation">)</span>__mptr - offsetof<span class="token punctuation">(</span>type,member<span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token punctuation">)</span>	
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p> container_of()的作用就是通过一个结构变量中一个成员的地址找到这个结构体变量的首地址</p>
 <p>比如</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Struct test</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">int</span> j;</span><br><span class="line">    <span class="keyword">char</span> k;</span><br><span class="line">&#125;;</span><br><span class="line">Struct test temp;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c">Struct test
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">int</span> i<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> j<span class="token punctuation">;</span>
+    <span class="token keyword">char</span> k<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+Struct test temp<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>现在呢如果我想通过<code>temp.j</code>的地址找到<code>temp</code>的首地址就可以使用<code>container_of(&amp;(temp.j),struct test,j);</code> </p>
 <p>如果我能知道<code>temp.j</code>的地址A,也能知道<code>temp.j</code>的偏移量B,那么A-B就是temp的首地址</p>
 <p>网上有一种很形象的比喻:<code>x-&gt;member = ptr</code>，求 x (结构体)的地址是多少</p>
-<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">define for_each_process(p) \</span></span><br><span class="line">	for (p = &amp;init_task ; (p = next_task(p)) != &amp;init_task ; )</span><br></pre></td></tr></table></figure>
+<h4 id="3-6-for-each-process"><a href="#3-6-for-each-process" class="headerlink" title="3.6 for_each_process"></a>3.6 for_each_process</h4><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define for_each_process(p) \</span>
+	<span class="token keyword">for</span> <span class="token punctuation">(</span>p <span class="token operator">=</span> <span class="token operator">&amp;</span>init_task <span class="token punctuation">;</span> <span class="token punctuation">(</span>p <span class="token operator">=</span> next_task<span class="token punctuation">(</span>p<span class="token punctuation">))</span> <span class="token operator">!=</span> <span class="token operator">&amp;</span>init_task <span class="token punctuation">;</span> <span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>就是个for循环,其中<code>p = next_task(p)</code>,这个<code>next_task</code>是怎么实现的呢</p>
 <h4 id="3-6-next-task"><a href="#3-6-next-task" class="headerlink" title="3.6 next_task"></a>3.6 next_task</h4><p>Linux内核链表,其中next_task也是宏循环控制语句，在<code>/include/linux/sched/signal.h</code>中：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">define next_task(p) \</span></span><br><span class="line"><span class="meta">	list_entry_rcu((p)-&gt;</span><span class="bash">tasks.next, struct task_struct, tasks)</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment">#define next_task(p) \</span>
+	list_entry_rcu<span class="token punctuation">((</span>p<span class="token punctuation">)</span>-<span class="token operator">></span>tasks.next, struct task_struct, tasks<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>而task_struct中有：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">struct task_struct &#123;    </span><br><span class="line">...</span><br><span class="line">	struct list_head		tasks;</span><br><span class="line">...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">struct task_struct <span class="token punctuation">&#123;</span>    
+<span class="token punctuation">..</span>.
+	struct list_head		tasks<span class="token punctuation">;</span>
+<span class="token punctuation">..</span>.
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>这里的<code>list_entry_rcu</code>作用和<code>list_entry</code>是一样的,我通过task_struct中, 1️⃣ tasks这个成员变量,2️⃣tasks这个成员变量的地址<code>(p)-&gt;tasks.next</code>,得到下一个task_struct的首地址,即下一个进程</p>
-<h2 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h2><p><a href="https://github.com/TD21forever/HDU_operating_system" rel="external nofollow noopener noreferrer" target="_blank">杭电操作系统实验二代码</a></p>
+<h2 id="代码地址"><a href="#代码地址" class="headerlink" title="代码地址"></a>代码地址</h2><p><a target="_blank" rel="noopener" href="https://github.com/TD21forever/HDU_operating_system">杭电操作系统实验二代码</a></p>
 
-      
     </div>
 
     
-
-     <div>
     
-    <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">------ 本文结束------</div>
-    
-</div>
-    
-   </div>
-
-    
-    
-    
-
-    
-      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
-  <img id="wechat_subscriber_qcode" src="/images/wechatmid.jpg" alt="陈末 wechat" style="width: 200px; max-width: 100%;">
-  <div>扫二维码关注我的微信公众号</div>
-</div>
-
-    
-
-    
-      
-    
-    
-
     
 
     <footer class="post-footer">
-      
-        
-          
-        
-        <div class="post-tags">
-          
-            <a href="/tags/笔记/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
-          
-            <a href="/tags/操作系统/" rel="tag"><i class="fa fa-tag"></i> 操作系统</a>
-          
-        </div>
-      
 
-      
-      
-        <div class="post-widgets">
-        
-          <div class="wp_rating">
-            <div id="wpac-rating"></div>
-          </div>
-        
 
-        
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
 
-        
-        </div>
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/post/3f152ec7.html" rel="prev" title="黑客与画家">
-                <i class="fa fa-chevron-left"></i> 黑客与画家
-              </a>
-            
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+              <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="tag"><i class="fa fa-tag"></i> 操作系统</a>
           </div>
 
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/post/e11b459a.html" rel="next" title="操作系统实验一">
-                操作系统实验一 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-
-  
-  
-  
-  </article>
-
-
-  </div>
-
-
-          </div>
-          
-  <div class="comments" id="comments"></div>
-    
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/valine@1.1.6/dist/Valine.min.js"></script>
-    <script>
-        new Valine({
-            av: AV,
-            el: '.comments',
-            notify: true, // 邮件提醒 v1.1.4新增，下一步中有具体的邮箱设置
-            verify: true,
-            app_id: '',
-            app_key: '',
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
-        });
-    </script>
-    
-
-        </div>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image" src="/images/touxiang.jpg" alt="陈末">
-            
-              <p class="site-author-name" itemprop="name">陈末</p>
-              <div class="site-description motion-element" itemprop="description">在别人看不见的地方</div>
-          </div>
-
-          
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives/">
-                
-                    <span class="site-state-item-count">29</span>
-                    <span class="site-state-item-name">日志</span>
-                  </a>
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-categories">
-                  
-                    
-                      <a href="/categories/">
-                    
-                  
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">8</span>
-                    <span class="site-state-item-name">分类</span>
-                  </a>
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-tags">
-                  
-                    
-                      <a href="/tags/">
-                    
-                  
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">35</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
-              
-            </nav>
-          
-
-          
-
-          
-
-          
-            <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">
-                  
-                  
-                    
-                  
-                  
-                    
-                  
-                  <a href="https://github.com/TD21forever" title="GitHub &rarr; https://github.com/TD21forever" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
-                </span>
-              
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/e11b459a.html" rel="prev" title="操作系统实验一">
+                  <i class="fa fa-chevron-left"></i> 操作系统实验一
+                </a>
             </div>
-          
-
-          
-
-          
-          
-
-          
-            
-          
-          
-
-        </div>
-      </div>
-
-      
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本概念"><span class="nav-number">1.</span> <span class="nav-text">基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-内核态和用户态-特权级"><span class="nav-number">1.1.</span> <span class="nav-text">1.内核态和用户态,特权级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-什么是单体式结构"><span class="nav-number">1.2.</span> <span class="nav-text">2.什么是单体式结构?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部分源码理解"><span class="nav-number">2.</span> <span class="nav-text">部分源码理解</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-task-struct"><span class="nav-number">2.1.</span> <span class="nav-text">1. task_struct</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-list-head"><span class="nav-number">2.2.</span> <span class="nav-text">2. list_head</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-一些函数的理解"><span class="nav-number">2.3.</span> <span class="nav-text">3. 一些函数的理解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-list-for-each"><span class="nav-number">2.3.1.</span> <span class="nav-text">3.1 list_for_each</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-struct-pid"><span class="nav-number">2.3.2.</span> <span class="nav-text">3.2 struct pid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-pid-task"><span class="nav-number">2.3.3.</span> <span class="nav-text">3.3 pid_task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5-container-of"><span class="nav-number">2.3.4.</span> <span class="nav-text">3.5 container_of</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-for-each-process"><span class="nav-number">2.3.5.</span> <span class="nav-text">3.6 for_each_process</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6-next-task"><span class="nav-number">2.3.6.</span> <span class="nav-text">3.6 next_task</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码地址"><span class="nav-number">3.</span> <span class="nav-text">代码地址</span></a></li></ol></div>
-            
-
+            <div class="post-nav-item">
+                <a href="/post/3f152ec7.html" rel="next" title="黑客与画家">
+                  黑客与画家 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
           </div>
-        </div>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-  
+    </footer>
+  </article>
+</div>
 
 
-        
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">  <a href="http://www.beian.miit.gov.cn" rel="external nofollow noopener noreferrer" target="_blank">浙ICP备18047530号 </a>&copy; 2018 – <span itemprop="copyrightYear">2020</span>
-  <span class="with-love" id="heart">
+
+
+
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
 
   
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-    <span title="站点总字数">49k</span>
-  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
 
-  
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    
-    <span title="站点阅读时长">44 分钟</span>
-  
-</div>
-
-
-
-
-
-
-
-
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="post-meta-item-icon">
-      <i class="fa fa-user"></i>
-    </span>
-    <span class="site-uv" title="总访客量">
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-    </span>
-  
-
-  
-    <span class="post-meta-divider">|</span>
-  
-
-  
-    <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
-    </span>
-    <span class="site-pv" title="总访问量">
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-    </span>
-  
-</div>
-
-
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
-    
-
-    
-
-    
-
-    
-  </div>
-
-  
-
-<script>
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
   }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   
-    
-    
-  
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
-
-  
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-
-  
-
-
-  <script src="/js/utils.js?v=7.1.2"></script>
-
-  <script src="/js/motion.js?v=7.1.2"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/schemes/muse.js?v=7.1.2"></script>
-
-
-
-
-  
-  <script src="/js/scrollspy.js?v=7.1.2"></script>
-<script src="/js/post-details.js?v=7.1.2"></script>
-
-
-
-  
-
-
-  <script src="/js/next-boot.js?v=7.1.2"></script>
-
-
-  
-
-  
-
-  
-
-  
-  
-
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-<script>
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: false,
-    notify: false,
-    appId: '6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz',
-    appKey: 'L9IqquaIalKDno3lcMO3kmHB',
-    placeholder: 'Just go go',
-    avatar: 'mm',
-    meta: guest,
-    pageSize: '10' || 10,
-    visitor: false,
-    lang: '' || 'zh-cn'
-  });
-</script>
-
-
-
-
-  
-
-
-  
-  <script>
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  <script>
+  <script data-pjax>
     (function(){
       var bp = document.createElement('script');
       var curProtocol = window.location.protocol.split(':')[0];
@@ -1606,79 +657,65 @@
     })();
   </script>
 
+<script src="/js/local-search.js"></script>
 
-  
 
-  
 
-  
+
+
   <script>
-    wpac_init = window.wpac_init || [];
-    wpac_init.push({
-      widget: 'Rating',
-      id: 19483,
-      el: 'wpac-rating',
-      color: 'CC3333'
+    NProgress.configure({
+      showSpinner: true
     });
-    (function() {
-      if ('WIDGETPACK_LOADED' in window) return;
-      WIDGETPACK_LOADED = true;
-      var mc = document.createElement('script');
-      mc.type = 'text/javascript';
-      mc.async = true;
-      mc.src = '//embed.widgetpack.com/widget.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
-    })();
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
   </script>
 
+  
+
+
+
+
+    <div class="pjax">
 
   
 
-  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://www.dcts.top/post/da9b6b33.html',]
+      });
+      });
+  </script>
 
-  
 <script>
-  $('.highlight').not('.gist .highlight').each(function(i, e) {
-    var $wrap = $('<div>').addClass('highlight-wrap');
-    $(e).after($wrap);
-    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
-      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
-        return $(e).text();
-      }).toArray().join('\n');
-      var ta = document.createElement('textarea');
-      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
-      ta.style.top = yPosition + 'px'; // Prevent page scroll
-      ta.style.position = 'absolute';
-      ta.style.opacity = '0';
-      ta.readOnly = true;
-      ta.value = code;
-      document.body.appendChild(ta);
-      const selection = document.getSelection();
-      const selected = selection.rangeCount > 0 ? selection.getRangeAt(0) : false;
-      ta.select();
-      ta.setSelectionRange(0, code.length);
-      ta.readOnly = false;
-      var result = document.execCommand('copy');
-      
-      ta.blur(); // For iOS
-      $(this).blur();
-      if (selected) {
-        selection.removeAllRanges();
-        selection.addRange(selected);
-      }
-    })).on('mouseleave', function(e) {
-      var $b = $(this).find('.copy-btn');
-      setTimeout(function() {
-        $b.text('复制');
-      }, 300);
-    }).append(e);
-  })
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz","appKey":"L9IqquaIalKDno3lcMO3kmHB","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":7,"lang":"zh-cn","visitor":false,"comment_count":false,"recordIP":false,"serverURLs":null,"enableQQ":true,"requiredFields":["nick","mail"]}, {
+      el: '#valine-comments',
+      path: "/post/da9b6b33.html",
+      serverURLs: "https://6wfw4kph.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
 </script>
 
-
-  
-
-  
-
+    </div>
 </body>
 </html>

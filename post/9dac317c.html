@@ -1,197 +1,64 @@
 <!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<html class="theme-next mist use-motion" lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.9.0">
-  <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
-<style>
-.pace .pace-progress {
-    background: #1E92FB; /*进度条颜色*/
-    height: 3px;
-}
-.pace .pace-progress-inner {
-     box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
-}
-.pace .pace-activity {
-    border-top-color: #1E92FB;    /*上边框颜色*/
-    border-left-color: #1E92FB;    /*左边框颜色*/
-}
-</style>
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
 
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 
+<link rel="stylesheet" href="/css/main.css">
 
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-    
-      
-    
-
-    
-  
-
-  
-    
-    
-    <link rel="stylesheet" href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
-  
-
-
-
-
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
-
-<link rel="stylesheet" href="/css/main.css?v=7.1.2">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
-
-
-
-
-
-
-
-<script id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Mist',
-    version: '7.1.2',
-    sidebar: {"position":"right","display":"post","offset":12,"onmobile":true,"dimmer":false},
-    back2top: true,
-    back2top_sidebar: false,
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-  
-
-
-
-
-  <meta name="description" content="大一软件部上课课件,python入门资料整理">
-<meta name="keywords" content="Python,Tutorial">
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="大一软件部上课课件,python入门资料整理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python Tutorial">
-<meta property="og:url" content="https://www.dcts.top/post/9dac317c.html">
+<meta property="og:url" content="http://www.dcts.top/post/9dac317c.html">
 <meta property="og:site_name" content="C1oser">
 <meta property="og:description" content="大一软件部上课课件,python入门资料整理">
-<meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-04T15:39:19.355Z">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-11-05T10:40:03.000Z">
+<meta property="article:modified_time" content="2019-09-04T15:39:19.355Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="Tutorial">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python Tutorial">
-<meta name="twitter:description" content="大一软件部上课课件,python入门资料整理">
 
 
+<link rel="canonical" href="http://www.dcts.top/post/9dac317c.html">
 
 
-
-  
-  
-  <link rel="canonical" href="https://www.dcts.top/post/9dac317c">
-
-
-
-<script id="page.configurations">
+<script data-pjax class="page-configurations">
+  // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
   };
 </script>
-
-  <title>Python Tutorial | C1oser</title>
+<title>Python Tutorial | C1oser</title>
   
 
-
-
-
-
-
-  <script>
+  <script data-pjax>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -202,456 +69,341 @@
   </script>
 
 
-
-
-
-
-
   <noscript>
   <style>
-  .use-motion .motion-element,
-  .use-motion .brand,
+  body { margin-top: 2rem; }
+
   .use-motion .menu-item,
-  .sidebar-inner,
+  .use-motion .sidebar,
   .use-motion .post-block,
   .use-motion .pagination,
   .use-motion .comments,
   .use-motion .post-header,
   .use-motion .post-body,
-  .use-motion .collection-title { opacity: initial; }
+  .use-motion .collection-header {
+    visibility: visible;
+  }
 
-  .use-motion .logo,
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
   .use-motion .site-title,
-  .use-motion .site-subtitle {
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
     opacity: initial;
     top: initial;
   }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
   </style>
 </noscript>
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
 
-  
-  
-    
-  
-
-  <div class="container sidebar-position-right page-post-detail">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">C1oser</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
-    
-    
   </div>
 
-  <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
   </div>
 </div>
 
 
 
 <nav class="site-nav">
-  
-    <ul id="menu" class="menu">
-      
-        
-        
-        
-          
-          <li class="menu-item menu-item-home">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-about">
+        <li class="menu-item menu-item-tags">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-categories">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-categories">
+        <li class="menu-item menu-item-about">
 
-    
-    
-      
-    
-
-    
-
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-archives">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-commonweal">
-
-    
-    
-      
-    
-
-    
-
-    <a href="/404/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
-
-  </li>
-
-      
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
-        </li>
-      
-    </ul>
-  
-
-  
-    
-
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-
-    </div>
-  
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 </nav>
 
 
 
-  
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
 
-
+    </div>
+  </div>
 
 </div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%84%E6%96%99"><span class="nav-text">资料</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">标准数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String%EF%BC%88%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%89"><span class="nav-text">String（字符串）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Number%EF%BC%88%E6%95%B0%E5%AD%97%EF%BC%89"><span class="nav-text">Number（数字）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List%EF%BC%88%E5%88%97%E8%A1%A8%EF%BC%89"><span class="nav-text">List（列表）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tuple%EF%BC%88%E5%85%83%E7%BB%84%EF%BC%89"><span class="nav-text">Tuple（元组）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Set%EF%BC%88%E9%9B%86%E5%90%88%EF%BC%89"><span class="nav-text">Set（集合）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dictionary%EF%BC%88%E5%AD%97%E5%85%B8%EF%BC%89"><span class="nav-text">Dictionary（字典）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C"><span class="nav-text">其他的一些操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AA%9A%E6%93%8D%E4%BD%9C"><span class="nav-text">骚操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E6%A0%B7%E9%87%8D%E8%A6%81%E7%9A%84%E9%A2%98%E5%A4%96%E8%AF%9D"><span class="nav-text">同样重要的题外话</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">35</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
     </header>
 
     
 
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-          <div id="content" class="content">
-            
 
-  <div id="posts" class="posts-expand">
-    
+    <div class="main-inner post posts-expand">
+
 
   
 
-  
+
+<div class="post-block">
   
   
 
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/9dac317c.html">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.dcts.top/post/9dac317c.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
       <meta itemprop="name" content="陈末">
       <meta itemprop="description" content="在别人看不见的地方">
-      <meta itemprop="image" content="/images/touxiang.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="C1oser">
     </span>
-
-    
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Python Tutorial
+        </h1>
 
-        
-        
-          <h2 class="post-title" itemprop="name headline">Python Tutorial
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              
-            
-          </h2>
-        
+      <time title="创建时间：2018-11-05 18:40:03" itemprop="dateCreated datePublished" datetime="2018-11-05T18:40:03+08:00">2018-11-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
+        </span>
+    </span>
 
-        <div class="post-meta">
-          <span class="post-time">
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/post/9dac317c.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/9dac317c.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
 
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2018-11-05 18:40:03" itemprop="dateCreated datePublished" datetime="2018-11-05T18:40:03+08:00">2018-11-05</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-09-04 23:39:19" itemprop="dateModified" datetime="2019-09-04T23:39:19+08:00">2019-09-04</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/编程/" itemprop="url" rel="index"><span itemprop="name">编程</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/post/9dac317c.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/post/9dac317c.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
-            <i class="fa fa-eye"></i>
-             阅读次数： 
-            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
-            </span>
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">2.7k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">2 分钟</span>
-              
-            </div>
-          
-
-          
             <div class="post-description">大一软件部上课课件,python入门资料整理</div>
-          
-
         </div>
       </header>
-    
 
     
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         <h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
 <li>基础学习教程<ol>
-<li><a href="https://link.zhihu.com/?target=http%3A//www.runoob.com/python3/python3-tutorial.html" rel="external nofollow noopener noreferrer" target="_blank">Python3 教程 | 菜鸟教程</a></li>
-<li><a href="https://link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial3/" rel="external nofollow noopener noreferrer" target="_blank">Python tutorial 3.5.2 documentation</a></li>
-<li><a href="http://codingpy.com/books/thinkpython2/" rel="external nofollow noopener noreferrer" target="_blank">《Think Python》</a></li>
-<li>如果你不喜欢看文档,<a href="https://morvanzhou.github.io/" rel="external nofollow noopener noreferrer" target="_blank">莫烦Python</a>视频教程</li>
+<li> <a href="https://link.zhihu.com/?target=http://www.runoob.com/python3/python3-tutorial.html">Python3 教程 | 菜鸟教程</a></li>
+<li> <a href="https://link.zhihu.com/?target=http://www.pythondoc.com/pythontutorial3/">Python tutorial 3.5.2 documentation</a></li>
+<li> <a target="_blank" rel="noopener" href="http://codingpy.com/books/thinkpython2/">《Think Python》</a></li>
+<li> 如果你不喜欢看文档,<a target="_blank" rel="noopener" href="https://morvanzhou.github.io/">莫烦Python</a>视频教程</li>
 </ol>
 </li>
 <li>练练手<ol>
-<li>github上的一些项目</li>
-<li><a href="https://github.com/TD21forever/Mini-Python-Project" rel="external nofollow noopener noreferrer" target="_blank">别人的一些项目</a></li>
+<li> github上的一些项目</li>
+<li> <a target="_blank" rel="noopener" href="https://github.com/TD21forever/Mini-Python-Project">别人的一些项目</a></li>
 </ol>
 </li>
 </ol>
 <h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
 <ul>
-<li>String（字符串）</li>
-<li>Number（数字）</li>
-<li>List（列表）</li>
-<li>Tuple（元组）</li>
-<li>Set（集合）</li>
-<li>Dictionary（字典）</li>
+<li>  String（字符串）</li>
+<li>  Number（数字）</li>
+<li>  List（列表）</li>
+<li>  Tuple（元组）</li>
+<li>  Set（集合）</li>
+<li>  Dictionary（字典）</li>
 </ul>
 <h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
 <li><p>字符串的基本操作</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">"自动化科协"</span></span><br><span class="line">department = <span class="string">"软件部"</span></span><br><span class="line">print(name+department)<span class="comment">#字符串做加法</span></span><br><span class="line">print(name*<span class="number">10</span>)<span class="comment">#字符串做乘法</span></span><br><span class="line">print(name[<span class="number">0</span>])<span class="comment">#取字符串的第一位</span></span><br><span class="line">print(name[<span class="number">-1</span>])<span class="comment">#取字符串的最后一位</span></span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">name <span class="token operator">=</span> <span class="token string">"自动化科协"</span>
+department <span class="token operator">=</span> <span class="token string">"软件部"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token operator">+</span>department<span class="token punctuation">)</span><span class="token comment">#字符串做加法</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token operator">*</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token comment">#字符串做乘法</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#取字符串的第一位</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#取字符串的最后一位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="2">
 <li><p>格式化字符串</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">date_1 = <span class="string">"%d年%d月%d日是%s的生日"</span> %(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_1)<span class="comment">#%d代表数字，%s代表字符串</span></span><br><span class="line">date_2 = <span class="string">"&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日"</span>.format(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_2)<span class="comment">#这样就不用%了</span></span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">date_1 <span class="token operator">=</span> <span class="token string">"%d年%d月%d日是%s的生日"</span> <span class="token operator">%</span><span class="token punctuation">(</span><span class="token number">1964</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token string">'马云'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>date_1<span class="token punctuation">)</span><span class="token comment">#%d代表数字，%s代表字符串</span>
+date_2 <span class="token operator">=</span> <span class="token string">"&#123;&#125;年&#123;&#125;月&#123;&#125;日是&#123;&#125;的生日"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token number">1964</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token string">'马云'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>date_2<span class="token punctuation">)</span><span class="token comment">#这样就不用%了</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="3">
 <li><p>切片（slice）</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="string">'自动化科协软件部'</span></span><br><span class="line">new_string = string[<span class="number">3</span>:<span class="number">5</span>]<span class="comment">#3包括5不包括</span></span><br><span class="line">print(new_string)</span><br><span class="line">a = <span class="string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span></span><br><span class="line">new_a = a[<span class="number">11</span>:<span class="number">20</span>]<span class="comment">#11包括20不包括</span></span><br><span class="line">print(new_a)</span><br></pre></td></tr></table></figure>
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">string <span class="token operator">=</span> <span class="token string">'自动化科协软件部'</span>
+new_string <span class="token operator">=</span> string<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token comment">#3包括5不包括</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>new_string<span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span>
+new_a <span class="token operator">=</span> a<span class="token punctuation">[</span><span class="token number">11</span><span class="token punctuation">:</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token comment">#11包括20不包括</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>new_a<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 </li>
@@ -659,18 +411,22 @@
 <h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
 <p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a,b,c,d = <span class="number">20</span>, <span class="number">5.5</span>, <span class="literal">True</span>, <span class="number">4</span>+<span class="number">3j</span></span><br><span class="line"><span class="keyword">print</span> (a,b,c,d)</span><br><span class="line"><span class="keyword">print</span> (type(a),type(b),type(c)，type(d))<span class="comment">#这里用到了type这个函数</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">5.5</span><span class="token punctuation">,</span> <span class="token boolean">True</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token operator">+</span><span class="token number">3j</span>
+<span class="token keyword">print</span> <span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">)</span>
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token builtin">type</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token builtin">type</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>，<span class="token builtin">type</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#这里用到了type这个函数</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
 
 <h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
 <li><p>列表的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>] <span class="comment">#列表的建立用[]</span></span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1111</span><span class="token punctuation">,</span><span class="token string">'2222'</span><span class="token punctuation">,</span><span class="token number">3.333</span><span class="token punctuation">,</span><span class="token boolean">True</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'This is a list'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token boolean">None</span><span class="token punctuation">]</span> <span class="token comment">#列表的建立用[]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="2">
 <li><p>列表的遍历（迭代）</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:<span class="comment">#用这种方式遍历</span></span><br><span class="line">	print(one)</span><br><span class="line">```</span><br><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:</span><br><span class="line">	print(type(one))</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">for</span> one <span class="token keyword">in</span> list_1<span class="token punctuation">:</span><span class="token comment">#用这种方式遍历</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>one<span class="token punctuation">)</span>
+```
+<span class="token keyword">for</span> one <span class="token keyword">in</span> list_1<span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">type</span><span class="token punctuation">(</span>one<span class="token punctuation">)</span><span class="token punctuation">)</span>
+```<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -678,7 +434,12 @@
 </ol>
 <ol start="3">
 <li><p>列表的一些操作</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list_1.reverse()</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.append(<span class="string">'我添加了一个元素'</span>)</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.remove(<span class="literal">None</span>)</span><br><span class="line">print(list_1)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1<span class="token punctuation">.</span>reverse<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span>
+list_1<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">'我添加了一个元素'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span>
+list_1<span class="token punctuation">.</span>remove<span class="token punctuation">(</span><span class="token boolean">None</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -687,15 +448,13 @@
 </ol>
 <h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
 <li><p>元组的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tuple_1 = (<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))<span class="comment">#元组的建立用()</span></span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">tuple_1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1111</span><span class="token punctuation">,</span><span class="token string">'2222'</span><span class="token punctuation">,</span><span class="token number">3.333</span><span class="token punctuation">,</span><span class="token boolean">True</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'This is a list'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token boolean">None</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">#元组的建立用()</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="2">
 <li><p>元组和列表不同之处</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">Tuple = (<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line">List[<span class="number">0</span>] = <span class="number">5</span></span><br><span class="line">print(List)</span><br></pre></td></tr></table></figure>
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">List <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span>
+Tuple <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span>
+List<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">5</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>List<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -704,16 +463,23 @@
 </ol>
 <h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
 <li><p>集合的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set_1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">1</span>&#125;</span><br><span class="line">print(set_1)</span><br></pre></td></tr></table></figure>
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">set_1 <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">&#125;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>set_1<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
 </li>
 </ol>
 <h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
 <li><p>字典的建立</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">slogan= &#123;</span><br><span class="line">	<span class="string">'Adidas'</span>:<span class="string">'没有不可能（impossible is nothing)'</span>,</span><br><span class="line">	<span class="string">'Nike'</span> :<span class="string">'Just do it'</span>,</span><br><span class="line">	<span class="string">'Lining'</span>:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="string">'4399'</span>	:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="comment"># '4399'	:"4399v587"</span></span><br><span class="line">&#125;</span><br><span class="line">print(slogan[<span class="string">'Lining'</span>])</span><br><span class="line">print(slogan[<span class="string">'4399'</span>])</span><br></pre></td></tr></table></figure>
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">slogan<span class="token operator">=</span> <span class="token punctuation">&#123;</span>
+	<span class="token string">'Adidas'</span><span class="token punctuation">:</span><span class="token string">'没有不可能（impossible is nothing)'</span><span class="token punctuation">,</span>
+	<span class="token string">'Nike'</span> <span class="token punctuation">:</span><span class="token string">'Just do it'</span><span class="token punctuation">,</span>
+	<span class="token string">'Lining'</span><span class="token punctuation">:</span><span class="token string">'一切皆有可能'</span><span class="token punctuation">,</span>
+	<span class="token string">'4399'</span>	<span class="token punctuation">:</span><span class="token string">'一切皆有可能'</span><span class="token punctuation">,</span>
+	<span class="token comment"># '4399'	:"4399v587"</span>
+<span class="token punctuation">&#125;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>slogan<span class="token punctuation">[</span><span class="token string">'Lining'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>slogan<span class="token punctuation">[</span><span class="token string">'4399'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -721,54 +487,67 @@
 </li>
 </ol>
 <hr>
-<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_boyfriend</span><span class="params">(face,height,money)</span>:</span></span><br><span class="line">	<span class="keyword">if</span> face &gt; <span class="number">85</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> height &gt; <span class="number">185</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> money &gt; <span class="number">100000000000000</span>:</span><br><span class="line">		print(<span class="string">"OH God! He must be the one!!!!"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		print(<span class="string">"Who are you?"</span>)</span><br><span class="line"></span><br><span class="line">find_boyfriend(<span class="number">12</span>,<span class="number">170</span>,<span class="number">11</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">find_boyfriend</span><span class="token punctuation">(</span>face<span class="token punctuation">,</span>height<span class="token punctuation">,</span>money<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">if</span> face <span class="token operator">></span> <span class="token number">85</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"oh he is my boyfriend"</span><span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token keyword">elif</span> height <span class="token operator">></span> <span class="token number">185</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"oh he is my boyfriend"</span><span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token keyword">elif</span> money <span class="token operator">></span> <span class="token number">100000000000000</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"OH God! He must be the one!!!!"</span><span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token keyword">else</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Who are you?"</span><span class="token punctuation">)</span>
+
+find_boyfriend<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token number">170</span><span class="token punctuation">,</span><span class="token number">11</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
 <li><p>语义化</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">print(<span class="number">1</span> <span class="keyword">in</span> List)</span><br><span class="line">wo = <span class="string">"帅"</span></span><br><span class="line"><span class="keyword">if</span> wo <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">"丑"</span>:</span><br><span class="line">	print(<span class="string">"我很帅"</span>)</span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">List <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token keyword">in</span> List<span class="token punctuation">)</span>
+wo <span class="token operator">=</span> <span class="token string">"帅"</span>
+<span class="token keyword">if</span> wo <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token string">"丑"</span><span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"我很帅"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="2">
 <li><p>列表解析</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">b = [i <span class="keyword">for</span> i <span class="keyword">in</span> List]</span><br><span class="line">print(b)</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">b = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token punctuation">[</span>i <span class="token keyword">for</span> i <span class="token keyword">in</span> List<span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
 
-
+```
+b <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> List<span class="token punctuation">:</span>
+    b<span class="token punctuation">.</span>append<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+```<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="3">
 <li><p>值交换</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">temp = b</span><br><span class="line">b = a</span><br><span class="line">a= temp</span><br><span class="line">print(a,b)</span><br><span class="line">a,b = b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">,</span>b <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">,</span><span class="token number">10</span>
+temp <span class="token operator">=</span> b
+b <span class="token operator">=</span> a
+a<span class="token operator">=</span> temp
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span>
+a<span class="token punctuation">,</span>b <span class="token operator">=</span> b<span class="token punctuation">,</span>a
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="4">
 <li><p>join函数</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">"这是一堂"</span>,<span class="string">'严肃的'</span>,<span class="string">"python课程"</span>]</span><br><span class="line">print(<span class="string">"哈哈哈哈啊哈哈"</span>.join(a))</span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"这是一堂"</span><span class="token punctuation">,</span><span class="token string">'严肃的'</span><span class="token punctuation">,</span><span class="token string">"python课程"</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"哈哈哈哈啊哈哈"</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="5">
 <li><p>列表或者字符串逆序</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="string">'123456789'</span></span><br><span class="line">print(b[<span class="number">2</span>::<span class="number">3</span>])</span><br><span class="line">print(b[::<span class="number">-1</span>])<span class="comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span></span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token string">'123456789'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="6">
 <li><p>比大小</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="number">10</span></span><br><span class="line"><span class="number">3</span> &lt; b <span class="keyword">and</span> b &lt; <span class="number">12</span> </span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">10</span>&lt;<span class="number">12</span>)</span><br><span class="line">print(<span class="number">4</span>&lt;<span class="number">10</span>&lt;<span class="number">9</span>)</span><br></pre></td></tr></table></figure>
-
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">b <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token number">3</span> <span class="token operator">&lt;</span> b <span class="token keyword">and</span> b <span class="token operator">&lt;</span> <span class="token number">12</span> 
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token operator">&lt;</span><span class="token number">10</span><span class="token operator">&lt;</span><span class="token number">12</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token operator">&lt;</span><span class="token number">10</span><span class="token operator">&lt;</span><span class="token number">9</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ol>
-<ol start="7">
 <li><p>列表和集合互用，消除重复元素</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>]</span><br><span class="line">print(list(set(list_1)))</span><br></pre></td></tr></table></figure>
-
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">set</span><span class="token punctuation">(</span>list_1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
 
@@ -776,934 +555,171 @@
 </li>
 </ol>
 <h3 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h3><ol>
-<li>大一少打游戏 晚自习多看点课外书</li>
-<li>英语很重要 四六级大一总得过了吧</li>
+<li> 大一少打游戏 晚自习多看点课外书</li>
+<li> 英语很重要 四六级大一总得过了吧</li>
 <li>如果有机会之后会讲什么<ol>
 <li>Markdown<ol>
-<li>Typora…</li>
-<li><a href="https://www.zybuluo.com/mdeditor" rel="external nofollow noopener noreferrer" target="_blank">作业部落</a></li>
-<li><a href="https://ouweiya.gitbooks.io/markdown/" rel="external nofollow noopener noreferrer" target="_blank">常用语法笔记</a></li>
+<li> Typora…</li>
+<li> <a target="_blank" rel="noopener" href="https://www.zybuluo.com/mdeditor">作业部落</a></li>
+<li> <a target="_blank" rel="noopener" href="https://ouweiya.gitbooks.io/markdown/">常用语法笔记</a></li>
 </ol>
 </li>
 <li>Git<ol>
-<li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000" rel="external nofollow noopener noreferrer" target="_blank">廖雪峰</a></li>
-<li><a href="https://morvanzhou.github.io/tutorials/others/git/5-1-github/" rel="external nofollow noopener noreferrer" target="_blank">莫烦</a></li>
+<li> <a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000">廖雪峰</a></li>
+<li> <a target="_blank" rel="noopener" href="https://morvanzhou.github.io/tutorials/others/git/5-1-github/">莫烦</a></li>
 </ol>
 </li>
-<li>Linux</li>
+<li> Linux</li>
 <li>正则表达式<ol>
-<li><a href="https://regex101.com/" rel="external nofollow noopener noreferrer" target="_blank">正则表达式</a></li>
+<li> <a target="_blank" rel="noopener" href="https://regex101.com/">正则表达式</a></li>
 </ol>
 </li>
 </ol>
 </li>
 <li>关于问问题<ol>
-<li>百度谷歌能解决最好</li>
-<li>如果要问别人，请把代码贴在<a href="https://paste.ubuntu.com/" rel="external nofollow noopener noreferrer" target="_blank">这里</a></li>
+<li> 百度谷歌能解决最好</li>
+<li> 如果要问别人，请把代码贴在<a target="_blank" rel="noopener" href="https://paste.ubuntu.com/">这里</a></li>
 </ol>
 </li>
 </ol>
 
-      
     </div>
 
     
-
-     <div>
     
-    <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">------ 本文结束------</div>
-    
-</div>
-    
-   </div>
-
-    
-    
-    
-
-    
-      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
-  <img id="wechat_subscriber_qcode" src="/images/wechatmid.jpg" alt="陈末 wechat" style="width: 200px; max-width: 100%;">
-  <div>扫二维码关注我的微信公众号</div>
-</div>
-
-    
-
-    
-      
-    
-    
-
     
 
     <footer class="post-footer">
-      
-        
-          
-        
-        <div class="post-tags">
-          
-            <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
-          
-            <a href="/tags/Tutorial/" rel="tag"><i class="fa fa-tag"></i> Tutorial</a>
-          
-        </div>
-      
 
-      
-      
-        <div class="post-widgets">
-        
-          <div class="wp_rating">
-            <div id="wpac-rating"></div>
-          </div>
-        
 
-        
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
 
-        
-        </div>
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/post/ba82db5c.html" rel="prev" title="关于约数的数小知识">
-                <i class="fa fa-chevron-left"></i> 关于约数的数小知识
-              </a>
-            
+          <div class="post-tags">
+              <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
+              <a href="/tags/Tutorial/" rel="tag"><i class="fa fa-tag"></i> Tutorial</a>
           </div>
 
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/post/c40e0394.html" rel="next" title="CNN&Alexnet模型简单总结">
-                CNN&Alexnet模型简单总结 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-
-  
-  
-  
-  </article>
-
-
-  </div>
-
-
-          </div>
-          
-  <div class="comments" id="comments"></div>
-    
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/valine@1.1.6/dist/Valine.min.js"></script>
-    <script>
-        new Valine({
-            av: AV,
-            el: '.comments',
-            notify: true, // 邮件提醒 v1.1.4新增，下一步中有具体的邮箱设置
-            verify: true,
-            app_id: '',
-            app_key: '',
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
-        });
-    </script>
-    
-
-        </div>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image" src="/images/touxiang.jpg" alt="陈末">
-            
-              <p class="site-author-name" itemprop="name">陈末</p>
-              <div class="site-description motion-element" itemprop="description">在别人看不见的地方</div>
-          </div>
-
-          
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives/">
-                
-                    <span class="site-state-item-count">29</span>
-                    <span class="site-state-item-name">日志</span>
-                  </a>
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-categories">
-                  
-                    
-                      <a href="/categories/">
-                    
-                  
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">8</span>
-                    <span class="site-state-item-name">分类</span>
-                  </a>
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-tags">
-                  
-                    
-                      <a href="/tags/">
-                    
-                  
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">35</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
-              
-            </nav>
-          
-
-          
-
-          
-
-          
-            <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">
-                  
-                  
-                    
-                  
-                  
-                    
-                  
-                  <a href="https://github.com/TD21forever" title="GitHub &rarr; https://github.com/TD21forever" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
-                </span>
-              
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/c40e0394.html" rel="prev" title="CNN&Alexnet模型简单总结">
+                  <i class="fa fa-chevron-left"></i> CNN&Alexnet模型简单总结
+                </a>
             </div>
-          
-
-          
-
-          
-          
-
-          
-            
-          
-          
-
-        </div>
-      </div>
-
-      
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#资料"><span class="nav-number">1.</span> <span class="nav-text">资料</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#标准数据类型"><span class="nav-number">2.</span> <span class="nav-text">标准数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String（字符串）"><span class="nav-number">3.</span> <span class="nav-text">String（字符串）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Number（数字）"><span class="nav-number">4.</span> <span class="nav-text">Number（数字）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List（列表）"><span class="nav-number">5.</span> <span class="nav-text">List（列表）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tuple（元组）"><span class="nav-number">6.</span> <span class="nav-text">Tuple（元组）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Set（集合）"><span class="nav-number">7.</span> <span class="nav-text">Set（集合）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dictionary（字典）"><span class="nav-number">8.</span> <span class="nav-text">Dictionary（字典）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他的一些操作"><span class="nav-number">9.</span> <span class="nav-text">其他的一些操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#骚操作"><span class="nav-number">10.</span> <span class="nav-text">骚操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同样重要的题外话"><span class="nav-number">11.</span> <span class="nav-text">同样重要的题外话</span></a></li></ol></div>
-            
-
+            <div class="post-nav-item">
+                <a href="/post/ba82db5c.html" rel="next" title="关于约数的数小知识">
+                  关于约数的数小知识 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
           </div>
-        </div>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-  
+    </footer>
+  </article>
+</div>
 
 
-        
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">  <a href="http://www.beian.miit.gov.cn" rel="external nofollow noopener noreferrer" target="_blank">浙ICP备18047530号 </a>&copy; 2018 – <span itemprop="copyrightYear">2020</span>
-  <span class="with-love" id="heart">
+
+
+
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
 
   
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-    <span title="站点总字数">49k</span>
-  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
 
-  
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    
-    <span title="站点阅读时长">44 分钟</span>
-  
-</div>
-
-
-
-
-
-
-
-
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="post-meta-item-icon">
-      <i class="fa fa-user"></i>
-    </span>
-    <span class="site-uv" title="总访客量">
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-    </span>
-  
-
-  
-    <span class="post-meta-divider">|</span>
-  
-
-  
-    <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
-    </span>
-    <span class="site-pv" title="总访问量">
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-    </span>
-  
-</div>
-
-
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
-    
-
-    
-
-    
-
-    
-  </div>
-
-  
-
-<script>
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
   }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   
-    
-    
-  
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
-
-  
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-
-  
-
-
-  <script src="/js/utils.js?v=7.1.2"></script>
-
-  <script src="/js/motion.js?v=7.1.2"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/schemes/muse.js?v=7.1.2"></script>
-
-
-
-
-  
-  <script src="/js/scrollspy.js?v=7.1.2"></script>
-<script src="/js/post-details.js?v=7.1.2"></script>
-
-
-
-  
-
-
-  <script src="/js/next-boot.js?v=7.1.2"></script>
-
-
-  
-
-  
-
-  
-
-  
-  
-
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-<script>
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: false,
-    notify: false,
-    appId: '6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz',
-    appKey: 'L9IqquaIalKDno3lcMO3kmHB',
-    placeholder: 'Just go go',
-    avatar: 'mm',
-    meta: guest,
-    pageSize: '10' || 10,
-    visitor: false,
-    lang: '' || 'zh-cn'
-  });
-</script>
-
-
-
-
-  
-
-
-  
-  <script>
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  <script>
+  <script data-pjax>
     (function(){
       var bp = document.createElement('script');
       var curProtocol = window.location.protocol.split(':')[0];
@@ -1713,79 +729,65 @@
     })();
   </script>
 
+<script src="/js/local-search.js"></script>
 
-  
 
-  
 
-  
+
+
   <script>
-    wpac_init = window.wpac_init || [];
-    wpac_init.push({
-      widget: 'Rating',
-      id: 19483,
-      el: 'wpac-rating',
-      color: 'CC3333'
+    NProgress.configure({
+      showSpinner: true
     });
-    (function() {
-      if ('WIDGETPACK_LOADED' in window) return;
-      WIDGETPACK_LOADED = true;
-      var mc = document.createElement('script');
-      mc.type = 'text/javascript';
-      mc.async = true;
-      mc.src = '//embed.widgetpack.com/widget.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
-    })();
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
   </script>
 
+  
+
+
+
+
+    <div class="pjax">
 
   
 
-  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://www.dcts.top/post/9dac317c.html',]
+      });
+      });
+  </script>
 
-  
 <script>
-  $('.highlight').not('.gist .highlight').each(function(i, e) {
-    var $wrap = $('<div>').addClass('highlight-wrap');
-    $(e).after($wrap);
-    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
-      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
-        return $(e).text();
-      }).toArray().join('\n');
-      var ta = document.createElement('textarea');
-      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
-      ta.style.top = yPosition + 'px'; // Prevent page scroll
-      ta.style.position = 'absolute';
-      ta.style.opacity = '0';
-      ta.readOnly = true;
-      ta.value = code;
-      document.body.appendChild(ta);
-      const selection = document.getSelection();
-      const selected = selection.rangeCount > 0 ? selection.getRangeAt(0) : false;
-      ta.select();
-      ta.setSelectionRange(0, code.length);
-      ta.readOnly = false;
-      var result = document.execCommand('copy');
-      
-      ta.blur(); // For iOS
-      $(this).blur();
-      if (selected) {
-        selection.removeAllRanges();
-        selection.addRange(selected);
-      }
-    })).on('mouseleave', function(e) {
-      var $b = $(this).find('.copy-btn');
-      setTimeout(function() {
-        $b.text('复制');
-      }, 300);
-    }).append(e);
-  })
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"6Wfw4kPh7MTXzzDCJq2tNs89-gzGzoHsz","appKey":"L9IqquaIalKDno3lcMO3kmHB","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":7,"lang":"zh-cn","visitor":false,"comment_count":false,"recordIP":false,"serverURLs":null,"enableQQ":true,"requiredFields":["nick","mail"]}, {
+      el: '#valine-comments',
+      path: "/post/9dac317c.html",
+      serverURLs: "https://6wfw4kph.api.lncldglobal.com"
+    }));
+  }, window.Valine);
+});
 </script>
 
-
-  
-
-  
-
+    </div>
 </body>
 </html>
