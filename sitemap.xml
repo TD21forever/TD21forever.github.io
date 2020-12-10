@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.dcts.top/post/1520b5d6.html</loc>
+    
+    <lastmod>2020-12-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/post/e5a040a0.html</loc>
+    
+    <lastmod>2020-12-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.dcts.top/post/de09af32.html</loc>
     
     <lastmod>2020-12-10</lastmod>
@@ -87,13 +101,6 @@
   
   <url>
     <loc>http://www.dcts.top/post/d122b347.html</loc>
-    
-    <lastmod>2020-12-10</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/post/e5a040a0.html</loc>
     
     <lastmod>2020-12-10</lastmod>
     
@@ -225,13 +232,6 @@
     
   </url>
   
-  <url>
-    <loc>http://www.dcts.top/post/1520b5d6.html</loc>
-    
-    <lastmod>2020-10-18</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>http://www.dcts.top/</loc>
@@ -243,20 +243,6 @@
   
   <url>
     <loc>http://www.dcts.top/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/tags/Alexnet/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/tags/CNN/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -299,6 +285,20 @@
   
   <url>
     <loc>http://www.dcts.top/tags/%E8%B5%84%E6%96%99/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/Alexnet/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dcts.top/tags/CNN/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -382,13 +382,6 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/%E7%94%9F%E6%97%A5/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.dcts.top/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -396,7 +389,7 @@
   </url>
   
   <url>
-    <loc>http://www.dcts.top/tags/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://www.dcts.top/tags/%E7%94%9F%E6%97%A5/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -483,13 +476,6 @@
   
   <url>
     <loc>http://www.dcts.top/categories/%E5%8D%81%E5%88%86%E4%BA%BA%E7%94%9F/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dcts.top/categories/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
