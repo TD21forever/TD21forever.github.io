@@ -26,25 +26,26 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="Python中的正则表达式,中等难度的知识点的整理与概括,但不包括最基础的正则知识">
+<meta name="description" content="光圈,快门,ISO">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python正则">
-<meta property="og:url" content="https://www.dcts.top/post/ca4e4d5f">
+<meta property="og:title" content="摄影学习笔记（一）————  基础知识介绍">
+<meta property="og:url" content="https://www.dcts.top/post/271a4a90.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="Python中的正则表达式,中等难度的知识点的整理与概括,但不包括最基础的正则知识">
+<meta property="og:description" content="光圈,快门,ISO">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-04-16T08:12:40.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:47:23.685Z">
+<meta property="og:image" content="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg">
+<meta property="article:published_time" content="2019-02-22T09:17:45.000Z">
+<meta property="article:modified_time" content="2020-12-10T09:41:23.636Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="笔记">
-<meta property="article:tag" content="正则">
-<meta property="article:tag" content="进阶">
+<meta property="article:tag" content="入门">
+<meta property="article:tag" content="摄影">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/ca4e4d5f">
+<link rel="canonical" href="https://www.dcts.top/post/271a4a90.html">
 
 
 <script data-pjax class="page-configurations">
@@ -56,7 +57,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>Python正则 | C1oser</title>
+<title>摄影学习笔记（一）————  基础知识介绍 | C1oser</title>
   
 
   <script data-pjax>
@@ -217,7 +218,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8"><span class="nav-text">常用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A8%A1%E5%9D%97%E5%86%85%E5%AE%B9"><span class="nav-text">模块内容</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%88%99%E5%AF%B9%E8%B1%A1"><span class="nav-text">正则对象</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8C%B9%E9%85%8D%E5%AF%B9%E8%B1%A1"><span class="nav-text">匹配对象</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%84%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="nav-text">组的概念</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%85%89%E5%9C%88"><span class="nav-text">1. 光圈</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%BF%AB%E9%97%A8"><span class="nav-text">2. 快门</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-ISO"><span class="nav-text">3. ISO</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -292,7 +293,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/ca4e4d5f">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/271a4a90.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -305,7 +306,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Python正则
+          摄影学习笔记（一）————  基础知识介绍
         </h1>
 
         <div class="post-meta-container">
@@ -316,7 +317,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2019-04-16 16:12:40" itemprop="dateCreated datePublished" datetime="2019-04-16T16:12:40+08:00">2019-04-16</time>
+      <time title="创建时间：2019-02-22 17:17:45" itemprop="dateCreated datePublished" datetime="2019-02-22T17:17:45+08:00">2019-02-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -337,8 +338,8 @@
     </span>
     <span class="post-meta-item-text">Valine：</span>
   
-    <a title="valine" href="/post/ca4e4d5f#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/ca4e4d5f" itemprop="commentCount"></span>
+    <a title="valine" href="/post/271a4a90.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/271a4a90.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -348,11 +349,11 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">Python中的正则表达式,中等难度的知识点的整理与概括,但不包括最基础的正则知识</div>
+            <div class="post-description">光圈,快门,ISO</div>
         </div>
       </header>
 
@@ -360,65 +361,31 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
-<li><p>  在带有 <code>&#39;r&#39;</code> 前缀的字符串字面值中，反斜杠不必做任何特殊处理。反斜重复两次将导致理解障碍，所以高度推荐，就算是最简单的表达式，也要使用原始字符串。</p>
+        <h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
+<li>光圈是表示镜头中孔径大小的比值。</li>
+<li>光圈越大数值越小,光圈越小数值越大。</li>
+<li>光圈越大越明亮,光圈越小越暗。</li>
+<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
+</ul>
+<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
+<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
 </li>
-<li><p>  <code>&#39;*&#39;</code>, <code>&#39;+&#39;</code>，和 <code>&#39;?&#39;</code> 修饰符都是 _贪婪的_；它们在字符串进行尽可能多的匹配。有时候并不需要这种行为。如果正则式 <code>&lt;.*&gt;</code> 希望找到 <code>&#39;&lt;a&gt; b &lt;c&gt;&#39;</code>，它将会匹配整个字符串，而不仅是 <code>&#39;&lt;a&gt;&#39;</code>。在修饰符之后添加 <code>?</code> 将使样式以 <strong>非贪婪</strong>即最小方式进行匹配；尽量 少 的字符将会被匹配。 使用正则式 <code>&lt;.*?&gt;</code> 将会仅仅匹配 <code>&#39;&lt;a&gt;&#39;</code>。</p>
+<li><p>比1/60秒慢的，就是慢门。</p>
 </li>
-<li><p>  特殊字符在集合中，失去它的特殊含义。比如 <code>[(+*)]</code> 只会匹配这几个文法字符 <code>&#39;(&#39;</code>, <code>&#39;+&#39;</code>, <code>&#39;*&#39;</code>, or <code>&#39;)&#39;</code></p>
+<li><p>比1/250秒快的，就是高速快门。</p>
 </li>
-<li><p>  <code>\B</code>匹配空字符串，但 不 能在词的开头或者结尾。意思就是 <code>r&#39;py\B&#39;</code> 匹配 <code>&#39;python&#39;</code>, <code>&#39;py3&#39;</code>, <code>&#39;py2&#39;</code>, 但不匹配 <code>&#39;py&#39;</code>, <code>&#39;py.&#39;</code>, 或者 <code>&#39;py!&#39;</code>. <code>\B</code> 是 <code>\b</code> 的取非。(说人话就是后边必须有点东西)</p>
+<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
+</li>
+<li><p>快门慢 曝光时间长 亮（长曝光）</p>
+</li>
+<li><p>快门快 运动快的东西也会被凝固住</p>
 </li>
 </ul>
-<h4 id="模块内容"><a href="#模块内容" class="headerlink" title="模块内容"></a>模块内容</h4><ul>
-<li>  <code>re.compile(pattern, flags=0)</code> 可以让正则多次使用</li>
-<li>  <code>re.search(pattern, string, flags=0)</code>扫描整个字符串，找到匹配样式的第一个位置，并返回一个相应的<strong>匹配对象</strong>如果没有匹配，就返回一个 <code>None</code></li>
-<li>  <code>re.match(pattern, string, flags=0)</code>注意<strong>即便是 <code>MULTILINE</code> 多行模式,<code>re.match()</code> 也只匹配字符串的开始位置</strong>，而不匹配每行开始。如果你想定位 string 的任何位置，使用 <code>search()</code>来替代</li>
-<li>  <code>re.split(pattern, string, maxsplit=0, flags=0)</code> 用 <code>pattern</code>分开 <code>string</code> 。 如果在 <code>pattern</code> 中捕获到括号，那么所有的组里的文字也会包含在列表里。如果 <code>maxsplit</code> 非零， 最多进行 <code>maxsplit</code>次分隔， 剩下的字符全部返回到列表的最后一个元素。</li>
-<li>  <code>re.findall(pattern, string, flags=0)</code> 对 <code>string</code> 返回一个不重复的<code>pattern</code> 的<strong>匹配列表</strong>， <code>string</code> 从左到右进行扫描，匹配按找到的顺序返回。如果样式里存在一到多个组，就返回一个组合列表；就是一个元组的列表（如果样式里有超过一个组合的话）。空匹配也会包含在结果里。</li>
-<li>  <code>re.finditer(pattern, string, flags=0)</code> <code>pattern</code> 在 <code>string</code> 里所有的非重复匹配，返回为一个<code>迭代器 iterator</code>保存了<strong>匹配对象</strong> 。<code>string</code>从左到右扫描，匹配按顺序排列。空匹配也包含在结果里。(用迭代器保存返回的<strong>匹配对象</strong>)</li>
+<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
+<li>ISO越高越亮 但是照片质量会下降</li>
 </ul>
-<h3 id="正则对象"><a href="#正则对象" class="headerlink" title="正则对象"></a>正则对象</h3><p>编译后的正则表达式对象支持的方法和属性</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">pattern = re.<span class="built_in">compile</span>(<span class="string">&quot;d&quot;</span>)</span><br><span class="line">pattern.search()</span><br><span class="line">pattern.match()</span><br><span class="line">pattern.findall()</span><br><span class="line">pattern.finditer()</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
 
-<h3 id="匹配对象"><a href="#匹配对象" class="headerlink" title="匹配对象"></a>匹配对象</h3><p>匹配对象总是有一个布尔值 True。如果没有匹配的话<code>match()</code> 和<code>search()</code>返回 None 所以你可以简单的用 if 语句来判断是否匹配</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">match = re.search(pattern, string)</span><br><span class="line"><span class="keyword">if</span> match:</span><br><span class="line">    process(match)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="组的概念"><a href="#组的概念" class="headerlink" title="组的概念"></a>组的概念</h3><p>正则式中的每个组都有一个序号，它是按定义时从左到右的顺序<strong>从1开始编号</strong>的。其实，re的正则式还有一个0号组，<strong>它就是整个正则式本身。</strong></p>
-<ul>
-<li><p><code>match.group()</code></p>
-</li>
-<li><p><code>group(0)</code> 与 <code>group()</code> 等价，其结果为整个正则式匹配到的内容，包括没有包到组里面的内容</p>
-</li>
-<li><p><code>match.groups()</code></p>
-<ul>
-<li>匹配组里面的内容，把他们都列出来放到元组里</li>
-</ul>
-</li>
-<li><p><code>match.__getitem__()</code></p>
-</li>
-<li><p><code>match.lastgroup</code></p>
-<ul>
-<li>最后一个匹配到的组的组名,如果没有产生匹配的话返回<code>None</code>。</li>
-</ul>
-</li>
-<li><p><code>match.start()</code></p>
-<ul>
-<li>返回给定的组开始的位置</li>
-</ul>
-</li>
-<li><p><code>match.end()</code></p>
-<ul>
-<li>返回给定的组结束的位置+1</li>
-</ul>
-</li>
-<li><p><code>match.span()</code></p>
-<ul>
-<li>返回（start,end）的形式</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;&gt; p=re.compile( r’(?P&lt;name&gt;[a-z]+)/s+(?P&lt;age&gt;/d+)/s+(?P&lt;tel&gt;/d+).*’ , re.I )</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p.groupindex</span><br><span class="line"></span><br><span class="line">&#123;<span class="string">&#x27;age&#x27;</span>: <span class="number">2</span>, <span class="string">&#x27;tel&#x27;</span>: <span class="number">3</span>, <span class="string">&#x27;name&#x27;</span>: <span class="number">1</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s=’Tom <span class="number">24</span> <span class="number">88888888</span>  &lt;=’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m=p.search(s)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.groups()                           <span class="comment"># 看看匹配的各组的情况</span></span><br><span class="line"></span><br><span class="line">(<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;24&#x27;</span>, <span class="string">&#x27;8888888&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(‘name’)                   <span class="comment"># 使用组名获取匹配的字符串</span></span><br><span class="line"></span><br><span class="line">‘Tom’</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group( <span class="number">1</span> )                         <span class="comment"># 使用组序号获取匹配的字符串，同使用组名的效果一样</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>m.group(<span class="number">0</span>)                           <span class="comment"># 0 组里面是什么呢？</span></span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;Tom 24 88888888  &lt;=&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -439,22 +406,21 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
-              <a href="/tags/%E6%AD%A3%E5%88%99/" rel="tag"><i class="fa fa-tag"></i> 正则</a>
-              <a href="/tags/%E8%BF%9B%E9%98%B6/" rel="tag"><i class="fa fa-tag"></i> 进阶</a>
+              <a href="/tags/%E5%85%A5%E9%97%A8/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
+              <a href="/tags/%E6%91%84%E5%BD%B1/" rel="tag"><i class="fa fa-tag"></i> 摄影</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/5dc1b5fc" rel="prev" title="DCGAN学习笔记">
-                  <i class="fa fa-chevron-left"></i> DCGAN学习笔记
+                <a href="/post/ba82db5c.html" rel="prev" title="关于约数的数小知识">
+                  <i class="fa fa-chevron-left"></i> 关于约数的数小知识
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/e5a040a0" rel="next" title="微信聊天记录分析（IOS系统）">
-                  微信聊天记录分析（IOS系统） <i class="fa fa-chevron-right"></i>
+                <a href="/post/4235b453.html" rel="next" title="摄影学习笔记（二）———— Pr快捷键">
+                  摄影学习笔记（二）———— Pr快捷键 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -608,7 +574,7 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/ca4e4d5f',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/271a4a90.html',]
       });
       });
   </script>
@@ -618,7 +584,7 @@ NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
       el: '#valine-comments',
-      path: "/post/ca4e4d5f",
+      path: "/post/271a4a90.html",
       serverURLs: "https://6roslgtm.api.lncldglobal.com"
     }));
   }, window.Valine);

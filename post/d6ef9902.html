@@ -26,23 +26,26 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="记录Docker的简单操作">
+<meta name="description" content="数据库相关的基础概念">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker笔记">
-<meta property="og:url" content="https://www.dcts.top/post/5c266b64">
+<meta property="og:title" content="数据库原理笔记（1）——三级模式二级映射">
+<meta property="og:url" content="https://www.dcts.top/post/d6ef9902.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="记录Docker的简单操作">
+<meta property="og:description" content="数据库相关的基础概念">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-10-18T17:26:13.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:46:15.912Z">
+<meta property="og:image" content="http://qiniu.dcts.top/%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F%E4%BA%8C%E7%BA%A7%E6%98%A0%E5%B0%84.png">
+<meta property="article:published_time" content="2019-04-20T05:54:20.000Z">
+<meta property="article:modified_time" content="2020-12-10T09:43:02.960Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="数据库">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://qiniu.dcts.top/%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F%E4%BA%8C%E7%BA%A7%E6%98%A0%E5%B0%84.png">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/5c266b64">
+<link rel="canonical" href="https://www.dcts.top/post/d6ef9902.html">
 
 
 <script data-pjax class="page-configurations">
@@ -54,7 +57,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>Docker笔记 | C1oser</title>
+<title>数据库原理笔记（1）——三级模式二级映射 | C1oser</title>
   
 
   <script data-pjax>
@@ -215,7 +218,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-With-GPU"><span class="nav-text">Docker With GPU</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Run"><span class="nav-text">Docker Run</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Tips"><span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Images"><span class="nav-text">Docker Images</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker-Container"><span class="nav-text">Docker Container</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84docker%E5%8A%A0%E9%80%9F%E5%99%A8%E3%80%82"><span class="nav-text">使用阿里云的docker加速器。</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A6%82%E5%BF%B5"><span class="nav-text">概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F"><span class="nav-text">数据的三级模式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F%E6%80%BB%E7%BB%93"><span class="nav-text">三级模式总结</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BA%8C%E7%BA%A7%E6%98%A0%E5%83%8F"><span class="nav-text">数据的二级映像</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -290,7 +293,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/5c266b64">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/d6ef9902.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -303,7 +306,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Docker笔记
+          数据库原理笔记（1）——三级模式二级映射
         </h1>
 
         <div class="post-meta-container">
@@ -314,7 +317,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2020-10-19 01:26:13" itemprop="dateCreated datePublished" datetime="2020-10-19T01:26:13+08:00">2020-10-19</time>
+      <time title="创建时间：2019-04-20 13:54:20" itemprop="dateCreated datePublished" datetime="2019-04-20T13:54:20+08:00">2019-04-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -335,8 +338,8 @@
     </span>
     <span class="post-meta-item-text">Valine：</span>
   
-    <a title="valine" href="/post/5c266b64#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/5c266b64" itemprop="commentCount"></span>
+    <a title="valine" href="/post/d6ef9902.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/d6ef9902.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -346,11 +349,11 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">记录Docker的简单操作</div>
+            <div class="post-description">数据库相关的基础概念</div>
         </div>
       </header>
 
@@ -358,52 +361,88 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h4 id="Docker-With-GPU"><a href="#Docker-With-GPU" class="headerlink" title="Docker With GPU"></a>Docker With GPU</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 测试是否可以看到所有显卡，如果没有 nvidia/cuda:10.0-base，则会先下载该镜像</span></span><br><span class="line">docker run --gpus all nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在一个容器上使用两块GPU</span></span><br><span class="line">docker run --gpus 2 nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定使用的GPU</span></span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=1,2&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=UUID-ABCDEF,1&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># Specifying a capability (graphics, compute, ...) for my container</span></span><br><span class="line">docker run --gpus all,capabilities=utility nvidia/cuda:10.0-base nvidia-smi</span><br></pre></td></tr></table></figure>
-
-<h4 id="Docker-Run"><a href="#Docker-Run" class="headerlink" title="Docker Run"></a>Docker Run</h4><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -p xxxx<span class="function">:xxxx-v</span> [主机代码目录]:[容器内代码映射目录] <span class="params">--gpus</span> all <span class="params">--name</span> [创建的容器名称] [镜像名称]:[镜像tag] <span class="string">/bin/bash</span> -c <span class="string">&quot;sh trainer/train.sh&quot;</span></span><br><span class="line"></span><br><span class="line">docker run -it -p 5555<span class="function">:22</span> -v <span class="string">&quot;$PWD:/workspace&quot;</span> <span class="params">--gpus</span> all <span class="params">--name</span> xxx imagesName<span class="function">:tag</span> <span class="string">/bin/bash</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
+        <h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><ul>
+<li><p>数据库（DataBase）</p>
+<blockquote>
+<p>相关数据的集合，数据由DBMS统一管理和维护</p>
+</blockquote>
+</li>
+<li><p>数据库系统（DataBase System）</p>
+<blockquote>
+<p>由计算机硬件、操作系统、DBMS、DB、应用程序、用户、数据库开发和管理人员</p>
+</blockquote>
+</li>
+<li><p>数据库管理系统（DataBase Management System）</p>
+<blockquote>
+<p>向用户提供一套命令，管理数据库</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="数据的三级模式"><a href="#数据的三级模式" class="headerlink" title="数据的三级模式"></a>数据的三级模式</h3><p>​    <strong>目的：将用户应用和数据库分离</strong></p>
+<p><img data-src="http://qiniu.dcts.top/%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F%E4%BA%8C%E7%BA%A7%E6%98%A0%E5%B0%84.png" alt="img"></p>
+<ol>
+<li><p>模式(概念集)</p>
 <ul>
-<li><code>-it</code>：这是两个参数，一个是 <code>-i</code> 表示交互式操作，一个是 <code>-t</code> 为终端。我们这里打算进入 bash 执行一些命令并查看返回结果，因此我们需要交互式终端。</li>
-<li><code>--rm</code>：这个参数是说容器退出后随之将其删除。默认情况下，为了排障需求，退出的容器并不会立即删除，除非手动 <code>docker rm</code>。</li>
-<li><code>ubuntu:16.04</code>：这是指用 <code>ubuntu:16.04</code> 镜像为基础来启动容器。</li>
-<li><code>bash</code>：放在镜像名后的是命令，这里我们希望有个交互式 Shell，因此用 bash。</li>
-<li><code>-v</code> : “[主机工作目录]:[容器内工作映射目录]” ： 指定容器内文件的挂载路径</li>
-<li><code>-p</code> <code>5555</code>:<code>22</code>是将宿主机的<code>5555</code>端口映射到容器的<code>2333</code>端口  </li>
+<li>也称逻辑模式</li>
+<li>概括出一个数据库所需的所有数据，并抽像出这些数据间的逻辑结构和各个数据的特征，依此才能开始建立数据库。</li>
+<li>模式不是数据库本身，仅仅描述数据库的结构。</li>
+<li>不涉及硬件环境和物理存储，不和任何计算机语言有关</li>
+<li>DBMS提供模式描述语言(模式DDL)</li>
 </ul>
-<h4 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h4><ul>
-<li><p>Docker 需要用户具有 sudo 权限，为了避免每次命令都输入<code>sudo</code>，可以把用户加入 Docker 用户组 </p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo groupadd docker <span class="comment">#添加docker用户组</span></span><br><span class="line">sudo gpasswd -a <span class="variable">$USER</span> docker <span class="comment">#将登陆用户加入到docker用户组中</span></span><br><span class="line">newgrp docker <span class="comment">#更新用户组</span></span><br></pre></td></tr></table></figure>
-
 </li>
-</ul>
-<h4 id="Docker-Images"><a href="#Docker-Images" class="headerlink" title="Docker Images"></a>Docker Images</h4><p> Image 文件可以看作是容器的模板。Docker 根据 Image 文件生成容器的实例。同一个 Image 文件，可以生成多个同时运行的容器实例。 </p>
+<li><p>外模式(用户级)</p>
 <ul>
-<li><p><code>docker image ls  or  docker images</code></p>
-</li>
-<li><p><code>docker image rm [imageName] or [imageID]</code></p>
-</li>
-<li><p><code>docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]</code><br> 例子：<code>docker pull ubuntu:16.04</code></p>
-</li>
+<li>也称子模式或者用户模式</li>
+<li>用户能看到的数据库中的各个表，这些表中包含的数据以及数据之间的联系（表的逻辑结构）是跟某个应用或用户具体的需求相关的</li>
+<li>外模式描述的是一个特定用户感兴趣的那部分数据库，隐藏数据库的其他部分</li>
+<li>是模式的子集，不同用户外模式不同</li>
+<li>DBMS提供外模式描述语言(Sub-DDL) </li>
 </ul>
-<h4 id="Docker-Container"><a href="#Docker-Container" class="headerlink" title="Docker Container"></a>Docker Container</h4><ul>
-<li><p><code>docker ps -a</code> 来查看当前系统的容器</p>
 </li>
-<li><p><code>docker start [-i] container-id</code><strong>启动</strong>某个容器，必须是已经创建的。 加上<code>-i</code> 参数之后，可以直接<strong>进入</strong>交互模式</p>
-</li>
-<li><p>除了通过<code>-i</code><strong>进入</strong>交互模式，还有一种方法，那就是通过<code>attach</code>: <code>docker attach container-id</code> </p>
-</li>
-<li><p>退出但是保持容器运行，按<code>CTRL+Q+P</code>三个键 - 退出 </p>
-</li>
-<li><p>使用<code>docker start/restart</code> 命令来启动/重启一个容器</p>
-</li>
-<li><p>使用<code>docker stop/rm</code>命令来停止/删除一个容器</p>
-</li>
+<li><p>内模式(物理级)</p>
+<ul>
+<li>也叫存储模式</li>
+<li>描述数据库中的所有数据在物理介质上的存储形式</li>
+<li>定义了数据库中全部数据的物理结构，定义了存储方法、存储策略</li>
+<li>DBMS提供内模式描述语言(内模式DDL)</li>
 </ul>
-<h4 id="使用阿里云的docker加速器。"><a href="#使用阿里云的docker加速器。" class="headerlink" title="使用阿里云的docker加速器。"></a>使用阿里云的docker加速器。</h4><p>在阿里云申请一个账号，<br>打开连接 <a target="_blank" rel="noopener" href="https://cr.console.aliyun.com/#/accelerator">https://cr.console.aliyun.com/#/accelerator</a> 拷贝您的专属加速器地址。</p>
-<p>修改修改daemon配置文件/etc/docker/daemon.json来使用加速器(下面是4个命令，分别单独执行)</p>
-<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/docker/daemon.json</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://jxus37ad.mirror.aliyuncs.com&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure>
-
-<p>​    </p>
+<h4 id="三级模式总结"><a href="#三级模式总结" class="headerlink" title="三级模式总结"></a>三级模式总结</h4><ol>
+<li>一个应用程序只能启用一个外模式，一个外模式可被多个应用程序使用</li>
+<li>对于一个数据库系统来说，只有一个模式和内模式，但可以有多个外模式</li>
+</ol>
+</li>
+</ol>
+<h3 id="数据的二级映像"><a href="#数据的二级映像" class="headerlink" title="数据的二级映像"></a>数据的二级映像</h3><ol>
+<li>外模式/模式<ul>
+<li>当模式改变时，只要相应改变外模式/模式映像，即可使外模式保持不变</li>
+<li>数据的逻辑独立性</li>
+</ul>
+</li>
+<li>模式/内模式<ul>
+<li>当存储方式发生改变时，只需要修改这个模式/内模式映像就可以保持模式不变</li>
+<li>数据的物理独立性</li>
+</ul>
+</li>
+<li>SQL的三级模式<ol>
+<li>基本表<ul>
+<li>基本表是模式的基本内容</li>
+<li>实际存在的关系</li>
+</ul>
+</li>
+<li>视图 <ul>
+<li>外模式的基本单位</li>
+<li>视图是逻辑上的定义，实际并不存在（虚表）</li>
+</ul>
+</li>
+<li>存储文件<ul>
+<li>内模式的基本单位</li>
+<li>每一个存储文件可以存储一个或多个基本表的内容</li>
+<li>存储文件的存储结构对用户透明</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
 
     </div>
 
@@ -425,20 +464,21 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/Docker/" rel="tag"><i class="fa fa-tag"></i> Docker</a>
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag"><i class="fa fa-tag"></i> 数据库</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/d07d5346" rel="prev" title="Screen命令笔记">
-                  <i class="fa fa-chevron-left"></i> Screen命令笔记
+                <a href="/post/e5a040a0.html" rel="prev" title="微信聊天记录分析（IOS系统）">
+                  <i class="fa fa-chevron-left"></i> 微信聊天记录分析（IOS系统）
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/d8d5597" rel="next" title="2020博客重大更新">
-                  2020博客重大更新 <i class="fa fa-chevron-right"></i>
+                <a href="/post/caace43d.html" rel="next" title="数据库原理笔记（2）——概念模型和数据模型">
+                  数据库原理笔记（2）——概念模型和数据模型 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -592,7 +632,7 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/5c266b64',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/d6ef9902.html',]
       });
       });
   </script>
@@ -602,7 +642,7 @@ NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
       el: '#valine-comments',
-      path: "/post/5c266b64",
+      path: "/post/d6ef9902.html",
       serverURLs: "https://6roslgtm.api.lncldglobal.com"
     }));
   }, window.Valine);

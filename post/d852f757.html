@@ -26,23 +26,25 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="科目二总算顺利结束啦~">
+<meta name="description" content="花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="科目二结束">
-<meta property="og:url" content="https://www.dcts.top/post/762968e9">
+<meta property="og:title" content="Vim常用操作整理(Vimtutor)">
+<meta property="og:url" content="https://www.dcts.top/post/d852f757.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="科目二总算顺利结束啦~">
+<meta property="og:description" content="花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-07-10T15:57:45.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:39:27.860Z">
+<meta property="article:published_time" content="2019-04-05T03:59:54.000Z">
+<meta property="article:modified_time" content="2020-12-10T09:48:00.186Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="学车">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Vim">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/762968e9">
+<link rel="canonical" href="https://www.dcts.top/post/d852f757.html">
 
 
 <script data-pjax class="page-configurations">
@@ -54,7 +56,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>科目二结束 | C1oser</title>
+<title>Vim常用操作整理(Vimtutor) | C1oser</title>
   
 
   <script data-pjax>
@@ -215,7 +217,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%80%83%E8%AF%95"><span class="nav-text">考试</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A5-9-24"><span class="nav-text">7月10日 9:24</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A59-14"><span class="nav-text">7月10日9:14</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7%E6%9C%8810%E6%97%A5-9-00"><span class="nav-text">7月10日 9:00</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%83%E8%BD%A6"><span class="nav-text">练车</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E5%85%89%E6%A0%87"><span class="nav-text">移动光标</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9"><span class="nav-text">更改文本内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8F%92%E5%85%A5"><span class="nav-text">插入</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9F%A5%E6%89%BE"><span class="nav-text">查找</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-text">其他</span></a></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -290,7 +292,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/762968e9">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/d852f757.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -303,7 +305,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          科目二结束
+          Vim常用操作整理(Vimtutor)
         </h1>
 
         <div class="post-meta-container">
@@ -314,7 +316,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2019-07-10 23:57:45" itemprop="dateCreated datePublished" datetime="2019-07-10T23:57:45+08:00">2019-07-10</time>
+      <time title="创建时间：2019-04-05 11:59:54" itemprop="dateCreated datePublished" datetime="2019-04-05T11:59:54+08:00">2019-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -322,7 +324,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%8D%81%E5%88%86%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">十分人生</span></a>
+          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
         </span>
     </span>
 
@@ -335,8 +337,8 @@
     </span>
     <span class="post-meta-item-text">Valine：</span>
   
-    <a title="valine" href="/post/762968e9#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/762968e9" itemprop="commentCount"></span>
+    <a title="valine" href="/post/d852f757.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/d852f757.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -346,11 +348,11 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
-            <div class="post-description">科目二总算顺利结束啦~</div>
+            <div class="post-description">花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.</div>
         </div>
       </header>
 
@@ -358,16 +360,85 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>总算结束了这该死的科目二，这几天下来身心俱疲，每次早起练车内心都是强烈的抗拒，刚熬过大学的期末考，暑假又是一个接一个的训练、考试，实在是难以说服自己去接受。好在过了，长舒一口气。拿驾照之路还长，不过这几天可以歇一歇了，再接着训练科三之前，总算是可以做点自己计划中的事情，就再回味回味这份经历。</p>
-<h3 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h3><h4 id="7月10日-9-24"><a href="#7月10日-9-24" class="headerlink" title="7月10日 9:24"></a>7月10日 9:24</h4><p>油门踩到底，下了坡，听到旁边机子说考试合格，然后被安全员指挥到起始位置。下车，和安全员说谢谢，走出考场，路上一直在口吐芬芳，骂着这该死的科目二总算结束了。</p>
-<h4 id="7月10日9-14"><a href="#7月10日9-14" class="headerlink" title="7月10日9:14"></a>7月10日9:14</h4><p>上车踩了踩离合，转了转方向盘，觉得很舒服。起步后一直在自言自语，给自己提醒要对的点。说真的，下次不一定有这么舒服的离合，这么舒服的方向盘，这么舒服的肩膀线，这么舒服的天气，这么熟悉的道路了。</p>
-<h4 id="7月10日-9-00"><a href="#7月10日-9-00" class="headerlink" title="7月10日 9:00"></a>7月10日 9:00</h4><p>在D区等6号车，车上的大哥一直很顺利，开到上坡久久没下来我就知道他没了，有点害怕，感觉是辆破车啊。</p>
-<hr>
-<p>考试比我想象的顺利，我把原因归结为运气好。今天确实天时地利人和，甚至于今天去的<strong>10个人居然全都过了</strong>。但考前实在是太紧张，漫长的等待时间把内心的焦躁快推到了极限了，一直在担忧，没有肩膀线怎么办，点对错了怎么办，车子不习惯怎么办，上坡熄火怎么办…..</p>
-<p>想想驾考是我经历的第一场，与不同龄人同台竞争的考试，考试水平与学历与年龄与见识无关。客观的来说其实驾考的内容很少，而且容错率挺高的，科目二要记住的内容加起来估计也就模电一章的知识点的量，考前还能练考场，相当于考前就把试卷发你了，而且允许你做两次。但你说让我现在再去考一次？我死都不想再踏进那个考场半步了，而且我肯定会挂…..</p>
-<h3 id="练车"><a href="#练车" class="headerlink" title="练车"></a>练车</h3><p>看知乎上有好多关于驾考的话题，像什么科目二考试技巧、科目二挂科怎么办….之类的，我考前还以此为参考资料，考完觉得其实没必要去看这些技巧和心灵鸡汤之类的东西。其实最好还是以教练教的为标准，有不懂得就直接问教练就好了，怕忘记就自己根据教练讲的记在本子上。知乎上的话题大多经过作者艺术渲染，带入太多个人情绪了，而且和教练教的方法不一定统一，反而影响了心态，慌了自己手脚。</p>
-<p>花了两天时间把科目二的内容学会了，然后考前连着四、五天一直在练车。练车最烦的还是等待，等待实在是漫长，坐在车里玩手机，没心思背单词，知乎刷了一遍又一遍，就干等着，浪费时间。每天重复同样的内容，几个点对来对去，明明就这么点内容，考前练到第三天就已经对学车产生了生生的厌恶，心想着我特么要是没过我就不学车了。</p>
-<p>还是有进步的，毕竟从第一天连离合踩都不稳到今天起码踩着离合能溜溜弯。很期待科目三结束后自己的进步。</p>
+        <h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
+<li>  <code>k</code> 上</li>
+<li>  <code>j</code> 下</li>
+<li>  <code>h</code> 左</li>
+<li>  <code>l</code> 右</li>
+<li>  <code>0</code> 回到首行</li>
+<li>  <code>CTRL+G</code> 显示当前阅读进度、光标行号</li>
+<li>  <code>gg</code> 回到文件第一行</li>
+<li>  <code>G</code> 跳转到文件最后一行</li>
+<li>  <code>CTRL+o</code> 返回旧的光标位置</li>
+<li>  <code>CTRL+i</code> 返回新的光标位置</li>
+</ul>
+<p>​    <em>operator [number] motion</em></p>
+<ul>
+<li>  <code>w</code> 到下一个单词前</li>
+<li>  <code>e</code> 到下一个单词结束</li>
+<li>  <code>$</code> 从光标到当前末尾</li>
+</ul>
+<h4 id="更改文本内容"><a href="#更改文本内容" class="headerlink" title="更改文本内容"></a>更改文本内容</h4><ul>
+<li>  <code>x</code> 删除当前字符</li>
+<li><code>d</code> 删除操作符<ul>
+<li>  <code>dd</code> 删除整行</li>
+<li>  <code>d$</code> 删除从光标到末尾</li>
+</ul>
+</li>
+<li><code>p</code> 另起一行放入删除的内容<ul>
+<li>  <code>y</code> 用于复制文本</li>
+</ul>
+</li>
+<li><code>r</code> 替换单个字符<ul>
+<li>  <code>R</code> 进入替换模式 一直可以替换</li>
+</ul>
+</li>
+<li><code>c</code> 更改操作符<ul>
+<li>  <code>c$</code> 更改从光标到行末尾</li>
+<li>  <code>ce</code> 更改光标到单词末尾</li>
+</ul>
+</li>
+<li><code>:s/old/new</code> 用新字符串替换旧字符串<ul>
+<li>  <code>:s/old/new/gc</code> g表示行内所有 c表示询问是否替换</li>
+<li>  <code>:%s/old/new/g</code> 全文替换</li>
+</ul>
+</li>
+</ul>
+<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><ul>
+<li>  <code>i</code> 光标前插入</li>
+<li>  <code>a</code> 光标自动后移一位</li>
+<li>  <code>A</code> 光标移到一行的末尾</li>
+<li>  <code>o</code> 光标移到新的一行</li>
+<li>  <code>O</code> 光标移到上面一行</li>
+</ul>
+<h4 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h4><ul>
+<li>  <code>/</code> 往下查找字符串</li>
+<li>  <code>？</code> 往上查找字符串</li>
+<li>  <code>n</code> 下一个匹配项</li>
+<li>  <code>N</code> 上一个匹配项</li>
+<li><code>set xxx</code> 如果要关闭 <code>set noxxx</code><ul>
+<li>  <code>ic</code> 查找时忽略大小写</li>
+<li>  <code>is</code> 查找短语时显示部分匹配</li>
+<li>  <code>hls</code> 高亮显示所有匹配</li>
+</ul>
+</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li>  <code>u</code> 撤销</li>
+<li>  <code>U</code> 撤销一行</li>
+<li>  <code>CTRL+R</code> 重做</li>
+<li>  <code>%</code> 匹配括号</li>
+<li><code>:!command</code> 用于在vim中执行外部命令<ul>
+<li>  <code>:r FILENAME</code> 提取磁盘文件并插入到光标后面</li>
+<li>  <code>:r !dir</code> 读取dir命令放到光标后面</li>
+</ul>
+</li>
+<li><code>v</code> 选中某些内容<ul>
+<li>  <code>v :w FILENAME</code> 将选中的内容保存在FILENAME中</li>
+</ul>
+</li>
+<li>  <code>CTRL + w</code> 在窗口之间跳转</li>
+</ul>
 
     </div>
 
@@ -389,20 +460,22 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/%E5%AD%A6%E8%BD%A6/" rel="tag"><i class="fa fa-tag"></i> 学车</a>
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+              <a href="/tags/Vim/" rel="tag"><i class="fa fa-tag"></i> Vim</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/2d9df1e8" rel="prev" title="科目二复习">
-                  <i class="fa fa-chevron-left"></i> 科目二复习
+                <a href="/post/4235b453.html" rel="prev" title="摄影学习笔记（二）———— Pr快捷键">
+                  <i class="fa fa-chevron-left"></i> 摄影学习笔记（二）———— Pr快捷键
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/1520b5d6" rel="next" title="写在大二下的期末考后">
-                  写在大二下的期末考后 <i class="fa fa-chevron-right"></i>
+                <a href="/post/5dc1b5fc.html" rel="next" title="DCGAN学习笔记">
+                  DCGAN学习笔记 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -556,7 +629,7 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/762968e9',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/d852f757.html',]
       });
       });
   </script>
@@ -566,7 +639,7 @@ NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
       el: '#valine-comments',
-      path: "/post/762968e9",
+      path: "/post/d852f757.html",
       serverURLs: "https://6roslgtm.api.lncldglobal.com"
     }));
   }, window.Valine);

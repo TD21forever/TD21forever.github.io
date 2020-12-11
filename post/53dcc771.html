@@ -26,25 +26,25 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.">
+<meta name="description" content="整理了机器学习入门需要了解的一些基础知识">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vim常用操作整理(Vimtutor)">
-<meta property="og:url" content="https://www.dcts.top/post/d852f757">
+<meta property="og:title" content="机器学习入门（一）">
+<meta property="og:url" content="https://www.dcts.top/post/53dcc771.html">
 <meta property="og:site_name" content="C1oser">
-<meta property="og:description" content="花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.">
+<meta property="og:description" content="整理了机器学习入门需要了解的一些基础知识">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-04-05T03:59:54.000Z">
-<meta property="article:modified_time" content="2020-12-10T09:48:00.186Z">
+<meta property="article:published_time" content="2019-05-19T14:48:46.000Z">
+<meta property="article:modified_time" content="2020-12-10T14:07:35.408Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="笔记">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="Vim">
+<meta property="article:tag" content="机器学习">
+<meta property="article:tag" content="入门">
+<meta property="article:tag" content="学习资料">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://www.dcts.top/post/d852f757">
+<link rel="canonical" href="https://www.dcts.top/post/53dcc771.html">
 
 
 <script data-pjax class="page-configurations">
@@ -56,7 +56,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<title>Vim常用操作整理(Vimtutor) | C1oser</title>
+<title>机器学习入门（一） | C1oser</title>
   
 
   <script data-pjax>
@@ -217,7 +217,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E5%85%89%E6%A0%87"><span class="nav-text">移动光标</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9"><span class="nav-text">更改文本内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8F%92%E5%85%A5"><span class="nav-text">插入</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9F%A5%E6%89%BE"><span class="nav-text">查找</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-text">其他</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%9F"><span class="nav-text">什么是人工智能？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%EF%BC%9F"><span class="nav-text">什么是机器学习？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%9F"><span class="nav-text">什么是人工神经网络？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9F"><span class="nav-text">什么是深度学习？</span></a></li></ol></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -292,7 +292,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/d852f757">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/53dcc771.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/touxiang.jpg">
@@ -305,7 +305,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Vim常用操作整理(Vimtutor)
+          机器学习入门（一）
         </h1>
 
         <div class="post-meta-container">
@@ -316,7 +316,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2019-04-05 11:59:54" itemprop="dateCreated datePublished" datetime="2019-04-05T11:59:54+08:00">2019-04-05</time>
+      <time title="创建时间：2019-05-19 22:48:46" itemprop="dateCreated datePublished" datetime="2019-05-19T22:48:46+08:00">2019-05-19</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -337,8 +337,8 @@
     </span>
     <span class="post-meta-item-text">Valine：</span>
   
-    <a title="valine" href="/post/d852f757#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/post/d852f757" itemprop="commentCount"></span>
+    <a title="valine" href="/post/53dcc771.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/post/53dcc771.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -352,7 +352,7 @@
     </span>
 </div>
 
-            <div class="post-description">花了一次Linux课的时间看完了自带的Vimtutor,本文整理了下Vim的键盘操作.</div>
+            <div class="post-description">整理了机器学习入门需要了解的一些基础知识</div>
         </div>
       </header>
 
@@ -360,84 +360,53 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
-<li>  <code>k</code> 上</li>
-<li>  <code>j</code> 下</li>
-<li>  <code>h</code> 左</li>
-<li>  <code>l</code> 右</li>
-<li>  <code>0</code> 回到首行</li>
-<li>  <code>CTRL+G</code> 显示当前阅读进度、光标行号</li>
-<li>  <code>gg</code> 回到文件第一行</li>
-<li>  <code>G</code> 跳转到文件最后一行</li>
-<li>  <code>CTRL+o</code> 返回旧的光标位置</li>
-<li>  <code>CTRL+i</code> 返回新的光标位置</li>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>根据我自己的学习资料，总结了下机器学习入门时经常会遇到的几个问题。</p>
+<h3 id="什么是人工智能？"><a href="#什么是人工智能？" class="headerlink" title="什么是人工智能？"></a>什么是人工智能？</h3><ol>
+<li> ❓ 什么是强人工智能？请自行百度解决</li>
+<li> ❓ 什么是弱人工智能？请自行百度解决</li>
+</ol>
+<h3 id="什么是机器学习？"><a href="#什么是机器学习？" class="headerlink" title="什么是机器学习？"></a>什么是机器学习？</h3><p> 阅读<a target="_blank" rel="noopener" href="https://www.cnblogs.com/subconscious/p/4107357.html">从机器学习谈起</a>回答下列问题：</p>
+<ol>
+<li> ❓ 什么是监督学习？什么是无监督学习？</li>
+<li>❓ 什么是线性回归？<ul>
+<li>  拓展阅读：<a target="_blank" rel="noopener" href="https://www.matongxue.com/madocs/818.html">如何理解最小二乘法</a></li>
 </ul>
-<p>​    <em>operator [number] motion</em></p>
+</li>
+<li> ❓ 什么是逻辑回归？</li>
+<li>❓ 除了神经网络算法和回归算法，还有哪些机器学习算法？<ul>
+<li>  拓展阅读：<a target="_blank" rel="noopener" href="http://ai.51cto.com/art/201712/561181.htm">漫画解读：轻松看懂机器学习十大常用算法</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="什么是人工神经网络？"><a href="#什么是人工神经网络？" class="headerlink" title="什么是人工神经网络？"></a>什么是人工神经网络？</h3><p>参考资料： 阅读<a target="_blank" rel="noopener" href="https://www.cnblogs.com/subconscious/p/5058741.html">神经网络浅讲：从神经元到深度学习</a>回答问题：</p>
+<ol>
+<li> ❓ 权重W如果表示为$ W_{2,3}^{(2)}$是什么意思？</li>
+<li> ❓ 神经元如果表示为$a_1^{(2)}$是什么意思？</li>
+<li> ❓ 常见的激活函数有哪些？这些激活函数的效果是什么？<a target="_blank" rel="noopener" href="https://blog.csdn.net/tyhj_sf/article/details/79932893">常用激活函数（激励函数）理解与总结</a></li>
+<li> ❓ 为什么两个线性分类任务结合就可以做非线性分类任务？</li>
+</ol>
+<p><strong>认真</strong>观看三个视频(不做强制要求，但是<strong>强烈推荐</strong>) </p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av15532370/?spm_id_from=333.788.videocard.1">【官方双语】深度学习之神经网络的结构 Part 1 ver 2.0</a></p>
+<p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av16144388/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之梯度下降法 Part 2 ver 0.9 beta</a> </p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av16577449/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之反向传播算法 上/下 Part 3 ver 0.9 beta</a> </p>
+<p>进一步理解梯度下降、反向传播</p>
+<h3 id="什么是深度学习？"><a href="#什么是深度学习？" class="headerlink" title="什么是深度学习？"></a>什么是深度学习？</h3><p>参考资料：</p>
+<ol>
+<li> <a target="_blank" rel="noopener" href="https://blog.csdn.net/solo95/article/details/79165300">What is Deep Learning?（什么是深度学习？）</a></li>
+</ol>
+<p>阅读<a target="_blank" rel="noopener" href="https://bigquant.com/community/t/topic/128034">深度概览卷积神经网络全景图，没有比这更全的了</a> 回答问题：</p>
+<ol>
+<li> ❓ 什么是卷积神经网络？卷积神经网络的发展历史？</li>
+</ol>
 <ul>
-<li>  <code>w</code> 到下一个单词前</li>
-<li>  <code>e</code> 到下一个单词结束</li>
-<li>  <code>$</code> 从光标到当前末尾</li>
+<li>  拓展阅读<a target="_blank" rel="noopener" href="https://bigquant.com/community/t/topic/126015">一日搞懂卷积神经网络</a></li>
+<li>  拓展阅读<a href="https://www.dcts.top/?p=45">CNN&amp;Alexnet模型简单总结</a></li>
 </ul>
-<h4 id="更改文本内容"><a href="#更改文本内容" class="headerlink" title="更改文本内容"></a>更改文本内容</h4><ul>
-<li>  <code>x</code> 删除当前字符</li>
-<li><code>d</code> 删除操作符<ul>
-<li>  <code>dd</code> 删除整行</li>
-<li>  <code>d$</code> 删除从光标到末尾</li>
-</ul>
-</li>
-<li><code>p</code> 另起一行放入删除的内容<ul>
-<li>  <code>y</code> 用于复制文本</li>
-</ul>
-</li>
-<li><code>r</code> 替换单个字符<ul>
-<li>  <code>R</code> 进入替换模式 一直可以替换</li>
-</ul>
-</li>
-<li><code>c</code> 更改操作符<ul>
-<li>  <code>c$</code> 更改从光标到行末尾</li>
-<li>  <code>ce</code> 更改光标到单词末尾</li>
-</ul>
-</li>
-<li><code>:s/old/new</code> 用新字符串替换旧字符串<ul>
-<li>  <code>:s/old/new/gc</code> g表示行内所有 c表示询问是否替换</li>
-<li>  <code>:%s/old/new/g</code> 全文替换</li>
-</ul>
-</li>
-</ul>
-<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><ul>
-<li>  <code>i</code> 光标前插入</li>
-<li>  <code>a</code> 光标自动后移一位</li>
-<li>  <code>A</code> 光标移到一行的末尾</li>
-<li>  <code>o</code> 光标移到新的一行</li>
-<li>  <code>O</code> 光标移到上面一行</li>
-</ul>
-<h4 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h4><ul>
-<li>  <code>/</code> 往下查找字符串</li>
-<li>  <code>？</code> 往上查找字符串</li>
-<li>  <code>n</code> 下一个匹配项</li>
-<li>  <code>N</code> 上一个匹配项</li>
-<li><code>set xxx</code> 如果要关闭 <code>set noxxx</code><ul>
-<li>  <code>ic</code> 查找时忽略大小写</li>
-<li>  <code>is</code> 查找短语时显示部分匹配</li>
-<li>  <code>hls</code> 高亮显示所有匹配</li>
-</ul>
-</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li>  <code>u</code> 撤销</li>
-<li>  <code>U</code> 撤销一行</li>
-<li>  <code>CTRL+R</code> 重做</li>
-<li>  <code>%</code> 匹配括号</li>
-<li><code>:!command</code> 用于在vim中执行外部命令<ul>
-<li>  <code>:r FILENAME</code> 提取磁盘文件并插入到光标后面</li>
-<li>  <code>:r !dir</code> 读取dir命令放到光标后面</li>
-</ul>
-</li>
-<li><code>v</code> 选中某些内容<ul>
-<li>  <code>v :w FILENAME</code> 将选中的内容保存在FILENAME中</li>
-</ul>
-</li>
-<li>  <code>CTRL + w</code> 在窗口之间跳转</li>
+<ol start="2">
+<li> ❓ 除了卷积神经网络，还有什么多层神经网络模型？</li>
+</ol>
+<ul>
+<li>  可以再<a target="_blank" rel="noopener" href="https://space.bilibili.com/243821484/video?tid=0&page=2&keyword=&order=pubdate">莫烦python</a>中寻找相关网络模型形象的概述</li>
 </ul>
 
     </div>
@@ -460,22 +429,22 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
-              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
-              <a href="/tags/Vim/" rel="tag"><i class="fa fa-tag"></i> Vim</a>
+              <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="fa fa-tag"></i> 机器学习</a>
+              <a href="/tags/%E5%85%A5%E9%97%A8/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
+              <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/" rel="tag"><i class="fa fa-tag"></i> 学习资料</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/4235b453" rel="prev" title="摄影学习笔记（二）———— Pr快捷键">
-                  <i class="fa fa-chevron-left"></i> 摄影学习笔记（二）———— Pr快捷键
+                <a href="/post/caace43d.html" rel="prev" title="数据库原理笔记（2）——概念模型和数据模型">
+                  <i class="fa fa-chevron-left"></i> 数据库原理笔记（2）——概念模型和数据模型
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/5dc1b5fc" rel="next" title="DCGAN学习笔记">
-                  DCGAN学习笔记 <i class="fa fa-chevron-right"></i>
+                <a href="/post/6f15ec4d.html" rel="next" title="Flask入门（一）——在阿里云部署Flask环境">
+                  Flask入门（一）——在阿里云部署Flask环境 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -629,7 +598,7 @@ document.addEventListener('pjax:success', () => {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/d852f757',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/53dcc771.html',]
       });
       });
   </script>
@@ -639,7 +608,7 @@ NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
       el: '#valine-comments',
-      path: "/post/d852f757",
+      path: "/post/53dcc771.html",
       serverURLs: "https://6roslgtm.api.lncldglobal.com"
     }));
   }, window.Valine);
