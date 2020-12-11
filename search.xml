@@ -1,107 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020博客重大更新</title>
-    <url>/post/d8d5597.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这两天大概有三十个小时扑在博客上，不禁感慨能把时间花在自己热爱的事情上，是多么幸运的事情。这次把<code>hexo</code> 更新到了 <code>5.2.0</code> ，<code>next</code> 主题也更新到了 <code>8.1.0</code> 。升级完还是很值得的，<code>hexo</code>现在渲染速度飞快。但期间还是踩了大量的坑，我得从<code>node.js</code>开始讲起</p>
-<h2 id="Node-amp-Npm"><a href="#Node-amp-Npm" class="headerlink" title="Node&amp;Npm"></a>Node&amp;Npm</h2><p>网上说可以通过安装<code>node</code>版本管理工具<code>n</code>来升级<code>node</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">sudo npm cache chean</span><br><span class="line">sudo npm install n -g</span><br><span class="line">sudo n stable or sudo n x.x.x</span><br></pre></td></tr></table></figure>
-
-<p>可惜<code>windows</code>不支持<code>n</code>, 所以只能去<a href="https://nodejs.org/zh-cn/">官网</a>下载并覆盖。我干脆删完了<code>node</code>重新安装最新版<code>14.15.1</code>。</p>
-<p><code>npm</code>分为全局安装和本地安装，区别就在于安装的时候是否加了<code>-g</code>。我们一般会把一些希望在命令行中直接使用的包，进行全局安装，比如<code>hexo</code>、<code>vue</code>等。全局安装的包在<code>win10</code>中会默认放到<code>%user%\AppData\Roaming\npm\node_global</code>，如果你像我一样很讨厌它默认放到C盘，推荐通过以下方法修改默认路径，注意<code>cache</code>也最好一起修改。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;D:\node\node_global&quot;</span></span><br><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;D:\node\node_cache&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>更多<code>node</code>和<code>npm</code>的命令<a href="https://www.runoob.com/nodejs/nodejs-tutorial.html">参考</a></p>
-<h2 id="更新Hexo"><a href="#更新Hexo" class="headerlink" title="更新Hexo"></a>更新Hexo</h2><p>我是从<a href="https://hexo.io/zh-cn/docs/">hexo</a>3点几的版本升级到<code>5.2</code>的，虽然跨度很大但是<code>hexo</code>的升级并不麻烦。</p>
-<p>可以通过<code>npm-check</code>,<code>npm-upgrade</code>,<code>npm update</code>这三个命令来升级</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo -g //首先保证全局的hexo最新</span><br><span class="line">hexo version //确认hexo全局最新</span><br><span class="line">npm install -g npm-check</span><br><span class="line">npm install -g npm-upgrade</span><br><span class="line">npm-check //这句在项目内部执行,查看有哪些包可以更新</span><br><span class="line">npm-upgrade //这句在项目内部执行,可以更新的包写入package.json</span><br><span class="line">npm update --save //根据package.json,正式更新项目中的包</span><br></pre></td></tr></table></figure>
-
-<p>其实<a href="https://www.npmjs.com/package/npm-check">npm-check</a>足以完成包管理和升级的工作了，方法千千万，选一种自己喜欢的即可。</p>
-<div class="note info"><p>在查资料的时候发现了一个看起来还不错的包管理工具<a href="https://www.npmjs.com/package/npm-check-updates">npm-check-updates</a>，它与<code>npm-check</code>类似，通过更新<code>package.json</code>以及使用<code>npm install</code>来更新项目中的包。</p>
-</div>
-
-<p>但因为原先的<code>Hexo</code>版本太旧了，站点配置文件<code>_config.yml</code>需要做一定的调整。我的做法是去用<code>hexo init</code>命令在另一个文件夹中重新生成了一份，然后对比两份站点配置文件<code>_config.yml</code>进行修改。具体可以参考这位博主给出的<a href="https://www.imczw.com/post/tech/hexo5-next8-updated.html#%E8%B0%83%E6%95%B4%E9%85%8D%E7%BD%AE">Hexo-5.x 与 NexT-8.x 跨版本升级</a>调整配置。更详细的配置文件描述请参考官方文档<a href="https://hexo.io/zh-cn/docs/configuration">配置</a></p>
-<h2 id="升级Next"><a href="#升级Next" class="headerlink" title="升级Next"></a>升级Next</h2><div class="note info"><p>一定要关注<a href="https://theme-next.js.org/docs/">Next的官网</a>啊！里面有配置文件字段的说明。还有<a href="https://github.com/next-theme/hexo-theme-next/issues/4">更新说明及常见问题</a>，可以减少很多很多坑。</p>
-<p>比如版本的不同对应Next的三个仓库….、<strong>V8.1.0移除了Valine</strong>….</p>
-</div>
-
-<p><code>Next</code>的更新较大，连配置文件的目录都改了，于是我做了旧主题的备份后，删除了旧主题的<code>themes/next</code>文件夹，用了新的安装方式<code>npm install hexo-theme-next</code>安装后，对照旧主题的配置文件进行修改。注意，将 Next 主题配置文件 <code>node_modules/hexo-theme-next/_config.yml </code>改名为 <code>_config.next.yml</code> 复制到根目录（与 Hexo 站点配置文件_config.yml 在同一目录），这个文件优先级最高。这样做的好处是以后可以通过 npm 顺滑升级 Next 版本，不用担心配置文件被覆盖。可以参考<a href="https://www.imczw.com/post/tech/hexo5-next8-updated.html#NexT-8-x%E8%B7%A8%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7"> NexT-8.x 跨版本升级</a></p>
-<blockquote><p><code>NexT </code>支持在不修改主题仓库内文件的情况下进行配置和自定义，因此无论是使用 <code>Git </code>还是<code>npm</code>都能顺利更新。<strong>如果你见到要求直接修改主题文件的「教程」文章，请谨慎甄别，因为其内容可能过时</strong>。</p>
-<p>应当使用<code>_config.next.yml</code> 配置文件</p>
-<p>注：Hexo 官方已实现此功能，在升级到 Hexo 5.0 版本后，请留意配置方式上的改变，使用 <code>_config.next.yml</code> 代替 <code>source/_data/next.yml</code>。<strong>旧的 <code>next.yml</code> 配置方式诞生于 2015 年（<a href="https://github.com/iissnan/hexo-theme-next/issues/328">iissnan/hexo-theme-next#328</a>），已经完成其历史使命，将在 NexT v8.1.0 版本后停止支持。</strong></p>
-<footer><strong>Next</strong><cite><a href="https://github.com/next-theme/hexo-theme-next/issues/4">info</a></cite></footer></blockquote>
-
-<h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><ul>
-<li><p>scheme：<code>Gemini</code></p>
-</li>
-<li><p>分类</p>
-<ul>
-<li>七分热爱</li>
-<li>三分技术</li>
-<li>十分人生</li>
-</ul>
-</li>
-<li><p>样式</p>
-<p>参考（:cry: 抄袭）<a href="https://blog.dlzhang.com/">班班</a>，谢谢博主开源！我实在太喜欢这样的布局和排版。</p>
-</li>
-<li><p>插件</p>
-<ul>
-<li>:comet:评论系统:   <code>Valine</code> 最新版<code>Hexo</code> 需自行<a href="https://github.com/next-theme/hexo-next-valine">安装</a></li>
-<li>:speech_balloon:字数统计：<code>hexo-word-counter</code> 自带</li>
-<li>:traffic_light:代码高亮：<code>highlight.js</code> 可以在这个<a href="https://theme-next.js.org/highlight/">网站</a>进行预览和挑选</li>
-<li>:page_facing_up: 站点分析:  <code>baidu_analytics</code></li>
-<li>:back:背景动画:  <code>canvas_nest</code> 详见<a href="https://github.com/theme-next/theme-next-canvas-nest">这里</a></li>
-</ul>
-</li>
-<li><p>其他</p>
-<ul>
-<li><p><code>SSL</code>证书与<code>Https</code>：阿里云免费证书</p>
-<p>方法：1.在阿里云控制台为<code>www.dcts.top</code>添加证书。2.在<code>github page</code>仓库中设置强制开启<code>Https</code> 3.在站点<code>配置文件</code>中更改<code>http://www.dcts.top</code> 为 <code>https://www.dcts.top</code></p>
-</li>
-<li><p>图床：七牛（七牛的<code>Https</code>流量是付费的，但是不贵可以接受吧）</p>
-<p>方法： 1.如果原先就有仓库以及绑定了非<code>Https</code>的域名，不需要新建域名，开启<code>Https</code>即可。2. 在阿里云控制台为该域名添加证书</p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><ul>
-<li> 书单和观影： :calendar: 2020/12/20  <a href="https://michael728.github.io/books/">参考1</a>、<a href="https://blog.dlzhang.com/posts/51/">参考2</a></li>
-<li>Webstack网址导航：  :calendar: 2020/12/25 <a href="https://github.com/WebStackPage/WebStackPage.github.io">参考</a></li>
-<li>一言 ：:calendar: 2020/12/30  <a href="https://leaferx.online/sentence/">参考</a> <a href="https://alvarotrigo.com/fullPage/zh/#page2">fullpage.js</a></li>
-<li>说说：:calendar: 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  </li>
-</ul>
-<h2 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h2><ul>
-<li><p>博客页面更新介绍 :calendar: 2020/12/12</p>
-</li>
-<li><p>关于博客的一些想法与思考:calendar: 2020/12/28</p>
-<p>我写博客的初心是什么，未来怎么运营和坚持？我浏览了很多人的博客，也产生了很多的想法与感慨。</p>
-</li>
-<li><p>关于博客的写作规范:calendar: 2020/12/28</p>
-<p>以及Hexo提供的特殊的写作语法记录</p>
-</li>
-<li><p>数字货币投资心得 :calendar: 2020/12/22</p>
-<p>玩数字货币将近三个月了，发现人的理性总是无法战胜人的贪婪。杠杆是把双刃剑，有些东西是底线，决不能触碰，之后会写点自己的心得，警示自己。</p>
-</li>
-<li><p>2020年末总结 :calendar: 2021/01/01</p>
-<p>可恶的2020年即将过去，这一年发生了太多太多事了</p>
-</li>
-<li><p>力扣300题刷题笔记计划 :calendar: 2021/12</p>
-</li>
-<li><p>Flask框架使用笔记:calendar: 2021/01/10 </p>
-<p>想通过一个简单的CURD的例子，寻找一套既符合规范又符合自己习惯的后端搭建流程。</p>
-</li>
-<li><p>耶鲁大学哲学-死亡笔记:calendar: 2021/01/10 </p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>七分热爱</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CNN&amp;Alexnet模型简单总结</title>
     <url>/post/c40e0394.html</url>
     <content><![CDATA[<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
@@ -250,6 +149,108 @@
         <tag>深度学习</tag>
         <tag>Alexnet</tag>
         <tag>CNN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020博客重大更新</title>
+    <url>/post/d8d5597.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这两天大概有三十个小时扑在博客上，不禁感慨能把时间花在自己热爱的事情上，是多么幸运的事情。这次把<code>hexo</code> 更新到了 <code>5.2.0</code> ，<code>next</code> 主题也更新到了 <code>8.1.0</code> 。升级完还是很值得的，<code>hexo</code>现在渲染速度飞快。但期间还是踩了大量的坑，我得从<code>node.js</code>开始讲起</p>
+<h2 id="Node-amp-Npm"><a href="#Node-amp-Npm" class="headerlink" title="Node&amp;Npm"></a>Node&amp;Npm</h2><p>网上说可以通过安装<code>node</code>版本管理工具<code>n</code>来升级<code>node</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">sudo npm cache chean</span><br><span class="line">sudo npm install n -g</span><br><span class="line">sudo n stable or sudo n x.x.x</span><br></pre></td></tr></table></figure>
+
+<p>可惜<code>windows</code>不支持<code>n</code>, 所以只能去<a href="https://nodejs.org/zh-cn/">官网</a>下载并覆盖。我干脆删完了<code>node</code>重新安装最新版<code>14.15.1</code>。</p>
+<p><code>npm</code>分为全局安装和本地安装，区别就在于安装的时候是否加了<code>-g</code>。我们一般会把一些希望在命令行中直接使用的包，进行全局安装，比如<code>hexo</code>、<code>vue</code>等。全局安装的包在<code>win10</code>中会默认放到<code>%user%\AppData\Roaming\npm\node_global</code>，如果你像我一样很讨厌它默认放到C盘，推荐通过以下方法修改默认路径，注意<code>cache</code>也最好一起修改。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;D:\node\node_global&quot;</span></span><br><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;D:\node\node_cache&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>更多<code>node</code>和<code>npm</code>的命令<a href="https://www.runoob.com/nodejs/nodejs-tutorial.html">参考</a></p>
+<h2 id="更新Hexo"><a href="#更新Hexo" class="headerlink" title="更新Hexo"></a>更新Hexo</h2><p>我是从<a href="https://hexo.io/zh-cn/docs/">hexo</a>3点几的版本升级到<code>5.2</code>的，虽然跨度很大但是<code>hexo</code>的升级并不麻烦。</p>
+<p>可以通过<code>npm-check</code>,<code>npm-upgrade</code>,<code>npm update</code>这三个命令来升级</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo -g //首先保证全局的hexo最新</span><br><span class="line">hexo version //确认hexo全局最新</span><br><span class="line">npm install -g npm-check</span><br><span class="line">npm install -g npm-upgrade</span><br><span class="line">npm-check //这句在项目内部执行,查看有哪些包可以更新</span><br><span class="line">npm-upgrade //这句在项目内部执行,可以更新的包写入package.json</span><br><span class="line">npm update --save //根据package.json,正式更新项目中的包</span><br></pre></td></tr></table></figure>
+
+<p>其实<a href="https://www.npmjs.com/package/npm-check">npm-check</a>足以完成包管理和升级的工作了，方法千千万，选一种自己喜欢的即可。</p>
+<div class="note info"><p>在查资料的时候发现了一个看起来还不错的包管理工具<a href="https://www.npmjs.com/package/npm-check-updates">npm-check-updates</a>，它与<code>npm-check</code>类似，通过更新<code>package.json</code>以及使用<code>npm install</code>来更新项目中的包。</p>
+</div>
+
+<p>但因为原先的<code>Hexo</code>版本太旧了，站点配置文件<code>_config.yml</code>需要做一定的调整。我的做法是去用<code>hexo init</code>命令在另一个文件夹中重新生成了一份，然后对比两份站点配置文件<code>_config.yml</code>进行修改。具体可以参考这位博主给出的<a href="https://www.imczw.com/post/tech/hexo5-next8-updated.html#%E8%B0%83%E6%95%B4%E9%85%8D%E7%BD%AE">Hexo-5.x 与 NexT-8.x 跨版本升级</a>调整配置。更详细的配置文件描述请参考官方文档<a href="https://hexo.io/zh-cn/docs/configuration">配置</a></p>
+<h2 id="升级Next"><a href="#升级Next" class="headerlink" title="升级Next"></a>升级Next</h2><div class="note info"><p>一定要关注<a href="https://theme-next.js.org/docs/">Next的官网</a>啊！里面有配置文件字段的说明。还有<a href="https://github.com/next-theme/hexo-theme-next/issues/4">更新说明及常见问题</a>，可以减少很多很多坑。</p>
+<p>比如版本的不同对应Next的三个仓库….、<strong>V8.1.0移除了Valine</strong>….</p>
+</div>
+
+<p><code>Next</code>的更新较大，连配置文件的目录都改了，于是我做了旧主题的备份后，删除了旧主题的<code>themes/next</code>文件夹，用了新的安装方式<code>npm install hexo-theme-next</code>安装后，对照旧主题的配置文件进行修改。注意，将 Next 主题配置文件 <code>node_modules/hexo-theme-next/_config.yml </code>改名为 <code>_config.next.yml</code> 复制到根目录（与 Hexo 站点配置文件_config.yml 在同一目录），这个文件优先级最高。这样做的好处是以后可以通过 npm 顺滑升级 Next 版本，不用担心配置文件被覆盖。可以参考<a href="https://www.imczw.com/post/tech/hexo5-next8-updated.html#NexT-8-x%E8%B7%A8%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7"> NexT-8.x 跨版本升级</a></p>
+<blockquote><p><code>NexT </code>支持在不修改主题仓库内文件的情况下进行配置和自定义，因此无论是使用 <code>Git </code>还是<code>npm</code>都能顺利更新。<strong>如果你见到要求直接修改主题文件的「教程」文章，请谨慎甄别，因为其内容可能过时</strong>。</p>
+<p>应当使用<code>_config.next.yml</code> 配置文件</p>
+<p>注：Hexo 官方已实现此功能，在升级到 Hexo 5.0 版本后，请留意配置方式上的改变，使用 <code>_config.next.yml</code> 代替 <code>source/_data/next.yml</code>。<strong>旧的 <code>next.yml</code> 配置方式诞生于 2015 年（<a href="https://github.com/iissnan/hexo-theme-next/issues/328">iissnan/hexo-theme-next#328</a>），已经完成其历史使命，将在 NexT v8.1.0 版本后停止支持。</strong></p>
+<footer><strong>info Next</strong><cite><a href="https://github.com/next-theme/hexo-theme-next/issues/4">info</a></cite></footer></blockquote>
+
+<h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><ul>
+<li><p>scheme：<code>Gemini</code></p>
+</li>
+<li><p>分类</p>
+<ul>
+<li>七分热爱</li>
+<li>三分技术</li>
+<li>十分人生</li>
+</ul>
+</li>
+<li><p>样式</p>
+<p>参考（:cry: 抄袭）<a href="https://blog.dlzhang.com/">班班</a>，谢谢博主开源！我实在太喜欢这样的布局和排版。</p>
+</li>
+<li><p>插件</p>
+<ul>
+<li>:comet:评论系统:   <code>Valine</code> 最新版<code>Hexo</code> 需自行<a href="https://github.com/next-theme/hexo-next-valine">安装</a></li>
+<li>:speech_balloon:字数统计：<code>hexo-word-counter</code> 自带</li>
+<li>:traffic_light:代码高亮：<code>highlight.js</code> 可以在这个<a href="https://theme-next.js.org/highlight/">网站</a>进行预览和挑选</li>
+<li>:page_facing_up: 站点分析:  <code>baidu_analytics</code></li>
+<li>:back:背景动画:  <code>canvas_nest</code> 详见<a href="https://github.com/theme-next/theme-next-canvas-nest">这里</a></li>
+</ul>
+</li>
+<li><p>其他</p>
+<ul>
+<li><p><code>SSL</code>证书与<code>Https</code>：阿里云免费证书</p>
+<p>方法：1.在阿里云控制台为<code>www.dcts.top</code>添加证书。2.在<code>github page</code>仓库中设置强制开启<code>Https</code> 3.在站点<code>配置文件</code>中更改<code>http://www.dcts.top</code> 为 <code>https://www.dcts.top</code></p>
+</li>
+<li><p>图床：七牛（七牛的<code>Https</code>流量是付费的，但是不贵可以接受吧）</p>
+<p>方法： 1.如果原先就有仓库以及绑定了非<code>Https</code>的域名，不需要新建域名，开启<code>Https</code>即可。2. 在阿里云控制台为该域名添加证书</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><ul>
+<li> 书单和观影： :calendar: 2020/12/20  <a href="https://michael728.github.io/books/">参考1</a>、<a href="https://blog.dlzhang.com/posts/51/">参考2</a></li>
+<li>Webstack网址导航：  :calendar: 2020/12/25 <a href="https://github.com/WebStackPage/WebStackPage.github.io">参考</a></li>
+<li>一言 ：:calendar: 2020/12/30  <a href="https://leaferx.online/sentence/">参考</a> <a href="https://alvarotrigo.com/fullPage/zh/#page2">fullpage.js</a></li>
+<li>说说：:calendar: 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  </li>
+<li></li>
+</ul>
+<h2 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h2><ul>
+<li><p>博客页面更新介绍 :calendar: 2020/12/12</p>
+</li>
+<li><p>关于博客的一些想法与思考:calendar: 2020/12/28</p>
+<p>我写博客的初心是什么，未来怎么运营和坚持？我浏览了很多人的博客，也产生了很多的想法与感慨。</p>
+</li>
+<li><p>关于博客的写作规范:calendar: 2020/12/28</p>
+<p>以及Hexo提供的特殊的写作语法记录</p>
+</li>
+<li><p>数字货币投资心得 :calendar: 2020/12/22</p>
+<p>玩数字货币将近三个月了，发现人的理性总是无法战胜人的贪婪。杠杆是把双刃剑，有些东西是底线，决不能触碰，之后会写点自己的心得，警示自己。</p>
+</li>
+<li><p>2020年末总结 :calendar: 2021/01/01</p>
+<p>可恶的2020年即将过去，这一年发生了太多太多事了</p>
+</li>
+<li><p>力扣300题刷题笔记计划 :calendar: 2021/12</p>
+</li>
+<li><p>Flask框架使用笔记:calendar: 2021/01/10 </p>
+<p>想通过一个简单的CURD的例子，寻找一套既符合规范又符合自己习惯的后端搭建流程。</p>
+</li>
+<li><p>耶鲁大学哲学-死亡笔记:calendar: 2021/01/10 </p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>七分热爱</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -481,51 +482,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Screen命令笔记</title>
-    <url>/post/d07d5346.html</url>
-    <content><![CDATA[<h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
-<li><p>安装</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>创建窗口</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -S xxx //创建一个名叫xxx的窗口</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>退出</p>
-<p>方法一：</p>
-<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">Ctrl <span class="keyword">a</span> +d</span><br></pre></td></tr></table></figure>
-
-<p>方法二：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -d name //首先要退出窗口</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<ul>
-<li><p>查看窗口列表</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -ls</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重新进入窗口</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -r 窗口号</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>杀死窗口并清除</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">kill</span> -9 窗口号//首先杀死进程</span><br><span class="line">$ screen -wipe //自动清理死掉的窗口</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python正则</title>
     <url>/post/ca4e4d5f.html</url>
     <content><![CDATA[<h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
@@ -594,6 +550,51 @@
         <tag>笔记</tag>
         <tag>正则</tag>
         <tag>进阶</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Screen命令笔记</title>
+    <url>/post/d07d5346.html</url>
+    <content><![CDATA[<h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
+<li><p>安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建窗口</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -S xxx //创建一个名叫xxx的窗口</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>退出</p>
+<p>方法一：</p>
+<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">Ctrl <span class="keyword">a</span> +d</span><br></pre></td></tr></table></figure>
+
+<p>方法二：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -d name //首先要退出窗口</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>查看窗口列表</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -ls</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重新进入窗口</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ screen -r 窗口号</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>杀死窗口并清除</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">kill</span> -9 窗口号//首先杀死进程</span><br><span class="line">$ screen -wipe //自动清理死掉的窗口</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -772,45 +773,6 @@
       </tags>
   </entry>
   <entry>
-    <title>wordpress使用心得</title>
-    <url>/post/de09af32.html</url>
-    <content><![CDATA[<h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
-<li><p>  Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
-</li>
-<li><p>  希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group">这里可以解决</a></p>
-</li>
-<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
-<pre><code>  RewriteEngine On
-  RewriteCond %&#123;HTTP_HOST&#125; ^laozuo.org [NC]
-  RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre>
-</li>
-</ul>
-<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><ol>
-<li> <a href="https://www.seoimo.com/wordpress-vps/">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
-<li> <a href="https://www.jianshu.com/p/d7b208efe04c">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
-<li> <a href="https://www.banwagong.com/625.html">搬瓦工VPS安装WordPress详细图文教程</a></li>
-</ol>
-<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><ol>
-<li> vps配置优化</li>
-<li> <a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https">HTTP全部301重定向到HTTPS</a></li>
-</ol>
-<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><ol>
-<li> 购买服务器和域名</li>
-<li> 域名解析(域名绑定服务器ip)</li>
-<li> vps中搭建LAMP环境</li>
-<li> 添加域名<code>lnmp vhost add</code></li>
-<li> 安装wordpress</li>
-</ol>
-]]></content>
-      <categories>
-        <category>七分热爱</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>wordpress</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python Tutorial</title>
     <url>/post/9dac317c.html</url>
     <content><![CDATA[<h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
@@ -972,6 +934,45 @@
       </tags>
   </entry>
   <entry>
+    <title>wordpress使用心得</title>
+    <url>/post/de09af32.html</url>
+    <content><![CDATA[<h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
+<li><p>  Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
+</li>
+<li><p>  希望站点主页与WordPress安装目录不同(希望xxx.com打开xxx.com\wordpress)<a href="https://jingyan.baidu.com/article/22fe7ced2f6d1c3002617f38.html?qq-pf-to=pcqq.group">这里可以解决</a></p>
+</li>
+<li><p>关于301重定向通过修改htaccess实现301重定向，htaccess文件要放在<strong>根目录</strong> ，要删除$1，否则默认定向到/default</p>
+<pre><code>  RewriteEngine On
+  RewriteCond %&#123;HTTP_HOST&#125; ^laozuo.org [NC]
+  RewriteRule ^(.*)$ http://www.laozuo.org/$1 [L,R=301]</code></pre>
+</li>
+</ul>
+<h2 id="2-建站参考教程"><a href="#2-建站参考教程" class="headerlink" title="2. 建站参考教程"></a>2. 建站参考教程</h2><ol>
+<li> <a href="https://www.seoimo.com/wordpress-vps/">WordPress建站: 便宜VPS+LAMP搭建+博客安装/优化教程【Vultr &amp; 搬瓦工VPS亲测】</a></li>
+<li> <a href="https://www.jianshu.com/p/d7b208efe04c">VPS搭建LAMP安装WordPress建站教程 (搬瓦工VPS亲测 Mac OS环境操作)</a></li>
+<li> <a href="https://www.banwagong.com/625.html">搬瓦工VPS安装WordPress详细图文教程</a></li>
+</ol>
+<h2 id="3-目前网站存在问题"><a href="#3-目前网站存在问题" class="headerlink" title="3. 目前网站存在问题"></a>3. 目前网站存在问题</h2><ol>
+<li> vps配置优化</li>
+<li> <a href="https://www.seoimo.com/lamp-ssl/#ssl-chain-hsts">开启 HSTS</a>；<a href="https://www.seoimo.com/lamp-ssl/#ssl-sni-setup">关闭 SNI</a>； <a href="https://www.seoimo.com/lamp-ssl/#http-301-https">HTTP全部301重定向到HTTPS</a></li>
+</ol>
+<h2 id="4-建站大致流程"><a href="#4-建站大致流程" class="headerlink" title="4. 建站大致流程"></a>4. 建站大致流程</h2><ol>
+<li> 购买服务器和域名</li>
+<li> 域名解析(域名绑定服务器ip)</li>
+<li> vps中搭建LAMP环境</li>
+<li> 添加域名<code>lnmp vhost add</code></li>
+<li> 安装wordpress</li>
+</ol>
+]]></content>
+      <categories>
+        <category>七分热爱</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>wordpress</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用jupyter遇到的一些问题</title>
     <url>/post/9c79ba11.html</url>
     <content><![CDATA[<h2 id="一个报错"><a href="#一个报错" class="headerlink" title="一个报错"></a>一个报错</h2><p><code>import win32api; ImportError: DLL load failed: 找不到指定的程序</code></p>
@@ -1063,6 +1064,26 @@
       </categories>
       <tags>
         <tag>生日</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写在大二上学期</title>
+    <url>/post/7ce73c6e.html</url>
+    <content><![CDATA[<p>太久没写点东西了。有些情感压抑太久无处爆发，想敲点字出来又肚里实在是没墨。很多话就这么堵在嗓子眼，就着凌晨两点的咖啡一口咽下。</p>
+<p>我觉得一个把大学过得像高中的人是很失败的。高中只有学习，大学里有学习，还有生活。而生活本身就不是一件容易的事情。大学是换了一个更大的监狱，多了几个门多了几堵围墙。每天忙忙碌碌地上课，碌碌无为到半夜。我这大学一年多，最最开心的时候是大一上期末考最后一门考试成绩出来，我知道我转专业有希望了。当尘埃落定，生活又露出真实的狰狞模样。我依然喜欢我做的事情，我也清楚我现在所学是在积累是在等某一天的厚积薄发，但是这过程太孤独太枯燥了太漫长了。</p>
+<p>今年很有幸，认识了很多好老师。这些老师都有一些共同的特点，把学生当朋友，不把成绩分数当做评判的唯一标准，能用人话分享知识，上课不点名，但是座无虚席。acm的刘春英老师也好，李国冰也好，韩敦敦也好。还有吴老师陈老师冯老师，你能很明显的感受到他们确实是希望你通过这一学期的课，能学到点东西。能抢到他们的课，三生有幸。当然今年压力也很大，因为如果我没学好我就不能找老师教的不好的借口了。</p>
+<p>今年没做什么好玩的项目，帮儿子做了个网页应该是班里最好的吧，大概是唯一能吹嘘自己的东西了。没得什么奖，参加了一个数学竞赛拿了6分。怎么看待明知道一些比赛得不了奖还积极去参加这种行为？是因为德育分吗，是因为当时脑子热交了钱吗，是因为想要多一份难忘的记忆吗。</p>
+<p>大学里取长和补短到底哪个重要，我问了很多人这个问题。其实我之所以为有这种疑问，是因为我在逃避我的短处。我数学很差，所以我觉得我参加数学竞赛很愚蠢，我觉得我做不出ACM的题就是因为我对数字不敏感。我希望人们告诉我大学里要多取长不用去补短，以此得到心里的慰藉。</p>
+<p>最近听了很多演讲，马云的，黄西的，我发现成功的人也有一些共同点。对未来充分的积极乐观，对困难挫折的永不退缩。很土的两句话，但他们都做到了然后成功了。我很害怕未来，因为它不能被预测，不能被明确量化。我纠结我这个学期绩点会不会不好看，会不会没奖学金拿，我会因为别人发了一条拿了多少多少奖学金的说说感到不适，并不是嫉妒，而是对自己无能的自责。这真的不是我想要的生活啊。</p>
+<p>我一直觉得，知道自己要做什么比自己在做什么更重要。前几天看数据结构书发现书上Dijkstra最优路径的代码其实就是在实现优先队列，就那一下下的触动，那一下下的成就感，我虽然反应慢，但好像也没那么蠢嘛。开学的时候一直在想，等我把作业全部写完，我就怎么样怎么样。如果把自己的房间装饰的很漂亮在请客的话，可能就没有朋友了。作业是写不完的，我要把时间花在自己身上，想做自己喜欢做的事情，学得慢怎么了，哪怕一天学一个知识点，一天做一道题，哪怕花几个小时写这么几个字。但我很快乐。</p>
+<p>今年很满足，在物质上得到了自己渴望得到的一切。今年有点遗憾，对物质的追求略大于精神满足。</p>
+<p>今年的第二个冬天。想Luke了，想一起去Glenelg Beach吹海风</p>
+]]></content>
+      <categories>
+        <category>十分人生</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -1254,118 +1275,6 @@
       </categories>
       <tags>
         <tag>词云</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>摄影学习笔记（二）———— Pr快捷键</title>
-    <url>/post/4235b453.html</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.bilibili.com/video/av7301488">视频来源B站影视飓风</a></p>
-</blockquote>
-<ol>
-<li><p>快速转场</p>
-<ol>
-<li> <code>Shift + D</code> 音频和视频的转场</li>
-<li> <code>Ctrl + D</code> 单独添加视频转场</li>
-<li> <code>Ctrl + Shift + D</code> 单独添加音频转场</li>
-<li> 在效果面板中可以设置默认的转场类型</li>
-</ol>
-</li>
-<li><p>波纹剪辑</p>
-<ol>
-<li> <code>Q 和 W</code></li>
-<li> <code>Shift + Q 和 Shift + W</code> 延长素材</li>
-</ol>
-</li>
-<li><p>匹配侦</p>
-<ol>
-<li> <code>F</code> 在素材监视器上找到对应的帧</li>
-<li> <code>Shift + R</code> 反向匹配帧</li>
-</ol>
-</li>
-<li><p>缩放时间轴</p>
-<ol>
-<li> <code>+/-</code>缩放时间轴</li>
-<li> <code>\</code> 快速缩放</li>
-<li> <code>Ctrl + \</code> 隐藏顶部项目信息</li>
-</ol>
-</li>
-<li><p> 移动剪辑 1.<code>Alt + 方向键</code> 2.<code>Alt + Shift + 方向键</code> 快速移动</p>
-</li>
-<li><p>抽取与删除</p>
-<ol>
-<li> I/O 设定区域</li>
-<li> <code>;</code> 删除</li>
-<li> <code>&#39;</code> 抽取</li>
-</ol>
-</li>
-<li><p>轨道缩放</p>
-<ol>
-<li> <code>Ctrl + 加号减号</code></li>
-<li> <code>Shift + 加号减号</code> 一次性缩放所有轨道</li>
-</ol>
-</li>
-<li><p> 迅速切换窗口 <code>Shift+123</code></p>
-</li>
-<li><p>其他快捷键</p>
-<blockquote>
-<p><a href="https://www.bilibili.com/video/av32947400?spm_id_from=333.788.b_765f64657363.1">视频来源B站南道</a></p>
-</blockquote>
-<ol>
-<li> V 选择箭头</li>
-<li> A 往前选中</li>
-<li> Shift + A 往后选中</li>
-<li> Ctrl + K 编辑</li>
-<li> Ctrl + Alt + V 超级黏贴</li>
-</ol>
-</li>
-<li><p>制作电影宽荧幕遮幅</p>
-<p>调整图层 效果 搜索裁剪 上11.8 下11.8 添加关键帧 动态效果</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>Pr</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>摄影学习笔记（一）————  基础知识介绍</title>
-    <url>/post/271a4a90.html</url>
-    <content><![CDATA[<h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
-<li>光圈是表示镜头中孔径大小的比值。</li>
-<li>光圈越大数值越小,光圈越小数值越大。</li>
-<li>光圈越大越明亮,光圈越小越暗。</li>
-<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
-</ul>
-<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
-<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
-</li>
-<li><p>比1/60秒慢的，就是慢门。</p>
-</li>
-<li><p>比1/250秒快的，就是高速快门。</p>
-</li>
-<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
-</li>
-<li><p>快门慢 曝光时间长 亮（长曝光）</p>
-</li>
-<li><p>快门快 运动快的东西也会被凝固住</p>
-</li>
-</ul>
-<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
-<li>ISO越高越亮 但是照片质量会下降</li>
-</ul>
-<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>入门</tag>
-        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -1650,67 +1559,6 @@
       </tags>
   </entry>
   <entry>
-    <title>机器学习入门（一）</title>
-    <url>/post/53dcc771.html</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>根据我自己的学习资料，总结了下机器学习入门时经常会遇到的几个问题。</p>
-<h3 id="什么是人工智能？"><a href="#什么是人工智能？" class="headerlink" title="什么是人工智能？"></a>什么是人工智能？</h3><ol>
-<li> ❓ 什么是强人工智能？请自行百度解决</li>
-<li> ❓ 什么是弱人工智能？请自行百度解决</li>
-</ol>
-<h3 id="什么是机器学习？"><a href="#什么是机器学习？" class="headerlink" title="什么是机器学习？"></a>什么是机器学习？</h3><p> 阅读<a href="https://www.cnblogs.com/subconscious/p/4107357.html">从机器学习谈起</a>回答下列问题：</p>
-<ol>
-<li> ❓ 什么是监督学习？什么是无监督学习？</li>
-<li>❓ 什么是线性回归？<ul>
-<li>  拓展阅读：<a href="https://www.matongxue.com/madocs/818.html">如何理解最小二乘法</a></li>
-</ul>
-</li>
-<li> ❓ 什么是逻辑回归？</li>
-<li>❓ 除了神经网络算法和回归算法，还有哪些机器学习算法？<ul>
-<li>  拓展阅读：<a href="http://ai.51cto.com/art/201712/561181.htm">漫画解读：轻松看懂机器学习十大常用算法</a></li>
-</ul>
-</li>
-</ol>
-<h3 id="什么是人工神经网络？"><a href="#什么是人工神经网络？" class="headerlink" title="什么是人工神经网络？"></a>什么是人工神经网络？</h3><p>参考资料： 阅读<a href="https://www.cnblogs.com/subconscious/p/5058741.html">神经网络浅讲：从神经元到深度学习</a>回答问题：</p>
-<ol>
-<li> ❓ 权重W如果表示为$ W_{2,3}^{(2)}$是什么意思？</li>
-<li> ❓ 神经元如果表示为$a_1^{(2)}$是什么意思？</li>
-<li> ❓ 常见的激活函数有哪些？这些激活函数的效果是什么？<a href="https://blog.csdn.net/tyhj_sf/article/details/79932893">常用激活函数（激励函数）理解与总结</a></li>
-<li> ❓ 为什么两个线性分类任务结合就可以做非线性分类任务？</li>
-</ol>
-<p><strong>认真</strong>观看三个视频(不做强制要求，但是<strong>强烈推荐</strong>) </p>
-<p><a href="https://www.bilibili.com/video/av15532370/?spm_id_from=333.788.videocard.1">【官方双语】深度学习之神经网络的结构 Part 1 ver 2.0</a></p>
-<p> <a href="https://www.bilibili.com/video/av16144388/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之梯度下降法 Part 2 ver 0.9 beta</a> </p>
-<p><a href="https://www.bilibili.com/video/av16577449/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之反向传播算法 上/下 Part 3 ver 0.9 beta</a> </p>
-<p>进一步理解梯度下降、反向传播</p>
-<h3 id="什么是深度学习？"><a href="#什么是深度学习？" class="headerlink" title="什么是深度学习？"></a>什么是深度学习？</h3><p>参考资料：</p>
-<ol>
-<li> <a href="https://blog.csdn.net/solo95/article/details/79165300">What is Deep Learning?（什么是深度学习？）</a></li>
-</ol>
-<p>阅读<a href="https://bigquant.com/community/t/topic/128034">深度概览卷积神经网络全景图，没有比这更全的了</a> 回答问题：</p>
-<ol>
-<li> ❓ 什么是卷积神经网络？卷积神经网络的发展历史？</li>
-</ol>
-<ul>
-<li>  拓展阅读<a href="https://bigquant.com/community/t/topic/126015">一日搞懂卷积神经网络</a></li>
-<li>  拓展阅读<a href="https://www.dcts.top/?p=45">CNN&amp;Alexnet模型简单总结</a></li>
-</ul>
-<ol start="2">
-<li> ❓ 除了卷积神经网络，还有什么多层神经网络模型？</li>
-</ol>
-<ul>
-<li>  可以再<a href="https://space.bilibili.com/243821484/video?tid=0&page=2&keyword=&order=pubdate">莫烦python</a>中寻找相关网络模型形象的概述</li>
-</ul>
-]]></content>
-      <categories>
-        <category>三分技术</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>入门</tag>
-        <tag>学习资料</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据库原理笔记（2）——概念模型和数据模型</title>
     <url>/post/caace43d.html</url>
     <content><![CDATA[<h3 id="概念模型"><a href="#概念模型" class="headerlink" title="概念模型"></a>概念模型</h3><ol>
@@ -1869,6 +1717,67 @@
       </tags>
   </entry>
   <entry>
+    <title>机器学习入门（一）</title>
+    <url>/post/53dcc771.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>根据我自己的学习资料，总结了下机器学习入门时经常会遇到的几个问题。</p>
+<h3 id="什么是人工智能？"><a href="#什么是人工智能？" class="headerlink" title="什么是人工智能？"></a>什么是人工智能？</h3><ol>
+<li> ❓ 什么是强人工智能？请自行百度解决</li>
+<li> ❓ 什么是弱人工智能？请自行百度解决</li>
+</ol>
+<h3 id="什么是机器学习？"><a href="#什么是机器学习？" class="headerlink" title="什么是机器学习？"></a>什么是机器学习？</h3><p> 阅读<a href="https://www.cnblogs.com/subconscious/p/4107357.html">从机器学习谈起</a>回答下列问题：</p>
+<ol>
+<li> ❓ 什么是监督学习？什么是无监督学习？</li>
+<li>❓ 什么是线性回归？<ul>
+<li>  拓展阅读：<a href="https://www.matongxue.com/madocs/818.html">如何理解最小二乘法</a></li>
+</ul>
+</li>
+<li> ❓ 什么是逻辑回归？</li>
+<li>❓ 除了神经网络算法和回归算法，还有哪些机器学习算法？<ul>
+<li>  拓展阅读：<a href="http://ai.51cto.com/art/201712/561181.htm">漫画解读：轻松看懂机器学习十大常用算法</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="什么是人工神经网络？"><a href="#什么是人工神经网络？" class="headerlink" title="什么是人工神经网络？"></a>什么是人工神经网络？</h3><p>参考资料： 阅读<a href="https://www.cnblogs.com/subconscious/p/5058741.html">神经网络浅讲：从神经元到深度学习</a>回答问题：</p>
+<ol>
+<li> ❓ 权重W如果表示为$ W_{2,3}^{(2)}$是什么意思？</li>
+<li> ❓ 神经元如果表示为$a_1^{(2)}$是什么意思？</li>
+<li> ❓ 常见的激活函数有哪些？这些激活函数的效果是什么？<a href="https://blog.csdn.net/tyhj_sf/article/details/79932893">常用激活函数（激励函数）理解与总结</a></li>
+<li> ❓ 为什么两个线性分类任务结合就可以做非线性分类任务？</li>
+</ol>
+<p><strong>认真</strong>观看三个视频(不做强制要求，但是<strong>强烈推荐</strong>) </p>
+<p><a href="https://www.bilibili.com/video/av15532370/?spm_id_from=333.788.videocard.1">【官方双语】深度学习之神经网络的结构 Part 1 ver 2.0</a></p>
+<p> <a href="https://www.bilibili.com/video/av16144388/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之梯度下降法 Part 2 ver 0.9 beta</a> </p>
+<p><a href="https://www.bilibili.com/video/av16577449/?spm_id_from=333.788.videocard.0">【官方双语】深度学习之反向传播算法 上/下 Part 3 ver 0.9 beta</a> </p>
+<p>进一步理解梯度下降、反向传播</p>
+<h3 id="什么是深度学习？"><a href="#什么是深度学习？" class="headerlink" title="什么是深度学习？"></a>什么是深度学习？</h3><p>参考资料：</p>
+<ol>
+<li> <a href="https://blog.csdn.net/solo95/article/details/79165300">What is Deep Learning?（什么是深度学习？）</a></li>
+</ol>
+<p>阅读<a href="https://bigquant.com/community/t/topic/128034">深度概览卷积神经网络全景图，没有比这更全的了</a> 回答问题：</p>
+<ol>
+<li> ❓ 什么是卷积神经网络？卷积神经网络的发展历史？</li>
+</ol>
+<ul>
+<li>  拓展阅读<a href="https://bigquant.com/community/t/topic/126015">一日搞懂卷积神经网络</a></li>
+<li>  拓展阅读<a href="https://www.dcts.top/?p=45">CNN&amp;Alexnet模型简单总结</a></li>
+</ul>
+<ol start="2">
+<li> ❓ 除了卷积神经网络，还有什么多层神经网络模型？</li>
+</ol>
+<ul>
+<li>  可以再<a href="https://space.bilibili.com/243821484/video?tid=0&page=2&keyword=&order=pubdate">莫烦python</a>中寻找相关网络模型形象的概述</li>
+</ul>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>入门</tag>
+        <tag>学习资料</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>科目三过啦</title>
     <url>/post/280328b7.html</url>
     <content><![CDATA[<p>科三内容真的挺少的，折算成大学课程，估计就一节课45分钟的量。所以早早地预约，练了四个上午，就去考场熟悉道路，准备第二天的考试。考前一天熟悉道路，我练的不好，每个人开四次，挂了两次。烈日当头，车里如摆设般的空调，没有空调的候车室，轮流练车时无止境的等待，加上练车时教练还在一旁啰啰嗦嗦，实在是磨人耐心。想着老子要是这次没过，就特么不学了。练车时我都感觉自己是一具没有灵魂的空壳，全程靠教练指挥，越练越拘谨，越练越没信心。</p>
@@ -1885,24 +1794,39 @@
       </tags>
   </entry>
   <entry>
-    <title>科目二结束</title>
-    <url>/post/762968e9.html</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>总算结束了这该死的科目二，这几天下来身心俱疲，每次早起练车内心都是强烈的抗拒，刚熬过大学的期末考，暑假又是一个接一个的训练、考试，实在是难以说服自己去接受。好在过了，长舒一口气。拿驾照之路还长，不过这几天可以歇一歇了，再接着训练科三之前，总算是可以做点自己计划中的事情，就再回味回味这份经历。</p>
-<h3 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h3><h4 id="7月10日-9-24"><a href="#7月10日-9-24" class="headerlink" title="7月10日 9:24"></a>7月10日 9:24</h4><p>油门踩到底，下了坡，听到旁边机子说考试合格，然后被安全员指挥到起始位置。下车，和安全员说谢谢，走出考场，路上一直在口吐芬芳，骂着这该死的科目二总算结束了。</p>
-<h4 id="7月10日9-14"><a href="#7月10日9-14" class="headerlink" title="7月10日9:14"></a>7月10日9:14</h4><p>上车踩了踩离合，转了转方向盘，觉得很舒服。起步后一直在自言自语，给自己提醒要对的点。说真的，下次不一定有这么舒服的离合，这么舒服的方向盘，这么舒服的肩膀线，这么舒服的天气，这么熟悉的道路了。</p>
-<h4 id="7月10日-9-00"><a href="#7月10日-9-00" class="headerlink" title="7月10日 9:00"></a>7月10日 9:00</h4><p>在D区等6号车，车上的大哥一直很顺利，开到上坡久久没下来我就知道他没了，有点害怕，感觉是辆破车啊。</p>
-<hr>
-<p>考试比我想象的顺利，我把原因归结为运气好。今天确实天时地利人和，甚至于今天去的<strong>10个人居然全都过了</strong>。但考前实在是太紧张，漫长的等待时间把内心的焦躁快推到了极限了，一直在担忧，没有肩膀线怎么办，点对错了怎么办，车子不习惯怎么办，上坡熄火怎么办…..</p>
-<p>想想驾考是我经历的第一场，与不同龄人同台竞争的考试，考试水平与学历与年龄与见识无关。客观的来说其实驾考的内容很少，而且容错率挺高的，科目二要记住的内容加起来估计也就模电一章的知识点的量，考前还能练考场，相当于考前就把试卷发你了，而且允许你做两次。但你说让我现在再去考一次？我死都不想再踏进那个考场半步了，而且我肯定会挂…..</p>
-<h3 id="练车"><a href="#练车" class="headerlink" title="练车"></a>练车</h3><p>看知乎上有好多关于驾考的话题，像什么科目二考试技巧、科目二挂科怎么办….之类的，我考前还以此为参考资料，考完觉得其实没必要去看这些技巧和心灵鸡汤之类的东西。其实最好还是以教练教的为标准，有不懂得就直接问教练就好了，怕忘记就自己根据教练讲的记在本子上。知乎上的话题大多经过作者艺术渲染，带入太多个人情绪了，而且和教练教的方法不一定统一，反而影响了心态，慌了自己手脚。</p>
-<p>花了两天时间把科目二的内容学会了，然后考前连着四、五天一直在练车。练车最烦的还是等待，等待实在是漫长，坐在车里玩手机，没心思背单词，知乎刷了一遍又一遍，就干等着，浪费时间。每天重复同样的内容，几个点对来对去，明明就这么点内容，考前练到第三天就已经对学车产生了生生的厌恶，心想着我特么要是没过我就不学车了。</p>
-<p>还是有进步的，毕竟从第一天连离合踩都不稳到今天起码踩着离合能溜溜弯。很期待科目三结束后自己的进步。</p>
+    <title>摄影学习笔记（一）————  基础知识介绍</title>
+    <url>/post/271a4a90.html</url>
+    <content><![CDATA[<h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
+<li>光圈是表示镜头中孔径大小的比值。</li>
+<li>光圈越大数值越小,光圈越小数值越大。</li>
+<li>光圈越大越明亮,光圈越小越暗。</li>
+<li>光圈越大虚化越强,光圈越小虚化越弱。</li>
+</ul>
+<h1 id="2-快门"><a href="#2-快门" class="headerlink" title="2. 快门"></a>2. 快门</h1><ul>
+<li><p>比1/4秒慢的，就是很慢的快门速度了。</p>
+</li>
+<li><p>比1/60秒慢的，就是慢门。</p>
+</li>
+<li><p>比1/250秒快的，就是高速快门。</p>
+</li>
+<li><p>比1/2000秒快的，就是很高的高速快门了。</p>
+</li>
+<li><p>快门慢 曝光时间长 亮（长曝光）</p>
+</li>
+<li><p>快门快 运动快的东西也会被凝固住</p>
+</li>
+</ul>
+<h1 id="3-ISO"><a href="#3-ISO" class="headerlink" title="3. ISO"></a>3. ISO</h1><ul>
+<li>ISO越高越亮 但是照片质量会下降</li>
+</ul>
+<p><img data-src="https://pic3.zhimg.com/581c5a62630b8b36942a0e54cd4075ae_b.jpg" alt="ISO图"></p>
 ]]></content>
       <categories>
-        <category>十分人生</category>
+        <category>三分技术</category>
       </categories>
       <tags>
-        <tag>学车</tag>
+        <tag>入门</tag>
+        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -1950,33 +1874,24 @@
       </tags>
   </entry>
   <entry>
-    <title>关于约数的数小知识</title>
-    <url>/post/ba82db5c.html</url>
-    <content><![CDATA[<h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1</p>
-<ol>
-<li><p>首先要知道<a href="https://baike.baidu.com/item/%E7%BA%A6%E6%95%B0%E4%B8%AA%E6%95%B0%E5%AE%9A%E7%90%86"><strong>约数个数定理</strong></a></p>
-<p> 例题：正整数12共有多少个正约数</p>
-<p> 解：将12分解质因数12=2^2×3^1</p>
-<p> 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4</p>
-</li>
-<li><p>14 个约数，按照约数个数定理，可以分为1*14 或者 2*7</p>
-<ul>
-<li><p>  如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以另一个数的13次方等于那个四位数，2的13次方已经大于2000，所以这种情况不可能</p>
-</li>
-<li><p>如果是2*7个，(1+1)×(6+1)，即一个数的1次方乘以另一个数的6次方等于那个四位数，2的6次方等于64,3的6次方等于729</p>
-<ul>
-<li>  另一个数，是个位为1的质因数，最小也有11吧，729*11 大于2000了，64*11等于704，64*31等于1984 所以为1984</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
+    <title>科目二结束</title>
+    <url>/post/762968e9.html</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>总算结束了这该死的科目二，这几天下来身心俱疲，每次早起练车内心都是强烈的抗拒，刚熬过大学的期末考，暑假又是一个接一个的训练、考试，实在是难以说服自己去接受。好在过了，长舒一口气。拿驾照之路还长，不过这几天可以歇一歇了，再接着训练科三之前，总算是可以做点自己计划中的事情，就再回味回味这份经历。</p>
+<h3 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h3><h4 id="7月10日-9-24"><a href="#7月10日-9-24" class="headerlink" title="7月10日 9:24"></a>7月10日 9:24</h4><p>油门踩到底，下了坡，听到旁边机子说考试合格，然后被安全员指挥到起始位置。下车，和安全员说谢谢，走出考场，路上一直在口吐芬芳，骂着这该死的科目二总算结束了。</p>
+<h4 id="7月10日9-14"><a href="#7月10日9-14" class="headerlink" title="7月10日9:14"></a>7月10日9:14</h4><p>上车踩了踩离合，转了转方向盘，觉得很舒服。起步后一直在自言自语，给自己提醒要对的点。说真的，下次不一定有这么舒服的离合，这么舒服的方向盘，这么舒服的肩膀线，这么舒服的天气，这么熟悉的道路了。</p>
+<h4 id="7月10日-9-00"><a href="#7月10日-9-00" class="headerlink" title="7月10日 9:00"></a>7月10日 9:00</h4><p>在D区等6号车，车上的大哥一直很顺利，开到上坡久久没下来我就知道他没了，有点害怕，感觉是辆破车啊。</p>
+<hr>
+<p>考试比我想象的顺利，我把原因归结为运气好。今天确实天时地利人和，甚至于今天去的<strong>10个人居然全都过了</strong>。但考前实在是太紧张，漫长的等待时间把内心的焦躁快推到了极限了，一直在担忧，没有肩膀线怎么办，点对错了怎么办，车子不习惯怎么办，上坡熄火怎么办…..</p>
+<p>想想驾考是我经历的第一场，与不同龄人同台竞争的考试，考试水平与学历与年龄与见识无关。客观的来说其实驾考的内容很少，而且容错率挺高的，科目二要记住的内容加起来估计也就模电一章的知识点的量，考前还能练考场，相当于考前就把试卷发你了，而且允许你做两次。但你说让我现在再去考一次？我死都不想再踏进那个考场半步了，而且我肯定会挂…..</p>
+<h3 id="练车"><a href="#练车" class="headerlink" title="练车"></a>练车</h3><p>看知乎上有好多关于驾考的话题，像什么科目二考试技巧、科目二挂科怎么办….之类的，我考前还以此为参考资料，考完觉得其实没必要去看这些技巧和心灵鸡汤之类的东西。其实最好还是以教练教的为标准，有不懂得就直接问教练就好了，怕忘记就自己根据教练讲的记在本子上。知乎上的话题大多经过作者艺术渲染，带入太多个人情绪了，而且和教练教的方法不一定统一，反而影响了心态，慌了自己手脚。</p>
+<p>花了两天时间把科目二的内容学会了，然后考前连着四、五天一直在练车。练车最烦的还是等待，等待实在是漫长，坐在车里玩手机，没心思背单词，知乎刷了一遍又一遍，就干等着，浪费时间。每天重复同样的内容，几个点对来对去，明明就这么点内容，考前练到第三天就已经对学车产生了生生的厌恶，心想着我特么要是没过我就不学车了。</p>
+<p>还是有进步的，毕竟从第一天连离合踩都不稳到今天起码踩着离合能溜溜弯。很期待科目三结束后自己的进步。</p>
 ]]></content>
       <categories>
-        <category>三分技术</category>
+        <category>十分人生</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>学车</tag>
       </tags>
   </entry>
   <entry>
@@ -2179,23 +2094,109 @@
       </tags>
   </entry>
   <entry>
-    <title>写在大二上学期</title>
-    <url>/post/7ce73c6e.html</url>
-    <content><![CDATA[<p>太久没写点东西了。有些情感压抑太久无处爆发，想敲点字出来又肚里实在是没墨。很多话就这么堵在嗓子眼，就着凌晨两点的咖啡一口咽下。</p>
-<p>我觉得一个把大学过得像高中的人是很失败的。高中只有学习，大学里有学习，还有生活。而生活本身就不是一件容易的事情。大学是换了一个更大的监狱，多了几个门多了几堵围墙。每天忙忙碌碌地上课，碌碌无为到半夜。我这大学一年多，最最开心的时候是大一上期末考最后一门考试成绩出来，我知道我转专业有希望了。当尘埃落定，生活又露出真实的狰狞模样。我依然喜欢我做的事情，我也清楚我现在所学是在积累是在等某一天的厚积薄发，但是这过程太孤独太枯燥了太漫长了。</p>
-<p>今年很有幸，认识了很多好老师。这些老师都有一些共同的特点，把学生当朋友，不把成绩分数当做评判的唯一标准，能用人话分享知识，上课不点名，但是座无虚席。acm的刘春英老师也好，李国冰也好，韩敦敦也好。还有吴老师陈老师冯老师，你能很明显的感受到他们确实是希望你通过这一学期的课，能学到点东西。能抢到他们的课，三生有幸。当然今年压力也很大，因为如果我没学好我就不能找老师教的不好的借口了。</p>
-<p>今年没做什么好玩的项目，帮儿子做了个网页应该是班里最好的吧，大概是唯一能吹嘘自己的东西了。没得什么奖，参加了一个数学竞赛拿了6分。怎么看待明知道一些比赛得不了奖还积极去参加这种行为？是因为德育分吗，是因为当时脑子热交了钱吗，是因为想要多一份难忘的记忆吗。</p>
-<p>大学里取长和补短到底哪个重要，我问了很多人这个问题。其实我之所以为有这种疑问，是因为我在逃避我的短处。我数学很差，所以我觉得我参加数学竞赛很愚蠢，我觉得我做不出ACM的题就是因为我对数字不敏感。我希望人们告诉我大学里要多取长不用去补短，以此得到心里的慰藉。</p>
-<p>最近听了很多演讲，马云的，黄西的，我发现成功的人也有一些共同点。对未来充分的积极乐观，对困难挫折的永不退缩。很土的两句话，但他们都做到了然后成功了。我很害怕未来，因为它不能被预测，不能被明确量化。我纠结我这个学期绩点会不会不好看，会不会没奖学金拿，我会因为别人发了一条拿了多少多少奖学金的说说感到不适，并不是嫉妒，而是对自己无能的自责。这真的不是我想要的生活啊。</p>
-<p>我一直觉得，知道自己要做什么比自己在做什么更重要。前几天看数据结构书发现书上Dijkstra最优路径的代码其实就是在实现优先队列，就那一下下的触动，那一下下的成就感，我虽然反应慢，但好像也没那么蠢嘛。开学的时候一直在想，等我把作业全部写完，我就怎么样怎么样。如果把自己的房间装饰的很漂亮在请客的话，可能就没有朋友了。作业是写不完的，我要把时间花在自己身上，想做自己喜欢做的事情，学得慢怎么了，哪怕一天学一个知识点，一天做一道题，哪怕花几个小时写这么几个字。但我很快乐。</p>
-<p>今年很满足，在物质上得到了自己渴望得到的一切。今年有点遗憾，对物质的追求略大于精神满足。</p>
-<p>今年的第二个冬天。想Luke了，想一起去Glenelg Beach吹海风</p>
+    <title>关于约数的数小知识</title>
+    <url>/post/ba82db5c.html</url>
+    <content><![CDATA[<h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1</p>
+<ol>
+<li><p>首先要知道<a href="https://baike.baidu.com/item/%E7%BA%A6%E6%95%B0%E4%B8%AA%E6%95%B0%E5%AE%9A%E7%90%86"><strong>约数个数定理</strong></a></p>
+<p> 例题：正整数12共有多少个正约数</p>
+<p> 解：将12分解质因数12=2^2×3^1</p>
+<p> 由约数个数定理可知12共有正约数(2+1)×(1+1)6个。即1,12,2,6,3,4</p>
+</li>
+<li><p>14 个约数，按照约数个数定理，可以分为1*14 或者 2*7</p>
+<ul>
+<li><p>  如果是1*14个，(0+1)×(13+1)，即一个数的0次方乘以另一个数的13次方等于那个四位数，2的13次方已经大于2000，所以这种情况不可能</p>
+</li>
+<li><p>如果是2*7个，(1+1)×(6+1)，即一个数的1次方乘以另一个数的6次方等于那个四位数，2的6次方等于64,3的6次方等于729</p>
+<ul>
+<li>  另一个数，是个位为1的质因数，最小也有11吧，729*11 大于2000了，64*11等于704，64*31等于1984 所以为1984</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>十分人生</category>
+        <category>三分技术</category>
       </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>摄影学习笔记（二）———— Pr快捷键</title>
+    <url>/post/4235b453.html</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.bilibili.com/video/av7301488">视频来源B站影视飓风</a></p>
+</blockquote>
+<ol>
+<li><p>快速转场</p>
+<ol>
+<li> <code>Shift + D</code> 音频和视频的转场</li>
+<li> <code>Ctrl + D</code> 单独添加视频转场</li>
+<li> <code>Ctrl + Shift + D</code> 单独添加音频转场</li>
+<li> 在效果面板中可以设置默认的转场类型</li>
+</ol>
+</li>
+<li><p>波纹剪辑</p>
+<ol>
+<li> <code>Q 和 W</code></li>
+<li> <code>Shift + Q 和 Shift + W</code> 延长素材</li>
+</ol>
+</li>
+<li><p>匹配侦</p>
+<ol>
+<li> <code>F</code> 在素材监视器上找到对应的帧</li>
+<li> <code>Shift + R</code> 反向匹配帧</li>
+</ol>
+</li>
+<li><p>缩放时间轴</p>
+<ol>
+<li> <code>+/-</code>缩放时间轴</li>
+<li> <code>\</code> 快速缩放</li>
+<li> <code>Ctrl + \</code> 隐藏顶部项目信息</li>
+</ol>
+</li>
+<li><p> 移动剪辑 1.<code>Alt + 方向键</code> 2.<code>Alt + Shift + 方向键</code> 快速移动</p>
+</li>
+<li><p>抽取与删除</p>
+<ol>
+<li> I/O 设定区域</li>
+<li> <code>;</code> 删除</li>
+<li> <code>&#39;</code> 抽取</li>
+</ol>
+</li>
+<li><p>轨道缩放</p>
+<ol>
+<li> <code>Ctrl + 加号减号</code></li>
+<li> <code>Shift + 加号减号</code> 一次性缩放所有轨道</li>
+</ol>
+</li>
+<li><p> 迅速切换窗口 <code>Shift+123</code></p>
+</li>
+<li><p>其他快捷键</p>
+<blockquote>
+<p><a href="https://www.bilibili.com/video/av32947400?spm_id_from=333.788.b_765f64657363.1">视频来源B站南道</a></p>
+</blockquote>
+<ol>
+<li> V 选择箭头</li>
+<li> A 往前选中</li>
+<li> Shift + A 往后选中</li>
+<li> Ctrl + K 编辑</li>
+<li> Ctrl + Alt + V 超级黏贴</li>
+</ol>
+</li>
+<li><p>制作电影宽荧幕遮幅</p>
+<p>调整图层 效果 搜索裁剪 上11.8 下11.8 添加关键帧 动态效果</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>三分技术</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>Pr</tag>
       </tags>
   </entry>
 </search>
