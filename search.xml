@@ -183,7 +183,7 @@
 <footer><strong>info Next</strong><cite><a href="https://github.com/next-theme/hexo-theme-next/issues/4">info</a></cite></footer></blockquote>
 
 <h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><ul>
-<li><p>scheme：<code>Gemini</code></p>
+<li><p>主题：<code>Netx.Gemini</code></p>
 </li>
 <li><p>分类</p>
 <ul>
@@ -193,7 +193,16 @@
 </ul>
 </li>
 <li><p>样式</p>
-<p>参考（:cry: 抄袭）<a href="https://blog.dlzhang.com/">班班</a>，谢谢博主开源！我实在太喜欢这样的布局和排版。</p>
+<ul>
+<li>参考（:cry: 抄袭）<a href="https://blog.dlzhang.com/">班班</a>，谢谢博主开源！我实在太喜欢这样的布局和排版。</li>
+</ul>
+</li>
+<li><p>字体</p>
+<p>参考这篇博客<a href="https://guanqr.com/tech/website/web-font-guide/#">网站字体优化方案</a>，<code>Next</code><a href="https://theme-next.js.org/docs/theme-settings/miscellaneous.html">官网</a>关于字体的配置在这里</p>
+<ul>
+<li>global：EB Garamond, Noto Serif SC</li>
+<li>code:  JetBrains Mono</li>
+</ul>
 </li>
 <li><p>插件</p>
 <ul>
