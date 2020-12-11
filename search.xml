@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>CNN&amp;Alexnet模型简单总结</title>
-    <url>/post/c40e0394.html</url>
+    <url>/post/c40e0394/</url>
     <content><![CDATA[<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
 <li><p>什么是全连接层</p>
 <ul>
@@ -153,7 +153,7 @@
   </entry>
   <entry>
     <title>2020博客重大更新</title>
-    <url>/post/d8d5597.html</url>
+    <url>/post/d8d5597/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这两天大概有三十个小时扑在博客上，不禁感慨能把时间花在自己热爱的事情上，是多么幸运的事情。这次把<code>hexo</code> 更新到了 <code>5.2.0</code> ，<code>next</code> 主题也更新到了 <code>8.1.0</code> 。升级完还是很值得的，<code>hexo</code>现在渲染速度飞快。但期间还是踩了大量的坑，我得从<code>node.js</code>开始讲起</p>
 <h2 id="Node-amp-Npm"><a href="#Node-amp-Npm" class="headerlink" title="Node&amp;Npm"></a>Node&amp;Npm</h2><p>网上说可以通过安装<code>node</code>版本管理工具<code>n</code>来升级<code>node</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">sudo npm cache chean</span><br><span class="line">sudo npm install n -g</span><br><span class="line">sudo n stable or sudo n x.x.x</span><br></pre></td></tr></table></figure>
@@ -200,8 +200,8 @@
 <li><p>字体</p>
 <p>参考这篇博客<a href="https://guanqr.com/tech/website/web-font-guide/#">网站字体优化方案</a>，<code>Next</code><a href="https://theme-next.js.org/docs/theme-settings/miscellaneous.html">官网</a>关于字体的配置在这里</p>
 <ul>
-<li>global：EB Garamond, Noto Serif SC</li>
-<li>code:  JetBrains Mono</li>
+<li>global：EB Garamond,  Noto Serif SC</li>
+<li>code:     JetBrains Mono</li>
 </ul>
 </li>
 <li><p>插件</p>
@@ -215,19 +215,24 @@
 </li>
 <li><p>其他</p>
 <ul>
-<li><p><code>SSL</code>证书与<code>Https</code>：阿里云免费证书</p>
-<p>方法：1.在阿里云控制台为<code>www.dcts.top</code>添加证书。2.在<code>github page</code>仓库中设置强制开启<code>Https</code> 3.在站点<code>配置文件</code>中更改<code>http://www.dcts.top</code> 为 <code>https://www.dcts.top</code></p>
+<li><p>SSL证书与Https：阿里云免费证书</p>
+<p>方法：1.在阿里云控制台为<code>www.dcts.top</code>添加证书。2.在github page仓库中设置强制开启<code>Https</code> 3.在站点配置文件中更改<code>http://www.dcts.top</code> 为 <code>https://www.dcts.top</code></p>
 </li>
 <li><p>图床：七牛（七牛的<code>Https</code>流量是付费的，但是不贵可以接受吧）</p>
 <p>方法： 1.如果原先就有仓库以及绑定了非<code>Https</code>的域名，不需要新建域名，开启<code>Https</code>即可。2. 在阿里云控制台为该域名添加证书</p>
 </li>
 </ul>
 </li>
+<li><p>Tag Plugins 使用</p>
+<ul>
+<li><a href="https://theme-next.js.org/docs/tag-plugins/">教程</a></li>
+</ul>
+</li>
 </ul>
 <h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><ul>
 <li> 书单和观影： :calendar: 2020/12/20  <a href="https://michael728.github.io/books/">参考1</a>、<a href="https://blog.dlzhang.com/posts/51/">参考2</a></li>
-<li>Webstack网址导航：  :calendar: 2020/12/25 <a href="https://github.com/WebStackPage/WebStackPage.github.io">参考</a></li>
-<li>一言 ：:calendar: 2020/12/30  <a href="https://leaferx.online/sentence/">参考</a> <a href="https://alvarotrigo.com/fullPage/zh/#page2">fullpage.js</a></li>
+<li>Webstack网址导航：  :calendar: 2020/12/25  <a href="https://github.com/WebStackPage/WebStackPage.github.io">参考</a></li>
+<li>一言 ：:calendar: 2020/12/30 <a href="https://leaferx.online/sentence/">参考</a>、 <a href="https://alvarotrigo.com/fullPage/zh/#page2">fullpage.js</a></li>
 <li>说说：:calendar: 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  </li>
 </ul>
 <h2 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h2><ul>
@@ -263,7 +268,7 @@
   </entry>
   <entry>
     <title>DCGAN学习笔记</title>
-    <url>/post/5dc1b5fc.html</url>
+    <url>/post/5dc1b5fc/</url>
     <content><![CDATA[<h4 id="1-什么是GAN（Generative-Adversarial-Net）？"><a href="#1-什么是GAN（Generative-Adversarial-Net）？" class="headerlink" title="1. 什么是GAN（Generative Adversarial Net）？"></a>1. 什么是GAN（Generative Adversarial Net）？</h4><blockquote>
 <p>假设有一个警察和一个造假币者，造假者按照真实钱币的样子来<strong>造假</strong>，警察来分辨遇到的钱币是真还是假。最初的时候，造假者的造假能力不高，所以警察可以很容易的分辨出来。当被识别出来的时候，造假者就会继续<strong>修炼自己的技艺</strong>。与此同时，警察的分辨能力也要相应<strong>提高</strong>。这样的过程就是一种生成<strong>对抗</strong>的过程。对抗到最后，造假者已经能够创造出可以以假乱真的钱币，警察难以区分真假。所以猜对的<strong>概率变成0.5</strong></p>
 <p>来源：<a href="https://zhuanlan.zhihu.com/p/28853704">知乎</a></p>
@@ -350,7 +355,7 @@
   </entry>
   <entry>
     <title>Docker笔记</title>
-    <url>/post/5c266b64.html</url>
+    <url>/post/5c266b64/</url>
     <content><![CDATA[<h4 id="Docker-With-GPU"><a href="#Docker-With-GPU" class="headerlink" title="Docker With GPU"></a>Docker With GPU</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 测试是否可以看到所有显卡，如果没有 nvidia/cuda:10.0-base，则会先下载该镜像</span></span><br><span class="line">docker run --gpus all nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在一个容器上使用两块GPU</span></span><br><span class="line">docker run --gpus 2 nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定使用的GPU</span></span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=1,2&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line">docker run --gpus <span class="string">&#x27;&quot;device=UUID-ABCDEF,1&quot;&#x27;</span> nvidia/cuda:10.0-base nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># Specifying a capability (graphics, compute, ...) for my container</span></span><br><span class="line">docker run --gpus all,capabilities=utility nvidia/cuda:10.0-base nvidia-smi</span><br></pre></td></tr></table></figure>
 
 <h4 id="Docker-Run"><a href="#Docker-Run" class="headerlink" title="Docker Run"></a>Docker Run</h4><figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">docker run -it -p xxxx<span class="function">:xxxx-v</span> [主机代码目录]:[容器内代码映射目录] <span class="params">--gpus</span> all <span class="params">--name</span> [创建的容器名称] [镜像名称]:[镜像tag] <span class="string">/bin/bash</span> -c <span class="string">&quot;sh trainer/train.sh&quot;</span></span><br><span class="line"></span><br><span class="line">docker run -it -p 5555<span class="function">:22</span> -v <span class="string">&quot;$PWD:/workspace&quot;</span> <span class="params">--gpus</span> all <span class="params">--name</span> xxx imagesName<span class="function">:tag</span> <span class="string">/bin/bash</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -407,7 +412,7 @@
   </entry>
   <entry>
     <title>Faster-Rcnn学习资源整理</title>
-    <url>/post/7c423b52.html</url>
+    <url>/post/7c423b52/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在研究学习faster-rcnn，初次接触目标检测的我确实被其高效、快速的检测效果惊艳到了。但在学习和代码实现的过程中确实遇到了很多困难，寻找了很多资料，本文将整理我所阅读过的比较好的文章和代码，供自己回顾复习使用，也供和大家参考。</p>
 <h2 id="原理篇"><a href="#原理篇" class="headerlink" title="原理篇"></a>原理篇</h2><ul>
 <li><p><a href="https://zhuanlan.zhihu.com/p/32404424">从编程实现角度学习Faster R-CNN（附极简实现）</a></p>
@@ -491,7 +496,7 @@
   </entry>
   <entry>
     <title>Python正则</title>
-    <url>/post/ca4e4d5f.html</url>
+    <url>/post/ca4e4d5f/</url>
     <content><![CDATA[<h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
 <li><p>  在带有 <code>&#39;r&#39;</code> 前缀的字符串字面值中，反斜杠不必做任何特殊处理。反斜重复两次将导致理解障碍，所以高度推荐，就算是最简单的表达式，也要使用原始字符串。</p>
 </li>
@@ -562,7 +567,7 @@
   </entry>
   <entry>
     <title>Screen命令笔记</title>
-    <url>/post/d07d5346.html</url>
+    <url>/post/d07d5346/</url>
     <content><![CDATA[<h2 id="使用Screen在后台运行程序"><a href="#使用Screen在后台运行程序" class="headerlink" title="使用Screen在后台运行程序"></a>使用Screen在后台运行程序</h2><ul>
 <li><p>安装</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install screen</span><br></pre></td></tr></table></figure>
@@ -607,7 +612,7 @@
   </entry>
   <entry>
     <title>Vim常用操作整理(Vimtutor)</title>
-    <url>/post/d852f757.html</url>
+    <url>/post/d852f757/</url>
     <content><![CDATA[<h4 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h4><ul>
 <li>  <code>k</code> 上</li>
 <li>  <code>j</code> 下</li>
@@ -699,7 +704,7 @@
   </entry>
   <entry>
     <title>Flask入门（一）——在阿里云部署Flask环境</title>
-    <url>/post/6f15ec4d.html</url>
+    <url>/post/6f15ec4d/</url>
     <content><![CDATA[<h3 id="阿里云部署flask"><a href="#阿里云部署flask" class="headerlink" title="阿里云部署flask"></a>阿里云部署flask</h3><h4 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
 <li>  <a href="https://juejin.im/post/5a5a1408518825733060e232#heading-6">通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）</a></li>
 </ul>
@@ -782,7 +787,7 @@
   </entry>
   <entry>
     <title>Python Tutorial</title>
-    <url>/post/9dac317c.html</url>
+    <url>/post/9dac317c/</url>
     <content><![CDATA[<h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
 <li>基础学习教程<ol>
 <li> <a href="https://link.zhihu.com/?target=http://www.runoob.com/python3/python3-tutorial.html">Python3 教程 | 菜鸟教程</a></li>
@@ -943,7 +948,7 @@
   </entry>
   <entry>
     <title>wordpress使用心得</title>
-    <url>/post/de09af32.html</url>
+    <url>/post/de09af32/</url>
     <content><![CDATA[<h2 id="1-关于wordpress建站过程中遇到的一些问题及解决方案"><a href="#1-关于wordpress建站过程中遇到的一些问题及解决方案" class="headerlink" title="1. 关于wordpress建站过程中遇到的一些问题及解决方案"></a>1. 关于wordpress建站过程中遇到的一些问题及解决方案</h2><ul>
 <li><p>  Filezilla 连接超时LNMP1.5默认是不安装FTP服务的。需要上下传文件时，设置FTP软件（如FlashFXP）连接类型为 “<strong>SFTP over SSH</strong>”即可。</p>
 </li>
@@ -982,7 +987,7 @@
   </entry>
   <entry>
     <title>使用jupyter遇到的一些问题</title>
-    <url>/post/9c79ba11.html</url>
+    <url>/post/9c79ba11/</url>
     <content><![CDATA[<h2 id="一个报错"><a href="#一个报错" class="headerlink" title="一个报错"></a>一个报错</h2><p><code>import win32api; ImportError: DLL load failed: 找不到指定的程序</code></p>
 <h4 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h4><p>224、225新版本发布的有问题，回退到223版本即可</p>
 <p><code>pip\conda install pywin32==223</code></p>
@@ -1023,7 +1028,7 @@
   </entry>
   <entry>
     <title>写在20岁生日</title>
-    <url>/post/d122b347.html</url>
+    <url>/post/d122b347/</url>
     <content><![CDATA[<p>在大学忙了快整整两年</p>
 <p>第一年忙着转专业,忙着澳洲的签证.</p>
 <p>这一年,熬过了高三般的大二上.也体验了最丰富的大二下,一周三天的假期,完成了好多一直想去试试的事情.</p>
@@ -1076,7 +1081,7 @@
   </entry>
   <entry>
     <title>写在大二上学期</title>
-    <url>/post/7ce73c6e.html</url>
+    <url>/post/7ce73c6e/</url>
     <content><![CDATA[<p>太久没写点东西了。有些情感压抑太久无处爆发，想敲点字出来又肚里实在是没墨。很多话就这么堵在嗓子眼，就着凌晨两点的咖啡一口咽下。</p>
 <p>我觉得一个把大学过得像高中的人是很失败的。高中只有学习，大学里有学习，还有生活。而生活本身就不是一件容易的事情。大学是换了一个更大的监狱，多了几个门多了几堵围墙。每天忙忙碌碌地上课，碌碌无为到半夜。我这大学一年多，最最开心的时候是大一上期末考最后一门考试成绩出来，我知道我转专业有希望了。当尘埃落定，生活又露出真实的狰狞模样。我依然喜欢我做的事情，我也清楚我现在所学是在积累是在等某一天的厚积薄发，但是这过程太孤独太枯燥了太漫长了。</p>
 <p>今年很有幸，认识了很多好老师。这些老师都有一些共同的特点，把学生当朋友，不把成绩分数当做评判的唯一标准，能用人话分享知识，上课不点名，但是座无虚席。acm的刘春英老师也好，李国冰也好，韩敦敦也好。还有吴老师陈老师冯老师，你能很明显的感受到他们确实是希望你通过这一学期的课，能学到点东西。能抢到他们的课，三生有幸。当然今年压力也很大，因为如果我没学好我就不能找老师教的不好的借口了。</p>
@@ -1096,7 +1101,7 @@
   </entry>
   <entry>
     <title>写在大二下的期末考后</title>
-    <url>/post/1520b5d6.html</url>
+    <url>/post/1520b5d6/</url>
     <content><![CDATA[<h3 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h3><p>感谢秦老师，有点惭愧，感觉今年创新实践的成就根本对不起这个满绩的成绩</p>
 <p>感谢付茜茜老师，我真的再也不会逃课去看演唱会了，还傻不拉几的去骗辅导员的假条唉</p>
 <p>感谢张旻老师，好像除了体育我还没拿过这么高的分数，这一学期对算法的理解有明显的提升</p>
@@ -1117,7 +1122,7 @@
   </entry>
   <entry>
     <title>博客待办事项</title>
-    <url>/post/7bc2355c.html</url>
+    <url>/post/7bc2355c/</url>
     <content><![CDATA[<ul>
 <li><del>图片管理</del></li>
 <li>页面美化（还是有点丑。。）</li>
@@ -1143,7 +1148,7 @@
   </entry>
   <entry>
     <title>大一学习资料清单</title>
-    <url>/post/4e7be00e.html</url>
+    <url>/post/4e7be00e/</url>
     <content><![CDATA[<h3 id="大一上学习资料清单"><a href="#大一上学习资料清单" class="headerlink" title="大一上学习资料清单"></a>大一上学习资料清单</h3><hr>
 <h3 id="一些资料"><a href="#一些资料" class="headerlink" title="一些资料"></a>一些资料</h3><ol>
 <li><p>杭电助手的“<a href="http://dl.hduhelp.com/#">助手期末福利</a>”</p>
@@ -1247,7 +1252,7 @@
   </entry>
   <entry>
     <title>微信聊天记录分析（IOS系统）</title>
-    <url>/post/e5a040a0.html</url>
+    <url>/post/e5a040a0/</url>
     <content><![CDATA[<h3 id="获得聊天记录"><a href="#获得聊天记录" class="headerlink" title="获得聊天记录"></a>获得聊天记录</h3><ol>
 <li> 使用itunes或其他工具备份ios手机到pc上<strong>不要加密备份</strong></li>
 <li> 使用工具，导出指定wx聊天记录。扫文章底部二维码关注公众号，回复 <strong>聊天记录</strong> 可获得工具。一共提供了两个工具，选择其一即可</li>
@@ -1287,7 +1292,7 @@
   </entry>
   <entry>
     <title>操作系统实验一</title>
-    <url>/post/e11b459a.html</url>
+    <url>/post/e11b459a/</url>
     <content><![CDATA[<h3 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h3><p>记录杭电操作系统实验一:编译内核&amp;增加nice系统调用.<strong>本文仅严格记录本人成功的实验流程</strong>,方便日后修改.</p>
 <h3 id="二、实验准备"><a href="#二、实验准备" class="headerlink" title="二、实验准备"></a>二、实验准备</h3><ul>
 <li>虚拟机: VirtualBox 6.0.12 <a href="https://www.virtualbox.org/">官网</a></li>
@@ -1383,7 +1388,7 @@
   </entry>
   <entry>
     <title>操作系统实验二</title>
-    <url>/post/da9b6b33.html</url>
+    <url>/post/da9b6b33/</url>
     <content><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="1-内核态和用户态-特权级"><a href="#1-内核态和用户态-特权级" class="headerlink" title="1.内核态和用户态,特权级"></a>1.内核态和用户态,特权级</h3><p>Linux中每个进程有两个栈，分别用于用户态和内核态的进程执行，其中的内核栈就是用于内核态的堆栈，它和进程的task_struct结构，更具体的是thread_info结构一起放在两个连续的页框大小的空间内。 现在我们从特权级的调度来理解用户态和内核态就比较好理解了，当程序运行在<strong>3级特权级</strong>上时，就可以称之为运行在<strong>用户态</strong>，因为这是最低特权级，是普通的用户进程运行的特权级，大部分用户直接面对的程序都是运行在用户态；反之，当程序运行在<strong>0级特权级</strong>上时，就可以称之为运行在<strong>内核态</strong>。虽然用户态下和内核态下工作的程序有很多差别，但最重要的差别就在于特权级的不同，即权力的不同。运行在用户态的程序不能访问操作系统内核数据结构合程序。</p>
 <p>当我们在系统中执行一个程序时，大部分时间是运行在用户态下的。在其需要操作系统帮助完成某些它没有权力和能力完成的工作时就会切换到内核态。 Linux进程的4GB地址空间，3G-4G部分大家是共享的，是内核态的地址空间，这里存放在整个内核的代码和所有的内核模块，以及内核所维护的数据。用户运行一个程序，该程序所创建的进程开始是运行在用户态的，如果要执行文件操作，网络数据发送等操作，<strong>必须通过write，send等系统调用</strong>，这些系统调用会调用内核中的代码来完成操作，这时，必须切换到<strong>Ring0</strong>，然后进入3GB-4GB中的内核地址空间去执行这些代码完成操作，完成后，切换回<strong>Ring3</strong>，回到用户态。这样，用户态的程序就不能随意操作内核地址空间，具有一定的安全保护作用。保护模式，通过内存页表操作等机制，保证进程间的地址空间不会互相冲突，一个进程的操作不会修改另一个进程的地址空间中的数据。</p>
 <p>在内核态下，CPU可执行任何指令，在用户态下CPU只能执行非特权指令。当CPU处于内核态，可以随意进入用户态；而当CPU处于用户态，只能通过<strong>中断的方式</strong>进入内核态。一般程序一开始都是运行于用户态，当程序需要使用系统资源时，就必须通过调用软中断进入内核态. </p>
@@ -1474,7 +1479,7 @@
   </entry>
   <entry>
     <title>数据库原理笔记（1）——三级模式二级映射</title>
-    <url>/post/d6ef9902.html</url>
+    <url>/post/d6ef9902/</url>
     <content><![CDATA[<h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><ul>
 <li><p>数据库（DataBase）</p>
 <blockquote>
@@ -1568,7 +1573,7 @@
   </entry>
   <entry>
     <title>数据库原理笔记（2）——概念模型和数据模型</title>
-    <url>/post/caace43d.html</url>
+    <url>/post/caace43d/</url>
     <content><![CDATA[<h3 id="概念模型"><a href="#概念模型" class="headerlink" title="概念模型"></a>概念模型</h3><ol>
 <li><p>实体-联系模型(E-R模型)</p>
 <ul>
@@ -1726,7 +1731,7 @@
   </entry>
   <entry>
     <title>机器学习入门（一）</title>
-    <url>/post/53dcc771.html</url>
+    <url>/post/53dcc771/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>根据我自己的学习资料，总结了下机器学习入门时经常会遇到的几个问题。</p>
 <h3 id="什么是人工智能？"><a href="#什么是人工智能？" class="headerlink" title="什么是人工智能？"></a>什么是人工智能？</h3><ol>
 <li> ❓ 什么是强人工智能？请自行百度解决</li>
@@ -1787,7 +1792,7 @@
   </entry>
   <entry>
     <title>科目三过啦</title>
-    <url>/post/280328b7.html</url>
+    <url>/post/280328b7/</url>
     <content><![CDATA[<p>科三内容真的挺少的，折算成大学课程，估计就一节课45分钟的量。所以早早地预约，练了四个上午，就去考场熟悉道路，准备第二天的考试。考前一天熟悉道路，我练的不好，每个人开四次，挂了两次。烈日当头，车里如摆设般的空调，没有空调的候车室，轮流练车时无止境的等待，加上练车时教练还在一旁啰啰嗦嗦，实在是磨人耐心。想着老子要是这次没过，就特么不学了。练车时我都感觉自己是一具没有灵魂的空壳，全程靠教练指挥，越练越拘谨，越练越没信心。</p>
 <p>第二天考试，和我一辆车里的另一个哥们先考，在公交车站牌，刹车踩重了，“档位与速度不匹配”，挂了，回起点，又出发，又在公交车站牌，刹车踩轻了，“未按规定减速慢行”，挂了….吓得我立马找机会塞了安全员一张毛爷爷。于是，我起步忘按喇叭，拍大腿提醒我。公交车站牌敲窗户提醒我，帮忙踩了脚刹车。第一个路口帮忙踩了脚刹车。百米冲刺速度降太慢，帮忙踩了脚刹车。靠边停车，帮忙点了下刹车，我立马踩离合刹车跟进，回空挡拉手刹一气呵成，“成绩合格”。然后我科三就结束了，结束的意犹未尽。</p>
 <p>我挺不愿意提这件事情的，因为我清楚地记得当我爸妈说别人科三都是这么做的时，我还义正言辞“我才不会这么做，他凭什么拿我钱，我干嘛给他钱？”，当时还愤慨激昂，觉得自己不干这种”肮脏“的事情，现在呢，”如果没有那几脚刹车，我明确肯定我是过不了科三的“，我考完这么感慨。真的，我到现在还是这么感慨的，甚至觉得多给一张也不为过。事后想了想，这样做其实是把安全员和我绑在了同一条船上，大学的象牙塔里呆久了，又怎会知道社会里水有多深。</p>
@@ -1803,7 +1808,7 @@
   </entry>
   <entry>
     <title>摄影学习笔记（一）————  基础知识介绍</title>
-    <url>/post/271a4a90.html</url>
+    <url>/post/271a4a90/</url>
     <content><![CDATA[<h1 id="1-光圈"><a href="#1-光圈" class="headerlink" title="1. 光圈"></a>1. 光圈</h1><ul>
 <li>光圈是表示镜头中孔径大小的比值。</li>
 <li>光圈越大数值越小,光圈越小数值越大。</li>
@@ -1839,7 +1844,7 @@
   </entry>
   <entry>
     <title>科目二复习</title>
-    <url>/post/2d9df1e8.html</url>
+    <url>/post/2d9df1e8/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>以为今天不练车，一觉睡到大天亮。起来看到手机里十几个教练的未接电话就蒙了。原来早上的喇叭声，不是堵车是在喊我练车。。。。</p>
 <p>可他也没提前通知，让我误以为今天他去上虞考试不练车，哎。搞得我有点惭愧</p>
 <p>所以复习下科目二的几个点，弥补下内心的愧疚</p>
@@ -1883,7 +1888,7 @@
   </entry>
   <entry>
     <title>科目二结束</title>
-    <url>/post/762968e9.html</url>
+    <url>/post/762968e9/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>总算结束了这该死的科目二，这几天下来身心俱疲，每次早起练车内心都是强烈的抗拒，刚熬过大学的期末考，暑假又是一个接一个的训练、考试，实在是难以说服自己去接受。好在过了，长舒一口气。拿驾照之路还长，不过这几天可以歇一歇了，再接着训练科三之前，总算是可以做点自己计划中的事情，就再回味回味这份经历。</p>
 <h3 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h3><h4 id="7月10日-9-24"><a href="#7月10日-9-24" class="headerlink" title="7月10日 9:24"></a>7月10日 9:24</h4><p>油门踩到底，下了坡，听到旁边机子说考试合格，然后被安全员指挥到起始位置。下车，和安全员说谢谢，走出考场，路上一直在口吐芬芳，骂着这该死的科目二总算结束了。</p>
 <h4 id="7月10日9-14"><a href="#7月10日9-14" class="headerlink" title="7月10日9:14"></a>7月10日9:14</h4><p>上车踩了踩离合，转了转方向盘，觉得很舒服。起步后一直在自言自语，给自己提醒要对的点。说真的，下次不一定有这么舒服的离合，这么舒服的方向盘，这么舒服的肩膀线，这么舒服的天气，这么熟悉的道路了。</p>
@@ -1904,7 +1909,7 @@
   </entry>
   <entry>
     <title>黑客与画家</title>
-    <url>/post/3f152ec7.html</url>
+    <url>/post/3f152ec7/</url>
     <content><![CDATA[<h4 id="为什么书呆子不受欢迎"><a href="#为什么书呆子不受欢迎" class="headerlink" title="为什么书呆子不受欢迎"></a>为什么书呆子不受欢迎</h4><ol>
 <li>在普通美国高校中,成为”强人”的标准高的吓人.青少年每时每刻都想融入群体中,都想变得更受欢迎</li>
 <li>书呆子指这个人的社交技能不够强,比起更受欢迎,他们更愿意让自己聪明</li>
@@ -2103,7 +2108,7 @@
   </entry>
   <entry>
     <title>关于约数的数小知识</title>
-    <url>/post/ba82db5c.html</url>
+    <url>/post/ba82db5c/</url>
     <content><![CDATA[<h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>有一个小于2000的四位数，有14个约数，其中有一个质因数，个位是1</p>
 <ol>
 <li><p>首先要知道<a href="https://baike.baidu.com/item/%E7%BA%A6%E6%95%B0%E4%B8%AA%E6%95%B0%E5%AE%9A%E7%90%86"><strong>约数个数定理</strong></a></p>
@@ -2133,7 +2138,7 @@
   </entry>
   <entry>
     <title>摄影学习笔记（二）———— Pr快捷键</title>
-    <url>/post/4235b453.html</url>
+    <url>/post/4235b453/</url>
     <content><![CDATA[<blockquote>
 <p><a href="https://www.bilibili.com/video/av7301488">视频来源B站影视飓风</a></p>
 </blockquote>
