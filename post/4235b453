@@ -38,8 +38,8 @@
 <meta property="article:published_time" content="2019-02-22T09:24:51.000Z">
 <meta property="article:modified_time" content="2020-12-10T09:40:58.570Z">
 <meta property="article:author" content="陈末">
-<meta property="article:tag" content="摄影">
 <meta property="article:tag" content="Pr">
+<meta property="article:tag" content="摄影">
 <meta name="twitter:card" content="summary">
 
 
@@ -230,7 +230,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-count">30</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -443,8 +443,8 @@
 </span>
 
           <div class="post-tags">
-              <a href="/tags/%E6%91%84%E5%BD%B1/" rel="tag"><i class="fa fa-tag"></i> 摄影</a>
               <a href="/tags/Pr/" rel="tag"><i class="fa fa-tag"></i> Pr</a>
+              <a href="/tags/%E6%91%84%E5%BD%B1/" rel="tag"><i class="fa fa-tag"></i> 摄影</a>
           </div>
 
         
