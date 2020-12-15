@@ -143,24 +143,24 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-book">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
 
   </li>
-        <li class="menu-item menu-item-categories">
+        <li class="menu-item menu-item-movie">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
-
-  </li>
-        <li class="menu-item menu-item-comment">
-
-    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>comment</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -237,18 +237,6 @@
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">31</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
   </nav>
 </div>
   <div class="links-of-author site-overview-item animated">
@@ -261,16 +249,6 @@
   </div>
 
 
-  <div class="links-of-blogroll site-overview-item animated">
-    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      Links
-    </div>
-    <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://dcts.top/" title="https:&#x2F;&#x2F;dcts.top" rel="noopener" target="_blank">Title</a>
-        </li>
-    </ul>
-  </div>
 
         </section>
       </div>
@@ -381,7 +359,7 @@
 
       <div class="post-title">
           <a class="post-title-link" href="/post/de09af32/" itemprop="url">
-            <span itemprop="name">wordpress使用心得</span>
+            <span itemprop="name">Wordpress使用心得</span>
           </a>
       </div>
 
@@ -582,19 +560,16 @@ document.addEventListener('pjax:success', () => {
       });
       });
   </script>
-
 <script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"6ROSLgTmokdioyQVfQiPgG5v-MdYXbMMI","appKey":"8TMSM1BfjKMa5QiQJsjX5BJt","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}, {
-      el: '#valine-comments',
-      path: "/archives/2018/",
-      serverURLs: "https://6roslgtm.api.lncldglobal.com"
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app/","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/archives/2018/"
     }));
-  }, window.Valine);
+  }, window.Waline);
 });
 </script>
-
     </div>
 </body>
 </html>
