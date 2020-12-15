@@ -6,6 +6,7 @@
     "version": "5.2.0"
   },
   "dependencies": {
+    "@waline/hexo-next": "^1.0.1",
     "canvas-nest.js": "^2.0.4",
     "hexo": "^5.2.0",
     "hexo-abbrlink": "^2.2.1",
@@ -31,6 +32,8 @@
     "hexo-symbols-count-time": "^0.7.1",
     "hexo-theme-next": "^8.1.0",
     "hexo-theme-webstack": "^2.0.1",
-    "hexo-word-counter": "0.0.2"
+    "hexo-word-counter": "0.0.2",
+    "install": "^0.13.0",
+    "npm": "^6.14.9"
   }
 }
