@@ -671,9 +671,14 @@ document.addEventListener('pjax:success', () => {
                 console.error('Failed to save visitor count', error);
               });
           } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
+              Counter('post', '/classes/Counter', { title, url, time: 1 })
+                .then(response => response.json())
+                .then(() => {
+                  leancloudSelector(url).innerText = 1;
+                })
+                .catch(error => {
+                  console.error('Failed to create', error);
+                });
           }
         })
         .catch(error => {
@@ -700,7 +705,7 @@ document.addEventListener('pjax:success', () => {
         });
     }
 
-    const { app_id, app_key, server_url } = {"enable":true,"app_id":"zXm8tbWnh6weaHlsrpUTdXX8-MdYXbMMI","app_key":"DIa8MB8tbYmTqieY23po7IlJ","server_url":null,"security":true};
+    const { app_id, app_key, server_url } = {"enable":true,"app_id":"zXm8tbWnh6weaHlsrpUTdXX8-MdYXbMMI","app_key":"DIa8MB8tbYmTqieY23po7IlJ","server_url":null,"security":false};
     function fetchData(api_server) {
       const Counter = (method, url, data) => {
         return fetch(`${api_server}/1.1${url}`, {
@@ -794,7 +799,7 @@ document.addEventListener('pjax:success', () => {
 <script>
 NexT.utils.loadComments('#waline-comments', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
-    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app/","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"requiredFields":["nick","mail"]}, {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"requiredFields":["nick","mail"]}, {
       el: '#waline-comments',
       path: "/post/e11b459a/"
     }));
