@@ -146,12 +146,12 @@ waline:
   enable: true
   serverURL: https://imnerd-api-rosy.vercel.app/ # Waline server address url
   placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
+  avatar: wavatar # Gravatar style
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # Pagination size
   lang: # Language, available values: en, zh-cn
   # Warning: Do not enable both `waline.visitor` and `leancloud_visitors`.
-  visitor: true # Article reading statistic
+  visitor: false # Article reading statistic
   requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
 
 githubEmojis:
@@ -160,3 +160,11 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: zXm8tbWnh6weaHlsrpUTdXX8-MdYXbMMI
+  app_key: DIa8MB8tbYmTqieY23po7IlJ
+  server_url:  # Required for apps from CN region, e.g. https://leancloud.cn
+  username:  # Will be asked while deploying if is left blank
+  password:  # Recommmended to be left blank. Will be asked while deploying if is left blan

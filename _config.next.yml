@@ -249,7 +249,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at: 
-    enable: true
+    enable: false
     another_day: false
   categories: true
 
@@ -685,9 +685,9 @@ cnzz_siteid:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: # <your app id>
-  app_key: # <your app key>
+  enable: true
+  app_id: zXm8tbWnh6weaHlsrpUTdXX8-MdYXbMMI # <your app id>
+  app_key: DIa8MB8tbYmTqieY23po7IlJ # <your app key>
   # Required for apps from CN region
   server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security

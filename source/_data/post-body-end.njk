@@ -2,12 +2,12 @@
 {### POST END ITEM ###}
 {#####################}
 <span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
-    {%- if post.update %}
-        <span class="post-end-item" title="update">
-            {%- set create_title = __('post.update') + __('symbol.colon') + full_date(post.date) %}
+    {%- if post.updated %}
+        <span class="post-end-item" title="updated">
+            {%- set create_title = __('post.updated') + __('symbol.colon') + full_date(post.date) %}
             <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
-            <time title="{{ '更新时间' + __('symbol.colon') + full_date(post.update) }}" itemprop="dateModified" datetime="{{ moment(post.update).format() }}">
-                <span class="post-end-item-text">更新时间：{{ date(post.update) }}</span>
+            <time title="{{ '更新时间' + __('symbol.colon') + full_date(post.updated) }}" itemprop="dateModified" datetime="{{ moment(post.updated).format() }}">
+                <span class="post-end-item-text">更新时间：{{ date(post.updated) }}</span>
             </time>
         </span>
     {%- endif %}
