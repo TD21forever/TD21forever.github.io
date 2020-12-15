@@ -224,7 +224,7 @@
 </li>
 </ol>
 </li>
-<li><p>图床：七牛</p>
+<li><p>图床：<a href="https://portal.qiniu.com/create">七牛</a></p>
 <ol>
 <li>七牛的Https流量是付费的，但是不贵</li>
 <li>如果原先就有仓库以及绑定了非<code>Https</code>的域名，不需要新建域名，开启<code>Https</code>即可。</li>
@@ -243,7 +243,7 @@
 <li>说说：📅 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  </li>
 </ul>
 <h2 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h2><ul>
-<li><p>博客页面更新介绍 📅 2020/12/12</p>
+<li><p><a href="https://www.dcts.top/post/d8d5597/">博客页面更新介绍</a>📅 2020/12/12 ✔</p>
 </li>
 <li><p>关于博客的一些想法与思考📅 2020/12/28</p>
 <blockquote>
@@ -255,12 +255,12 @@
 <p>以及Hexo提供的特殊的写作语法记录</p>
 </blockquote>
 </li>
-<li><p>数字货币投资心得 📅 2020/12/22</p>
+<li><p>数字货币投资心得📅 2020/12/22</p>
 <blockquote>
 <p>玩数字货币将近三个月了，发现人的理性总是无法战胜人的贪婪。杠杆是把双刃剑，有些东西是底线，决不能触碰，之后会写点自己的心得，警示自己。</p>
 </blockquote>
 </li>
-<li><p>2020年末总结 📅 2021/01/01</p>
+<li><p>2020年末总结📅 2021/01/01</p>
 <blockquote>
 <p>可恶的2020年即将过去，这一年发生了太多太多事了</p>
 </blockquote>
