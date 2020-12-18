@@ -20,6 +20,7 @@ zh-CN:
     comment: 留言
     book: 阅读
     movie: 观影
+    shuoshuo: 说说
   sidebar:
     overview: 站点概览
     toc: 文章目录
@@ -34,6 +35,7 @@ zh-CN:
     untitled: 未命名
     sticky: 置顶
     views: 浏览
+    waline: 评论
     related_posts: 相关文章
     copyright:
       author: 本文作者

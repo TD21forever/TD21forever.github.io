@@ -88,6 +88,7 @@ menu:
   movie: /movie || fa fa-film
   comment: /comment/ || fa fa-comment
   about: /about/ || fa fa-user
+  shuoshuo: /shuoshuo/ || fab fa-qq
   # archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -517,7 +518,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: true
+pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
@@ -685,7 +686,7 @@ cnzz_siteid:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: zXm8tbWnh6weaHlsrpUTdXX8-MdYXbMMI # <your app id>
   app_key: DIa8MB8tbYmTqieY23po7IlJ # <your app key>
   # Required for apps from CN region
@@ -693,7 +694,7 @@ leancloud_visitors:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
