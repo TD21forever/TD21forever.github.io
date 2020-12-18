@@ -51,7 +51,7 @@
 <p>参考这篇博客<a href="https://guanqr.com/tech/website/web-font-guide/#">网站字体优化方案</a>，<code>Next</code><a href="https://theme-next.js.org/docs/theme-settings/miscellaneous.html">官网</a>关于字体的配置在这里</p>
 <ul>
 <li>global：EB Garamond,  Noto Serif SC</li>
-<li>code:     JetBrains Mono</li>
+<li>code: JetBrains Mono</li>
 </ul>
 </li>
 <li><p>插件</p>
@@ -59,7 +59,7 @@
 <li>评论系统:   <del>Valine 最新版Hexo需自行<a href="https://github.com/next-theme/hexo-next-valine">安装</a></del> 已改为更安全的<a href="https://waline.js.org/quick-start.html">Waline </a></li>
 <li>字数统计：<code>hexo-word-counter</code> 自带</li>
 <li>代码高亮：<code>highlight.js</code> 可以在这个<a href="https://theme-next.js.org/highlight/">网站</a>进行预览和挑选</li>
-<li> 站点分析:  <code>baidu_analytics</code></li>
+<li>站点分析:  <code>baidu_analytics</code></li>
 <li>背景动画:  <code>canvas_nest</code> 详见<a href="https://github.com/theme-next/theme-next-canvas-nest">这里</a></li>
 </ul>
 </li>
@@ -88,10 +88,10 @@
 </li>
 </ul>
 <h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><ul>
-<li> 书单和观影： 📅 2020/12/20  <a href="https://michael728.github.io/books/">参考1</a>、<a href="https://blog.dlzhang.com/posts/51/">参考2</a> ✔</li>
+<li>书单和观影： 📅 2020/12/20  <a href="https://michael728.github.io/books/">参考1</a>、<a href="https://blog.dlzhang.com/posts/51/">参考2</a> ✔</li>
 <li>Webstack网址导航：  📅 2020/12/25  <a href="https://github.com/WebStackPage/WebStackPage.github.io">参考</a></li>
 <li>一言 ：📅 2020/12/30 <a href="https://leaferx.online/sentence/">参考</a>、 <a href="https://alvarotrigo.com/fullPage/zh/#page2">fullpage.js</a></li>
-<li>说说：📅 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  </li>
+<li>说说：📅 2020/12/30 <a href="https://cndrew.cn/2020/05/11/artitalk/">Artitalk.js</a>  ✔</li>
 </ul>
 <h2 id="近期更新"><a href="#近期更新" class="headerlink" title="近期更新"></a>近期更新</h2><ul>
 <li><p><a href="https://www.dcts.top/post/d8d5597/">博客页面更新介绍</a>📅 2020/12/12 ✔</p>
