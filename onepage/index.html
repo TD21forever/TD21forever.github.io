@@ -4,12 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./static/CSS/fullpage.min.css">
-  <link rel="stylesheet" href="./static/CSS/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif SC">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/fullPage.js/3.0.9/fullpage.min.css">
+  <style>
+    html,
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.setence-box-wrap {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setence-text-wrap {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: 'EB Garamond',
+    'Noto Serif SC';
+}
+
+#id1 {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .smaller-600 {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .smaller-900 {
+    font-size: 14px !important;
+  }
+}
+
+  </style>
   <title>OnePage</title>
 </head>
 
@@ -108,17 +144,12 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" -->
   <!-- integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"> -->
   </script>
-  <script type="text/javascript" src="./static/JS/fullpage.min.js"></script>
+  <script type="text/javascript" src="https://cdn.staticfile.org/fullPage.js/3.0.9/fullpage.min.js"></script>
+  <script type="text/javascript" src="https://cdn.staticfile.org/fullPage.js/3.0.9/fullpage.min.js.map"></script>
   <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
       sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', '#f2f2f2', '#f2f2f2']
     });
-    /*
-    
-    只是一只无形的大手把你托举起来，至于这只无形的大手会把你带到何方，你也不知道只是在被托举的时候，你得做好该做的事情，并从容地接受未来将要下场的命运
-
-    我们无法做伟大的人，我们只能心怀伟大的爱做细微的事情
-    */
   </script>
 </body>
 
