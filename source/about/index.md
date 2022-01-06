@@ -6,7 +6,7 @@ date: 2019-07-02 12:48:56
 ## 个人信息 
 
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：21
-* 手 机：17857158661&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：job_yuwenzhuo@163.com    
+* 手 机：178xxx8661&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：job_yuwenzhuo@163.com    
 * 专 业：计算机科学与计算 &emsp;&emsp;&emsp;&emsp;&emsp; 
 
 ## 工作及教育经历   

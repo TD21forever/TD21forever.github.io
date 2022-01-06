@@ -11,7 +11,7 @@ comments: false
         line-height: 2.0
     }
 </style>
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk"></script>
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
@@ -20,7 +20,7 @@ new Artitalk({
     color1: '#f0fcff',
     color2: '#f0fcff',
     color3: '#1a2a3a',
-    pageSize: 15,
+    pageSize: 12,
 })
 </script>
 </body>
