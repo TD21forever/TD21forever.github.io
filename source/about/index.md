@@ -5,24 +5,67 @@ date: 2019-07-02 12:48:56
 
 ## 个人信息 
 
-* 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：21
-* 手 机：178xxx8661&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：job_yuwenzhuo@163.com    
-* 专 业：计算机科学与计算 &emsp;&emsp;&emsp;&emsp;&emsp; 
+* 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：23
+* 手 机：178xxx8661&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：job_yuwenzhuo@163.com 
+* 专 业：计算机科学与计算 &emsp;&emsp;&emsp; 求职意向：iOS工程师
+* Github：https://github.com/TD21forever
 
-## 工作及教育经历   
+## 教育经历
 
+* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;2021.09-2024-04 &emsp;&emsp;&emsp;&emsp; 计算机科学与技术-学硕
 * 杭州电子科技大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2021.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科         
 * University of Adelaide&emsp;&emsp;&emsp;2018.7~2018.8&emsp;&emsp;&emsp;&emsp; 访学交流活动
-* 目前已获得推免资格，保研至上海大学计算机工程与技术学院攻读学术硕士研究生  
+
+## 实习经历
+
+**字节跳动 - 测试开发实习生 杭州教育**&emsp;&emsp;&emsp **2021.01-2021-06**
+
+- **横向基础建设**：
+  - 主动调研并学习Shoots测试框架，从无到有推动部门产品UI、埋点自动化落地，产出两份详细方案文档。
+    参与CI/CD 建设，将UI自动化接入Bits Pipeline，实现合码卡点和定期巡检，提前发现产品质量问题，Bug召回率稳定在20%。
+  - 编写Python脚本，开发飞书机器人及时提醒人员排期、节点流转、bug关闭，规范了研发流程，「Bug关闭时长」指标显著降低。
+
+
+- **纵向业务测试**：
+
+  - 参与闪电搜题、Snapsolve、EHI三个移动端产品(iOS/Android)的业务测试
+
+  - 跟随团队出差北京参与MVP版本封闭开发，编写测试案例，负责产品签到奖励模块的feature 、集成和回归测试，利用Charles抓包、mock假数据等方法发现、提交、跟踪修复20余个bug，通过验收，线上该模块无bug。
 
 ## 获奖经历
 
+* “华为杯”第十八届中国研究生数学建模竞赛 - 国赛二等奖 国家级 2021-10
 * 大学生服务外包创新创业大赛国家二等奖	国家级	2020-08
 * 国家奖学金                                                      国家级    2020-10
 * 省政府奖学金                                                  省级        2019-12
 * 一等奖学金（连续四学期）                           校级        2020-10
 
-### 关于博客
+## 项目经历
+
+**Byte Campus Hackson - 第一届西瓜视频客户端开发挑战赛 iOS研发**
+
+- **项目概述**：在48小时内设计并研发了一款适配老年人以及视障人群的Todolist产品。产品完成度高，在来自38所高校的16支团队中脱颖而出，获得**二等奖**。 [项目地址](https://bytedancecampus1.feishu.cn/docx/T5Deds5UMoqsLhxm7L5cfogxnmg)
+- **技术要点**：
+  - Swift、SwiftUI开发，使用MVVM、单例设计模式。
+  - 利用 CoreData构建用户任务实体，实现用户任务持久化
+  - 使用 UserNotifications构建消息管理的单例类，实现任务的定时、周期提醒
+  - 基于 Accessibility Api修改视图的辅助功能属性，为旁白功能提供更多信息，实现完整语音播报。
+
+**科技部项目—抗溯源文件传输 （课题经费660万）**
+
+- **项目概述**
+  - 独立负责「基于公共网络服务抗溯源文件传输」方案的的设计与代码开发
+- **技术要点**
+  - 利用抽象工厂模式统一封装github、google drive等四个saas平台的API 
+  - 后端使用Flask、蓝图、构建文件发送api，flask_sqlalchemy持久化发送记录; 利用ThreadPoolExecutor创建线程池，异步生成传输链路
+  - 利用GitAction构建CI/CD流水线，配合inotifywait实现合码后jar包自动打包、自动分发、自动部署
+
+## 研究经历
+
+- 核心参与2022年国家自然科学基金面上项目，独立负责「融合隐私保护的QoS预测服务技术」部分的撰写。该项目已获批
+- 研究基于个性化联邦学习的隐私保护服务QoS预测任务，完成论文一篇，目前期刊在投
+
+## 关于博客
 
 刚进入杭电的时候，加了个社团。第一个任务就是用hexo+git来搭一个博客。现在回想起来感觉当时真是青涩，看到bash五颜六色的字体，配上黑色背景，感觉编程真的是一件好酷的事情。但又苦于自己基础太少，不会git，不会markdown，看了好久的教程，就是搭不好一个完整的博客。最后找了个一键部署博客的懒人工具，草草交了作业。当时也没理解博客的意义在哪里，没明白markdwon、git这类工具的实用性在哪里，就一直搁置着。
 
