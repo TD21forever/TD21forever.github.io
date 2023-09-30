@@ -90,6 +90,7 @@ menu:
   about: /about/ || fa fa-user
   shuoshuo: /shuoshuo/ || fab fa-qq
   onepage: /onepage/ || far fa-angry
+  rssdocs: /rssdocs/ || far fa-angry
   gallery: /gallery/ || fas fa-parachute-box
   # archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar

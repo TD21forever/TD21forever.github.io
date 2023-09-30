@@ -24,8 +24,3 @@ new Artitalk({
 })
 </script>
 </body>
-
-
-
-
-
