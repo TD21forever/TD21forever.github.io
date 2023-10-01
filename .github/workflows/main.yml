@@ -32,3 +32,11 @@ jobs:
 
           npm install
           npx hexo g -d
+
+      - name: cache for Maven
+        uses: actions/cache@v3.3.2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-${{ hashFiles('package-lock.json') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-
