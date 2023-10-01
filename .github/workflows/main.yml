@@ -27,6 +27,7 @@ jobs:
         run: |
           cd main
           export GIT_TOKEN=${{ secrets.TOKEN }}
+          echo $GIT_TOKEN
           git config --global user.email "435212619@qq.com"
           git config --global user.name "hexo-robot"
           npm install
