@@ -40,3 +40,7 @@ jobs:
           key: ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-${{ hashFiles('package-lock.json') }}-${{ hashFiles('package.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-
+        run: |
+          pwd
+          ls -alh
+        
