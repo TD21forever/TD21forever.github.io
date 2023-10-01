@@ -121,7 +121,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:td21forever/td21forever.github.io
+  repo: https://${GIT_TOKEN}@github.com/td21forever/td21forever.github.io
   brance: master
   message:
 - type: baidu_url_submitter

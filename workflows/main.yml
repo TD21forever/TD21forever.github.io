@@ -1,0 +1,42 @@
+name: Sync and Deploy
+
+on:
+  push:
+    branches:
+      - source
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v4.1.0
+        with:
+          ref: source
+          path: main
+
+      - name: Cache Modules # 缓存 Node 插件
+        uses: actions/cache@v1
+        id: cache-modules
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: Install dependencies and deploy
+        run: |
+          pwd
+          ls
+          cd main
+          export GIT_TOKEN=${{ secrets.TOKEN }}
+          npm install
+          npx hexo g -d
+
+
+
+
+      - name: Install dependencies and build
+        run: |
+          cd gh
+          npm install
+          npx hexo g -d
