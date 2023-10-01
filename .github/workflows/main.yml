@@ -16,19 +16,19 @@ jobs:
           ref: source
           path: main
 
-      - name: Cache Modules # 缓存 Node 插件
-        uses: actions/cache@v1
-        id: cache-modules
-        with:
-          path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
-
       - name: Install dependencies and deploy
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
+
           cd main
-          export GIT_TOKEN=${{ secrets.TOKEN }}
-          echo $GIT_TOKEN
           git config --global user.email "435212619@qq.com"
           git config --global user.name "hexo-robot"
+
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
           npm install
           npx hexo g -d
