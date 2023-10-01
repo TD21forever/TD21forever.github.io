@@ -27,7 +27,7 @@ jobs:
         run: |
           cd main
           export GIT_TOKEN=${{ secrets.TOKEN }}
-          git config --local user.email "435212619@qq.com"
-          git config --local user.name "hexo-robot"
+          git config --global user.email "435212619@qq.com"
+          git config --global user.name "hexo-robot"
           npm install
           npx hexo g -d
