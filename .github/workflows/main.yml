@@ -25,18 +25,9 @@ jobs:
 
       - name: Install dependencies and deploy
         run: |
-          pwd
-          ls
           cd main
           export GIT_TOKEN=${{ secrets.TOKEN }}
-          npm install
-          npx hexo g -d
-
-
-
-
-      - name: Install dependencies and build
-        run: |
-          cd gh
+          git config --local user.email "435212619@qq.com"
+          git config --local user.name "hexo-robot"
           npm install
           npx hexo g -d
