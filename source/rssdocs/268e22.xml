@@ -95,6 +95,18 @@
             </item>
         
             <item>
+                <id>https://www.reddit.com/r/MachineLearning/t3_16xx1r2</id>
+                <title>[R] On the Biometric Capacity of Generative Face Models</title>
+                <link>https://www.reddit.com/r/MachineLearning/comments/16xx1r2/r_on_the_biometric_capacity_of_generative_face/</link>
+                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xx1r2</guid>
+                <pubDate>2023-10-02T13:45:19+00:00</pubDate>
+                <updated>2023-10-02T13:45:19+00:00</updated>
+                
+                
+                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>We developed a statistical model to estimate “How many unique identities can a generative face model generate?” without exhaustively generating a lot of faces.</p> <p><strong>Abstract:</strong> There has been tremendous progress in generating realistic faces with high fidelity over the past few years. Despite this progress, a crucial question remains unanswered: “Given a generative face model, how many unique identities can it generate?” In other words, what is the biometric capacity of the generative face model? A scientific basis for answering this question will benefit evaluating and comparing different generative face models and establish an upper bound on their scalability. This paper proposes a statistical approach to estimate the biometric capacity of generated face images in a hyperspherical feature space. We employ our approach on multiple generative models, including unconditional generators like StyleGAN, Latent Diffusion Model, and “Generated Photos,” as well as DCFace, a class-conditional generator. We also estimate capacity w.r.t. demographic attributes such as gender and age. Our capacity estimates indicate that (a) under ArcFace representation at a false acceptance rate (FAR) of 0.1%, StyleGAN3 and DCFace have a capacity upper bound of 1.43 million and 11,900, respectively; (b) the capacity reduces drastically as we lower the desired FAR with an estimate of 17,960 and 562 at FAR of 1% and 10%, respectively, for StyleGAN3; (c) there is no discernible disparity in the capacity w.r.t gender; and (d) for some generative models, there is an appreciable disparity in the capacity w.r.t age.</p> <p><strong>Paper:</strong> <a href="https://arxiv.org/abs/arXiv:2308.02065"><strong>https://arxiv.org/abs/arXiv:2308.02065</strong></a></p> <p><strong>Code:</strong> <a href="https://github.com/human-analysis/capacity-generative-face-models"><strong>https://github.com/human-analysis/capacity-generative-face-models</strong></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/VishDev"> /u/VishDev </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xx1r2/r_on_the_biometric_capacity_of_generative_face/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xx1r2/r_on_the_biometric_capacity_of_generative_face/">[comments]</a></span>]]></content:encoded>
+            </item>
+        
+            <item>
                 <id>https://www.reddit.com/r/MachineLearning/t3_16xg8nh</id>
                 <title>[R] The unsolved mystery at the heard of the "How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions" paper</title>
                 <link>https://www.reddit.com/r/MachineLearning/comments/16xg8nh/r_the_unsolved_mystery_at_the_heard_of_the_how_to/</link>
@@ -185,30 +197,6 @@
             </item>
         
             <item>
-                <id>https://www.reddit.com/r/MachineLearning/t3_16xw5jc</id>
-                <title>[D] Is the arms race already won?</title>
-                <link>https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/</link>
-                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xw5jc</guid>
-                <pubDate>2023-10-02T13:05:15+00:00</pubDate>
-                <updated>2023-10-02T13:05:15+00:00</updated>
-                
-                
-                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>The main point of this post is to look at the six main competitors to OpenAI and to gauge whether or not, as of Q4 2023, it's possible for a new company to emerge and credibly compete with the incumbents. </p> <ul> <li>DeepMind: The largest competitor to OpenAI. It's even more established from a research point of view than OpenAI, but to date they've been much less focused on consumer products</li> <li>Anthropic: Founded in 2021, so Anthropic shows that it's not impossible for younger models / products to gain significant traction. Claude is the chatGPT-alternative that's largely focused on protecting against adversarial prompting. It's the second-largest funded competitor after DeepMind.</li> <li>Cohere: Focused on building language models and a suite of products for companies as opposed to consumers.</li> <li>Stability AI: Carving out a niche by remaining committed to open source, which OpenAI moved away from post GPT-2. Stable Diffusion also has largely beaten DALL-E in image quality</li> <li>EleutherAI: Essentially a research initiative that has produced several open-source datasets and ML models. They pivoted to this non-profit structure after they realized the scale of resources that they would need</li> <li>Hugging Face: Lowering the barriers to train ML models. Github-like platform for hosting, training, fine-tuning and deploying models<br /> Each org has unique strengths and different GTM strategies (e.g. OpenAI's consumer product-heavy approach vs Cohere's institutional push vs Stability's laser focus on quality image generation and open source). This isn't to mention Apple's, Amazon's, Meta's, Tesla's, etc internal efforts. I'm prompted to ponder a question: Is there room for another key player? History has shown us that being first doesn't always mean being the ultimate winner. Facebook entered social networking as the *seventh* startup, more than a year after its earliest competitors. Similarly, Apple wasn't the pioneer of personal computing but became a dominant force through its design philosophy and relentless BD. Is it conceivable that in Q4 2023, a dark horse, brand new foundational layer startup can enter the arena and challenge these incumbents? Or are we simply too far into the industry's development for any new player *at the LLM level* to actually be able to bring something new to the table?</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/SloppyDrunkCarrot"> /u/SloppyDrunkCarrot </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/">[comments]</a></span>]]></content:encoded>
-            </item>
-        
-            <item>
-                <id>https://www.reddit.com/r/MachineLearning/t3_16xonzn</id>
-                <title>[D] How can I determine the cause why recommendation model is not performing well on dataset</title>
-                <link>https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/</link>
-                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xonzn</guid>
-                <pubDate>2023-10-02T05:56:30+00:00</pubDate>
-                <updated>2023-10-02T05:56:30+00:00</updated>
-                
-                
-                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>I have around 20 different sets of data, the features in these datasets are identical, they only differ by the time the data was recorded. I have Factorization Machine (FM) model to generate predictions for these datasets (for each of the datasets the model is trained and evaluated independently). I also use simple Collaborative Filtering (CF) model to benchmark FM's performance.</p> <p>While FM generally performs better than CF, I have noticed that in some cases CF outperforms FM by a large margin. I want to determine why this happens, more specifically what is so different in the datasets where FM performs poorly (I am using mean average precision as a metric).</p> <p>One idea I had was to check the sparsity of interaction matrices, but it seems that the sparsity is practically identical in all 20 cases. Is there anything I can do to identify why exactly FM is underperforming, or perhaps increase its performance?</p> <p>Any help would be appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Modruc"> /u/Modruc </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/">[comments]</a></span>]]></content:encoded>
-            </item>
-        
-            <item>
                 <id>https://www.reddit.com/r/MachineLearning/t3_16x1fzr</id>
                 <title>[R] SOTA of Deep-Shallow Encoder-Decoder LLMs for fast inference</title>
                 <link>https://www.reddit.com/r/MachineLearning/comments/16x1fzr/r_sota_of_deepshallow_encoderdecoder_llms_for/</link>
@@ -218,6 +206,18 @@
                 
                 
                 <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>There's some evidence [1] [2] that it's possible to run text2text language model at substantially (potentially on the order of magnitude) better inference speed by keeping the decoder shallow.</p> <p>I'm curious whether some <em>general reasoner</em> SOTA (small model for machine translation available at [3]) style models are publicly available for this sort of thing.</p> <p>If not, how would one go about training one?</p> <p>Would it be necessary to do it entirely from scratch (extremely costly)? Or would it be possible to take, say, Flan-UL2 (20B), chop off its decoder, and train a much smaller decoder on top of it with the UL2 encoder frozen (ie how one trains adapter layers).</p> <p>Assuming the decoder hyperparameters are kept small, would this be possible within reasonable compute budget? Would that even meaningfully converge with small amount of compute (assuming same training objective as is for UL2)?</p> <p>Would the strength (ie somewhat comparable to 10B if we cut 20B in half) transfer from the SOTA encoder, or would cutting off half of the model layers kneecap it too badly?</p> <p>[1] <a href="https://arxiv.org/pdf/2006.10369.pdf">https://arxiv.org/pdf/2006.10369.pdf</a></p> <p>[2] <a href="https://aclanthology.org/2023.sustainlp-1.6.pdf">https://aclanthology.org/2023.sustainlp-1.6.pdf</a></p> <p>[3] <a href="https://github.com/snoop2head/Deep-Encoder-Shallow-Decoder">https://github.com/snoop2head/Deep-Encoder-Shallow-Decoder</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/upalse"> /u/upalse </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16x1fzr/r_sota_of_deepshallow_encoderdecoder_llms_for/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16x1fzr/r_sota_of_deepshallow_encoderdecoder_llms_for/">[comments]</a></span>]]></content:encoded>
+            </item>
+        
+            <item>
+                <id>https://www.reddit.com/r/MachineLearning/t3_16xw5jc</id>
+                <title>[D] Is the arms race already won?</title>
+                <link>https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/</link>
+                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xw5jc</guid>
+                <pubDate>2023-10-02T13:05:15+00:00</pubDate>
+                <updated>2023-10-02T13:05:15+00:00</updated>
+                
+                
+                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>The main point of this post is to look at the six main competitors to OpenAI and to gauge whether or not, as of Q4 2023, it's possible for a new company to emerge and credibly compete with the incumbents. </p> <ul> <li>DeepMind: The largest competitor to OpenAI. It's even more established from a research point of view than OpenAI, but to date they've been much less focused on consumer products</li> <li>Anthropic: Founded in 2021, so Anthropic shows that it's not impossible for younger models / products to gain significant traction. Claude is the chatGPT-alternative that's largely focused on protecting against adversarial prompting. It's the second-largest funded competitor after DeepMind.</li> <li>Cohere: Focused on building language models and a suite of products for companies as opposed to consumers.</li> <li>Stability AI: Carving out a niche by remaining committed to open source, which OpenAI moved away from post GPT-2. Stable Diffusion also has largely beaten DALL-E in image quality</li> <li>EleutherAI: Essentially a research initiative that has produced several open-source datasets and ML models. They pivoted to this non-profit structure after they realized the scale of resources that they would need</li> <li>Hugging Face: Lowering the barriers to train ML models. Github-like platform for hosting, training, fine-tuning and deploying models<br /> Each org has unique strengths and different GTM strategies (e.g. OpenAI's consumer product-heavy approach vs Cohere's institutional push vs Stability's laser focus on quality image generation and open source). This isn't to mention Apple's, Amazon's, Meta's, Tesla's, etc internal efforts. I'm prompted to ponder a question: Is there room for another key player? History has shown us that being first doesn't always mean being the ultimate winner. Facebook entered social networking as the *seventh* startup, more than a year after its earliest competitors. Similarly, Apple wasn't the pioneer of personal computing but became a dominant force through its design philosophy and relentless BD. Is it conceivable that in Q4 2023, a dark horse, brand new foundational layer startup can enter the arena and challenge these incumbents? Or are we simply too far into the industry's development for any new player *at the LLM level* to actually be able to bring something new to the table?</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/SloppyDrunkCarrot"> /u/SloppyDrunkCarrot </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xw5jc/d_is_the_arms_race_already_won/">[comments]</a></span>]]></content:encoded>
             </item>
         
             <item>
@@ -233,6 +233,18 @@
             </item>
         
             <item>
+                <id>https://www.reddit.com/r/MachineLearning/t3_16xonzn</id>
+                <title>[D] How can I determine the cause why recommendation model is not performing well on dataset</title>
+                <link>https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/</link>
+                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xonzn</guid>
+                <pubDate>2023-10-02T05:56:30+00:00</pubDate>
+                <updated>2023-10-02T05:56:30+00:00</updated>
+                
+                
+                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>I have around 20 different sets of data, the features in these datasets are identical, they only differ by the time the data was recorded. I have Factorization Machine (FM) model to generate predictions for these datasets (for each of the datasets the model is trained and evaluated independently). I also use simple Collaborative Filtering (CF) model to benchmark FM's performance.</p> <p>While FM generally performs better than CF, I have noticed that in some cases CF outperforms FM by a large margin. I want to determine why this happens, more specifically what is so different in the datasets where FM performs poorly (I am using mean average precision as a metric).</p> <p>One idea I had was to check the sparsity of interaction matrices, but it seems that the sparsity is practically identical in all 20 cases. Is there anything I can do to identify why exactly FM is underperforming, or perhaps increase its performance?</p> <p>Any help would be appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Modruc"> /u/Modruc </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xonzn/d_how_can_i_determine_the_cause_why/">[comments]</a></span>]]></content:encoded>
+            </item>
+        
+            <item>
                 <id>https://www.reddit.com/r/MachineLearning/t3_16wn8qu</id>
                 <title>[n] Introducing r/AudioAI: Any AI You Can Hear!</title>
                 <link>https://www.reddit.com/r/MachineLearning/comments/16wn8qu/n_introducing_raudioai_any_ai_you_can_hear/</link>
@@ -245,18 +257,6 @@
             </item>
         
             <item>
-                <id>https://www.reddit.com/r/MachineLearning/t3_16xq1je</id>
-                <title>[D] Does anybody know why OpenAI's ChatGPT-4 Internet browsing was taken down previously?</title>
-                <link>https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/</link>
-                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xq1je</guid>
-                <pubDate>2023-10-02T07:18:06+00:00</pubDate>
-                <updated>2023-10-02T07:18:06+00:00</updated>
-                
-                
-                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>I recall a while back that GPT-4's Internet browsing capability was disabled after having been enabled for a while. Now I'm seeing news again that it's been re-introduced?</p> <p>Does anybody know why it was taken down in the first place? That was honestly one of the only reasons why I paid.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Seankala"> /u/Seankala </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/">[comments]</a></span>]]></content:encoded>
-            </item>
-        
-            <item>
                 <id>https://www.reddit.com/r/MachineLearning/t3_16xnxgf</id>
                 <title>How to use the YOLO dataset format [P]</title>
                 <link>https://www.reddit.com/r/MachineLearning/comments/16xnxgf/how_to_use_the_yolo_dataset_format_p/</link>
@@ -266,6 +266,18 @@
                 
                 
                 <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>I am working on a convolutional neural network (CNN) for segmentation and classification, and I have a custom function to reintroduce the last prediction to avoid flickering in videos. I am also considering some improvements, such as using multiple smaller convolutional heads instead of relying on a single one. However, I'm facing some issues with training and want to make the training compatible with the YOLO format.</p> <p>import tensorflow as tf</p> <p>from tensorflow.keras import layers</p> <p>import numpy as np</p> <p>def per_baipas(x):</p> <p># Stores the last prediction of dense_layer_8, if no prediction has been made yet, it passes an input composed of zeros</p> <p>global ulti_predic</p> <p>try:</p> <p>if(ulti_predic==None):</p> <p>ulti_predic=x</p> <p>return(ulti_predic)</p> <p>else:</p> <p>ulti_predic=ulti_predic</p> <p>return(ulti_predic)</p> <p>except:</p> <p>return(x)</p> <p># Define the input layer of the neural network:</p> <p>input_layer = layers.Input(shape=(640, 640, 3))</p> <p># Original convolution and pooling layers:</p> <p>conv_layer_1 = layers.Conv2D(filters=600, kernel_size=3, activation='relu')(input_layer)</p> <p>pooling_layer_1 = layers.MaxPooling2D(pool_size=(2, 2))(conv_layer_1)</p> <p>conv_layer_2 = layers.Conv2D(filters=300, kernel_size=3, activation='relu')(pooling_layer_1)</p> <p>pooling_layer_2 = layers.MaxPooling2D(pool_size=(2, 2))(conv_layer_2)</p> <p>conv_layer_3 = layers.Conv2D(filters=400, kernel_size=3, activation='relu')(pooling_layer_2)</p> <p>pooling_layer_3 = layers.MaxPooling2D(pool_size=(2, 2))(conv_layer_3)</p> <p># LSTM layer and connection to dense layer:</p> <p>flatten_layer = layers.Flatten()(pooling_layer_3)</p> <p>dense_layer_1 = layers.Dense(units=230, activation='relu')(flatten_layer)</p> <p>dense_layer_2 = layers.Dense(units=150, activation='relu')(dense_layer_1)</p> <p>ulti=per_baipas(dense_layer_2)</p> <p># Agregar capa LSTM:</p> <p>con_l=layers.concatenate([dense_layer_2, ulti], axis=-1)</p> <p>reshaped_layer = layers.Reshape((1, -1))(con_l) # Adds a time dimension</p> <p>lstm_layer = layers.LSTM(units=240, activation='tanh')(reshaped_layer)</p> <p># Additional dense layers connected to LSTM and previous layers:</p> <p>dense_layer_3 = layers.Dense(units=55, activation='relu')(lstm_layer)</p> <p>dense_layer_4 = layers.Dense(units=30, activation='relu')(dense_layer_2)</p> <p>dense_layer_5 = layers.Dense(units=60, activation='relu')(dense_layer_4)</p> <p>dense_layer_6 = layers.Dense(units=75, activation='relu')(dense_layer_5)</p> <p>dense_layer_7 = layers.Dense(units=150, activation='relu')(layers.concatenate([dense_layer_6, dense_layer_3], axis=-1))</p> <p>dense_layer_8 = layers.Dense(units=150, activation='relu')(dense_layer_7)</p> <p>ulti_predic=dense_layer_8</p> <p>mask=layers.Dense(units=65, activation='relu')(dense_layer_8)</p> <p>clas=layers.Dense(units=50, activation='relu')(dense_layer_8)</p> <p># Output layers:</p> <p>output_layer_1 = layers.Dense(units=640 * 640, activation='sigmoid',name=&quot;segment&quot;)(mask)</p> <p>output_layer_2 = layers.Dense(units=30, activation='Softmax',name=&quot;cals&quot;)(clas)</p> <p>model = tf.keras.Model(inputs=input_layer, outputs=[output_layer_1, output_layer_2])</p> <p>model.summary()</p> <p>model.compile(optimizer=&quot;Adam&quot;,loss=&quot;categorical_crossentropy&quot;, metrics=&quot;accuracy&quot;)</p> <p>This is an example of how training can be done:</p> <p>import numpy as np</p> <p>import gc</p> <p>gc.collect()</p> <p>#model.compile(optimizer=&quot;Adam&quot;,loss=&quot;categorical_crossentropy&quot;, metrics=&quot;accuracy&quot;)</p> <p>x_train = np.random.rand(1, 640, 640, 3)</p> <p>y_train_1 = np.random.rand(1, 640 * 640)</p> <p>#y_train_2 = np.array(1)</p> <p>etiquetas = [1]</p> <p>num_clases = 30</p> <p>etiquetas_one_hot = np.zeros((len(etiquetas), num_clases))</p> <p>for i, label in enumerate(etiquetas):</p> <p>etiquetas_one_hot[i, label] = 1</p> <p>y_train_2=etiquetas_one_hot</p> <p>model.fit(x_train, [y_train_1, y_train_2], epochs=100, batch_size=1)</p> <p>How to train with masks and labels in YOLO format with my current model? Or do I need to modify my output layers?</p> <p>I tried training it this way, but it didn't work:</p> <p>&#x200b;</p> <p>One last thing, some tabs in my code may have been lost when I copied it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/theomnissiah10101011"> /u/theomnissiah10101011 </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xnxgf/how_to_use_the_yolo_dataset_format_p/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xnxgf/how_to_use_the_yolo_dataset_format_p/">[comments]</a></span>]]></content:encoded>
+            </item>
+        
+            <item>
+                <id>https://www.reddit.com/r/MachineLearning/t3_16xq1je</id>
+                <title>[D] Does anybody know why OpenAI's ChatGPT-4 Internet browsing was taken down previously?</title>
+                <link>https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/</link>
+                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16xq1je</guid>
+                <pubDate>2023-10-02T07:18:06+00:00</pubDate>
+                <updated>2023-10-02T07:18:06+00:00</updated>
+                
+                
+                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>I recall a while back that GPT-4's Internet browsing capability was disabled after having been enabled for a while. Now I'm seeing news again that it's been re-introduced?</p> <p>Does anybody know why it was taken down in the first place? That was honestly one of the only reasons why I paid.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Seankala"> /u/Seankala </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16xq1je/d_does_anybody_know_why_openais_chatgpt4_internet/">[comments]</a></span>]]></content:encoded>
             </item>
         
             <item>
@@ -314,18 +326,6 @@
                 
                 
                 <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>How, outside of testing, do you estimate how quickly a specific model will run on some hardware? Anything about time is rarely mentioned in papers and if it is, it's more likely to talk about training, unless authors are specifically proud of their speed (like YOLO). Even less so in any README.</p> <p>Some way to translate numbers of parameters into seconds on a given GPU/CPU, any rules of thumb better than just setting up everything every time?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/teleoflexuous"> /u/teleoflexuous </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16wf3lk/d_how_can_you_estimate_inference_speed_of_a_nn/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16wf3lk/d_how_can_you_estimate_inference_speed_of_a_nn/">[comments]</a></span>]]></content:encoded>
-            </item>
-        
-            <item>
-                <id>https://www.reddit.com/r/MachineLearning/t3_16x975p</id>
-                <title>[P] Simplest model to run with limited hardware</title>
-                <link>https://www.reddit.com/r/MachineLearning/comments/16x975p/p_simplest_model_to_run_with_limited_hardware/</link>
-                <guid isPermaLink="false">https://www.reddit.com/r/MachineLearning/t3_16x975p</guid>
-                <pubDate>2023-10-01T18:46:32+00:00</pubDate>
-                <updated>2023-10-01T18:46:32+00:00</updated>
-                
-                
-                <content:encoded><![CDATA[<!-- SC_OFF --><div class="md"><p>We want to run (not train, i.e. think single forward pass only) an ML algorithm on a machine with very limited resources.</p> <p>Which model could we use to show off the possibilities?</p> <p>If the benchmark is an MLP for binary image classification, what else could we do with a similar scale of operations?</p> <p>E.g.</p> <p>Which model is the simplest for e.g. text-to-image generation?</p> <p>Any other ML models that are simple enough to run and if initialized with good params, does something impressive</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/2i2i_tokenized_time"> /u/2i2i_tokenized_time </a> <br /> <span><a href="https://www.reddit.com/r/MachineLearning/comments/16x975p/p_simplest_model_to_run_with_limited_hardware/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/16x975p/p_simplest_model_to_run_with_limited_hardware/">[comments]</a></span>]]></content:encoded>
             </item>
         
     </channel>
