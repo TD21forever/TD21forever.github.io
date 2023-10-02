@@ -141,23 +141,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y2ik6</id>
-            <title>Tips/resources on understanding Upscaling techniques and converting models?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y2ik6/tipsresources_on_understanding_upscaling/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16y2ik6</guid>
-            <pubDate>2023-10-02T17:21:08+00:00</pubDate>
-            <updated>2023-10-02T17:21:08+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    &#32; submitted by &#32; <a href="https://www.reddit.com/user/stomach"> /u/stomach </a> <br /> <span><a href="https://www.reddit.com/r/aiArt/comments/16y23ej/tipsresources_on_understanding_upscaling/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y2ik6/tipsresources_on_understanding_upscaling/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y16et</id>
             <title>New research: Teaching LLMs to use math tools helps them solve way more complex problems.</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y16et/new_research_teaching_llms_to_use_math_tools/</link>
@@ -170,6 +153,23 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>When trying to get language models to solve complex math problems, researchers kept running into limits. Models like GPT-3 and ChatGPT still struggle with advanced algebra, calculus, and geometry questions. The math is just too abstract and symbol-heavy for them.</p> <p>To break through this barrier, researchers from Tsinghua University and Microsoft taught models to combine natural language reasoning with calling external math tools.</p> <p>The key is their new &quot;tool-integrated reasoning&quot; format. Models generate a natural language plan first, then write code to invoke tools like SymPy to solve equations. They take the output results and continue verbal reasoning.</p> <p>By interleaving natural language and symbolic computations, they get the best of both worlds - semantic understanding from language models and rigorous math from tools.</p> <p>They trained versions of the LLaMA model this way, producing their Tool-Integrated Reasoning Agent (TORA). They present some strong results:</p> <ul> <li>In evaluations on 10 math datasets, TORA substantially outperformed prior state-of-the-art methods, achieving 13-19% higher accuracy on average.</li> <li>On one competition test, TORA-7B scored 40% accuracy, beating the previous best model by 22 percentage points.</li> </ul> <p>This demonstrates that integrating tools directly into the reasoning process can significantly enhance mathematical capabilities, even for large models like GPT-4.</p> <p>However, tough problems involving geometry and advanced algebra are still there. New techniques for symbolic reasoning and spatial understanding will likely be needed to push further.</p> <p>Overall though, tool integration seems a promising path to improve reasoning skills. Applying this to other domains like logic and programming could also be impactful.</p> <p><strong>TLDR:</strong> Teaching language models to use math tools helps them solve way more complex problems.</p> <p><a href="https://notes.aimodels.fyi/researchers-announce-tora-training-language-models-to-better-understand-math-using-external-tools/"><strong>Full Paper Summary</strong></a></p> <p><a href="https://arxiv.org/pdf/2309.17452.pdf"><strong>arXiv Link</strong></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Successful-Western27"> /u/Successful-Western27 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y16et/new_research_teaching_llms_to_use_math_tools/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y16et/new_research_teaching_llms_to_use_math_tools/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y2ik6</id>
+            <title>Tips/resources on understanding Upscaling techniques and converting models?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y2ik6/tipsresources_on_understanding_upscaling/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16y2ik6</guid>
+            <pubDate>2023-10-02T17:21:08+00:00</pubDate>
+            <updated>2023-10-02T17:21:08+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    &#32; submitted by &#32; <a href="https://www.reddit.com/user/stomach"> /u/stomach </a> <br /> <span><a href="https://www.reddit.com/r/aiArt/comments/16y23ej/tipsresources_on_understanding_upscaling/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y2ik6/tipsresources_on_understanding_upscaling/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -379,23 +379,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</id>
-            <title>Am I being paranoid about A.I.</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</guid>
-            <pubDate>2023-10-02T06:50:37+00:00</pubDate>
-            <updated>2023-10-02T06:50:37+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p>I was lying on my bed before going to sleep and heard an electric type sound come from my phone. I leaned over and saw the word “listening”….I instantly deleted the app from my phone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ANIAT444"> /u/ANIAT444 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xmmw5</id>
             <title>Define Reason.</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xmmw5/define_reason/</link>
@@ -425,6 +408,23 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>I think I'll just put a bunch of highly related links:</p> <p>Experts express concerns about the use of AI by authoritarian governments for detecting and suppressing non-conformant behavior, which could extend to various aspects of human belief and behavior. AI coupled with gamification has the potential to produce inhumane human behavior. -perplexety AI</p> <p>[(<a href="https://www.pewresearch.org/internet/2023/06/21/themes-the-most-harmful-or-menacing-changes-in-digital-life-that-are-likely-by-2035/)">https://www.pewresearch.org/internet/2023/06/21/themes-the-most-harmful-or-menacing-changes-in-digital-life-that-are-likely-by-2035/)</a>]</p> <p>PMC - NCBI: Censorship is a more extreme form of biased information seeking, as it not only biases one's own online environment but also delimits the online content available to others. The use of LLMs for censorship can further amplify the impact of this practice (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7415017/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7415017/</a>)</p> <p><a href="https://www.lesswrong.com/posts/oqvsR2LmHWamyKDcj/large-language-models-will-be-great-for-censorship">https://www.lesswrong.com/posts/oqvsR2LmHWamyKDcj/large-language-models-will-be-great-for-censorship</a></p> <p><a href="https://freedomhouse.org/report/freedom-net/2018/rise-digital-authoritarianism">https://freedomhouse.org/report/freedom-net/2018/rise-digital-authoritarianism</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ImTooSt8ned"> /u/ImTooSt8ned </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x546z/how_worried_are_we_about_the_effects_of_large/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x546z/how_worried_are_we_about_the_effects_of_large/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</id>
+            <title>Am I being paranoid about A.I.</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</guid>
+            <pubDate>2023-10-02T06:50:37+00:00</pubDate>
+            <updated>2023-10-02T06:50:37+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p>I was lying on my bed before going to sleep and heard an electric type sound come from my phone. I leaned over and saw the word “listening”….I instantly deleted the app from my phone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ANIAT444"> /u/ANIAT444 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
