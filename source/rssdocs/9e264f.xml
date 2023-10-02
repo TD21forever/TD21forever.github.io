@@ -124,6 +124,23 @@
         </item>
         
         <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y76l3</id>
+            <title>According to Amnon Shushua, LLMs lack the ability to reason</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y76l3/according_to_amnon_shushua_llms_lack_the_ability/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16y76l3</guid>
+            <pubDate>2023-10-02T20:19:52+00:00</pubDate>
+            <updated>2023-10-02T20:19:52+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p><a href="https://youtu.be/OiN9Jz27NKE?si=0fRPeZ7rmgcGZXXQ&amp;t=1013">https://youtu.be/OiN9Jz27NKE?si=0fRPeZ7rmgcGZXXQ&amp;t=1013</a></p> <p>Amnon Shashua, Professor of Computer Science, says that LLMs have the ability to reason but lack the ability to abstract. Some new tech that gives A.I.s the ability to abstract could come tomorrow, in 50 years, or later. Without this ability LLMs will never be generally intelligent.<br /> 17 minutes into the video if you want the gist.</p> <p>My personal take: LLMs have shown some ability to generalize when is a form of abstraction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/danielcar"> /u/danielcar </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y76l3/according_to_amnon_shushua_llms_lack_the_ability/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y76l3/according_to_amnon_shushua_llms_lack_the_ability/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y4agd</id>
             <title>Do you guys think OpenAI can be threat to us?</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y4agd/do_you_guys_think_openai_can_be_threat_to_us/</link>
@@ -345,23 +362,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16x2isj</id>
-            <title>Meta researchers discover explicit registers eliminate ViT attention spikes</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16x2isj</guid>
-            <pubDate>2023-10-01T14:22:30+00:00</pubDate>
-            <updated>2023-10-01T14:22:30+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p>When visualizing the inner workings of vision transformers (ViTs), researchers noticed weird spikes of attention on random background patches. This didn't make sense since the models should focus on foreground objects.</p> <p>By analyzing the output embeddings, they found a small number of tokens (2%) had super high vector norms, causing the spikes.</p> <p>The high-norm &quot;outlier&quot; tokens occurred in redundant areas and held less local info but more global info about the image.</p> <p>Their hypothesis is that ViTs learn to identify unimportant patches and recycle them as temporary storage instead of discarding. This enables efficient processing but causes issues.</p> <p>Their fix is simple - just add dedicated &quot;register&quot; tokens that provide storage space, avoiding the recycling side effects.</p> <p>Models trained with registers have:</p> <ul> <li>Smoother and more meaningful attention maps</li> <li>Small boosts in downstream performance</li> <li>Way better object discovery abilities</li> </ul> <p>The registers give ViTs a place to do their temporary computations without messing stuff up. Just a tiny architecture tweak improves interpretability and performance. Sweet!</p> <p>I think it's cool how they reverse-engineered this model artifact and fixed it with such a small change. More work like this will keep incrementally improving ViTs.</p> <p>TLDR: Vision transformers recycle useless patches to store data, causing problems. Adding dedicated register tokens for storage fixes it nicely.</p> <p><a href="https://notes.aimodels.fyi/demystifying-the-artifacts-in-vision-transformer-models/"><strong>Full summary</strong></a><strong>.</strong> Paper is <a href="https://arxiv.org/pdf/2309.16588.pdf">here</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Successful-Western27"> /u/Successful-Western27 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</id>
             <title>Am I being paranoid about A.I.</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/</link>
@@ -374,6 +374,23 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>I was lying on my bed before going to sleep and heard an electric type sound come from my phone. I leaned over and saw the word “listening”….I instantly deleted the app from my phone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ANIAT444"> /u/ANIAT444 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16x2isj</id>
+            <title>Meta researchers discover explicit registers eliminate ViT attention spikes</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16x2isj</guid>
+            <pubDate>2023-10-01T14:22:30+00:00</pubDate>
+            <updated>2023-10-01T14:22:30+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p>When visualizing the inner workings of vision transformers (ViTs), researchers noticed weird spikes of attention on random background patches. This didn't make sense since the models should focus on foreground objects.</p> <p>By analyzing the output embeddings, they found a small number of tokens (2%) had super high vector norms, causing the spikes.</p> <p>The high-norm &quot;outlier&quot; tokens occurred in redundant areas and held less local info but more global info about the image.</p> <p>Their hypothesis is that ViTs learn to identify unimportant patches and recycle them as temporary storage instead of discarding. This enables efficient processing but causes issues.</p> <p>Their fix is simple - just add dedicated &quot;register&quot; tokens that provide storage space, avoiding the recycling side effects.</p> <p>Models trained with registers have:</p> <ul> <li>Smoother and more meaningful attention maps</li> <li>Small boosts in downstream performance</li> <li>Way better object discovery abilities</li> </ul> <p>The registers give ViTs a place to do their temporary computations without messing stuff up. Just a tiny architecture tweak improves interpretability and performance. Sweet!</p> <p>I think it's cool how they reverse-engineered this model artifact and fixed it with such a small change. More work like this will keep incrementally improving ViTs.</p> <p>TLDR: Vision transformers recycle useless patches to store data, causing problems. Adding dedicated register tokens for storage fixes it nicely.</p> <p><a href="https://notes.aimodels.fyi/demystifying-the-artifacts-in-vision-transformer-models/"><strong>Full summary</strong></a><strong>.</strong> Paper is <a href="https://arxiv.org/pdf/2309.16588.pdf">here</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Successful-Western27"> /u/Successful-Western27 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -442,23 +459,6 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>October 1, 1950 saw the publication of &quot;Computing Machinery and Intelligence&quot; by a certain A. M. Turing.</p> <p>Maybe a good date for an AI World Day... 🤔</p> <p><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">https://academic.oup.com/mind/article/LIX/236/433/986238</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/CurPeo"> /u/CurPeo </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wumqe/ai_world_day/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wumqe/ai_world_day/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16ww602</id>
-            <title>How feasible is building a personal image generating AI?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16ww602</guid>
-            <pubDate>2023-10-01T08:59:58+00:00</pubDate>
-            <updated>2023-10-01T08:59:58+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p>I have a dream of building my own personal image generating AI trained on my own artwork/images.</p> <p>I'm not completely unfamiliar to programming &amp; computer science, so I wouldn't necessarily be starting from scratch.</p> <p>Is this feasible without dedicating a career to it? Could anyone set me on the right path to achieving this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/samwele-"> /u/samwele- </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
