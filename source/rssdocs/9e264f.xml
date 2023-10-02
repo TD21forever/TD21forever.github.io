@@ -107,6 +107,23 @@
         </item>
         
         <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y4agd</id>
+            <title>Do you guys think OpenAI can be threat to us?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y4agd/do_you_guys_think_openai_can_be_threat_to_us/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16y4agd</guid>
+            <pubDate>2023-10-02T18:28:50+00:00</pubDate>
+            <updated>2023-10-02T18:28:50+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p>AGI soon will be achieved and Sam Altman and their friends will have that ultimate power.</p> <p>And AI that can write crazy fast and good code, which can create the best musics and art. It will predict stock market, it will be the ultimate power and will do everything better than humans. And then what? How will he use that power? </p> <p>I am sure it won't be pure good.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/first_reddit_user_"> /u/first_reddit_user_ </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y4agd/do_you_guys_think_openai_can_be_threat_to_us/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y4agd/do_you_guys_think_openai_can_be_threat_to_us/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y2ik6</id>
             <title>Tips/resources on understanding Upscaling techniques and converting models?</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y2ik6/tipsresources_on_understanding_upscaling/</link>
@@ -311,23 +328,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</id>
-            <title>Am I being paranoid about A.I.</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</guid>
-            <pubDate>2023-10-02T06:50:37+00:00</pubDate>
-            <updated>2023-10-02T06:50:37+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p>I was lying on my bed before going to sleep and heard an electric type sound come from my phone. I leaned over and saw the word “listening”….I instantly deleted the app from my phone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ANIAT444"> /u/ANIAT444 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16x2isj</id>
             <title>Meta researchers discover explicit registers eliminate ViT attention spikes</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/</link>
@@ -340,6 +340,23 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>When visualizing the inner workings of vision transformers (ViTs), researchers noticed weird spikes of attention on random background patches. This didn't make sense since the models should focus on foreground objects.</p> <p>By analyzing the output embeddings, they found a small number of tokens (2%) had super high vector norms, causing the spikes.</p> <p>The high-norm &quot;outlier&quot; tokens occurred in redundant areas and held less local info but more global info about the image.</p> <p>Their hypothesis is that ViTs learn to identify unimportant patches and recycle them as temporary storage instead of discarding. This enables efficient processing but causes issues.</p> <p>Their fix is simple - just add dedicated &quot;register&quot; tokens that provide storage space, avoiding the recycling side effects.</p> <p>Models trained with registers have:</p> <ul> <li>Smoother and more meaningful attention maps</li> <li>Small boosts in downstream performance</li> <li>Way better object discovery abilities</li> </ul> <p>The registers give ViTs a place to do their temporary computations without messing stuff up. Just a tiny architecture tweak improves interpretability and performance. Sweet!</p> <p>I think it's cool how they reverse-engineered this model artifact and fixed it with such a small change. More work like this will keep incrementally improving ViTs.</p> <p>TLDR: Vision transformers recycle useless patches to store data, causing problems. Adding dedicated register tokens for storage fixes it nicely.</p> <p><a href="https://notes.aimodels.fyi/demystifying-the-artifacts-in-vision-transformer-models/"><strong>Full summary</strong></a><strong>.</strong> Paper is <a href="https://arxiv.org/pdf/2309.16588.pdf">here</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Successful-Western27"> /u/Successful-Western27 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16x2isj/meta_researchers_discover_explicit_registers/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</id>
+            <title>Am I being paranoid about A.I.</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xpl44</guid>
+            <pubDate>2023-10-02T06:50:37+00:00</pubDate>
+            <updated>2023-10-02T06:50:37+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p>I was lying on my bed before going to sleep and heard an electric type sound come from my phone. I leaned over and saw the word “listening”….I instantly deleted the app from my phone.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ANIAT444"> /u/ANIAT444 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xpl44/am_i_being_paranoid_about_ai/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -442,23 +459,6 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>The most common argument that I see in favor of pushing forward with AI and work automation is that, although many jobs will be lost, many more will be created. Given advancements in the field of AI art is pretty much granted now that soon enough creating art will be fully automated and it won't make sense for businesses to ever employ digital artists save for minuscular tasks like tweaking AI artwork (which can probably be done by very few artists very quickly, reducing the demand for professionals in the field to almost 0). My question then is that once digital art disappears as a career, what job will AI create in it's place?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/b_rokal"> /u/b_rokal </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wmkt0/what_new_jobs_will_ai_art_create_to_compensate/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wmkt0/what_new_jobs_will_ai_art_create_to_compensate/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16wxleh</id>
-            <title>One-Minute Daily AI News 10/1/2023</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16wxleh/oneminute_daily_ai_news_1012023/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16wxleh</guid>
-            <pubDate>2023-10-01T10:25:33+00:00</pubDate>
-            <updated>2023-10-01T10:25:33+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><ol> <li>Microsoft Researchers Introduce AutoGen: An Artificial Intelligence Framework for Simplifying the Orchestration, Optimization, and Automation of LLM Workflows.[1]</li> <li>StoriaBoard helps filmmakers, marketers and other storytellers pre-visualize stories. Simply upload your script, select a visual style, and generate hundreds of frames in seconds.[2]</li> <li>Will Hurd Releases A.I. Plan, a First in the Republican Presidential Field.[3]</li> <li>Sam Altman says AI systems will automate some tasks but also lead to ‘new and much better jobs’.[4]</li> </ol> <p>Sources:</p> <p>[1] <a href="https://www.marktechpost.com/2023/09/30/microsoft-researchers-introduce-autogen-an-artificial-intelligence-framework-for-simplifying-the-orchestration-optimization-and-automation-of-llm-workflows/?amp">https://www.marktechpost.com/2023/09/30/microsoft-researchers-introduce-autogen-an-artificial-intelligence-framework-for-simplifying-the-orchestration-optimization-and-automation-of-llm-workflows/?amp</a></p> <p>[2] <a href="https://www.producthunt.com/posts/storiaboard">https://www.producthunt.com/posts/storiaboard</a></p> <p>[3] <a href="https://www.nytimes.com/2023/09/20/us/politics/will-hurd-ai-plan.html">https://www.nytimes.com/2023/09/20/us/politics/will-hurd-ai-plan.html</a></p> <p>[4] <a href="https://www.businessinsider.com/openai-sam-altman-ai-will-automate-tasks-create-better-jobs-2023-9?amp">https://www.businessinsider.com/openai-sam-altman-ai-will-automate-tasks-create-better-jobs-2023-9?amp</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Excellent-Target-847"> /u/Excellent-Target-847 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wxleh/oneminute_daily_ai_news_1012023/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wxleh/oneminute_daily_ai_news_1012023/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
