@@ -56,6 +56,23 @@
         </item>
         
         <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16yg8qq</id>
+            <title>Real world use case re: Aquarium/Fish Keeiping - Is there an AI that can interface with Pi Sensors?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16yg8qq/real_world_use_case_re_aquariumfish_keeiping_is/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16yg8qq</guid>
+            <pubDate>2023-10-03T02:35:55+00:00</pubDate>
+            <updated>2023-10-03T02:35:55+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p>I'm a fish keeper that has minimal understanding of AI's current potential. I have played around with ChatGPT and have a very limited/rudimentary understanding of AI - so I need your help. </p> <p>Is there a current AI platform that can interface with various sensors (water level, TDS (total dissolved solids), ph, Nitrite/Nitrate, live camera, LED controller...) ? </p> <p>I would like to develop a system that uses AI to control all aspects of fish keeping. </p> <p>A camera pointed at the tanks to identify fish species, age, health - and automatically find out the water parameters that are optimal for that particular fish(s) and adjust the water to be perfect. Pumps hooked up to various chemicals (ferts for plants, medications for various fish illnesses, food (even live food kept in breeding chambers above the tank) would be automatically turned on via servo motors and pump controllers. The AI would have to be able to diagnose problems using the camera as well as the various sensors. </p> <p>The R pi sensors measure everything - light levels, water, moisture in the air or near a tank in the case of spills. </p> <p>I know this will be possible eventually, but could it be done today with minimal programming? </p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Gov_CockPic"> /u/Gov_CockPic </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yg8qq/real_world_use_case_re_aquariumfish_keeiping_is/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yg8qq/real_world_use_case_re_aquariumfish_keeiping_is/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xxgrr</id>
             <title>What’s stopping someone to deploy a rogue AI</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xxgrr/whats_stopping_someone_to_deploy_a_rogue_ai/</link>
@@ -311,23 +328,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xtfqo</id>
-            <title>What are the benefits of using AI as a Service?🤖</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xtfqo</guid>
-            <pubDate>2023-10-02T10:52:00+00:00</pubDate>
-            <updated>2023-10-02T10:52:00+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p><strong>Cost-efficiency:</strong> AIaaS eliminates the need for organizations to invest heavily in infrastructure, software, and specialized personnel for data management and analytics. Instead, businesses can pay for data services on a subscription or usage basis, reducing upfront costs and ongoing maintenance expenses.</p> <p><strong>Scalability:</strong> AIaaS providers typically offer scalable solutions that can adapt to an organization's changing data needs. Whether you need to analyze a small dataset or process massive amounts of information, AIaaS can flexibly accommodate your requirements without the need for significant adjustments.</p> <p><strong>Data accessibility:</strong> AIaaS platforms often provide real-time or near-real-time access to data from various sources, both internal and external. This accessibility enables organizations to make quicker and data-driven decisions, as well as respond rapidly to changing market conditions.</p> <p><strong>Data quality and security:</strong> Many AIaaS providers focus on ensuring the quality and security of the data they deliver. This includes data cleansing, validation, and compliance with data privacy regulations. By leveraging AIaaS, organizations can benefit from high-quality, reliable data without investing in extensive data governance measures themselves.</p> <p><strong>Faster time-to-insights:</strong> AIaaS simplifies and accelerates the process of extracting valuable insights from data. With pre-built data models, analytics tools, and APIs, organizations can reduce the time and effort required for data analysis and reporting. This agility enables them to make more informed decisions and stay competitive in their respective industries.</p> <p>In summary, AI as a Service offers cost savings, scalability, improved data accessibility, enhanced data quality and security, and faster time-to-insights, making it a valuable solution for organizations seeking to leverage data effectively without the complexities of managing data infrastructure themselves.</p> <p>Content Credit: Cygnet Digital | Software Development Company | Ahmedabad</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Cygnet-Digital"> /u/Cygnet-Digital </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16y4agd</id>
             <title>Do you guys think OpenAI can be threat to us?</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16y4agd/do_you_guys_think_openai_can_be_threat_to_us/</link>
@@ -357,6 +357,23 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>I want to create a mixtape and need A.I. to create the transitions for the songs.</p> <p><a href="http://www.rave.dj">www.rave.dj</a> is the closest I could find, but its options are too limited. (Minimum of 10 songs and you can’t control the order of the songs or the output whatsoever) </p> <p>Any leads?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Atomicityy"> /u/Atomicityy </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xrsdg/ai_wanted_to_blend_existing_songs_into_a_mixtape/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xrsdg/ai_wanted_to_blend_existing_songs_into_a_mixtape/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16xtfqo</id>
+            <title>What are the benefits of using AI as a Service?🤖</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16xtfqo</guid>
+            <pubDate>2023-10-02T10:52:00+00:00</pubDate>
+            <updated>2023-10-02T10:52:00+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <!-- SC_OFF --><div class="md"><p><strong>Cost-efficiency:</strong> AIaaS eliminates the need for organizations to invest heavily in infrastructure, software, and specialized personnel for data management and analytics. Instead, businesses can pay for data services on a subscription or usage basis, reducing upfront costs and ongoing maintenance expenses.</p> <p><strong>Scalability:</strong> AIaaS providers typically offer scalable solutions that can adapt to an organization's changing data needs. Whether you need to analyze a small dataset or process massive amounts of information, AIaaS can flexibly accommodate your requirements without the need for significant adjustments.</p> <p><strong>Data accessibility:</strong> AIaaS platforms often provide real-time or near-real-time access to data from various sources, both internal and external. This accessibility enables organizations to make quicker and data-driven decisions, as well as respond rapidly to changing market conditions.</p> <p><strong>Data quality and security:</strong> Many AIaaS providers focus on ensuring the quality and security of the data they deliver. This includes data cleansing, validation, and compliance with data privacy regulations. By leveraging AIaaS, organizations can benefit from high-quality, reliable data without investing in extensive data governance measures themselves.</p> <p><strong>Faster time-to-insights:</strong> AIaaS simplifies and accelerates the process of extracting valuable insights from data. With pre-built data models, analytics tools, and APIs, organizations can reduce the time and effort required for data analysis and reporting. This agility enables them to make more informed decisions and stay competitive in their respective industries.</p> <p>In summary, AI as a Service offers cost savings, scalability, improved data accessibility, enhanced data quality and security, and faster time-to-insights, making it a valuable solution for organizations seeking to leverage data effectively without the complexities of managing data infrastructure themselves.</p> <p>Content Credit: Cygnet Digital | Software Development Company | Ahmedabad</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Cygnet-Digital"> /u/Cygnet-Digital </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16xtfqo/what_are_the_benefits_of_using_ai_as_a_service/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -442,23 +459,6 @@
                 <![CDATA[
                     
                     <!-- SC_OFF --><div class="md"><p>October 1, 1950 saw the publication of &quot;Computing Machinery and Intelligence&quot; by a certain A. M. Turing.</p> <p>Maybe a good date for an AI World Day... 🤔</p> <p><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">https://academic.oup.com/mind/article/LIX/236/433/986238</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/CurPeo"> /u/CurPeo </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wumqe/ai_world_day/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16wumqe/ai_world_day/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16ww602</id>
-            <title>How feasible is building a personal image generating AI?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16ww602</guid>
-            <pubDate>2023-10-01T08:59:58+00:00</pubDate>
-            <updated>2023-10-01T08:59:58+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    <!-- SC_OFF --><div class="md"><p>I have a dream of building my own personal image generating AI trained on my own artwork/images.</p> <p>I'm not completely unfamiliar to programming &amp; computer science, so I wouldn't necessarily be starting from scratch.</p> <p>Is this feasible without dedicating a career to it? Could anyone set me on the right path to achieving this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/samwele-"> /u/samwele- </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ww602/how_feasible_is_building_a_personal_image/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
