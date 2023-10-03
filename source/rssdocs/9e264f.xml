@@ -88,7 +88,7 @@
                         <div> 关键词: GPT-3, streaming uses, windowed attention, attention sinks
 <br>
 <br>
-总结: GPT-3在流式应用中表现不佳，因为其在超出训练长度的长文本上的性能下降。通过可视化注意力图，研究人员发现LLMs过度关注初始标记作为“注意力汇聚点”，即使这些标记没有意义。这种关注导致了注意力分布的固定。他们发现，驱逐这些汇聚点标记会导致注意力分数扭曲，从而破坏了预测。他们提出的“StreamingLLM”方法简单地缓存了一些初始的汇聚点标记和最近的标记。这样调整后的LLMs可以处理非常长的文本。使用StreamingLLM调整的模型可以平稳处理包含数百万标记的序列，并且比其他方法快22倍。更酷的是，在预训练期间添加一个特殊的“[Sink Token]”进一步提高了流式处理能力。模型只使用这个单一的标记作为锚点。我认为摘要最好地概括了这个方法的意义。 </div>
+总结: GPT-3在流式应用中表现不佳，因为其在超出训练长度的长文本上的性能下降。通过可视化注意力图，研究人员发现LLMs过度关注初始标记作为“注意力汇聚点”，即使这些标记没有意义。这种关注模式限制了注意力的分布。研究人员发现，去除这些汇聚点会导致注意力分数扭曲，从而不稳定预测结果。他们提出的“StreamingLLM”方法简单地缓存了一些初始汇聚点和最近的汇聚点，从而使LLMs能够处理非常长的文本。使用StreamingLLM调整的模型可以平稳处理包含数百万标记的序列，并且比其他方法快22倍。更酷的是，在预训练期间添加一个特殊的“[Sink Token]”进一步提高了流式处理能力。模型只使用这个单一的标记作为锚点。总之，StreamingLLM是一个高效的框架，使LLMs能够在没有任何微调的情况下推广到无限序列长度。 </div>
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p>LLMs like GPT-3 struggle in streaming uses like chatbots because their performance tanks on long texts exceeding their training length. I checked out a new paper investigating why windowed attention fails for this.</p> <p>By visualizing the attention maps, the researchers noticed LLMs heavily attend initial tokens as &quot;attention sinks&quot; even if meaningless. This anchors the distribution.</p> <p>They realized evicting these sink tokens causes the attention scores to get warped, destabilizing predictions.</p> <p>Their proposed &quot;StreamingLLM&quot; method simply caches a few initial sink tokens plus recent ones. This tweaks LLMs to handle crazy long texts. Models tuned with StreamingLLM smoothly processed sequences with millions of tokens, and were up to 22x faster than other approaches. </p> <p>Even cooler - adding a special &quot;[Sink Token]&quot; during pre-training further improved streaming ability. The model just used that single token as the anchor. I think the abstract says it best:</p> <blockquote> <p>We introduce StreamingLLM, an efficient framework that enables LLMs trained with a <strong>finite length attention window</strong> to generalize to <strong>infinite sequence length without any fine-tuning</strong>. We show that StreamingLLM can enable Llama-2, MPT, Falcon, and Pythia to perform stable and efficient language modeling with up to 4 million tokens and more.</p> </blockquote> <p>TLDR: LLMs break on long convos. Researchers found they cling to initial tokens as attention sinks. Caching those tokens lets LLMs chat infinitely.</p> <p><a href="https://notes.aimodels.fyi/llm-infinite-context-window-streamingllm/"><strong>Full summary here</strong></a></p> <p><strong>Paper link:</strong> <a href="https://arxiv.org/pdf/2309.17453.pdf"><strong>https://arxiv.org/pdf/2309.17453.pdf</strong></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Successful-Western27"> /u/Successful-Western27 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yr83s/mit_meta_cmu_researchers_llms_trained_with_a/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yr83s/mit_meta_cmu_researchers_llms_trained_with_a/">[comments]</a></span>
@@ -120,29 +120,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16ymo64</id>
-            <title>*TRUE* AI Personal Assistant implementation</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16ymo64</guid>
-            <pubDate></pubDate>
-            <updated>2023-10-03T08:55:52+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: AI assistants, daily routines, personal information, plans
-<br>
-<br>
-总结: 作者相信未来会有全面的AI助手，它们了解你的日常习惯、个人信息和计划。然而，作者对这些实现方式和可能出现的问题感到好奇。大公司如微软可能会率先推出这些助手，这有些令人担忧。开发强大的AI需要大量的计算资源，尽管会有进步，但仍需要大量资源。作者希望能在自己的手机上或租用的在线服务器上运行AI。作者想知道你认为未来可行且安全的设置是什么。 </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>Continuing this <a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y0ubu/how_long_until_we_have_true_ai_personal_assistants/">topic</a>. </p> <p>I believe that full-setup AI assistants, which have knowledge of your daily routines, personal information, and plans, will be available in the near future. However, I am curious about how these implementations will look and what potential concerns may arise. It seems likely that larger companies such as Microsoft will be the first to introduce these assistants, which is somewhat worrisome. Developing a robust AI requires significant computing power, and while advancements will undoubtedly occur, it will still require substantial resources. </p> <p>What I'd love to see is an AI running on my own phone or on my own rented online server instance. </p> <p>What do you think will be a feasible and secure setup for the future?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/danttf"> /u/danttf </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16yl86u</id>
             <title>How do they make the images embeded inside images using AI?</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16yl86u/how_do_they_make_the_images_embeded_inside_images/</link>
@@ -161,6 +138,29 @@
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p>So some images are making rounds on the internet where it looks like a normal town or city or something like that from up close. but when you look it from a distance, it looks like some other stuff like words or some character. It has been making rounds on the instagram lately and are mostly composed of some memes. Please enlighten me. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/distinct_oversight"> /u/distinct_oversight </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yl86u/how_do_they_make_the_images_embeded_inside_images/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yl86u/how_do_they_make_the_images_embeded_inside_images/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16ymo64</id>
+            <title>*TRUE* AI Personal Assistant implementation</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16ymo64</guid>
+            <pubDate></pubDate>
+            <updated>2023-10-03T08:55:52+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: AI assistants, daily routines, personal information, plans
+<br>
+<br>
+总结: 未来将会有全面的AI助手，它们将了解你的日常习惯、个人信息和计划。然而，我们对于这些实现方式以及可能出现的问题感到好奇。大型公司如微软可能会率先推出这些助手，这令人有些担忧。开发强大的AI需要大量的计算资源，尽管会有不断的进展，但仍需要大量的资源。我希望能够在自己的手机上或租用的在线服务器上运行AI。你认为未来什么样的设置既可行又安全？ </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>Continuing this <a href="https://www.reddit.com/r/ArtificialInteligence/comments/16y0ubu/how_long_until_we_have_true_ai_personal_assistants/">topic</a>. </p> <p>I believe that full-setup AI assistants, which have knowledge of your daily routines, personal information, and plans, will be available in the near future. However, I am curious about how these implementations will look and what potential concerns may arise. It seems likely that larger companies such as Microsoft will be the first to introduce these assistants, which is somewhat worrisome. Developing a robust AI requires significant computing power, and while advancements will undoubtedly occur, it will still require substantial resources. </p> <p>What I'd love to see is an AI running on my own phone or on my own rented online server instance. </p> <p>What do you think will be a feasible and secure setup for the future?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/danttf"> /u/danttf </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymo64/true_ai_personal_assistant_implementation/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -229,29 +229,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16yk1f9</id>
-            <title>Are there 'Non-Technical' jobs in AI/ML field ?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16yk1f9</guid>
-            <pubDate></pubDate>
-            <updated>2023-10-03T06:01:13+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: tech industry, non-tech roles, AI/ML, coding
-<br>
-<br>
-总结: 这篇文章讨论了一个在科技行业工作超过15年的人的问题，他想知道在人工智能/机器学习领域是否存在非技术角色。文章提到作者曾经从事编码工作，但现在担任高级职位。 </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>Been in tech industry for over 15yrs. Working in a Sr role now (used to code 10yrs back)</p> <h4>Are there any non-tech roles in AI/ML ?</h4> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/uselessadjective"> /u/uselessadjective </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_16ymtj2</id>
             <title>I made a music video using AI and final cut pro X to edit, but it turned out pretty trippy!</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/16ymtj2/i_made_a_music_video_using_ai_and_final_cut_pro_x/</link>
@@ -263,10 +240,10 @@
             <content:encoded>
                 <![CDATA[
                     
-                        <div> 关键词: Music, AI platforms, imagination, existing knowledge
+                        <div> 关键词: Music, AI platforms, imagination, existing knowledge, new combinations/concoctions, images, storyboard, video
 <br>
 <br>
-总结: 这篇文章讨论了作者使用AI平台创作音乐视频的经历。作者认为想象力并不是创造全新的东西，而是利用现有的知识创造新的组合和混合，AI平台通过深入访问现有知识并进行推断，以一种全新的方式实现了这一点。作者花费了很多时间生成能够代表自己目标的图像，并将其制作成视频。这个过程中，作者使用了Final Cut进行剪辑，以更好地配合音乐。整个过程令人惊叹。 </div>
+总结: 这篇文章讨论了作者使用AI平台创作音乐和视频的经历。作者认为想象力并不是创造全新的东西，而是利用现有的知识创造新的组合和混合，AI平台通过深入访问现有知识并进行推断，以一种全新的方式实现了这一点。作者花费了很多时间生成代表自己目标的图像，并将其制作成故事板，然后生成视频。这个过程让作者感到非常兴奋和惊奇。 </div>
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p><a href="https://youtu.be/zQ69H_cmTY8?si=9ScJv9cyTnzFblyN">[Video]</a></p> <p>Music was written and performed by myself - the Al platform used was Kalber Al. </p> <p>It has been really interesting to get creative with AI platforms like this and Midjourney etc. I always said that ‘imagination is not creating something entirely novel, it’s just utilising existing knowledge to create new combinations/concoctions, using things we already can imagine’, and this is exactly what AI does on a whole different level because of the extremely deep access it has to existing knowledge, and the ability to extrapolate it.</p> <p>For the video, I spent hours generating images that I felt represented what I was aiming for. Once images were generated in a storyboard, video was generated. I then cut and edited this somewhat in final cut to fit the music better. But nonetheless it is wild to see.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/FazRazza"> /u/FazRazza </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymtj2/i_made_a_music_video_using_ai_and_final_cut_pro_x/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16ymtj2/i_made_a_music_video_using_ai_and_final_cut_pro_x/">[comments]</a></span>
@@ -316,6 +293,29 @@
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p>I'm a fish keeper that has minimal understanding of AI's current potential. I have played around with ChatGPT and have a very limited/rudimentary understanding of AI - so I need your help. </p> <p>Is there a current AI platform that can interface with various sensors (water level, TDS (total dissolved solids), ph, Nitrite/Nitrate, live camera, LED controller...) ? </p> <p>I would like to develop a system that uses AI to control all aspects of fish keeping. </p> <p>A camera pointed at the tanks to identify fish species, age, health - and automatically find out the water parameters that are optimal for that particular fish(s) and adjust the water to be perfect. Pumps hooked up to various chemicals (ferts for plants, medications for various fish illnesses, food (even live food kept in breeding chambers above the tank) would be automatically turned on via servo motors and pump controllers. The AI would have to be able to diagnose problems using the camera as well as the various sensors. </p> <p>The R pi sensors measure everything - light levels, water, moisture in the air or near a tank in the case of spills. </p> <p>I know this will be possible eventually, but could it be done today with minimal programming? </p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Gov_CockPic"> /u/Gov_CockPic </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yg8qq/real_world_use_case_re_aquariumfish_keeiping_is/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yg8qq/real_world_use_case_re_aquariumfish_keeiping_is/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_16yk1f9</id>
+            <title>Are there 'Non-Technical' jobs in AI/ML field ?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_16yk1f9</guid>
+            <pubDate></pubDate>
+            <updated>2023-10-03T06:01:13+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: tech industry, non-tech roles, AI/ML, coding
+<br>
+<br>
+总结: 这篇文章讨论了一个在科技行业工作超过15年的人的问题，他想知道在人工智能/机器学习领域是否存在非技术角色。文章提到作者曾经从事编码工作，但现在担任高级职位。 </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>Been in tech industry for over 15yrs. Working in a Sr role now (used to code 10yrs back)</p> <h4>Are there any non-tech roles in AI/ML ?</h4> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/uselessadjective"> /u/uselessadjective </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/16yk1f9/are_there_nontechnical_jobs_in_aiml_field/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
