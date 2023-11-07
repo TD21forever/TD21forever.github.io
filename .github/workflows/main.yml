@@ -31,7 +31,7 @@ jobs:
         run: |
 
           cd main
-          git config --global user.email "435212619@qq.com"
+          # git config --global user.email "435212619@qq.com"
           git config --global user.name "hexo-robot"
 
           mkdir -p ~/.ssh/
