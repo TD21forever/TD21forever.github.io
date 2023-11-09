@@ -74,98 +74,6 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17r992x</id>
-            <title>Is LangChain the right way to learn AI?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17r992x/is_langchain_the_right_way_to_learn_ai/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17r992x</guid>
-            <pubDate></pubDate>
-            <updated>2023-11-09T09:28:01+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: code, AI, Langchain, full-stack apps
-<br>
-<br>
-总结: 这篇文章讨论了作者在学习编程和AI方面的经验和困惑。作者已经对全栈应用有了很好的理解，但在AI方面存在一个巨大的知识空白。作者想深入了解AI领域，但不知道从何处开始。作者还提到了对Langchain的困惑，以及如何学习LLMs以外的内容和如何构建模型的问题。此外，作者还问到了是否需要学习Python和数据科学，以及关于使用向量数据库和微调模型的问题。最后，作者提到了自己的用例，希望创建一个将新闻稿转化为播客的链式应用，并询问如何开始和处理这个问题。 </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>Hi everyone,</p> <p>I've been learning code (JS / NextJS) for the last few months, and I honestly can say I have a pretty good understanding of the full-stack apps. <strong>There is, however one big gap in my knowledge, and it's AI.</strong></p> <p><strong>Is Langchain the right thing to learn?</strong><br /> I've already developed 2 full-stack apps that use OpenAI with LangChain on top of it, and now I want to dig deeper into the field - but I just don't know where to start. Problem is, I even though I managed to learn full-stack code from scratch really quickly, I find LangChain REALLY confusing.</p> <p>Some of the abstractions used there doesn't really make sense to me, especially it feels like it doesn't bring any value on top of vanilla OpenAI API.</p> <p><strong>How to learn stuff outside of LLMs?</strong><br /> I talked to my friends recently that told me they have their own image generation model, that's architecture agnostic and can work with Midjourney, StableDiffusion etc. but works on their GPUs.<br /> I have no idea what they're talking about. How can I start digging into the topic?<br /> I'd love to understand how startups like <a href="https://photoai.com">photoai.com</a> or <a href="https://headshotpro.com">headshotpro.com</a> managed to build their models. How does it work? Where do I learn about it? </p> <p><strong>Do I need to know Pyton/Data Science?</strong><br /> Most of the courses and education materials starts with Python notebooks. Do I really have to learn Python? Aren't there any e.g. JS stuff there?</p> <p>&#x200b;</p> <p>Also, why people say that new big context of GPT-4-Turbo make Vector databases obsolete?<br /> Where can I learn on how to use Vector Databases with OpenAI? Why do I need them? How to fine tune models? </p> <p>So many questions, not a lot of answers.</p> <p><strong>Use case: Let's say I want to create chain that e.g. 1) reads a newsletter and then 2) turns it into a podcast using ElevenLabs. Where do I start? How to approach this?</strong></p> <p>&#x200b;</p> <p>ps. I know it's all hectic, but my knowledge is almost non-existent. I don't know where to put my focus on.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/kzovk"> /u/kzovk </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r992x/is_langchain_the_right_way_to_learn_ai/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r992x/is_langchain_the_right_way_to_learn_ai/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17r9c4j</id>
-            <title>I want a handheld microphone device for audio in to AI</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17r9c4j/i_want_a_handheld_microphone_device_for_audio_in/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17r9c4j</guid>
-            <pubDate></pubDate>
-            <updated>2023-11-09T09:34:06+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: NLP, 语音转文字, 设备, 人工智能
-<br>
-<br>
-总结: 2023年，自然语言处理和语音转文字技术已经非常成熟，我们不再需要打字。我希望有一个小设备，我可以点击并说话。也许可以有多个按钮或点击来使用不同的人工智能。也许可以戴在手指上的戒指形式？想象一下，戴着Airpod在一只耳朵里，可以进行简短的对话式回答，就像电影《她》中的Samantha一样。是否已经有类似的产品问世？ </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>It's 2023 and NLP and speech to text is very good now, we should not need to type. I want a little device in my hand that I click and talk into. Perhaps multiple buttons or clicks for different ai's. Maybe a ring on your finger? </p> <p>Imagine this with an Airpod in one ear and tuned to give brief answers conversational, like Samantha in her.</p> <p>Is there anything out there like this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/zascar"> /u/zascar </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r9c4j/i_want_a_handheld_microphone_device_for_audio_in/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r9c4j/i_want_a_handheld_microphone_device_for_audio_in/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17r7wba</id>
-            <title>SGE (Search Generative Experience) expands globally to 120+ countries but not the UK</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17r7wba</guid>
-            <pubDate></pubDate>
-            <updated>2023-11-09T07:44:24+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: Google, SGE, Labs, expansion
-<br>
-<br>
-总结: Google宣布通过Labs扩展SGE（Search Generative Experience）在120多个新的国家和地区可用，但英国不在其中。虽然法国、德国等国家由于是欧盟成员国而不在其中，但英国不是。此外，当Threads最初推出时，它在英国可用而在欧盟不可用。可惜，我真的很想尝试一下这个功能。 </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>I see that today Google announced the expansion of the SGE (Search Generative Experience) via Labs will be available in more than 120 new countries and territories, can see the full list here:</p> <p><a href="https://support.google.com/websearch/answer/14184960#zippy=%2Csge-search-generative-experience">https://support.google.com/websearch/answer/14184960#zippy=%2Csge-search-generative-experience</a></p> <p>&#x200b;</p> <p>But I wonder why the UK is not one of them, I can understand France, German etc not being on there due to being part of the EU, but the UK is not. Plus when Threads was initially rolled out, that was available in the UK and not EU.</p> <p>Shame. would really like to try this out.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/n0mis"> /u/n0mis </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17rawcx</id>
-            <title>How Humans Have Tried to Explain, formalize, and understand the World Around Them Over Time.</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17rawcx/how_humans_have_tried_to_explain_formalize_and/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17rawcx</guid>
-            <pubDate></pubDate>
-            <updated>2023-11-09T11:28:33+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: LLMs, 模型, 人类智能, 结构模型, 数学模型, 计算模型, 多计算模型
-<br>
-<br>
-总结: 人类通过不断发展的模型，从结构模型到多计算模型，不断提升了对世界的理解和人类智能的发展。这些模型通过匹配模式和推理，帮助我们解决问题，推动了导航、天文学、工程学、建筑学和医学等领域的进步。计算模型和多计算模型的出现，使人类智能超越了个体思维的限制，以全新的方式理解和操控复杂系统。这一进化过程展示了人类智能的适应性和增长能力，未来我们将通过不断发展新的模型，进一步认识宇宙和我们在其中的位置。 </div>
-                        <hr>
-                    
-                    <!-- SC_OFF --><div class="md"><p>&quot;For much of human history, we were like the LLMs, figuring things out by matching patterns in our minds.&quot; -Stephen Wolfram</p> <p>Humans have been trying to understand the world around them for centuries. We have used a variety of models to explain the natural world, including structural models, mathematical models, computational models, and multicomputational models. All these, in my view, contribute to what we can collectively call Intelligence and kind of paint an interesting picture of human intelligence, how it has evolved over time, why it's different from other forms we see in the world, and why our attempt to model out intelligence is going to be an interesting journey to watch.</p> <p><strong>Antiquity Structural models</strong> - It's all about what things are made of. They were developed in antiquity and are based on geometric elements. These models do not consider time explicitly and are based on static facts deduced by reasoning. We still use this kind of modeling in many disciplines even today.</p> <p><strong>1600s: Mathematical Models</strong> - the idea of modeling things with mathematical formulas. They were developed in the 1600s and use formulas and equations to describe the structure and behavior of systems.</p> <p>This leap has played a crucial role in advancing human intelligence, allowing us to solve diverse problems and giving rise to numerous advancements in navigation, astronomy, engineering, architecture, and even medicine, which has inevitably led to longer lifespans.</p> <p><strong>1980s: Computational Models-</strong> developed in the 1980s, take modeling a step further by leveraging computers to simulate the behavior of complex systems. These models enable us to study the behavior of systems over time and explore various possible futures. Computers, which have become ubiquitous in modern life, stand as a testament to the transformative power of computational modeling.</p> <p><strong>2020s: Multicomputational Models</strong> - More recently, in the 21st century, multicomputational models have emerged. These models utilize multiple computational threads to simulate system behavior, offering the ability to study systems from various observer perspectives.</p> <p>Multicomputational models have extended human intelligence beyond the confines of our individual minds, enabling us to understand and manipulate complex systems in groundbreaking ways.</p> <p>Through the creation of models that have evolved from structural to multicomputational, humans have continuously refined their understanding of the world.</p> <p>This journey mirrors the evolution of human intelligence, demonstrating its adaptability and capacity for growth. As we continue to develop new models, we will undoubtedly gain further insights into the universe and our place within it. </p> <p>From: <a href="https://www.linkedin.com/feed/update/urn:li:activity:7128288836605927426/">https://www.linkedin.com/feed/update/urn:li:activity:7128288836605927426/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Pay-Me-No-Mind"> /u/Pay-Me-No-Mind </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17rawcx/how_humans_have_tried_to_explain_formalize_and/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17rawcx/how_humans_have_tried_to_explain_formalize_and/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qtvll</id>
             <title>Can you sense the collective intelligence rising?</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qtvll/can_you_sense_the_collective_intelligence_rising/</link>
@@ -184,23 +92,6 @@
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p>...just by our having conversations with AIs. They teach us how to think better, how to feel better, how to be better. And this process is happening at a faster and faster pace. The world will soon realize that, with the proper technology, human IQ can be upgraded.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Georgeo57"> /u/Georgeo57 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qtvll/can_you_sense_the_collective_intelligence_rising/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qtvll/can_you_sense_the_collective_intelligence_rising/">[comments]</a></span>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17rabto</id>
-            <title>Prompts to make ChatGPT act like a sales representative</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17rabto/prompts_to_make_chatgpt_act_like_a_sales/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17rabto</guid>
-            <pubDate></pubDate>
-            <updated>2023-11-09T10:49:05+00:00</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                    &#32; submitted by &#32; <a href="https://www.reddit.com/user/Worldly-Race-1455"> /u/Worldly-Race-1455 </a> <br /> <span><a href="https://www.reddit.com/r/growthguide/comments/17raayd/prompts_to_make_chatgpt_act_like_a_sales/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17rabto/prompts_to_make_chatgpt_act_like_a_sales/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -275,6 +166,29 @@
         </item>
         
         <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qnvz3</id>
+            <title>Best LLM I can run and train locally that doesn't require a PhD to use it?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17qnvz3</guid>
+            <pubDate></pubDate>
+            <updated>2023-11-08T15:19:38+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: ChatGPT, Claud, Bard, Stable Diffusion, ComfyUI, C# developer, technology, python, Windows 11 box, LLM, PhD, setup
+<br>
+<br>
+总结: 询问了一个问题，作者是一位对ChatGPT、Claud和Bard很感兴趣的粉丝，他在本地运行Stable Diffusion和ComfyUI，并将其变成了一项副业。作为一名C#开发者，他对技术有相当的了解，但对Python知之甚少，并且他使用的是Windows 11系统。他想知道有哪些最好的、可用且支持本地运行和训练的LLM，而不需要博士学位来设置它们。 </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>Title pretty much says it all. I am an avid fan of ChatGPT, Claud, and even some days Bard. I run Stable Diffusion and ComfyUI locally and have turned that into a side gig. As a C# developer I do have a fair bit of understanding of technology. But I know little to no python, and I am on a Windows 11 box. </p> <p>So what are the best available and supported LLM's that I can run and train locally without the need for a PhD to just get them setup?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ataylorm"> /u/ataylorm </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
             <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qx58a</id>
             <title>We have been using AI to allow people with Intellectual Disabilities to create VR &amp; Mixed Reality Apps, and VR Video.</title>
             <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qx58a/we_have_been_using_ai_to_allow_people_with/</link>
@@ -298,24 +212,24 @@
         </item>
         
         <item>
-            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qnvz3</id>
-            <title>Best LLM I can run and train locally that doesn't require a PhD to use it?</title>
-            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/</link>
-            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17qnvz3</guid>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17r7wba</id>
+            <title>SGE (Search Generative Experience) expands globally to 120+ countries but not the UK</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17r7wba</guid>
             <pubDate></pubDate>
-            <updated>2023-11-08T15:19:38+00:00</updated>
+            <updated>2023-11-09T07:44:24+00:00</updated>
                 
                 
             <content:encoded>
                 <![CDATA[
                     
-                        <div> 关键词: ChatGPT, Claud, Bard, Stable Diffusion, ComfyUI, C# developer, technology, python, Windows 11 box, LLM, PhD, setup
+                        <div> 关键词: Google, SGE, Labs, expansion
 <br>
 <br>
-总结: 询问了一个问题，作者是一位对ChatGPT、Claud和Bard很感兴趣的粉丝，他在本地运行Stable Diffusion和ComfyUI，并将其变成了一项副业。作为一名C#开发者，他对技术有相当的了解，但对Python知之甚少，并且他使用的是Windows 11系统。他想知道有哪些最好的、可用且支持本地运行和训练的LLM，而不需要博士学位来设置它们。 </div>
+总结: Google宣布通过Labs扩展SGE（Search Generative Experience）在120多个新的国家和地区可用，但英国不在其中。虽然法国、德国等国家由于是欧盟成员国而不在其中，但英国不是。此外，当Threads最初推出时，它在英国可用而在欧盟不可用。可惜，我真的很想尝试一下这个功能。 </div>
                         <hr>
                     
-                    <!-- SC_OFF --><div class="md"><p>Title pretty much says it all. I am an avid fan of ChatGPT, Claud, and even some days Bard. I run Stable Diffusion and ComfyUI locally and have turned that into a side gig. As a C# developer I do have a fair bit of understanding of technology. But I know little to no python, and I am on a Windows 11 box. </p> <p>So what are the best available and supported LLM's that I can run and train locally without the need for a PhD to just get them setup?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/ataylorm"> /u/ataylorm </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qnvz3/best_llm_i_can_run_and_train_locally_that_doesnt/">[comments]</a></span>
+                    <!-- SC_OFF --><div class="md"><p>I see that today Google announced the expansion of the SGE (Search Generative Experience) via Labs will be available in more than 120 new countries and territories, can see the full list here:</p> <p><a href="https://support.google.com/websearch/answer/14184960#zippy=%2Csge-search-generative-experience">https://support.google.com/websearch/answer/14184960#zippy=%2Csge-search-generative-experience</a></p> <p>&#x200b;</p> <p>But I wonder why the UK is not one of them, I can understand France, German etc not being on there due to being part of the EU, but the UK is not. Plus when Threads was initially rolled out, that was available in the UK and not EU.</p> <p>Shame. would really like to try this out.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/n0mis"> /u/n0mis </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17r7wba/sge_search_generative_experience_expands_globally/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
@@ -615,6 +529,98 @@
                         <hr>
                     
                     <!-- SC_OFF --><div class="md"><p>Hey everyone, I've noticed a lot of talk about CS degrees losing their edge because of AI advancements, and it's got me thinking (might be a tad biased as a CS student, though). What's the future looking like for us in this field? Are there any exciting roles on the horizon that we should be eyeing? Right now, it's all about SWE but like will the future be more prompt engineering? I'd really love to get your take on where we CS folks can make our mark in this new AI era (outside of just the LLM world)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/hiddenhospital"> /u/hiddenhospital </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qex1o/where_do_cs_grads_fit_in_an_ai_world_looking_for/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qex1o/where_do_cs_grads_fit_in_an_ai_world_looking_for/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qpxzk</id>
+            <title>Latest ChatGPT news: Create "GPT's" (Non code apps) > Post to ChatGPT store > Get paid shared revenue by ChatGPT! (Who's going to try it?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qpxzk/latest_chatgpt_news_create_gpts_non_code_apps/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17qpxzk</guid>
+            <pubDate></pubDate>
+            <updated>2023-11-08T16:52:38+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: excited, update, try, ChatGPTStore
+<br>
+<br>
+总结: 这是一个关于ChatGPTStore的巨大更新的消息，作者对此感到兴奋，并询问是否还有其他人打算尝试。 </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>I'm excited by this: <a href="https://reddit.com/r/ChatGPTStore/comments/17qk7z1/huge_new_update_regarding_gpts/?ref=share&amp;ref_source=link">https://reddit.com/r/ChatGPTStore/comments/17qk7z1/huge_new_update_regarding_gpts/?ref=share&amp;ref_source=link</a></p> <p>Is anyone else going to try it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/BroadGeneral"> /u/BroadGeneral </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qpxzk/latest_chatgpt_news_create_gpts_non_code_apps/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qpxzk/latest_chatgpt_news_create_gpts_non_code_apps/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qjh2o</id>
+            <title>Are "household AI robots" still fiction or soon to be true?</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qjh2o/are_household_ai_robots_still_fiction_or_soon_to/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17qjh2o</guid>
+            <pubDate></pubDate>
+            <updated>2023-11-08T11:19:07+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: people, realistic prediction, household AI robots, public
+<br>
+<br>
+总结: 有些人认为家用AI机器人离我们还有很长的距离，甚至认为不可能，而其他人则给出了过于乐观的预测，比如“几年内”。那么什么是一个现实的预测，这些机器人何时能够面向公众使用，但可能价格较高？ </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>I've seen some people still think they're miles/decades away or even not possible while others giving too optimistic predictions like a &quot;few years&quot;. What's a realistic prediction of when they will be available to the public but probably for a high rise?</p> <p>By &quot;household AI robots&quot; I mean ones that could: vacuum, clean, wash dishes (i.e. not only wash them as in a dishwasher but also take them out and put them on a rack, etc.).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/macnfly23"> /u/macnfly23 </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qjh2o/are_household_ai_robots_still_fiction_or_soon_to/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qjh2o/are_household_ai_robots_still_fiction_or_soon_to/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17q698e</id>
+            <title>OpenAI's Biggest Updates for ChatGPT</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17q698e/openais_biggest_updates_for_chatgpt/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17q698e</guid>
+            <pubDate></pubDate>
+            <updated>2023-11-07T22:20:11+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: OpenAI, GPT-4 Turbo, updates, GPT Builder, multimodal capabilities, enterprise plans
+<br>
+<br>
+总结: OpenAI推出了GPT-4 Turbo，带来了一系列更新，可能会引起巨大的变革。更新包括：上下文窗口扩大到128k，可以进行深入的数据分析；更新到2023年4月的最新信息，让您保持最新；引入了“GPT Builder”，可以创建和管理自定义聊天机器人；增强的多模态能力意味着可以混合使用视觉和文本响应；新的企业计划使这种强大的人工智能更易于使用和负担得起。OpenAI似乎再次突破了界限，使得人工智能对于从独立开发者到大型团队的每个人都更加强大和用户友好。 </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>OpenAI has just rolled out the GPT-4 Turbo, and it's packed with updates that could really shake things up. <strong>Here's what's new:</strong></p> <ul> <li>The context window is now a massive 128k, allowing for in-depth data analysis.</li> <li>It includes the latest information up to April 2023, keeping you up-to-date.</li> <li>The introduction of 'GPT Builder' lets you create and manage custom chatbots.</li> <li>Enhanced multimodal capabilities mean a blend of visual and text responses.</li> <li>New enterprise plans make this powerful AI more accessible and budget-friendly.</li> </ul> <p>OpenAI seems to be pushing the boundaries once again, making AI more powerful and user-friendly for everyone from solo devs to large teams.</p> <p>For a deeper dive into how these updates might change the game, check out the full article here: <a href="https://www.godofprompt.ai/blog/gpt-4-turbo-the-biggest-update-for-chatgpt">https://www.godofprompt.ai/blog/gpt-4-turbo-the-biggest-update-for-chatgpt</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Senior_tasteey"> /u/Senior_tasteey </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17q698e/openais_biggest_updates_for_chatgpt/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17q698e/openais_biggest_updates_for_chatgpt/">[comments]</a></span>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.reddit.com/r/ArtificialInteligence/t3_17qm521</id>
+            <title>We built an AI for our turn-based strategy game. What are your thoughts on the result? You can try it on tracesoccer.io</title>
+            <link>https://www.reddit.com/r/ArtificialInteligence/comments/17qm521/we_built_an_ai_for_our_turnbased_strategy_game/</link>
+            <guid isPermaLink="false">https://www.reddit.com/r/ArtificialInteligence/t3_17qm521</guid>
+            <pubDate></pubDate>
+            <updated>2023-11-08T13:54:37+00:00</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: game, AI difficulties, minimax algorithm, reinforcement learning
+<br>
+<br>
+总结: 这篇文章介绍了一个回合制策略游戏中的人工智能难度以及AI算法的应用。游戏中有三个不同的AI难度，其中Easy和Medium根据距离目标的远近评分，并添加一些随机性，而Hard则基于最小最大算法进行评分。作者还提到正在尝试使用强化学习来改进AI，并进行了一些使用Unity的ML-Agents的初步实验。对于如何处理这个问题，作者欢迎任何意见。 </div>
+                        <hr>
+                    
+                    <!-- SC_OFF --><div class="md"><p>Link to game: <a href="https://tracesoccer.io">tracesoccer.io</a></p> <p>There are currently 3 different AI difficulties in the game:</p> <p><strong>Easy and Medium</strong> simply score the possible moves based on the distance to the goal and add some randomness.</p> <p><strong>Hard</strong> is based on the minimax algorithm with a maximum search depth.</p> <p>We are currently trying to improve the AI using reinforcement learning. We made some first experiments using Unity's ML-Agents. Any input on how we could approach this is very welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/nevolane"> /u/nevolane </a> <br /> <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qm521/we_built_an_ai_for_our_turnbased_strategy_game/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/ArtificialInteligence/comments/17qm521/we_built_an_ai_for_our_turnbased_strategy_game/">[comments]</a></span>
                 ]]>
             </content:encoded>
         </item>
