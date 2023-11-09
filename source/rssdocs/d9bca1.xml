@@ -5,6 +5,29 @@
         <link>https://www.infoq.cn/topic/AI</link>
         
         <item>
+            <id>https://www.infoq.cn/article/pMUTkGIW2puumDIJiaWT</id>
+            <title>效率提升11倍，PODsys如何快速部署大模型AI算力平台？</title>
+            <link>https://www.infoq.cn/article/pMUTkGIW2puumDIJiaWT</link>
+            <guid isPermaLink="false">https://www.infoq.cn/article/pMUTkGIW2puumDIJiaWT</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Nov 2023 09:18:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 大模型, 算力平台, 部署, PODsys
+<br>
+<br>
+总结: 大模型是通用人工智能的底座，但大模型训练对算力平台的依赖非常大。为了解决大模型算力平台部署难题，浪潮信息发布了大模型智算软件栈OGAI，其中的L1层PODsys是一个开源项目，可以帮助用户快速部署大模型算力平台。PODsys提供了完整的工具链，让用户省时、省力地部署大模型算力平台，助力大模型创新走好第一步。 </div>
+                        <hr>
+                    
+                    <p>大模型是通用人工智能的底座，但大模型训练对算力平台的依赖非常大。大模型算力平台是指支撑大模型训练和推理部署的算力基础设施，包括业界最新的加速卡、高速互联网络、高性能分布式存储系统、液冷系统和高效易用的大模型研发工具和框架。在算力平台的部署过程中，大模型研发机构常常需要面对一系列的问题：大模型算力平台是什么样的？如何快速构建大模型算力平台？如何确保算力平台稳定可靠？如何提升部署效率？如何提升算力平台的性能……这些问题能否顺利解决，直接关系到大模型研发和应用落地的速度。</p><p>&nbsp;</p><p>为了帮助用户加速大模型的技术创新与应用落地，浪潮信息发布了大模型智算软件栈OGAI（Open GenAI Infra）。OGAI由5层架构组成，从L0到L4分别对应于基础设施层的智算中心OS产品、系统环境层的PODsys产品、调度平台层的AIStation产品、模型工具层的YLink产品和多模纳管层的MModel产品。</p><p>&nbsp;</p><p>其中L1层PODsys是一个为客户提供智算集群系统环境部署方案的开源项目，具备基础设施环境安装、环境部署、用户管理、系统监控和资源调度等能力。用户只需执行两条简单的命令，即可完成大模型算力平台的部署，将大模型算力平台部署效率提升11倍，帮助用户顺利迈出大模型研发的第一步。（下载地址：<a href="https://podsys.ai/">https://podsys.ai/</a>"）</p><p></p><h2>大模型算力平台部署难题亟待求解</h2><p></p><p>&nbsp;</p><p>大模型参数量和训练数据复杂性快速增加，对AI算力平台的建设提出了新的要求，即需要从数据中心规模化算力部署的角度，统筹考虑大模型分布式训练对计算、网络和存储的需求特点，并集成平台软件、结合应用实践，充分关注数据传输、任务调度、并行优化、资源利用率等，设计和构建高性能、高速互联、存算平衡的可扩展集群系统，以满足AI大模型的训练需求。</p><p>&nbsp;</p><p>强大的大模型算力平台不仅需要高性能的CPU、GPU、存储、网络等硬件设备，还需要考虑不同硬件和软件之间的兼容性和版本选择，确保驱动和工具的适配性和稳定性。当算力平台的规模从十几台服务器扩展到几百台，平台部署难度会呈指数级上升。</p><p>&nbsp;</p><p>首先，算力平台部署需要的相关驱动程序、软件包往往高达数十个，正确安装、部署并优化这些驱动程序与软件，需要专业的运维工程师和大量调试时间，严重影响部署效率。其次，为了确保算力平台的高性能和稳定运行，需要验证不同硬件环境下的软件适配，优化BIOS、操作系统、底层驱动、文件系统和网络等多项指标，找到最优的选择，这一工作同样费时费力。此外，算力平台的资源状态处于时刻的变动中，如果不进行合理的资源调度与管理，很容易影响平台的资源利用率。</p><p></p><h2>如何快速部署大模型算力平台？</h2><p></p><p>&nbsp;</p><p>PODsys专注于大模型算力平台部署场景，提供包括基础设施环境安装、环境部署、用户管理、系统监控和资源调度在内的完整工具链，旨在打造一个开源、高效、兼容、易用的智算集群系统方案。</p><p>&nbsp;</p><p>PODsys整合了大模型算力平台部署所需的数十个驱动、软件等安装包以及对应的依赖和兼容关系，并提供了一系列的简化部署的脚本工具。使用这些工具只需要简单2个步骤，PODsys即可帮助用户快速部署大模型算力平台。</p><p></p><p><img src="https://static001.geekbang.org/infoq/e2/e28d58db02463f721b6aeff171d7cb6f.png" /></p><p></p><p>步骤1：使用docker run命令快速启动PODsys系统。</p><p>&nbsp;</p><p>PODsys系统集成了大模型算力平台部署所需的操作系统、GPU驱动、网卡驱动、通信加速库等数十个驱动程序、软件和安装包，并提供了一系列脚本工具来简化部署，让用户可以快速安装、配置和更新集群环境。PODsys大量选用了业界广泛使用的主流开源系统、工具、框架和软件，来保障整个部署方案的开放性、兼容性和稳定性。</p><p>&nbsp;</p><p>步骤2：使用install_client命令快速部署大模型算力平台的并行软件环境。</p><p>&nbsp;</p><p>PODsys将单机部署方式改成集群部署方式，可将部署效率提升11倍以上。在管理节点运行一句简单的命令（install_client.sh），即可完成大模型算力平台的环境配置，集成了高速文件系统接口、自动化运维工具、NVDIA CUDA编程框架、NCCL高性能通信库，支持NGC 加速平台等功能。并能实现多用户、多租户管理集群。</p><p>&nbsp;</p><p>PODsys提供了全面的系统监控和管理，帮助用户实时监控集群的状态和性能指标。通过可视化的界面，用户可以查看集群资源的使用情况、作业的执行情况和性能瓶颈，从而及时调整集群配置和优化作业性能，来保证算力平台的高性能和稳定运行。</p><p></p><p><img src="https://static001.geekbang.org/infoq/e3/e363a8e01822b72342b27975ba39fbec.png" /></p><p></p><p>此外，PODsys具备高效的资源调度和作业管理功能，可以根据用户的需求自动调度和管理作业，确保集群的资源利用率和作业的执行效率。</p><p>&nbsp;</p><p>伴随着大模型的快速应用，算力平台的鲁棒性、易用性、部署效率成为用户关注的首要问题。针对商业用户，PODsys还提供专业的算力平台性能调优服务。总之，PODsys提供了一套完整的工具链，将大模型平台部署变得像系统安装一样简单，让用户省时、省力地部署大模型算力平台，助力大模型创新走好第一步。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
             <id>https://www.infoq.cn/article/6TBscTYlUozuf1cQpz0R</id>
             <title>AI驱动的算力变革：如何突破智能算力瓶颈？</title>
             <link>https://www.infoq.cn/article/6TBscTYlUozuf1cQpz0R</link>
@@ -668,29 +691,6 @@
                         <hr>
                     
                     <p>11月1日，在云栖大会上，蚂蚁集团正式发布CodeFuse全面加持的SOFAStack5.0升级版本，向企业提供全方位研发运维智能助手相关能力。这是继蚂蚁集团在外滩大会发布代码大模型CodeFuse之后，首次公布面向行业的商业化产品进展。</p><p>&nbsp;</p><p>“大模型将为研发效能带来颠覆性机遇。”蚂蚁集团数字科技事业群产品总监马振雄在发布会上指出。</p><p>&nbsp;</p><p>记者了解到，目前CodeFuse已经与SOFA产品线全面融合，涵盖设计、研发、测试、运维等领域，形成从领域建模到智能运维的端到端Copilot产品解决方案，预计将为企业产研效能提升30%。</p><p>&nbsp;</p><p><img src="https://static001.geekbang.org/infoq/5c/5cd0d1b716d80689035335361a75486b.png" /></p><p></p><p>具体而言，客户在使用SOFAStack时，相当于为企业开发者配备专属智能副驾驶，和机器人“辅助设计”、“结对编程”、“运维助手”，通过人机交互助手提升日常代码研发、测试、运维过程中的效率和质量。对企业而言，引入智能副驾驶可以显著提升人效质量，降低总体成本。</p><p>&nbsp;</p><p>此外，SOFAStack针对Codefuse大模型提供了多任务微调和高性能推理能力，结合企业专有数据构造更懂客户业务的智能副驾驶。而随着CodeFuse在产品线中不断深度融合，SOFAStack将为企业打造新一代AI云原生PaaS平台，使其在开发运维、数据分析、应用治理、绿色计算方面取得更智能的能力，可以加速响应业务创新和价值交付。</p><p>&nbsp;</p><p>针对当下企业应用上云「更异构、更智能、更经济」的三大需求趋势，马振雄表示，SOFAStack提供了一系列云原生解决方案，帮助企业在云环境下快速构建、部署和管理应用程序。这些解决方案可以满足不同行业和企业的需求，并为企业提供更加灵活和高效的技术支持。例如，针对行业进入多云时代，边缘资源调配、云上云下应用开发等统一管理挑战，其拳头产品MESH升级架构，从原来的经典Sidecar架构开始演变为Node架构，同步进行了性能、服务治理、业务可观测能力等全方位优化。</p><p>&nbsp;</p><p><img src="https://static001.geekbang.org/infoq/7c/7cd485b0811e68275758bb2d760a382d.png" /></p><p></p><p>Forrester报告曾分析指出，以云原生为关键能力的下一代云平台， 不仅可以基于全栈云原生架构灵活适应市场变化，而且可以通过全云开发实践帮助企业在云上快速验证创新思路，还能借助云平台的各类自动化能力降本增效强化韧性。</p><p>&nbsp;</p><p>“服务网格降低了我们的上云门槛。如果做云原生改造，系统的所有代码都要重写一遍，大概需要20&nbsp;个人投入一年时间；使用网格（Mesh）只要&nbsp;5&nbsp;个人两三个月就能上云。”传统金融机构信息科技架构规划负责人在Forrester调研时表示。根据报告测算，三年内有&nbsp;10&nbsp;个单体应用不需要经过云原生改造，即可直接上云后统一治理，总体效率提升为企业带来941万元的收益。</p><p>&nbsp;</p><p>据悉，SOFAStack是国内部署云原生技术最广泛的平台之一，基于支付宝、蚂蚁集团各项业务需求进行研发迭代，并服务于超100家银行迈向云原生转型，已经构建了完整金融级的云原生PaaS解决方案。</p>
-                ]]>
-            </content:encoded>
-        </item>
-        
-        <item>
-            <id>https://www.infoq.cn/article/hEPJ8eoTHjSSxGbmaWd8</id>
-            <title>计算机软硬件优化首席科学家、高级首席工程师周经森（Kingsum Chow）博士，确认担任 QCon LLM 时代的性能优化专题出品人</title>
-            <link>https://www.infoq.cn/article/hEPJ8eoTHjSSxGbmaWd8</link>
-            <guid isPermaLink="false">https://www.infoq.cn/article/hEPJ8eoTHjSSxGbmaWd8</guid>
-            <pubDate></pubDate>
-            <updated>Wed, 01 Nov 2023 03:30:00 GMT</updated>
-                
-                
-            <content:encoded>
-                <![CDATA[
-                    
-                        <div> 关键词: QCon 全球软件开发大会, LLM 时代的性能优化, 周经森（Kingsum Chow）, CPU 和 GPU 平台
-<br>
-<br>
-总结: QCon 全球软件开发大会将在上海举行，周经森博士将担任“LLM 时代的性能优化”专题的出品人。该专题将介绍LLM时代的性能分析在CPU和GPU平台上的表现。 </div>
-                        <hr>
-                    
-                    <p><a href="https://qcon.infoq.cn/2023/shanghai/?utm_source=infoqweb&amp;utm_medium=teacherart&amp;utm_campaign=7&amp;utm_term=1101&amp;utm_content=zhoujingsen">QCon 全球软件开发大会</a>"，将于 12 月在上海召开。计算机软硬件优化首席科学家、高级首席工程师周经森（Kingsum Chow）博士将担任「<a href="https://qcon.infoq.cn/2023/shanghai/track/1597?utm_source=infoqweb&amp;utm_medium=teacherart&amp;utm_campaign=7&amp;utm_term=1101&amp;utm_content=zhoujingsen">LLM 时代的性能优化</a>"」的专题出品人。在此次专题中，你将了解到 LLM 时代的性能分析在 CPU 和 GPU 平台上，在不同计算环境下的性能表现。</p><p></p><p><a href="https://qcon.infoq.cn/2023/shanghai/track/1597?utm_source=infoqweb&amp;utm_medium=teacherart&amp;utm_campaign=7&amp;utm_term=1101&amp;utm_content=zhoujingsen">周经森（Kingsum Chow）</a>"，计算机软硬件优化首席科学家、高级首席工程师。曾就职于美国英特尔公司和中国阿里巴巴集团，2023 年加入浙江大学软件学院（宁波）。二十年来与十余家世界 500 强高科技企业合作，共同推动了世界软硬件性能优化技术的发展。曾作为项目总监主持备受瞩目的云计算蓝图项目（IntelCloudBlueprint）。该项目由英特尔和甲骨文的首席执行官于 2015 年共同宣布，吸引了超过 4 万名开发者的参与，为云计算行业绘制了全新的技术蓝图，对行业发展产生了深远影响。</p><p></p><p>自 2016 年加入阿里巴巴，为中国的性能优化技术发展做出了巨大贡献。2018 年，其作为唯一一名加入 Java 全球管理组织 JavaCommunityProcess（JCP）最高执行委员会 JCP-EC 的中国企业（阿里巴巴）代表，参与制定了 Java 的全球标准。</p><p></p><p>周博士在 CPU 利用率报告不准确（数据普遍误解）方面发表的研究，引起了业界和学术界的广泛关注。周博士拥有超过 30 年的软硬件协同优化的工业实践经验，培养了大批优秀的系统性能优化人才。至今已获授权中国专利 11 项，美国专利 24 项，发表学术论文 127 篇，在过去 6 年的 QCon 中国大会上发表 2 场主题演讲，出品 2 场软件系统性能优化主题讲座。</p><p></p><p>相信周经森（Kingsum Chow）博士的到来，可以帮助提升此专题的质量，让你学习到， 通过 LLM 在不同计算环境下的性能表现，找到的最佳应用策略和优化方法，这为 LLM 的应用和发展提供了更多的可能性。</p><p></p><p>除上述专题外，QCon 上海还将围绕&nbsp;<a href="https://qcon.infoq.cn/2023/shanghai/track/1595?utm_source=infoqweb&amp;utm_medium=teacherart">GenAI和通用大模型应用探索</a>"、<a href="https://qcon.infoq.cn/2023/shanghai/track/1596?utm_source=infoqweb&amp;utm_medium=teacherart">AI&nbsp;Agent&nbsp;与行业融合应用的前景</a>"、<a href="https://qcon.infoq.cn/2023/shanghai/track/1598?utm_source=infoqweb&amp;utm_medium=teacherart">智能化信创软件&nbsp;IDE</a>"、<a href="https://qcon.infoq.cn/2023/shanghai/track/1599?utm_source=infoqweb&amp;utm_medium=teacherart">LLM&nbsp;时代的大前端技术</a>"、<a href="https://qcon.infoq.cn/2023/shanghai/track/1602?utm_source=infoqweb&amp;utm_medium=teacherart">面向人工智能时代的架构</a>"、<a href="https://qcon.infoq.cn/2023/shanghai/track/1604?utm_source=infoqweb&amp;utm_medium=teacherart">性能工程：提升效率和创新的新方法</a>"等专题进行交流。</p><p></p><p>QCon 上海 2023，相约 12 月！现在购票，享 7 折优惠，立减￥2040 ！咨询购票请联系：18514549229（微信同手机号）。</p><p></p><p><img src="https://static001.infoq.cn/resource/image/16/36/160539957f1fd1f4671722f1cab32a36.jpg" /></p><p></p>
                 ]]>
             </content:encoded>
         </item>
