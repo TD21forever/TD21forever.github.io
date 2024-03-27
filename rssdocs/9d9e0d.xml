@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6603c6bf38849f879f2268f9</id>
+            <title>冷知识，你可以通过 Spotify API 拿到一支曲子的各项特征数据 它们包括： 1. acousticness 音轨是原声的置信度，范围 0.0～1.0，1.0 代表这段音频很有可能是原声...</title>
+            <link>https://m.okjike.com/originalPosts/6603c6bf38849f879f2268f9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6603c6bf38849f879f2268f9</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 27 Mar 2024 07:11:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    冷知识，你可以通过 Spotify API 拿到一支曲子的各项特征数据<br /><br />它们包括：<br /><br />1. acousticness<br />音轨是原声的置信度，范围 0.0～1.0，1.0 代表这段音频很有可能是原声。<br /><br />2. danceability<br />音轨适合跳舞的程度，综合音乐的速度、旋律稳定性、节奏强度和整体的规律性得出，范围 0.0～1.0，1.0 代表非常适合跳舞。<br /><br />3. energy<br />反应出音乐强烈、活跃的程度，通常而言，能量高的音轨速度快、响亮且嘈杂，比如死亡金属乐就有很高的能量，而巴赫的曲子能量则很低。<br /><br />4. instrumentalness<br />预测一个音轨是否不含人声，「哦」和「啊」一类的会被视作乐器声，而 Rap 或口述词则会被视为显著的「人声」，这个指标越接近 1.0，乐段越可能不含人声。<br /><br />5. key<br />音轨的键，范围 -1～11，0 代表 C，-1 代表没检测到键。<br /><br />6. liveness<br />检测录制内容中是否存在观众，值越高，代表越有可能是现场演出的音轨，0.8 以上表示比较有可能是现场演出。<br /><br />7. loudness<br />音轨整体的响度（dB），取自整条音轨的平均值，可用于不同音轨间的响度对比。<br /><br />8. mode<br />音轨的调式，1 代表大调（major），0 代表小调（minor）。<br /><br />9. speechiness<br />检测音轨中是否有口述的字词，数字越接近 1.0，音轨越可能是演讲类的录制内容（如脱口秀、有声书）。<br /><br />10. tempo<br />一个音轨整体的预估速度，以每分钟的拍数计（beats per miniute，BPM）。<br /><br />11. time_signature<br />预估的拍号，指每段有多少拍，范围 3～7，3 代表 3/4 拍。<br /><br />12. valence<br />音乐的效价，描述了音乐传递情绪的积极程度，范围 0.0～1.0，数字越大代表音乐越积极（高兴、喜悦、开心），越小代表音乐越消极（悲伤、低落、生气）。<br /><br />https://developer.spotify.com/documentation/web-api/reference/get-audio-features<br /><br />昨天想着说不定可以用在 AI 生成音乐上，用来更精准的引导音乐生成的方向，不过 Suno 上似乎没有太大变化，可能定性描述比定量数据更有用，也可能我实验的样本还比较少分辨不出。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66035f703624666324a7911f</id>
+            <title>Claude3 称王，Elo 超越 GPT4 最新版。 连其中最小的 Haiku 也很不错。 确实是好模型，现在天天用。 API 还能免费申请，它不比 GPT4 香嘛？ 请到官网申请 https:...</title>
+            <link>https://m.okjike.com/originalPosts/66035f703624666324a7911f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66035f703624666324a7911f</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 26 Mar 2024 23:51:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude3 称王，Elo 超越 GPT4 最新版。<br />连其中最小的 Haiku 也很不错。<br />确实是好模型，现在天天用。<br />API 还能免费申请，它不比 GPT4 香嘛？<br />请到官网申请<br />https://www.anthropic.com/<br /><img src="https://cdnv2.ruguoapp.com/FkxWKtntUq5QqooQAJ1krGQaYRg3v3.jpg" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6602ccf037f7165b21f458c1</id>
+            <title>目前为止最喜欢的一个 SUNO 的创作，这个心经唱得真的好舒服。适合冥想一会。</title>
+            <link>https://m.okjike.com/originalPosts/6602ccf037f7165b21f458c1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6602ccf037f7165b21f458c1</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 26 Mar 2024 13:26:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    目前为止最喜欢的一个 SUNO 的创作，这个心经唱得真的好舒服。适合冥想一会。<br /><video controls="" src="https://videocdn.jellow.site/ltZ6B5127DkhhRJt_eDQjD4F0nRe.mp4?sign=55f00f357def7460bc2e61cee1f652fe&amp;t=6604549e"></video>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66021a253b9c66cae4b3c344</id>
+            <title>开源我昨天写了一天的 RAG-Search API 项目👇 https://github.com/thinkany-ai/rag-search 使用谷歌搜索引擎 + zilliz向量数据库实现联网数据的召回(retrieval...</title>
+            <link>https://m.okjike.com/originalPosts/66021a253b9c66cae4b3c344</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66021a253b9c66cae4b3c344</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 26 Mar 2024 00:43:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    开源我昨天写了一天的 RAG-Search API 项目👇<br /><br />https://github.com/thinkany-ai/rag-search<br /><br />使用谷歌搜索引擎 + zilliz向量数据库实现联网数据的召回(retrieval)和重排(reranking)，获取搜索链接的详情内容，通过向量相似度匹配过滤内容。<br /><br />在 LLM 的普遍 long context 时代到来之前，RAG 检索优化有非常重要的意义。这个项目旨在提供一个高效/精准的 RAG Search API，帮助做 AI Search Engine / ChatBot 的朋友，实现更好的Search / Chat 效果。<br /><br />目前第一个版本实现的还不够好，每一个步骤都有很大的优化空间，希望有更多的朋友参与共建。<br /><br />也欢迎体验我上周写的 AI Search Engine（需要科学上网）👇<br /><br />https://thinkany.ai<br /><img src="https://cdnv2.ruguoapp.com/Fnrg3T_2Ia7a78mH6sptdbSHMgvsv3.png" /><br /><img src="https://cdnv2.ruguoapp.com/FlfC1KHagDwKZhocEM3RG8e62qxvv3.png" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66019efda922aa28d0e8b3a5</id>
+            <title>把北岛的诗丢进SUNO生成的音乐，女声响起时有一点感动。谁说AI就不能有灵魂呢？又或者，什么是灵魂？</title>
+            <link>https://m.okjike.com/originalPosts/66019efda922aa28d0e8b3a5</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66019efda922aa28d0e8b3a5</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Mar 2024 15:57:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <img src="https://cdn1.suno.ai/image_e8f49e6f-4c65-4567-90a2-6119088c2c4e.png" /><br />            <a href="https://app.suno.ai/song/e8f49e6f-4c65-4567-90a2-6119088c2c4e">End or Beginning | Suno</a><br />        <br />把北岛的诗丢进SUNO生成的音乐，女声响起时有一点感动。谁说AI就不能有灵魂呢？又或者，什么是灵魂？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6601900237f7165b21dd4586</id>
+            <title>尝试了一下 Suno，会有直观的冲击。 这个《低语的竹子》从头到尾都是 AI 的作品。ChatGPT 完成脚本（prompt），Suno 创作词曲，Midjourney 创作背景图，DeepL 翻...</title>
+            <link>https://m.okjike.com/originalPosts/6601900237f7165b21dd4586</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6601900237f7165b21dd4586</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Mar 2024 14:53:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    尝试了一下 Suno，会有直观的冲击。<br /><br />这个《低语的竹子》从头到尾都是 AI 的作品。ChatGPT 完成脚本（prompt），Suno 创作词曲，Midjourney 创作背景图，DeepL 翻译中文歌词。当然，想法还是需要自己提供一些「冷启动」。<br /><br />这是 AI 在继续让创作门槛降低。未来的创作者的工具会极大丰富，而需要花费时间掌握的多数「技术能力」会迅速贬值。<br /><br />一人杂志（公众号/播客）、一人电视台（直播间）刚刚成真，一人乐队、一人电影、一人游戏已在眼前。<br /><video controls="" src="https://videocdn.jellow.site/loU9nh1HtYNJjUnaB56dJcmlFWIV.mp4?sign=49c8ef49c884270475f29e006ddc20e6&amp;t=6604560c"></video>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66011ea536246663247eb777</id>
+            <title>SUNO V3 有点像 Midjourney 的 V3，GPT 的 3.0 版本，给音乐产业带来了很多变化的可能： 1）UGC 音乐平台：音乐是创作者头部效应最明显的产业之一，在 pre-AI 时...</title>
+            <link>https://m.okjike.com/originalPosts/66011ea536246663247eb777</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66011ea536246663247eb777</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Mar 2024 06:50:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    SUNO V3 有点像 Midjourney 的 V3，GPT 的 3.0 版本，给音乐产业带来了很多变化的可能：<br /><br />1）UGC 音乐平台：音乐是创作者头部效应最明显的产业之一，在 pre-AI 时代，普通人拍的视频可能是具备被消费价值的，因为拍摄的对象可能很有意思，但是普通人创作的音乐或者翻唱的歌是完全达不到及格线的。所以之前做音乐 UGC 平台的公司基本都没有起来，音乐版权拥有者赚钱很容易，天下苦三大久已。<br /><br />但现在 SUNO 为代表的AI作曲工具，有点像摄影的发展从一开始要用胶片拍摄和冲洗，变成了数码相机，再变成了手机摄像头。当大量的人突然可以按照自己的想法和歌词生成达到及格线的音乐时，这里面就可能会诞生新的音乐家和大作。<br /><br />于此同时，SUNO 也是 AIGC 应用里面难得的可以形成「内容生产者 + 消费者闭环」的平台。妙鸭和 Midjourney 的问题都在于AI产生的内容在本平台上的再消费价值不大。一个人用 MJ 生成的图片一般来说只对这个生产者本人有价值，但用 SUNO 生成的音乐不一定。我发现我很自然地就在 SUNO 上开始听推荐的音乐了，有的还真的有点意思：<br /><br />例子：https://app.suno.ai/song/5c16c93d-0c60-4be1-a65f-c0fafe001a1b 这个应该是用了自定义歌词，但听起来真挺可以的。<br /><br />2）个性化音乐：70 分的音乐单独听可能价值不大，因为我总可以去听95 分的佳作，实际上只有音乐存在「单曲循环」的场景，我们会不断的听最好的歌。但 70 分的音乐配合合适的场景可能是有用的，尤其是可以随时生成个性化歌词音乐的时候。<br /> <br />例子：https://www.bilibili.com/video/BV1Xu4y1n7Jd 用 AI 产生自定义音乐点评电影。<br /><br />3）背景音乐生成器：有一些场景是 70 分音乐也 OK的场景，并且感觉器乐会更容易，因为音乐底层和数学其实是很像的？想起小时候有个假乐队叫班得瑞，就是台湾一个乐队公司把很多风格类似的器乐包装在一起出专辑，而 SUNO 现在生成的钢琴曲质量已经不错了，感觉凑合可以作为很多咖啡厅的背景声。<br /><br />例子：https://app.suno.ai/song/a0f12ca5-0833-49ce-97f1-cd6094510f2c<br /><br />4）音乐人的Copilot：就跟我们不能现在要求 Chatgpt 直接写出一部小说一样，对 SUNO 的要求也不应该是直接生成一首完整的歌，而是作为再创作的起点。SUNO 可以首先作为音乐创作者的 Copilot。这个地方看起来难点是如何生成专业创作者需要的工程文件（和 3D 生成遇到的问题类似），分轨的原始音乐素材也是现在最难获得的训练数据。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66005abede5f28734812d967</id>
+            <title>2005年，来自MIT 的Tristan发表了他的博士毕业论文《Creating music by listening》，并且基于这篇论文的一些技术实现，和他的同学Brian whitman创立了Echo Nest...</title>
+            <link>https://m.okjike.com/originalPosts/66005abede5f28734812d967</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66005abede5f28734812d967</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 24 Mar 2024 16:54:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2005年，来自MIT 的Tristan发表了他的博士毕业论文《Creating music by listening》，并且基于这篇论文的一些技术实现，和他的同学Brian whitman创立了Echo Nest，并最终被Spotify收购，<br /><br />接下来的的故事大家都知道了。拥有音频和用户行为双重理解的Spotify，推动流媒体彻底改变了音乐行业。<br /><br />19年后的今天，同样来自于Cambridge的Suno团队，用几乎相同的概念却完全不同的技术手段，实现了对音乐创作新的突破。<br /><br />很难说这件事会最终给这个行业带来什么样的影响，但有一点可以确定的是，对于如今流媒体增长出现停滞的音乐行业来说，拥抱这个变化，比起恐惧它来说更有意义。<br /><img src="https://cdnv2.ruguoapp.com/FqTZkP12wZkF6Dej1JntW55Y25clv3.png" /><br /><img src="https://cdnv2.ruguoapp.com/Fq0xYvZkHoPS7-bXPGLaee07n6z_v3.jpg" /><br /><img src="https://cdnv2.ruguoapp.com/FgnGl5wKlCZYW69YzEUK9Mu459Umv3.png" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/65fe3f1137f7165b219fbcef</id>
+            <title>这几天Kimi突然在二级市场火了，做二级市场的朋友也开始跟我打听，“Kimi真的很厉害吗？区别在哪里”。 我蛮惊讶的，但不是很意外。 一直以来，无论是chatgpt还...</title>
+            <link>https://m.okjike.com/originalPosts/65fe3f1137f7165b219fbcef</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/65fe3f1137f7165b219fbcef</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 23 Mar 2024 02:31:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这几天Kimi突然在二级市场火了，做二级市场的朋友也开始跟我打听，“Kimi真的很厉害吗？区别在哪里”。<br /><br />我蛮惊讶的，但不是很意外。<br /><br />一直以来，无论是chatgpt还是sora两波浪潮，中国AI环境里各种要素有一种“弱者思维”：OpenAI做了，你为什么不做？/OpenAI都没做，你为什么要做？<br /><br />这样的环境体现在中国AI创始人身上就是不太“敢”或是“能”去做创新的技术战略。在技术路线分散的时候，为一项技术路线赢取支持是一件太难的事情。大家都避免去“赌”。<br /><br />比如sora赛道的几家中国公司，其实在Sora破圈前就已经自研出了类sora的架构-- diffusion transformer（U- ViT，CVPR2023）。<br /><br />但是为什么直到sora出现之后，“长视频”这个点才引起了大家的追逐？<br /><br />因为即使是在已知架构可以带来提升的前提下，“把视频长度做长”这件事在当时仍然是风险远远大于收益的一件事，谁也不知道60秒的视频生成会不会引起全民关注，进而给公司能带来多少资源以支撑自己进一步做下去。<br /><br />但今天我们看到了什么？<br /><br />虽然长文本在研究领域一直是比较热的话题，但在工业界，就像sora爆发前的“长视频”一样，大家都觉得这是一个“重要但不紧急”的事项。<br /><br />去年十月份，月之暗面率先对外介绍自己的“长文本”战略，并且在机器之心独家详细解释了“为什么长文本是重要的”背后逻辑。<br /><br />在Kimi指数狂扫A股的时候，百度、阿里、360开始紧急上线自己的“长文本”能力。<br /><br />系统化的战略认知能为一个人带来战略眼光，坚定并真实的信念感能为一个人吸引到同频的支持者，脚踏实地的快速迭代能为一个人时刻校准方向。所有的一切形成了一种不偏不倚的理性勇气，勇气带来了创新，创新带来了领导者地位。<br /><br />某种角度看，月之暗面已经成为中国的OpenAI。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/65fdc7afde5f287348e601cf</id>
+            <title>把 YC 这个 batch 的近 150 个项目扫了一遍，大部分项目都还非常早期，还没有找到 Product Market Fit。因此，相比具体的项目来说，或许更有意义的是整体的场景...</title>
+            <link>https://m.okjike.com/originalPosts/65fdc7afde5f287348e601cf</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/65fdc7afde5f287348e601cf</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 22 Mar 2024 18:02:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    把 YC 这个 batch 的近 150 个项目扫了一遍，大部分项目都还非常早期，还没有找到 Product Market Fit。因此，相比具体的项目来说，或许更有意义的是整体的场景分布，从中或许能够看出哪些场景的需求足够强，且已经接近 Technology Product Fit 了。看下来的一些个人感受：<br /><br />- 绝大部分都是 2B，2C 的项目只有不到 20 个（加上教育类的），占比也就 10%出头的样子；<br />- 2B 场景下，Sales, CCaaS, ITSM, DevOps（主要是自动化测试）, RPA, Analytics 这几个细分赛道非常集中，加在一起有 50+ 个项目。光是用语音帮牙科诊所前台接电话都能有俩项目撞车；<br />- 垂直领域里，主要是医疗、金融、法律三个比较有钱的行业；<br />- 中间层里，面向模型的训练、评测、部署、加速、托管等服务相比之前少一些了，但整体占比也有 10%；<br />- 2C 场景下，有一些视频生成和创作工具，但更多的似乎是音频（音乐、播客等）的创作工具。<br /><br />一些个人觉得有趣（未必优秀）的项目：<br /><br />- Zoom 会议结束后，根据用户在会议中的（英文）发言给出即时反馈，来帮助用户提升商务英语口语水平的项目；<br />- 帮助用户更高效地申请联邦政府拨款的项目；<br />- 将工程师的3D设计图生成可用于制造的2D图纸的项目；<br />- 根据用户的兴趣直接生成播客的项目。<br /><br />PS. 原本尝试用 Kimi / Claude / Perplexity 帮忙做研究，结果发现前 10 个链接还行，之后链接太多了还是搞不定...<br /><img src="https://cdnv2.ruguoapp.com/FuhctYWjbXwDlkUctdw_REj_wApPv3.png" /><br /><img src="https://cdnv2.ruguoapp.com/FtDq13P03hbyBIt185goEVPQaEsIv3.png" /><br /><img src="https://cdnv2.ruguoapp.com/Ft5V8AN2-L7qDSz6iH8i4JslSLJiv3.png" /><br /><img src="https://cdnv2.ruguoapp.com/FkvlfVIAczsuLqAjunbTMLmx3M4av3.png" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
