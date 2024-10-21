@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67161d5f1102819b88934559</id>
+            <title>AI探索站 10月21日</title>
+            <link>https://m.okjike.com/originalPosts/67161d5f1102819b88934559</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67161d5f1102819b88934559</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 21 Oct 2024 09:22:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Notebook LM 产品负责人和 Karpathy 都聊了一下这个产品目前需要优化的部分和欠缺的功能。<br /><br />我整理了一下，一个比 Notebook LM 更好的 AI 播客 PMF 这不就出来了？<br /><br />1. 移动应用开发：需要专门的移动应用；更便捷的音频控制，特别是在屏幕锁定时。<br /><br />2. 交互功能：播放过程中能够中断并提问的能力；提出或请求后续剧集的选项。<br /><br />3. 简化内容生成：简化基于兴趣点生成额外剧集的流程；减少收集资料和定制内容所需的时间和精力。<br /><br />4. 分享和群组功能：与家人或朋友分享剧集的能力；群组收听体验的潜在功能。<br /><br />5. 内容质量和呈现：对信息上下文化的积极反馈；避免枯燥的事实陈述。<br /><br />6. 资料来源管理：目前主要依赖维基百科；建议提供快速资料来源选择器，并提供推荐。<br /><br />7. 自定义指令：保存自定义指令模版的能力。<br /><br />8. 离线功能：在网络连接不佳的地方可以本地保存内容的选项。<br /><br />9. 与其他AI工具的集成：目前使用NotebookLM pod和ChatGPT Advanced Voice的组合进行问答。<br /><br />10. 基于图像的播客生成：建议从单张图片生成简短播客；利用图像识别技术识别地标自动提取高质量资料，并提供简短的审核选项。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6715f6bda8855e724b78728e</id>
+            <title>AI探索站 10月21日</title>
+            <link>https://m.okjike.com/originalPosts/6715f6bda8855e724b78728e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6715f6bda8855e724b78728e</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 21 Oct 2024 06:37:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    非常屌的概念应用演示。<br /><br />实时将你所处的环境变成各种虚拟游戏地图。<br /><br />感觉 MJ 想做的那种 3D 生成就是这样的类型。<br /><br />目前这个演示是用 Runway 的 V2V 做的，不知道可以实现实时转换还需要多久。<br /><br />原作者是 Reddit 的 u/jesser722
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6715c80c32f03efa77ad2c60</id>
+            <title>AI探索站 10月21日</title>
+            <link>https://m.okjike.com/originalPosts/6715c80c32f03efa77ad2c60</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6715c80c32f03efa77ad2c60</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 21 Oct 2024 03:18:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果不是专业的创作者的话，别用 AI 搞那种又长效果又不好的 AI 长视频了。<br /><br />整个很有特点的 IP 形象然后运营就可以。<br /><br />这个巫师猫咪的 IP 的视频在Ins Reels已经有 1200 万播放，很多人进行混合二创，起飞了。<br /><br />原作者的推是：Cheeseball_sol
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6714fa73c79063fd7b2ee32c</id>
+            <title>AI探索站 10月20日</title>
+            <link>https://m.okjike.com/originalPosts/6714fa73c79063fd7b2ee32c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6714fa73c79063fd7b2ee32c</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 20 Oct 2024 12:41:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    把今天用AI翻译整本书的脚本代码开源了，也顺带说下思路：<br /><br />1、书的文本太长了，超过了LLM的上下文限制，更是远超了多数模型4096的输出token。所以文本需要分割，但是分割得不能太短，短的话会上下文不足会影响翻译质量，所以最好是接近LLM最长输出长度的；<br />2、分割翻译容易导致上下文同类表述翻译风格不一致，所以最好的是先提取文本高频词汇，直接在system prompt里限制；风格方面可以通过few-shot实现前后风格的接近；<br />3、从提高翻译质量和不要有机翻感的目标来说，可以做两步，一是直接定义风格（比如鲁迅），特定风格不容易有机器感；二是两步或更多步翻译，给AI更多的token进行思考，尤其是第二次翻译可以实现对前面内容的反思。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67131def47f574aa627e1126</id>
+            <title>AI探索站 10月19日</title>
+            <link>https://m.okjike.com/originalPosts/67131def47f574aa627e1126</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67131def47f574aa627e1126</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Oct 2024 02:48:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Prompt 制作思路分享<br /><br />时间线生成器：生成任意一个事物的时间发展，并列出关键事件。<br /><br />时间-空间分布图：生成历史人物的时间和空间分布图，可视化的呈现人物不同时间的影响力、生平轨迹。<br /><br />职业的一天：生成不同职业一天所做的事情，犀利表达内心OS，配合emoj呈现心情起伏。<br /><br />动物的一生：这几个里最满意的一个，科普动物的生命周期，并一句话分享冷知识，意想不到的动物的另一面。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6713046247f574aa627c329f</id>
+            <title>AI探索站 10月19日</title>
+            <link>https://m.okjike.com/originalPosts/6713046247f574aa627c329f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6713046247f574aa627c329f</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Oct 2024 00:59:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    💎 词生卡类 prompt 现在真强的可怕， 即友 @空格的键盘 做了直出 PPT 的效果<br />➡️ 能够很方便的生成“动物成长”等时间线视图<br />👍 从信息传达的效果来看，比 Gamma等各类 AI PPT 效果好了太多，非常适合知识教学！<br />🎉 空格 已把 prompt 开源，都可以来尝试<br />🔗 获取地址：https://mp.weixin.qq.com/s/BOMOQVGQ5hvd8dDaKwb18A
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67107794a59d13d6d121b6c9</id>
+            <title>AI探索站 10月17日</title>
+            <link>https://m.okjike.com/originalPosts/67107794a59d13d6d121b6c9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67107794a59d13d6d121b6c9</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 17 Oct 2024 02:33:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我的一个AI工具站：https://www.ai-outpainting.com 属于一个搜索量小的词，每个月收入不到50美金。目前关键词排名第一，这个网站给我最大的好处有两点：<br />1.有了自己的代码模板，后续上站速度快了不少（虽然我后来又有新的更快模板）。<br />2.及时给了我正反馈，上站就有美金收入。<br /><br />最近加了一些出海相关的群，看到很多非技术人员在面临出海上站时，第一个门槛就是如何找一个合适的代码模板。我想着我也有点技术积累，也受到过很多朋友的信息帮助。因此抽了点时间把这个网站的源码直接改造一下开源出来了。希望能给新手带来一点小帮助。<br />网站源码地址：https://github.com/yaakua/ai-outpainting-com<br /><br />感谢 @哥飞 @七鹿 提供的群信息
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66ff7d5d1bdec5e1e7573bc4</id>
+            <title>AI探索站 10月04日</title>
+            <link>https://m.okjike.com/originalPosts/66ff7d5d1bdec5e1e7573bc4</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66ff7d5d1bdec5e1e7573bc4</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 04 Oct 2024 05:30:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ✍️ 重新定义Copilot：ChatGPT 推出 Canvas ，一种全新的工作台正在崛起<br /><br />你的创意伙伴来了！现在打开 ChatGPT 网页端，你将发现一个全新模式——GPT-4o with Canvas，Plus 会员已全量开放。顾名思义，它是一种创作画布，然而其背后的设计哲学和隐喻远不止于此。<br /><br />（首发于即刻，未经授权不可转载）<br /><br />在这个新模式中，你和 ChatGPT 的互动不再是简单的对话，而是可以进行无限修改、编辑创作内容、版本的灵活控制。从细节到整体、从宏观到微观，这种以项目为导向的全新创作方式，正在掀开 AI 时代人机互动的新篇章。<br /><br />也许你和我一样，第一次看到它时，会联想到 Claude Artifacts [1]；然而 OpenAI 有着相似又不同的设计哲学。更重要的是，整个产品的完成度和实用性令人兴奋。Hans 试用几次后，意识到 OpenAI 正在将其视为一种全新的工作台，而不仅仅是编辑器。<br /><br />✨ 让我们一起从具体的写作流程来感受一下：<br /><br />1. 首先，在网页端新建对话，选择 GPT-4o with Canvas。<br /><br />2. 输入你的想法、灵感，或文章标题。例如提示："让我们一起书写『人生是一副空白的画布，你是命运的艺术家』短篇散文吧"。<br /><br />3. 啪嗒一下，Canvas 右侧丝滑展开独立窗口，文章一气呵成。然而，接下来更精彩。<br /><br />4. 进入全局编辑的场景。如图 3 所示，你可以在左侧的聊天窗口内继续提出"宏观"要求，例如："帮我改短些，并且用 emoji 按照三段隔开"。也可以直接在 Canvas 界面的右下方操作，直接调整文章长度。除了"Adjust the length"这样的全局调整，你还可以改变阅读级别，以面向从幼儿园到研究生不同层次的人群。（Hans 注：从产品建构的视角看，这是非常精彩的设计——它兼顾了传统软件的精确控制与点选式交互，也降低了 AI 新时代的提问门槛，毕竟 Prompt 是一面认知镜子 [2]。）<br /><br />5. 深入细节。在上面操作"调整长度"之后，我们可能想要进行文章细节调整，从哪里入手呢？如果还没有成熟的想法也没有关系，点选"Suggest Edits"，你将得到 GPT 非常细腻的建议，你可以逐步审阅并应用它们。（Hans 注：你依次点选确认的过程，可以视为语义在无限多维空间中发散的可能性，真正的创作者会充分参考其建议，而不会视之为捷径 [3]。）<br /><br />6. 在画布中无限修改。对于一个具有编辑器属性的工具来说， 修改具体词语和句子是创作的高频操作。 而Canvas 提供基于GPT 点对点智能辅助，第一次试用就令人感到惊艳。 其界面之简洁、易用以及整体的流畅性超越了我首次打开Notion时的震撼。<br /><br />7. 恢复与版本控制。即使你不是文档软件的重度用户，一定都需要回退操作：小到句子和段落的恢复，大到整个框架的切换。 在这个场景中，而 Canvas 于是将版本控制功能引入其中。（Hans 注： 目前的恢复交互细节还有待完善，毕竟技术的创新也是一种累进式的演化。）<br /><br />8. 最后的润色和调试。作为一名靠谱的写作者或程序员，清晰的表达、语法的准确和一致性是基本标准。当我第一次试用这个功能时，还是被强大的智能所惊艳到——这是追求完美的创造者不可或缺的利器。<br /><br />不到 10 分钟，这篇名为《人生是一幅未描绘的画布，而你是自身命运的艺术家》小散文初稿便已完成。相信你一开始试用，就会为这精彩的智能交互拍手称赞。而考虑到它即将释放给每周高达 2.5 亿的ChatGPT活跃用户，这种创造力的涌现方式将具有深远的变革意义。<br /><br />值得强调的是，Canvas 不仅适用于写作，还在研究学习、代码编程等场景下大有用武之地。你甚至可以用它发明新的食谱、进行艺术史研究，或将一段代码翻译成另一种编程语言。[4]只要你希望持续迭代、改写、深度学习和创作，这种新模式将带来巨大的价值解锁。<br /><br />正如 AI 教育家 Ethan Mollick 所说，它让创作更具有整体感，而不是半人马式的轮流工作（即人类和 AI 各自独立完成部分任务）。<br /><br />Canvas 的这种实时、流畅、无缝的智能体验，将创作心流提升到了新高度。聊天工具不仅升级为创意伙伴，它重新定义了 Copilot，也在改写我们与人工智能的深度关系。<br /><br />我们正在进入 AI 推动人类创造的新阶段。Amazing～ 🎉<br /><br />📶 注释和参考：<br /><br /> [1] 即刻AIGC 第12期大目录《勇敢的新语》总结了数十种Claude Artifacts的用法和深远意义 https://m.okjike.com/originalPosts/66d4fccfa0d6d2ffc4348604 <br /> [2] Prompts 不是神圣的咒语，而是一面认知镜子https://m.okjike.com/originalPosts/648d0224b0f25cc9182b521d<br /> [3]  Prompt 核心技能在于清晰的思考 https://m.okjike.com/originalPosts/66f1f9d18b9ec4b58d212626<br /> [4] Introducing canvas https://openai.com/index/introducing-canvas/
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66f74ab7dc1bf44104a5ddae</id>
+            <title>AI探索站 09月28日</title>
+            <link>https://m.okjike.com/originalPosts/66f74ab7dc1bf44104a5ddae</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66f74ab7dc1bf44104a5ddae</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Sep 2024 00:15:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    WSJ 今日发布了爆料文章，揭秘了 OpenAI 公司内部的冲突、八卦，原来 Mira 的离职和 4o 有关。<br /><br />Mira 和 GPT4o<br /><br />今年春季，OpenAI 为了抢走 Google 的风头，紧急发布了 4o。<br />在发布 4o 之前，只给安全团队9天的测试时间。<br />安全团队每天工作20小时，但仍然无法进行完整的安全测试，最终 4o 上线。<br />4o 上线后，分析发现该模型在「劝说」方面超出了内部标准，这个标准的含义是：可以劝说人们改变信仰和从事危险和非法行为。<br />对于 Mira 这样的技术领导者，安全至关重要，所以 4o 的正式版一再被推迟。<br />随着 4o 终于全量正式发布，Mira 也终于正式离开了 OpenAI。<br />同一天，OpenAI 的首席研究官和研究副总裁也都离开了。<br /><br />Greg Brockman 的故事<br /><br />Greg 是 OpenAI 的初创成员，OpenAI 在 2015 年创立的时候，还是在 Greg 的办公室里工作。<br />但是随着 OpenAI 的发展，他的管理风格导致团队很难受。<br />他会介入任何他想参与的项目，并在最后一刻改变计划，让团队非常崩溃。<br />多年以来，员工一直向 Sam 投诉 Greg，今年他终于同意休假。<br /><br />文章还讲了 Llya 离开的一些相关信息，原文地址 https://www.wsj.com/tech/ai/open-ai-division-for-profit-da26c24b?st=C8P17G&amp;reflink=desktopwebshare_permalink
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/66f342c36d4b1c1e10d6fa6b</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/66f342c36d4b1c1e10d6fa6b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/66f342c36d4b1c1e10d6fa6b</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 24 Sep 2024 22:52:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    🎙️ 突破性更新：ChatGPT 高级语音模式本周内向Plus 用户全面开放<br /><br />等的太久了…… <br /><br />这次ChatGPT 的高级语音模式将本周内一次性放出给所有Plus和Team 所有用户。届时，它将以50种语言表示： 「对不起，我迟到了」。 （注意视频中的普通话）<br /><br />还将包含：<br /><br />- 5种新语音/人物<br />- 记忆功能<br />- 改进的口音和自定义指定等。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
