@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>少数派 -- 首页</title>
+        <link>https://sspai.com</link>
+        
+        <item>
+            <id>https://sspai.com/post/93237</id>
+            <title>派早报：OPPO Find X8 系列发布、三星发布 Exynos 1580 芯片等</title>
+            <link>https://sspai.com/post/93237</link>
+            <guid isPermaLink="false">https://sspai.com/post/93237</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Oct 2024 00:17:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: OPPO Find X8, Exynos 1580, 微软 Word, Kindle 新一代  
+<br><br>  
+总结: OPPO 于10月24日发布了 Find X8 系列手机，搭载天玑9400处理器，具备高性能影像系统和快速充电功能。三星同日推出了 Exynos 1580 芯片，采用三丛集设计，显著提升了AI处理能力和图形性能。微软宣布其办公软件支持 Apple 设备的接力功能，方便用户在不同设备间无缝切换。Amazon 的新一代 Kindle 系列不再支持 USB 外接驱动器功能，限制了用户通过电脑传输电子书的能力。 </div>
+                        <hr>
+                    
+                    <h2>你可能错过的新鲜事</h2><h3>OPPO Find X8 系列发布</h3><p>10 月 24 日，OPPO 发布全新旗舰手机 Find X8 系列，均搭载天玑 9400 处理器、LPDDR5 内存和 UFS 4.0 闪存。</p><p>其中 OPPO Find X8，屏幕采用 6.59 英寸天马 OLED 直屏，全局峰值亮度达到 1600nit，分辨率为 2760×1256，支持 120Hz 刷新率和 240Hz 触控采样率，并采用 OPPO 晶盾玻璃。影像方面，前置 32MP 镜头，后置 50MP 主摄、超广角和潜望长焦三摄，支持全焦段 4K 60FPS 杜比视界视频拍摄。其他配置包括 5630mAh 电池，支持 80W 快充、50W 无线充电和 10W 无线反向充电，支持 Wi-Fi 7、NFC、红外遥控、与 iOS 一碰互传等功能，还支持 IP68 &amp; IP69 防尘防水、磁吸配件等。</p><p>OPPO Find X8 Pro 则采用了 6.78 英寸京东方 OLED 屏，参数与普通版大致相同，但影像系统升级为 50MP 的索尼主摄像头，并配备 50MP 潜望长焦镜头。Pro 版本机身厚度为 8.34mm（黑色为 8.24mm），电池扩大到 5910mAh，重量为 215g，其他规格与普通版一致。10 月 30 日正式开售，OPPO Find X8 系列起售价格为 4199 元。<a href="https://www.opposhop.cn/cn/web/products/29565.html">来源</a></p><figure class="image ss-img-wrapper"><img alt="MSHFbeMaGoRqBDxdOfCc75a3nGc" src="https://cdnfile.sspai.com/editor/u_/csde4qdb34tfe14r10bg.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>OPPO 还发布了 Enco X3 无线耳机，有黑色和白色两款配色，采用质感皮纹设计，并与北欧丹拿合作开发了第三代超清晰同轴双单元和无损传输技术，该耳机支持空间音频功能，支持智能场景动态降噪、50dB 主动降噪以及 5500Hz 超宽频降噪能力。OPPO 表示 Enco X3 的 AI 人声消噪算法使人声消噪能力提升了 200%，并通过三麦克风和骨传导 VPU 拾音骨实现声纹识别和人声增强。此外，该耳机支持最远 400 米的「灵动蓝牙」连接，确保在跑步或室内活动时保持稳定的连接。</p><figure class="image ss-img-wrapper"><img alt="QNZeb6rsWo0OBkxnmmFcEkpDn1b" src="https://cdnfile.sspai.com/editor/u_/csde4qlb34tfe4qbuc70.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>三星发布 Exynos 1580 芯片</h3><p>10 月 24 日，三星发布了全新的 Exynos 1580 芯片，该芯片采用了三丛集设计，CPU 部分包含一个 2.9GHz 的 Cortex-A720 核心、三个 2.6GHz 的 Cortex-A720 核心和四个 1.95GHz 的 Cortex-A520 小核。GPU 方面，Exynos 1580 升级至 Xclipse 540，性能提升 37%，在相同功率下快了 20%；三星表示这些提升来自于两组 WGP、增加了 GL2 缓存和纹理处理单元。NPU 方面，则搭载了 14.7 TOPS 的算力，显著提升了 AI 处理能力。</p><p>此外，该芯片基于 4nm FinFET 工艺制造，支持蓝牙 5.4、Wi-Fi 6E，5G 下行速率可达 5.10Gbps，支持最高 200MP 摄像头、4K/60fps 录像和 FHD+ 144Hz 显示等功能。<a href="https://semiconductor.samsung.com/us/processor/mobile-processor/exynos-1580/">来源</a></p><h3>微软 Word 等软件支持「接力」功能</h3><figure class="image ss-img-wrapper"><img alt="KBcbbSC3WoOyASxUxopcVA2ynlc" src="https://cdnfile.sspai.com/editor/u_/csde4qtb34tfe0oo3mf0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>微软于 10 月 24 日宣布，旗下办公应用 Word、Excel 和 PowerPoint 现已支持 Apple 设备的接力（Handoff）功能，用户可以在 Mac、iPhone 和 iPad 等设备之间无缝切换，继续编辑文档，应用升级至最新版本即可体验。当其他 Apple 设备靠近时，相关接力图标会显示在 Dock 栏或 iPhone 的应用切换界面中，点击即可在另一台设备上继续编辑。不过，需要注意的是，编辑的文档必须存储在 OneDrive 或 SharePoint 等云存储服务中。<a href="https://www.neowin.net/news/microsoft-adds-handoff-support-to-word-excel-and-powerpoint-on-mac-iphone-and-ipad/">来源</a></p><h3>Apple 继续响应欧盟新规</h3><figure class="image ss-img-wrapper"><img alt="Bh1QbX0V3oPYtExa9KmcwTwpnOe" src="https://cdnfile.sspai.com/editor/u_/csde4r5b34tfe57osb3g.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>Apple 于 10 月 23 日在其发布的首个 iOS 18.2 Beta 更新中，继续响应了欧盟地区的《数字市场法案》。在 iOS 18.2 Beta 中，欧美地区的用户可以删除 App Store、相机、Safari、信息和照片等应用，还可以选择其他替代品。此外，Apple 在 iOS 18.2 设置页面中还增加了一个按钮，方便用户恢复 App Store。</p><p>与此同时，Apple 也进一步放宽了调试第三方浏览器引擎的开发者地区限制。此前，Apple 要求开发者只能在欧盟地区调试 iOS 第三方浏览器引擎及 NFC 功能，而现在这一限制已被解除。开发者现在可以在非欧盟地区的 iPhone 上开发和测试第三方浏览器引擎、NFC 应用，亦可开发和测试第三方应用市场，并通过网络侧载安装签名后的应用程序。不过，这些上架的应用和服务仍然只能在欧盟地区内使用。<a href="https://9to5mac.com/2024/10/23/ios-18-2-web-apps-browser-engine-in-the-eu/">来源</a></p><h3>新一代 Kindle 系列不再支持 USB 外接驱动器功能</h3><p>新一代 Kindle 系列，包括最新的 Kindle Paperwhite、Kindle Scribe 1、Kindle Scribe 2 和即将推出的 Kindle Colorsoft，在通过 USB 连接到 PC 或 Mac 时，不再显示为外部驱动器。这意味着用户无法通过文件管理器备份或加载新书籍。此外，Amazon 官网还移除了通过 USB 下载和传输已购电子书的选项，防止用户去除 DRM 并进行非法分享。</p><p>这一变化延续了 Amazon 去年的做法，也限制了在 Kindle for PC 和 Mac 上备份 Kindle Unlimited 和 Prime Reading 借阅书籍的功能。尽管如此，用户仍可通过电子邮件发送功能将书籍加载到 Kindle 设备上。</p><p>较旧的 Kindle 设备（如第 9 代及更早型号）仍可通过 USB 连接到电脑并显示为外部驱动器。而新款 Kindle 设备采用了 MTP 文件系统，因此不再支持该功能。Amazon 的这一举措与 Apple Books 等其他平台类似，旨在将用户留在封闭的生态系统中。相比之下，Pocketbook 和 Kobo 等品牌的电子书阅读器仍可通过 USB 显示为外部驱动器。<a href="https://goodereader.com/blog/kindle/new-kindle-e-readers-no-longer-appear-on-computers">来源</a></p><h2>看看就行的小道消息</h2><ul><li>据 Android Authority 报道，Google Tensor G5 芯片的 CPU 仍将采用 Arm Cortex-X4 核心，并使用 TSMC 的 N3E 制程工艺，核心配置由 G4 的 1+3+4 变为一个 Cortex-X4 核心、五个 Cortex-A725 性能核心和两个 Cortex-A520 效率核心；GPU 从 Arm Mali 转换为 Imagination Technologies 的 GPU，支持光线追踪和 GPU 虚拟化功能；TPU 性能预计提升 14%。Notebookcheck 还曝光了 Tensor G6（代号为 Malibu）的部分配置，该芯片的核心架构为 1+6，旗舰核心为尚未发布的 Arm Cortex-X930，可能会被命名为 X5，并搭载了未发布的 Cortex-A730 核心，此外 Imagination Technologies 的 GPU 在 Tensor G6 上进一步优化，功耗降低了 15%。<a href="https://9to5google.com/2024/10/23/tensor-g5-g6-cores/">来源</a></li></ul><h2>少数派的近期动态</h2><ul><li>双十一临近，我们为你带来了「满血版」的 K3：少数派定制版 Keychron K3 Max，Max 版本在保留了 K3 系列基本卖点的前提下，最大的改进就是新增了 2.4G 的连接方式，使之成为一款有线 / 蓝牙 / 2.4G 的三模键盘。<a href="https://sspai.com/post/92779"><strong>进一步了解</strong></a></li><li>少数派的淘宝双十一正式开始，新版 logo 贴纸上新，除了多种样式的少数派 logo 外，吉祥物 @吃派的水獭 也加入演出，带来一些可爱风格。欢迎进店选购。<a href="https://item.taobao.com/item.htm?id=843791307688"><strong>进一步了解</strong></a></li></ul><figure class="image ss-img-wrapper"><img alt="P42vb4r3Yoj6GqxdsVEcDZShnOc" src="https://cdnfile.sspai.com/editor/u_/csde4rlb34tfe0oo3mfg.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><ul><li>上个月买了啥？与派友们一起回顾消费、评价产品，为「双十一买什么」来点参考。<a href="https://sspai.com/bullet/1727776810"><strong>参与讨论</strong></a></li></ul><h2>你可能错过的好文章</h2><ul><li>📚 <a href="https://sspai.com/post/93065">用飞书多维表格和扫码枪，快速构建个人图书管理系统</a></li><li>📱 <a href="https://sspai.com/post/93164">让 iOS 18 控制中心更好用，我们帮你找了 18 款 App</a></li><li>🌟 <a href="https://sspai.com/post/93228">新玩意 195｜少数派的编辑们最近买了啥？</a></li></ul><p>&gt; 下载 <a href="https://sspai.com/page/client">少数派 2.0 客户端</a>、关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，解锁全新阅读体验 📰</p><p>&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93228</id>
+            <title>新玩意 195｜少数派的编辑们最近买了啥？</title>
+            <link>https://sspai.com/post/93228</link>
+            <guid isPermaLink="false">https://sspai.com/post/93228</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Oct 2024 09:05:26 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <编辑部, 新玩意, 产品体验, 评测>
+<br>
+<br>
+总结: 本文介绍了少数派编辑部成员们最近使用的新奇产品，包括咖啡机、耳机、胶卷相机等。每位编辑分享了他们对这些产品的使用体验和感受，强调了产品的优缺点。比如，咖啡自由A3咖啡机能够制作出高质量的奶咖，但在小程序的使用上存在一些限制；Sonos Ace耳机在舒适性和音质上表现出色，但缺乏某些高级功能；富士DL-200 II胶卷相机则以其独特的成像效果和便捷性受到好评。整体上，文章展示了这些新产品在日常生活中的实用性和趣味性。 </div>
+                        <hr>
+                    
+                    <p style="margin-left: 0px;">很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。</p><p style="margin-left: 0px;">内容声明：《新玩意》栏目如含有商务内容，将会在对应条目标注「广告」；来源为「厂商送测」的产品并无内容干涉。</p><hr /><h2>@路中南：咖啡自由 A3</h2><ul><li>参考价格：¥2800（闲鱼二手价格，但部分渠道国补后新品价格甚至更低）</li></ul><p>前几个月同事路过暂住我家的时候，问我是不爱喝咖啡吗？我说那没有，天天动手磨豆做手冲，一天咕咚好几杯。于是他发问：「为什么不买一台咖啡机？」为什么不买呢，我当然也想过这个问题，只是感觉印象里编辑部同事们家里的半自动咖啡机虽然出品美味，但价格昂贵，又需要专业级别的耐心与技术；深圳办公室里那台德龙全自动虽然一键搞定，然而美式的风味不如我自己随便冲冲，偶尔想喝奶咖的时候，不还是要点外卖或者去咖啡店买。</p><p>也许对于任何市场来说，我这种用户都是最难伺候的：想要机器便宜，想要一键搞定，想要风味尚可，还想要偶尔来一杯热乎乎的奶咖。咖啡自由A3就是另一位贴心同事听了我的需求后推荐的，国庆假期第一天就到了，所以两周后就来聊聊我的体验。</p><p>先说优点，毕竟这机器最后还是留下来了，说明在我心里它对得起这个价格。首先是它真的可以做出「愿意在店里掏钱」的那种奶咖，而我要做的就是倒牛奶、水、咖啡豆，然后在微信小程序里面点一下制作。从磨豆、出两次浓缩、注入奶泡，一杯所谓「同款」的金烘馥芮白就出来了。我对同款不同款不感兴趣，也无意比较和批判，入口的一瞬间奶沫的甜感和咖啡融合得刚好，当下心里就在盘算是不是能出去卖咖啡了，至少不会再下楼去买十块钱的拿铁了。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/6d59feef116c00687208384e08abbcca.gif" /></figure><p>而其余浓缩和美式的部分，我主喝这两类，反而费了一些周折（下面会有吐槽环节）。我个人偏好冰饮，而它刚好还有冷萃饮品的选项，本身出品也不错，但是萃取的时间较长、而且加多少冰心里没底，试过之后我更愿意日常直接在 130g 冰块上打两份浓缩，再根据咖啡豆的品类或者自身喜好加水，更快更稳定。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/e275e5d28b6d2eaf5aa280fd3bf2a2ad.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>出品很简单，再也不下楼去马路对面的咖啡店了（在树后）</figcaption></figure><p>出品基本能满足我的需求，想喝随时可以来一杯，不用自己手冲就是省时省力哈。最后这个联动用的小程序做工还算可以，没有弹窗或广告不说，首页给的这些数据也比较吸引我这种量化星人。算是一个小优点。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/9509f995c54f9b4251a0f9144a6a5af1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>当然成也小程序，败也小程序，由此开始我的吐槽。机器买来的第二天正值国庆假期，就出现了「服务器维护」的情况，小程序无法使用。和客服确认了一下，没有任何离线操控的办法。也就是说除了按键面板上的六款「标准饮品」，也无法实现精细调控，也无法制作小程序中的门店复刻、冷萃/隐藏饮品、单独打个奶沫等等，而这类恰恰是我日常高频使用的。机器明明拥有这种能力、但是主动权却操控在厂商的服务端，这种感觉并不好。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/feb1a7f3d13c8b0567ae21bc4287e291.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>其次，为达成这类「门店同款饮品复刻」卖点，小程序中提供了「配方」功能，用户可以自定义参数并收藏，这就在傻瓜式的全自动之外给用户进阶提供了空间。正所谓入坑一步一步来，这应给予充分好评，问题在于这项功能我认为落地得并不好。也许是为了衔接入门用户，「粉量」这项参数被改写成了「咖啡浓度」，冲煮水温变成了带有歧义的「咖啡温度」，同样不明不白的还有「咖啡量」，实际上是萃取出液量。</p><p>呵，你可知这些参数都是本i人联系客服一个个问到的吗？说明书中从未提到这些。也许他们是一家专业的咖啡机公司，已经默认用户理应知道研磨度是数字越小才越细、咖啡机上各个图标代表的参数，但实际上这些都是我最一头雾水的地方——作为咖啡小白，我可以接受这台机器一次只能萃取最多 10~12g 咖啡豆，但不能接受自己连菜单上的中文都读不懂。机器刚到手的时候，无参可调的复刻饮品做出来都很好喝，但提供参数调整的标准饮品却很糟糕、寡淡如水。（当然，这也和这台机器的定位有关，更高端机型中的「玩家模式」是明说了这些参数并可调的。）</p><p>当我对照咖啡豆包装上推荐的参数调整完后，才真正做出我认为口味比较正常的冰美式、写下适用于当下咖啡豆的配方。另外一提，小程序上拍照识别豆子的功能基本只适用于自家商城所售产品，像我这样自己买豆的话，基本指望不上。</p><p>既能做奶咖，虽有波折（换个角度也算打发了无聊的国庆假期）但最后日常出品迅速稳定，一定程度上算是实现了品牌名所畅想的「咖啡自由」。接下来就是它陪伴我一天五杯的日子，希望它能顺利撑到回本吧。</p><h2>@Microhoo：Sonos Ace 耳罩式耳机</h2><ul><li>参考价格：¥3743（双十一平台补贴券后）</li></ul><p>耳机对我来说除了听音乐，也是「社交勿扰」的告示牌，所以除了独处或者无法避免的团队协作时，大部分时候它都与我形影不离。而在形态上，因为主力机 iPhone，使用频率最高的自然是 AirPods Pro，但若是在一些需要长时间「静坐」，特别是高铁飞机长途交通工具上，为了舒适度我还是会需要一个耳罩式耳机。</p><p>很早就入手的 Bose 已经用了七八年的时间，虽然尚能出声，但无论续航还是已经远远落后的蓝牙协议导致的连接稳定性，当然最重要的还是被岁月腐蚀得坑坑洼洼的耳罩，早就萌生了换耳机的念头。原计划也是顺其自然的换一副 AirPods Max，但在办公室尝鲜了不到十分钟后果断放弃——脑补着自己像戴着免疫精神工具头盔的万磁王，是我大头不可承受之重。但 AirPods Max 别具一格的设计和质感的确是拉高了我对耳罩式耳机外形的期待，所以也开始有点抗拒一溜烟儿电竞风的主流耳罩式耳机，在我快要「戒掉」耳罩式耳机的时候，Sonos Ace 来了。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/9bd479cbf726480e041d516be396a41e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>耳罩式耳机基于实用性其实在外形设计的创造性有限，我也并非跑马灯爱好者，所以我对其「好看」的标准很简单——只要别让我显得像个网瘾少年就行，Ace 和 AirPods Max 一样就刚好落在我的审美点上，同时也没有「谁更美」之分，当然尤为重要的是 Ace 比 AirPods Max 轻了近 75g，所以它几乎成了目前我唯一的选择。</p><p>而在佩戴舒适性上 Ace 也不落下风，我的耳朵算是普通人类里比较大的，它也能完整的将我耳朵包裹进去，并且仍有充裕的空间而不会显得闷热。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/4f99e4d24c46f89ccb476ff782620136.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>在生态方面，尽管 Ace 不能像 AirPods Max 那样可以联动 iPhone 实现 Siri、音频共享等功能，但依然具备了更实用的佩戴检测和多点连接，无论是摘取自动连接和通话、还是在 iPhone 与 Mac 之间无缝切换，它都能达到近乎相似的体验。</p><p>我既不是专业音频人、也没有一双俏耳，所以就不展开去描述所谓的驱动单元、高低音频这些我觉得玄而又玄的东西，但如果把 AirPods Max 作为某种「标准」的话，Ace 是毫不逊色的，特别是 Sonos 本身就作为数十年历史的专业声学产品设计制造品牌，所以这部分我一直就没担心过，与此同时它也同样支持现在流行的空间音频。但我想展开讲讲的是它非常不错的降噪和通透模式。</p><p>耳罩式耳机本来就有物理被动降噪的天然优势，Ace 也兼具了主动降噪功能，所以戴上后不仅是标识式的「社交勿扰」，主观感受上也真的能到一种这世界上只有我一个人的体验；而通透模式下又可以「击穿」在某些时候耳罩式耳机隔绝外界的弊端，对外界的感知甚至要强过 AirPods Pro 的表现，<s>可以大摇大摆偷听同事说话了。</s></p><p>值得一提的是，如果你是骁龙芯片的 Android 用户，Ace 还可以通过 aptX™ Lossless 协议提供更好的无损音质播放，当然无论 iOS 还是 Android 用户，都能使用 C to C 或 C to 3.5mm 线来获得超越无线传输更好的音质。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/2fd5fa55eb0f3eb8939c9728f7726d00.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>但 Ace 对我来说真正的「大招」还是让我出乎意料的 Sonos 生态联结。之前有分享过我在用 Sonos 的回音壁和低音炮组了一套 5.1.2 家庭影院，囊中羞涩一直舍不得「破 7」，而 Ace 居然能和 Sonos Arc 互通，若片源规格足够高，则可以由 Arc 解码，再 Wi-Fi 回传到 Ace 上以获得完整的全景杜比声体验。值得一提的是除了直面电视正襟危坐的观影，在我扭扭晃晃用 PS5 玩黑神话时，支持头部追踪的 Ace 也给了极为震撼和细致的立体声场游戏体验。</p><p>而实现这一切非常简单，只要在 Sonos app 中把 Ace 添加到同一账户系统下（当然这也是初次使用的必备流程，可以在 app 中调试 Ace 的各项功能和固件升级），后续只要电视打开且回音壁正常工作，即便是在播放中途，也可以随时戴上耳机长按播放键，就可以瞬间且稳定的切换到电视画面的音源里。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/470c7d3abc7aceca8df432a96bdb4527.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>我在写这个新玩意之前拿出了一直舍不得扔的 QC35，没想到此时它已经不仅仅是耳罩被腐蚀磨损，上面的人造皮革已经融化粘在了手上，我终于狠下心把它丢进了垃圾桶；但美丽的 Ace 耳罩是磁吸结构，相比之下应该能提供更长久的使用寿命。</p><p>希望日后有它陪伴的日子里一切顺利。</p><h2>@Tp：富士 DL-200 II DATE</h2><ul><li>参考价格：¥220</li></ul><p>前段时间，我在网上冲浪时看到了这款富士 DL-200，精致的设计一下就让我种草了。在闲鱼一搜，两百左右的价格也不算太贵，于是便冲动消费买了下来。心想哪怕不用它拍照，只是当个拍摄道具或者收藏摆件也是极好的。但在实际拍了一卷之后，它的表现确实让我有所改观。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/be22783d925acda383fd40760e9411da.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>虽然我玩胶片已经有 10 年了，但此前用的都是胶片单反和旁轴相机，除了小时候用过家里的傻瓜机外，这还是我第一次拥有属于自己的傻瓜机。DL-200 发布于 80 年代，一代机由于采用了内置电池的设计，更换电池比较麻烦。目前在二手市场几十块钱就能买到一台，如果自己能更换电池的话还是很划算的。我这台是 DL-200 的二代，改为了由 CR-P2 电池供电，用起来更方便。</p><p>DL-200 最吸引我的地方还是它的预上卷模式，当你将胶卷放入片仓，相机就会自动将胶片卷出，每拍完一张就会将照片收回暗盒，从而确保已拍完的照片不会因为不小心打开后背而作废。于是，我给它配了一条挂绳，方便出门时挂在手上随时准备拍摄。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/b9ddef444f8b7bf4e10c54be79bbf6d8.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>相机拥有一颗 32mm f/2.8 的自动对焦镜头，并且搭载了 TTL 测光和自动闪光灯。在拍摄时，我唯一要做的就是构图和按下快门。或许是因为多年来的习惯，我希望能将曝光完全把控在自己手上。即便是在我的主力相机 X-E4 上，我也更倾向于使用 M 档曝光，最多也只会将 ISO 设为自动，并通过曝光补偿来微调。</p><p>但在一台强制自动的相机上，我反而找到了更轻松的感觉。我不需要时刻思考曝光三要素如何搭配，反而是用眼睛观察世界，然后举起相机按下快门。当照片冲扫出来后，我看到的第一眼更多是惊艳。因为我对它的成像素质本没有太多期待，但出来的效果还是令我挺惊喜的。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/13bb1fb0b40a82bba3d0a4ba167e3183.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Fuji DL-200 with Kodak ColorPlus 200</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/b18faa8b6413e220aa01ea223bf970a9.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Fuji DL-200 with Kodak ColorPlus 200</figcaption></figure><p>由于机身采用了强制自动闪光灯的设计，在除了晴天室外的场景下，它几乎都会开启。而正是由于强制闪光灯的存在，让许多照片拥有了一种独特的「古早味」。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/8f52bb05d485b8a190a50dd19a93668d.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Fuji DL-200 with Kodak ColorPlus 200</figcaption></figure><p>但强制闪光也带来了一个问题，就是每一次快门都需要等待闪光灯充能后才能按下。在连续拍摄时，闪光灯只需要几秒钟就能充能，还是很快的。但在一段时间不拍摄之后，首次充能时则需要更长时间。因此，如果我带它出门的话，会时不时滑开镜头盖，并半按快门来检查它的充能状态，确保它能处于快速可拍摄的状态。</p><p>总的来说，DL-200 是一款让我非常满意的胶片相机。它足够好看、成像素质也过得去。相比起花高溢价买某些相机来追求胶片感，花几百买台真正的胶片机，反而成了一个性价比更高的选择。</p><p>不过，就算买了轻巧的设备，它也无法让不爱出门的你从此出门记录美好。与其寄希望于买一台设备就能拍出好看的照片，不如先用好手头的设备，再根据需求来针对性添置副机，切勿掉入消费主义的陷阱。</p><h2>@张奕源 Nick：OPPO Enco X3 耳机</h2><p>很多人都知道我是 TWS 耳机大户，各家但凡推出有点意思的耳机产品，我基本都会搞来试试。但如果实打实地问诸多耳机我哪款用得最久，我目前的答案是 OPPO Enco X2。</p><p>一直在用它的原因有两个：一是产品本身的基本面都不错，续航不算短，佩戴不难受，降噪也不弱，所以即使换到其它同类型的耳机，也没有跨代级别的升级感。二是耳机音质在我用过的 TWS 耳机里排在前列，换到其它耳机同样没有明显的升级感，动不动还会觉得降级。</p><p>所以，当我提前拿到 OPPO Enco X3 并且用完觉得也不错之后，肯定会想写两句。</p><p>先提一嘴外观。OPPO Enco X3 的外观得用「令我诧异」来形容，因为它（白色版）没有沿用耳机常见的塑料充电壳，而是大胆地使用了米黄色的素皮材质。我刚拿到产品的头两天还不太习惯，总觉得它和其它 TWS 耳机放在一起有一种「一大堆鸡蛋里混进来一个恐龙蛋」的感觉。最近两天接受了这个设定，也确实觉得素皮比塑料看着高级、摸着舒适，是个有趣的外观变化。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/f96c4a7f5d262366cd20ee9ab42b5044.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>OPPO Enco 系列擅长的音质也有升级。大师调音的可选项增加到了五个，我在用的「丹拿特调」可以视为音频版的「哈苏自然色彩」，即既忠于声音素材的原始风格，又有一定的细节优化。其它几个音效也都是与丹拿联合调校的，所以此处的「大师调音」可以直接理解为「丹拿模式」，每个音效都有特色。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/c76a8c1cdee31467552c2409b22f7716.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>大师模式下的五个风格都是 OPPO 与丹拿联合调校，新耳机的空间音频也具备了头部跟踪能力</figcaption></figure><p>OPPO Enco X3 的降噪模式比上代产品有了明显改善，除了降噪深度可感知地更强了，对我来说更重要的是抗风噪的能力变好了。当周围的风速达到一定等级后，耳机会把风噪压缩成到一个稳定、低频、低响度的频段，听上去有点像白噪音，能听得出来是风声但不会干扰主要音源。我每天上班出地铁后要坐五分钟的小摩托，这段路就成了绝佳的风噪测试区。目前能通过这段「小摩托风噪测试」的耳机不多，Enco X3 是其中之一。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/438fa240e370e15437ec35459e1e3c00.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>总体而言，OPPO Enco 系列属于 TWS 耳机里的「安全的选择」，如果你需要一个全能的 TWS 耳机，但又不执着于 AirPods 系列，可以考虑整一个 OPPO 试试看。</p><h2>@北鸮：有你一面烧椒牛肉拌面</h2><ul><li>参考价格：¥59.9 / 6 包</li></ul><p>作为吃鲜面条长大的中原人，我一直想找一个能让我吃起来有鲜面感觉的方便食品。主要原因有三：一是在成都最容易买到的是我觉得最难吃的棍棍面，碱太大了，硬得人心烦；二是我附近最好吃那家韭叶面馆只从早上开到中午，而且不开周日，和想吃就吃差太远了；三是就算买到了鲜面，我饿急了根本来不及做爱吃的炸酱和汤底，嘻嘻。</p><p>目前试下来，我感觉面条和酱料一起算上，最好吃的就是前段时间在山姆买到的有你一面烧椒牛肉拌面。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/18ee2a57249b1daa9f6bc36a7af0a602.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>有你一面虽然也是成都产的，但它的干面按宣传说是「手工日晒面」，具体是手工做面还是手工送去日晒我就不追究了，配料表只有小麦粉、水和盐，煮出来口感非常接近普通刀削面。面包装有托盒，干面保护得很好，基本都是完整的。烧椒酱是跟专做烧椒酱的川娃子一起弄的，辣度不高，主要是香，而且真的有点炭烧的复合香味。肉包里也真的有牛肉末。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/57708a2e12e347ffeed06000eafc942b.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>山姆版跟市售版的差别就是肉包多给一包，别的配置都一致——因为确实好吃我还真买了公售版对比，顺便尝了尝他家其他味道：面条都一样，葱油拌面味道一般，韩式火鸡面味调得不好，最好吃的还是烧椒和金汤这种调料复杂点的口味。</p><p>自从买了这个面，馋面条的时候，水开了锅只用六分钟就能快速解馋，一只锅就能搞定，分量刚好吃到不饿。赶上想吃得完整点，煎个蛋、烫个菜、冲碗汤，非常快乐的一人食就搞定了。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/093e623ddc44f07f6bf4f76992ddcedf.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>太饿了，我就不摆盘了，爱吃面的有空可以试试。</p><h2>@西鸽：3D 打印 iPhone Retro Case</h2><ul><li>参考价格：¥59.27</li></ul><p>要说现在手机有什么好玩的，可能就是换壳吧。去年自从换代 iPhone 15 Pro，前后换了不下七八个手机壳，给自己一个新鲜感。毕竟主力机，换机不习惯，不换机光换代又感觉没啥变化。前阵子刷到这个复古手机壳，就买到手玩玩，分享一下。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/6e1e1f002a8765d6e8db8bab3db5a292.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>昨天在社区先发了<a href="https://sspai.com/t/losj7zrkh8g5">几个图</a>，然后上街溜达了一下，还是很吸引路人<s>看智障的</s>目光的。这大小放裤兜里，有点像揣着更厚的三折叠屏手机。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/df0446c78d49042b0a694175a08571e0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>应该是纯 3D 打印，有些地方还有毛刺没处理好，打磨也不是特别精细。前后盖靠 H 型管卡固定，但不是特别紧，中间留出的缝也很大，稍微用点力就容易撬开。前面板是颗粒状纹理，侧边的层纹就比较明显，总之比较粗糙，上手有种生涩感。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/773651dc73b03c281f44a7970efdf07b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>手机壳边缘有点太侵占屏幕，而且是凹陷设计，手指返回操作就很困难</figcaption></figure><p>要说有什么优点，除了复古配色外，很喜欢这几个大按钮，把 iPhone 侧边的 Action Button 和音量键都做到前脸了，按着像几十年前的电子设备，很舒服。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/81182a82ebfae33af316176055152400.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>放在桌面就像个扁平的 CRT 显示器</figcaption></figure><p>有兴趣的可以自己打印玩玩。</p><ul><li>手机壳打印文件：<a href="https://www.printables.com/model/919133-iphone-retro-case" target="_blank">https://www.printables.com/model/919133-iphone-retro-case</a></li><li>配套的底座文件：<a href="https://www.printables.com/model/1042335-dock-for-retro-iphone-case" target="_blank">https://www.printables.com/model/1042335-dock-for-retro-iphone-case</a></li></ul><hr /><p style="margin-left: 0px;"><strong>如果你也想分享「新玩意」🔉：</strong></p><ul><li>获取 Matrix 社区写作权限并签署 <a href="https://sspai.com/post/72089" target="_blank">Matrix 共创计划</a>；</li><li>新发布一篇文章，在标题中标注「新玩意」前缀；</li><li>用至少 800 字介绍产品，并配上 2-3 张产品的实拍图片；</li><li><strong>在网站个人信息中补充支付宝账号。</strong></li></ul><p style="margin-left: 0px;">成功入选本栏目还可以得到 108 元的「剁手红包」🧧。如果你有兴趣参与，就赶紧来稿吧！</p><p style="margin-left: 0px;">&gt; 下载少数派 <a href="https://sspai.com/page/client">客户端</a>、关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，了解更多的新玩意 🆒</p><p style="margin-left: 0px;">&gt; 特惠、好用的硬件产品，尽在 <a href="https://shop549593764.taobao.com/?spm=a230r.7195193.1997079397.2.2ddc7e0bPqKQHc" target="_blank">少数派 sspai 官方店铺 </a>🛒</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93164</id>
+            <title>让 iOS 18 控制中心更好用，我们帮你找了 18 款 App</title>
+            <link>https://sspai.com/post/93164</link>
+            <guid isPermaLink="false">https://sspai.com/post/93164</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Oct 2024 07:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <iOS 18, 控制中心, 自定义功能, 应用适配>
+<br>
+<br>
+总结: 本文介绍了iOS 18在控制中心的重大改动，增强了用户的自定义功能，允许用户调整按钮大小、位置和分组存放不同控制项目。多个应用程序已适配这些新特性，提升了操作的便利性。以Things 3、滴答清单、Fantastical等效率管理类应用为例，用户可以通过控制中心快速访问待办事项和日历功能。此外，其他应用如Focus、自律石头和OffScreen等也提供了便捷的专注和时间管理功能，进一步丰富了用户体验。 </div>
+                        <hr>
+                    
+                    <p>从 iOS 16 的锁屏小组件到 iOS 17 的 Standby 待机模式，iOS 近几年在整体视觉保持一致的情况下，进一步增强了系统的易用性和用户的可自定义范围。今年的 iOS 18 也不例外，控制中心迎来了大幅改动的同时，也开放了一定程度的自定义功能。现在控制中心的设置项支持不同的按钮大小和位置摆放，而且支持不同种类的控制项目通过分组存放。</p><p>经过这一个多月的更新，目前 App Store 中已经有不少 App 适配了控制中心的新特性。我们从中挑选了一些已经适配的 App，也欢迎大家在评论区一起分享更多支持控制中心自定义的 App。</p><h2>效率管理类</h2><h3>Things 3</h3><p>Things 一直是我非常喜爱的一款待办事项工具，自发布起一直践行着 GTD 的产品理念，保持着清爽干净的交互设计。本次 iOS 18 开放了控制中心的 API 十分利好效率类应用，可以让很多原本需要长按，或者添加小组件的高频操作简化成控制中心的一个按钮。其中，最高频的当属查看列表和新建待办事项两个操作。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/167f30cfa85befc12d1d23df69d67107.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>Things 3 新增的控制中心「列表」按钮支持快速跳转访问指定的列表。编辑按钮状态下点击，可以选择快速访问的列表页面。初始状态「列表」按钮点击默认跳转到今天列表，如果更习惯访问其他的列表，可以通过切换列表和按标签筛选功能自定义。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/27379421376a861d626e8ab1c10e7ecf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>「新待办事项」控制中心按钮的功能，点击后直接弹出 Things 的新建待办事项弹窗，用户可以通过该控制中心按钮，快速收录任务到收件箱中。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/790840095051e06607bbbee101a61343.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>滴答清单</h3><p>滴答清单作为 All in one 的日程管理工具，一直在适配 iOS 版本新特性应用的第一梯队，甚至很多特性在开发者测试版期间就适配发布。本次控制中心按钮的适配包括 8 个控制中心控件，其中 6 个跳转页面型控件，2 个是计时相关的状态控件（不会跳转到应用内部）。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/9160ae859aadece76d1b55c244bbc8b8.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>控制中心本身非常适合状态类的开关按钮，恰好滴答清单适配的「番茄专注、正计时」的 2 个计时按钮就在此列。</p><p>其中，番茄专注的默认主题需要在添加或编辑按钮时指定。番茄专注按钮允许用户在控制中心直接开始和停止专注，每次操作都会触发系统的实时活动提示。如果想要暂停专注，控制中心按钮并不支持，需要在实时活动或应用内部进行操作。这也很好理解，控制中心的按钮至多只有两个状态。</p><p>需要注意的是，番茄专注的默认时长是可以在应用内部进行设置的，控制中心按钮默认也会以这个时间进行倒计时。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/8eeb414475784929c7fb23b059ab02c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>另一个计时按钮「正计时」的功能和「番茄计时」别无二致，本质上就是倒计时和正计时方式的区别。二者都需要在添加或编辑按钮时指定好主题，才能快速开启和停止专注，且因为主题都是在番茄专注模块设置的，可选的专注主题也一致，这意味着如果你经常做一个任务的话，就可以和下图一样同时新建正计时和倒计时的快捷方式。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/9ca784ff2b0c9057e35102ad17cd50b4.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>剩下的 6 个跳转页面型控件分别是添加任务、打开今日任务、打开日历、打开专注、打开习惯打卡、打开四象限。其中，添加任务控件允许选择任务添加的默认清单，这比目前 Things 3 的适配更加完善。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/7c426b787bbce1bd19836b16d06e601a.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/535535073b7adf0402157cb00ee50358.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>由于滴答清单的日历支持多种视图，「打开日历」是以选中的日历视图或者最近使用的视图的方式查看日历。需要注意的是，除了列表视图是免费的，其他视图都需要开启会员才能查看。最后，「打开专注、打开习惯打卡、打开四象限」就是打开界面的快捷按钮，点击即可直接打开对应的滴答清单菜单。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/5b31d31050db57fd29b54bc861da4a1f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/f5aa8e9b3f0f90b90a5270a63d435622.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Fantastical</h3><p>iOS 18 之前，第三方日历应用 Fantastical 是少数能把系统待办和日历结合得很好的 App，补足了 iOS 系统日历和待办长期联动不足的短板，当然这一功能在 iOS 18 得到了系统级的支持，但不妨碍 Fantastical 以更优的 UI 交互和功能继续赢得用户的青睐。</p><p>本次 Fantastical 为方便用户通过控制中心按钮快速操作新增了三个控件：打开 Fantastical、创建日程和搜索日程。后两者不必多说，创建日程对于不喜欢长按 App icon 来新建日程的用户来说是福音，推荐在控制中心添加成方形的大控件样式方便点击。结合长按的操作按钮不难猜测，后续控制中心可能还会新增展示任务操作按钮，方便用户直接查看日程关联的任务。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/33adca2dc2e8c471d97d8c98718b2a38.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>我的番茄</h3><p>以设计可爱和功能极简为特色的番茄钟应用「我的番茄」也在第一时间适配了控制中心按钮。对于番茄钟应用来说，常见的专注场景都是高度重复的，非常适合新建成固定的专注控件进行使用。在页面上添加过多的小组件会干扰主屏幕的搭配，在控制中心这个二级入口则可以自定义很多常用的番茄钟。</p><p>我的番茄只有一个类型的空间可以添加，添加番茄计时器时可以进一步选择该控件关联的番茄标签，后续专注则将时间都记录到该标签下。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/471a2db95835cfdda524662b32aee499.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>在新建或编辑控件时，选取合适的标签，把常用的专注标签都新建成控制中心的控件，后续点击就可以快速开始和结束一个番茄钟。上图中，我就把常用的学习、午觉、运动和少数派写稿添加成了固定的控制中心控件，方便随时专注。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/01ef8a0c41d3b19ef3c29252209d3ec8.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/a95d42bc491f34ffaa37543351bf55cf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>点击番茄计时器控件，番茄计时就会进行，再次点击控件番茄钟就会结束，锁屏后用户也可以通过实时活动进一步操作番茄计时。遗憾的是，不同标签的番茄计时控件的倒计时时间并不能分别定义，默认都以番茄钟的预设时间为准。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/950645b323f63f0a49c04011d7b39b39.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Focus</h3><p>Focus 是一款番茄计时器和时间管理工具，它可以帮你主动开启一段专注的番茄时间，不让它们来分散你的注意力。同时，Focus 也可以帮助你规划任务的完成日期和预期专注时长，让你更好地制定自己的工作计划。</p><p>Focus 的控制中心按钮支持所有的专注的关联操作：开始时段、重置时段、跳过时段和延长时段。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/10b7c8f89e72daeaef8811643269e277.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>点击开始时段控件，实时活动会通知专注已经开始，再次点击可以暂停当前专注。重置时段可以把当前时段的时间恢复到初始状态，适合还没准备好就计时开始或刚开始就被打断的情况。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/d63a325649512df528655360704f3ab7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/76e520fc7c0375cd4c2327426e193a6a.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>番茄钟的常规设置是 25 分钟的专注后会设置 5 分钟的休息时间。跳过当前的时段可以快进到下一个时段，如果在专注中，点击跳过时段可以快进到休息时段。如果任务提前完成，则可以利用该控件快速进入休息状态。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/92dd0c73105ba9e03f7dca458aded865.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>不难注意到，延长时间的控件效果是根据当前专注状态动态变化的，如果在专注中则默认点击一次延长 5 分钟专注时长，同理休息中点击一次延长 5 分钟休息时间。</p><p>值得一提的是 Focus 的任务管理功能，不同于一般的任务管理工具只关注任务的到期和完成，Focus 的任务是和专注时段紧密结合在一起。这本身也是符合番茄工作法的设定，当建立好一个任务时，提前规划好任务需要分配多少个番茄以及每次专注的时间，方便后续快速专注，同时复盘后续估期和实际完成使用时间的偏差也更方便。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/6b4c78aa5659383813768f004764ec32.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>自律石头</h3><p>自律石头是一款想要陪伴用户慢慢戒手机的 App，比起一刀切限制每天刷手机的时间，自律石头引入了多走路、多读书来兑换更多刷手机时间，而积累的时间可以允许使用抖音、小红书等的受限制的应用，通过正面引导和反面限制帮助用户养成良好的使用手机习惯。</p><p>自律石头在控制中心新增了两个按钮，分别是「打开自律石头」和「开始离线」。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/87b98f81b394b01d65d1d720223f29bf.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>「打开自律石头」不必多说，「离线模式」是自律石头的特色功能，推荐在控制中心设置。打开离线模式后，负面 App 均会被屏蔽使用，打开 App 的同时会有石头的 emoji 和一句提示语督促你离开应用，与此同时，离线的时间会转化为可以使用限制 App 的时间，可以说是自律给你自由的真实写照了。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/79c8ab30d11b0856490c8e96303e280b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/8dc815acad8f7827f96ddc8231cbab41.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>OffScreen</h3><p>在远离手机使用这件事情上，OffScreen 作为一款完成度很高的作品一直致力于把 iOS 的新特性与加强专注、屏蔽手机使用相结合。本次 OffScreen 适配了 5 个控制中心按钮，分别是打开 OffScreen、OFF 时间、正计时、倒计时和番茄钟。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/8357c210286f632b59afbdd8eac22127.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>打开 OffScreen 的控制按钮就不提了，正计时、倒计时和番茄钟按钮可以方便我们快速开启专注。点击任意计时按钮，OffScreen 会唤起系统内部的专注进程，正计时和倒计时都有实时活动进行提醒，番茄钟暂时没有。需要注意的是，专注的标签都是按照应用内的默认值来进行，倒计时也不支持指定时间，适合轻度专注的用户使用。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/7b6665b9b37adf21a338033e842f0595.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>OFF 时间是 OffScreen 内部设置的屏蔽手机使用的时间区间的名词。举个例子，你可以借助该功能在晚间的 23:00 - 7:00 彻底屏蔽某些应用的使用。设置好「OFF 时间」控件后，按钮会根据状态显示当前是否在屏蔽使用的时间区间内，上图中已有示例。</p><h3>锁屏启动</h3><p>锁屏启动是一款发布之初就致力于提升用户锁屏访问应用效率的 App，控制中心的 API 开放了必然不会错过适配。基于锁屏启动的现有功能，本次 iOS 18 适配的功能一共有 9 个，几乎覆盖了锁屏使用的所有场景，借此机会顺带可以重温下锁屏启动应用能做到的效果。以下几个场景的需求都可以使用到锁屏启动控件：</p><ul><li>打开 App（包括扫码、领券等场景）</li><li>打开系统的设置和切换各种开关</li><li>打开网址</li><li>打开音乐播放列表</li><li>打开快捷指令</li><li>通过 URL Scheme 自定义</li></ul><p>我这里把微信扫一扫和支付宝的付款码设置成了两个启动项，在添加或编辑启动项时，你可以修改启动项的默认启动内容，启动项的图标需要在应用内部进行设置。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/f0fc0893e18290096026479778be47eb.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>实时活动是 iOS 16 新增的锁屏通知特性，本来是用做打车、比分等软件来显示实时的进度的常驻通知。锁屏启动将其使用场景扩充到了基于实时活动快速打开应用，以及显示备忘录提醒的范畴。</p><p>在锁屏启动的实时活动设置界面，锁屏底部显示可以选择程序坞、备忘录两个选项。</p><p>选择程序坞，可以指定分组和程序坞的一系列样式在实时活动展示应用图标。设置好后，点击「开始实时活动」，你的 iPhone 就会收获一个类似 Mac 的程序坞入口，「停止实时活动」对应程序坞会消失。</p><p>如果你想把内容作为备忘放在主屏提醒自己，借助实时活动展示备忘录是个不错的选择。「切换程序坞 / 备忘录」控件允许你随心情切换实时互动的展示内容。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/1493a7f674fe828296b214b7e6bd692b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>搭配实时活动（程序坞）还有一个「切换程序坞分组」控件，使用该控件需要你在锁屏启动中预设好不同分组的程序坞内容，有点类似工作模式和生活模式的切换。如果程序坞出现异常，可以点击「刷新实时活动（程序坞）」控件进行修复。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/2c6e69fe9e6481a66b471b154185a108.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>实时活动展示备忘录时，想要切换备忘录显示内容可以直接编辑控件，无需深入到应用内部进行设置。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/d43383cf78a49bddb2be1d3604b06757.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/0558f137b69348250823368ad39b1b8d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>灵动岛设备支持「激活动态岛」控制中心按钮，点击后会激活展示灵动岛区域。和实时活动控件一样，动态岛允许用户在这里切换应用，或是显示网速、CPU 占用等信息内容。点击「切换画中画」时，展示在灵动岛的信息会移动到画中画上，展示效果如下图。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/8e1a5e0f37d7a89642641fc335452c0f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h2>媒体播放类</h2><h3>Dtd Playlist</h3><p>控制中心一直是音视频的便捷操作入口，收听播客、播放音乐等场景都免不了打开控制中心操作，有些媒体播放类应用也适配得非常及时。Dtd Playlist 是一款音乐电台类 App，它内置了十几种不同风格的推荐歌单，吸引人的场景视频和音乐搭配，成为了很多人工作学习和休闲时的桌面 BGM 应用。</p><p>Dtd Playlist 的控制中心按钮恰好对应着不同类型的歌单快速入口，不需要打开应用，通过控制中心可以一键根据心情选择切换想要播放的歌单。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/eedb8840673fdfc764ca788e4b8a3cfb.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Dtd Sounds</h3><p>同属 Dtd 家主打声音和场景结合的白噪声专注应用，Dtd Sounds 还在白噪声中加入了可爱的猫咪场景。Dtd Sounds 现在支持通过控制中心一键开启专注计时并播放白噪声，不同的场景可以分别设置想要专注的时间，适合放松和专注都需要白噪声陪伴的人群。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/822000c355f961cf11d57871ea3e514b.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>新建和编辑控件时，预设的专注时间有 5 个选项，分别是 5、10、15、20、30 分钟。用户可以针对放松、睡眠、学习和工作的个人习惯分别设置。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/2421c020238eae551447a5ca58c96b29.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/20617af801dac8adac09a8d97ec3b690.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Cuto</h3><p>在 <a href="https://sspai.com/post/92490">派评</a> 栏目刚提过的 Cuto 壁纸，在更新了 iOS 2.10 版本后为用户带来了在应用内一键直接更换墙纸的功能。随着 iOS 18 控制中心 API 的开放，一键更换壁纸的功能可以通过控制中心按钮直接实现。</p><p>Cuto 本次新增了三种快速更换壁纸的控制中心按钮，分别是今日壁纸、随机壁纸和收藏夹壁纸。要直接从 Cuto App 内设置壁纸，需要安装一个辅助的快捷指令，通过点击控制中心按钮走的也是唤起快捷指令切换壁纸的操作。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/f8a7ecb80a1bc4c52912972f9e845a17.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h2>生活信息类</h2><h3>flomo</h3><p>flomo 是一款帮助用户践行卡片式笔记工作法的工具，以简洁的笔记记录和笔记的关联功能吸引了很多用户的青睐。</p><p>此前 flomo 已经有每日回顾、快速记录的锁屏小组件和主屏小组件功能入口，通过长按 App 也实现快速记录和搜索功能。iOS 18 开放控制中心按钮后，flomo 适配的控制中心按钮包括快速记录、搜索、那年今日、每日回顾和找一找，把此前的快速入口都囊括其中，极大地提升了操作的便利性。</p><p>通过快速记录和搜索控制中心按钮，可以在锁屏界面随时记录和搜索灵感。「那年今日」是快速搜索过年每一年同一日期笔记的快速入口，用来回顾日记类的内容时会颇有感触。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/4b852a1f0ea34bcf63c36660acee1b65.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>每日回顾和找一找都是 flomo 的会员功能，前者会打开每日回顾的界面方便用户查看当日的回顾信息；后者是近期上新的 AI 功能，通过询问 AI，flomo 会联想寻找关联的笔记并总结给出答案。</p><h3>LookUp Dictionary</h3><p>LooUp 是一款主打每天一张生动形象的单词卡片，帮助用户更好地学习和掌握新词的应用。在 iOS 17 的主屏幕可交互小组件适配之后，在主屏幕上了解和学习新词变得非常方便。本次适配 iOS 18 控制中心新增了三个按钮，分别是查询单词、开启阅读模式和扫描识词，进一步扩充主动查词的功能入口。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/430eb1058c2f167cd0fa5dbc8df76a50.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>「输入查词和扫描查词」基于 App 内部的对应入口，点击控件即可快速唤醒搜词、识词操作，遇上生词时方便第一时间查询理解。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/3a970a014298561308750bee5941ea54.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/6692cf78f2f96682b24748e0f5636451.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>如果在查找资料或长文阅读期间需要大量查词，「开始阅读模式」控件是非常好用的控制中心控件。开启阅读模式期间，用户可以持续在锁屏界面通过实时活动查词。在阅读模式倒计时结束后会自动关闭实时活动，如果提前阅读完毕也可以再次点击控件关闭实时活动。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/ee623feefcd9a0f327cea2865c697f31.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/aba00d9a53e8cdaec0cb55824efc811d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>谜底时钟</h3><p>谜底科技出品，获得过 Apple Design Awards 提名的谜底时钟以设计好看、创意出色吸引了很多桌面时钟爱好者。 适配积极的谜底时钟本次新增的控制中心按钮有启动、当前时间、正计时和倒计时 4 个。</p><p>不开通会员的情况下，只有「谜底时钟」这一控件可以使用，点击即可打开谜底时钟。当前时间、正计时、倒计时控件对应的功能均需要解锁才能使用。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/7bdc72151becac189b8815b3c1f93690.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>点击「当前时间」控件，实时活动通知会提醒你当前的具体时间，再次点击可以关闭控件，需要精确查看时间、数秒的时候非常实用。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/f44c08526d400421a635f6a46c7ceb7e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/da7d2ae34f9d55f811e94b26e6535ac7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>谜底时钟内置了正计时和倒计时功能，在控制中心的组件中可以根据需求选择计时的方式。选择「正计时」控件时，会有实时活动通知和常驻展示当前的计时情况，打开应用也能看到对应的计时任务。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/57259f9e8d2e4a6bad7682b00c330fb4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/7bce660c69c06dbacdab4098fd5ccfc6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>选择「倒计时」控件时也是如此。值得一提的是，正计时和倒计时的控件图标也做了动态的效果，算是一个小小的细节吧。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/85f53ac6df4f4a5e07510a95a421c403.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/344b3902b99dac105555abbd81ef9629.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>不过，倒计时控件需要提前在新建或编辑「倒计时」控制中心按钮时，设置好默认的倒计时时间，好在这部分时间的可选项比上文提到的 Dtd Sounds 更多，能满足更多的时间选项需求。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/3e78c1faf73315a06f4bcbc08636b6de.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/f16044e773f52a4ca5e940c346ea2321.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Grow</h3><p>Grow 是一个基于 Apple 数据的健康信息集合类应用，除了提供比系统更友好和直观的图表数据外，也加入了轻量化的挑战和身体指标评估功能。</p><p>本次 Grow 新增了 4 个控制中心的按钮，分别是压力状态、打开 Grow、打开身体和打开挑战。从下图可见，方形的压力状态控件可以直接展示 HRV 的数值和当前状态，方便我们不打开 App 一览压力情况；后三个控件都对应着打开 App 对应的 Tab 的效果，比较简单这里就不多赘述。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/9910308b4242d6777f27b29a17fccf99.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>喝水羊驼</h3><p>凭借着多彩的设计和优秀的交互方式，喝水羊驼屡获 Apple 官方推荐。在喝水提醒和记录这件事情上，入口的多样和便捷非常重要，本次喝水羊驼适配了 3 个控制中心按钮，分别是补水、补水（app 打开）和打开喝水羊驼。</p><p>前两个控制中心按钮允许用户快速点击记录补水情况，需要用户添加或编辑控件的时候预设好自己饮水的平均单位和饮料类型。区别在于，第一个控件点击后不会打开应用，第二个控件会打开应用，无论哪种都会在点击的时刻完成补水情况的记录。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/707540493565faaef8cb886a120e242c.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Days Matter</h3><p>一直与时俱进的倒数日应用 Days Matter 应该是很多人的偏爱，这当然也得益于他们这么多年依然在第一时间对苹果的新特性进行适配。本次 iOS 18 更新后，用户可以在控制中心直接打开指定的事件、相册和倒数本。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/1df0fb12fcd99ef46a37989a6489e8a0.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>「倒数日事件」这个控件，在添加或编辑状态下长按，可以切换想要打开的事件对象。例如我这里切换到 iPhone 发布的事件，后续点击该控件就可以快速跳转查看事件的倒数日详情。当然，你可以设置成你最常用的纪念日事件，如结婚纪念日、恋爱纪念日等。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/07e30bf02ebb93a21ca6ce48b4aa0af1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/3294cce83dbdec66e623afb97690fc2c.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>倒数日相册是 Days Matter 的相册时间轴功能，你可以在事件中不断上传你的照片来记住每个纪念日你们留下的照片回忆，让其帮你根据事件的发生时间自动串联成美好的回忆。和「倒数日事件」控件一样，你需要选择一个已经上传过倒数日相册的事件作为默认打开的选项。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/ac68a8437e25de16d76016e35a2ef526.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/592fd54937a7b3cbefa4e0576ff94fcc.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>最后一个控件是「倒数日本子」，本子是倒数日的组织概念，一个倒数本下推荐存放多个相似含义的纪念日。最简单的例子是，你可以把家人和朋友的生日都聚合到一个生日本下面，这样可以通过控件中查看统一的纪念日。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/23/52a80e291cb7576a562000a032b578ae.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/23/5e8f4e828c9aed25e6c503b63c090234.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>招商银行</h3><p>作为国内银行界最好用的 App，招商银行一直以不错的审美和品质跟进着 iOS 版本的迭代。本次适配控制中心的一共有 4 个按钮，分别是扫一扫、收付款、乘车码和医保码。前三者相信大家已经足够熟悉了，最后一个医保码按钮在医院挂号缴费时，用来出示电子医保卡非常便捷，真想不起来哪里能找到医保卡的时候，这个控制中心的按钮能帮上忙。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/a4ed6c038913effa7a7f96453e393743.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>🙋 你还发现有哪些好用或好玩的控制中心按钮呢，不妨在评论区和大家一起分享。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93065</id>
+            <title>用飞书多维表格和扫码枪，快速构建个人图书管理系统</title>
+            <link>https://sspai.com/post/93065</link>
+            <guid isPermaLink="false">https://sspai.com/post/93065</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Oct 2024 03:17:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <飞书, 多维表格, ISBN, 数据管理>
+<br>
+<br>
+总结: 本文介绍了如何利用飞书的多维表格和扫码枪快速构建个人家庭图书管理系统。通过扫描纸质书的ISBN号，结合豆瓣数据爬取，实现书籍信息的自动录入。作者分享了创建表格模板、使用AI补全信息、上传封面图等具体步骤，旨在减少手动录入工作量。最终，用户可以在短时间内整理出家庭图书数据库，并探索更多数据管理的可能性。 </div>
+                        <hr>
+                    
+                    <p style="margin-left: 0px;"><strong>Matrix 首页推荐&nbsp;</strong></p><p style="margin-left: 0px;"><a href="https://sspai.com/matrix">Matrix</a>&nbsp;是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。</p><p style="margin-left: 0px;">文章代表作者个人观点，少数派仅对标题和排版略作修改。</p><hr /><blockquote><p>一句话介绍：飞书多维表格 + 扫码枪读取纸质书 ISBN 号 + 爬取豆瓣数据 + 飞书应用开发能力 = 快速构建个人家庭图书管理系统。</p></blockquote><p>先看一下最后的成果吧。虽然我还没完全把书全录进去，但模板和代码已经搞定了。大家可以直接使用<a href="https://bsua27acdo.feishu.cn/base/Sd4Vb07Sva4h6jsEWKGcHEEtnih" target="_blank">我的模板</a>。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/ce029ea3e62cc3d826228899f5fa9b4b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>数据表</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/f3ac0214555375072ddaeda1fbad0acf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>封面图</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/9365f709aae10b882842d7a9041b45fe.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>查询页（支持以书名、作者或分类查询图书）</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/4a15b0e1283c22d5a374386c98756b37.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>统计图仪表盘</figcaption></figure><p>接下来详细记录一下我创建模板和录入数据的过程。</p><p>契机是这样的，最近家里新买了一个书柜，我想着反正要把书都倒腾出来摆放一次，不妨顺便把家里的纸质书登记为一个表格；而且我最近翻出了一个以前买的扫码枪，可以发挥一下作用（实践下来发现确实挺好玩的）。</p><p>在工具的选择上，我没犹豫太多就选了飞书的多维表格。多维表格的扩展和开发能力很强，也能够快速把一个基础的数据表呈现为多种看板、画廊效果。而且多维表格最近还新增了 AI 捷径，可以直接调用 AI 能力填充表格。</p><p>整体设计思路大概分为以下几部分：</p><figure class="image ss-img-wrapper image_resized" style="width: 450px;"><img src="https://cdnfile.sspai.com/2024/10/21/article/71e9dd8368cb51efce3104d96b35afc0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h2>创建表格模板</h2><p>在飞书云文档新建多维表格。如果不想逐个手动配置字段的话，可以点击右上角的 AI 助手飞飞，告诉它希望增加哪些字段，AI 就会帮助我们生成表头并设置出最为合适的字段属性：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/8f2255de21206bee0581a5025f654d06.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>我这次的思路是：先通过 ISBN 获取豆瓣图书数据，然后使用飞书的 AI 能力补充生成需要的字段，最后再手动录入少量数据。基于此，要录入的信息分为三类：</p><ul><li>基础信息：豆瓣中能够获取到的基本信息，比如书名、作者、出版社、简介、评分等；</li><li>AI 生成信息：基于基础信息，生成豆瓣中无法获取的信息，比如基于把图书简介概括为一句话总结，生成合适的图书分类等；</li><li>手动录入信息：当前阅读状态（读完、在读、待读），读书笔记等。</li></ul><p>通过自动抓取导入 + AI 补全生成，尽可能减少手工录入的工作量。同时在多维表格中，数据表是最基础的数据库，后续可以基于数据表格创建不同的视图、表单或仪表盘，不过现在还是空表，所以我们把其他视图放到最后再介绍。</p><h2>爬取豆瓣接口获取书籍信息</h2><p>如果可以的话，用 API 是最好的，不过豆瓣的接口很早就关闭了，我在网上搜了一下，也没有其他太好用的图书 API（或者都不免费）。鉴于个人使用一共也没多少本书，所以可以还是做一下豆瓣的爬虫吧，仅供学习使用，不会对豆瓣服务器造成太大压力。</p><p>使用豆瓣的搜索接口提交 ISBN 号<sup class="ss-footnote" href="" title="国际标准书号，用于唯一标识图书等出版物的编号系统，便于全球范围内对出版物进行分类和识别。">1</sup>，从第一条搜索结果中获取图书链接并爬取更详细的信息。</p><p>如图，豆瓣的搜索接口是：<code>https://book.douban.com/j/subject_suggest?q=</code></p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/cbdf9d3ad559c0bdae85341f447d4468.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><pre class="language-python"><code>    params = {'q': isbn}
+    response_suggest = requests.get('https://book.douban.com/j/subject_suggest', params=params, headers=headers_suggest)
+    if response_suggest.status_code != 200 or not response_suggest.json():
+        return "未找到相关书籍信息"
+    book_suggest = response_suggest.json()[0]
+    book_url = book_suggest['url'].replace('\\', '')</code></pre><p>获取图书详情页<code>https://book.douban.com/subject/35335514/</code>后，请求该页面数据，并从页面中提取相应信息：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/cea5f9a3671f6c10d13bc54705999172.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>不过由于豆瓣的图书简介内容并没有统一数据格式，这里还需要做很多错误处理，举个例子，比如定价这里，有时会写 59.00 元，有时会写￥59 或 CNY 59，有时会写 59，有时信息缺失干脆没有这个字段，所以为了避免程序处理时报错，就需要做一些处理，比如使用正则：</p><pre class="language-python"><code>    try:
+        price = float(re.search(r"(?:CNY\s*)?(\d+(?:\.\d+)?)(?:\s*元)?", soup.find('span', text='定价:').next_sibling.strip().replace('元', '')).group(1))
+    except AttributeError:
+        price = ''</code></pre><p>其他字段的处理类似，这里就不再赘述了。</p><p>还有一个稍微特殊一点的就是封面图片，多维表格中支持上传图片附件，可以将封面图生成画廊，所以我们也需要顺便记录一下封面图片的 URL 地址，后续可以下载图片并上传到飞书中。</p><p>豆瓣的信息里，其实没有图书的分类信息，我本来想参考中图法<sup class="ss-footnote" href="" title="即《中国图书馆分类法》，是中国的一种大型综合性分类体系，用于系统地对图书馆馆藏进行分类和组织，是国内图书馆最广泛采用的分类法。">2</sup>去做图书分类，后来发现太复杂了，家里这么点书确实没必要那么精细的分类。</p><p>然后我试了一下飞书的 AI 功能，其实可以用 AI 自动补充图书分类：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/a574a8eab273d68af033c88eb9fc49ea.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>再比如，豆瓣简介写的比较长，我们可以让 AI 进行总结，生成一句话简介：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/31a56600fd679fad2ad3024129cf0627.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>这样设置好了之后，只要我们填入前几列的字段，飞书 AI 就会帮助我们自动补全这两列数据，非常好用。</p><h2>通过接口向飞书云文档推送数据</h2><p>多维表格其实自带一个 Webhook 接口用于提交数据，具体做法是点击文档右上角的「自动化」：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/054fbdebade8f67be1cbe66b67ef1423.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>「创建自定义流程」：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/e96f388985b1f713b6f60abc0dd51453.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>左边选择「接收到 Webhook 时」，会得到一个 Webhook 地址，向这个地址发送 JSON 格式的数据，服务器就会收到并自动解析为字段；然后右侧选择「新增记录」，选择插入数据的位置为数据表，然后设置记录内容即可：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/8f5e4c82406b807f4327fa4947b46a35.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>不过……我感觉这样做还是不是太方便，因为需要手动逐个去设置字段匹配，字段一多或者需要修改时也比较麻烦。所以我还是用开发应用的方式来实现，登录飞书开放平台，选择创建企业自建应用：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/db276811efdbd14f270f5b8a840b7075.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>填写基本信息：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/d0cb8b49b9b73ec4abcd9f5f38694a8d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>创建完成后有很多可以设置的选项，不过我们这次主要会用到「应用凭证」、「权限管理」和「版本发布」这几项功能，其余的大家可以自行阅读飞书的<a href="https://open.feishu.cn/document/home/index" target="_blank">开发文档</a>（在这里要保存好 <code><strong>App ID</strong></code> 和 <code><strong>App Secret</strong></code> 供后面使用）。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/d8b1801a5a53781bd1c1c25c0f1229c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>想要通过应用向多维表格中提交数据，主要需要几个过程，我会把文档附在这里供大家参考：</p><ul><li><a href="https://open.feishu.cn/document/server-docs/authentication-management/access-token/tenant_access_token_internal" target="_blank">获取鉴权</a></li><li>上传图片附件<a href="https://open.feishu.cn/document/server-docs/docs/drive-v1/upload/upload_all" target="_blank">获取 file_token&nbsp;</a></li><li>向多维表格中<a href="https://open.feishu.cn/document/server-docs/docs/bitable-v1/app-table-record/create" target="_blank">提交数据</a></li></ul><p>这个过程中，还需要向应用开放相应的操作权限，我建议是在「开发文档」中调试接口时，开通相应的权限。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/6f910379d257441e9f549a5c3c98d4ee.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>具体来说，我们需要提前准备好 4 个参数，分别是：</p><ul><li><code>appid</code>：飞书应用的唯一标识，在应用设置页面获取</li><li><code>app_secret</code>：在应用设置页面获取，和 <code>appid</code> 一起使用，用于获取<code>tenant_access_token</code></li><li><code>table_apptoken</code>：多维表格 App 的唯一标识，从多维表格链接中获取。</li><li><code>table_id</code>：多维表格数据表的唯一标识，从多维表格链接中获取。</li></ul><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/5183b3ee63fce60ea8b839ebbb71a9bd.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>获取鉴权</h3><p>提交<code>appid</code>和 <code>app_secret</code> ，获得<code>tenant_access_token</code>。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/c69cdb1b3c98a2073ae71f8d6e2a58a7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><pre class="language-python"><code>def access_token():
+    url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+    payload = json.dumps({
+        "app_id": feishu_appid,
+        "app_secret": feishu_app_secret
+    })
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return response.json()['tenant_access_token']</code></pre><h3>上传图片</h3><p>对于附件类内容，需要先完成上传获取<code>file_token</code> ，后续提交表格记录时需要用到。这一步直接用飞书文档里的示例代码就行：</p><pre class="language-python"><code>import os
+import requests
+from requests_toolbelt import MultipartEncoder
+def upload_media(file_path, access_token):
+    file_size = os.path.getsize(file_path)
+    url = "https://open.feishu.cn/open-apis/drive/v1/medias/upload_all"
+
+    form = {
+        'file_name': os.path.basename(file_path),
+        'parent_type': 'bitable_image',
+        'parent_node': table_apptoken,
+        'size': str(file_size),
+        'file': (open(file_path, 'rb'))
+    }
+    print(form)
+    multi_form = MultipartEncoder(form)
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': multi_form.content_type
+    }
+
+    response = requests.request("POST", url, headers=headers, data=multi_form)
+    print(response.json())
+    if response.status_code == 200:
+        return response.json().get('data', {}).get('file_token')
+    else:
+        return None</code></pre><h3>上传记录</h3><p>这一步主要是结合数据表的结构，构造好需要提交的 JSON。主要是需要结合<a href="https://open.feishu.cn/document/server-docs/docs/bitable-v1/bitable-structure" target="_blank">文档</a>，注意不同类型的字段必须匹配相应的格式。比如，在表格中设置「豆瓣链接」的类型为超链接，这里就必须提供<code>text</code>和<code>link</code> ；「出版时间」设置为日期，就需要提交时间戳而非字符串；「封面图」设置为附件，就需要提交<code>file_token</code>；还有一些数字格式，也要匹配具体的设置。</p><p>如果提交的数据和设置的字段类型不匹配就会报错，所以需要仔细 debug 一下。代码比较简单，大家应该能看明白：</p><pre class="language-python"><code>def insert_book_info_to_feishu(book_info, file_token, access_token):
+    url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{table_apptoken}/tables/{table_id}/records"
+
+    payload = json.dumps({
+        "fields": {
+            "书名": book_info["书名"],
+            "作者": book_info["作者"],
+            "出版社": book_info["出版社"],
+            "出版时间": book_info["出版时间"],
+            "页数": book_info["页数"],
+            "定价": book_info["定价"],
+            "ISBN": book_info["ISBN"],
+            "豆瓣评分": book_info["豆瓣评分"],
+            "评分人数": book_info["评分人数"],
+            "豆瓣链接": {
+                "text": book_info["书名"],
+                "link": book_info["豆瓣链接"]
+            },
+            "豆瓣简介": book_info["豆瓣简介"],
+            "封面图": [
+                {
+                    "file_token": file_token
+                }
+            ]
+        }
+    })
+    payload = construct_payload(book_info, file_token)
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {access_token}'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response.json())
+    print(f'飞书接口状态：{response.status_code}')
+    return response.status_code</code></pre><p>哦对顺便说一句，如果是专业搞飞书应用开发的，可以直接用 Python SDK，我手搓代码是这次因为一共也就两三个接口的事。</p><h2>使用扫码枪录入 ISBN</h2><p>完成以上准备工作之后，我们就可以开始录入数据了。这时就要祭出「扫码枪」了。具体来说，我用到的这种扫码枪叫做「红光一维码扫码枪」<sup class="ss-footnote" href="" title="红光扫码枪：一种利用红色激光扫描条形码以快速读取其数据的设备。 一维码：由不同宽度的平行线条及其间隔组成的条形码，通常用于表示数字或字母信息。">3</sup>：</p><p>大家现在用的更多的是手机扫描二维码。其实扫码枪这玩意儿一点都不神秘，超市收银台标配。而且一维码条形发明都几十年了，被广泛应用于商品标识。</p><p>扫码枪的原理其实很简单，就是通过光学扫描系统读取条形码中的数据，将其转换为电信号，再经过处理器处理后，模拟键盘输入的形式将数据传递给计算机等设备。</p><p>不过我用的并不是那种「有线枪式」的扫码枪，而是一个便携的蓝牙扫描枪（不带货哈）。所以对于电脑来说，扫码枪类似于一个无线键盘：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/e2130f5366d42620008d63d708347f7d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>对于用户来说，只需要知道，连接扫码枪之后，你把键入的光标放在哪里，它就会把扫码结果直接输入到哪里（我录了个短视频，不知道能不能看清楚）。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/8e649a842a1fd730c7054773ee149427.gif" /></figure><p>扫码枪也有许多设置项，其中一项便是扫码结尾的字符，如果不做设置，扫码枪在连续扫描时就会录入一长串字符，所以一般来说会在结尾设置<code>\n</code>换行符。</p><p>到此我们就可以把以上所有工作流程串在一起了，运行起来的效果大概是这样：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/5df9f5566fac6140ee6bc7a7c975b3ef.gif" /></figure><p>比较费时间的其实是下载和上传图片。大家注意看最后几秒，在自动上传一条新纪录后，多维表格的快捷 AI 会根据我们的设置，自动填充好「一句话总结」和「AI 分类」两个字段。</p><p>这样基本上就能 10s 内录完一本书的数据，而且全程只需要做一个动作，就是扫码，很快就能整理出家里的图书数据库。</p><p>有了基础的数据表之后，就可以根据自己的需要创建更多视图。所谓视图，就是展现数据的不同方式。大家可以根据自己的数据类型和情况探索一下展示效果，这里不再详细介绍了~</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/de25193e115c5147763da0626ff810fd.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>而且你别说，做完这个图书数据表之后，我觉得其他家庭数据库也挺有搞头的，用类似的思路，可以很快搭建出「<strong>家庭药箱</strong>」「<strong>家庭食品保质期</strong>」「<strong>老婆的化妆品</strong>」等等数据表，无非就是替换一下条形码查询数据的接口，而且类似这种需要注意保质期的数据表，还能利用多维表格中的到期提醒功能自动发送提醒。下周有空就做。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/article/3446778d13de2700d754211509d885bb.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>最后我把全部代码分享一下，由于是自己用的，所以并没有刻意做什么整理，大家随便看看，仅供参考。</p><p>以上。</p><hr /><p>附录（本文用到的全部代码）：</p><pre class="language-python"><code>import requests
+from bs4 import BeautifulSoup
+import json
+import os
+from requests_toolbelt import MultipartEncoder
+import time
+from datetime import datetime
+import re
+#设置飞书应用id
+feishu_appid = ''
+feishu_app_secret = ''
+#设置飞书表格的id
+table_apptoken = ''
+table_id = ''
+def access_token():
+    url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+    payload = json.dumps({
+        "app_id": feishu_appid,
+        "app_secret": feishu_app_secret
+    })
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    # print(response.json())
+    return response.json()['tenant_access_token']
+def upload_media(file_path, access_token):
+    file_size = os.path.getsize(file_path)
+    url = "https://open.feishu.cn/open-apis/drive/v1/medias/upload_all"
+
+    form = {
+        'file_name': os.path.basename(file_path),
+        'parent_type': 'bitable_image',
+        'parent_node': table_apptoken,
+        'size': str(file_size),
+        'file': (open(file_path, 'rb'))
+    }
+    print(form)
+    multi_form = MultipartEncoder(form)
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': multi_form.content_type
+    }
+
+    response = requests.request("POST", url, headers=headers, data=multi_form)
+    print(response.json())
+    if response.status_code == 200:
+        return response.json().get('data', {}).get('file_token')
+    else:
+        return None
+def get_book_info_by_isbn(isbn):
+    # 请求书籍搜索建议接口，获取书籍的URL和封面图片链接
+    # 如请求失败，修改headers或增加cookies
+    headers_suggest = {
+        'sec-ch-ua': '"Microsoft Edge";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+    params = {'q': isbn}
+    response_suggest = requests.get('https://book.douban.com/j/subject_suggest', params=params, headers=headers_suggest)
+    if response_suggest.status_code != 200 or not response_suggest.json():
+        return "未找到相关书籍信息"
+    book_suggest = response_suggest.json()[0]
+    book_url = book_suggest['url'].replace('\\', '')
+    pic_url = book_suggest['pic'].replace('\\', '').replace('subject/s','subject/l')
+    # 请求书籍详情页，提取书籍的详细信息
+    # 如请求失败，修改headers或增加cookies
+    headers_detail = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,
+*/*
+;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0',
+    }
+    response_detail = requests.get(book_url, headers=headers_detail)
+    soup = BeautifulSoup(response_detail.text, 'html.parser')
+    # 提取信息
+    try:
+        author = soup.find('span', text=' 作者').find_next_sibling('a').text.strip()
+    except AttributeError:
+        author = ''
+    try:
+        publisher = soup.find('span', text='出版社:').find_next_sibling('a').text.strip()
+    except AttributeError:
+        publisher = ''
+    try:
+        pub_year = soup.find('span', text='出版年:').next_sibling.strip()
+        pub_year = convert_to_timestamp(pub_year)
+    except AttributeError:
+        pub_year = ''
+    try:
+        pages = int(soup.find('span', text='页数:').next_sibling.strip())
+    except AttributeError:
+        pages = ''
+    try:
+        price = float(re.search(r"(?:CNY\s*)?(\d+(?:\.\d+)?)(?:\s*元)?", soup.find('span', text='定价:').next_sibling.strip().replace('元', '')).group(1))
+    except AttributeError:
+        price = ''
+    try:
+        rating = float(soup.find('strong', class_='rating_num').text.strip())
+    except:
+        rating = ''
+    try:
+        votes = int(soup.find('span', property='v:votes').text.strip())
+    except AttributeError:
+        votes = ''
+    try:
+        intro_div = soup.find('div', class_='intro')
+        paragraphs = intro_div.find_all('p')
+        intro = "\n".join([p.get_text() for p in paragraphs])
+    except AttributeError:
+        intro = ''
+    # 整合提取的书籍信息
+    book_info = {
+        "书名": book_suggest['title'],
+        "作者": author,
+        "出版社": publisher,
+        "出版时间": pub_year,
+        "页数": pages,
+        "定价": price,
+        "ISBN": isbn,
+        "豆瓣评分": rating,
+        "评分人数": votes,
+        "豆瓣链接": book_url,
+        "封面图链接": pic_url,
+        "豆瓣简介": intro
+    }
+    return book_info
+def download_cover_image(cover_url, save_path):
+    response = requests.get(cover_url)
+    if response.status_code == 200:
+        with open(save_path, 'wb') as file:
+            file.write(response.content)
+        return save_path
+    else:
+        return None
+def convert_to_timestamp(date_str):
+    # 使用正则表达式匹配不同的日期格式
+    date_formats = [
+        r'^(\d{4})-(\d{1,2})-(\d{1,2})
+$',  # 2023-02-01
+        r'^(\d{4})-(\d{1,2})$
+',            # 2023-02 或 2023-2
+        r'^(\d{4})$',                      # 仅有年份 2023
+    ]
+    for date_format in date_formats:
+        match = re.match(date_format, date_str)
+        if match:
+            groups = match.groups()
+            if len(groups) == 3:  # 解析到年-月-日
+                year, month, day = int(groups[0]), int(groups[1]), int(groups[2])
+            elif len(groups) == 2:  # 解析到年-月
+                year, month, day = int(groups[0]), int(groups[1]), 1  # 默认设置为1日
+            elif len(groups) == 1:  # 仅解析到年份
+                year, month, day = int(groups[0]), 1, 1  # 默认设置为1月1日
+            # 构造日期对象并转化为时间戳
+            date_obj = datetime(year, month, day)
+            timestamp = int(date_obj.timestamp() * 1000)  # 转为毫秒级时间戳
+            return timestamp
+    raise ValueError("无法解析日期格式")
+def construct_payload(book_info, file_token):
+    # 初始化空的字段字典
+    fields = {}
+    # 动态构造需要提交的字段，跳过空值的字段
+    if book_info.get("书名"):
+        fields["书名"] = book_info["书名"]
+    if book_info.get("作者"):
+        fields["作者"] = book_info["作者"]
+    if book_info.get("出版社"):
+        fields["出版社"] = book_info["出版社"]
+    if book_info.get("出版时间"):
+        fields["出版时间"] = book_info["出版时间"]
+    if book_info.get("页数"):
+        fields["页数"] = book_info["页数"]
+    if book_info.get("定价"):
+        fields["定价"] = book_info["定价"]
+    if book_info.get("ISBN"):
+        fields["ISBN"] = book_info["ISBN"]
+    if book_info.get("豆瓣评分"):
+        fields["豆瓣评分"] = book_info["豆瓣评分"]
+    if book_info.get("评分人数"):
+        fields["评分人数"] = book_info["评分人数"]
+    if book_info.get("豆瓣链接") and book_info.get("书名"):
+        fields["豆瓣链接"] = {
+            "text": book_info["书名"],
+            "link": book_info["豆瓣链接"]
+        }
+    if book_info.get("豆瓣简介"):
+        fields["豆瓣简介"] = book_info["豆瓣简介"]
+    if file_token:
+        fields["封面图"] = [{"file_token": file_token}]
+    # 构造最终的 payload
+    payload = json.dumps({"fields": fields})
+    return payload
+def insert_book_info_to_feishu(book_info, file_token, access_token):
+    url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{table_apptoken}/tables/{table_id}/records"
+
+    payload = json.dumps({
+        "fields": {
+            "书名": book_info["书名"],
+            "作者": book_info["作者"],
+            "出版社": book_info["出版社"],
+            "出版时间": book_info["出版时间"],
+            "页数": book_info["页数"],
+            "定价": book_info["定价"],
+            "ISBN": book_info["ISBN"],
+            "豆瓣评分": book_info["豆瓣评分"],
+            "评分人数": book_info["评分人数"],
+            "豆瓣链接": {
+                "text": book_info["书名"],
+                "link": book_info["豆瓣链接"]
+            },
+            "豆瓣简介": book_info["豆瓣简介"],
+            "封面图": [
+                {
+                    "file_token": file_token
+                }
+            ]
+        }
+    })
+    payload = construct_payload(book_info, file_token)
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {access_token}'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response.json())
+    print(f'飞书接口状态：{response.status_code}')
+    return response.status_code
+def upload_book_to_feishu(isbn):
+    # 获取飞书的 access_token
+    token = access_token()
+
+    # 获取书籍信息
+    book_info = get_book_info_by_isbn(isbn)
+    print(book_info)
+
+    # 下载封面图片
+    cover_url = book_info['封面图链接']
+    save_path = f"./{isbn}.jpg"
+    cover_file_path = download_cover_image(cover_url, save_path)
+
+    if cover_file_path:
+        # 上传封面图片至飞书并获取file_token
+        file_token = upload_media(cover_file_path, token)
+
+        if file_token:
+            # 插入书籍信息到飞书表格
+            status_code = insert_book_info_to_feishu(book_info, file_token, token)
+            return status_code
+        else:
+            print("封面图片上传失败")
+    else:
+        print("封面图片下载失败")
+#使用示例
+def scan_isbn_and_upload():
+    print("请使用扫码枪输入ISBN，按 Ctrl+C 结束程序。")
+    while True:
+        try:
+            # 等待用户通过扫码枪输入ISBN
+            isbn = input("扫描ISBN: ").strip()  # .strip() 用于去除前后多余的空白和换行符
+
+            if isbn:
+                print(f"正在处理ISBN: {isbn}")
+                upload_book_to_feishu(isbn)  # 调用函数上传书籍信息
+                print(f"ISBN: {isbn} 处理完成\n")
+            else:
+                print("未检测到有效的ISBN，请重试。")
+
+        except KeyboardInterrupt:
+            # 用户按下 Ctrl+C 后，退出循环
+            print("\n程序已终止。")
+            break
+#调用函数，开始监听扫码输入
+scan_isbn_and_upload()</code></pre><p>题图来自 <a href="https://pixabay.com/users/kollinger-15617407/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5211309">Hermann Kollinger</a>, <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5211309">Pixabay</a></p><p style="margin-left: 0px;">&gt; 关注&nbsp;<a href="https://www.xiaohongshu.com/user/profile/63f5d65d000000001001d8d4" target="_blank">少数派小红书</a>，感受精彩数字生活 🍃</p><p style="margin-left: 0px;">&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93195</id>
+            <title>派早报：Apple 回应 Apple Intelligence 入华进度、微信推出查看单删好友功能等</title>
+            <link>https://sspai.com/post/93195</link>
+            <guid isPermaLink="false">https://sspai.com/post/93195</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Oct 2024 00:32:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: Apple, 天猫精灵, Claude 3.5, MagicOS 9.0  
+<br><br>  
+总结: Apple CEO 蒂姆·库克表示，Apple Intelligence 入华需经过监管流程，正在推进中。天猫精灵发布了多款新品，包括可移动大屏的哇哦闺蜜机和智能音箱天猫精灵 IN 糖 6 电池版。Anthropic 推出了升级版的 Claude 3.5 Sonnet 模型，具备更强的编程能力和操作电脑的能力。微信推出了查看单删好友功能，方便用户管理好友。Valve 确认 SteamDeck 不会每年更新硬件，Netflix 关闭了 Team Blue 游戏工作室，表明其在游戏领域的发展面临挑战。荣耀推出了 AI OS MagicOS 9.0，计划覆盖多款设备。 </div>
+                        <hr>
+                    
+                    <h2>你可能错过的新鲜事</h2><h3>Apple 回应 Apple Intelligence 入华进度</h3><p>10 月 23 日，Apple 公司 CEO 蒂姆·库克接受媒体访问时表示，Apple Intelligence 入华需要经历一套监管流程，Apple 方面正在努力推进相关进程，希望可以尽快将 Apple Intelligence 带到中国市场。<a href="https://www.jiemian.com/article/11867881.html">来源</a></p><h3>天猫精灵发布多款新品</h3><p>10 月 23 日，天猫精灵及旗下品牌哇哦举行新品发布会，推出哇哦闺蜜机、天猫精灵 IN 糖 6 电池版等多款新品。其中，哇哦闺蜜机是可移动大屏，分为智臻版和智享版，均搭载 4K 大屏及 GenieOS 7.5，可以覆盖亲自教育、健身、购物、听歌、看剧等家庭娱乐场景。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/24/article/cda0036d5d39824b7251407cdb422e16.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>本次发布会推出的新品一览，图片来自天猫精灵</figcaption></figure><p>天猫精灵 IN 糖 6 电池版则为智能音箱，产品搭载千岛互动屏，可以实现最长 9 小时的音乐播放。产品同步推出了周深礼盒版等，定制了粉丝专属的产品外观及相关配件。目前，哇哦闺蜜机及天猫精灵 IN 糖 6 电池版均已开售。<a href="https://weibo.com/5623104361/OCUIsyttU">来源</a></p><h3>Anthropic 推出新版 Claude 3.5 Sonnet 模型</h3><p>10 月 22 日，Anthropic 推出了了升级版的 Claude 3.5 Sonnet 以及新的 Claude 3.5 Haiku 模型，升级版 Claude 3.5 Sonnet 不仅编程能力更强，还带来全新的操作电脑的能力，支持人类一样操作计算机，可以遵循用户的命令在计算机屏幕上移动光标，点击相关位置，并通过虚拟键盘输入信息，模拟人们与自己计算机的交互方式。</p><p>目前，升级版 Claude 3.5 Sonnet 现已可以使用，Computer Use 测试版也已开放使用。而从 Anthropic 目前公布的操作视频来看，Claude 可以根据要求打开网页浏览器进行信息检索，并使用应用软件来完成一系列的简单任务。不过目前模型进行操作电脑的可靠性并不高，且存在潜在的安全风险。<a href="https://www.ithome.com/0/804/419.htm">来源</a></p><h3>微信推出查看单删好友功能</h3><p>近日，微信推出查看单删好友功能，当用户的好友数达到 1 万上限后，再添加新的好友时，会出现一个弹窗显示已经被单方面删除的好友，用户可选择删除这些好友，以便添加新的好友。最新版的 iOS 微信已经上线该功能，Android 版本也将更新。<a href="https://www.jiemian.com/article/11868050.html">来源</a></p><h3>Valve 确认不会每年更新 SteamDeck</h3><p>近日，游戏公司 Valve 的高管 Lawrence Yang 在接受采访时明确表示，Valve 旗下的游戏掌机 SteamDeck 不会每年更新硬件规格发布新版，Lawrence Yang 认为匆忙更新产品对购买了上一代的玩家来说并不公平，Valve 只会考虑在 CPU 和 GPU 性能都有明显提升时才会更新硬件。<a href="https://www.landiannews.com/archives/106223.html">来源</a></p><h3>Netflix 关停 Team Blue 工作室</h3><p>近日，Netflix 平台关闭了位于南加州的 Team Blue 游戏工作室。该工作室曾经汇聚了多位曾参与开发《光环》《守望先锋》和《战神》等知名游戏的行业资深人士。而原本该工作室负责的是一款高预算的 AAA 游戏项目，旨在扩展 Netflix 的游戏业务，但随着工作室的关闭，Netflix 原计划推出的这一跨平台 AAA 游戏项目也被迫中止。这一决定或许表明，Netflix 在游戏领域的发展可能并不顺利。而早在 2022 年就有报告指出，目前只有 1% 的 Netflix 订阅用户在玩游戏，但 Netflix 却依旧加大了对高质量游戏的投入。<a href="https://www.macrumors.com/2024/10/22/netflix-game-studio-shutdown/">来源</a></p><h3>荣耀推出 MagicOS 9.0</h3><p>10 月 23 日，荣耀公司召开开发者大会，正式推出 MagicOS 9.0。MagicOS 9.0 定位 AI OS，搭载荣耀自研的魔法大模型家族，其中包含语言大模型、图像大模型、语音大模型和多模态大模型等四个大模型矩阵，而系统内置的 YOYO 助理也将升级为 YOYO 智能体。MagicOS 9.0 公测升级计划将覆盖 Magic 系列、荣耀数字系列、荣耀 X 系列等 36 款手机和平板，不同机型将在 2024 年 11 月至 2025 年 3 月分批开启公测。<a href="https://weibo.com/3206603957/OCTu38hVH">来源</a></p><h2>看看就行的小道消息</h2><ul><li>9to5Mac 从 Apple 内部知情人士处获悉，Apple 正在开发一款类似游戏 App Store 的新应用程序，该应用将 App Store 和 Game Center 的功能集于一身。新应用将包含 Play Now 选项卡、用户游戏选项卡、好友选项卡等。 在 Play Now 中，用户可以找到编辑内容和游戏建议。 该应用还将显示挑战、排行榜和成就等内容。 来自 App Store 和 Apple Arcade 的游戏都将出现在新商店中。玩家可以在其中查看自己的状态、好友的活动、搜索新游戏并查看自己的游戏库。<a href="https://www.cnbeta.com.tw/articles/tech/1450163.htm">来源</a></li></ul><h2>你可能错过的好文章</h2><ul><li><a href="https://sspai.com/prime/story/get-started-with-zellij" target="_blank">一个比 tmux 更友好的终端复用工具：Zellij 简介及使用技巧</a></li><li><a href="https://sspai.com/post/90258" target="_blank">给本地设备加一层保险：我的低功率 UPS 不间断电源构建思路</a></li><li><a href="https://sspai.com/post/93000" target="_blank">美西自驾 3000 公里：拉斯维加斯是罪恶都市还是娱乐天堂？</a></li><li><a href="https://sspai.com/post/93120" target="_blank">vivo X200 系列后日谈：用长期主义描绘影像「蓝图」</a></li></ul><p>&gt; 关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，解锁全新阅读体验 📰</p><p>&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93077</id>
+            <title>一个比 tmux 更友好的终端复用工具：Zellij 简介及使用技巧</title>
+            <link>https://sspai.com/post/93077</link>
+            <guid isPermaLink="false">https://sspai.com/post/93077</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Oct 2024 09:54:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 复用器, tmux, Zellij, 终端管理  
+<br><br>  
+总结: 本文介绍了终端复用器Zellij的使用体验，强调其相较于tmux的友好界面和易于理解的键位设置。Zellij支持macOS和大多数Linux发行版，用户可以通过包管理器或cargo安装。文章详细描述了Zellij的基本概念、安装步骤、快捷键操作以及配置文件的自定义选项。Zellij允许用户定义多个prefix键，便于记忆和操作，同时提供了会话管理和布局选择的功能。最后，作者分享了个人的使用习惯和配置建议。 </div>
+                        <hr>
+                    
+                    <h2>前言</h2>
+<p>在终端环境下，一种特别实用的工具就是「复用器」（multiplexer），它的功能是将一个终端会话划分为多个。这样的好处除了可以「一心多用」，还便于管理会话，不会仅仅因为误关终端窗口、SSH 断开而丢失正在执行的任务。</p>
+<p>对于大多数用户，最熟悉的终端复用器大概就是经典的 <a href="https://github.com/tmux/tmux">tmux</a>——这个名字就是 terminal multiplexer 的缩写。围绕 tmux 也存在着一个庞大的插件生态，从而使 tmux 成为了一个功能强大，且拥有近乎无限可能性的工具。</p>
+<p>但即使知道 tmux 的好处，一直以来我都很少用过，主要原因在于操作还是有些复杂了。tmux 迷惑的默认键位设置则更是雪上加霜；网上分享的自定义配置有相当比例都以大批量修改快捷键开头，足以说明默认设定的离谱。（有理由怀疑 tmux 的作者是一个拥有 20 根手指的外星人，同时还在使用一个十分小众的非 Qwerty 排列的键盘。）</p>
+<p>最近，我发现了一个名叫 <a href="https://zellij.dev/">Zellij</a> 的工具，虽然开发者并不将其宣传为 tmux 的替代品，但它确实可以很好地替代 tmux，并且有更加友好的界面，和更容易理解的键位，并且还有十分详尽的使用<a href="https://zellij.dev/documentation/">文档</a>。这篇文章中，我就来介绍一下自己的使用体验和经验。</p>
+<h2>安装与初次使用</h2>
+<p>Zellij 目前支持 macOS 与大多数 Linux 发行版，并存在于很多软件包仓库中，可以使用自己常用的包管理器来安装，同时因为它是一个 rust 程序，也可以使用 cargo 来安装。安装完成后，运行 <code>zellij</code> 就可以开始使用了。</p>
+<p>在正式开始使用之前，需要先了解一些基本概念。用过 tmux 的朋友知道，它把终端操作分为三个层级，分别是会话（session）、窗口（window）和窗格（pane）：</p>
+<ul>
+    <li>tmux 可以同时运行多个会话，各个会话之间是相互独立的；</li>
+    <li>每个会话之下可以分出一个或多个窗口，每个窗口占据一整个终端页面；</li>
+    <li>在每个窗口之下，又可以分出多个小的窗格。</li>
+</ul>
+<p>Zellij 也采用了相似的层级，不过窗口改名叫标签（tab），我个人觉得更符合当今图形界面下的称呼习惯。</p>
+<p>在默认配置下，Zellij 的界面如下图所示，终端位于中间，上方和下方各有一个状态栏：</p>
+<ul>
+    <li>上方的状态栏显示了当前的会话名称与标签，如果没有指定会话名称，就会随机生成一个；</li>
+    <li>下方的状态栏则是显示的是可用的按键绑定。</li>
+</ul>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/94ca570c6ffe0d091492cc97a15463fe.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure>
+<p>另一个与 tmux 的不同之处在于，Zellij 没有将 prefix 键（必须前置于其他快捷键按下的组合键）限定为一个，而是允许定义多个，每个对应了不同的「模式」。比如说 pane 模式专门针对各个窗格，tab 模式专门针对标签，等等。这样更便于记忆，也更方便分配键位。</p>
+<p>下面我们来看看如何设置终端分屏，这主要是在 pane 模式下操作的，默认的 prefix 键位是 <code>ctrl+p</code>。此时，下方的快捷键提示就会显示可用的快捷键，比如 <code>n</code> 是新建窗格，<code>x</code> 是关闭当前选中窗格，<code>c</code> 是重命名当前窗格，<code>h/j/k/l</code> 或方向键是在不同窗格之间移动；等等。</p>
+<p>（如果你嫌麻烦，Zellij 还提供了一些不需要进入 pane 模式就可以操作窗格的快捷键，都是 <code>alt</code> 组合键：<code>alt+n</code> 创建新窗格，<code>alt + h/j/k/l</code> 或方向键在窗格之间移动，还有 <code>alt + [/]</code> 可以在预设的几种布局之间切换。）</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/28672ffa4ab0e555d3c5ae3dfdaf1865.gif" /></figure>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/2a1e5dca93939d15ccdb88bd794d963d.gif" /></figure>
+<p>要想调整窗格尺寸，可以使用快捷键 <code>alt + +/-</code> 来调整横向尺寸，或是按 <code>ctrl+n</code> 进入 resize 模式，使用 <code>h/j/k/l</code> 或方向键来精细调整。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/80266e0da4c91ab6c71dbd079641579a.gif" /></figure>
+<p>要想滚动查看终端中的历史，可以按下 <code>ctrl+s</code> 进入 search 模式，然后使用 <code>j</code> 和 <code>k</code> 上下滚动，使用 <code>d</code> 和 <code>u</code> 翻页，或者按 <code>e</code> 使用默认的文本编辑器浏览终端历史输出。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/323734e426d24d9369654f73512eafb2.gif" /></figure>
+<p>再看按下 <code>ctrl+t</code> 进入的 tab 模式，在这个模式下，<code>n</code> 是创建新标签，<code>x</code> 是关闭当前标签，<code>r</code> 是重命名当前标签，<code>h</code> 和 <code>l</code> 是在不同标签之间切换，数字键切换到对应序号的标签，<code>b</code> 是将当前窗格转移到一个新的标签，两个中括号则是将当前窗格在不同标签之间移动。还有一个特殊的 sync 模式，按 <code>s</code> 进入，可以让当前标签内所有窗格同时输入相同的内容。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/5f9e315fcfafe17984ebb83879d55b95.gif" /></figure>
+<p>最后看看按下 <code>ctrl+o</code> 进入的 session 模式。在这个模式下只有两个可用的快捷键：</p>
+<ul>
+    <li>d 是将当前会话断开连接，会话仍会在后台运行不会停止；</li>
+    <li>w 会在一个浮动窗格中打开一个会话管理器。会话管理器中又有三个标签，可以使用 TAB 键 切换。默认是在第二标签，显示当前正在运行的会话，使用方向键选中，按下回车键重新连接到会话，ctrl+r 是重命名会话，delete 键是关闭选中的会话，ctrl+d 是关闭除了当前会话以外的所有会话，这些都在下方的快捷键提示中。第三个标签则显示的是之前关闭的会话，可以选择将会话恢复到关闭前的状态，这个功能在 tmux 里需要借助外部插件才能实现，而 Zellij 是开箱即用的。第一个标签是创建新的会话，可以指定会话名称，或是留空让它随机生成。</li>
+</ul>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/6aa3af9c04090242255ca5929b772ccc.gif" /></figure>
+<p>Zellij 默认的 prefix 键有时可能会与其他的终端程序产生键位冲突，为了缓解这个问题，Zellij 又提供了一个特殊的 locked 模式，按下 ctrl+g 进入，在这个模式下，Zellij 其他的 prefix 键都会被禁用，只有重新按下 ctrl+g 解除 locked 模式才可以重新使用 prefix 键。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/0bb0531a3f62fa3b607cb87e14c9caab.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure>
+<p>对于 tmux 遗老，Zellij 也提供了一个 tmux 模式，按下 ctrl+b 就可以进入，在这个模式下的快捷键与 tmux 相同，不过并不是所有 tmux 快捷键都有，只有一些常用的键位。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/a392ea7978ed8d447383092a6f5576b2.gif" /></figure>
+<p>在终端中，运行 <code>zellij list-sessions</code> 可以列出打开过的会话，包括正在运行的和已经关闭的，运行 <code>zellij attach session_name</code> 就可以连接到指定名字的会话，如果会话已经关闭，就将会话恢复到关闭前的状态。</p>
+<h2>一些高级用法</h2>
+<h3>跟随终端启动</h3>
+<p>对于 bash，需要在 <code>.bashrc</code> 中添加一行</p>
+<pre class="language-shell"><code>eval "$(zellij setup --generate-auto-start bash)"</code></pre>
+<p>对于 zsh 用户，需要在 <code>.zshrc</code> 中添加一行</p>
+<pre class="language-shell"><code> eval "$(zellij setup --generate-auto-start zsh)"</code></pre>
+<p>另外还有两个相关环境变量：</p>
+<ul>
+    <li>如果 <code>ZELLIJ_AUTO_ATTACH</code> 设为 <code>true</code>，后台已经有会话在运行的话，Zellij 会自动连接到最近的会话；</li>
+    <li>如果 <code>ZELLIJ_AUTO_EXIT</code> 设为 <code>true</code>，退出 Zellij 后也会一起退出上层的终端，这样一来，Zellij 就和终端融为一体，不需要每次手动打开 Zellij 了。</li>
+</ul>
+<p>不过因为 Zellij 是一个比较年轻的项目，难免运行不稳定，这时就很有可能连终端也无法打开（因为我自己就遇到过这种情况🤣）。另外这样自动启动 Zellij，会导致有一个额外的 shell 进程在后台运行，对强迫症不太友好。</p>
+<p>目前我自己的使用方法是，将一个快捷键绑定到 <code>foot zellij attach -c my_zellij_session</code> 命令，它的作用是使用 foot 终端模拟器（你可以改成自己惯用的终端模拟器）打开 Zellij，并自动连接到名为 <code>my_zellij_session</code> 的会话；如果会话不存在，就自动创建一个。</p>
+<p>更多细节可以看官方<a href="https://zellij.dev/documentation/integration#autostart-on-shell-creation">文档</a>。</p>
+<h3>使用更简洁的布局</h3>
+<p>如果你已经熟悉了 Zellij 的快捷键，又觉得默认的布局有些太杂乱了，Zellij 也内置了其他布局可供选择，具体可以看<a href="https://github.com/zellij-org/zellij/tree/main/zellij-utils/assets/layouts">这里</a>。</p>
+<p>例如，如果想要一个比较简洁的布局，可以运行 <code>zellij -l compact</code> 使用 compact 布局。这个布局去掉了快捷键提示的状态栏，并把顶部的 tab 状态栏移到了下方，看起来要干净不少。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/6a7b36785baeac2b1b91f148340fa086.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure>
+<p>除此之外，如果觉得窗格的边框太扎眼而且占用空间，进入 pane 模式后，按 <code>z</code> 就可以禁用窗格的边框，再按一次就可以重新启用边框。不过这个操作是一次性的，下次重新打开 Zellij 还需要重复上述操作，这个行为可以通过配置文件修改，详见下一节。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/104b0bad539469ee0e0aba2a9d74c9bb.gif" /></figure>
+<h2>配置文件</h2>
+<p>Zellij 默认会在 <code>~/.config/zellij/</code> 目录下寻找名为 <code>config.kdl</code> 的配置文件，关于 kdl 格式的详细介绍可以查看相关的<a href="https://kdl.dev/">文档</a>。</p>
+<p>运行 <code>zellij setup --dump-config &gt; ~/.config/zellij/config.kdl</code> 可以生成默认的配置文件，所有的可配置选项都有很详尽的注释。</p>
+<p>Zellij 的主配置文件有三个部分，第一部分是默认键位，第二部分是内置插件，第三部分是功能选项。默认情况下，第三部分的所有选项都是注释掉的。</p>
+<h3>快捷键</h3>
+<p>Zellij 虽然提供了 locked 模式来防止快捷键冲突，但是这个解决方案算不上完美，每次遇到快捷键冲突都要手动进入 locked 模式。</p>
+<p>如果你也嫌麻烦，可以将 locked 模式作为默认的模式：在配置文件中搜索 <code>default_mode</code>，删除这行前面的斜杠注释，并确保后面的值是 <code>"locked"</code> 即可。</p>
+<p>注：</p>
+<ol>
+    <li>不过我个人觉得这样的配置还是不太方便，所以没有改默认模式，而是将所有的 prefix 所需的修饰键从 ctrl 改成了 alt。因为绝大多数终端程序都很少使用 alt 当作快捷键，这样就可以比较有效地避免键位冲突，具体可以看我的<a href="https://github.com/so1ar/dotfiles/blob/master/roles/zellij/files/zellij/config.kdl">配置文件</a>。需要注意的是，要将第一行的 <code>keybinds</code> 改成 <code>keybinds clear-defaults=true</code> 从而禁用默认的快捷键，不然默认的快捷键仍然会生效。</li>
+    <li>在最近的更新日志中，提到了合并了一个 <a href="https://github.com/zellij-org/zellij/pull/3383">pr</a>，支持同时使用多个修饰键，这个功能应该会随着下一个大版本推出。</li>
+</ol>
+<h3>外观定制</h3>
+<p>Zellij <a href="https://github.com/zellij-org/zellij/tree/main/zellij-utils/assets/themes">内置</a>了一些配色方案。在配置文件中搜索 <code>theme</code>，将其值改成自己喜欢的配色方案即可。此外，也可以在配置文件中定义自己的配色方案，比如：</p>
+<pre class="language-kdl"><code>themes {
+   gruvbox-dark {
+      fg 213 196 161
+      bg 40 40 40
+      black 60 56 54
+      red 204 36 29
+      green 152 151 26
+      yellow 215 153 33
+      blue 69 133 136
+      magenta 177 98 134
+      cyan 104 157 106
+      white 251 241 199
+      orange 214 93 14
+   }
+}</code></pre>
+<p>就是 gruvbox-dark 配色。颜色代码可以是 rgb 值，也可以是 hex 值。</p>
+<p>默认的布局（<code>default_layout</code>，字符串）和边框（<code>pane_frames</code>，布尔值）也可以在配置文件中调整。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/21/e34383ab92ca3c67535c9556142c172b.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure>
+<h3>杂项配置</h3>
+<ul>
+    <li><code>session_serialization</code> 控制是否支持恢复已关闭的会话。已关闭的会话状态会存储到缓存文件夹中，占用磁盘空间。如果不需要这个功能，可以选择将此选项设为 false 以节省磁盘空间。</li>
+    <li><code>scroll_buffer_size</code> 控制 Zellij 中每个 shell 回滚历史的行数，默认是 10000，可以根据需要修改对应大小。行数越多，占用的内存也就越多。</li>
+    <li><code>copy_on_select</code> 控制在使用鼠标选中内容后是否自动复制到剪贴板，有时这个功能挺烦人的。我个人习惯使用 neovim 打开 shell 历史再复制，所以设置为了 false。</li>
+    <li><code>scrollback_editor</code> 控制了在 search 模式中按下 e 使用哪一个编辑器打开 shell 历史，默认是使用环境变量 $EDITOR 或 $VISUAL 定义的编辑器。如果想要使用其他的编辑器，或是定义了环境变量但没生效的话，可以手动指定其他编辑器。</li>
+    <li><code>mouse_mode</code> 控制 Zellij 是否启用鼠标支持。启用鼠标支持可能会影响某些终端的行为，又或者使用时不需要鼠标，则可以将此项设为 false 来禁用鼠标支持。</li>
+</ul>
+<p>更多的配置项可以参看 Zellij 的<a href="https://github.com/zellij-org/zellij/blob/main/example/default.kdl">默认配置文件</a>，每个选项都有很详尽的注释。</p>
+<h3>自定义布局</h3>
+<p>除了 Zellij 内置的布局，我们也可以自定义自己的布局。Zellij 默认会在 <code>~/.config/zellij/layouts</code> 目录下寻找布局配置文件，需要提前创建好这个目录。</p>
+<p>比如说在 <a href="https://github.com/zellij-org/zellij/blob/main/zellij-utils/assets/layouts/compact.kdl">compact</a> 布局的基础上，我们想要默认打开两个窗格，并在其中一个窗格中运行 htop，则可以创建 <code>~/.config/zellij/layouts/compact_htop.kdl</code>：</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/90258</id>
+            <title>给本地设备加一层保险：我的低功率 UPS 不间断电源构建思路</title>
+            <link>https://sspai.com/post/90258</link>
+            <guid isPermaLink="false">https://sspai.com/post/90258</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Oct 2024 09:29:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <UPS, 电源, 直流, 监测系统>
+<br>
+<br>
+总结: 本文讨论了在意外断电情况下，如何通过安装UPS不间断电源来保障重要设备的持续运行。作者介绍了一种以直流为主的UPS电源系统，强调其在低功率需求下的优势，如造价低、结构简单和自然冷却。文中详细描述了明纬PSC系列电源的特点及其与传统逆变器UPS的区别，并探讨了电压转换和后备电池的选择。最后，作者提到构建监测系统以实时监控电源状态的重要性，并分享了相关的设计思路和实施细节。 </div>
+                        <hr>
+                    
+                    <p style="margin-left: 0px;"><strong>Matrix 首页推荐&nbsp;</strong></p><p style="margin-left: 0px;"><a href="https://sspai.com/matrix">Matrix</a>&nbsp;是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。</p><p style="margin-left: 0px;">文章代表作者个人观点，少数派仅对标题和排版略作修改。</p><hr /><p>在亲身经历某次意外断电导致的 docker 容器损毁后，给重要设备加装 UPS 不间断电源已是势在必行，在增强系统稳定性的同时，也让设备可以在停电后继续提供必要的服务，比如网络和安防部分。</p><p>目前市场上常见的 UPS 基本都是围绕逆变器来做文章，可选的品牌很多，技术也很成熟，咋一看好像也没其它方案可选，但实际还有一种市场上不太常见，但常见于安防、消防及应急照明等微型系统的 UPS 电源，本文以其中一款电源为基础，结合实际情况不断扩展后，形成了以直流为主的 UPS 不间断电源系统。</p><p>从实际使用上看，在低功率需求<sup class="ss-footnote" href="" title="总功率小于 500W。">1</sup>下可以比常见的逆变器方案表现得更好，主要体现在：</p><ul><li>造价低，经济节约</li><li>结构简单，可自行维护</li><li>自然冷却，无运行噪音</li></ul><h2>明纬 PSC 电源</h2><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/42bda6823172d05f41ae14a0cc829afe.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>明纬 PSC 系列电源「机壳型」</figcaption></figure><p>与逆变型 UPS 的区别在于，这款产品本质上只是一个开关电源， <strong>但加入了 UPS 功能 </strong>，全程使用直流电驱动负载运行，而不是交流电，不需要逆变器；停电时，备份电路会把负载切换到蓄电池供电，此时的工况和后备式 UPS 差不多，但不是交流电，而是直接由电池供电，电源本身几乎不产生热量，只要后备电池容量够，可以供负载连续运行很长一段时间「以小时计」。</p><p><i>能找到这种电源也是非常巧合：2021 年给 5V 设备做集中供电改造，听了网友的建议用的是 </i><a href="https://sspai.com/link?target=https%3A%2F%2Fwww.meanwell.com.cn%2Fupload%2Fpdf%2FLRS-35%2FLRS-35-SPEC-CN.PDF"><i>明纬的 5V 工业开关电源 </i></a><i>，三年多来运行良好，于是在他们官网上碰碰运气，结果还真有；电源属于安防监控产品线，主要用于安控、消防、应急照明等系统，最重要的是：附有较为完善的 </i><a href="https://sspai.com/link?target=https%3A%2F%2Fwww.meanwell.com.tw%2Fwebapp%2Fproduct%2Fsearch.aspx%3Fprod%3DPSC-60"><i>说明书 </i></a><i>。</i></p><h3>确定规格</h3><p>明纬 PSC 系列电源提供两个可供用户选择的输出电压及四种不同的输出功率，分别是 12V 或者 24V，最大功率从 30-160W，购买前需要考虑现有设备电力需求来决定使用哪一种电压，如果能将所有负载设备统一由一种电压来供应，即意味着使用单个 PSC 电源，搭配单组电池就能实现 UPS 功能。</p><p>以具体的设备情况为例：</p><figure class="table"><table><tbody><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">设备</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">工作电压</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">日常功率</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">运营商的光猫</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">12V</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">5W</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">TP-Link SG2016K 交换机</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">12V</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">5W</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">TP-Link IPC443MP 摄像头</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">53.5V</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">5-7W</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">DELL Inspiron 5437 笔记本</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">19.5V</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">5-10W</td></tr></tbody></table></figure><p>从上表情况看，光猫和交换机比较好处理，都是 12V，摄像头和笔记本需要电压转换。</p><h3>电压转换</h3><h4>摄像头供电</h4><p>供电用的是 TP-Link PoE170S 适配器，PoE 标准也是个历史悠久的产物，历史悠久就意味着电气规范各有不同，需要仔细分别，尤其是被动式和主动式 PoE，供电方式和电压有很大不同；按说明书的说法，TP-Link 这款是标准 PoE 供电，支持 802.3 af/at，随附电源适配器输出电压 53.5V，根据 IEEE 802.3 af/at 标准的提示，48V 也可以，这种电压的变压器就比较好找，下单 EVEPS 的 12V/24V 转 48V 的 DC-DC 电压转换模块，经测试可以稳定运行。</p><figure class="image ss-img-wrapper image_resized" style="width: 450px;"><img src="https://cdnfile.sspai.com/2024/10/23/article/386b004c845bf1bbe05505da49c09b37.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h4>笔记本供电</h4><p>问题最后来到这台 DELL 笔记本，随附电源适配器输出电压 19.4V，一个在笔记本领域较为常见的电压，一些显示器也使用该电压工作，比如 SONY 电视，套用前文解决摄像头供电的方法，淘宝上可以找到不少类似的从 12V/24 转 19.4V 的 DC-DC 电压转换模块，然而并不能用，原因有二：</p><p>如果因为电源问题烧掉一个摄像头，还能接受，但万一因电源质量问题把最重要的笔记本平台烧了那是完全不能接受的「这台笔记本相当于半个 NAS：docker 宿主机、数据库，7x24 小时运行，全年不关机」，对电源的可靠性和稳定性有一定的要求。</p><p>另一个问题在于：DELL 不会给用户机会使用简单的电源适配器，给 DELL 产品供电必须通过 DELL 私有协议和笔记本主板进行通信，也就是你会看到 DELL 大圆口电源插头里为什么有一根小针，这根小针就是负责和 DELL 主板进行通信的，如果没有这针或者芯片有问题，笔记本可以启动，但 CPU 会被锁定在一个低的工作频率，因为主板默认此时供电是有问题的。</p><p>所以电压转换器只能从 DELL 和兼容厂商的产品中找，幸运的是，通过关键字检索，在淘宝和闲鱼上寻到了可用的适配器产品：一款由 DELL 出品的车载电源适配器。</p><figure class="image ss-img-wrapper image_resized" style="width: 450px;"><img src="https://cdnfile.sspai.com/2024/10/23/article/aa4f80fbd8839118c08f33c5dbaca987.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>MODEL: DA65NS3-00 DELL P/N: DK138</figcaption></figure><p>DELL 第二代移动电源，全名：DELL 薄型汽车/飞机/交流适配器，主要供用户在移动交通工具中使用，支持 DC 电压输入 11-15V，额定输出功率 65W，满足绝大部分 DELL 笔记本产品的电源需求，从海鲜市场淘了一个「现在官网在卖的是 <a href="https://sspai.com/link?target=https%3A%2F%2Fwww.dell.com%2Fzh-cn%2Fshop%2F%25E6%2588%25B4%25E5%25B0%2594%25E7%25AC%2594%25E8%25AE%25B0%25E6%259C%25AC%25E7%2594%25B5%25E8%2584%2591%25E6%25B1%25BD%25E8%25BD%25A6%25E5%2592%258C%25E9%25A3%259E%25E6%259C%25BA-90w-%25E7%259B%25B4%25E6%25B5%2581%25E7%2594%25B5%25E6%25BA%2590%25E9%2580%2582%25E9%2585%258D%25E5%2599%25A8-74mm-45mm%2Fapd%2F492-bcnc%2F%25E7%2594%25B5%25E8%2584%2591%25E5%25A4%2596%25E8%25AE%25BE%25E4%25BA%25A7%25E5%2593%2581">三代口红型电源 </a>，颜值高，但据网友反映不如二代耐用，容易烧；为保险起见，入手二代电源」。</p><hr /><p>以此类推，其它笔记本大厂也有推自己的电源适配器产品线，涵盖我们几乎可以接触到的所有产品，比如 HP 的车载电源就可以支持到最高 24V 电压输入。</p><p>这里有的朋友可能会疑惑为什么不直接使用笔记本电池作为后备电源，最主要的原因是手头的这台笔记本电脑属于十年前的设计，不支持保护性充电「充电至 60%停止」，锂电池长期处于满电状态说实话不是很令人放心，尤其是在炎热的南方，虽然它确实可以实现我引入 UPS 的初衷。</p><p>给笔记本供电的部分经过两个适配器，每个适配器有其各自的转换效率，受到负载和输入电压因素的共同影响，转换效率并不是很好测量，笔记本日常功耗在 5W 左右，此时测得 DELL 电源适配器效率大概在 80%左右，只能算正常水平。</p><hr /><p>因为最后 DELL 笔记本 DC-DC 适配器输入电压落在 11-15V 之间，只能选明纬 12V 的 UPS 电源，同时考虑到开关机等瞬间高负载情况，60W 的版本 <a href="https://sspai.com/link?target=https%3A%2F%2Fwww.meanwell.com.cn%2Fwebapp%2Fproduct%2Fsearch.aspx%3Fprod%3DPSC-60">PSC-60A </a>比较合适「既有一定的功率余量，也避免出现大牛拉小车浪费电的情况」。</p><h2>后备电池</h2><p>前文提到，以明纬 PSC-60A 电源为核心，输出电压 12V，那么还需要一块同等电压的电池提供后备电力，PSC-60A 说明书中并未明确指定使用何种类型电池，根据充电电压和电池保护电压看，可以使用机房常见的免维护阀控式铅酸蓄电池<sup class="ss-footnote" href="" title="此类电池有很多不同的称呼，但其实都指向同一类电池，主要关键词：免维护、密封、阀控；英文：VRLA、AGM、SLA、GFM、FM。">2</sup>，特点是内部无游离态电解液，不需要定期补充电池液，工艺成熟，比较安全「过热或短路会发热冒烟」，价格也便宜，缺点是重量重，同体积下能量密度远不如锂电池。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/763a900321d4641ddd5aa86c6ea9509e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>值得注意的是：PSC-60A 负责给电池充电的 CH2 电路并不是独立的， <strong>而是与负载供电 CH1 共用，调节 CH1 电压，CH2 电压也会受到影响。</strong></p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/7a3e4dc5024511946bb981bf1acdd6af.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>铅酸蓄电池通常有两种充电模式可供选择，分为循环充电和浮充充电，循环充电起步 14.4V，浮充充电起步 13.6V，无特殊情况默认使用浮充电压给电池充电「不影响阀控式铅酸蓄电池寿命」，但是无论怎么选，此时负载电压最低也得 13.5V 起步，而不是标准的 12V 电压； <strong>现实中也用电负载必须精准工作在 12V 电压的情况，但比较少， </strong><a href="https://mp.weixin.qq.com/s/a_evnWi3WNzcC1buXHY3zA"><strong>这里还有一些其它规格 </strong></a>的电源可供选择。</p><hr /><h2>监测系统</h2><p>有一部分市售 UPS 产品可以和动力环境监测系统进行对接，供管理员实时查看包括输入输出电压、功率、用电量、温湿度等情况，受此启发，不间断电源作为一个微环境也可以来一套传感器系统。</p><p>传感器系统分别由培正交流电能表「市电输入」、直流电能表「输出」、模拟量采集「电池电压」和温湿度采集器组成，四个器件在设计上偏向工业设备的范畴，能在宽电压、高低温条件下正常工作以应对可能出现的极端情况；数据交换使用工业上常见的 485 串口和 Modbus RTU 协议，主要收集并统计电力和温湿度情况。</p><p>在翻阅了 HA 和 iOS HomeKit 等相关材料后，要在 DIY 情况下顺利接入 iOS 家庭并稳定运行，似乎有些投入过大，Modbus 传感器接入平台的过程过于复杂，事情一旦复杂，正好因工作需要经常接触和机房相关的动环系统，有现成的思路可以复用，自己造一个监测系统。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/65c130c9e96d6f5f9831c44ab47b9d86.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>整体架构</figcaption></figure><p>各组件所需的功能和具体需求：</p><ul><li>Modbus 采集与控制服务：<ul><li>按预定周期轮询多个传感器获取数据</li><li>返回的传感器数据异步写入 InfluxDB 数据库</li><li>提供基于 HTTP 协议的实时数据接口</li><li>异常情况告警</li><li>控制 Modbus 继电器进行充放电测试</li><li>分析 InfluxDB 历史数据拟合电池充放电曲线</li></ul></li><li>uhttpd<sup class="ss-footnote" href="" title="OpenWrt 项目内置的 Web 服务器，特点：配置简单，资源占用极低。">3</sup>存储静态页面资源供移动端浏览器获取</li><li>前端 Web 页面调用采集程序的 API 接口进行实时展示</li><li>InfluxDB 作为时序数据库存储历史数据</li><li>Grafana 调用 InfluxDB 数据生成历史趋势图表</li></ul><h3>Modbus 采集与控制服务</h3><p>考虑到 DELL 笔记本上跑的是 Windows，为方便和稳定起见，试试看能不能使用 .Net 技术栈构建「第一次，之前都是在Linux平台」，构建程序本身没有花费很多时间，但将程序托管至 Windows 服务<sup class="ss-footnote" href="" title="如果只是在前台运行，经常会被操作系统挂起。">4</sup>的过程中花费了不少时间，网上现成案例不是很多，很多要依靠 ChatGPT 4o 及真机调试，体验没有 Systemd 好<sup class="ss-footnote" href="" title="某些 Linux 发行版的进程管理器，托管后程序出现异常可以重新启动或执行其它操作。">5</sup>，好在最后从测试下来稳定性和资源占用上的表现都还不错，就当是年轻多学点课外知识了。</p><h3>实时查看当前状态</h3><p>整体类似于 B/S 架构的单页应用<sup class="ss-footnote" href="" title="SPA">6</sup>，好处在于服务端的负担小，对数据的整合和展示全部由客户端浏览器来处理；浏览器从 uhttpd 加载静态页面资源，JavaScript 配合 XHR 按预定周期从 Modbus 采集与控制程序提供的 API 接口取数，刷新对应区域的数值。</p><pre class="language-ace-line old-record-id-doxcnFnoheBPIwWqomRBA3Ig3Bg"><code>/var/snap/uhttpd/common/home
+├── js
+│   ├── generic.js
+│   └── single.js
+├── main.css
+└── powerbox.html</code></pre><p>界面整体设计灵感源自 <a href="https://developer.apple.com/system-status/">Apple System Status </a>，在此基础上重新进行排版，并增加了夜间模式。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/c9f1007b7885ab5de2b94eb8ccfed555.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>数据存储</h3><p>使用 <strong>时序数据库 </strong>存储所有传感器数据，而不是 MySQL ；除 InfluxDB 外，还有一些国产时序数据库可供选择，比如 <a href="https://sspai.com/link?target=https%3A%2F%2Fwww.taosdata.com%2F">TDengine</a>。</p><h4>存储上的考虑</h4><p>过去的笔记本因为有光驱位的关系，可以装两块 2.5 寸硬盘，出于成本和需求上的考量，装的是带缓存 SanDisk 固态硬盘和西数 PMR 机械盘，固态硬盘只存放系统文件，机械硬盘用来存储不重要但会经常刷新的数据，比如从大门摄像头采集的音视频和接下来要存放的 InfluxDB 时序数据库「存放传感器数据」，避免频繁读写消耗固态硬盘寿命。</p><p><strong>选择双平台的好处在于可以充分利用各自平台的优点，获得一个全局最优解。</strong></p><p>InfluxDB 没有提供原生 Windows 程序，那么就把它部署在 Linux 虚拟机上，另外单独在机械硬盘上创建一块 VM 虚拟磁盘挂载到 Linux 虚拟机，同时吸取 docker 意外断电容易挂的教训，通过 Ubuntu 软件包管理器进行安装而不使用 docker 进行部署，最后在配置文件指定数据库建在新挂上的磁盘。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/40da4581addc48a2c2f44d689a6d498d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>InfluxDB 查询器</figcaption></figure><h3>历史数据回顾</h3><p>Grafana 只是从 InfluxDB 引用传感器数据，直接在 docker 平台托管，查询历史记录的时候再单独启动。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/a31c453f5bf858a01b05f5ee1fdf0487.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Grafana 仪表板</figcaption></figure><h3>保护性关机</h3><p>APC UPS 随附软件有一个不错的功能是在停电时，自动触发所在设备操作系统执行安全关机「多见于 NAS」，因关闭系统需要最高权限，思来想去，还是不由 Modbus 采集与控制程序去关机比较好，改为 Windows 自带的任务计划程序来执行。</p><p>Windows 任务计划程序除了可以定时执行各种任务之外，也支持侦听特定的事件并执行指定脚本，利用这一功能，让 Modbus 采集与控制服务在检测到蓄电池低于指定电压时，主动产生一个低电压告警事件，任务计划程序侦听到此事件后，执行预设脚本，完成安全关机。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/cc1ec403fd616a358e58baf32c8ef76d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>任务计划程序</figcaption></figure><p>预设系统关机脚本：</p><pre class="language-ace-line old-record-id-doxcnt4Eqf8HqDSsJrrnKmcfpZe"><code>; 关闭ModbusComm采集与控制服务
+sc.exe stop ModbusComm
+; 关闭VMware虚拟机
+vmrun.exe stop D:\VM\Pro\Production.vmx soft
+; 关闭操作系统「3秒后，仅关机，忽略更新」
+shutdown -s -t 3</code></pre><h3>后备时间计算</h3><p>一般来说，如果是较为简单的使用场景「比如设备不是连续地运行」，可以省去对后备时间的计算，在没有专用电池管理单元的情况下对电池电量进行估算是一件吃力不讨好的事，PSC-60A 开关电源在电池电压下降至 11.1V 附近时会停止对负载供电，属于尽力服务型设计，电量的多少不在其产品设计范围。</p><p>在没有电池管理单元「BMS」的情况下，可以采用闭路电压法「不断开负载」，参照电池容量与电压的关系粗略估算电池当前容量，此方法受负载的影响，精确度可能不如开路电压法，但已尽可能做了优化，仅供参考。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/f0f2cab704ad8211c72b6b817ce2e3a0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>InfluxDB 充/放电曲线</figcaption></figure><p>使用闭路电压法对电池电量进行估算的先决条件，是要有电池电压与电池容量间的映射关系作为参照，才能输入电压得电量；在电池厂家没有给出参考曲线的情况下，可以通过放电测试所产生的数据，生成这一映射关系；为确保最后得出的映射关系准确稳定，放电过程应尽可能控制放电深度、负载水平和环境温度：</p><ul><li>通过直流电能表确保只放出电池容量的 50%「指定放电深度」</li><li>在负载功率较为稳定的时段进行测试「减少输出电流波动带来的影响」</li><li>如有条件每隔一段时间重新测试一次「温度影响化学电池放电能力」</li></ul><p>为方便实际使用，上述过程由前述提到的 Modbus 采集与控制服务负责跟踪，达到预设的放电深度时控制 220V 继电器恢复市电供应，停止测试，并调取 InfluxDB 在放电、充电期间记录的电压数据，拟合充放电曲线，以多项式的形式保存下来，需要时直接调用，以电池电压为参数算出电池容量即可。</p><hr /><p>至此，全直流 UPS 不间断电源的硬件部分已基本确定下来，结构如下：</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/2337b780b071c9c8cb1073462d764455.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>主要部件</p><figure class="table"><table><tbody><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">明纬 PSC-60A-C 电源</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥112.5</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">JD</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Dell 65W 车载适配器</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥65</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">海鲜市场</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">EVEPS 12V 转 48V 1A 适配器</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥38</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">天能 TNE12-4.5 GEL 蓄电池</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥93</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">JD</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">防火阻燃配电盒</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥33.46</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">培正交流电能表 10A</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥38</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">培正直流电能表 10A</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥35</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">123 物联 Modbus 温湿度传感器</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥15.5</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">微雪串口模块工业级 USB 转 485</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥26.94</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">汇控 485 模拟量采集「电压」</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥12</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr><tr><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">汇控 Modbus 继电器「单路」</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">￥11.40</td><td colspan="1" rowspan="1" style="border: 1px solid rgb(222, 224, 227); padding: 8px; vertical-align: top;">Taobao</td></tr></tbody></table></figure><p><i>电缆、插座、端子排、压线端子、电池插簧、导轨、自熄管等辅料不计。</i></p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/754abff15cb4af576b7b9c821a8b7c22.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>总装「含集中供电」</figcaption></figure><h2>回望与不足</h2><p>十全十美的方案并不存在，没有最好，只有更好，优化方案的过程，也是一个不断取舍的过程。</p><h3>保险管</h3><p>根据官方披露的原理图及手上实物情况，接蓄电池负极的一路设计有一颗 5A、耐压 250V 的圆形快熔保险管。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/23/article/e2f336be46fde7893be56dda2571b4c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>更换前与更换后</figcaption></figure><p>在前期试验的过程中，出现因蓄电池引脚反接导致保险丝主动熔断，电池不能充放电的情况，为避免可能出现电池供电回路失效而不知的情况，额外补充两个措施：一是增加模拟量采集「电压」，实时监测给电池供电是否正常；二是保险管加焊专用插座，解决保险管不方便更换的问题。</p><h3>电池</h3><p>尽可能选购 UPS、机房、通信专用铅酸电池，针对上述场景设计生产的电池除了有特殊优化外，还附有较为详细的 <a href="https://sspai.com/link?target=http%3A%2F%2Fimg30.360buyimg.com%2Fsku%2Fjfs%2Ft1%2F200629%2F17%2F21282%2F168544%2F643a119aF514932c5%2Ffc088939fb0b4fc3.jpg">使用说明 </a>，有助于使用者更好地发挥电池性能。</p><h4>选购渠道</h4><p>在 JD 上买的天能电池价格小贵，可靠的线上购买渠道似乎并不是很多，可能在线下反而有机会买到物美价廉的电池，如果能淘到 UPS 专用的长寿命型号，情况会更好。</p><h4>电池健康</h4><p>虽然阀控铅酸电池是免维护的，但和其它电池一样，放电性能和容量会出现逐年下降的情况，尤其是电池内阻升高导致放电时间缩短的问题，在没有额外电池管理单元/电池巡检仪的情况下，只能靠定期放电测量可用时间，或是以年为单位更换新电池，确保不会因电池健康影响后备供电能力。</p><p>另外，铅酸蓄电池普遍怕饿，过放电、长期亏电易引发电池失效「无法充电」。</p><h3>恒温恒湿</h3><p>最开始设计时并没有太多考虑散热的情况，更多偏向于低湿、无尘和防虫，等到总装完成调试运行的时候就发现：低湿、无尘和防虫的问题是解决了，但舱内温度稍高，日常 30W 负载，全密闭状态下温度在 45℃ 左右，温度高虽然不会影响工业电源和仪表的正常运行，但刚好落在 PSC-60A 的减额曲线上，不能满负荷出力「用不到」；后续也尝试引入制冷片进行冷却「铝制散热器+风扇」，但测试后效果并不如意，降温没多少，耗电量倒是上去了不少，最后改为半开密封盖，让其自然散热，现在日常温湿度保持在 37℃ / 50% 附近。</p><h3>消防安全</h3><p>常见的插排收纳盒并不具备防火阻燃功能，有一定的火灾安全隐患，另外采购阻燃型的电气接线盒用于存放电源和传感器设备「蓄电池除外」，此类盒子有一定密封性，需要手动开口才能走线缆，因此，如果在电缆出入口加装防水套形成气密舱，内部充入惰性气体，有希望从根源上杜绝内部起火的可能性。</p><h3>5V 不间断电源</h3><p>令人遗憾的是，明纬并未推出针对 5V 的 UPS 电源产品，但仍有机会通过二次 DC 降压的方式来实现，以下列举几个可选项：</p><hr /><p>如果屏幕前的你也在给自己的本地设备找一套安全的低功率 UPS 不间断电源，不妨试试全直流的思路，或许会有更好的效果。</p><h2>参考链接</h2><ul><li><a href="https://mp.weixin.qq.com/s/a_evnWi3WNzcC1buXHY3zA">明纬安防监控电源选型表</a></li><li><a href="https://sspai.com/link?target=https%3A%2F%2Fedc.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdesign%2Fipla%2Fsoftware-development-platforms%2Fclient%2Fplatforms%2Falder-lake-desktop%2Fatx-version-3-0-multi-rail-desktop-platform-power-supply-design-guide%2F2.0%2F2.01%2Fvoltage-hold-up-time-required%2F">Intel ATX 电源切换时间 17ms</a></li><li><a href="https://sspai.com/link?target=https%3A%2F%2Fcloud.tencent.com%2Fdeveloper%2Farticle%2F2239093">在线互动式 UPS、在线式 UPS 、离线式 UPS 三种 UPS 原理与对比</a></li></ul><p style="margin-left: 0px;">&gt; 关注&nbsp;<a href="https://www.xiaohongshu.com/user/profile/63f5d65d000000001001d8d4" target="_blank">少数派小红书</a>，感受精彩数字生活 🍃</p><p style="margin-left: 0px;">&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93000</id>
+            <title>美西自驾 3000 公里：拉斯维加斯是罪恶都市还是娱乐天堂？</title>
+            <link>https://sspai.com/post/93000</link>
+            <guid isPermaLink="false">https://sspai.com/post/93000</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Oct 2024 07:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 拉斯维加斯, 自驾游, 酒店, 娱乐表演  
+<br><br>  
+总结: 文章介绍了从Anaheim到拉斯维加斯的自驾游经历，强调了拉斯维加斯的独特魅力和丰富的娱乐活动。途中经过的Barstow购物中心已不再繁华，酒店价格在周二至周四相对便宜，而周末则大幅上涨。拉斯维加斯大道是城市的核心，汇聚了众多酒店和赌场，提供多样的娱乐表演和美食选择。尽管治安良好，但仍需保持警惕。作者建议提前了解演出信息并购票，以便更好地享受这座城市的魅力。 </div>
+                        <hr>
+                    
+                    <p>拉斯维加斯这个名字想必大家都不陌生，它就像一个充满神秘色彩的魔法盒子，让人忍不住想要揭开它的面纱，一探究竟。刚好顺道，那我自然也免不得去看看这座传说中的城市到底有着怎样独特的魅力。</p><p>从 Anaheim 到 Las Vegas 大约 431km。出市区的时候，车辆川流不息，不过一旦驶离市区，车流的拥堵便会很快缓解，大家都各自有序地行驶着。不得不说，当地人开车很守规矩，超车道只有在超车时才会被使用。而且，虽然大家的车速都比规定速度快一些（基本上超速 10% 起步吧），但整个驾驶过程却很顺畅，因为没有慢车。这边也没有那么多摄像头抓拍，很偶尔才会出现一辆警车在路边的，据说只有他们现场执法抓住的超速或者违章驾驶才会被处罚。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/17/0da7273991bc6769ed8c538a52a1609c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>从 Anaheim 经停 Barstow 前往 Las Vegas 的行程参考</figcaption></figure><p>在这漫长的旅途中，中途找个休息点是必不可少的。Outlets at Barstow 正好位于这段路程的中间位置。曾经，这里生意兴隆，然而这次我来到这里时，却发现它已不复往日的繁华。在 Google Map 上搜索时，它甚至显示已停业，不过抱着加油和休息的想法，我们还是在此停留了片刻。实际上，它并没有完全停业，只是顾客稀少。这里曾经的大牌店铺几乎都已撤离，剩下像 Levi’s、Cross 等相对平价的品牌，但其价格却比国内电商还要高，实在没有什么值得购买的东西。</p><p>稍作休息后，我们继续向 Vegas 前进。周二的 Vegas 酒店价格便宜得让人惊讶，我选择的 Excalibur Hotel &amp; Casino 一晚人民币才 200 出头（额外还需要交一些服务费等合计约$50），而到了周末，价格则会飙升到 2000 以上，这价格差距实在是太大了。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/17/5c241306afbcfc0cdf6d4779630f8994.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/17/2d76522ce0363c1fe7d28b47ccc88eea.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>这里要提醒自驾来此的朋友们，美国这边酒店的停车方式与国内有所不同。你可以直接将车开到停车楼，在抬杆处拿好停车票，办理入住时交给前台，她会将相关信息录入房卡。离开时，你可以保留房卡，在离开停车场时刷卡，停车费用会从信用卡中扣除。</p><h2>不得不提的拉斯维加斯大道（The Strip）</h2><p>拉斯维加斯大道是这座城市的核心区域。它位于拉斯维加斯市中心的西部，从撒哈拉大道（Sahara Avenue）开始，一直延伸到罗素路（Russell Road），全长约 4.2 英里（约 6.8 公里）。这里几乎汇聚了所有的酒店和赌场，随着赌场吸引来大量的客流，相关的文化产业和餐饮业也蓬勃发展起来。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/5c79e9897d57ba5b8ec09721d56f69d5.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/7317ee746ee2cb2cd43587989c46315c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>在这里，你可以欣赏到丰富多样的娱乐表演。太阳马戏团的精彩表演、大型音乐会以及神奇的魔术秀等，让人目不暇接。这里还有众多高端购物商场和餐厅，从快餐到米其林星级美食，各种餐饮选择应有尽有。毫不夸张地说，即使你一夜暴富，在这条街上也能轻松地将财富消费出去。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/17/07c641fb407e9884d58492085e06a7c4.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>某个赌场的一角</figcaption></figure><p>朋友发现，现在酒店赌场的布局与以前有所不同。以前，你需要先到前台办理入住，然后穿过餐饮区、商铺区等才能到达赌场，而现在，所有酒店一进门就是赌场，无论你是否办理入住，都可以随意坐在一台机器前开始你的娱乐之旅。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/e2aa7c8fddf472edb01294b22cf7cdf2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/790954c8de25da778dea6b933b76eddd.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/639f40c10c4b150d9cc2f9b41867d6b3.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/acf1e431a12f91e332171d18c3590958.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>为了俯瞰这座城市的美景，欣赏新建的大球 Sphere 的外观，我去乘坐了 High Roller 摩天轮。它位于大道北边，是一个绝佳的观景制高点。由于游客较少，原本可乘坐约 20 人的箱体，只上了我们四个人。其中有一个外国小姐姐因为恐高，全程都坐着不敢动，真不知道她的男友是怎么想的🤭。在乘坐摩天轮之前，会有一个在绿布前拍照的环节，下来时工作人员会把你抠图 P 到几个不同的背景上，是否购买照片就看个人的意愿了。</p><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/e1a0e4f684ad42e80fc82b7260fc8a4d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/dac77b4f15db79cc6034d841cb1418c8.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/f333c04a3e7ac251eb906898ed0e7c1d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/34d5a3fdf96c297b563c6e3e56ba2e55.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="ss-imgRows"><img alt="" src="https://cdnfile.sspai.com/2024/10/18/9e14c16b544b3e2251e5d06edb83a741.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><img alt="" src="https://cdnfile.sspai.com/2024/10/18/67b7400c17b31dd2b2edec3e79b1ae22.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/18/68ee9e83931fdd40da43dc6a9a7cc0f5.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>刚好赶上的晚霞</figcaption></figure><p>整个街道核心区的长度并不长，步行是游览这里的最佳方式。尽管天空中不时有直升机巡逻，还会时不时响起警报声，但这里的治安状况良好，大家可以放心地漫步其中。每个酒店都像一个小型的娱乐王国，吃喝拉撒玩乐购赌一应俱全，不过它们的布局设计很巧妙，很容易让人迷失方向，像威尼斯人、凯撒宫这样的超大型酒店更是如此。</p><p>从威尼斯人酒店里可以直接通过各种连廊穿行前往Sphere，怕你找不到路，还有各种指示牌。因为当天有甲骨文公司的商务活动，挡住了一些标识牌，还特别安排了工作人员站在对应的路口，举着小牌牌来指路，也是相当可爱了~</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/18/2f6a2f6d5da235e88e4db574184f699a.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>再来一张晚霞</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/18/be749e09739c2ba54f957741431f7017.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>威尼斯人酒店内景，那个天空的灯光打得非常好，真的有种真实感</figcaption></figure><p>进入 Sphere 后要存包，专业的相机也不让带入，只能用手机拍。里头的体验视频 B 站有很多，有兴趣的大家可以自行搜索，整体说来，还是值得去看看的。那个超级球幕里头播放的量身定做的纪录片《Postcard from Earth》，充分利用了 The Sphere 内部的超 16K 分辨率的 LED 屏幕，呈现出极佳的视觉效果，还结合了强大的新式音响系统和 4D 特效，如风和触感座椅，为观众提供了一种全新的观影体验。尤其是看到后边有我即将要去的大峡谷、羚羊谷、马蹄湾的时候，更是让我心动不已。</p><p>说实话，我没有去 downtown，所以在 The Strip 这条大街上，我所感受到的只有繁华与热闹。这里的演出丰富多样且水平很高，可惜我这次因为行程规划的问题，很多精彩的演出都没能欣赏到，比如常规的 O 秀、太阳马戏团秀，还有从 10 月份到年底，Adele 每周五周六在 Caesars Palace 的 The Colosseum 的驻场演出，以及 Sphere 里的众多大腕演出。看来，下次来之前一定要做好功课😔。</p><p>总之，周二到周四的 Vegas 相对冷清，酒店价格便宜；而周末的 Vegas 则人山人海，热闹非凡，酒店价格也会大幅上涨。大家可以根据自己的需求选择合适的时间前往。拉斯维加斯就是这样一个充满魅力的城市，无论你是追求刺激还是享受休闲，都能在这里找到属于自己的乐趣。至于他到底是罪恶都市还是娱乐天堂，大概每个人都有自己的观点吧。</p><h2>一些 Tips</h2><ul><li>气候与衣物：拉斯维加斯地处沙漠之中，早晚温差较大。在 9 月份，白天穿短袖速干衣、短裤即可；晚上则建议穿长裤，外面可以加一件衬衣，户外徒步裤也是个不错的选择。</li><li>演出信息与购票：除了赌博，Las Vegas 还有各种各样精彩的演出以及各路大牌的巡演。建议提前关注演出信息并购票，推荐网站：<a href="https://www.tickets.com/" target="_blank">https://www.tickets.com/</a>。</li><li>治安情况：总体来说，The Strip 附近的治安状况良好，无论多晚都可以放心地走动，但必要的小心还是要有的，downtown 就不建议前往了。</li><li>购物情况：这里虽然商品琳琅满目，但内华达州的税点较高，所以在价格上并没有什么优势。</li><li>美食体验：这里也是美食天堂，在自己的预算范围内，不妨尽情享受美食。</li></ul><h4>拓展阅读</h4><p>除了 Las Vegas，我也分享了自驾之旅中的其它见闻，期待与你一同交流。</p><ul><li style="margin-left: auto;"><a href="https://sspai.com/post/93105" target="_blank">美西 3000km 之逛公园，我是认真的</a></li><li style="margin-left: auto;"><a href="https://sspai.com/post/92862" target="_blank">美西 3000km 之去快乐的地方就会更快乐</a></li><li style="margin-left: auto;"><a href="https://sspai.com/post/92804" target="_blank">美西 3000km 之亲爱的，我们有个小麻烦了</a></li><li style="margin-left: auto;"><a href="https://sspai.com/post/92395" target="_blank">美西自驾游不完全自助手册</a></li></ul><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93120</id>
+            <title>vivo X200 系列后日谈：用长期主义描绘影像「蓝图」</title>
+            <link>https://sspai.com/post/93120</link>
+            <guid isPermaLink="false">https://sspai.com/post/93120</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Oct 2024 04:10:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <vivo, X200系列, 手机影像, 摄影师>
+<br>
+<br>
+总结: 本文回顾了vivo手机影像的发展历程，重点介绍了X200系列的发布及其技术进步。通过与多位摄影师的深度访谈，探讨了vivo在影像领域的创新与投入，强调了其在手机摄影技术上的突破。X200系列不仅在硬件上实现了跨代跃迁，还通过AI和用户体验的优化，使得摄影变得更加简单和直观。嘉宾们一致认为，vivo的影像能力在行业中处于领先地位，能够满足不同用户的需求，助力本土影像文化走向世界。 </div>
+                        <hr>
+                    
+                    <p>前不久，vivo 发布了年度影像旗舰 X200 系列。我有幸提前一周体验了 vivo X200 Pro，并在发布会的前夜主持了一场别开生面的「手机影像深度访谈」，邀请到了三位微博年度最具影响力摄影师宁思潇潇（<a href="https://weibo.com/u/1652842013">@宁思潇潇</a>）、Derrick Zhang（<a href="https://weibo.com/u/5476485501">@Derrick_Zhang_</a>）、王鹏鹏（<a href="https://weibo.com/u/5957947374">@王鹏鹏ken</a>）及米拍摄影社区创始人杨娇（<a href="https://weibo.com/n/%E6%8B%8D%E7%85%A7%E7%9A%84%E5%B0%8F%E8%BE%A3%E6%A4%92">@拍照的小辣椒</a>），围绕蓝图影像的演进历史和 X200 系列新品展开了深入探讨。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/67f8430e5b5d45f5cce4eaa5e7132fc9.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>参与本次聊天的大咖朋友们，图片截取自「蓝图会客厅」</figcaption></figure><p>在这次长谈中，我们碰撞出了许多有趣的观点，我也从不同类型的摄影师和用户视角里看到了不一样的 vivo 影像故事。在这篇文章中，我想从 vivo 对于影像的打磨和投入历程谈起，聊聊嘉宾们在这次「蓝图会客厅」中迸发出的那些令我印象深刻的思考。</p> <h2>蓝图影像发展回顾</h2><p>如果要讨论「国产厂商在手机影像上发力到了什么程度」，我们要先穿越历史的脚步，回头看看国产厂商在过去的这些年付出了怎样的投入。</p><p>在「蓝图会客厅」，我们的谈话从宁校长（宁思潇潇）的《摄影笔记》谈起。这本书既是一本画册，也是摄影教程，书中收录了很多张他用 vivo X27 系列拍摄的照片，特别是夜景照片。这些照片很好地呈现了手机摄影发展的时代性，当时正是「超级夜景模式」的诞生和普及期，厂商和用户都已经开始对手机画质有了更多要求，「通过算法提升照片品质」的策略也开始在手机影像大规模应用。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/69f941369726902f5625fc58f8dead17.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>宁思潇潇使用 vivo X27 系列拍摄的夜景照片</figcaption></figure><p>尽管如此，在 2019 年的时间点，夜景拍摄依然不是手机的专长，宁校长甚至给出了“白天机”的定义。受限于手机的空间限制，想拍好夜景，芯片和算法是厂商发力的必然方向。</p><p>随后，vivo X70 系列引发了我们的热议。在 vivo X60 系列与蔡司完成首次成功携手之后，vivo 在手机影像方面就正式确立了「自研+强强联合」的研发模式，一方面引入以蔡司为代表的行业顶尖镜头技术，另一方面则在自研方面扩大投入，潜心打磨自研芯片。而 X70 系列首次搭载了 vivo 自研的影像芯片 V1，实现了更强的影像计算能力，并带来了超逆光纯净夜景。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/d4a92833564a1e36881d1ce9e871252b.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>vivo 的首款自研影像芯片 V1 如今看来已经略显遥远，但它却是蓝图影像的重要一步</figcaption></figure><p>之后的 X80 系列则是令我个人印象更为深刻的一代。它不仅是 vivo X 系列的十周年之作，也是我们少数派第一次使用手机完成整部公益影片的拍摄。</p><p>vivo X80 系列发布那年，我们用它纪录了红树林基金会环保工作者的幕后故事，充分利用了 X80 系列构建的长焦和人像摄影体系，为观众呈现了人鸟共生的人文视角。从这一代产品开始，已经能清晰地看出 vivo 影像定义产品的脉络，即围绕用户需求细分场景，并通过底层的技术积累攻克和优化这些场景，结合创新和长板优势，最终为用户提供的「一超多能」的全面体验。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/39690cdf58d3d778c5541036702c75b2.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>vivo X80 系列的长焦和人像摄影体系为这支纪录片的拍摄带来了诸多便利，图片截取自纪录片画面</figcaption></figure><p>时至 2022 年，全球手机市场的竞争都已经进入疯狂堆料和白热化的时期，已经建立了自己研发和新品节奏的 vivo 没有盲目地卷入军备竞赛，而是继续以影像实力为产品主线，推出了稳扎稳打的 X90 系列，首次将 5000 万像素的一英寸大底和自研影像芯片 V2 带到了 X 系列上。</p><p>在 X90 系列发布后，宁校长曾经用「vivo X90 是我看着成长起来的孩子，能打一整年」的评价来赞美这部产品。而这代的 vivo X 系列手机也确实以影像为突破口，赢得了大量的用户好评，成为了当时最出圈、好评度最高的 X 系列手机。直到产品发布后的一年，X90 系列仍是许多媒体评测影像的标杆产品，并深受专业摄影师的认可和喜爱。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/a34b223a2618164f91520baf46784562.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>宁思潇潇使用 vivo X90 系列拍摄的照片</figcaption></figure><p>到了 X100 系列，蓝图影像终于迎来了自己的「影像灭霸」—— vivo X100 Ultra，它配备蔡司 2 亿 APO 长焦、长焦舞台、85mm 人像、人文街拍相机、4K 120fps 升格、4K 60fps 全焦段杜比视界等，至今影像能力依然处于行业前列。在历经了数年的细分场景攻克之后，vivo X 系列完成了技术、功能、审美、交互的完整积淀，并为用户呈现了一款「无死角」的产品。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/dc5dfb784183df966ff2d43ad2e7d016.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Derrick 使用 vivo X100 Ultra 拍摄的照片</figcaption></figure><p>更强的视频能力成为了 X100 系列的新标签，配合长焦端的高像素与多焦段，给纪录片带来了无限的可能。Derrick 在谈话中提到，他和团队用 X100 系列拍摄了非洲塞伦盖蒂大草原和阿勒泰的牧民迁徙，全面的焦段、可靠的长焦、稳定的防抖系统等让他们可以不借助任何外接镜头和辅助设备就能拍到理想的画面，而 2 亿高像素、全链路 XDR 和杜比视界则让这些美好画面得以完整保留和呈现在用户面前。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/af93f94c061d33c25fa5ce60116378f6.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>Derrick 使用 vivo X100 Ultra 拍摄的《流动的家园》影片截图</figcaption></figure><h2>X200 系列：长期主义带来的全面进化</h2><p>从 X27 系列到 X70 系列，再到 X100 系列，蓝图影像的成长过程既是点滴积累，也是长线投入。而到了 X200 系列，vivo 则迎来了跨代跃迁和技术实力的全面爆发。</p><figure class="image ss-img-wrapper image_resized" style="width: 645px;"><img src="https://cdnfile.sspai.com/2024/10/22/524f04ba574eeb14872dbeaef6e68ec1.gif" /><figcaption>全新的 X200 系列是 vivo 从内而外的一次跨代跃迁</figcaption></figure><p>在刚上手 X200 系列时，我就经历了一个有趣的小细节，我把新手机拿给我的女儿去拍照，她不懂相机的任何知识，仅凭直觉拍摄，就抓到了小猫最灵动的瞬间。我女儿发出惊叹：这个手机拍照太好看了。我看了样张也同样惊叹，X200 系列真的是让人人都变成了摄影师和创作者。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/3d1c26bb6bdaa7937119bbf4d6380473.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>vivo X200 系列拓宽了创作的边界，让生活中的点点滴滴都有了摄影感</figcaption></figure><p>X200 系列的进化是全方位的：vivo 与联发科联合定义了蓝晶 × 天玑 9400；自研了蓝图影像芯片 V3+ ；vivo 与索尼联合定义了蓝图 × 索尼 LYT-818 传感器；与 Arm 设立联合实验室，进行微架构的升级及缓存的智能化等。同时，X200 Pro 还搭载了 X100 Ultra 同款的「两亿灭霸」，并沿用了蓝图影像一路来的调教和技术积累，长焦及视频再超越，成为了 2024 年蓝图影像成果的集大成者。</p><p>在访谈中，几位嘉宾也都提及了新的产品特性给自己的摄影和生活带来的变化。譬如，杨娇和 Derrick 谈到，新的 2 亿像素长焦配合舞台模式让 vivo 手机成了「演唱会之王」，不仅可以精准地捕捉到舞台上艺人的姿态，还能指向收音，一键消除粉丝们的跟唱，只保留舞台上的声音；王鹏鹏则认为，vivo 不追求功能的堆砌，而是开始在交互层面做减法，通过 AI 场景识别、全焦段配置、蔡司镜头包模拟等软硬件结合的综合运用，让不同技术的用户也能在各种场景下拍到好照片。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/6e4c637a815fdd737433df25af5ec598.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>在拍演唱会这条赛道上，vivo X100 Ultra 一骑绝尘，图片由王鹏鹏拍摄</figcaption></figure><p>聊天过程中，嘉宾们还提出了一个有趣的观点：手机摄影已经从技术革命走到了艺术革命的阶段，今天的手机摄影不再是单纯的参数比拼，而会直接影响人们创作艺术的方式。譬如，X200 系列的人像长焦焦段延展到了 135mm，而且支持 4K 级人像视频的拍摄。在这些参数提升的背后，是对镜头和传感器素质、防抖、算法等部分的综合要求。当用户使用 X200 系列拍摄 135mm 长焦人像，不仅可以精准地抠出人像的发丝，模拟自然的光学虚化，还支持快速运动的捕捉，能够轻松抓取到生活中转瞬即逝的感动瞬间。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/article/8695852321dc36778ebba333de58a09e.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>照片由王鹏鹏使用 vivo X200 Pro 拍摄</figcaption></figure><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/f9184828d1479e17e318f79caed8cd67.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>照片由 Derrick 使用 vivo X200 Pro 拍摄</figcaption></figure><p>X200 系列新增的「风光模式」也有力地佐证了这个观点。用户终于不需要再考虑光圈、快门、ISO「黄金三角」之间的关系，所有关于风光的拍摄都汇聚到了同一个入口。此外，X200 系列还会基于场景自主适配适合的拍摄模式和颜色风格，无论是潺潺溪流的长曝光，还是自在露营的轻松感，或者雪山草原的壮丽风光，「风光模式」都能帮助用户拍到大片。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/fae1095db89736a765be2c2848fd43c5.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>我使用 vivo X200 Pro 的风光模式拍到的水流</figcaption></figure><p>正如王鹏鹏老师在访谈中所言，人像模式构成了 vivo 蓝图影像的另一道护城河。从 X 系列诞生初期至今，「照亮你的美」的理念始终是贯穿 vivo 影像的一条主线，而 vivo 的人像算法和理念，也一直在随着用户审美和摄影理念的变化而进化。如今，当我们对比 vivo X200 系列和相机的人像拍摄，两者之间的界线已经越发模糊。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/b3781032b929113f974d031ad0ca14ec.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>王鹏鹏使用 vivo X 系列手机拍摄的人像</figcaption></figure><p>不仅如此，X200 系列还在影像之外展现了对用户体验的综合洞察，譬如，行业首发的第三代硅负极技术，将电池能量密度提升了 19.6%，电池循环寿命也走在行业前列，用户不仅可以用得流畅，还能用得持久；搭载 OriginOS 5，将 AI 大模型融入了 Origin OS 的系统层，为用户提供了便利且兼顾隐私的 AI 助手；蔡司大师色彩屏同时做到了行业领先的色域、色准、色彩管理及护眼表现，当用户用 X200 系列全新构建的影像系统拍到了好看的照片和视频，他还能随时以更准确、舒适的方式回看自己的作品。</p><h2>助力本土影像文化走向世界</h2><p>全程近三小时的「蓝图深度访谈」，嘉宾们聊得开心又尽兴。在大家各自总结自己眼中的 vivo 品牌时，我引用了网友们的比喻——「中国制造的阿甘」。vivo 已经连续三年三个季度实现了国产手机销量第一，他们不骄不躁，持续投入，终于通过强大的自主研发加外部资源整合能力，展现了品牌穿越周期的生命力。</p><figure class="image ss-img-wrapper"><img src="https://cdnfile.sspai.com/2024/10/22/d1b83a7de5b7673ac529804f5662ecf8.jpeg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /><figcaption>「中国制造的阿甘」是个很有趣的比喻，也是 vivo 品牌在我心中的形象</figcaption></figure><p>在「蓝图会客厅」的深度讨论中，嘉宾们最为一致认可的，就是 vivo 影像展现的「一超多能」的全场景摄影能力——长焦实力行业领先，同时覆盖全焦段和全场景的拍摄体验。几位嘉宾有各自擅长的领域和视角，既有注重审美、构图和艺术表达的学院派摄影师，也有经营着摄影社区的女性用户，还有静态照片、动态影像通吃的全能选手，但无论每个人擅长和关注的兴趣点在什么方向，vivo X200 系列都能帮助他们轻松捕捉到自己的「人生高光时刻」。</p><p>而在影像之外，vivo X200 系列在性能、屏幕、续航、系统交互等也都有突破与革新。当用户把 X200 系列拿在手上，他们得到的不仅是一套强大、易用的影像系统，更是可以代表 2024 年国产手机旗舰之作的综合体验。</p><p>就用这次讨论中的一个观点作为本文的总结吧：随着国产手机的影像不断进化，来自中国的摄影师和摄影作品也在全球摄影领域有了越来越多的话语权和影响力。正如以 vivo 为代表的国产手机品牌正逐渐在行业中承担起引领者的角色，「中国创造」的强大实力也在每一代产品的进化中展现给了全世界。摄影也不局限于是器材和技能，而是变成人类共同的语言。</p><p style="margin-left: 0px;">&gt; 关注&nbsp;<a href="https://www.xiaohongshu.com/user/profile/63f5d65d000000001001d8d4" target="_blank">少数派小红书</a>，感受精彩数字生活 🍃</p><p style="margin-left: 0px;">&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://sspai.com/post/93130</id>
+            <title>派早报：华为发布 HarmonyOS NEXT 及多款硬件新品等</title>
+            <link>https://sspai.com/post/93130</link>
+            <guid isPermaLink="false">https://sspai.com/post/93130</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Oct 2024 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 华为, HarmonyOS NEXT, 新品发布, 高通骁龙  
+<br><br>  
+总结: 华为在10月22日发布了HarmonyOS NEXT操作系统及多款硬件新品，包括nova 13系列手机和HUAWEI WATCH Ultimate腕表。HarmonyOS NEXT强调流畅的用户体验，支持AI深度整合和安全隐私保护。Solidigm宣布将停止制造贴有英特尔标签的产品，飞傲推出自动黑胶唱片机TT13，文石发布P6小白马电纸书。高通发布骁龙8至尊版移动平台，提升了性能和能效，预计将有多款手机新品搭载该平台。 </div>
+                        <hr>
+                    
+                    <h2>你可能错过的新鲜事</h2><h3>华为发布 HarmonyOS NEXT 及多款硬件新品</h3><p>10 月 22 日，华为举行「原生鸿蒙之夜暨华为全场景新品发布会」，正式发布原生鸿蒙操作系统 HarmonyOS NEXT 和华为 nova 13 系列、华为 WATCH Ultimate 非凡探索系列「 绿野传奇」腕表、HUAWEI MatePad Pro 12.2 英寸流金典藏版（SIM 卡版）多款硬件新品。</p><p>HarmonyOS NEXT 以物理渲染和动效设计保障流畅、自然的系统体验，同时也支持心情盒子主题和更多趣味互动玩法；与 AI 深度整合的鸿蒙原生智能（Harmony Intelligence）则以 AI 小艺、鸿蒙原生应用和盘古大模型为基础，带来了更强的感知、推理能力，可实现应对最多 23 类 Top 场景交互以及信息无障碍领域需求；HarmonyOS NEXT 同时还采用了星盾安全架构，强化了应用隐私数据获取规则，禁止读取已安装应用列表、访问短信等 9 类不合理权限，同时针对图库、相机等 7 大高频场景专门设计安全访问机制，全新的华为应用市场还将从源头上确保不满足安全要求的应用无法上架、安装和运行；在保证整机流畅度的同时，HarmonyOS NEXT 也会延续鸿蒙的跨端优势和无缝连接体验。</p><figure class="image ss-img-wrapper"><img alt="NxaPb99JmonNw0xtnmicdDPknHg" src="https://cdnfile.sspai.com/editor/u_/csbt9n5b34tfe4qbu680.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>HarmonyOS NEXT 从 10 月 22 日起面向 HUAWEI Pura 70 系列、HUAWEI Pocket 2 系列、HUAWEI MatePad Pro 11 英寸 2024 款等机型开启公测。除操作系统外，华为还发布了 nova 13 系列手机、HUAWEI WATCH Ultimate 非凡探索系列「 绿野传奇」腕表、HUAWEI MatePad Pro 12.2 英寸流金典藏版等新品。其中 nova 13 系列主打人像拍摄和时尚外观设计，并支持北斗卫星图片消息；HUAWEI WATCH Ultimate 非凡探索「 绿野传奇」新增专业高尔夫球场模式；HUAWEI MatePad Pro 12.2 英寸流金典藏版则面向专业创作用户。</p><figure class="image ss-img-wrapper"><img alt="GFmebP6QYoOyKRxVLQpcat4inCg" src="https://cdnfile.sspai.com/editor/u_/csbt9nlb34tfe57os4r0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>Solidigm 暂停制造、出货贴有英特尔标签的产品</h3><p>Solidigm 官方于 10 月 18 日发布产品品牌更换须知，表示根据相关协议，Solidigm 将在 2025 年第一季度结束前完全切换到发售使用 Solidigm 品牌的驱动器，并不再制造、出货贴有英特尔标签的产品，为确保顺利下单请合作伙伴格外注意下单编码的变更。英特尔的 NAND 固态硬盘业务于 2020 年 11 月被 SK 海力士收购，2021 年更名为 Solidigm，从 2022 年 10 月开始，对 NAND 固态硬盘的所有技术和保修支持均由 Solidigm 直接提供。<a href="https://www.ithome.com/0/803/978.htm">来源</a></p><h3>飞傲发布自动黑胶唱片机 TT13</h3><p>飞傲于 10 月 21 日宣布推出自动黑胶唱片机 TT13，搭载全自动唱臂，可设置自动循环播放，音频部分采用全模拟音频架构，搭载两颗 JRC5532 运放串联组成两级放大电路，配合多颗电解电容与独立 LDO 供电，同时内置功率放大电路，线路输出电平可达 800mV@1kHz 0dB。</p><figure class="image ss-img-wrapper"><img alt="KjOqbmk71oaDUaxaZ6acjQQcnYs" src="https://cdnfile.sspai.com/editor/u_/csbt9ntb34tfe57os4rg.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>TT13 可搭配有源音箱使用，整机重近 4KG，可自定义灯光效果，标配定制红外遥控器；采用 DC / AC 双供电设计，配有铁三角 AT-3600LA 白色唱头、可拆卸防尘盖，蓝牙版支持 aptX 蓝牙连接。定价方面，飞傲 TT13 标准版官方售价为 1599 元，蓝牙版官方售价为 1699 元，现已上市开售。<a href="https://www.ithome.com/0/803/977.htm">来源</a></p><h3>文石推出 P6 小白马电纸书</h3><p>文石于 10 月 21 日宣布 P6 小白马电纸书正式上市，该电子书外观类似手机，配备 6.13 英寸 Carta1200 墨水屏，尺寸为 160×80×8mm、重约 160g；左侧配备 AI 智慧键，支持一键分享给朋友、唤出 AI 助手等功能；电纸书右侧为音量键，支持开启色温 &amp; 前光、上下翻屏操作，支持 28 种格式文件阅读；内置 3950mAh 电池，续航约 30 天，定价 2199 元，首发价 1999 元。<a href="https://www.ithome.com/0/803/961.htm">来源</a></p><figure class="image ss-img-wrapper"><img alt="YFPFbiSp9oB7Fqxe0y7czAf5noc" src="https://cdnfile.sspai.com/editor/u_/csbt9o5b34tfe14r0q9g.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>高通发布骁龙 8 至尊版移动平台</h3><p>高通于 10 月 22 日在骁龙峰会上发布骁龙 8 至尊版移动平台，采用 Oryon CPU 和切片架构，包含两个「超级内核」和六个「性能内核」，各采用 12MB L2 缓存，频率达 4.32GHz，单核性能提升 40%，多核性能提升 42%；GPU 部分采用 Adreno 830 GPU，峰值性能提升 44%，能效提升 25%，频率为 1100MHz ，具备 12M 独立缓存；NPU 部分为增强型 Hexagon NPU，单位功耗性能提升 45%，此外还支持端侧多模态 AI 及更长的 Token 输入。此外骁龙 8 至尊版移动平台还支持 4K 分辨率下无限语义分割、视频对象消除、Insight AI 超暗光照片和视频拍摄以及原生虚幻引擎 5.3 解决方案和全套 Snapdragon Elite Gaming 功能。</p><p>目前已经有多家手机品牌确定将推出搭载骁龙 8 至尊版的手机新品，相关新品将在未来几周发布。<a href="https://www.163.com/dy/article/JF3K5DSD05118A8G.html">来源</a></p><h2>少数派的近期动态</h2><ul><li>少数派联合老朋友「香蕉攀岩」推出攀岩体验课程，欢迎你在下班之后走入附近的香蕉攀岩门店，体验攀岩带来的独特感受。<a href="https://sspai.com/post/92982">进一步了解</a></li><li>双十一临近，我们为你带来了「满血版」的 K3：少数派定制版 Keychron K3 Max，Max 版本在保留了 K3 系列基本卖点的前提下，最大的改进就是新增了 2.4G 的连接方式，使之成为一款有线 / 蓝牙 / 2.4G 的三模键盘。<a href="https://sspai.com/post/92779"><strong>进一步了解</strong></a></li><li>少数派的淘宝双十一正式开始，新版 logo 贴纸上新，除了多种样式的少数派 logo 外，吉祥物 @吃派的水獭 也加入演出，带来一些可爱风格。此外各种产品也参与立减，第一波活动 24 日结束，欢迎进店选购。<a href="https://item.taobao.com/item.htm?id=843791307688">进一步了解</a></li></ul><figure class="image ss-img-wrapper"><img alt="EHx3bXz0XorFG1xBDs2cTNTHnlf" src="https://cdnfile.sspai.com/editor/u_/csbt9odb34tfe14r0qa0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><ul><li>上个月买了啥？与派友们一起回顾消费、评价产品，为「双十一买什么」来点参考。<a href="https://sspai.com/bullet/1727776810"><strong>参与讨论</strong></a></li></ul><h2>你可能错过的文章</h2><ul><li><a href="https://sspai.com/post/93112">AI 而不得，未来可期：iPad mini (A17 Pro) 首发体验</a></li><li><a href="https://sspai.com/post/93114">社区速递 065 | 你没见过的社区文章、一周最热评、派友的音频听文</a></li><li><a href="https://sspai.com/post/92955">学会配置 Fontconfig，让 Linux 中文字体更顺心</a></li></ul><p>&gt; 关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，解锁全新阅读体验 📰</p><p>&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
