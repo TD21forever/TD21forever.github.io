@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>宝玉的分享</title>
+        <link>https://baoyu.io</link>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-in-devops-workflow</id>
+            <title>在DevOps过程中，我们是否可以使用AI去把整个流程串起来？</title>
+            <link>https://baoyu.io/blog/ai-in-devops-workflow</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-in-devops-workflow</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 04:27:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在DevOps过程中，我们是否可以使用AI去把整个流程串起来？从理解业务需求，画原型图，根据原型出表结构，再根据表结构定义对象，代码实现需求，生成测试用例，进行自动化测试，出测试报告等？可以根据编排的任务去自动化实现上述过程。现在业界有这样的实现吗？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-memory-ability</id>
+            <title>现在AI是否能做到记忆能力？</title>
+            <link>https://baoyu.io/blog/ai-memory-ability</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-memory-ability</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 04:21:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在AI是否能做到记忆能力？比如我五天前给他设定了一个角色，并且请他解答了一些问题。那么五天后是否还能再次基于五天前的问答继续提问？（这可能是一个功能:设定角色，保存角色，基于这个角色的对话可以选择是否保存。这是不是需要有很长的token去支持？是否建议这样去做？)
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-genius-art</id>
+            <title>人工智能并非天才。我们才是天才 [译]</title>
+            <link>https://baoyu.io/translations/ai-genius-art</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-genius-art</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 22:45:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    自从两年前 ChatGPT 面向公众推出以来，我们就被各种关于大型语言模型和生成式人工智能潜在益处及威胁的极端论调所淹没。无论是支持者还是批评者，都认为这项技术的出现是人类历史的一个拐点。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/machines-of-loving-grace</id>
+            <title>被仁慈所爱的机器——人工智能如何让世界变得更美好[译]</title>
+            <link>https://baoyu.io/translations/machines-of-loving-grace</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/machines-of-loving-grace</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 22:39:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在这篇文章中，我想试着勾勒一下这种“极大利好”可能是什么样子——即，如果一切顺利，拥有强大人工智能的世界会如何。当然，没人能够以绝对确定或精确的方式预知未来，而强大人工智能的影响可能比过去的技术变革更难以预测，因此以下内容不可避免地是一些猜测。但我希望至少能给出有依据、有用的猜测——能抓住未来可能发生的“风格”，即使其中大多数细节最终错了。我之所以会包含许多细节，主要是因为我认为，比起高度保留、抽象的陈述，一个相对具象、具体的未来愿景更有助于推动讨论。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/prompt-engineering-20-to-200-upgrade</id>
+            <title>用提示词可以把20 美金的o1 变成200 美金的 “o1 pro”吗？</title>
+            <link>https://baoyu.io/blog/prompt-engineering-20-to-200-upgrade</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/prompt-engineering-20-to-200-upgrade</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 06:36:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    有人说用提示词可以把20 美金的o1 变成200 美金的 “o1 pro”，开启 o1 “狂暴模式”，延长 3 倍思考时间，显著大幅提升o1 思考深度和回答质量
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2024-favorite-new-apps</id>
+            <title>2024 年我最喜欢的新发布自托管应用 [译]</title>
+            <link>https://baoyu.io/translations/2024-favorite-new-apps</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2024-favorite-new-apps</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 01:00:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    作为一个在新项目发布后会持续关注的人，我认为为大家整理出一份“特别值得注意的项目”列表会很有帮助。我从一些非正式的“评分”维度来挑选它们，这些维度包括功能性（独特性等）、社区反馈以及开发活跃度。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/why-ai-progress-is-increasingly-invisible</id>
+            <title>为什么人工智能的进展愈发“看不见” [译]</title>
+            <link>https://baoyu.io/translations/why-ai-progress-is-increasingly-invisible</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/why-ai-progress-is-increasingly-invisible</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 18:55:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    实际上，人工智能的进展并未停滞——它只是变得对大多数人而言“隐形”了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-assisted-software-prototyping</id>
+            <title>吴恩达老师分享的用 AI 辅助编程快速打造软件原型的最佳实践</title>
+            <link>https://baoyu.io/translations/ai-assisted-software-prototyping</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-assisted-software-prototyping</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 18:08:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    使用 AI 辅助编程来构建软件原型，是快速探索各种创意并发明新事物的重要方式。在这篇文章以及后续的帖子中，我想与大家分享一些构建简单 Web 应用原型的最佳实践。本篇文章将聚焦一个核心理念：选择并熟悉一个“有主见”的软件技术栈。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/software-is-eating-the-world-all-right</id>
+            <title>软件正在吞噬世界，……好吧[译]</title>
+            <link>https://baoyu.io/translations/software-is-eating-the-world-all-right</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/software-is-eating-the-world-all-right</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 17:11:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    作为我最后的一篇专业帖子，我想回顾一下 Marc Andressen 在 2011 年发表的奠基性文章《为什么软件正在吞噬世界》。我曾深信其中的每一个字，甚至还写了一本书——《B = mc²》，来探讨我对数字化转型的看法。三年前，当我为了退休而转向经营我的第一家企业时，我梦想能进一步探索数字革命。可惜我对未来一无所知……
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/moral-optimization</id>
+            <title>你无法通过“优化”来成为一个好人 [译]</title>
+            <link>https://baoyu.io/translations/moral-optimization</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/moral-optimization</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 05:48:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我曾是一个“优化成瘾者”。过去几年里，我花了大量时间纠结于自己做出的每一个决定，因为我觉得自己必须要做“最好的”事情——不是一般的好，也不是不错，而是道德上最好的那种。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-programming-tips</id>
+            <title>使用 Cursor 编程的一些建议</title>
+            <link>https://baoyu.io/blog/cursor-programming-tips</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-programming-tips</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 03:22:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Cursor 既不是牛马，也不是老师，更不是玄学，它是工具
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-assisted-programming-for-non-engineers</id>
+            <title>我对非专业工程师使用 AI 辅助编程的建议</title>
+            <link>https://baoyu.io/blog/ai-assisted-programming-for-non-engineers</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-assisted-programming-for-non-engineers</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 02:18:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我对非专业工程师使用 AI 辅助编程的建议
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/you-wouldnt-download-an-ai</id>
+            <title>如何从移动应用中提取 AI 模型文件</title>
+            <link>https://baoyu.io/translations/you-wouldnt-download-an-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/you-wouldnt-download-an-ai</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 09 Jan 2025 01:14:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在，许多应用开始直接在设备上集成 AI 模型。对于需要频繁推理的场景（比如即时照片滤镜或实时物体检测），这种方式非常好，能够提供速度和离线访问。并且，由于任何在你设备上运行的东西都可以被设备访问，对于那些好奇想一探究竟的人来说，现在正是一个黄金机会。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-70-problem-hard-truths-about</id>
+            <title>AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧</title>
+            <link>https://baoyu.io/translations/the-70-problem-hard-truths-about</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-70-problem-hard-truths-about</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 08 Jan 2025 21:56:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一份实战指南，以及为何我们需要重新审视自己的期望
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2025-stop-believing-prompts</id>
+            <title>2025 年了，不要再去迷信提示词了</title>
+            <link>https://baoyu.io/blog/2025-stop-believing-prompts</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2025-stop-believing-prompts</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 08 Jan 2025 03:50:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2025 年了，不要再去迷信提示词了，把问题描述清楚+上下文充足+问题拆分细就足够了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-future-translation</id>
+            <title>AI 将何去何从？[译]</title>
+            <link>https://baoyu.io/blog/ai-future-translation</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-future-translation</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 07 Jan 2025 18:55:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    六位 AI 领域的领军人物在 The Batch 中分享了他们对来年 AI 的期望：
+
+* **Hanno Basse：面向艺术家的生成式 AI**
+
+* **David Ding：带有音乐、音效和对话的生成视频**
+
+* **Joseph Gonzalez：通用智能**
+
+* **Albert Gu：更少数据、更多学习**
+
+* **Mustafa Suleyman：行动型智能体**
+
+* **Audrey Tang：团结我们的 AI**
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/programming-with-llms</id>
+            <title>我如何使用 LLM 进行编程 [译]</title>
+            <link>https://baoyu.io/translations/programming-with-llms</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/programming-with-llms</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 07 Jan 2025 16:54:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    本文档总结了我在过去一年中使用生成式模型进行编程的个人经验。我要强调，这并不是一个被动的过程。为了更好地了解这些模型的潜力，我有意识地在编程时寻找机会使用它们。结果就是，现在我在工作时经常使用 LLM，并且我认为它们对我的生产力有正向提升。（每当我尝试回到没有它们的编程方式时，都会感觉非常不适。）
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/building-effective-agents</id>
+            <title>构建高效 Agent [译]</title>
+            <link>https://baoyu.io/translations/building-effective-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/building-effective-agents</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 07 Jan 2025 16:39:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在过去一年中，我们与各行各业数十个团队合作，帮助他们基于大型语言模型（LLM）构建 Agent。我们发现，最成功的实现并不依赖复杂的框架或专业化的库，而是使用了简单且可组合的模式。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-structured-extraction-examples</id>
+            <title>OpenAI 官方出的三个结构化提取示例应用</title>
+            <link>https://baoyu.io/blog/openai-structured-extraction-examples</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-structured-extraction-examples</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 07 Jan 2025 00:43:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    1. 简历信息提取（Resume Extraction）
+   展示如何将非结构化的简历文本转换为结构化的信息展示，适合需要自动化文档处理的场景
+
+2. 生成式 UI（Generative UI）
+   演示如何动态生成 UI 组件，适合需要灵活界面生成的应用场景
+
+3. 会话助手（Conversational Assistant）
+   结合了多轮对话、工具调用和生成式 UI，提供了构建可靠工作流程的会话助手的完整示范
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/beginner-vs-pro-cursor-users</id>
+            <title>新手 Cursor 用户 vs 专业 Cursor 用户</title>
+            <link>https://baoyu.io/blog/beginner-vs-pro-cursor-users</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/beginner-vs-pro-cursor-users</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 06 Jan 2025 19:58:26 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    有时候 Cursor 是不是好用取决于你如何使用
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-use-or-discard</id>
+            <title>Cursor 弃之可惜，食之无味？</title>
+            <link>https://baoyu.io/blog/cursor-use-or-discard</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-use-or-discard</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 05 Jan 2025 01:53:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在使用 Cursor 这类 AI 编辑器有几种态度，一种是觉得非常好用离不开的；一种是不用的，要么嫌贵要么认为会产生依赖心理不利于技术成长；还有一种是想用却觉得不好用，“弃之可惜，食之无味”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/claude-better-code-than-cursor-sometimes</id>
+            <title>为什么Cursor中有的问题解决不了，反而Claude 能给出更好的代码？</title>
+            <link>https://baoyu.io/blog/claude-better-code-than-cursor-sometimes</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/claude-better-code-than-cursor-sometimes</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 04 Jan 2025 17:55:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    网友 Leo 说：“写代码的时候我会Cursor 和 Claude App混着用，Cursor中有的问题解决不了，反而Claude 能给出更好的代码，不确定Claude App中加入了什么样的魔法。”
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-agent-experience</id>
+            <title>Cursor Agent 使用体验</title>
+            <link>https://baoyu.io/blog/cursor-agent-experience</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-agent-experience</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 03 Jan 2025 22:49:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天测试了一下 Cursor 的 Agent 功能，Agent 功能和普通提示词的差别在于 Agent 像一个机器人，你只要给一个模糊的指令，不需要把上下文交代清楚，它会自动帮你去规划、去解决问题。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/zhihu-weibo-influencers-growing-expertise</id>
+            <title>“你有没有发现很多知乎/微博大v越写越厉害，认知越来越高的样子？”</title>
+            <link>https://baoyu.io/blog/zhihu-weibo-influencers-growing-expertise</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/zhihu-weibo-influencers-growing-expertise</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 03 Jan 2025 18:12:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你有没有发现很多知乎/微博大v越写越厉害，认知越来越高的样子。提高认知最便宜，最直接，最快能入手的一项“教育”不是自学，而是**反思性写作Reflective Writing**。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/llms-in-2024</id>
+            <title>我们在 2024 年从大型语言模型中学到的事</title>
+            <link>https://baoyu.io/translations/llms-in-2024</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/llms-in-2024</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 03 Jan 2025 04:27:53 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2024 年，大型语言模型领域发生了*很多*事情。接下来是对过去十二个月里我们对该领域所了解内容的回顾，以及我对其中关键主题和重大时刻的梳理。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2025-prompt-engineering-tips</id>
+            <title>2025 年的三点半提示词技巧</title>
+            <link>https://baoyu.io/blog/2025-prompt-engineering-tips</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2025-prompt-engineering-tips</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 01 Jan 2025 19:20:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2025 年了，模型能力上升了一个台阶，更不需要去记提示词技巧和框架了，写提示词不再是一个多专业的活，核心就记住三点半
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/teaching-kids-coding</id>
+            <title>我教孩子学习编程的方法</title>
+            <link>https://baoyu.io/blog/teaching-kids-coding</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/teaching-kids-coding</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 31 Dec 2024 06:32:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    春假两周在家教孩子编程，刚上大一，对编程没兴趣所以以前没学过我也没教过，但明年要学编程课了想提前跟我学一点，我教编程的方法很简单直接
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-programming-projects-beginners</id>
+            <title>对于编程小白来说如何可以高效结合ai来做小项目?</title>
+            <link>https://baoyu.io/blog/ai-programming-projects-beginners</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-programming-projects-beginners</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 30 Dec 2024 05:13:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    问：对于编程小白来说如何可以高效结合ai来做小项目。没有基础很难像您那样使用专业词汇来引导。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/cursor-prompt-manual</id>
+            <title>Cursor 常用提示词手册</title>
+            <link>https://baoyu.io/translations/cursor-prompt-manual</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/cursor-prompt-manual</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 18:42:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Cursor 提示手册
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-pair-programming-demo</id>
+            <title>实例演示我是如何和 AI 结对编程的</title>
+            <link>https://baoyu.io/blog/ai-pair-programming-demo</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-pair-programming-demo</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 09:11:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    比如我要做一个功能模块，我自己有个大概的思路，然后我将需求抽象精简，包含在一个上下文中，只是一个大方向，不涉及太多细节。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/low-coupling-design-prompt-example</id>
+            <title>问：低耦合设计怎么写prompt，能给我们一个小例子吗？</title>
+            <link>https://baoyu.io/blog/low-coupling-design-prompt-example</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/low-coupling-design-prompt-example</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 06:39:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    举个例子，我在写一个字幕编辑器的App，设计的时候，播放器是一个独立的模块，字幕编辑部分也是一个独立的模块，比如说我现在要给字幕编辑模块增加一个当前播放位置的字幕高亮并自动滚动的功能，我就只需要把字幕编辑器相关的代码发过去。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/standardized-dev-docs-feasible</id>
+            <title>问：强推某种固定格式的开发设计文档，要求组员按格式补充写完，再借助o1或则别的模型实现代码细节，是否可行？</title>
+            <link>https://baoyu.io/blog/standardized-dev-docs-feasible</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/standardized-dev-docs-feasible</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 04:17:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    问：宝玉老师，我在组里强推某种固定格式的开发设计文档，要求组员按格式补充写完，再借助o1或则别的模型实现代码细节，是否可行。等代码出来工程师再进行一定的修改或则调整。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/java-backend-developer-llm-transition</id>
+            <title>如果是在国内的程序员普通的后端java开发，能怎么往llm的方向靠呢？</title>
+            <link>https://baoyu.io/blog/java-backend-developer-llm-transition</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/java-backend-developer-llm-transition</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 03:45:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    问：如果是在国内的程序员普通的后端java开发，能怎么往llm的方向靠呢？自己很想转，但不知道该怎么做比较好&#x20;
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/advice-to-new-managers</id>
+            <title>对刚晋升没有管理经验的建议</title>
+            <link>https://baoyu.io/blog/advice-to-new-managers</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/advice-to-new-managers</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Dec 2024 03:31:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    问：对刚晋升没有管理经验的小年轻有什么建议吗？（主要是技术上的管理）
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-assisted-programming-autopilot</id>
+            <title>传统编程是手动档，在 Cursor 辅助下编程是自动档，用 Devin 的感觉是自动驾驶</title>
+            <link>https://baoyu.io/blog/cursor-assisted-programming-autopilot</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-assisted-programming-autopilot</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Dec 2024 01:26:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    传统编程是手动档。在 Cursor 辅助下编程是自动档。用 Devin 的感觉是自动驾驶。
+历史的车轮滚滚向前。毫不犹豫。
+我大概率能经历，前端程序员从诞生到消亡的全过程。能见证一个职业的全过程，太幸运了。
+ —— by 玉伯
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/improve-ai-prompt-structured-data</id>
+            <title>怎么能让ai更好的读我的prompt里 结构化数组对象数据呢？</title>
+            <link>https://baoyu.io/blog/improve-ai-prompt-structured-data</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/improve-ai-prompt-structured-data</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Dec 2024 01:07:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    由于上下文窗口的限制，所以无法给很长的内容，并且由于大语言模型并不擅长数学，所以它也无法帮助你基于你提供的结构化数据去做计算。这时候最好是大语言模型结合代码。并且不用担心，像 ChatGPT、Claude 都可以自动帮你生成代码去分析你提供的数据，当然你也可以自己去写代码去实现。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/pnas.2414274121</id>
+            <title>对比蚂蚁与人类在协作式几何难题求解中的表现</title>
+            <link>https://baoyu.io/translations/pnas.2414274121</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/pnas.2414274121</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Dec 2024 08:34:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 集体智慧, 认知效能, 蚂蚁, 人类  
+<br><br>  
+总结: 本文探讨了生物群体如何利用集体智慧应对挑战，特别是通过“搬钢琴”这一任务对蚂蚁和人类的解题能力进行比较。研究发现，蚂蚁的群体规模越大，搬运效率越高，而人类则表现相反。单只蚂蚁虽然无法理解整体结构，但其集体运动能形成新的涌现认知技能，提升解题能力。人类对谜题有更清晰的全局认知，能减少搜寻空间，但限制交流时会退化为简单行为，影响效率。研究表明，简单大脑的个体在群体中更易实现能力可伸缩性，而复杂大脑则需复杂交流以保持高效合作。 </div>
+                        <hr>
+                    
+                    生物群体往往利用集体智慧共同应对挑战，但若协调不佳则会削弱群体认知的效能。要检验集体认知是否超过个体认知，往往并不容易，因为不同组织层级通常面临的是不同的问题。而“将大型物体穿越复杂环境并运送至目标位置”的难题却是一个例外：无论是蚂蚁还是人类，都擅长单独或协同完成这一任务。这样一来，我们得以在跨物种、跨群体规模的层面上，将解题能力及认知特点进行少见的直接对比。在本研究中，我们让人类和蚂蚁同时面对同一个“搬钢琴（piano-movers）”式的大型负载搬运谜题。结果发现：蚂蚁群体规模越大，搬运效率越高；而人类则恰恰相反。进一步发现，单只蚂蚁虽无法理解谜题的整体结构，但牠们的集体运动却能形成新颖的涌现认知技能：通过集体排列的有序状态来短期记忆移动方向，从而提升群体的解题能力。相比之下，人类对谜题有更清晰的全局认知，因此能够减少搜寻空间，平均表现优于蚂蚁。然而，一旦限制了人类之间的交流，人类群体就会退而采取最显而易见的动作以达到共识，这种做法颇似蚂蚁的行为模式，却对解题效率产生负面影响。我们的研究说明：简单大脑的个体更易在群体中实现能力可伸缩性，而复杂大脑则需要充分而复杂的交流才能在合作中保持高效。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-picture-book-creation</id>
+            <title>用 AI 做绘本</title>
+            <link>https://baoyu.io/blog/ai-picture-book-creation</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-picture-book-creation</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Dec 2024 07:54:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    尝试了一下用 AI 做个绘本，不过我也不会写画图的提示词，也是让 AI 帮我完成。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-pair-programming-partner</id>
+            <title>o1 之后，AI 已经从我的实习生变成了结对编程伙伴</title>
+            <link>https://baoyu.io/blog/ai-pair-programming-partner</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-pair-programming-partner</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Dec 2024 05:24:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我现在会把 o1 当成一个结对编程的伙伴，有时候只是提供上下文和我需要做的事情，并不自己提供方案，让它提供方案，看有没有比我自己想的更好的方案，或者给予它的方案提出后续改进的要求。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-to-generate-unit-tests-with-github-copilot-tips-and-examples</id>
+            <title>如何使用 GitHub Copilot 生成单元测试：技巧和示例</title>
+            <link>https://baoyu.io/translations/how-to-generate-unit-tests-with-github-copilot-tips-and-examples</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-to-generate-unit-tests-with-github-copilot-tips-and-examples</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 24 Dec 2024 20:05:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    了解如何使用 GitHub Copilot 来生成单元测试，并查看具体示例、教程以及最佳实践。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/evolution-of-ai-assisted-coding-features-and-developer-interaction-patterns</id>
+            <title>AI 辅助编码特性与开发者交互模式的演变</title>
+            <link>https://baoyu.io/translations/evolution-of-ai-assisted-coding-features-and-developer-interaction-patterns</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/evolution-of-ai-assisted-coding-features-and-developer-interaction-patterns</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 24 Dec 2024 10:18:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    是的，我承认这是一个很炫的标题。但想想看——最初只是简单的自动完成建议，如今却演变成了功能强大的东西：我们已经拥有了可以实时生成整段函数、搭建完整文件并提供合理的架构，甚至能从零开始引导整个代码库的 AI。它们已经从帮助敲代码的小助手，变成了协作式的编码伙伴。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-replace-jobs-programmers-future-2025</id>
+            <title>2025 会被 AI“平替”的行业？程序员真的会被取代吗？</title>
+            <link>https://baoyu.io/blog/ai-replace-jobs-programmers-future-2025</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-replace-jobs-programmers-future-2025</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 24 Dec 2024 03:38:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 2024 年底，OpenAI 发布了全新的推理模型 o3，表现相当惊艳：它在世界级编程比赛中能拿到第 175 名，也就是可以打败 99.9% 的参赛者。于是很多人又开始讨论：程序员是不是要凉了？2025 年，真的会有大批程序员被 AI 替代吗？除了软件行业，AI 会不会也让其他行业进入“平替”危机？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-day12-o3-o3-mini-model-release</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第十二天 —— 最新一代推理模型 o3 和 o3-mini 发布介绍</title>
+            <link>https://baoyu.io/blog/openai-day12-o3-o3-mini-model-release</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-day12-o3-o3-mini-model-release</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Dec 2024 21:37:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    本视频是 OpenAI 12 天活动的最后一期,主要介绍了新一代推理模型 o3 和 o3-mini。主讲人包括 Sam Altman、Mark Chen、Hongyu Ren 以及特邀嘉宾 ARC Prize Foundation 主席 Greg Kamradt。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-day11-chatgpt-desktop-app-seamless-workflow</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第十一天 —— ChatGPT 桌面应用如何与各类应用无缝协作，让工作更高效</title>
+            <link>https://baoyu.io/blog/openai-day11-chatgpt-desktop-app-seamless-workflow</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-day11-chatgpt-desktop-app-seamless-workflow</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Dec 2024 21:30:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 OpenAI 12 天特别活动的第 11 天，产品负责人 Kevin Weil 携手 ChatGPT 桌面团队的 Justin Rushing 和 John Nastos 为大家带来重磅新功能介绍。本期重点展示了 ChatGPT 桌面应用如何与各类应用无缝协作，让工作更高效。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-12-day-ai-event-800-chatgpt</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第十天 —— 通过  1-800-CHAT-GPT 电话和 ChatGPT 聊天</title>
+            <link>https://baoyu.io/blog/openai-12-day-ai-event-800-chatgpt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-12-day-ai-event-800-chatgpt</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Dec 2024 20:39:26 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 连续发布会的第十天,主要介绍了通过电话和 WhatsApp 使用 ChatGPT 的新功能。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-dev-day-9</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day</title>
+            <link>https://baoyu.io/blog/openai-dev-day-9</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-dev-day-9</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Dec 2024 23:07:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 12天发布会的第 9 天，今天主要是针对开发者的，有多个API相关更新。首先是广受期待的o1 API正式版本，这个版本不仅速度更快、成本更低，还加入了视觉识别、函数调用等新功能，让开发者能够更轻松地构建各类应用。特别值得一提的是，它比之前的版本节省了60%的计算资源，这意味着开发者可以用更低的成本获得更好的性能。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/github-copilot-vs-cursor</id>
+            <title>简单说一下 GitHub Copilot 和 Cursor 的差别，以及为什么我觉得 Cursor 要更好</title>
+            <link>https://baoyu.io/blog/github-copilot-vs-cursor</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/github-copilot-vs-cursor</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 16 Dec 2024 23:21:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    经常有人问我这个问题，简单说一下
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openais-12-day-ai-event-day-8-search</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）</title>
+            <link>https://baoyu.io/blog/openais-12-day-ai-event-day-8-search</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openais-12-day-ai-event-day-8-search</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 16 Dec 2024 22:08:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 在这场展示中宣布了ChatGPT搜索功能的三大更新：首先是提升了搜索性能，让它在移动端更快、更好用，还加入了地图体验；其次是将搜索功能整合到了语音模式中，让用户可以通过语音对话获取实时网络信息；最重要的是，搜索功能现在向全球所有登录用户免费开放。在演示环节，产品团队展示了如何用ChatGPT搜索周末活动、寻找餐厅、规划假期等实用场景，特别展示了它能够保持对话上下文、理解用户意图的能力，比如在餐厅搜索中自然地加入"户外露台和加热器"这样的新要求。整场演示生动地展现了ChatGPT如何让搜索变得更加智能和对话化。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/choosing-school-or-major-and-big-company-or-startup</id>
+            <title>报高考志愿该选好学校还是好专业？毕业该进大厂还是创业公司？</title>
+            <link>https://baoyu.io/blog/choosing-school-or-major-and-big-company-or-startup</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/choosing-school-or-major-and-big-company-or-startup</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 16 Dec 2024 20:05:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近有参与两个话题的讨论：一个是高考报志愿的时候，如果不能同时选好的学校和好的专业，该优先好专业还是好学校？另一个问题就是毕业的时候该选大厂还是创业公司，或者说有没有必要进大厂历练一下？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-12-day-ai-day-7-projects</id>
+            <title>OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）</title>
+            <link>https://baoyu.io/blog/openai-12-day-ai-day-7-projects</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-12-day-ai-day-7-projects</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 13 Dec 2024 21:26:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 第五天发布了 Projects 功能
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

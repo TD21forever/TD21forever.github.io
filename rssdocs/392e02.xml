@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>36氪 - 科技频道</title>
+        <link>https://www.36kr.com/information/technology</link>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117850675499010</id>
+            <title>汽车芯片巨头，新目标</title>
+            <link>https://www.36kr.com/p/3117850675499010</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117850675499010</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 03:40:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 软件定义汽车, 技术变革, 芯片, 产业格局  
+<br><br>  
+总结: 软件定义汽车（SDV）正在成为汽车行业的核心趋势，通过硬件与软件的解耦，推动车辆功能的升级和个性化体验。SDV的转型不仅是技术的革新，更是产业格局的重塑，传统汽车制造商面临着来自新兴竞争者的压力，必须加速转型以适应市场需求。芯片作为SDV的核心驱动力，正在重新定义汽车技术的基础，各大芯片厂商纷纷布局这一领域。尽管SDV的普及面临系统集成复杂性和成本控制等挑战，但随着技术的不断创新，未来的市场前景依然广阔。 </div>
+                        <hr>
+                    
+                    <p>软件定义汽车（SDV）正成为下一个技术和市场的核心焦点，这点从2025年国际消费电子展（CES）厂商们的动作中可以看出。SDV通过硬件与软件的解耦，为车辆功能升级、智能交互和可持续发展带来了全新可能性。</p>
+  <p><strong>对于汽车行业而言，SDV不仅是一场技术变革，更是一次产业格局的重新洗牌</strong>。</p>
+  <p>尽管2024年的《Wards Intelligence SDV调查》显示，包括OEM、一级和二级供应商及其他汽车生态系统公司的多数受访者（60%，较2023年的42%显著增加）预测，<strong>到2030年之后才会有超过一半的新车在成熟市场采用软件定义架构</strong>，但SDV已被视为汽车行业未来的必然趋势。</p>
+  <p>在这一大变革下，芯片作为SDV的核心驱动力，正在重新定义汽车的技术基石。各大芯片巨头闻风而动，加速布局，试图抢占这一新兴领域的战略高地。</p>
+  <h2><strong>汽车行业为何向SDV迈进？</strong></h2>
+  <p>SDV的核心理念就是硬件与软件解耦，使软件成为决定车辆功能的核心。这一范式转变与IT行业早期向现代数据中心（当时被称为软件定义数据中心，SDDC）的演进相呼应。这种架构变革带来了三个主要特点：</p>
+  <p><strong>集中式电子/电气（E/E）架构</strong>：多个电子控制单元（ECU）被整合为一个核心ECU，负责管理驾驶、动力系统和舒适功能等关键任务。</p>
+  <p><strong>动态功能升级</strong>：通过空中下载（OTA），车辆能够在整个生命周期中持续接收更新，提供新功能并优化性能。</p>
+  <p><strong>个性化与定制</strong>：SDV让车辆成为一个可扩展的平台，能够根据用户需求和环境条件提供个性化体验。</p>
+  <p>为什么车辆需要灵活的基础架构？在传统的以硬件为中心的车辆架构中，软件是单体式的，与硬件组件紧密绑定。要修改车辆功能，通常需要全面改造每个电子控制单元（ECU）的软件栈，而每辆车可能包含超过100个ECU，在车辆生命周期内，任何一个ECU都可能需要更新。这种架构的固有僵化性通常迫使汽车制造商将软件更新推迟到车辆平台设计周期的末尾。</p>
+  <p>虽然这种方法在过去或许可以满足需求，但如今随着技术创新的加速，数据驱动与基于人工智能（AI）的服务逐渐崛起，车辆功能不断扩展，电动化和数字化生活方式的需求日益增长，消费者对于车辆的个性化需求也在不断提升。传统架构已经无法满足这些快速变化的市场需求，汽车行业对于速度、灵活性和敏捷性的要求已发生根本性变化。</p>
+  <p>更为严峻的是，汽车行业还面临着来自新兴、灵活且富有创新精神的颠覆者的巨大竞争，特别是在中国，这些新兴厂商不仅快速提升车辆技术，还积极应用并推广最新技术。这使得传统汽车制造商（OEM）面临着前所未有的现代化压力，必须加速平台转型，拥抱软件定义汽车（SDV）这一全新的架构。</p>
+  <p>因此，传统汽车制造商（OEM）面临着现代化平台的巨大压力，推动整个行业转向软件定义汽车（SDV）的范式转变。在此背景下，芯片成为支撑SDV发展的关键技术。从中间件平台到性能计算单元，再到AI加速器和数据处理能力，芯片的创新直接决定了SDV的落地速度和性能表现。</p>
+  <p>因此，我们可以看到，越来越多的芯片厂商开始加码布局SDV。</p>
+  <h2><strong>本田联手瑞萨开发3nm芯片</strong></h2>
+  <p>在2025年国际消费电子展（CES）上，日本汽车巨头本田汽车与半导体领导厂商瑞萨电子宣布合作，计划开发一款高性能片上系统（SoC），旨在为软件定义汽车（SDV）提供强大算力支持。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_765168401fab43618824ceb0ebcb4c52@000000_oswg40354oswg997oswg561_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：瑞萨</p>
+  <p>本田汽车正在自研原创SDV，并将在其未来的电动车型“本田0（Zero）系列”中率先应用。该系列采用集中式电气/电子（E/E）架构，将车辆多个功能电子控制单元（ECU）整合到单个核心ECU上。</p>
+  <p>这种核心ECU不仅负责管理高级驾驶辅助系统（ADAS）和自动驾驶（AD），还包括动力系统控制及车辆舒适功能等所有关键操作。为了支撑如此复杂的集中式架构，核心ECU需要超高处理性能的SoC，因此这也是此次本田与瑞萨合作开发新型SoC的原因。</p>
+  <p>瑞萨推出了名为“ROX”（R-Car Open Access）的SDV开发平台，声称它集成了汽车制造商快速开发下一代汽车所需的“所有必要硬件、操作系统（OS）、软件和工具”，瑞萨电子表示，“并提供安全和持续的软件更新”。</p>
+  <p>本田和瑞萨要做的这款SoC采用全球最先进的台积电3纳米工艺技术，显著降低功耗，同时依赖multi-die chiplet技术实现模块化设计，将瑞萨的通用第五代（Gen 5）R-Car X5 SoC系列与本田独立开发的针对AI软件优化的AI加速器相结合。</p>
+  <p>这款新型SoC旨在提供2000 TOPS的领先AI性能和20TOPS/W的卓越功率效率，计划用于本田新的电动汽车（EV）系列：“本田0（Zero）系列”的未来车型，特别针对将于2020年代末推出的车型。</p>
+  <p>此次合作延续了本田与瑞萨电子多年来的密切关系，并反映了<strong>软件定义汽车时代下，汽车厂商与芯片厂商深度绑定的趋势</strong>。SDV要求车辆硬件与软件高度协同，而高性能芯片作为SDV的基础核心，正成为汽车制造商的必争之地。</p>
+  <h2><strong>恩智浦收购2家公司，为SDV布局</strong></h2>
+  <p>汽车芯片大厂恩智浦最近进行了2次收购，都与软件定义汽车（SDV）密切相关。随着汽车行业逐步转向软件驱动和数据导向，传统硬件厂商与软件创新者的融合正成为大势所趋。</p>
+  <p>2025年1月7日，恩智浦半导体（NXP）宣布将以6.25亿美元现金收购奥地利汽车软件开发商TTTech Auto。这一交易标志着恩智浦在软件定义汽车（SDV）领域的又一重要布局。</p>
+  <p>TTTech Auto成立于2018年，由TTTech Group分离出来，曾获得奥迪、三星和GE Ventures约7800万美元的投资支持，并在2022年完成了2.85亿美元的C轮融资，Aptiv为主要投资方。其核心产品MotionWise是一款用于高级驾驶辅助系统（ADAS）和自动驾驶系统（ADS）的中间件平台。</p>
+  <p>中间件作为操作系统和应用层之间的关键桥梁，提供通信、数据管理和车辆管理等服务，使基础设施服务与汽车业务逻辑得以高效协作。</p>
+  <p>TTTech Auto凭借MotionWise，已经与多家领先的汽车原始设备制造商（OEM）建立了合作关系，是软件定义车辆（SDV）中间件和安全关键系统领域的领导者。</p>
+  <p>去年3月，NXP推出了专为SDV设计的开放平台CoreRide，彼时TTTech Auto成为其首个软件合作伙伴。通过此次收购，NXP计划将MotionWise与CoreRide平台结合，为汽车制造商提供更加完整和强大的软件解决方案。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_61b0f0ec782f4c9a89457b253618bd29@000000_oswg51899oswg600oswg525_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：TTTech Auto</p>
+  <p>恩智浦半导体近年来在汽车行业快速扩张，其市值在过去五年内翻了一番，达到540亿美元。此次收购TTTech Auto是其在软件领域的又一战略性举措，而此前在2024年12月，NXP还宣布以2.425亿美元现金收购美国SerDes初创公司Aviva Links。</p>
+  <p>Aviva Links专注于符合汽车SerDes联盟（ASA）标准的非对称多千兆位链路技术，这一技术在支持高带宽的摄像头和显示网络方面至关重要。</p>
+  <p>随着汽车向软件定义平台演进，Aviva Links的技术为车载网络的互操作性和可扩展性提供了重要支持，其数据传输速率覆盖2 Gbps至16 Gbps。</p>
+  <p>Aviva Links已赢得两家主要汽车OEM的设计项目，并积极向其他OEM和一级供应商推广其技术。预计这笔交易将在2025年上半年完成，进一步增强NXP在车载网络领域的竞争力。</p>
+  <h2><strong>英特尔也看重了SDV市场</strong></h2>
+  <p>英特尔近两年在汽车领域的动作颇多。去年8月8日，英特尔正式发布第一代英特尔锐炫车载独立显卡ARC A760-A，凭借229TOPS的算力强势进军汽车智能座舱领域。而今年，英特尔在2025 CES上又推出了一款适用于电动汽车（EV）动力总成系统和区域控制器应用的自适应控制单元（ACU）-U310。</p>
+  <p>传统区域控制器因依赖时间和顺序处理，难以有效应对复杂的多工作负载场景。英特尔的ACU U310通过一种“双脑路径架构”，将实时控制算法从CPU中卸载，从而提升性能，并实现确定性的数据传输。相比传统系统，这种设计在多工作负载整合时表现出更高的稳定性和可靠性，同时增强了安全性和网络安全能力。</p>
+  <p>在电动汽车动力总成系统中，ACU U310支持通过算法动态调整高压和控制频率以优化电池使用。英特尔声称，这款ACU能够降低每千瓦成本，提高能源效率；回收高达40%的动力总成能量损失；在全球统一轻型车辆测试程序（WLTP）中提升3%~5%的效率。</p>
+  <p>目前Stellantis Motorsports和Karma汽车已经与英特尔就ACU进行了合作。ACU U310具有灵活性，能够适配不同车辆架构和需求，并具备可编程性，适应软件定义汽车（SDV）发展的趋势。</p>
+  <p>在GPU方面，英特尔计划于2025年底前推出第二代英特尔锐炫B系列车载独立显卡，与AI增强型车载SoC结合使用，为更复杂的AI任务提供扩展性能。</p>
+  <p>软件方面，英特尔还与AWS合作，推出基于AWS的汽车虚拟设计环境。这一工具允许工程师在云端和硬件之间切换，旨在降低研发成本并加速开发进程。</p>
+  <p>通过硬件创新（ACU U310、锐炫B系列显卡）、生态协同（与AWS合作）和行业合作（Stellantis与Karma），英特尔构建了一个从芯片到软件的多层次解决方案，这些布局显示了其在SDV领域的野心和潜力，尤其是在高性能计算、AI支持和系统灵活性方面。</p>
+  <h2><strong>德州仪器发布多款新品：简化SDV架构</strong></h2>
+  <p>德州仪器（TI）认为，<strong>区域化架构会使SDV软硬分立这一过程更加高效</strong>。</p>
+  <p>具体来说，汽车中的电子功能可以根据不同的区域进行划分，这些区域可以集中执行多种任务，如雨刮器控制、座椅调节、转向控制和前照灯控制等。将这些功能集成到三个或四个电路板中，不仅简化了布线，还提高了设计效率，减少了复杂性。这种“区域架构”使得软件系统管理更为简便，减少了整体延迟，并提高了更新和修改的灵活性，是实现SDV架构的基础。</p>
+  <p>在2025 CES期间，TI发布了一款支持边缘AI的三合一雷达传感器——AWRL6844 60GHz，支持安全带提醒装置、车内儿童检测、入侵检测。以往，要扩展车内传感应用以支持乘员监控、车内儿童检测和入侵检测等功能，需要增加独立的传感器。在相同应用场景下，成本更低，设计更简单，如下图所示。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_b60d2638e1434c3ab35c3e218d139905@000000_oswg274164oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">上图比较了车辆中的典型传感器分布与使用 AWRL6844 的单传感器设计方法的成本对比（图源：德州仪器）</p>
+  <p>除此之外，TI新发布的AM275x-Q1 MCU和AM62D-Q1处理器通过将TI 基于矢量的C7x DSP核心、Arm核心、存储器、音频网络和硬件安全模块集成到一个符合功能安全要求的 SoC 中，减少了汽车音频放大器系统所需的元件数量。</p>
+  <p>在汽车音频方面，TI所发布的TAS6754-Q1音频放大器采用创新的1L调制技术，可实现出色的音频性能和低功耗，且相比现有的D类放大器，其所需的电感数量减少了一半。</p>
+  <p>从TI的动作可以看出，<strong>在SDV时代，单芯片以及系统集成的趋势会愈演愈烈，进而推动SDV架构向更加集成、高效的方向发展</strong>。</p>
+  <h2><strong>结语</strong></h2>
+  <p>SDV领域的竞争正变得愈发激烈，除了上述提到的厂商，英飞凌、高通、英伟达等芯片巨头也纷纷推出自己的SDV解决方案。这场竞争不仅促使了技术的快速迭代，也加深了芯片公司与汽车制造商之间的合作。如今，汽车厂商逐渐认识到，芯片不仅仅是硬件组件，更是决定车辆架构、功能实现及其未来发展的核心要素。SDV的兴起要求汽车设计师重新审视硬件和软件的关系，并在设计过程中采取更加灵活、可扩展的策略。</p>
+  <p>尽管前景广阔，SDV的普及仍面临不小的挑战，尤其是系统集成的复杂性、与现有遗留系统的兼容性问题以及成本控制等障碍，依然是推动这一转型的主要难题。与此同时，安全性和适应恶劣环境的能力也成为设计中的关键考虑因素。不过可以预见的是，随着技术的不断创新，芯片巨头们无疑将在未来几年内为SDV的全面普及奠定坚实基础。</p>
+  <p>&nbsp;</p>
+  <p>参考：</p>
+  <p>【1】Realizing Future-Proof Architectures for Software-Defined Vehicles，sonatus</p>
+  <p>【2】各公司官方披露。</p>
+  <p>&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&amp;mid=2247769534&amp;idx=1&amp;sn=ecd9e9c26dcba60dbae1573b739bedaa&amp;chksm=cfa93eb4d6a7f6f390a1d5cbd7bc6b90dd3d35297741ac88bfcc6931b95ad44df60c627c4ee2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半导体行业观察”（ID：icbank）</a>，作者：杜芹DQ，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3118354325573632</id>
+            <title>推动新能源汽车电驱动装备升级，「巨力自动化」获数亿元战略轮融资｜36氪首发</title>
+            <link>https://www.36kr.com/p/3118354325573632</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3118354325573632</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 01:30:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <巨力自动化, 电驱动装备, 扁线电机, 新能源汽车>
+<br>
+<br>
+总结: 巨力自动化设备（浙江）有限公司完成数亿元战略融资，将用于研发新一代电驱动解决方案，推动全球产能扩张。公司专注于电驱动装备的研发与制造，尤其在新能源汽车领域取得显著进展。扁线电机技术是电驱动系统的核心，具备高能量转换效率等优势。巨力自动化在扁线电机定子设备研发上实现技术突破，提升了产线的效率和质量。公司计划在海外市场进行布局，进一步推动新能源汽车产业的发展。 </div>
+                        <hr>
+                    
+                    <p>作者｜叶丹璇</p>
+  <p>编辑｜袁斯来</p>
+  <p>36氪获悉，巨力自动化设备（浙江）有限公司（以下简称“巨力自动化”）宣布完成战略轮数亿元融资，本轮融资由国投招商领投，中车资本与蜂云资本跟投。深蓝资本担任本次融资的财务顾问。本轮融资将用于巨力自动化持续研发新一代电驱动解决方案，推动全球产能扩张布局。</p>
+  <p>巨力自动化成立于2011年，是国家首批专精特新重点“小巨人”企业，其前身公司创立于1989年，成立已超过30年。公司主要从事电驱动装备的研发及制造，2017年打造了首条国产自主扁线电机定子自动化产线，产品主要在新能源汽车领域应用，已与吉利、长城、上汽、LG、英搏尔、爱信、法雷奥等国内外知名主机厂及Tier 1达成合作。</p>
+  <p>近年来，全球汽车产业新旧动能转换进入新阶段，中国新能源汽车行业面临产业升级转型挑战，新能源汽车核心零部件制造装备将成为最重要的突破点。2024年11月，工信部副部长辛国斌在泰达汽车论坛上指出，新能源汽车核心零部件制造装备是推动新旧动能转换、加速构建新型生产力的关键，同时也是推动生态出海、实现从“产品出海”到“产业出海”转变的重要支撑。</p>
+  <p>在新能源汽车产业中，电驱动系统是其最核心的部分之一，会直接影响整车的动力输出和能效表现。其中，电机扁线化技术是近年来电驱动系统的最新技术趋势。</p>
+  <p>扁线电机是指采用扁铜线代替传统圆铜线作为绕组的一种驱动电机，相比于传统圆线电机，扁线电机具备高能量转换效率、高功率密度、散热性好、重量和体积小等优势，符合新能源产业发展趋势。</p>
+  <p>根据汇睿咨询数据，2020年起，下游车企开始加速换装扁线电机。根据《2024年全球与中国扁线电机市场规模及竞争格局研究报告》，2023年全球扁线电机市场规模达到了236亿元，预计2025年将达到708亿元，预测期内年复合增长率（CAGR）为73.21%。</p>
+  <p>2017年，巨力自动化成功开发研制出国内首个拥有自主知识产权的新能源汽车驱动电机定子的智能成套设备，并打造首条国产自主扁线电机定子自动化产线。目前，公司研发的国内首个“一秒钟级”线成型设备，在产线精度、效率、稳定性等核心指标均达到国际一流水平，已获得海外头部Tier 1客户订单。</p>
+  <p>长期以来，电驱动自动化装备的技术龙头地位一直被欧洲企业占据，其设备价格高昂且交付周期较长。而国内大部分企业又受制于技术水平，在交付能力上表现不足，市场评价不尽人意。</p>
+  <p>针对此现状，巨力自动化持续在研发上实现技术突破，尤其是在扁线电机定子设备研发上取得了显著进展。目前公司实际量产线成型节拍已稳定达到1s/pin水平，在定位精度、产品合格率等指标上都已达到国际领先水平。</p>
+  <p>36氪了解到，扁线电机定子设备的技术突破整线仿真设计能力、核心数控软件系统能力、设备硬件设计能力等几重技术挑战，扁线电机定子产线全流程关键环节和参与设备众多，是一个复杂的系统性工程。产线中各工序之间相互影响，每个环节的良率和工艺质量都会直接影响后续工艺段，且由于工段极长，微小的单环节良率的失误也将被指数级放大，导致整产线良率不及预期。</p>
+  <p>因此，巨力自动化采用的整线仿真设计，对产线流程、核心设备结构、配套工艺装备的仿真，以及对仿真与实际加工做差异调整。设计完成后，产线的运行效率直接与数控系统的底层数据运行逻辑相关。与此同时，公司在扁线电机定子产线近十年的技术和历史调试经验的积累，使得精准、快速的产线研发交付成为可能。</p>
+  <p>在全球化业务方面，2024年，巨力自动化获得2条海外整线自动化产线设备订单。公司正在塞尔维亚建立首个海外工厂，未来将围绕欧洲市场进行更加深入的布局。</p>
+  <p>投资人意见：</p>
+  <p>蜂云资本合伙人全素涵表示：“巨力自动化在电驱动装备领域拥有成熟的关键技术、高稳定性的产线及优秀的业内口碑，是长城汽车生态的重要合作伙伴。作为新能源产业资本，我们将长期关注并支持优秀的产业公司，期待未来能共同开辟更多市场机会，推动电动汽车产业的进一步发展。”</p>
+  <p>中车资本执行董事毕晓露表示：“巨力自动化凭借30多年的技术积淀，成功打破了国外技术垄断，成为新能源汽车装备制造领域的领导者。未来，我们期待与巨力深化合作，不断攀登技术高峰，共同推动中国新能源汽车产业向全球迈进。”</p>
+  <p>深蓝资本合伙人刘亚雷表示：“中国新能源汽车产业正在积极探索创新路径，领跑全球行业发展。过去一年，尽管全球宏观环境复杂多变，巨力自动化依然持续赢得越来越多客户的信任与支持，业务稳步增长。这一成绩的背后，是巨力团队不懈追求卓越的工匠精神，以及长远的全球视野。深蓝资本将继续坚定支持巨力，陪伴其成长为全球装备制造领域的领军企业，并为推动全球新能源汽车产业的转型升级贡献力量。”</p>
+  <p>&nbsp;</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116734805577734</id>
+            <title>李泽湘带领的XbotPark创业公司，又有些做到全球第一 ｜硬氪直击CES</title>
+            <link>https://www.36kr.com/p/3116734805577734</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116734805577734</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 01:30:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <CES, 中国参展商, 创新科技, 众筹产品>
+<br>
+<br>
+总结: 本文介绍了2025年CES展会的情况，强调中国参展商数量创下新高，展会主题为“DIVE IN”，聚焦于机器人、自动驾驶和智能家居等领域。文中提到多家创业公司及其创新产品，包括LiberLive的无弦吉他、Lymow One割草机器人等，展示了这些产品在众筹和市场上的成功表现。特别是LiberLive C1无弦吉他已成为类目市占率第一，Lymow One则在众筹中取得了显著成绩。整体上，展会展示了中国科技企业在全球市场的积极布局和创新能力。 </div>
+                        <hr>
+                    
+                    <p>文｜胡依婷</p>
+  <p>编辑｜袁斯来</p>
+  <p>新年伊始，&nbsp;科技行业每年第一场重磅活动CES又搅动了拉斯维加斯。</p>
+  <p>在国际会展中心，除了TCL、海信等大公司醒目的展台，今年还能看到很多创业公司的身影。</p>
+  <p>今年CES，&nbsp;中国参展商数量创下新高。据展会官方数据，2025年CES有近1500家中国(含港澳台)参展企业，占据整体参展商数量的三成以上，比2024年多近300家。</p>
+  <p>本届CES以“DIVE IN”为主题，聚焦机器人、自动驾驶、智能家居等多领域，场馆由多个分区组成。在核心展区之一的创客馆，数十家由李泽湘教授带领的XbotPark机器人基地孵化的科创企业聚集于此。部分厂商推出的产品已众筹数百万美金，或销售数万台，正向全球化布局。</p>
+  <p>其中，LiberLive的无弦吉他自2023年4月上线，已成为类目市占率第一；Lymow One来牟一代割草机器人在众筹平台筹集超380万美金......</p>
+  <p>本次由XbotPark机器人基地带领前往CES参展的企业团队与共享工厂共计近40家。根据销售表现、众筹成绩和受关注度等因素，硬氪精选出其中6家：</p>
+  <p><strong>1、LiberLive C1无弦吉他：类目市占率第一</strong></p>
+  <p>由LiberLive首创的C1无弦吉他，是聚焦弹唱场景的和弦演奏乐器，具备实时和弦、交互乐谱和自动鼓机功能，聚焦零基础音乐爱好者和生活方式玩家。产品定价为499美元。</p>
+  <p>外观上，C1的模块化和弦垫与AB双拨片设计，贴合吉他弹唱时的握持习惯和动作记忆，保留了弹唱的熟悉感和核心操作方式的同时，简化了指法和乐理门槛。其内置MicroDAW采样合成技术，基于乐理逻辑，可根据当前歌曲曲调、节拍速度、演奏力度等，实时生成和弦、实现无损变调、变速和和声调整。</p>
+  <p>配套APP内置上万首交互式乐谱，通过蓝牙连接C1与手机，用户可跟随APP中交互乐谱的色块及琴颈灯光指引，完成弹唱，无需乐理和乐器基础也能快速上手。</p>
+  <p>截至 2024 年双十一，C1 成国内主流电商乐器类目销量 TOP1，为无弦吉他品类全球市场占有率第一。</p>
+  <p>在本届CES中，LiberLive C1无弦吉他获CES官方推荐。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_151a2acac76147c4986242ebe6060f4b@5932017_oswg239736oswg789oswg789_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">LiberLive C1无弦吉他，图源XbotPark</p>
+  <p><strong>2、Lymow One来牟一代割草机器人</strong></p>
+  <p><strong>众筹金额：逾380万美金</strong></p>
+  <p>Lymow One由庭院机器人厂商来牟科技推出，面向大场景用户，众筹定价1999美金，是该众筹品类历史第一,2024年度全品类众筹金额第四。</p>
+  <p>具体来看，Lymow One采用视觉+RTK+惯导的融合技术方案，配备无刷电机和LYCUT双刀盘设计, 支持处理以往割草机难以应对的高密草丛；其自适应浮动割台可确保在不平地面上实现平整割草效果,再配合碎草刀片和高速风扇, 可做到有效防止草屑堆积。</p>
+  <p>为提升作业效率，Lymow One配备15ah电池,每次充电可覆盖0.57英亩(约2300平方米),日均管理面积高达1.73英亩(7,000平方米)。</p>
+  <p>此外，Lymow One配备履带式设计,可应对高达45°(100%)的陡坡,并跨越高达2英寸(50mm)的障碍，无需担心机器人卡在树根、坑洼、凸起或泥泞的地面上。同时，它具有IPX6防水等级，能够应对复杂天气情况，内置的雨量计会使机器在下雨时自动返回充电，保护割草机和草坪。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_63fedd3447054d19ad7c4d12a194d0a9@5932017_oswg805626oswg1268oswg713_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Lymow One来牟一代割草机器人，图源XbotPark</p>
+  <p><strong>3、LOOI ROBOT 众筹金额：超50万美金。</strong></p>
+  <p>LOOI ROBOT是由可触未来智能硬件有限公司（TangibleFuture）推出的桌面机器人，由手机和AI技术提供支持，拥有超过1200种行为表现和自学能力，可为用户提供情感交互功能。</p>
+  <p>LOOI ROBOT令人印象颇为深刻的是被称为“仿生行为系统“的机器人行为引擎。这套引擎模拟智能生物的“感知-决策-执行”流程，使机器人的行为表现趋近真实的生命体，从而给用户带来更多情感共鸣。</p>
+  <p>随着用户与LOOI ROBOT互动增加，其会通过观察并收集生活场景下的日常化与规律性数据，进行自我学习和迭代，从而完成数据在情绪、性格、表达等规则引擎的权重配比。</p>
+  <p>自2024年2月，LOOI ROBOT上线Kickstarter众筹平台，期间收获了广泛关注以及埃隆·马斯克的点赞互动，以客单价129美元的价格募集总数量超4000台</p>
+  <p>目前，LOOI ROBOT已经完成首批众筹产品发货，并已开始完成主流市场的现货交付。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_989dcfb0a85f44808e3e5eaf073fec08@5932017_oswg431637oswg990oswg655_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">LOOI ROBOT，图源XbotPark</p>
+  <p><strong>4、消费级柔性压力传感器&nbsp;出货量：10万套</strong></p>
+  <p>在柔性压力传感器应用领域，不同场景对传感器的要求各有侧重。比如在智能床垫应用中，传感器需要足够柔软、透气，以不牺牲床垫的舒适度；在机器人灵巧手或成人用品等应用中，传感器则需要小巧精致，能够定制成特定的形状、尺寸和功能。</p>
+  <p>基于传感材料、结构、工艺、软硬件技术的多方面创新与融合，墨现科技推出高适应性的柔性压力传感器。</p>
+  <p>性能方面，墨现传感器具有较好的耐腐蚀性和机械性能，可以在220℃和80bar的环境下通过IMD/IML，置入塑料部件；同时，其防水等级可达IP67，厚度低至0.1mm，能够与任何结构实现适配，不论是平面、曲面还是不规则形状的表面，都可匹配安装，确保其能适用于各种复杂环境。</p>
+  <p>2023年6月量产出货以来，墨现科技已累计完成10万套出货，面向消费电子、智能家居、汽车电子、机器人等场景。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_74db215a3e06455592a098f7b2443b93@5932017_oswg141971oswg1267oswg712_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">消费级柔性压力传感器 ，图源XbotPark</p>
+  <p><strong>5、VIZTA智能望远镜 众筹金额：约23万美金</strong></p>
+  <p>传统天文摄影装备昂贵、笨重且繁琐，为了降低人们接触天文摄影的门槛，星识科技推出Vizta智能望远镜，目标用户为天文摄影初学者例如学生、儿童以及初级爱好者。</p>
+  <p>VIZTA体积小巧，可以随身携带，重量仅390g，能够解决天文用户在旅行和户外场景中不能拍摄星空的遗憾。该望远镜与手机配合使用，可以兼容大部分市面在售的机型，无需充电和连接，只需安装上三脚架，将手机装上即可拍摄星体。</p>
+  <p>当前，Vizta智能望远镜已登上Kickstarter和Indiegogo。价格240美金左右。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b4275a7656d349408e157d55f70f076d@5932017_oswg126354oswg1130oswg1166_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Vizta智能望远镜，图源XbotPark</p>
+  <p><strong>6、LISSOME胶囊洗碗机 众筹金额：超35万美金</strong></p>
+  <p>Lissome是厨鲸科技推出的首款小型超快洗胶囊式洗碗机。该产品采用“清洗+烘干+消毒+存储”的四合一设计，凭借竖直喷淋臂的设计和世界首创旋流扫射技术能够实现360° 立体喷淋，搭载AI脏污智能识别系统，可使冲洗无死角。清洗完成后，Lissome能开启高温UV臭氧三重消毒，杀菌率达99.99%。</p>
+  <p>配备自研无刷集成水泵、FOC精准运动控制算法与超细高压射流，LISSOME还可灵活切换多种清洗模式，包括定点、变速和交叉清洗，应对各种污渍，实现15分钟超快洗净。</p>
+  <p>实用性上，Lissome受电脑主机启发，采用窄式前开门设计，可贴边放置，节省空间；集成内部水箱设计，用户购买后可即插即用，无需复杂安装。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_75802f8576ce4673bd3bc31bf334eb5c@5932017_oswg991062oswg1202oswg802_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" /></p>
+  <p class="img-desc">LISSOME胶囊洗碗机 ，图源XbotPark</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117976271289858</id>
+            <title>透过AI产品流量TOP 50，我看到了2024年AI应用的5个变化</title>
+            <link>https://www.36kr.com/p/3117976271289858</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117976271289858</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 12 Jan 2025 01:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: AI应用, ChatGPT, 流量增长, AI教育  
+<br><br>  
+总结: 2024年11月，AI产品TOP 50的月访问量总和达到94.8亿次，较去年增长58%，其中ChatGPT贡献了主要增长。AI产品的洗牌速度放缓，只有12个产品退出榜单。AI ChatBots的数量有所上升，AI教育产品也表现突出，从3个增长到5个。尽管整体流量增长，但17个产品的流量出现下滑，尤其是AI图片生成产品表现不佳。整体来看，AI应用仍处于初级阶段，但在搜索和教育等细分领域展现出潜力。 </div>
+                        <hr>
+                    
+                    <p>文｜朗朗</p>
+  <p>2024年，是AI应用全面爆发的一年。</p>
+  <p>尽管在很多人看来，AI应用的爆发速度低于预期，但当我们观察1-11月AI应用的流量变化，仍然发现了一些有意思的变化：</p>
+  <p>1）2024年11月，AI产品TOP 50的月访问量总和达到94.8亿次，较去年1月增长了58%。其中，流量增长的大头来自ChatGPT，其在TOP 50的流量占比从27%增长到41%。</p>
+  <p>2）AI产品的洗牌速度明显放缓。2023年9月到2024年3月，Top50 AI产品里有22个产品掉出榜单。而对比去年1月和11月Top50排名，只有12个产品从榜单跌落。</p>
+  <p>3）AI ChatBots依然是最核心的AI应用，重要性还在不断提升。对比去年1月和11月Top50，AI ChatBots入围的数量有所上升，从7个增长到9个。</p>
+  <p>4）AI应用在部分细分领域也开始崭露头角，其中AI教育是最大亮点。对比去年1月和11月Top50，AI教育产品从3个增长到5个。此外，AI搜索、AI伴侣、AI视觉设计、AI电商的产品也均有不错表现。</p>
+  <p>5）由于技术更新缓慢、产品同质化等原因，17个AI应用的流量较年初有所下滑，其中AI图片生成产品的表现最为拉胯，Midjourney和Leonardo.ai的表现都有不同程度地下降。</p>
+  <p>透过这些产品的流量变化，或许能够帮助我们更好理解当下AI产业的发展。</p>
+  <h2><strong>TOP50 AI应用流量增长58%，ChatGPT为最大增长动力</strong></h2>
+  <p>从整体流量情况看，AI应用的流量表现处于增长态势。</p>
+  <p>2024年11月，AI产品TOP 50的月访问量总和达到94.8亿次，较去年1月月访问量总和增长58%。</p>
+  <p>拆分结构来看，ChatGPT贡献了月访问量增长的大头。1月~11月，ChatGPT的月访问量从16.5亿增长到39.2亿，增长了138%。同期，ChatGPT在TOP 50的流量占比也从27%增长到41%。</p>
+  <p>除去ChatGPT的份额，剩余49款产品中，11月较1月访问量增长便只剩下27%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_3cb9e43332c84c3fbf0212ec590531e9@6038047_oswg33828oswg606oswg352_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲TOP6~TOP 50，1月与11月访问量对比（单位：M）</p>
+  <p>对比2024年1月和11月AI产品流量TOP50，整体没有发生太多变化。</p>
+  <p>仅12个AI产品退出榜单，同时也有12个AI产品新进入榜单。其中，新进产品中中国元素明显，多达6个，包括了360AI搜索、百度文库、Kimi和豆包等产品。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_8440f6d2124142a3af2583b73ad6aa01@6038047_oswg277859oswg1080oswg711_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在头部产品方面，第1~4名的产品没有变化，它们依次是：ChatGPT、AI搜索New Bing、图像生成工具Canva Text to Image、Gemini（前GoogIe Bard）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_115694397a514a79aabd34158b53cdcf@6038047_oswg21163oswg718oswg396_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在5~10名里，较年初相比，有4个产品仍然在列，分别是AI翻译DeepL、AI伴侣Character AI、AI笔记Notion AI、跨境电商营销工具Shop。</p>
+  <p>新增上榜TOP 10的两个产品均为AI搜索，分别是360 AI搜索、PerpIexity AI，取代了AI智能导师Q~Chat和AI销售SaIesforce AI。</p>
+  <h2><strong>AI应用红榜：通用聊天机器人量质齐升，AI教育异军突起</strong></h2>
+  <p>从1月到11月，在流量增长最快的前10个产品里，有4个产品的访问量增长了一倍，分别是ChatGPT、Perplexity、AI伴侣产品Janitor AI以及Claude。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_388f48759dc94474830988fcf3a56dee@6038047_oswg109089oswg606oswg326_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>其中，Claude的流量增长最多。今年1月到11月，Claude的流量从2019万增长到8932万，增幅高达342%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d159ce6fccc843fcbd3d79ccbe722e28@6038047_oswg19645oswg794oswg452_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲Claude去年1~11月网站访问量变化</p>
+  <p>流量增长直接反映到市场份额。根据Menlo Ventures的调研数据，2024年Anthropic的市占率从12%增加到24%，翻了一倍。</p>
+  <p>从落地场景看，AI ChatBots依然是最核心的产品，甚至重要性还在提升。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_65efa1172d7349c2ab7158c87e9b96d3@6038047_oswg1014240oswg1080oswg2282_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>过去一年，在AI产品TOP 50里，AI ChatBots的数量有所上升，年初入榜的AI ChatBots产品为7个。到了11月，这个数量增长到9个。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_87f56dec4b8649c8bd77aa6c52cb2b41@6038047_oswg212649oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>除了前面提到的月活翻倍的产品ChatGPT和Claude，其他月活上升的AI ChatBots还有文心一言和DeepAI，分别上涨46%和68%。新增产品有Copilot、Kimi和豆包，分别在11月榜单中占据15名、25名和33名。</p>
+  <p>除了头部的通用聊天AI产品外，AI教育产品也是另一大亮点。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_05f11046a1524d07b2a735c7dd677929@6038047_oswg235731oswg1006oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在11月AI产品TOP 50中，有5个AI教育产品入榜，占比高达10%，而年初仅3个产品入围。</p>
+  <p>入榜的AI教育产品分别有AI教学助手如Q~Chat（第11名）、Khanmigo（第27名）、CheggMate（第29名），以及AI查重工具Turnitin（第37名）和AI拍题工具GauthMath（第38名）。</p>
+  <p>其中，字节旗下AI拍图软件GauthMath在2024年12月，周下载量突破880万次，首次跻身海外榜单。Turnitin自2023年4月~2024年3月，AI写作检测工具已经审查超过2亿篇论文。</p>
+  <p>此外，AI产品在其他细分领域也实现了不错的流量增长，比如AI搜索、AI伴侣、AI视觉设计、AI电商。</p>
+  <p>以Perplexity为例，这款AI搜索产品在去年流量增长了一倍以上。拆分月份来看，去年1~5月Perplexity的流量快速增长，随后经历了两个月的流量下滑。</p>
+  <p>到了10月，Perplexity推出了新功能“内部知识搜索”和AI协作中心“Spaces”，重振了流量增长态势。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_45f6aa42fe844828a9babb55533695b7@6038047_oswg23252oswg794oswg452_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲PerpIexity AI去年1~11月的访问量变化</p>
+  <p>流量大幅增长，Perplexity估值也水涨船高。2024年12月，Perplexity完成5亿美元融资，估值高达90亿美元，预计到2025年底，其ARR将超过6.56亿美元，毛利率预计将达到85%。</p>
+  <p>在AI电商领域，SHOP则是其中的佼佼者。今年11月，SHOP的流量在所有AI网站高居第9，较年初上涨49%。</p>
+  <p>SHOP是知名电商Shopify旗下的跨界电商应用，其AI购物助手能为用户提供个性化购物体验，功能原理是基于用户行为数据的协同过滤推荐。此外，SHOP还通过AI技术优化了智能搜索，能够自动补全和联想用户输入的关键词。</p>
+  <h2><strong>AI应用黑榜：17个产品流量下跌，AI图片生成或成“黑洞”</strong></h2>
+  <p>虽然AI应用整体流量在增长，但部分产品的流量却不涨反跌。</p>
+  <p>截至到11月，对比年初榜单，总共有17个产品的流量出现下滑，其中下降幅度最大的前三分别是AI协作空间IINER AI、AI阅读器Feedly和AI聊天机器人Poe，分别下降61%、51%、38%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_5a3295e30008451e82b618a1bc0f2b8f@6038047_oswg363734oswg1080oswg853_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>一些领域的佼佼者也出现在这份名单中，如AI笔记Notion AI、成人网站CrushOn、AI语音模型Eleven labs、大模型Gemini、AI生图工具Fotor等，他们均出现不同程度的下降。</p>
+  <p>这些产品月活下降的原因主要是因为技术更新缓慢，功能与竞品同质化以及功能缺陷。比如，谷歌Gemini的性能进展未达预期，后出版本在缩放时的表现甚至不如早期。而Poe则是因为功能和特点和竞品逐渐趋同。</p>
+  <p>从具体场景看，AI图片生成的起伏最大。过去一年里，AI图片生成产品的占比、排名和月访问量均有明显下降。</p>
+  <p>其中，明星产品Midjourney在1月排名31位，到11月直接跌出榜单。而去年3月访问量反超Midjourney的Leonardo.ai，名次也是一路下跌，从1月的28名下降到11月的49名。</p>
+  <h2><strong>总结</strong></h2>
+  <p>其实盘点下来不难发现，整个AI应用赛道仍处于非常初级的阶段，在过去一年里，变化相对有限。但在应用落地的探索中，我们仍然看到了一些确定性信号的出现。</p>
+  <p>比如，在搜索、教育等细分领域，部分产品仍然能够凭借更深的用户需求理解和更好的用户体验，在用户端占据一席之地。</p>
+  <p>我们相信，随着大模型技术的提升，未来会有更多类别的AI产品进入到大众视野。AI应用的大潮已经到来，未来的故事又将如何演绎？我们会持续关注。</p>
+  <p>&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Spkt-gnXzMeCO13SPDKerA" rel="noopener noreferrer nofollow" target="_blank">“乌鸦智能说”</a>，作者：智能乌鸦，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3118160230076678</id>
+            <title>马斯克版 ChatGPT iOS 应用上线，我用一整天发现了这些惊喜和槽点</title>
+            <link>https://www.36kr.com/p/3118160230076678</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3118160230076678</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 09:59:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <马斯克, Grok, AI助手, 自动驾驶>
+<br>
+<br>
+总结: 在最近的直播中，马斯克展示了对TeslaBot和Grok的未来愿景，强调了Grok作为独立应用的推出。Grok能够访问X平台的内容，但信息更新不够实时。与其他AI助手相比，Grok的优势在于无需注册和隐私保护选项。尽管在某些功能上仍有不足，Grok的独特性和个性使其在AI助手市场中脱颖而出，代表了马斯克的创新精神。Grok的推出可能会为用户带来新的体验和可能性。 </div>
+                        <hr>
+                    
+                    <p>在最近的直播中，马斯克向我们表演了一场在线画饼。&nbsp;</p>
+  <p>TeslaBot 产量将扩充百倍、自动驾驶超过人类、Grok 3 呼之欲出，Grok 4 蓄势待发，饼越画越大，故事越讲越美。&nbsp;</p>
+  <p>相较于饼香四溢，马斯克旗下 AI 聊天机器人 Grok 的独立应用倒是在昨天正式官宣了。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_223e1cb5049b4c6cbed9480c553bb80f@6100851_oswg211724oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>该应用目前率先在美国推出 iOS Beta 版。&nbsp;</p>
+  <p>尽管我们已经能在 X 平台上免费体验 Grok 2，但这还是值得切换到美区去下载体验。&nbsp;</p>
+  <p><strong>指路 👇：https://apps.apple.com/us/app/grok/id6670324846</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_c157e6c9a2b848b8a623c98e5a5cd59a@6100851_oswg151886oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>免注册即可体验，Grok 比其他 AI 助手强在哪里？&nbsp;</strong></h2>
+  <p>面对这款马斯克寄予厚望的 AI 助手，三个关键问题浮出水面：&nbsp;</p>
+  <p>Grok 的定位是什么&nbsp;</p>
+  <p>作为独立应用后，它是否还能获取 X 平台的实时信息&nbsp;</p>
+  <p>相比其他 AI 应用（ChatGPT），它凭什么出位？&nbsp;</p>
+  <p>让 Grok 2 自我介绍，第一个问题便有了答案。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_0601ba9881434e6c930a469dfbb0191a@6100851_oswg138000oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而经过测试，GroK App 保留了访问 X 平台内容的能力，但谈不上实时。&nbsp;</p>
+  <p>比方说，它能获取马斯克几个小时前的 X 推文， 但对于 Sam Altman、Yann LeCun 等人的推文信息可能滞后较多， 有些甚至是一年前的内容。&nbsp;</p>
+  <p>点开搜索信源，Grok 选择的渠道也相对权威，且一些 中文提问甚至 还能辐射到 X 平台上中文博主的回答 。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_311ee0fe72a64f51ac0a19e7c41f3ae2@6100851_oswg133570oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>每次对话后，Grok 会提供几个与问题相关的关键词作为追问方向，虽说深度不够，但也聊胜于无。&nbsp;</p>
+  <p>与 ChatGPT&nbsp;对比，Grok 第一个比较大的优势就是， <strong>截至发稿前，国内用户也能直接使用。</strong></p>
+  <p>同时，无需注册，免登录就能使用。&nbsp;</p>
+  <p>如果对隐私安全有顾虑的话，它还提供临时会话选项，相当于无痕浏览模式，确保你的隐私安全。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_b06836e32c92428fa6073dede8bf4f42@6100851_oswg51320oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok 主要支持文字、图片和文件等多种输入形式。&nbsp;</p>
+  <p>《你好特别》版文案，人类看了云里雾里，让 Grok 2 与 GPT-4o 加以解释，努力了，但也似乎不得其意。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_1b27a732a14449b197aaa01f188e3d5a@6100851_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>有意思的是， Gr ok &nbsp;最开始是以「毒舌」调侃出圈的，但在体验该功能过程中，它的火力似乎有所收敛。&nbsp;</p>
+  <p>且车轱辘话来回讲，感觉语料库差点意思。&nbsp;</p>
+  <p>据悉，Grok 未来还将推出「失控」模式，回应更为尖锐和冒犯，这下子可就值得好好期待了。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_9c69bfdfdad14d76b4fe13983f6026d0@6100851_oswg229864oswg1080oswg802_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>对于经典的「9.8 与 9.11 哪个大」以及草莓字母难题，Grok Grok 的态度倒是干脆。 对就是对，错就是错，一点都不拖泥带水，主打一个「干净利落」。&nbsp;</p>
+  <p>民以食为天，在餐厅推荐等实用问题上，相比 CPT-4o 提供地图和官网链接的方式，Grok-2 的回答不出所料，依旧还是较为粗糙。&nbsp;</p>
+  <p>好了，让我们进入数学问题。&nbsp;</p>
+  <p>「若在国际象棋盘上放置麦粒，第 1 个棋格放 1 粒，此后每一棋格放置的麦粒数是前一棋格的 2 倍，问放满棋盘上所有棋格需要多少麦粒？」&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_5637f715b8f9482f9d37bbac77723675@6100851_oswg109460oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>它与 GPT-4o 的答案不分上下，而在经典考研真题上，Grok 2 答了一大堆，但都没到点子上。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_07128d1bd876488ebbc86e5be04f5909@6100851_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>插个体外话，Grok 的动画效果、布局安排、交互方式、模糊处理、图标设计等 UI 元素都比 ChatGPT 更具美感。&nbsp;</p>
+  <p>值得一提的是，提问问题后，Grok 的页面会自动滚动到问题开始处，而不是直接跳到答案，这个细节设计很贴心。&nbsp;</p>
+  <h2><strong>全网最「无法无天」的 AI 应用来了，连迪士尼都没管？&nbsp;</strong></h2>
+  <p>马斯克曾说，我们可以将任何图像上传到 Grok，它将解释它们的含义。&nbsp;</p>
+  <p>事实也的确如此。&nbsp;</p>
+  <p>对于一些人类难以理解的厕所标识，它能够提供一定程度的分析解读，但下面的竖条也没解释正确。 而碰上医生的手写药方，它与 GPT-4o 一样都没看懂。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_40dfd74522974508ace2dab61d4c7c8d@6100851_oswg74329oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>原图片来自网友@zyf88888&nbsp;</p>
+  <p>去年，Grok 便因为无限制的图像生成能力小火了一波，这一特征也保留了下来。&nbsp;</p>
+  <p>在国内外 AI 助手都对公众 人物有所顾忌的的情况下，Grok &nbsp;能够生成堪比「照片级真实感渲染」的人像。&nbsp;</p>
+  <p>最近英伟达 CEO 黄仁勋在 CES 2025 宛如超级巨星，我们也让 Grok 生成马斯克和黄仁勋面对镜头比耶的照片。&nbsp;</p>
+  <p>一开始它显然对黄仁勋身份的理解不够准确，但这也怪我提示词给得不够清晰，后续加上 title 后，它便能精准捕捉人物特征。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_ab9a4e3e0bff44c5b471d1b2e16fce52@6100851_oswg136645oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不过细节处理上，Grok 仍有瑕疵，比如手势姿态不够自然，且三指比「耶」的造型倒也挺罕见。此外， 图片生成的响应速度也比较快，至少不会让我感觉到拖沓。&nbsp;</p>
+  <p>在版权敏感内容的雷区里，Grok 蹦迪得最欢。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_55981039cae24c14a8737cb8efe40cea@6100851_oswg599408oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_60a9d2846e244cb68e7dda807f6246c2@6100851_oswg850940oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d52d0ccb39824827ba7a7b7fb15e09ab@6100851_oswg478656oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_5e8b15dc2541456781b7e93afa6ef75e@6100851_oswg719969oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>迪士尼似乎默许了 GroK 2 能随意生成米老鼠天马行空的照片，别说，米老鼠和马斯克的合照还挺萌的。&nbsp;</p>
+  <p>在 Grok 的画布上，马斯克能和任何人同框，哪怕是哥斯拉，大熊猫。 我们还生成了许多不一样的照片，欢迎滑动查看。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_a546afe3bac04854b3850c6b76ce15e8@6100851_oswg809554oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_3683950f692748499337f666b1bbd10b@6100851_oswg724791oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d65b6888343d490ebc07d45be0f9b388@6100851_oswg898292oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_79081516fe504b0994fbd91de0db17bc@6100851_oswg622370oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_2b12afe8a79d47fd9994e93e794ca65a@6100851_oswg899704oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而在当前 ChatGPT、Claude 等主流 AI 助手都已推出独立应用的背景下，Grok App 的到来称得上姗姗来迟。 好在，与 X 平台的集成联动，让其提前积累了一波知名度。&nbsp;</p>
+  <p>推出独立应用也将能够帮助 Grok 获得更广泛的用户覆盖。&nbsp;</p>
+  <p>据悉，xAI 正在筹备专门的网站 Grok.com，预计不久后推出 Web 版服务。目前登录该网站，官网已经显示「Coming soon」。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_078acf0ecd0a4c31bbff3dd01f896c87@6100851_oswg34550oswg1080oswg591_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在当前 AI 助手市场，ChatGPT 稳坐头把交椅，Claude 最有人味，各家新秀你方唱罢我登场， Grok 的出现，或许代表着一种新的可能。&nbsp;</p>
+  <p><strong>它继承了马斯克式的叛逆与创新，不太按常理出牌。</strong></p>
+  <p><strong>它不一定是最强的，但一定是最特立独行的；它可能不是最全能的，但绝对是最有个性的。</strong></p>
+  <p><strong>与其说 Grok 是一个 AI 助手，不如说它是马斯克在数字世界中的另一个自己。</strong></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/lmyNqogc-fLRrCID1C3j7Q" rel="noopener noreferrer nofollow" target="_blank">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3118143947329797</id>
+            <title>最前线 | 机械革命首发全新一代游戏本，搭载NVIDIA GeForce RTX 50</title>
+            <link>https://www.36kr.com/p/3118143947329797</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3118143947329797</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 09:45:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 游戏本, NVIDIA, 散热系统, 高性能  
+<br><br>  
+总结: 在CES 2025国际消费电子展上，机械革命发布了新一代游戏本，搭载NVIDIA GeForce RTX 50系列GPU，产品包括面向不同玩家群体的多个系列。耀世16 Ultra与苍龙16 Ultra采用了先进的散热结构和高效风扇，显著提升了游戏性能和散热效果。新机型还具备高色准的miniLED面板，支持高刷新率和广色域，增强了视觉体验。同时，轻薄系列如耀世15 Air和翼龙15 Pro在性能与便携性之间取得了平衡，续航能力也得到了提升。 </div>
+                        <hr>
+                    
+                    <p>近日，在CES 2025国际消费电子展上，机械革命全球首发全新一代游戏本，搭载与NVIDIA联手打造的GeForce RTX 50系列笔记本电脑GPU。</p>
+  <p>本次发布产品包括面向于骨灰级游戏玩家的耀世16 Ultra与苍龙16 Ultra、面向于主流游戏玩家的旷世X与极光X系列、蛟龙16 Pro 2025，面向轻薄全能电竞需求的耀世15 Air、翼龙15 Pro 2025、翼龙16 Pro、翼龙16 X等。新品均采用了新一代模具设计，外观上进行了重塑，质感、散热与性能皆有提升。</p>
+  <p>耀世16 Ultra与苍龙16 Ultra搭载NVIDIA旗舰级GeForce RTX 5090/5080笔记本电脑GPU，游戏性能提升明显。通过调整散热结构、搭配3X冰鲨风扇、翼型环流鳍片、纳米相变硅脂以及冰河水冷散热系统，GPU功耗释放至高175W，满载噪音低至40分贝。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_253ac97e63134b86ab6855c600f707e0@5726721_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" /></p>
+  <p class="img-desc">耀世16 Ultra，来源：官方</p>
+  <p>耀世16 Ultra与苍龙16 Ultra游戏本机身经过全面重构，机身具备由多颗精细LED灯珠构成的海岸RGB灯效，加强电竞氛围沉浸式体验。</p>
+  <p>耀世16 Ultra与苍龙16 Ultra游戏本搭载miniLED面板，历经X-Rite/Pantone专业校色系统的严格调校，实现AVG ΔE＜1的超高色准、92.5%超高屏占比、2.5K分辨率、300Hz超高刷新率、MiniLED背光、1200尼特亮度、HDR1000、100% DCI-P3广色域、支持色域切换。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_a804571c5da54f068c4c206ae9a51da5@5726721_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1" /></p>
+  <p class="img-desc">耀世16 Ultra与苍龙16 Ultra游戏本显示参数，来源：官方</p>
+  <p>耀世15 Air、翼龙15 Pro搭载NVIDIA主流级GeForce RTX 5070笔记本电脑GPU，满足高性能玩家对性能需求的同时还具备了明显低于常见游戏本的重量，搭配ACD三面金属机身，机身更轻薄。</p>
+  <p>凭借着容量高达99Wh的锂离子电池组加持，耀世15 Pro与翼龙15 Pro游戏本在续航时间上再次获得突破，同时满足游戏、娱乐、办公等多种需求。配合140W PD快充不仅能够快速实现能量补给，还可随身携带体积重量更小的PD充电器，随时随地开启澎湃动力输出。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117699684274180</id>
+            <title>回望AI元年，世界看到的中国产品</title>
+            <link>https://www.36kr.com/p/3117699684274180</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117699684274180</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 07:30:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <AI, 英伟达, 中国企业, CES大会>
+<br>
+<br>
+总结: 2025年CES大会上，英伟达推出了新一代GPU和开源基础模型，标志着AI行业的新机遇。2024年被称为AI元年，中国AI企业在全球市场中逐渐崭露头角，展现出强大的应用潜力。随着ChatGPT的推出，AI技术开始深入人类生活，推动了内容生成软件的广泛应用。中国企业在硬件和软件领域的结合上具备优势，未来有望在全球市场中占据一席之地。AI的普及和应用将继续推动技术创新，开启新的发展阶段。 </div>
+                        <hr>
+                    
+                    <p>2025年1月7日上午，在CES大会开幕式上，身穿黑皮衣的英伟达创始人黄仁勋，用一番激情演讲，拉开了新一年AI的大幕——英伟达不仅推出了新一代基于Blackwell架构的GPU RTX 5090，还发布了开源可商用的世界基础模型Cosmos。两项产品，为AI应用的变革提供了全新的“基础设施”。</p>
+  <p>在演讲中，黄仁勋表示：AI智能体很可能成为一个价值数万亿美元的行业，这为2025年的AI冒险拉开了序幕。</p>
+  <p>事实上，在过去的2024年，正是被AI点燃的一年，对于中国AI创业者们来说，也正在全球进行着一场“大冒险”。</p>
+  <p>回看2024年CES上，中国企业占据了1/4的展位。彼时就已有现象级产品出现，如Rabbit R1预售第一天就卖出了10000台，AI Pin被《时代》评为“2023年最佳发明”之一等等。预测称10年增长10倍的端侧AI被认为是中国企业的机会，但不止步于硬件层面，<strong>这也是不同层面的中国AI企业更多被看见的一年：</strong>从年初紧追GPT-4的步伐，到数据不断迭代到可以与OpenAI的o1系列比高；与AI相关的应用软件也层出不穷，AI视频应用敢和Sora正面叫板，AI营销软件实现规模化增长……</p>
+  <p>转眼即是新岁。CES2025如约而至，我们借此时机回望，AI和人类对话的这一年，中国AI的被看见和将挑战。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_21d1b480e80846cb8a07598bf8421e8b@000000_oswg28927oswg1080oswg104_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>2024年被称为AI元年，这也是AI真正意义和消费者建立亲密关系的一年。</strong></p>
+  <p><strong>如果观察2022年11月之前的AI产品，不难发现人工智能企业在抢时间，也在等时间。</strong>彼时，靠着低价促销进入千家万户的智能音箱，还被看做“人工智障”，多数消费者对AI的讨论还存在于“AI到底是个啥”、“AI是不是未来”。对企业来说也推进困难，靠着低价提高销量来抢市场、提高市占率，努力的方向则是一场漫长的等待：理论知识上说的人工智能走向人，拐点什么时候来？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_e1da210b7e0c433f98b95d12c8762d88@000000_oswg51588oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>直到2022年11月30日，ChatGPT上线，一场属于AI行业的新生，终于到了。Sam Altman发了一条简单的推特："试试ChatGPT吧"，然后仅5天的时间，用户突破百万，两个月后，月活突破1亿。几乎可以被看作是对“星星之火”的激活，也让AI从书本知识走向现实成为了真正可能。</p>
+  <p>而后，《福布斯》声称全美国有89%的学生都在使用ChatGPT写作业；美国房产中介则利用它生成房源文案，仅需5秒钟即可完成一小时的工作量；也有人发现，北密歇根大学班里最好的论文竟然出自ChatGPT之手……</p>
+  <p>ChatGPT首次让身边的“你、我、他”感受到了AI的力量，人工智能从决策式过渡到生成式，在认识论上人工智能已经从知识阶段过渡到逻辑阶段，更加接近人类思维，也更符合各领域应用的需求。</p>
+  <p>它也渗透进了我们的生活中。它出现在不少APP的评论区里，热衷于给视频写总结，也喜欢互动，它的属性一定是大E人；它帮了家长不少忙，特别是辅导作业上，或许有时候答案不太对，但至少能给出一个参考方向；它也是个不错的创作者，对于唱歌不好听的害羞鬼来说，它可以让所有人都尝试大胆开麦......</p>
+  <p>它有很多个名字，它有时叫“momo”，有时叫“评论罗伯特”，有时叫“小爱同学”，或者你也可以直接叫它“AI男友”……</p>
+  <p>科技滚滚向前。回望1956年，美国达特茅斯大学的学术探讨会上，人工智能学科和 “人工智能” 概念正式建立；但直到68年之后，<strong>AI才真正意义上出现于人类生活的各个角落，看人的多元，学人的表达，也读人的复杂。</strong></p>
+  <p>就此，<strong>人工智能产品讨好消费者的方式不再靠销售手段，而是依赖产品自身魅力。</strong>此刻，<strong>关于人工智能的讨论声变了：被证明的是，AI一定是未来，那么未被证明的是，中国AI企业，具备全球化能力吗？</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_4efd0b49ccf04dce914abedc5723b7a9@000000_oswg39972oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年的除夕夜，OpenAI又发布了文生视频产品Sora，能够将文本描述转化为长达60秒的高质量视频，支持多角度镜头转换，甚至能准确还原复杂的物理运动规律。一个科技孕育的美好作品，不由得引人发问，当AI开始渗透进每个人的生活，中国AI企业如何才能被看见？</p>
+  <p>2024年4月，阿里巴巴董事会主席、联合创始人蔡崇信在接受采访时表示：“我认为中国现在落后了。很明显，像OpenAI这样的美国公司确实领先于其他所有公司。但中国正在努力追赶。”</p>
+  <p>于是我们可以看到，过去一年间大模型奋起直追的身影。文心一言早在2023年10月就宣布已"毫不逊色"于GPT-4；</p>
+  <p>智谱AI推出新一代基座大模型GLM-4，测试数据显示，在MMLU、GSM8K等多个权威评测中，GLM-4均达到GPT-4 90%以上的水平；</p>
+  <p>MiniMax推出能在6秒内完成音色复刻的语音大模型abab-speech-01，用数百万小时的音频数据训练成果；</p>
+  <p>超千亿参数的Baichuan 3在医疗评测中展现出最佳性能，更在中文任务上超越了GPT-4；</p>
+  <p>通义千问2.5版本在理解、逻辑推理等方面有显著提升，中文能力更是领先业界；Qwen1.5-110B成功超越了Meta的Llama-3-70B模型，标志着通义大模型首次赶上GPT-4水准......</p>
+  <p>这是一场技术指标的角逐赛。技术的进步固然值得肯定，但只是追逐还远远不够，属于中国的AI机遇，则更在落地之后。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_f9b7f7fbfd494a23a7a2d41d5abba3f2@000000_oswg24989oswg1080oswg104_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在2024年上半年，Kimi一跃成为2024年最受欢迎的AI应用之一，吸引了大量原本专注使用ChatGPT的用户转投旗下，顺带掀起了“Kimi概念股”的热浪。</p>
+  <p><strong>一个公认的事实是，中国是一个庞大的应用市场，这是我们的天生优势。</strong></p>
+  <p>李开复曾表示，<strong>“能够很快变现但增长很慢”的To C APP不是中国团队的长项，“前期积累大量流量随后变现”的To C APP才是中国团队的长项。</strong>2025年的一个大趋势，是越来越便宜的推理成本会推动High DAU的应用出现，“先用一段时间积累用户随后再探索商业变现”，AI应用的推广和增长，将催生出更多To C High DAU的AI-first APP。</p>
+  <p><strong>在AI渗透进人类生活的这一年中，应用最广泛的当属内容生成软件，其中不乏中国公司。</strong></p>
+  <p>快手在13岁生日当天发布了视频大模型可灵，能够让内容创作者，从简单文本到精彩视频，无论创作数量和质量都让中国AI能力走在了世界前列；脱胎于字节跳动的爱诗科技，要做AI时代的超级内容平台，核心产品PixVerse全球用户数已超1200万；依托于全球首个Diffusion Transformer架构，生数科技也是内容生成软件的爆款产品。</p>
+  <p>除了视频生成，中国企业在PPT生成、短剧生成、漫画生成、游戏生成等AI应用上也层出不穷。To B类别中，FancyTech、极睿科技、筷子科技、奥创光年并称AI营销“四剑客”，在2024年已实现商业化的规模增长。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_21f78ab93a1a41eaaa0e7345244473dd@000000_oswg489771oswg1080oswg1725_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>引援自AI产品榜</p>
+  <p>C端消费者与AI在应用层的互动，让AI更能读懂人，而对于巨大的中国市场来说，应用链接了人和AI，<strong>这也是AI出海的机遇之一。</strong></p>
+  <p><strong>其次，硬件方面，具备供应链优势的中国企业则能看到更大的机会。</strong></p>
+  <p>从供应链的角度说，硬件+AI属性，几乎没有难度，一名从事电子产品出海6年的商家向霞光社表示，“加个互动功能，技术上也不难，但价位上可以翻两倍。”海外市场有较强的付费能力和强烈的人力替代需求，是全球化品牌打造的必要条件。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_f03c16d8e337483b920cf8aac7abc097@000000_oswg52640oswg1080oswg1330_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但变量在于，与早期铺货的方式相比，出海浪潮中，中国企业已经具备全球视野，更会考虑欧美的人体工学和用户习惯，同时在平台选择上，也优先适配海外AI大模型。</p>
+  <p>2024年CES上，几乎所有企业都在all in AI，从小小的牙刷，到家庭智能助手，再到汽车，都以各种各样的方式展示着AI与硬件结合的无限可能，它说明了未来硬件新品的风向标：错过AI，后悔一年。而在欧美日韩的巨头企业都在寻找AI与硬件的结合点时，机器人、智能穿戴、储能、ebike等新兴消费电子产品多出自中国公司之手。</p>
+  <p><strong>这些新兴AI硬件企业普遍具备生而全球化的属性，有可能成为将来属于中国企业AI出海的另一个机遇。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_9f0a5d7331b143acaae31138fa605e34@000000_oswg20833oswg1080oswg104_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>机遇是已知的，但在人人都能用上AI的今天，留给中国市场的时间还多吗？</p>
+  <p>回头看，人类对AI的追求，似乎不再需要一个终局。我们可以看到消费者和企业探寻AI的变化：从寻找一个完美产品的结果，到专注于AI落地的过程。这一路看下来，过程诚然比结果有趣。</p>
+  <p>一些问题尚未找到标准答案，如AI+硬件还是硬件+AI？（AI+硬件，是给AI找场景，硬件是AI的载体。硬件+AI，是AI向硬件赋能。）但这一探索过程中，我们能够看到AI过去的尝试，在各种单品上成为现实。比如在戒指、手环、眼镜上的AI探索，玩具、录音机、乐器，都可以加上AI，这类产品在众筹平台上可以看到不错的数据。供应链层传统优势（如3C配件）的支撑，让破局只需找到入口，而目前的AI已经是大众买得起的、能让人看得懂的单品好物。</p>
+  <p>所以我们目前能够看到的结果，多是在具体场景解决具体问题，需要站在产品的层面做变量，要符合不同市场的不同偏好。终局还远，全球科技创新产业专家王煜全在与霞光社的对话中曾谈到，“我给出AI发展明确的时间表是，两年之内可能能打磨出模式来，但这个模式大多数人不认识。五年之内，也就是说再过三年，它的业务逐渐被接受，大家会认为这个可能是未来的明星。再过10-15年，它的收入会实现。”</p>
+  <p>在王煜全看来，<strong>人工智能是可以从头设计，未来应该是向智能环境发展。</strong>“举个例子，可能从桌子底下伸出两只机器手来帮我们整理东西，但这两只手不是一个独立的机器人，因为它的指令是从别处传过来的，甚至它如何整理是靠上面挂着一摄像头，帮它来来处理的。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_02e9b5aaea6e432fba4c050397534fcc@000000_oswg47586oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这一完美图景，也还在路上，就此刻看，是新的拐点。</p>
+  <p>机器在三维空间和时间中感知、推理和行动的能力，其野望在于将空间计算操控虚拟世界的本领和具⾝智能触达现实世界的能力结合起来，是人工智能领域中，空间智能的概念，是能够观察、理解三维空间，并在三维空间中自主采取行动的智慧能力。</p>
+  <p><strong>此前所有具体产品的积累，也将会向更深更垂处延展，用技术描绘出立体的空间图景，这是所有选手都站在同一起跑线上的新机会，时间还足以中国AI公司施展能力。</strong></p>
+  <p>1990到2010年，互联网技术用20年时间，达到了技术普惠点；移动互联网从2005到2020年，15年的发展也达到了技术普惠点；2024年，AI第一次进入人的生活中，成为无处不在的陪伴者。</p>
+  <p>这一切，才刚刚开始。而人类的世界，已经不能没有AI了。</p>
+  <p>&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MDU1MDY1NQ==&amp;mid=2247587716&amp;idx=1&amp;sn=632e9451183d00d690ed7cab02165a14&amp;chksm=cf3f3ec71a0cd82fbc15e8bb27f635f9f656bae67b4c89e4117a4163aaf2f796048d0ac20785&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“霞光社”（ID：Globalinsights）</a>，作者：洋紫，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116603121684483</id>
+            <title>营销观察｜2025年微信公开课说了什么？</title>
+            <link>https://www.36kr.com/p/3116603121684483</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116603121684483</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 07:17:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 微信公开课, 小程序, 电商生态, 送礼物功能  
+<br><br>  
+总结: 2025年微信公开课再次闭门举办，重点介绍了微信小店、小程序和服务号之间的关系，以及电商基建的更新。微信小店在2024年实现了显著的GMV增长，核心用户群体主要来自二三线城市的成年女性。微信团队规划将小店、小程序和服务号形成“三位一体”的电商生态系统，以提升商家的运营效率和复购率。此外，新的“送礼物”功能将为商家带来新的销售渠道，并支持第三方联盟带货机构，降低商家准入门槛，显示出微信电商的商业化准备。 </div>
+                        <hr>
+                    
+                    <p>文｜王毓婵</p>
+  <p>编辑｜乔芊</p>
+  <p>1月9日，2025年微信公开课延续了去年改订的“不公开”的传统，再一次闭门举办了业内人士小会，不邀请媒体，也没有开放直播。</p>
+  <p>不过，依据现场观众回传的照片，我们还是得知了微信团队公布的一些核心信息。本次公开课，重点讲解了微信团队所规划的微信小店、小程序、服务号之间的关系，以及电商基建层面的更新。最近炙手可热的“送礼物”功能也在公开课上占据了相当大的篇幅，预计将在接下来的春节期间正式登上舞台。</p>
+  <p>微信讲师宣布，<strong>2024年微信小店GMV规模增长了1.92倍</strong>，订单数量增2.25倍，动销商品数增3.83倍，GPM增1.5倍，月动销商家数增1.7倍。服饰家居、食品生鲜、玉翠文玩、个护美妆、教育培训、母婴玩具、图书影音等是目前视频号上增长较快的优势类目。</p>
+  <p>视频号上25岁以上用户占比高达97.7%，女性占比达63%。来自一线、新一线城市的用户占比32%，二三线城市占比40%，四五六线城市及海外占比28%。由此可以得出，视频号的核心用户群体是来自二三线城市的成年女性。</p>
+  <p>在商业化上，本次公开课传达出了一个非常清晰的精神，就是微信小店要跟微信的其他原子组件（小程序、服务号、社群、搜一搜等）打好配合，在微信内部打造电商生态系统，而非仅依托于视频号和直播频道。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_bc04ac31b2b24c799438bcbbe21aa533@10269314_oswg1219124oswg1700oswg538_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" /></p>
+  <p class="img-desc">微信公开课ppt</p>
+  <h3>小程序、小店、服务号三位一体</h3>
+  <p>关于小程序要与微信小店打好配合这一点，微信公开课花了不少力气去介绍。</p>
+  <p>2024年三季度，小程序的交易额超过了 2 万亿元人民币，同比增长十几个百分点。虽然成绩不错，但确实有许多小程序商家在担忧，未来小程序商店系统将如何与基于视频号的微信小店系统共存。</p>
+  <p>根据微信团队的规划，在微信电商系统中，微信小店、小程序、服务号将形成“三位一体”的系统。微信小店承接交易、订单、售后体验统一；小程序负责提供功能服务、会员体系、营销玩法；服务号则负责用户沉淀和复购等。</p>
+  <p>在这个体系中，小程序就像是品牌官网，用户在这里了解品牌和被营销活动触达，然后去微信小店下单，并在服务号里沉淀为粉丝。公开课讲师称，这一套模式将带来新流量+高复购，最终实现商家的“经营增量”。</p>
+  <p>小程序与微信小店的结合，解决了小程序商家缺乏获取新客渠道的问题，也解决了微信小店缺乏品牌主页的问题。</p>
+  <p>为了让商家更简单地实现互连，微信也帮商家降低了开发难度：商家无需额外开发小程序商城，可以直接通过小店组件在小程序上落地商城；以及，微信内统一店铺、统一管理，当商家需要调整某个商品的价格时，只需一键操作即可在微信全服内修改，提升了商家的运营效率。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_ac83504aac364ce3a9ab7d864c62fbd5@10269314_oswg1656039oswg1828oswg574_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1" /></p>
+  <p class="img-desc">微信公开课ppt</p>
+  <h3>「送礼物」还将惠及线下店</h3>
+  <p>12月19日，微信团队开始灰度内测“送礼物”功能。当时36氪撰文称，“对商家来说，送礼功能的出现是一个显著的利好。对微信平台来说，这也许是一个能媲美‘微信红包’的天才发明。”</p>
+  <p>公开课讲师称，“外界对‘送礼物’功能吹得天花乱坠，超出了我们的认知。该功能仍旧会不断迭代发展，未来会发生什么变化还不清楚。”但它的出现显然已使友商颇感不安——淘宝和抖音很快也跟进了送礼物功能。</p>
+  <p>讲师称，“送礼物”对于商家的影响，不仅仅在于提升了销量，还在于基于社交关系的送礼行为帮商家降低了推广成本。而且，因为只有品质过关的商品，才能通过社交关系链进行传播，所以是一种可贵的良性循环。“如果所有商家都致力于此，微信交易的生态一定会发生巨大的变化。”讲师说。</p>
+  <p>公开课上还展示了“送礼物”功能接下来会推出的两个令人激动的新玩法：“商家送礼好物”和“线下扫码送礼”。</p>
+  <p>关于“商家送礼好物”，指的是商家可以在微信小店里为礼品属性的商品做专属的“页面装修”，还可以定制贴纸、定制包裹卡，让整个送礼的过程更加精致用心——听起来就像“红包封面”之于微信红包这个产品的意义。</p>
+  <p><strong>“线下扫码送礼”，则是惠及线下商家，让线下顾客可以通过扫描店家出示的二维码，直接在线上为微信好友送出礼物。可以说是给“送礼物”这个功能增加了新入口和新场景，也给线下商家带来了新的销售渠道。</strong></p>
+  <h3>支持第三方联盟带货机构，完善推客带货</h3>
+  <p>公开课上特别提到，商家可以通过商品卡、直播的形式，将自己的商品通过第三方联盟带货机构售卖，展现出微信官方对带货机构的支持。</p>
+  <p>微信团队宣布，为了扶植带货联盟，平台不抽取联盟带货者的带货佣金；联盟推客带货者渠道产生的平台技术服务费，平台抽取1%且返还0.4%流量券。</p>
+  <p>2024年12月，微信“推客带货”能力上线，可以理解为“微信版淘宝客”。对微信来说，平台最大的资源正是用户的社交关系资源，而微信电商最大的优势是基于社交关系的电商，所以“推客带货”也是商家们期待已久的功能。在微信里，推客可以使用原生商品卡的形式展示商品，不需要“打暗号”或站外跳转，确实会让消费者有更好的体验。</p>
+  <p>微信团队在公开课上也宣布了平台接下来对这一功能的完善计划：今年1月完善分享达人直播间、短视频归因，开放店铺券，并结合春节场景进行送礼玩法；今年2月分享店铺直播间、短视频等带货能力，支持达人券、机构券等营销玩法。</p>
+  <h3>降低商家准入门槛，微信似乎已经准备好面对爆发</h3>
+  <p>当我们谈论微信电商时，常常使用的一个词汇是“克制”，这体现为平台严苛的审核标准、过高的保证金，以及官方运营与商家并不紧密的联系等等。外界普遍认为，这是因为微信团队还没有准备好面对商业化爆发所带来的难度飙升，所以在刻意放慢脚步。</p>
+  <p>但今天微信似乎已经准备好了。公开课上，微信团队宣布要降低商家门槛：1.类目应开尽开；2.保证金金额下调；3.0元保证金。</p>
+  <p>首先，391个三级类目由“定向准入”及“暂不开放”调整为开放类目，26个一级类目包含服饰内衣、箱包皮具、农资园艺等简化入驻规则，大幅降低商家准入门槛；</p>
+  <p>其次，珠宝首饰、内衣、女装等25个类目下调保证金额，最高降幅达50%；</p>
+  <p>最后，目前0元保证金已经覆盖较多类目，未来还会持续覆盖。</p>
+  <p>一位腾讯内部人士对36氪透露，集团对于2025年微信电商的表现有非常强的信心。过去一年，受宏观经济影响，许多电商平台都经历了销量的下滑，但视频号仍然有低基数优势。腾讯公司总裁刘炽平在2024年Q2电话会议上称，“相较其他短视频平台，在总商品交易额增长方面，我们未出现放缓的情形。主要原因在于，和竞争对手相比，我们的电商交易额规模实则很小，仍有巨大的增长空间。<strong>”</strong></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117574447026178</id>
+            <title>2025开年罕见暖冬、山火烧毁富人区……气象学者预言成真</title>
+            <link>https://www.36kr.com/p/3117574447026178</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117574447026178</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 04:26:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 全球变暖, 极端天气, 气候变化, 未来展望  
+<br><br>  
+总结: 2024年被记录为有史以来最热的一年，全球平均气温达到15.10℃，极端天气事件频发，给人类生活带来严重影响。气候变化导致高温、洪涝等极端天气现象增多，科学家警告全球正进入“全球沸腾时代”。随着气温持续上升，未来的极端天气将更加频繁，80、90后将面临更大的挑战。应对气候变化需要社会各界共同努力，提升防灾减灾意识，关注未来的可持续发展。 </div>
+                        <hr>
+                    
+                    <p>2024年，是有记录以来史上最热的一年，&nbsp;</p>
+  <p>全球平均气温达到了15.10℃。</p>
+  <p>网友称这个冬天“暖得令人不安”：&nbsp;</p>
+  <p>南方罕有降雨，北方多地仍未降雪。&nbsp;</p>
+  <p>迈入新的一年，“三九”已过，&nbsp;</p>
+  <p>北京各大冰场仍因冰层厚度不够而没能开放。</p>
+  <p>长江中下游1月中旬又将开启升温模式，</p>
+  <p>在原本一年中最寒冷的时期却如同早春，</p>
+  <p>最高气温普遍能达到15℃以上。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_268dc62beaeb4cbbb3b58bbfedb06881@000000_oswg324036oswg1080oswg889_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年为有记录以来最热的一年</p>
+  <p>图源：哥白尼气候变化服务 ECMWF&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d478239930624118b88133559d4d3210@000000_oswg91101oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>加州大火中，被烧毁的建筑物</p>
+  <p>图源：Getty Images&nbsp;</p>
+  <p>刚刚经历过夏季热浪、暴雨的地球，&nbsp;</p>
+  <p>如今正在经受新一轮极端高温的考验。&nbsp;</p>
+  <p>截止1月9日，美国加州洛杉矶山火已造成&nbsp;</p>
+  <p>至少7人死亡，18万人须被迫转移，&nbsp;</p>
+  <p>以及至少10000多栋建筑被烧毁。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_4152abf507054a849ff20207160a378c@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年2月，贵州山火曾持续12天</p>
+  <p>一条曾在2024年3月于北京拜访中国科学院大气物理所的魏科博士，&nbsp;</p>
+  <p>他当时就预言：全世界将会越来越热。</p>
+  <p>“80、90后想要安度晚年基本上是没戏了，</p>
+  <p>我们会见证越来越多的极端天气，</p>
+  <p>现在我们能做的，</p>
+  <p>就是给子孙后代留一个更好的未来。”&nbsp;</p>
+  <p>编辑：刘亚萌自述：魏&nbsp; &nbsp;科</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_923f8f048d1948bbb6cb3ec28126707f@000000_oswg22299oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_c5a18874e7fb4ffb89fff2b3085535dd@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年2月，贵州山火&nbsp;</p>
+  <p>2023年是我们国家有记录以来最热的一年（自1951年起），全国平均气温为10.71℃，较常年偏高0.82℃（注：该记录已被刷新，2024年全国平均气温达到10.92℃）。而且这种“热”大概率会一直持续到2024年。</p>
+  <p>早在2023年7月，联合国秘书长安东尼奥·古特雷斯先生就警告说，“全球变暖（global warming）的时代已经结束，全球沸腾（global boiling）时代已经到来”。这带来什么影响呢？就是极端气候事件增多。</p>
+  <p>如果你现在40岁，那么你人生的后面20年跟前面20年经历的极端天气相比，高温酷暑增加约230%，洪涝增加约130%，风暴增加约97%。</p>
+  <p>2024年2月的贵州山火，持续了12天，大家下了很大的功夫，很多的牺牲才把火扑灭。</p>
+  <p>它的起因不能完全归结于老百姓的祭祖、开荒、田地里烧秸秆之类的，跟升温和干旱有关。</p>
+  <p>2023年整个冬季从12月份到2月份，云南贵州的温度在全国都偏高，贵州2月份的平均气温比往常要多个2~3℃，降雨还少。</p>
+  <p>这时候山里面聚集的枯枝败叶，一个烟头就能燃起来，还有偶发因素，干的闪电、矿泉水瓶、玻璃瓶，在太阳光照射下聚集光线，它也能烧起来。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_c1191b06e71f474cbd743b35aa498396@000000_oswg119042oswg760oswg454_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2025年加州山火中，短波红外卫星图像下燃烧的建筑物</p>
+  <p>图源：Getty Images&nbsp;</p>
+  <p>其它国家也在频繁爆发山火。2023年加拿大创记录的山火，烧了将近半年，它燃起的灰尘飘到美国，使得美国的空气比我们雾霾最严重的时候还糟糕。</p>
+  <p>还有2020年澳大利亚山火，导致30亿动物死亡。2024年，美国德克萨斯州也爆发了它有史以来最大规模的山火。此起彼伏，这是一个全球现象。</p>
+  <p>这种“热”，一般在春季就开始有迹可循。</p>
+  <p>北京在2023年5月底的时候就有单日温度超过35℃，6月连着3天超过40℃，这在历史上是很罕见的。一直到7月都是高温，过程中还热死过人，一个导游在颐和园因为热射病去世，还有一个奶奶在家没开空调，因为太热死掉了。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_1be6b4df8d6042a0bb261c6195211bea@000000_oswg1000870oswg1080oswg806_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2023年7月北京房山，被淹没的车&nbsp;</p>
+  <p>就在我们以为可能就一直热下去了，7月底忽然间京津冀一场大暴雨，最多降雨量高达700毫米，也就是两三天下了一年的降雨量。闹出了很多大规模的洪灾，房山门头沟都起了洪水，有30多个人死亡。&nbsp;</p>
+  <p>这种大暴雨跟全球变暖也是有关的。因为全球变暖会带来大气环流不稳定，温度越高，空气中容纳的水汽量就越高，下暴雨的时候，也下得更厉害。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_51c24b348f314672bfaf605d41be8e15@000000_oswg175869oswg1080oswg711_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年，全球平均气温达到15.10℃</p>
+  <p>图源：哥白尼气候变化服务 ECMWF&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>从全球来说，2023年也是有史以来最热的一年（自1940年起），全年平均气温14.98℃，较工业化前水平（1850—1900年平均值）高出1.42℃，升温幅度也是最大的 （注：该记录已被刷新，2024年全球平均气温15.10℃，成为有史以来最热的一年） 。&nbsp;</p>
+  <p>全球持续加速增温是一个必然的结果，因为全球二氧化碳的排放量现在还处于峰值。&nbsp;</p>
+  <p>以后每一年我们可能都在创造新的纪录，现在说“2023年是有史以来最暖的一年”，到2024年的末尾我们可能又会说“2024年是有史以来最暖的一年”，然后过几年“2030年是有史以来最暖的一年”。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_9e4b668844f6409ca1ad2bcb4183ce43@000000_oswg28302oswg1080oswg668_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_ff62596d55854ba8a06d0399379a0c47@000000_oswg192040oswg1080oswg863_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_1507bc3df7184bd8887e0c32a1ce6944@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>青藏高原气候凉爽，但也有冻土和冰川融化的风险&nbsp;</p>
+  <p>全球变暖和极端天气不会放过任何一个区域。&nbsp;</p>
+  <p>有些人可能会想着北部地区更凉快一点，我搬到青藏高原上不就很好了？&nbsp;</p>
+  <p>但是你得想到，全球变暖到一定程度，青藏高原上会有大规模的冻土融化，所有地面就像扭曲的泥浆一样，还有雪山上的融水冲下来，也会带来灾害。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_b776f299e9e44c1bbdd798f97c4617e2@000000_oswg668986oswg1080oswg743_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2020年6月份，有三个台风到达哈尔滨&nbsp;</p>
+  <p>图源：新晚报&nbsp;</p>
+  <p>你觉得哈尔滨很好，夏季比较凉爽，但是它冬天非常冷。而且全球变暖之后台风路径北移了，2020年半个月之内，有三个台风直接到了哈尔滨，这在历史上基本没有出现过。&nbsp;</p>
+  <p>全球变暖让整个大气的环流变得不稳定，一个城市的天气变得“不按常理出牌”。&nbsp;</p>
+  <p>可能全国人民都感觉到了，2023年进入冬季之后，气温是上蹿下跳。&nbsp;</p>
+  <p>春节之前全国都非常冷，多城市暴雪，没过几天升温，比往年温度高出5-6℃，快要上班的时候，忽然温度降低，又比往年低了5-6℃，温差是非常大的。&nbsp;</p>
+  <p>我自己有留心过，在北京已经很多年没有穿毛衣了，感觉是脱了夏天的T恤，就开始穿风衣，没过多久，羽绒服就开始上了。这说明热和冷之间过渡非常快速。&nbsp;</p>
+  <p>这种骤冷骤热，在全球很多地方都在出现。2024年1月初的时候，北欧的温度忽然间短短几天就降到零下40℃，是他们那个地方史上最冷的温度，然后没过三五天，温度忽然又回升到零下5℃，一下子蹿升了30多摄氏度。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_ca652d14518d46c2980e255949530ffc@000000_oswg56610oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>所以它不是你换个地方就能解决的，在此之外气候变化还会改变病毒分布的区域。</p>
+  <p>热带的病毒和病菌，它会向中纬度人口密集的区域去侵蚀。前几年我们国家部分区域爆发了鼠疫，病毒就来自于干旱地区的啮齿类动物，随着干旱地区扩张，这类病毒也会扩张。</p>
+  <p>随着中高维度地区的温度升高，很多原来冰封在冻土或冰川里面的病毒也会被释放出来，而这些病毒到今天竟然还有活性，我们不知道最终能释放出一些什么远古怪物出来。</p>
+  <p>所以你想想看，你还能往哪里躲？</p>
+  <p>在我看来，我国东部沿海城市，作为人口最稠密的地区，历史上住了几千年了，未来还会是最优的地方。</p>
+  <p>所以关于未来的房产、职业、投资，我们不可能躲开气候变化，只能在现有的基础上去适应它。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_a64140ea391f466d949d4868e30a4476@000000_oswg207913oswg900oswg600_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>中国农村存在大量独居老人&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d3b9e1e8419f48d78e735d07a1425777@000000_oswg1070540oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>成都玉林街道的老人&nbsp;</p>
+  <p>那么怎么去应对呢？&nbsp;</p>
+  <p>我们的社区要做一定的改变。比如在城市建设上，要更加防内涝，地面上的道路要重新规划，不能让道路成为积水最厚的地方。&nbsp;</p>
+  <p>夏季高温的时候，希望能有专门的避暑中心，以及开放公共的图书馆和政府机构这些比较凉爽的地方，给市民使用。对户外工作者有更多政策上的调整，在高温洪涝的时候，让他们能够待在比较安全的地方。&nbsp;</p>
+  <p>作为子女，你要更多地关心父母和祖辈，关注一下家庭里面的空调，如果家里是住在比较低洼的地方，或者房屋比较破旧了，需要增加一些防洪的设施。&nbsp;</p>
+  <p>当然我们每一个人都要提高防灾减灾的意识。&nbsp;</p>
+  <p>过去这些年我们看到一些新闻，就是发布暴雨红色预警了，还有人坚持要去山里；台风来了，还有人跑到楼底下去搞直播，说“你看这个风特别大”；还有人仗着自己的车好，去涉水，这些都属于风险意识不足。&nbsp;</p>
+  <p>这当然跟我们的科普力度有关系，如果大家对这些灾害的科学机理有更多了解，也能够减少很多悲剧的发生。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_f24c4c1ac1ce4eef8d33657b25cdb418@000000_oswg24302oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_2f4239afbf0d4b55bd7350afbc611c1d@000000_oswg1004225oswg947oswg633_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>北极熊正在失去家园&nbsp;</p>
+  <p>大概在上世纪60年代，日裔美国科学家真锅淑郎先生就已经做出了“二氧化碳浓度与全球升温”的模型预测，60多年过去了，全球升温走势基本就是按照他的预测来的。&nbsp;</p>
+  <p>在过去100多年里面，全球二氧化碳飙升了大概50%，到2023年全球平均升温了 1.42℃ （注：2024年全球平均升温1.6℃） ，其中2023年有两天出现了升温2℃，这是出乎科学家意料之外的。&nbsp;</p>
+  <p>其实这个2℃是2015年《巴黎协定》里各个国家商定的目标，是希望到2100年的升温控制在2℃以内，但即便达到这个目标，依然是非常恐怖的。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_cd391d1c9bae4ad38b28c1b41eec63d0@000000_oswg39422oswg1080oswg677_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2021年交警在郑州暴雨现场指挥交通&nbsp;</p>
+  <p>图源：郑州交警&nbsp;</p>
+  <p>以2022年夏季的上海为例，出现了7次40℃以上的天气，当年全球升温1.1℃。假如升温2℃，那么这个天数要增加5-10倍。你想一想，假如上海有连续35-70天都是40℃以上，你和你的家人该怎么活动？&nbsp;</p>
+  <p>可能你今天出门就会告诉孩子，到了学校之后不能到操场上去，一旦跑出去就要中暑了，放学了之后会担心晚上有暴雨。像2024年贵州的山火、2023年东北的洪灾、2022年的郑州暴雨，可能在全国各地频繁发生，这不是我们希望看到的世界。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_66486a63d5b5477994596d130c3e4e86@000000_oswg408384oswg666oswg404_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>全球升温1.5°C后的上海陆家嘴</p>
+  <p>图源：国家地理中文网&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_2c47fa9c5cd541548737d723cdc55de9@000000_oswg407348oswg671oswg403_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>全球升温3°C后的上海陆家嘴&nbsp;</p>
+  <p>图源：国家地理中文网&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>全人类应对气候变化是成功了，还是失败了，有什么标准？&nbsp;</p>
+  <p>按照预估，大约2050-2060年会是一个“见分晓”的分界点。假如你是80、90后，2050年正好是你晚年的开始。&nbsp;</p>
+  <p>在2050年之前世界肯定是会越来越热，因为二氧化碳浓度越来越高，全球平均温度一定会超过1.5℃。如果我们什么都不做，会继续冲向2℃，直至2100年超过这个值。&nbsp;</p>
+  <p>假如我们现在控制的好，2050年我们超过1.5℃一段时间之后，温度就会慢慢往下走，在2100年之前控制住。&nbsp;</p>
+  <p>所以我们80、90后想要安度晚年，基本上是“没戏”了，我们会见证越来越多的极端天气，现在我们能做的，就是给子孙后代留一个更好的未来，让你的孩子（10后、20后）能有希望。&nbsp;</p>
+  <p>我自己的孩子，应该能够看到2100年之后的世界，如果她到时候回想起来说“这个世界跟我小时候差不多”，我觉得就是成功的。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_970570cc19aa4133a7e9acece9342105@000000_oswg162138oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_233056a5db4a4bfa81d0f88fe531952f@000000_oswg1177351oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>上海创智农园，居民们在种植和收获&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>我总体上保持一定的乐观，还是有几率成功。&nbsp;</p>
+  <p>首先大家的认知是统一了，承认了“气候危机”的事实。&nbsp;</p>
+  <p>十年前可能有很多人在质疑气候危机，认为这是发达国家的阴谋，发达国家说这是发展中国家的阴谋，给我们的思想造成了很多混乱。也有一些人说以后会变得越来越冷，已经被事实和数据反复打脸。&nbsp;</p>
+  <p>2020年我们国家制定了“双碳战略”，这是一个非常大的政策转型。&nbsp;</p>
+  <p>加上年轻人崛起了，独立意识更强，拒绝忽悠，更相信科学。在一个新能源驱动的经济模态下，年轻人有更多的机会，像人工智能，新能源电池、新能源汽车等等，市场潜力很大。&nbsp;</p>
+  <p>古特雷斯先生说的“全球沸腾时代”是个比喻，水没有冒泡之前，很多人可能还可以假装没看到，但是现在冒泡了，你就没法忽略掉这件事情了，事实会促使大家发生改变。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_2efa681ea94640008c0dda3f6a6e921d@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI5OTkyOA==&amp;mid=2665866534&amp;idx=1&amp;sn=87925c7c611799db53ef685989b77da4&amp;chksm=bc6142f3f6fa718faa13786f6bf3294f63f8d4228a14b8733e33cf351797204ca366845b9cee&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“一条”（ID：yitiaotv）</a>，作者：搜索下载一条，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117165141212933</id>
+            <title>阿里巴巴，为什么果断挥别「新零售」?</title>
+            <link>https://www.36kr.com/p/3117165141212933</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117165141212933</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 04:25:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 新零售, 阿里巴巴, 雷军, 马云  
+<br><br>  
+总结: 雷军在2017年首次提出“新零售”概念，但马云的阿里巴巴成为其主要推动者。随着时间推移，阿里巴巴逐渐退出实体零售业务，出售了银泰和高鑫零售等资产，造成了巨额亏损。这一转变反映了阿里巴巴的战略调整，实体零售不再是其核心业务。尽管“新零售”理念在行业内得到广泛认同，但阿里巴巴未能成功实现其目标，最终将重心重新聚焦于线上业务。马云的“新零售”蓝图如今已成为历史，阿里巴巴的未来发展方向仍需探索。 </div>
+                        <hr>
+                    
+                    <p>2017 年 12 月 3 日，雷军在第四届世界互联网大会商接受央视采访时，谈到了当时火得一塌糊涂的「新零售」。他强调，「全国第一个讲新零售的就是我，我上午在一个地方讲的，马云下午在另一个会场讲」。</p>
+  <p>&nbsp;</p>
+  <p>接着，雷军补充了一句，「可能阿里声量大，讲得多些吧」。</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d5a78e1052514a51a97f672b753844e7@5483771_oswg24176oswg640oswg358_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>其实，第一个在中国提出「新零售」这个概念的，到底是雷军还是马云，这个问题已经在时间的流逝中，变得完全不重要了。</p>
+  <p>&nbsp;</p>
+  <p>只不过回想当年，<strong>在马云的振臂高呼下，阿里巴巴确实是「新零售」这个词汇走向火热的核心推手</strong>；不仅如此，它还凭借庞大的体量和躬身入局，并且在全社会范围内掀起过一波新零售的商业大潮。</p>
+  <p>&nbsp;</p>
+  <p>而如今，潮水无情地褪去——已经很少公开露面的马云，在为数不多的内网讲话中，完全不提新零售这个词汇。</p>
+  <p>&nbsp;</p>
+  <p>而此时的<strong>阿里巴巴自己，也正在忙不迭地从中抽身而出。</strong></p>
+  <p>&nbsp;</p>
+  <p><strong>实体零售业务，成为弃子</strong></p>
+  <p>在不到一个月的时间里，阿里巴巴先后完成了对旗下两大实体零售相关资产的出售。</p>
+  <p>&nbsp;</p>
+  <p>第一个是银泰。</p>
+  <p>&nbsp;</p>
+  <p>2024 年 12 月 17 日，阿里巴巴在港交所发布公告称，公司与另一名少数股东同意将银泰 100% 的股权向由雅戈尔集团和银泰管理团队成员组成的购买方财团出售——在出售前，阿里巴巴拥有银泰 99% 的股份。</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_196ce29cdc2e4ecd9adbcd42dd831134@5483771_oswg259299oswg686oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>阿里巴巴在公告中表示，就银泰出售的所得款项总额约为人民币 74 亿元（10 亿美元），而阿里巴巴预计因出售银泰而录得的亏损约为人民币 93 亿元（13 亿美元）。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>第二个是高鑫零售。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>2025 年 1 月 1 日晚间，阿里巴巴再次在港交所发布公告称，其子公司及 NewRetail 与德弘资本达成交易，以最高约 131.38 亿港元出售所持高鑫零售（港股上市公司）全部股权，合计占高鑫零售已发行股份的 78.7%。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>在公告中，阿里巴巴表示，估计出售事项所产生的股东应占损失约为 131.77 亿人民币。&nbsp;&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_f79d5482df794647ba3b6cfec17c4819@5483771_oswg390182oswg613oswg667_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>然而，根据阿里巴巴以往对于高鑫零售的投资动作，外界计算出阿里巴巴以往在控股高鑫零售过程中花费的金额高达 504 亿港元—— <strong>因此，仅仅从前后付出和回报的金额价差来计算，阿里巴巴就亏损了 372.62 亿港元。</strong></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>这其中，更不必谈阿里巴巴过去几年在高鑫零售中投入的人力、技术、管理等诸多成本——这些成本中，也包括时间成本。&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>当然，<strong>这些成本都已经沉没，阿里巴巴的出手动作也相当果决。</strong></p>
+  <p>&nbsp;</p>
+  <p>其实，对于阿里巴巴出手银泰和高鑫零售等相关资产一事，外界已经有足够多的预期，并没有感到什么意外，引发讨论的，仅仅是接盘方——这背后的原因很简单，因为这些出售动作都已经定下来了。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>早在 2024 年 2 月，阿里巴巴集团董事会主席蔡崇信就在 2024 财年第三季度业绩中表示：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>阿里资产负债表上仍有许多传统的实体零售业务，这些并非核心业务，若退出也是合理做法，但考虑到当前有挑战的市场情况，尚需时间实现。&nbsp; &nbsp; &nbsp; &nbsp;</p>
+  <p>&nbsp;</p>
+  <p>实际上，出售实体零售业务本身，仅仅是阿里巴巴自 2023 年 9 月开始进行新一轮战略调整过程的一部分——根据蔡崇信的说法，阿里巴巴在 2024 财年的前九个月，退出了 17 亿美元的非核心资产，同时也成立了团队，研究如何进行相关上市公司的股票出售。&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>所以，对于 2024 年的阿里巴巴来说，<strong>这些实体零售业务，已经变成了需要被放弃的「核心资产」。</strong></p>
+  <p>&nbsp;</p>
+  <p>从结果来看，尽管大环境不好，阿里巴巴还是在蔡崇信讲话不到一年的时间里，完成了对于银泰和高鑫零售这两大实体零售资产的出售——尽管这些业务曾经非常重要，而且前后算下来已经造成数百亿的亏损，但基于战略聚焦和战略收缩的阿里巴巴已经顾不得那么多了。&nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>于是，<strong>银泰和归属于高鑫零售的大润发，彻底沦为阿里的「弃子」</strong>——仿佛它们之间「海誓山盟」的故事，未曾存在过。&nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><strong>马云的新零售蓝图，碎了</strong></p>
+  <p>回顾来看，阿里巴巴与银泰、高鑫零售之间的所有勾连，就是因为马云的新零售战略。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>2016 年 10 月 13 日，马云以阿里巴巴董事局主席的身份出现在云栖大会的舞台上，他在演讲中提到了包括新零售、新金融、新制造、新技术、新能源在内的五大战略，也就是著名的「五新」，其中新零售成为重中之重。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_18cd84faa9a1430ea13a13ca02da471c@5483771_oswg489297oswg1080oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>关于「新零售」，马云当时的原话是这样的： &nbsp; &nbsp; &nbsp;</p>
+  <p>&nbsp;</p>
+  <p>纯电商的时代很快会结束。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>未来的十年、二十年，<strong>没有电子商务这一说，只有新零售这一说。</strong></p>
+  <p>&nbsp;</p>
+  <p>也就是说，线上、线下和物流必须结合在一起，才能够诞生真正的新零售。线下的企业必须走到线上去，线上的企业必须走到线下来。线上、线下加上现代的物流合在一起，才能真正创造出新的零售起来。&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>实际上，当马云谈到新零售的时候，阿里巴巴早已经开始把线上业务的触角伸到了线下——比如说，它在 2013 年 5 月开始与银泰的合作之后，又在 2014 年 3 月以 53.7 亿港元投资银泰，并且在 2016 年 6 月以 27.9% 的持股占比，成为银泰商业的最大股东。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>但这些都只是前奏——事实上，在马云提出新零售这个概念之后，银泰很快做出了一个空前的动作，来配合阿里巴巴的「新零售」战略。&nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>2017 年 1 月 10 日，银泰商业在港交所宣布银泰将进行私有化。根据公告，私有化后阿里巴巴成为银泰的控股股东，持股比例预计增至约 74%——当天，收到此消息影响，银泰商业的港股股价暴涨接近 40%。&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>至于为何要推动银泰走向私有化，时任阿里巴巴 CEO 张勇的回应是：&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>中国零售行业的总规模已达到 4.5 万亿美元，并正以每年 10.7% 的速度增长。阿里巴巴集团正与线下零售商共同重构传统业态，创新用户消费体验，用实际行动拥抱新零售所带来的长期发展机遇。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>可见，在阿里巴巴的新零售布局中，银泰成为具有标杆意义的关键一环。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_3c418a8495f44f4881acc136f217ac57@5483771_oswg839622oswg1005oswg552_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>随后在 2017 年，阿里巴巴以线上平台的角色，继续面向线下零售市场进行更为广泛的资本布局，比如说在 2017 年 5 月收购联华超市 18% 的股权并成为第二大股东，在 2017 年 9 月与新华都集团签订股权转让协议。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><strong>但它在这一年在新零售战略下的最重磅布局，就是高鑫零售。</strong></p>
+  <p>&nbsp;</p>
+  <p>2017 年 11 月 20 日，阿里巴巴集团宣布投入约 224 亿港币，直接和间接持有高鑫零售 36.16% 的股份——当时，高鑫零售年营收破千亿，旗下拥有大润发和欧尚量大品牌，是当时中国规模最大的大卖场运营商。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>当时，阿里巴巴官方是这样形容这次交易的：这意味着以大润发、欧尚为代表的中国最大商超卖场集团全面拥抱新零售，中国商业也将全面进入新零售时代。在这次股权收购中，双方喊出了「阿里巴巴高鑫零售历史性握手」和「新零售未来已来」的口号。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>此间的调门之高，让「新零售」变得风头无两。&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><strong>一时之间，新零售这个口号遍布网络和线下，甚至各种以「新零售」为主题的商业书籍也塞满了书店。&nbsp;&nbsp;</strong></p>
+  <p>&nbsp;</p>
+  <p>时间来到三年之后——2020 年 10 月，尽管疫情的阴霾还没有散去，阿里巴巴依旧选择斥资 279.57 亿港元进一步增持高鑫零售，直接和间接持有其 72% 的股权，高鑫零售成为阿里巴巴集团的并表子公司——这与阿里巴巴先入股、后吞并的投资策略如出一辙。&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_dffbe808e88c4785b06deef20ef4eaa7@5483771_oswg690518oswg906oswg521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>这一次，在这次收购的官方声明中，阿里巴巴表示，和高鑫零售在商超卖场新零售上的数字化经验，已经开放给三江购物、新华都、中百、卜蜂莲花、绿地优选等线下商超，帮助全国 50 余家商超零售品牌推进数字化改造。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>不过站在今天的眼光来看，<strong>当时的调门有多高，当下的情况就有多落寞。&nbsp;&nbsp;</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>如今的 2025 年，在经历了沧海桑田之后，马云在公开场合的讲话已经很难听到，操盘阿里巴巴新零售大业的张勇已经离开，阿里巴巴又把业务重心放到线上，银泰、高鑫零售这样的实体零售资产已经在凋零中易主。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>这种情况下，新零售已经变成了一个熟悉而陌生的词汇。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>就这样，<strong>马云当年振臂一呼，为阿里巴巴画出的宏大新零售蓝图，如今已经成为一地鸡毛。&nbsp;</strong>&nbsp;<strong>&nbsp;</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><strong>当阿里巴巴重新聚集线上</strong>&nbsp;</p>
+  <p>坦率地说，<strong>从理念的角度来说，「新零售」是一个非常正确的方向。&nbsp;</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>比如，马云强调，新零售应该是线上、线下和物流的结合。实际上，在经历了数年的发展之后，如今的中国实体零售行业整体上都已经在拥抱数字化，拥抱互联网——反过来看，一些曾经想要通过投资布局线下的互联网巨头，并没有取得很好的结果，比如说京东之于永辉。&nbsp; &nbsp; &nbsp;</p>
+  <p>&nbsp;</p>
+  <p>当然，阿里巴巴之于银泰、高鑫零售，更是如此。&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>某种程度上，线下的企业走上线上容易，而线上的企业走向线下，则显得更难一些；这是所有互联网企业面临的共同难题——简单来说，<strong>由实向虚易，由虚向实难。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>运营能力强如阿里巴巴，也很难破解这一魔咒。&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+  <p>回过头来看，当马云在云栖大会上提出「新零售」的时候，无论是当时的阿里巴巴，还是马云本人，都有足够的勇气和底气面向实体零售行业提出变革的要求。 <strong>客观上说，实体零售行业，确实也需要拥抱技术带来的变革。&nbsp; &nbsp;&nbsp;</strong>&nbsp;<strong>&nbsp;</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>实际上，这也是新零售这个理念能够被广泛认同、并引发行业关注的真正背景。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>但问题在于，<strong>马云指出了方向，却并没有给出到达这个方向的具体路径。</strong>&nbsp;</p>
+  <p>&nbsp; &nbsp;</p>
+  <p>或者说，当马云给出一个他认为正确的大方向之后，他在阿里巴巴的新零售之路上变成了一个甩手掌柜。曾经长期担任阿里巴巴 CEO 的张勇是阿里巴巴新零售战略坚定的操盘者，但他低估了实体零售本身的难度。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_51e1e650df9a4eba8e78b501eeaf432d@5483771_oswg622546oswg991oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>&nbsp;</p>
+  <p>从底层逻辑上来说，实体零售讲究的深耕细作和精细化运营，确实与互联网公司追求的高速发展、流量至上的思维，存在着南辕北辙的尴尬局面—— <strong>而从用户的角度来看，产品、体验、价格这些真正重要的东西，却很容易被忽略了。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>正如阿里巴巴董事局主席蔡崇信在 2024 年 2 月接受采访时表示：&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>过去几年里，当我们做内部审视和自我反思时，我们知道阿里落后了，因为我们忘记了真正的客户是谁。我们的客户是使用 App 进行购物的人，而我们没有给他们最好的体验。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>同样道理，阿里巴巴在将银泰、高鑫零售（大润发）纳入到它的商业体系中<strong>，尽管有线上和线下的融合，但也并没有给相应的用户带来更好的体验——这是它被用户抛弃的核心原因。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>需要明确的是，实体零售是阿里巴巴布局新零售战略的关键一环，但并非全部。&nbsp;&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>毕竟，从阿里巴巴自身业务体系的角度来看，曾经衍生出 12 种零售业态的盒马，曾经是阿里巴巴布局新零售的一个关键触手。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>它可以说是阿里巴巴体系内从 0 到 1 诞生出来的新零售业务；目前在新任掌门人的带领和调整下，虽然不再强调新零售的标签，但它正在一定程度上呈现出向好的态势——<strong>对于阿里巴巴来说，它依旧重要。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250111/v2_d086e67eb56a44b386df081ac5683170@5483771_oswg845080oswg860oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>&nbsp;</p>
+  <p>而从外部视角来看，尽管「新零售」并未在阿里巴巴体系内取得预期的成功，但在马云提出这个概念的七八年后，它的确已经把线上线下融合和数字化的理念带入到整个社会零售行业， <strong>包括类似于山姆这样的外企商超，包括胖东来这样的本土零售品牌，无一不受惠于此。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>正所谓，<strong>新零售虽然没有成为阿里巴巴的「王谢堂前燕」，却在理念层面「飞入寻常百姓家」。</strong>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>回过头来看，某种程度上，阿里巴巴在新一轮管理层的带领下战略性放弃银泰、高鑫零售等业务，也是是它在新一轮的自我调整中回归自我、回归主业、回归用户价值的正确选择。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>同时，伴随着这一选择，新零售早已成为一个不再被阿里巴巴提及的词汇。&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>而马云当年的振臂一呼，也在历史的回顾中定格为阿里巴巴从推出新零售到退出新零售的整个过程中最令人唏嘘不已的一幕。&nbsp;</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-viwpYLY5mvYm1sChp0Phw" rel="noopener noreferrer nofollow" target="_blank">“智见 Time”</a>，作者：临泽</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117016033038596</id>
+            <title>造价35万元的E-bike被老外追捧，这个卷疯了的赛道仍有机会｜硬氪直击CES</title>
+            <link>https://www.36kr.com/p/3117016033038596</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117016033038596</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 02:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: E-bike, CES 2025, 自研, 爱玛科技  
+<br><br>  
+总结: CES 2025展会上，E-bike成为焦点，AI硬件产品和机器人虽多，但E-bike市场依然火热。中国企业与欧美老牌自行车厂商竞争激烈，初创公司Urtopia展示的Titanium Zero获得关注，强调自研技术的重要性。爱玛科技也推出多款E-bike，计划在美国市场扩展，但面临低价竞争和市场挑战。整体来看，E-bike行业尚未进入技术与市场的全面竞争阶段，未来仍有发展潜力。 </div>
+                        <hr>
+                    
+                    <p>作者&nbsp;|&nbsp;张子怡</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <p>一年一度的科技界春晚CES 2025即将落幕，不同于去年展会上备受关注、新品频出的E-bike，今年井喷的是AI相关的硬件产品和机器人大军。</p>
+  <p>这并不意味着E-bike的海外市场热潮有所消退。</p>
+  <p>E-bike的千亿市场里，欧美老牌自行车厂商纷纷加入战场，中国企业更是打得不分伯仲。</p>
+  <p>初创企业Urtopia在CES 2025展示的E-bike概念车——Titanium Zero，被美国主流科技媒体Engadget评为最佳CES大奖产品之一。Urtopia自研的微型中置驱动电机Quark DM 1.2，其小巧的体积和极轻的重量成为被评奖的重要理由。</p>
+  <p>CES 2025的展会上，爱玛科技一口气展示六款全新的E-bike，售价不超过2000美金，除此之外，它们还同意大利知名摩托车品牌Rizoma发布了联名概念车VENICE。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_3536a8470175487d8f74c2983d22ad27@5836910_oswg677796oswg831oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">E-bike的竞争还未到技术与市场双重军备竞赛的阶段。</p>
+  <p>同过去低调将E-bike产品投入北美市场相比，爱玛本次颇为声势浩大，用E-bike押注海外市场的决心不容小觑。</p>
+  <p>整个eBike赛道中，挤入了Urtopia等创业公司、大疆这样技术实力强悍的独角兽，如今传统企业爱玛也加入猎场。正如一位新能源两轮车创业者告诉36氪的，“现阶段，E-bike在海外市场是红海中的红海，卷王中的卷王。”</p>
+  <p>不过，E-bike的竞争还未到技术与市场双重军备竞赛的阶段， CES 2025上的E-bike仍有亮点，让人看到更多的可能性。</p>
+  <h3><strong>01 自研即王道</strong></h3>
+  <p>倘若简单的理解E-bike，其是传统自行车加三电系统（电机、电控和电池）的组合品。受益于新能源汽车浪潮的影响，三电系统背后的供应链已经十分成熟，几乎不需自研；至于生产端，传统自行车制造工厂也能包揽。</p>
+  <p>这也是新能源两轮车创业者认为E-bike难以竞争的原因，生产壁垒小，竞争者却众多。</p>
+  <p>在E-bike的核心组件「中置电机」方向，博世、禧玛诺、雅马哈等国外厂商的市场份额高达90%；在变速器方向，禧玛诺和sram更是占据了95%的市场份额。</p>
+  <p>E-bike在海外爆火的这些年里，让中国厂商意识到拼凑的产品已没有任何竞争优势，掌握核心技术和核心零部件的研发与生产，才有望在海外市场搏得一席之地。</p>
+  <p>本次CES 2025上颇受关注的Urtopia，公司成立于2021年，于去年7月完成千万美元的A轮融资，是不折不扣的E-bike出海新玩家。</p>
+  <p>Urtopia于CES 2024推出过一款接入Chatgpt，可实现同车辆对话的E-bike产品，该产品脑洞大开到让Engadget的编辑部们感慨。</p>
+  <p>到今年，Urtopia推出的Titanium Zero以3D打印概念车的形式亮相，其自研<strong>中置驱动电机</strong>成为产品最大亮点。</p>
+  <p>Titanium Zero整体重量约10kg，其搭载的Quark DM1.2（中置驱动电机），自身重量仅为1.18kg，小到可以放入底部支架内。该产品提供高达65 Nm的扭矩，使E-bike在欧洲达到25公里/小时(15.5英里/小时)的最高电动辅助速度，在美国达到32公里/小时(20英里/小时)。</p>
+  <p><strong>Urtopia表示由于Titanium Zero的造价高达5万美金</strong>，产品可能不会投入实际生产。但Quark DM1.2电机未来不仅可能用于Urtopia自身的产品，也有可能用于其他厂商的E-bike。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_7ce9afd57c4945009557c4fd9aa7b8de@5836910_oswg756094oswg831oswg552_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Titanium Zero（图源/企业）</p>
+  <p>Quark DM1.2电机从性能上而言，颇具中庸之道。它不如传统中置驱动电机具备强大动力，但它的功率输出又比最好的轮毂电机更大。足够小的电机也意味着它好移动，减轻骑手推车的负担。</p>
+  <p>对于E-bike厂商而言，自研驱动系统、电助力系统既让产品有了更多的可能性，也更具有竞争力。</p>
+  <p>早先，初创厂商特宙斯获得融资后的第一步也是开始自研中置电机；大疆去年7月推出的DJI Avinox，则是一款面向全球中高端E-bike整车品牌的电助力系统。</p>
+  <p>中置电机一般都会被用于中高端E-bike产品中，而E-bike厂商对于中置电机的下注，也再次表明E-bike产品持续朝轻量化、智能化、高端化的方向发展。</p>
+  <h3><strong>02 传统厂商入局</strong></h3>
+  <p>至于像爱玛科技这类电动两轮车的成熟厂商，迈向E-bike赛道的步伐注定不会太容易。</p>
+  <p>在CES 2025上，爱玛科技发布了七款E-bike，囊括城市通勤和越野骑行场景，售价不超过2000美金，<strong>电机同八方股份合作</strong>。</p>
+  <p>据美通社报道，爱玛科技今年计划在美国超过600个独立自行车经销商（IBD）网络中投放产品,并推出6款E-bike新品。</p>
+  <p>至于同Rizoma联名发布的概念车VENICE。配置上，VENICE搭载了TEKTRO 180mm液压碟刹，智能扭矩传感器能够根据踏频自动调整电机输出。此外，该车还配备了LG 21700电池和八方350W电机。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_1520205adabc4e518da75dc71d7042ac@5836910_oswg710640oswg830oswg651_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">爱玛推出的E-bike（图源/爱玛科技公众号）</p>
+  <p>虽是和意大利摩托车品牌的联名款产品，但性能配置却略显平平无奇。</p>
+  <p>E-bike的上游厂商中，博世和八方主导着驱动器的供应市场。八方的轮毂电机在市场上占据着显著的地位，也是因为博世在该类部件的单位成本比八方高出300到400美金。</p>
+  <p>36氪此前了解到，中置电机也同样如此，八方的厂商若采购八方中置电机只要300美金，而博世价格会到500美金。</p>
+  <p>在中国E-bike厂商整体朝高端化、智能化发展的趋势下，爱玛科技的E-bike很大可能走性价比路线。</p>
+  <p>尴尬的是，北美E-bike市场在2023年已经历过低价竞争，到2024年又经历了一波低价产品的清货阶段。</p>
+  <p>在爱玛科技本次发布众多新品前，公司曾在北美市场布局过E-bike电助力自行车胖胎车品牌Big Sur和城市通勤车品牌Santa Monica，反响整体平淡。</p>
+  <p>爱玛科技2024年半年报则显示，其国际业务营收达1.2亿元，同比上涨40.69%，而公司整体营收105.9亿元，国际业务带来的营收仅为1%。</p>
+  <p><strong>考虑到爱玛科技在海外业也发展电动两轮车业务，那么，E-bike给其带来的营收或许远远达不到1亿元。</strong></p>
+  <p>事实上，对于E-bike的发展，爱玛不如其做电动两轮车业务那般驾轻就熟，在产品研发、销售策略、渠道开发等方面都缺乏战略规划和执行方法。此次推出的产品也没跟上行业的趋势变化。</p>
+  <p>当然，爱玛科技拥有的优势是其充足的弹药，稳定成熟的生产线，这是初创企业无法比拟的优势。</p>
+  <p>E-bike始终是需要线下服务、售后的产品，倘若爱玛真的能实现在美国线下数百个经销商网络的开拓，或许也能在E-bike行业中有所作为。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117071091453956</id>
+            <title>瞄准沉浸式体验，索尼这项黑科技在CES 2025杀疯了？</title>
+            <link>https://www.36kr.com/p/3117071091453956</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117071091453956</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 01:58:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <沉浸式娱乐, VR技术, Z世代, 索尼>
+<br>
+<br>
+总结: 文章探讨了沉浸式娱乐的未来发展，指出VR技术在市场上的热度下降，主要原因是其高昂的成本和佩戴体验不佳。相对而言，AI眼镜等新技术更受欢迎。索尼推出的“未来沉浸式娱乐体验”概念，结合了立体显示、音效和气味模拟，旨在提升玩家的代入感。尽管沉浸式体验在市场上有广阔前景，但其高成本和技术实现的挑战仍需克服。Z世代年轻人对沉浸式体验的追求为这一领域带来了新的机遇。 </div>
+                        <hr>
+                    
+                    <p>对于未来的娱乐方式，我想很多人都通过《头号玩家》这部电影幻想过。</p>
+  <p>小雷看过那部电影，一家游戏公司构建了一个沉浸式的虚拟游戏世界“绿洲”，玩家只需要通过一套VR、操纵装备以及行走装备组成的娱乐系统，即可体验全沉浸的游戏世界。现实当中的VR厂商，也以此为蓝本发展。</p>
+  <p>今年的CES展会，雷科技报道团前往现场实地考察后发现，曾经大红大紫的VR眼镜，热度已经被更轻量、便宜、智能的AI眼镜盖过，带来VR新品的厂商少之又少。<strong>我们认为现阶段VR的软硬件技术还撑不起较为高昂的消费段位，同时过于厚重的佩戴体验也没有AI眼镜那样来得轻盈和灵活，这些是VR退烧的主要原因。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_625a0e9b1acb4ab5a5ab5fd7aafadb00@000000_oswg131057oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图片来自雷科技摄制）</p>
+  <p>但多维度的沉浸式娱乐体验仍然是AI时代下厂商重点探索的课题，交互方式、显示技术和计算能力的变革，娱乐产品突破了传统环境的限制，变得更具沉浸感、代入感，<strong>Z世代年轻人十分追捧这种多维度的感官刺激，相关的内容和技术还有很多机会。</strong></p>
+  <p>CES 2025会场上，就有一家国际大厂公布了一项名为“Future Immersive Entertainment Concept（未来沉浸式娱乐体验）”的概念技术，借助立体显示、沉浸音效和气味模拟，让用户真正“走进”游戏或影视内容的世界观当中。</p>
+  <h2><strong>黑科技亮相CES，索尼也盯上了沉浸式</strong></h2>
+  <p>这家国际大厂便是在主机游戏领域赫赫有名的索尼。</p>
+  <p>不同于传统的VR，索尼构建了一个大型的笼式空间，内部主要由高分辨率显示屏组成，并提供立体环绕音效，玩家的周围都会被游戏场景所包裹。<strong>基于《最后的生还者》的游戏玩法，玩家手持仿制的武器，向屏幕上出现的“感染者”射击。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_cd63bb7b40534d95b4b3ea8838712854@000000_oswg260237oswg1080oswg585_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图片来自索尼）</p>
+  <p>对于这样的生存冒险类游戏，传统的主机、电脑仅仅只是通过平面显示屏来提供画面，视觉和听觉是玩家与游戏世界之间为数不多的联系纽带，平面屏幕呈现的内容不够立体。有钱的玩家会通过扩大显示屏尺寸，升级环绕感更强的音频系统来增强代入感，但背后的设备购置成本并非所有人都能承担。</p>
+  <p>值得一提的是，除了沉浸式的视效和音效，空间内部还会根据游戏和场景释放对应的气味，以《最后的生还者》为例，玩家在体验游戏的过程当中，还会闻到腐烂真菌等令人不适的气味。<strong>索尼官方并未透露背后的技术细节，小雷认为要做到音效、视觉效果和气味释放三者之间做到完美匹配，是一项不小的任务。</strong></p>
+  <p>虽然只用《最后的生还者》做了技术演示，但这只是索尼“未来沉浸式体验”概念呈现的冰山一角，未来还可能与《战神》《地平线》等知名的PlayStation主机游戏IP结合展示。</p>
+  <p><strong>很显然，沉浸式娱乐并不是很新的概念，也不是VR的专属。</strong></p>
+  <p>不知道大家对拉斯维加斯的MSG Sphere是否有印象，就是外界俗称的“发光球”，它的外部和内部都由LED屏幕覆盖，外部的LED二极管可以显示2.56亿种颜色，内部则装有面积达15793平方米的LED内球面屏幕。</p>
+  <p>无论是内部还是外部，MSG Sphere都可以显示十分清晰、立体且有极强代入感的内容。一些看过内部舞台表演的网友表示，就好像真正进入了“某个世界”一样。这一点倒是和索尼的概念技术不谋而合。</p>
+  <p>其实在环球影城等主题乐园当中，也有不少类似的沉浸式游乐项目，玩家身处封闭的笼式空间，坐上类似过山车一样的座舱，并体验高空坠落、一飞冲天等虚拟内容。座舱本身并非像过山车一样大幅机动，只是通过各种立体显示内容和座舱的晃动，刺激玩家的感官。<strong>此外，近些年许多文旅景点也拿出了沉浸式体验的产品。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_78fc5a153a574950bddf8a269a344d6c@000000_oswg1274079oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图片来自豆包AI）</p>
+  <p>在小雷看来，索尼的概念技术本质上和这些沉浸式娱乐项目并无二致，甚至可以说有许多共通的地方。特色在于索尼能够将PlayStation当中的内容和沉浸式技术结合，用更具代入感的交互方式对外输出知名主机游戏的IP，不失为一种游戏资源的再利用。<strong>不过这项概念技术距离实际应用还有很远，并且成本极高，推广到大众市场面临诸多限制。</strong></p>
+  <p>另一方面，从技术布局来看，索尼的“未来沉浸式娱乐体验”，显然不是面向个人用户的“独乐乐”项目。</p>
+  <h2><strong>适配难、投入大，但沉浸式娱乐是大势所趋</strong></h2>
+  <p>沉浸式体验脱离传统显示的限制，近些年备受关注。美团大数据显示，沉浸式体验约75%的相关消费来自Z世代年轻人，他们对体验感、故事性、游戏性、艺术感等元素非常感兴趣。<strong>4D电影院、密室逃脱之类的沉浸式体验项目，小雷认为会越来越多。</strong></p>
+  <p>不过这些沉浸式体验类项目并非针对个人用户，而是一种面向广大人群的公共产品，特点就是“有独立的场所”。索尼的“未来沉浸式体验”也不例外，从“大型笼式空间”就能看到，它更像是一项依附于某个游乐场所或者独立开设的娱乐体验项目，而且建设成本应该不低。作为参考，拉斯维加斯的“发光球”就耗资23亿美元。</p>
+  <p><strong>小雷认为，索尼“未来沉浸式娱乐”技术推广的第一个挑战就是成本，</strong>毕竟不是简单的PlayStation游戏机体验室，按照索尼公布的演示当中，整个体验空间的面积不算很大，投入成本虽不比MSG Sphere，但场景搭建和设备购置，也是一笔不小的支出。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_309aee5a3a21455e8e9f1328acef35e7@000000_oswg669028oswg1080oswg521_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图片来自索尼）</p>
+  <p>重要的其实还是PlayStation游戏内容和硬件的协同表现，沉浸式体验是多维度的空间交互，要保证玩家在体验过程中的代入感，一旦显示、音效、气味当中的一环“穿帮”，沉浸感体验得打折扣。<strong>做好玩家与环境的交互体验，又或者让游戏画面更鲜活地出现在玩家面前，都是摆在索尼面前的巨大挑战。</strong></p>
+  <p>更何况，PlayStation的游戏阵容如此丰富，每个游戏的玩法和机制又不尽相同，光是把自家几个知名的IP大作搬进沉浸式体验室，小雷感觉都够索尼画好几年的饼。<strong>长远来看，这种体验厅也很适合推广沉浸式影视内容。</strong></p>
+  <p>但换来的应该是巨大的应用前景，从规模上看，研究公司The Insight Partners数据显示，2023年全球沉浸式娱乐市场达到875.1亿美元，到了2031年，这一数字会激增至5197.7亿美元。</p>
+  <p>前面也提到Z世代年轻人对体验感有所追求，提供多维感官冲击，让主机游戏以更沉浸的形式呈现，游戏内容不变，变的是新奇的游戏体验。<strong>索尼用沉浸式的思路推广自家游戏内容，乐观来讲也会给PlayStation主机和游戏带来一些积极意义。</strong></p>
+  <p>并且通过在世界各地开设沉浸式体验游戏厅吸引玩家，聚拢人气，兴许索尼还能靠收取体验费用，打开PlayStation业务的新增长。</p>
+  <h2><strong>锚定游戏服务，索尼要寻找新的增长点</strong></h2>
+  <p>主机游戏领域，索尼一直是头部之一，PlayStation游戏业务依旧是主力“吸金石”之一。最新财报显示，2024年上半年游戏和网络服务部门的净营销额达到1.9万亿日元，同比增长12%，营业收入达到2041亿日元，同比增长108%。</p>
+  <p>然而，PlayStation 5游戏主机和PS Plus订阅却在下跌，索尼发布的2024年第二季度财报显示，PS5主机的季度销量达到380万台，同比下跌22.45%。微软的Xbox Series X/S在性能、服务和游戏阵容给予了有利回击，另一方面，《游戏机销量报告》指出，<strong>许多潜在消费者在购买游戏机时更加谨慎，倾向选择性价比更高或者等待价格下降。</strong></p>
+  <p>在小雷看来，索尼游戏主机卖得较贵只是其次，游戏机必然少不了游戏阵容推动，尤其是独占的第一方游戏。</p>
+  <p>不过“独占”这一概念在2024年开始变得模糊，《最后的生还者 第一部分》《Returnal》等PlayStation游戏在发布之后不久就推出了PC版本。<strong>另外，《战神》《地平线》等知名游戏IP都有多平台发布的策略，一定程度上推动了游戏产品的销量，但也让购买PS游戏机这件事变得不那么必要。</strong></p>
+  <p>独占光环消褪，长久来看并不是一件好事，首先就不利于自家游戏硬件的销售。另一方面也能够看出，游戏内容多平台发布，索尼可能在转变策略，降低对硬件销售的依赖，把重心放在卖游戏和卖服务身上，而面向未来的沉浸式娱乐技术，想必也是也是增强服务体系的一部分，小雷不好说沉浸式体验能给索尼带来多少好处，毕竟连啥时候落地也不知道。</p>
+  <p><strong>对比传统VR，这一类沉浸式体验必然有它的优势，想玩只需要单次买门票进入就好，</strong>VR购置成本高，软件资源适配也不完善，小雷身边买过的小伙伴都说“买来就吃灰”，如此看来，不需要头戴设备也能沉浸体验的新玩法，更受市场欢迎吧，只能希望索尼不是只在CES 2025上放个视频画画饼，而是真把技术推出来。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU4NjEwNDU5MQ==&amp;mid=2247549648&amp;idx=2&amp;sn=efe7d72e279babe767d1be64f640721a&amp;chksm=fcdee072a7e9b00db308a66b3b45bd7e5bda0cf9b4ac162ae7cca21b243db3a273bd857b29f5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“价值研究所”（ID：jiazhiyanjiusuo）</a>，作者：茶督掌柜，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3117033091874304</id>
+            <title>CES上的汽车科技：车企集体押注AI，终将成为AI公司？</title>
+            <link>https://www.36kr.com/p/3117033091874304</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3117033091874304</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 00:48:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <CES 2025, 人工智能, 自动驾驶, 车企转型>
+<br>
+<br>
+总结: 2025年CES展会上，车企的竞争焦点从传统的电动化和智能化转向人工智能。各大车企纷纷将AI视为战略核心，力求在未来的市场中占据优势。英伟达和英特尔等芯片公司积极布局汽车业务，推动自动驾驶技术的发展。车企如理想、小鹏和蔚来等，明确表示将成为AI企业，而不仅仅是汽车制造商。未来，汽车将成为AI技术的载体，车企的成功与否将取决于其在AI领域的创新能力。 </div>
+                        <hr>
+                    
+                    <p>2025年1月7日-10日，一年一度的科技盛宴CES 2025在美国拉斯维加斯举行。作为世界三大科技展会之一，每年都有不少创意科技产品在CES上展出。<strong>今年，雷科技与旗下电车通派出更强大的报道团，跨越11000公里近距离观察了这场展会，为各位来带最新的科技资讯和行业动向。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_60f9a32275884ef3919235d68d4572ab@5687509_oswg3000132oswg4000oswg3000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图源：雷科技现场摄制）</p>
+  <p>&nbsp;</p>
+  <p>在CES落幕之际，我们也发现了汽车圈的几个新趋势，比如AI芯片公司加码汽车业务、丰田、本田等传统车企抱团自救等等。但如果把这几个趋势结合起来的话，可以总结成：<strong>车企间的较量，正从传统的电动化、智能化之争转向了一个全新的赛道：AI。</strong></p>
+  <p>&nbsp;</p>
+  <p>在互联网领域，“<strong>所有产品都值得用 AI 重做一遍</strong>”的理念已被广泛提及，目前来看，AI也在将汽车产品“重做一遍”。</p>
+  <p>&nbsp;</p>
+  <h2><strong>“双英”领衔，AI芯片巨头争相上车</strong></h2>
+  <p>&nbsp;</p>
+  <p>在CES&nbsp;2025上，英伟达CEO黄仁勋宣布：<strong>丰田汽车将在英伟达DRIVE AGX Orin平台上打造下一代自动驾驶汽车，运行英伟达DriveOS操作系统。</strong>借助英伟达的计算能力和AI技术，打造更安全、更智能的下一代自动驾驶汽车。</p>
+  <p>&nbsp;</p>
+  <p>此外，在发布会上英伟达还发布了全新一代汽车处理器智驾芯片“Thor”，并且会将Drive OS和Drive Thor集成到自动驾驶系统Aurora Drive中，计划在2027年量产SAE 4级自动驾驶系统。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_e0eabdd720d740fd8e2230584b96b7cd@5687509_oswg727336oswg4703oswg3138_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：雷科技</p>
+  <p>&nbsp;</p>
+  <p>除丰田外，自动驾驶技术公司Aurora、大陆集团也和英伟达宣布建立长期战略合作伙伴关系，大规模部署由英伟达DRIVE提供的无人驾驶卡车。在现场还展示了其他采用英伟达DRIVE AGX作为下一代高级驾驶辅助系统和自动驾驶汽车路线图的企业，包括比亚迪、理想汽车、蔚来、小米、极氪等都在其中。</p>
+  <p>&nbsp;</p>
+  <p>与英伟达相比，英特尔对于汽车业务的布局显得没那么激进，但也是“虽迟但到”。在今年的CES 2025上，英特尔推出了一套整车化的技术平台，其中包括自适应控制单元ACU U310、B系列车载独立显卡，<strong>并基于此推出了人工智能技术与AI大模型软件、电源管理以及区域化控制器解决方案。</strong></p>
+  <p>&nbsp;</p>
+  <p>英特尔公司副总裁Jack&nbsp;Weast指出：汽车行业正经历重大变革，软件定义架构的转型为行业带来了前所未有的机遇与挑战。英特尔凭借在数据中心、服务器和网络芯片领域的深厚积累，对软件定义架构有着深刻的理解与丰富的实践经验。如今将这些宝贵经验与先进技术带入汽车领域。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_1967f49cba004cae83964139f3d93ba4@5687509_oswg201195oswg1920oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图源：英特尔</p>
+  <p>&nbsp;</p>
+  <p>除了芯片公司外，据电车通不完全统计，本届CES展的参展车企中，超半数首发或展出了旗下AI智能座舱相关科技。</p>
+  <p>&nbsp;</p>
+  <p>举个例子，宝马在2025 CES展上全球首发新世代超感智能座舱——BMW首创全景iDrive和BMW新世代操作系统X。据宝马集团大中华区总裁兼首席执行官高翔透露：“<strong>BMW新世代的智能个人助理搭载与中国头部合作伙伴共同开发的AI大语言模型，将拥有更强大的交互功能。</strong>”</p>
+  <p>&nbsp;</p>
+  <p>极氪亦将“智能座舱”视为此次参展的重点内容之一，其宣布与高通携手合作，共同研发面向未来的智能座舱。<strong>极氪旗下车型目前已搭载由高通8295智能座舱计算平台驱动的Kr AI大模型系统，并支持OTA迭代升级。</strong></p>
+  <p>&nbsp;</p>
+  <h2><strong>车企都在成为AI公司？</strong></h2>
+  <p>&nbsp;</p>
+  <p>在AI浪潮下，车企无一不将人工智能视为战略版图的核心一环。比如“蔚小理”的做法与想法就出奇的一致，一致到让人怀疑他们三是不是事先商量好的。</p>
+  <p>&nbsp;</p>
+  <p>2023年1月，理想汽车发布全员信，明确表示企业愿景是：<strong>将在2030年成为全球领先的人工智能企业。</strong></p>
+  <p>&nbsp;</p>
+  <p>这里标个重点，是人工智能“企业”，而不是人工智能“车企”，一字之差，区别巨大。</p>
+  <p>&nbsp;</p>
+  <p>随后，在2024年末为期3天的理想AI Talk中，<strong>理想汽车正式发布了AI大模型产品”理想同学”，并再次宣告了理想汽车将成为人工智能企业的愿景。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_9b6452b53eb84aeab2d5291a97145e2f@5687509_oswg451602oswg2580oswg2796_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>&nbsp;图源：理想同学APP截图</p>
+  <p>&nbsp;</p>
+  <p>李想对于理想汽车成为人工智能企业的目标很坚定：<strong>公司的LOGO一直没有把“汽车”二字写上去，甚至目前运营公司还叫“北京车和家信息技术有限公司”，为的就是给这一品牌更多未来的想象空间。</strong></p>
+  <p>&nbsp;</p>
+  <p>目前，理想汽车围绕人工智能已经成立了人工智能技术委员会，这个委员会的核心成员，就是各条业务线的负责人，他们将围绕人工智能，重新思考自身业务的运营逻辑和方式，包括智能驾驶、智能空间、智能工业、智能商业。</p>
+  <p>&nbsp;</p>
+  <p>可以看出，<strong>“造车”并不是李想的最终目标，“造车”只是李想成为AI科技公司的入场券。</strong></p>
+  <p>&nbsp;</p>
+  <p>在AI这件事上，小鹏与李想也想到一块去了，甚至小鹏汽车的步子迈得更大。</p>
+  <p>&nbsp;</p>
+  <p>2024年的小鹏汽车科技日活动上，何小鹏宣布了接下来在五个领域的布局，包括AI汽车、AI计算芯片、AI OS系统，AI机器人和出行领域的新方式。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_acacc0fa65984321803c9d14033428c2@5687509_oswg746267oswg5277oswg3518_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图源：小鹏汽车&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>“多条腿走路”的局面，让小鹏看起来更像是一家科技公司，而造车则变得像“补贴家用”的副业。</p>
+  <p>&nbsp;</p>
+  <p>小鹏敢于“多线并行”的底气，或许来自于自主研发的图灵AI芯片，这是全球首颗可以同时应用于AI汽车、AI机器人、飞行汽车的芯片，这意味着小鹏能够以相对统一的成本，完成各AI领域的底层技术建设。</p>
+  <p>&nbsp;</p>
+  <p>截止2024年，小鹏汽车已经构建了端到端的大模型体系，包括神经网络XNet、规控大模型XPlanner和大语言模型XBrain，这些模型将全面应用于小鹏汽车的智能驾驶系统中。同时，小鹏汽车还计划在未来三年内利用大模型逐步实现城区+高速的自动驾驶，并在1000公里内仅需人工接管一次的目标下，不断提升自动驾驶的可靠性和安全性。</p>
+  <p>&nbsp;</p>
+  <p>目前，小鹏汽车已经明确了未来十年的方向：<strong>成为全球化的AI汽车公司。</strong></p>
+  <p>&nbsp;</p>
+  <p>而蔚来也是在2024年明确了AI的大方向。在2024蔚来创新科技日上，车的影子不多，AI 成了核心的主角，李斌向众人展示了一棵“AI大树”：5nm智驾芯片蔚来神玑NX9031、整车全域操作系统SkyOS·天枢、智能驾驶世界模型NWM、全新Banyan 3智能系统。</p>
+  <p>&nbsp;</p>
+  <p>同时李斌还表示：<strong>成功的智能电动车企，必须首先是一家成功的 AI 公司。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_0c86aebb7cb14171b599c76ef21ac6fd@5687509_oswg4056924oswg3840oswg2561_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图源：蔚来汽车</p>
+  <p>&nbsp;</p>
+  <p>不只是“蔚小理”等新势力察觉到了行业变化，比亚迪近期也成立了先进技术研发中心，包括 AI 实验室、AI 超算开发部、大数据平台部等，目的是加码AI和大模型的投入，为智能驾驶、智能座舱、双模（Dual Mode，DM 技术）等比亚迪集团核心业务提供算力、技术支持。</p>
+  <p>&nbsp;</p>
+  <p>短期来看，车企将 AI 作为提升汽车智驾、座舱等体验的基础能力；<strong>长期来看，汽车只是 AI 的载体之一，车企的终局是AI公司，卖车只是顺便的事。</strong>头部车企纷纷布局，这也意味着，未来谁掏不出 AI技术，基本就代表落后于同行。</p>
+  <p>&nbsp;</p>
+  <h2><strong>冲击万亿市值，仅靠卖车是不够的</strong></h2>
+  <p>&nbsp;</p>
+  <p>基于上述内容，小通大胆推测，<strong>2025年，车企们的造车逻辑将发生翻天覆地的变化。</strong></p>
+  <p>&nbsp;</p>
+  <p>车企们开始意识到，只有踏上 AI 浪潮、摇着自动驾驶大旗，才有机会跟上特斯拉的步伐。传统的竞争优势已不再足以支撑汽车企业的未来发展。</p>
+  <p>&nbsp;</p>
+  <p>2023 年，当特斯拉销量首次被比亚迪超越后，马斯克表示“特斯拉与比亚迪不是一类公司”，<strong>比亚迪是纯粹的汽车制造企业，而特斯拉是一家人工智能企业。</strong></p>
+  <p>&nbsp;</p>
+  <p>这其实就是特斯拉万亿美元市值背后的秘密。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d28b510bf79d4257846b1cd742f4e153@5687509_oswg2230974oswg2064oswg1392_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>&nbsp;</p>
+  <p>一家车企，仅靠卖车很难做到像特斯拉如此大体量，即便是全球汽车销量第一的丰田，或全球新能源销量第一的比亚迪，其市值都比不上“手下败将”特斯拉。</p>
+  <p>&nbsp;</p>
+  <p>截止1月8日，特斯拉总市值为1.27万亿美元，相比之下，丰田的总市值为2531.99美元，特斯拉是丰田的5倍，尽管丰田是全球汽车销冠。</p>
+  <p>&nbsp;</p>
+  <p>在市场估值的逻辑里，特斯拉一直包含着两部分：一部分是一家年销量 180 万的汽车企业；另一部分，是一家人工智能企业。</p>
+  <p>&nbsp;</p>
+  <p><strong>前者为特斯拉提供切实的收入，后者虽然短期内无法提供太多的收入，却支撑着特斯拉无限的想象力和市值。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_6d4e415061b446e58107981d6b75e922@5687509_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图源：特斯拉</p>
+  <p>&nbsp;</p>
+  <p>简单来说，丰田虽然卖得多，但市场对于丰田的期待就仅限于汽车行业，没有其他想象力。汽车卖得再多，也赶不上特斯拉的市值。</p>
+  <p>&nbsp;</p>
+  <p>我们再来看看全球车企市值排行，截止12月31日，特斯拉第一、丰田第二，你猜第三是谁？</p>
+  <p>&nbsp;</p>
+  <p>答案公布：第三是小米，总市值是1120.06亿美元。仅次于特斯拉与丰田，高于第四名的比亚迪。</p>
+  <p>&nbsp;</p>
+  <p>当然，小米第三难免给人一种“作弊”的嫌疑，因为小米不仅是一家汽车公司，同时还是科技公司、互联网公司，但这也恰恰证明了纯靠卖车很难往上爬，<strong>而未来类似小米这样“披着车企皮的科技公司”还会越来越多，“古典车企”将会被慢慢往下挤。</strong></p>
+  <p>&nbsp;</p>
+  <p>丰田也不是没意识到这个问题。早在2020年，丰田汽车提出“Woven City（编织之城）”的概念，即构建一个可持续发展的城市，将人工智能、先进机器人、自动驾驶汽车和智能家居在现实世界中展示。</p>
+  <p>&nbsp;</p>
+  <p>同时，丰田还计划向日本太空初创公司Interstellar Technologies Inc投资70亿日元（约合人民币3.2亿元），进一步显示了其向太空产业扩展的战略决心。</p>
+  <p>&nbsp;</p>
+  <p>只是在一系列的尝试之后收效甚微，远远不足以扭转消费者乃至资本市场对丰田的“刻板印象”。</p>
+  <p>&nbsp;</p>
+  <p>车企业务不断扩展的背后，是向未来出行科技公司转型的决心。未来，造车将只是这些科技公司的总多业务之一，<strong>而那些仅依赖卖车的“古典车企”，即便销量再高，也会被慢慢挤出other行列。</strong></p>
+  <p>&nbsp;</p>
+  <p>这也是为什么蔚小理等新势力，乃至比亚迪们都拼命想All in AI的原因，<strong>AI未必能提振销量，但AI能提振消费者的想象力</strong>，而一家“车企”只要还能给市场提供想象力，就代表着希望尚存，未来尚可一战。<br />&nbsp;</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116989372076290</id>
+            <title>一款“长在Instagram上”的App，上线3年赚了4000万美金</title>
+            <link>https://www.36kr.com/p/3116989372076290</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116989372076290</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Jan 2025 00:46:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: NGL, 匿名社交, 用户增长, 商业化  
+<br><br>  
+总结: 「NGL」是一款基于 Instagram 的匿名问答应用，自 2022 年以来在美国 iOS 下载榜上表现突出，全球月活用户稳定在 2500 万，累计下载量超过 2 亿次。其成功不仅验证了匿名社交的需求，还提升了该品类的商业潜力。联合创始人 Hunter Isaacson 通过早期创业经验和对 Z 世代社交的理解，推动了「NGL」的快速发展。尽管面临法律挑战和市场竞争，「NGL」依然保持了稳定的收入和用户基础，成为匿名社交领域的重要产品。 </div>
+                        <hr>
+                    
+                    <p>「NGL」是一款依托于 Instagram 进行匿名 Q&amp;A（问答）的 App，白鲸编辑部在 2022 年 6 月首次观察到其登顶美国？iOS 下载总榜。预想中这样一款功能单一，以青少年、匿名社交为标签的产品，或许很快会像它的很多“前辈”一样因为用户新鲜感褪去或商业化没能跑通而很快淡出视野，但结果却完全相反。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_09dc7fc81f694f52902519476533dc9a@000000_oswg83483oswg1080oswg264_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>点点数据显示，过去两年「NGL」的全球月活一直稳定在 2500 万上下，官方公布的累计下载量超过 2 亿次，总收入超过 4000 万美元。可以说，「NGL」是同期跑出的社交产品中生命力最为持久的一个，而它不仅验证了“匿名社交”的真需求，也抬升了这一品类单个产品月流水天花板。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_7000e34f27684d28991df69569bdda78@000000_oswg57258oswg931oswg415_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>NGL全球月活变化趋势｜图源：点点数据&nbsp;</p>
+  <p>在 AI 应用占据更多视野的今天，无论是匿名社交应用或是社交应用听起来可能都没有那么“性感”，但是「NGL」作为品类的“集大成者”，其在用户洞察、增长变现等方面还是提供了颇多值得借鉴的经验。在今天的文章中，白鲸编辑部结合联合创始人近期的对外交流，整理了「NGL」的成长历程和商业思考。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d1850b6115654c1db5b58bcfb2374943@000000_oswg4245oswg1029oswg81_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>师承Musical.ly前总裁，</strong></p>
+  <p><strong>20多岁的“创业老兵”</strong></p>
+  <p>「NGL」联合创始人 Hunter Isaacson 是一位起步很早的连续创业者，虽然打造「NGL」时他才刚 20 出头，但仅从履历上说，Hunter 当时已经是一位“创业老兵”了。&nbsp;</p>
+  <p>高中毕业后，Hunter 花了两年半的时间先后打造了基于地理位置的社交 App 「Leadr」和在线双人约会（Double Dating）App「Zoom University」。虽然这两款产品都没有取得商业意义上的成功，却让 Hunter 快速过完了年轻创业者可能踩的一些坑，比如过度依赖外包，拒绝和内行人交流以及依赖感性而非理性做决策等等。用 Hunter 的话说，他很庆幸是在年轻的时候经历了失败。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_aa09c8792fdc4a4586ddeae07f089d9d@000000_oswg543070oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2020年初上线的「Zoom University」｜图源：点点数据&nbsp;</p>
+  <p>值得一提的是，早期产品中已经渗透了 Hunter 对于 Z 世代社交的思考。以「Zoom University」为例，这是一个面向大学生的 2V2 实时视频约会平台，<strong>区别于常规 Dating App 中男性用户更多的情况，「Zoom University」一度做到 1:7 的男女性别比。</strong>对此，Hunter 的观察是当女生和她们的朋友在一起时往往会更放松，加之当时受疫情影响，大学生们对线上聚会兴趣高涨，「Zoom University」巅峰时期曾登上美国 iOS 社交下载榜 Top10，不过很快就因为没找到合适的商业化手段停止了更新。&nbsp;</p>
+  <p>2020 年 9 月，Hunter 加入了 9 Count 并于次年从当时就读的美国南加州大学退学。9 Count 是一家由 Musical.ly 前总裁 Alex Hofmann 创立的科技公司，早期成员也多为 Musical.ly 的前员工，Hofmann 本人亲自担任了 Hunter 的业界导师，在9 Count，Hunter 参与打造多款颇受关注的产品，比如全球下载量超 2000 万次的交友 App「Wink」、被称作美国增长最快的 Dating App「Summer」等。也正是这样的产品履历，让好友 Raj Vir 有了「NGL」的点子后立即决定拉他加入。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_cd560b2dfe7045b19318442cadca2804@000000_oswg147348oswg568oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Hunter参与打造的产品列表</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_52f4866bdec54756959e56db7206763a@000000_oswg4245oswg1029oswg81_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>前有「Sendit」，</strong></p>
+  <p><strong>一款站在“巨人”肩膀上的产品</strong></p>
+  <p>一切都需要从 2021 年 10 月 27 日说起，当天 Instagram 官宣了一个新功能，即日起所有用户都可以在快拍中发布链接。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d1d25a1ee27d4915bc8d7c59d315033d@000000_oswg321553oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Raj Vir 率先察觉到机会。因为他曾经以软件工程师的身份参与「Sendit」的外包开发，他太了解依托大社媒平台做匿名问答的商业潜力。「Sendit」于 2018 年发布，这是一款基于 Snapchat Story 开发的匿名问答应用，曾在海外青少年群体中风靡一时，点点数据显示，「Sendit」当时的月流水已经超过了 200 万美元，而在 Instagram 全面开放快拍功能后，完全有机会“再造一个 Sendit ”， Raj Vir 此时需要一个产品设计和增长的帮手，Hunter 就是最好的人选。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_6ad9185519234301b548393acfff27a6@000000_oswg91581oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从营收曲线上说，「NGL」颇有“青出&nbsp;</p>
+  <p>于蓝而胜于蓝”的架势｜图源：点点数据&nbsp;</p>
+  <p>他们大概在 3 周之内就完成了「NGL」的构建，产品也在 2021 年底就正式上线，不过随后的近半年时间里没有竞品出现、「NGL」并没有收获预期中的增长。Hunter 认为机制本身没有问题，<strong>最大难点其实在于 Instagram Story 添加链接的入口相较 Snapchat Story 更加隐蔽，大多数用户根本不知道怎么添加链接，他们止步于添加失败或者添加了错误的链接，而无法形成病毒式传播。</strong>那段时间他们做了很多细微的调整，比如添加某项指示的文字说明；将使用教程由可跳过改为不可跳过，提升用户添加 NGL 链接的成功率；正式由「ask.fun」更名为「NGL」，并将产品色由蓝白更新为类似 Instagram 的粉橘色，与平台“攀关系”。实际上团队也不清楚究竟是哪一项改动最终起作用了，「NGL」出人意料地率先在新西兰开始了冲榜，并在随后两个月席卷全球。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_89c51dc7321146f9a08b46b6df7e4d55@000000_oswg673191oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>「NGL」上的使用教程&nbsp;</p>
+  <p>Hunter 坦言，他们最早组建公司时只准备了 1 万美元的启动资金，其中的大部分还用在了购买域名上，增长方面确实并没有很多预算。团队曾尝试执行“尼基塔策略”（Nikita strategy），像「Gas」一样先突破美国各个高中，但始终没能达到大范围传播的规模，最终起作用的是一个 TikTok 视频。Hunter 强调，<strong>2022 年还是 TikTok 算法不太“严格”的时候，视频更容易进入全球的推荐流</strong>，预算有限的情况下，他们以按观看次数结算费用的方式与网红合作，结果还真的跑出了一支百万播放的视频。让人哭笑不得的是，由于这支爆火视频的结算费用高达几千美元，在预算的压力下团队最终让创作者提前下架了这支视频，但「NGL」已经完成了起飞。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_1fa8b12f687e4b758be75fa41add6f7c@000000_oswg285155oswg1080oswg638_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Appfigures 数据显示，&nbsp;</p>
+  <p>NGL一周内下载量超过31万次&nbsp;</p>
+  <p>团队始终把「NGL」视作一款工具产品，而不是社交平台，这导致了团队其实不太关注产品的留存数据。Hunter 说，<strong>即使用户在第一天就流失了也没有关系，因为「NGL」已经有所收获，无论用户是公开分享了产品，还是选择了付费。</strong>这听起来有点像“一锤子买卖”，Hunter 则将其称做 Magic Moment，在 60 秒内给用户多巴胺，然后迅速从用户那里拿到一些东西，「NGL」几乎将这一点做到了极致。</p>
+  <p>在定价设计上也充分贯彻了 Hunter 对 Magic Moment 的思考。「NGL」通过向用户揭秘匿名回应者的提示赚钱，此前白鲸编辑部对此的判断是用户很难为此长期付费，现在看来团队对此想得非常清楚，<strong>赚的就是用户冲动下单的花费。</strong>Hunter 的技巧是将全球市场按消费力分为 4-5 个梯度，然后通过分析各个梯度国家小额消费品的价格（比如冰淇淋），来找到适合的“冲动购买”定价区间，比如「NGL」在印尼最低一档的周订阅价格大概合 2.9 万印尼盾（约合 13.34 人民币），美国就需要花费 6.99 美元（51.03 人民币），相差近4倍。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_eb983d7c439447dd94f58a92ca84b98a@000000_oswg4245oswg1029oswg81_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>硬币反面，“达摩克利斯之剑” 终将落下？</strong></p>
+  <p>区别于我们观察到的众多爆火后光速坠落的产品，「NGL」在巅峰时期过去后保持了一个格外平稳的下载、营收曲线，第三方数据显示，「NGL」至今维持着百万美金左右的月流水。有趣的是， NGL 目前已经停止了社媒平台上几乎所有的运营动作，也不投放广告。Hunter 的解释是，匿名问答已经成为年轻一代社交生活的一部分，在累积的品牌影响力的助力下，新的年轻人不断加入，一部分老用户也会回来，一切都是自发产生的。而另一个层面的原因可能是，<strong>涉及未成年人的匿名社交品类“被迫”需要保持低调。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_40b1ea4ffd404091baa02348fab30c27@000000_oswg71568oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>「NGL」的下载变化曲线｜图源：点点数据&nbsp;</p>
+  <p>2022 年 7 月 1 日，「Sendit」开发公司 Iconic Hearts 起诉「NGL」联创 Raj Vir 不当竞争的诉状彻底揭开了这类产品的“遮羞布”。此前就有用户怀疑这类产品会自动向用户发送机器人消息，然后通过编造提示来刺激用户订阅，起诉状中直接将上述设计视作「Sendit」的“多年工作成果”，并列为「NGL」抄袭的关键罪证，表示“Iconic Hearts 经过多年的反复试验和迭代其产品，以优化其专有的促活消息系统，例如最佳发送时段、推送方式、设计和内容。”坐实了以上设计真实存在。</p>
+  <p>虽然不清楚为什么应用商店一直没有对「NGL」或者「Sendit」动手，但是来自官方的监管一直是横在这一品类头上的“达摩克利斯之剑”。今年 7 月，美国联邦贸易委员会正式以违反儿童互联网安全法要求「NGL」支付 450 万美元的和解金，主要罪名是明知道服务存在风险，仍积极向儿童及青少年营销；通过虚假信息和其他旨在增加付费用户数量的策略来欺骗用户；虚假的 AI 内容审核声明等。消息一出，「NGL」宣布了一系列举措，包括仅限 18 岁以上的用户使用，然而验证的方式只是在创建账号之前输入出生日期；备受争议的机器人消息，则用“将用不同颜色标记来自 NGL 和好友的消息”带过（用户也可以选择在不太醒目的设置栏关闭机器人消息）等等。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3NTQ4NjczNw==&amp;mid=2650666713&amp;idx=1&amp;sn=d41efc37705cc507dcb9075c5b17f1e4&amp;chksm=86fb31ea0adf03be007d6679d6ab4f582d8fc479f3008a7bb42e05afd576cabb8a77c7f8dbb4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“白鲸出海”（ID：baijingapp）</a>，作者：白鲸小编，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116841739145478</id>
+            <title>江苏泰州跑出超级隐形冠军：年入41亿，全国第一</title>
+            <link>https://www.36kr.com/p/3116841739145478</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116841739145478</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:53:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 海阳科技, 尼龙6切片, IPO, 市场竞争  
+<br><br>  
+总结: 海阳科技近日向深交所递交IPO申请，其核心产品尼龙6切片在尼龙工业丝行业中表现优异，2023年产量排名第一。公司起源于1966年，经过多次变更，现已成为高性能纤维及复合材料领域的重要企业。海阳科技的主营业务收入主要来自尼龙6切片、丝线和帘子布，且在行业标准制定方面积极参与。尽管面临国内外竞争压力，海阳科技凭借创新能力和稳定的客户合作关系，展现出良好的市场前景。未来，随着经济发展，尼龙6切片市场需求将持续增长。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_60f814f19c5c4e148de88836d50d0586@000000_oswg1093009oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>近日，来自江苏泰州市的海阳科技向深交所主板递表，即将冲刺IPO。</p>
+  <p>它的核心产品是尼龙6切片，主要用于生产尼龙纤维、工程塑料等，具有强度高、耐磨性好、耐热性高等优点，与传统产品相比，尼龙6切片在低温环境下具有更好的韧性和弹性。</p>
+  <p>根据中国化学纤维工业协会的数据，从2021年至2023年，海阳科技在尼龙工业丝行业产量上连续两年排名第三，并在2023年跃升至第二；而在尼龙6工业丝行业中，它更是连续两年占据第二的位置，并于2023年登顶第一。</p>
+  <p>这是一家怎样的神奇公司？</p>
+  <h2><strong>-01-</strong></h2>
+  <p>追溯海阳科技的发展历程，其起源可至1966年。彼时，为响应国家 “化纤代棉” 战略，泰州市合成纤维厂应运而生，起初主要生产锦纶丝，用于织造锦纶袜子。</p>
+  <p>然而，到了1972年前后，因原料供应及市场形势的变化，工厂调整生产方向，转而生产服装布料用丝。此后，经泰州市人民政府和南化集团公司批复同意，泰州市合成纤维厂并入南京化学工业集团有限公司，并更名为南化集团泰州化纤公司。</p>
+  <p>直至 2006 年 7 月 20 日，公司完成改制，设立江苏海阳化纤有限公司，这便是海阳科技的前身。2020 年，海阳化纤整体变更为海阳科技。</p>
+  <p>从产品结构来看，海阳科技的主营业务收入主要来源于尼龙 6 切片、尼龙 6 丝线和帘子布。</p>
+  <p>其中，帘子布又细分为尼龙 6 帘子布、涤纶帘子布和尼龙 66 帘子布。在 2021 年至 2024 年上半年期间，这些产品收入在主营业务收入中的占比分别达到 93.98%、94.38%、91.50% 和 87.72%，是公司的核心支柱产品。</p>
+  <p>就产品特性而言，海阳科技生产的尼龙 6 切片具有高流动性、易脱模、高可纺性、染色均匀等优点，在工程塑料、纺丝、薄膜等行业应用广泛。</p>
+  <p>尼龙 6 丝线则以高强、抗紫外、超耐候、多色系等特点著称，主要应用于远洋捕捞渔网、绳缆及户外休闲产品等领域。</p>
+  <p>而帘子布凭借其优异的抗冲击负荷性能，在车辆轮胎制造中发挥着关键作用，涵盖卡车轮胎、农用轮胎、自行车胎、摩托车胎和工程轮胎等斜交胎。</p>
+  <p>以轮胎制造为例，海阳科技生产的尼龙 6 帘子布被大量应用于高性能轮胎生产，此类轮胎在高速行驶和恶劣路况下性能稳定，能有效降低爆胎风险，显著提升行车安全性。</p>
+  <p>在市场表现方面，其尼龙 6 切片国内市场占有率为 5.60%，尼龙 6 帘子布为 15.71%，涤纶帘子布为 6.14%。</p>
+  <p>依据中国橡胶工业年鉴及中国化学纤维工业协会发布的信息，2021 年海阳科技产量在尼龙帘子布行业中位居第三，在尼龙 6 帘子布行业中排名第二；到 2023 年，在尼龙工业丝行业产量排名第二，在尼龙 6 工业丝行业登上榜首。</p>
+  <p>不仅如此，海阳科技在行业标准制定领域也积极作为，是 5 项国家标准、3 项行业标准及 3 项团体标准制定的重要起草单位。</p>
+  <p>截至招股说明书签署日，海阳科技已取得自主研发发明专利 25 项，合作研发发明专利 7 项，凭借突出的创新能力，先后荣获 “国家知识产权优势企业”“纺织行业创新示范科技型企业”“江苏省创新型领军企业” 等多项荣誉称号。</p>
+  <h2><strong>-02-</strong></h2>
+  <p>海阳科技所处的化工新材料领域，尤其是高性能纤维及其复合材料方向，属于典型的资金密集型行业，对生产工艺要求严苛，存在较高的资金壁垒、工艺壁垒和规模壁垒。</p>
+  <p>近年来，在国家政策的大力扶持下，随着环保意识的不断增强以及技术的持续进步，该行业迎来快速发展的黄金时期。原材料供应稳定，下游消费市场前景广阔，中国尼龙 6 行业呈现出蓬勃发展的态势。</p>
+  <p>在客户合作方面，海阳科技与巴斯夫、恩骅力、晓星集团、金发科技、华鼎股份等国内外知名大型化工、化纤、轮胎企业建立了长期稳定的合作关系。</p>
+  <p>对于这些大客户而言，海阳科技提供的高质量原材料不仅有效满足了其日常生产需求，还极大地促进了整个供应链效率的提升。</p>
+  <p>例如，通过与玲珑轮胎的深度合作，海阳科技不仅成为其重要的供应商之一，还助力后者优化产品结构，显著增强了市场竞争力。</p>
+  <p>在供应商管理上，海阳科技主要采购己内酰胺、涤纶丝等原材料。</p>
+  <p>恒申集团多年来一直是海阳科技的第一大供应商，2021 年至 2024 年上半年其采购金额占比分别为 39.00%、34.93%、36.30% 和 42.57%。</p>
+  <p>为确保原材料供应的稳定性和价格谈判优势，近年来公司积极拓展供应渠道，新增了华鲁恒升、兖矿能源、兰花科创等供应商。</p>
+  <p>在激烈的市场竞争中，海阳科技面临着来自国际和国内的双重挑战。</p>
+  <p>国际竞争对手如巴斯夫、帝斯曼、朗盛和恩骅力，它们在全球范围内拥有广泛的业务布局和强大的技术实力，产品线丰富多样，市场占有率较高。</p>
+  <p>国内竞争对手包括恒申集团、聚合顺、恒申新材、骏马化纤股份有限公司、海利得、恒天海龙、台华新材和华鼎股份等，这些企业在尼龙 6 切片、尼龙 6 丝线、帘子布等产品领域具有较强的市场竞争力，部分企业已成功上市，融资渠道多元，资金实力雄厚。</p>
+  <h2><strong>-03-</strong></h2>
+  <p>回顾海阳科技的经营业绩，2021 年至 2024 年上半年，其主营业务收入分别为 394019.11 万元、406281.58 万元、410643.08 万元和 273713.16 万元，占营业收入的比例依次为 99.84%、99.89%、99.85% 和 99.81%。公司净利润分别为 28248.94 万元、16652.79 万元、14004.65 万元和 8124.72 万元。</p>
+  <p>其中，2022 年净利润出现较大幅度下滑，主要原因是境内帘子布产品供需关系发生变化。2021年，由于海外帘子布产能受限，帘子布产品供不应求，且当年国内己内酰胺价格低于境外，推动帘子布产品单价大幅上涨。但随着尼龙 6 帘子布境内供需恢复正常，产品单价有所回落，进而导致2022 年、2023年净利润下滑。</p>
+  <p>2024 年上半年形势回暖，营业收入较上年同期增长 48.28%，净利润同比增长 43.03%。</p>
+  <p>据化纤信息网统计数据显示，2023 年我国尼龙 6 切片产量达到 502.50 万吨，表观消费量达到 476.90 万吨，年复合增长率分别为 10.00% 和 7.01%，且进口依赖度逐年递减，从 2018 年的 11.15% 降至 2023 年的 4.68%。</p>
+  <p>未来，随着中国经济发展和居民生活水平提升，尼龙6切片市场需求将继续增长，行业发展前景广阔未来，随着中国经济发展和居民生活水平提升，尼龙6切片市场需求将继续增长，行业发展前景广阔。</p>
+  <p>本文不构成任何投资建议。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652511534&amp;idx=1&amp;sn=236cbda7c3dc7a4bba1a3b265d31f02b&amp;chksm=f3408cf4487e2d1538640f1d3d326d107f0f0fb7946e60067991459a411549b46406b8c1c65b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”（ID：pencilnews）</a>，作者：海有梦，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116717030904067</id>
+            <title>OpenAI劲敌拟融资20亿美元背后：大模型融资竞赛提速，“AI六小龙”齐让路大厂？</title>
+            <link>https://www.36kr.com/p/3116717030904067</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116717030904067</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:52:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 人工智能, 融资, Anthropic, 估值  
+<br><br>  
+总结: 近日，人工智能公司Anthropic正在进行20亿美元的融资谈判，估值将达到600亿美元，成为美国估值最高的创业公司之一。自2021年成立以来，Anthropic已获得超过113亿美元的资金，主要来自亚马逊、谷歌等科技巨头。其大语言模型Claude被视为OpenAI ChatGPT的主要竞争对手，年化收入约为8.75亿美元。与OpenAI相比，Anthropic的市场期待更高，估值/收入比达到68.6倍。国内模型厂商也在进行融资，但部分公司已减少对预训练模型的投入，转向AI应用。 </div>
+                        <hr>
+                    
+                    <p>近日，有报道称人工智能领域新星Anthropic正在进行一笔高达20亿美元的融资谈判，该轮融资由Lightspeed Venture Partners（光速创投）领投。</p>
+  <p>自2021年成立以来，Anthropic已从Menlo Park Ventures等VC以及亚马逊、谷歌和 Salesforce等科技巨头获得超过113亿美元的资金。最新一轮融资完成后，Anthropic估值将达到600亿美元，较一年前的180亿美元估值翻了三倍多。600亿美元的估值意味着Anthropic将跻身美国估值最高的五大创业公司，仅次于SpaceX、OpenAI、Stripe和Databricks。</p>
+  <p>最近，海内外模型厂商相继开启了新一轮融资。上个月，马斯克的大模型平台xAI完成了60亿美元的C轮融资，市场估值超过400亿美元。国内模型厂商方面，2024年12月11日，面壁智能宣布完成新一轮数亿元融资；12月17日，智谱AI获得新一轮30亿元融资；12月23日，阶跃星辰完成了数亿美元的B轮融资。</p>
+  <p>火热背后，传出异动。李开复创立的零一万物被曝要将团队整体打包卖给阿里，虽然李开复连夜在朋友圈辟谣否认出售，但零一万物明显减少了对基础大模型的押注。多位投资人、业内高管向时代周报记者透露，“AI六小龙”普遍已不在预训练方面倾斜更多精力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b0d47763b328410087da5c633d36664d@000000_oswg74835oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">△图源：Pixabay</p>
+  <h2><strong>Anthropic的市场期待，已高于OpenAI？</strong></h2>
+  <p>Anthropic由一对在美国旧金山的意大利裔美籍兄妹创立，两人都是OpenAI的早期员工。公司成立两个月后，A轮融资就筹集了1.24亿美元；一年后拿下5.8亿美元的B轮融资，团队随之扩展到40多人。</p>
+  <p>Anthropic的大语言模型Claude，被认为是OpenAI ChatGPT的最大竞争对手。Claude主要被应用在B端销售、营销和客户服务等领域。据了解，Anthropic目前的年化收入约为8.75亿美元，主要来自B端客户，按照600亿美元估值计算，Anthropic估值/收入比约68.6倍；OpenAI的最新估值为1570亿美元，预计2024年收入为37亿美元，估值/收入比约为42.4倍，这意味着市场对Anthropic寄予了高度期待。</p>
+  <p>与背靠微软的OpenAI相比，Anthropic背后的支持者并不逊色，这些公司都希望全力争夺未来十年内市场收入超过1万亿美元的AI份额。</p>
+  <p>作为Anthropic的重要支持者，亚马逊在去年11月追加了40亿美元投资，成为Anthropic的最大投资者。同时，Anthropic也承诺使用亚马逊云科技的自研芯片Trainium和 Inferentia来训练和部署其人工智能模型；谷歌此前也表示向Anthropic投资20亿美元，并已确认持有该公司10%的股份，同时两家公司之间签订了一份大型云计算合同。</p>
+  <p>Anthropic在去年加大了研发力度，技术和产品迭代加速。去年9月，Anthropic推出了Claude Enterprise，这是自其聊天机器人Claude问世以来最大的产品更新，专为希望将人工智能技术集成到业务中的企业设计。早些时候，Anthropic还推出了更强大的AI模型Claude 3.5 Sonnet。</p>
+  <p>2024年10月，Anthropic宣布其AI智能体能够像人类一样使用计算机完成复杂任务。据介绍，Anthropic的“计算机使用能力”新功能使其能够与计算机界面交互，解读计算机屏幕上的信息、选择按钮、输入文本、导航网站并通过任何软件和实时互联网浏览执行任务，这为实现更智能化的工作流程奠定了基础。</p>
+  <h2><strong>国内独角兽“让路”大厂</strong></h2>
+  <p>Anthropic和OpenAI的大参数模型对外发布速度已经放缓。</p>
+  <p>Anthropic Claude系列模型从大到小，分为Opus、Sonnet和Haiku 3个版本。Claude 3发布了全部 3个版本，而 Claude 3.5 目前只对外发布了Sonnet和Haiku。同样地，GPT-5（或GPT-4.5）也迟迟未出现在大众眼前。</p>
+  <p>据了解，Opus模型和GPT-5均在内部取得了良好的测试效果，但因效果无法与成本匹配都被内部当作“教师模型”使用，即在内部扮演提升小模型性能的角色。</p>
+  <p>对大参数模型，国外创企尚在坚持，国内独角兽已“让路”大厂。</p>
+  <p>1月6日晚，有消息称零一万物将把预训练团队和算力资源打包出售给阿里云。随后，第一财经也报道，“阿里云正在洽谈收购零一万物的预训练团队，已谈好报价。”彼时，阿里云未对该消息作出回应。</p>
+  <p>零一万物CEO李开复很快在朋友圈辟谣称，“不知为什么会有这样的谣言散播，不过散的快，撤的也快。”零一万物公众号在凌晨发布官方回应，否认“阿里收购零一万物”。后据界面新闻和智能涌现报道，相比于“零一万物出售预训练团队”的说法，更接近事实的是，零一万物的确在进行预训练团队及Infra团队的调整，部分人员以跳槽形式加入阿里旗下公司。其中预训练算法团队获得通义团队offer，Infra团队则获得阿⾥云offer。</p>
+  <p>1月7日，李开复回应表示，只有大厂能够“烧”超大模型，零一万物内部愿意继续训练超大参数模型的成员，加入了零一万物和阿里云成立的“产业大模型联合实验室”。</p>
+  <p>去年5月，在零一万物发布千亿参数模型Yi-Large时，李开复还宣布公司已经启动下一代万亿参数Yi-XLarge MoE模型训练。当时，智谱、MiniMax、百川、月之暗面、零一万物、阶跃星辰在内的“AI六小龙”也在全力追逐AGI。</p>
+  <p>困扰李开复的“预训练”是什么？所谓“预训练（pre-train）”，指对大模型的基础教育，即赋予模型海量而通用的知识，来决定模型性能，这是模型厂商最核心的技术壁垒。而狂堆参数的Scaling Law，目前是预训练的主流路径，同时也意味着高昂且持续的算力和数据投入。</p>
+  <p>马斯克曾估算，GPT-5的训练可能需要3万-5万张H100，仅芯片成本就超过7亿美元（约50亿元人民币）。对于尚未规模化盈利的创业公司而言，继续堆参数训练模型，要跨越高企的资金门槛。</p>
+  <p>大模型发展至今，边际效应显现。李开复表示，去年9、10月时，公司看到Scaling Law明显进入 diminishing return（收益递减）。不是说用更多算力和数据做不出进步，而是进步不符合投资回报，“从一张卡加到10张卡时，可以达到9.5张卡的价值，但从10万张卡加到100万张卡，也许只能达到30万张卡的价值”。</p>
+  <p>事实上，去年10月就有报道称，“AI六小龙”中已有两家公司逐步放弃预训练模型，缩减预训练算法团队人数，业务重心转向AI应用。</p>
+  <p>“当下的技术路径很容易同质化和到达瓶颈，再多投入也可能无法建立有效壁垒。”一名业内高管告诉时代周报记者，“去年大部分人不是这样预期的。当时，大家认为领先的大模型会步步领先，AGI会很快到来。如果该预期能实现，那的确应该在训练上死砸资金。至于资金实力强如Open AI和Anthropic的这类企业想实现‘暴力美学’，更多要看下一代技术框架能在什么时间诞生”。</p>
+  <p>从一级市场资金流向来看，侧重落地的细分领域AIGC投融资情况相对乐观。IT桔子的数据显示，2024年全年，国内人工智能行业投资事件466个，投资金额634亿元，相比2023年分别减少27%、9%；细分领域AIGC方面，国内AIGC投资事件117个，同比减少26个，投资金额370亿元，增加164.82亿元，平均每个投资事件投资金额增加了一倍。</p>
+  <p>“从资金消耗程度来看，训练模型比开发推广应用要大。”上述高管向时代周报记者解释，投流获客和推理算力是应用层两大成本。不过，这两项成本支出的高与低，企业在策略推进上有较大的自主权和灵活性。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653322591&amp;idx=2&amp;sn=08746e05769438a0e41967b3f090d129&amp;chksm=bc3c7c828187d528a112076d524033534ccbbc5dafe38e7699dd717322ecf2b745f41ab9e2d0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：申谨睿，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116761869483782</id>
+            <title>A股人形机器人涨翻天：背后有哪些机构？</title>
+            <link>https://www.36kr.com/p/3116761869483782</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116761869483782</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:35:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 人形机器人, A股, CES2025, 投资热度  
+<br><br>  
+总结: 2025年元旦后，A股市场出现下跌，但人形机器人概念股在CES2025展会期间逆势上涨，成为市场亮点。展会展示了人工智能等前沿技术，吸引了投资者的关注。中央发布的养老服务改革意见也推动了相关概念股的上涨。多家机构预测，未来人形机器人市场将快速增长，特斯拉等企业将进入量产阶段。尽管短期内个股反弹明显，但后续市场能否持续吸引资金仍需关注。 </div>
+                        <hr>
+                    
+                    <p>2025年元旦后第一周，A股出现快速下跌；第二周，横盘震荡后继续下跌。</p>
+  <p>不过，就在市场一片愁云惨淡时，人形机器人概念股却像横空出世的孙悟空，在二级市场涨翻了天。从1月7日下午开始，一直到1月10日上午，这个热点就连续走强，成为绿油油的大盘上一抹靓丽的红色。截至10日收盘，人形机器人概念当周上涨9.77%</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_67e777cfa45e43bda4630f7223f8636e@5463445_oswg15595oswg716oswg525_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>场外最大诱因</strong></h2>
+  <p>提起人形机器人概念本周的这波大涨，最直接的诱因，应该就是美国当地时间1月7日至10日，在拉斯维加斯开幕的2025 CES全球消费电子展。</p>
+  <p>会上，来自166个国家和地区、包括323家《财富》世界500强企业在内的数千家企业汇聚于此，展示从改变游戏规则的人工智能(AI)、量子计算到尖端的数字健康解决方案等最新成果。其中，AI无疑是2025年CES热度最高的核心议题。</p>
+  <p>有记者现场采访发现，从AI芯片到AI技术驱动支持的新应用与解决方案，在本届CES展会现场随处可见。</p>
+  <p>这几年，A股炒作一向是对海外热点的折射，这一次人形机器人概念的上涨也不例外。</p>
+  <p>因为时差关系，北京时间1月7日，2025 CES展会尚未开幕。</p>
+  <p>不过，国内游资按捺不住，1月7日午后，就将A股人形机器人概念拉了起来，当日这个板块收出涨幅3.54%的光头阳线，带动大盘收出下影线，创业板指甚至翻红。</p>
+  <h2><strong>4个交易日一飞冲天</strong></h2>
+  <p>1月7日晚间，中央《关于深化养老服务改革发展的意见》发布，提出研究设立养老服务相关国家科技重大项目，重点推动人形机器人、脑机接口、人工智能等技术产品研发应用。</p>
+  <p>消息传出，8日A股一开盘，养老机器人概念股麦迪科技（603990.SH）就一字涨停。据悉，这家公司与优必选合作开发康养机器人，目前已经和优必选合资成立机器人公司。</p>
+  <p>美国当地时间1月7日，英伟达董事长黄仁勋在2025年CES年会上宣布，英伟达的下一阶段目标是physical AI，同时发布了Cosmos世界基础模型。</p>
+  <p>中信证券认为，从2023年黄仁勋提出具身智能概念，到2024年组建团队GEAR专门研究通用具身智能，到2025年明确提出下阶段的战略规划在physical AI，英伟达公司在具身智能即机器人的投入层层加码，一方面公司作为“卖铲子”的环节会加速下游机器人本体的进步，另一方面，大厂的all in态度也有望激发科技圈对机器人的投资内卷，从而引爆行业热度。</p>
+  <p>当天上午，大盘单边下跌，市场愁云惨淡。</p>
+  <p>午后，在人形机器人概念带动下，大盘指数探底回升，上证指数从跌近1.6%至一度翻红，创业板指数更是从跌超3%到大幅反弹。当日，人形机器人概念从跌超2.7%，到一度涨超4.7%，区间反弹幅度超7%,减速器、执行器、PEEK、机器视觉等相关概念股全线走高。</p>
+  <p>美国当地时间1月8日，在CES2025的展会现场，中国公司宇树科技工作人员称，“我们带来的所有样机，都已经全部销售出去了。”</p>
+  <p>目前在海外市场，机器狗的售价在2000美元（约合人民币1.46万元）起，机器人的售价16000美元（约合人民币11.73万元）起步。</p>
+  <p>当日，马斯克在连线采访中表示，特斯拉人形机器人擎天柱(Optimus)将是有史以来最大的产品。如果一切进展顺利，今年生产5万~10万个人形机器人，然后在2026年再增加10倍。</p>
+  <p>受这些消息刺激，1月9日A股人形机器人概念继续高歌猛进，当日大涨3.61%，并带动了PCB等相关人工智能概念股大涨。</p>
+  <p>1月10日上午，人形机器人继续上攻，多只个股涨停。10点50前后，板块最高上涨5.38%，随后开始回落。当日收盘，板块涨幅0.94%，呈现明显的冲高回落走势。</p>
+  <p>即使如此，当日依然有4只个股涨停，其中，麦迪科技连续第3个交易日涨停。</p>
+  <h2><strong>当周6只股涨超30%</strong></h2>
+  <p>本周是新年后第二周，数据显示，沪深300指数下跌1.13%，但有6只人形机器人概念股涨超30%。其中，北交所、科创板各1只，其余多是创业板与上交所主板公司。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_a7d43001044d4aa28ef6ccb8d9fe04d5@5463445_oswg15738oswg270oswg325_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>三季报显示，这一波涨幅较好的人形机器人概念股中，前10股东里公募基金出现多次。</p>
+  <p>以涨幅最大的肇民科技（301000.SZ）为例，三季度末，其股东前10中不仅有1只前海私募，1只养老基金，还有3只公募,基金，分别是：鹏华新能源汽车主题混合基金、鹏华碳中和主题混合基金、华宝动力组合混合基金。</p>
+  <p>不过，连续3天涨停的麦迪科技，截至3季度末，股东里没有发现公募基金的影子。也许是因为其业绩不好，2023年每股亏损0.88元，2024年三季报每股继续亏损0.546元，因此，没能进入基金股票池。</p>
+  <p>值得关注的是，震裕科技（300953.SZ）、五洲新春（603667.SH）的股东里出现大量外资机构影子。其中，五洲新春股东中，外资机构持股数量较大。截至2024年8月16日，安信国际、美国花旗、高盛亚洲、摩根士丹利香港、摩根大通均持有10万股以上。</p>
+  <p>几乎与此同时，去年三季度末，有16只国内公募基金持有五洲新春，总计2214万股，其中，富国天瑞强势混合基金最多，持有535.1万股。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b1450a108c5e4e9cb8c64e631f90a6b5@5463445_oswg47526oswg742oswg554_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>机器人概念后市走势分析</strong></h2>
+  <p>对于机器人概念后期走势，多家机构近期纷纷发声。</p>
+  <p>高工机器人产业研究所（GGII）预测，2024年全球人形机器人市场规模为10.17亿美元，到2030年全球人形机器人市场规模将达到151亿美元，2024年~2030年复合增长率将超过56%，全球人形机器人销量将从1.19万台增长至60.57万台。</p>
+  <p>华安证券认为，2025年人形机器人将进入量产元年，其中特斯拉optimus有望进入小批量量产阶段，将有数千台人形机器人落地在内部工厂运行，2026年有望对外销售。Figure、1X、宇树、智元、开普勒、优必选等国内外机器人领先企业已经先后开启人形机器人的量产。</p>
+  <p>中信证券表示，机器人项目加速，可以重点关注特斯拉机器人产业链的核心环节，建议重点关注：1）总成；2）减速器；3）丝杠；4）灵巧手。建议关注其他重要环节玩家。</p>
+  <p>国海证券指出，2024年，国内人形机器人行业经过技术积累+政策刺激，复合影响因素的传导效应开始显现。2025年，厂商相继入场机器人本体制造，大厂持续布局AI大模型，全行业加速人形产链建设和商业化落地。不过，需注意的是，机器人概念在经历了短期暴力反弹后，部分个股已经弹升至前高附近，后续或面临着在短线获利盘与前期套牢盘双重的考验，是否仍有足够的资金愿意进场接力仍是后续关注的重点。</p>
+  <p>本文来自“派财经”，作者：淮上月，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116842175123456</id>
+            <title>新疆乌苏杀出超级IPO：年入11.38亿，全国第一，打破垄断</title>
+            <link>https://www.36kr.com/p/3116842175123456</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116842175123456</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:31:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <钵施然, 棉花收获机, 农机制造, IPO>
+<br>
+<br>
+总结: 钵施然是一家位于新疆塔城地区的高端智能农机制造公司，专注于棉花收获机的生产。其核心产品棉花收获机在市场上表现优异，自2019年以来销量连续五年位居全国第一，市场占有率逐年保持在高水平。公司创始人陈勇在农业机械领域取得成功，推动了棉花种植的机械化进程。钵施然的产品在采摘效率和质量上优于传统人工方式，并且具备多项自主核心技术。随着国家对农业现代化的重视，钵施然的市场前景广阔，且已开始国际化发展。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_a3277a66a7d249b699e66c47dd0f2cb8@000000_oswg316072oswg897oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>近日，来自新疆塔城地区乌苏市的钵施然正式向上交所主板递表，即将冲刺IPO。</p>
+  <p>这是一家高端智能农机制造领域的超级隐形冠军。</p>
+  <p>钵施然的核心产品棉花收获机，这是一种专门用于采摘棉花的大型机械设备。相较于传统的人工采摘方式，它不仅提高了效率，还降低了劳动强度，并且能够保证棉花的质量不受损害。</p>
+  <p>数据显示，自2019年起，钵施然的棉花收获机销量已连续5年位居全国市场榜首。在2021年至2023年期间，其国内市场占有率分别达到 54.16%、43.00%和 39.91%，在棉花收获机领域稳稳占据国内市场龙头之位。</p>
+  <p>这是一家怎样的神奇公司？</p>
+  <h2><strong>-01-</strong></h2>
+  <p>钵施然位于新疆塔城地区乌苏市。</p>
+  <p>公司创始人陈勇先生本是湖北人，他在2009年于浙江嘉兴创业并在园林机械生产和出口领域取得巨大成功后，因关注到国家对农业的高度重视以及对农业现代化水平的新要求，将目光投向农业机械领域，尤其是采棉机的生产制造，并亲赴新疆。</p>
+  <p>他在浙江的企业成立了“农机事业部”，同年，作为“钵施然”总部的第一家工厂，同时也是援疆企业的新疆钵施然智能农机股份有限公司正式成立。</p>
+  <p>目前，钵施然的主要产品棉花收获机在主营业务收入中占比颇高，2024年上半年占比高达94.78%。棉花收获机作为实现棉花种植全程机械化的关键设备，用于成熟籽棉的采摘作业。</p>
+  <p>与市面同类型产品相比，钵施然在采摘头、液压传动、除杂装置等方面掌握了多项自主核心技术，产品的采净率、含杂率、棉绒损伤率等关键性能指标达到业内较高水平。</p>
+  <p>一组数据更好说明：其棉花收获机的采净率可达≥97%，而国家标准为≥93%；含杂率≤5%，国家标准为≤11%；表层拾净率高达82%，优于国家标准的80%。</p>
+  <p>与传统的人工采摘相比，钵施然的棉花收获机能够大幅提高采摘效率，降低劳动强度，同时减少棉花在采摘过程中的损伤，且能更好地适应国内棉花种植的农艺特点和地理环境，为国内棉花种植户提供了更合适的机械化采收解决方案。</p>
+  <p>此外，钵施然还推出了打包式棉花收获机，这种机型在采摘的同时能够将棉花打包，进一步提升了作业效率和便利性。</p>
+  <p>在市场份额方面，2019年以来，钵施然棉花收获机销量连续 5 年排名全国市场第一，2021 年至 2023 年，国内市场占有率分别为 54.16%、43.00%和39.91%。</p>
+  <p>在棉花种植机械这一细分领域，钵施然打破了该领域被进口品牌高度垄断的市场格局。实现了棉花种植全程机械化中最为关键的采收设备的国产化。</p>
+  <p>在新疆地区，钵施然的三行箱式棉花收获机、三行打包式棉花收获机、六行打包式棉花收获机等主要机型在市场上占据重要地位，已经成为许多农场的首选设备。</p>
+  <h2><strong>-02-</strong></h2>
+  <p>特别值得一提的是，钵施然生产的六行包采棉机成为亮点之一。</p>
+  <p>这种机器集采摘、压缩、打包等功能于一体，一台设备可以替代大约1500名手工劳动者的工作量，大大提高了工作效率，降低了人力成本。</p>
+  <p>更重要的是，它比进口同类产品便宜约300万元人民币左右，这使得更多中小型农场能够负担得起先进的农业机械，促进了农业生产的规模化经营。</p>
+  <p>钵施然所处的赛道是农业机械制造行业，特别是高端智能农机领域。</p>
+  <p>近年来，随着国家对于乡村振兴战略的重视程度不断提高，加上科技进步带来的机遇，使得这个行业逐渐由红海转向蓝海。</p>
+  <p>尤其是在智能化、自动化装备方面，国内市场需求旺盛，而供给端则相对不足情况下，发展潜力巨大。</p>
+  <p>在客户方面，主要包括自然人、农民合作社、农机销售公司、农机制造公司及农机服务公司为主。2024年前三季度，农机制造公司贡献了61.61%的主营业务收入，金额达50763.02万元。</p>
+  <p>同时，钵施然也走向了国际化，2023年创下54台四行箱式采棉机出口乌兹别克斯坦的业绩，总出口金额超8000万元。此外，钵施然的产品还远销至中亚五国及澳大利亚、埃及等多个国家和地区。</p>
+  <p>供应商方面，公司主要依赖于上海辛金路流体技术有限公司、浙江亚嘉采棉机配件有限公司、康明斯智慧供应链（上海）有限公司等企业。</p>
+  <p>2024前三季度，前五大供应商采购总额为10135.68万元，占总采购额的30.94%。其中，上海辛金路流体技术有限公司以2811.60万元的采购额位居首位，占采购总额的8.58%。</p>
+  <p>竞争对手方面，公司的主要竞争对手包括进口品牌和少数国内企业。</p>
+  <p>进口品牌如约翰迪尔、凯斯纽荷兰等外资品牌，长期占据市场主导地位，凭借其先进的技术、成熟的产品和品牌影响力，对公司构成较大竞争压力。</p>
+  <p>国内竞争对手方面，尽管数量不多，但部分企业如星光农机、现代农装等也在逐步提升自身的技术水平和市场占有率。这些企业主要通过经销模式销售产品，与公司以直销为主的销售模式形成差异化竞争。</p>
+  <h2><strong>-03-</strong></h2>
+  <p>财务方面，2021年至2024前三季度，钵施然营业收入分别为 72691.69万元、113772.65万元、98916.78万元和 82738.05万元。其中，主要为棉花收获机销售收入，棉花收获机销售收入分别为64489.26万元、103398.92万元、88553.41 万元和78091.60万元；同期净利润为13758.45万元、23803.97万元、18425.34万元和18,057.76。其间经历了疫情冲击等因素影响，但整体盈利状况良好。</p>
+  <p>从宏观角度来看，中国作为全球最大的农业生产国之一，其农业机械化水平在过去几年里得到了显著提升，但与发达国家相比仍有较大差距，这意味着该行业存在巨大的发展潜力</p>
+  <p>再看整个农机行业的发展趋势，随着我国粮食产量稳步增长以及对农业现代化重视程度的加深，对于高性能农机的需求也在持续上升。</p>
+  <p>据国家统计局发布的数据显示，2024年中国农机装备补短板工作取得重要阶段性成效，不少机型填补了国内空白，如油茶果采收机、国产辣椒收获机等新型设备开始批量上市。</p>
+  <p>同时，前三季度我国农机出口额达到了150亿美元，同比增长5.1%，其中大中型拖拉机出口量增长了13.4%，而收获及场上作业机械则增长45.4%。这些数字反映了中国农机企业在技术创新方面所做出的努力及其成果正逐渐被国际市场认可。</p>
+  <p>本文不构成任何投资建议。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652511534&amp;idx=3&amp;sn=4658b0823b1d2dd210583716dd55c594&amp;chksm=f315fc02d70c4f42c467f4ab1ba7d3545c4554693dd6dd7eaeb4fc02bf01157ec8f4b6f33470&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”（ID：pencilnews）</a>，作者：欣欣，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116861102199049</id>
+            <title>固特异把邓禄普也卖掉了</title>
+            <link>https://www.36kr.com/p/3116861102199049</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116861102199049</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:29:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 固特异, 邓禄普, 住友橡胶, 转型计划  
+<br><br>  
+总结: 固特异轮胎橡胶公司宣布以7.01亿美元现金将邓禄普品牌出售给住友橡胶，交易预计于2025年中期完成。出售包括邓禄普品牌及其在多个地区的商标，固特异将在过渡期内继续生产和销售该品牌的轮胎。此次交易是固特异Forward转型计划的一部分，旨在削减成本并聚焦核心业务。固特异计划通过出售部分业务和优化运营，预计到2025年底实现每年3亿美元的运行效益。尽管面临销售额下降和亏损，固特异认为转型计划正在发挥作用。 </div>
+                        <hr>
+                    
+                    <p>本周，固特异轮胎橡胶公司宣布，将以7.01亿美元现金将旗下的邓禄普品牌出售给日本住友橡胶工业株式会社，该交易预计将于2025年中期正式完成。</p>
+  <p>此次出售的部分包括邓禄普品牌及其在欧洲、北美和大洋洲的商标。</p>
+  <p>根据过渡许可协议，固特异将继续在欧洲生产销售邓禄普品牌的乘用车轮胎，该协议至少将持续至12月31日，并有可能进一步延长。</p>
+  <p>在此期间，固特异将向住友橡胶支付特许权使用费。这一安排旨在给予住友足够的时间在欧洲扩大业务，有效整合邓禄普品牌，并维持对现有邓禄普客户的服务水平。</p>
+  <p>过渡期之后，固特异将在未来五年内，每年至少向住友在欧洲供应450万条邓禄普品牌轮胎。不过，住友可以在第三年后提前12个月通知终止承购协议。</p>
+  <p>作为交易的一部分，未来固特异还能一直从住友获得邓禄普商标在欧洲商用轮胎上的使用授权，但需支付相应的销售特许权使用费。</p>
+  <p>此次7.01亿的交易价格中，5.26亿美元用于品牌及相关知识产权的收购，1.05亿美元为过渡费用，以支持品牌、知识产权的转让以及欧洲承购协议的履行，并协助邓禄普客户向住友过渡，包括规划事宜以及在过渡承购协议结束前对分销和物流的支持。</p>
+  <p>另外，住友橡胶将以商定的加价购买现有的邓禄普消费轮胎库存。购买的确切库存价值将在签署和交割之间最终确定，但固特异估计收益约为7000万美元，但须经核实。</p>
+  <p>因为历史原因，住友橡胶、固特异和邓禄普之间的关系一直就非常复杂。住友橡胶和固特异于1999年结成全球联盟，打造了当时全球最大的轮胎合作项目之一，合作的内容是，由固特异在北美和欧洲生产并销售住友橡胶的主力品牌“邓禄普”，而住友橡胶则在日本代理销售“固特异” 品牌。</p>
+  <p>但后来该联盟因利益纠纷解散。分手后，固特异和住友橡胶对北美、欧洲和日本的合资企业进行过一些股权的划分。此后住友橡胶获得了在包括俄罗斯、土耳其、中国以及非洲部分国家在内的一些国家独家销售邓禄普品牌轮胎的权利。在欧洲大部分地区，固特异对邓禄普品牌轮胎有独家销售权。</p>
+  <p>2023年，邓禄普品牌的消费类轮胎和商用轮胎销售额分别总计达到5.32亿美元和2.01亿美元，特种轮胎（不含摩托车轮胎）销售额达到2200万美元。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_1ac0a20dd79f4c11b2eed6e80ef486bc@000000_oswg761299oswg1080oswg552_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此次出售邓禄普品牌是固特异Forward转型计划的一部分。早在2023年底，固特异提出该转型计划，削减成本并精简其业务组合，聚焦于核心业务。</p>
+  <p>计划包括出售其部分化学业务、邓禄普品牌和OTR非公路轮胎业务，目标是获得超过20亿美元的总收入，在2025年底前产生13亿美元的积极效益。这包括10亿美元的成本削减，以及3亿美元年运行效益的行动。</p>
+  <p>作为该计划的一部分，去年7月，固特异以9.05亿美元现金将其OTR非公路轮胎业务出售给了日本横滨橡胶公司，预计将于2025年初完成交割。这也是2024年轮胎行业最大的收购案。</p>
+  <p>固特异OTR轮胎业务主要是在全球范围内，为露天和地下采矿、建筑和采石，以及港口和工业终端市场提供OTR轮胎产品。</p>
+  <p>固特异将继续保留其为美国军用和国防应用提供OTR轮胎的业务。根据交易达成的产品供应协议，固特异将在交易完成后的初始期限内，在其部分生产基地为横滨橡胶生产部分 OTR 轮胎，期限最长为五年。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_feba0a3826b44f448623c09de9cc6dc5@000000_oswg647701oswg1080oswg433_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>另外值得关注的是，该计划中提到的到2025年底，每年可带来10亿美元的运营效益，这10亿美元的“成本削减行动”，包括足迹行动和工厂优化、采购、SAG、供应链和研发经费削减。</p>
+  <p>从2023年底开始，固特异陆续关闭了全球多家工厂，包括一家有120多年历史的工厂。</p>
+  <p>2024年初，固特异挖来Stellantis北美CEO Mark Stewart担任自己的全球CEO，此举也被看作是固特异要提高其在乘用车轮胎市场的竞争力的表现。同时，掌舵人的改变，也代表企业经营战略的转变，而这将决定企业的生死。</p>
+  <p>Stewart上任后，迅速对人员结构进行了调整，计划从削减岗位中节省1亿美元的支出。这意味着固特异会在2025年前通过削减约1200个工作岗位。</p>
+  <p>同时，固特异在2024年8月，斥资了5.75亿美元扩建其加拿大纳帕尼的工厂，目标是满足电动汽车发展的需求，生产更多电动汽车轮胎。这项重要的投资被看作是Stewart的手笔，以及固特异为了进一步增加核心竞争力而扩大其认为有价值的产能布局。</p>
+  <p>坚定且迅速地出售业务、关闭工厂、裁员换帅，扩大部分核心产能，可以看出固特异对于其核心竞争力提升的决心。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_839e85aadcce4b52814152de51bc9894@000000_oswg41196oswg700oswg467_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2024年11月，固特异发布第三季度财报。公司前三季度实现销售额139亿美元（约合人民币987.36亿元），较去年同期的近150亿美元下降6.8%；净亏损1200万美元（约合人民币8523.96万元），明显好于2023年同期的-3.98亿美元。</p>
+  <p>其中，第三季度固特异轮胎实现销售额48.2亿美元，比去年同期的51.4亿美元下降6.2%；净亏损3400万美元，比2023年第三季度的-5900万美元有所改善。</p>
+  <p>尽管2024年第三季度和前9个月仍出现亏损和销售额下降，但第三季度的营业利润为3.47亿美元，比去年同期增长1100万美元，利润率为7.2%。固特异认为，营业利润有所改善，这证明Forward 转型计划正在发挥作用。</p>
+  <p>此外，到2025年底实现每年3亿美元的运行效益。其中包括在北美优化品牌和层次定位、合理化SKU、提高客户和渠道盈利能力以及提高高端产品线覆盖率的机会。通过这些行动，固特异预计到2025年底，分部营业利润率将翻一番，达到10%，债务将减少约15亿美元。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODY2MzIyMQ==&amp;mid=2652553575&amp;idx=2&amp;sn=24f729012f370b654094bb5c265c9b6e&amp;chksm=bc70be5006f7b16947ecc277363b2ad1890c241246bf522ebb405c2754b049798f635ca70408&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“车云”（ID：cheyunwang）</a>，作者：车云菌，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116719906787584</id>
+            <title>腾讯游戏官宣：天美组织调整落地，下设四大研发子工作室，晋升40多名一线员工</title>
+            <link>https://www.36kr.com/p/3116719906787584</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116719906787584</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:22:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 组织架构调整, 天美, 研发效率, 晋升信息  
+<br><br>  
+总结: 腾讯游戏于1月10日正式宣布天美的组织架构调整，划分为四大研发子工作室，并设立创新孵化和国际化工作室。此次调整旨在整合开发能力，降低管理成本，集中资源，促进员工成长。新架构将使团队关系更清晰，信息传递更高效，提升研发效率。尽管有观点认为调整可能导致管理权力的下降，但实际情况是子工作室负责人职级不变，仍将专注于产品研发。调整后，天美的组织结构将更加扁平化，有助于应对行业挑战。 </div>
+                        <hr>
+                    
+                    <p>沸沸扬扬传了几个月，天美的组织架构调整，终于在今天有了官方答案。</p>
+  <p>1月10日，腾讯游戏对内官宣了天美新的组织架构，以及40余名基层干部（组长/总监）的晋升信息。</p>
+  <p>未来天美将继续在总裁姚晓光的带领下，划分为四大研发子工作室（J1、L1、J3、T1），并另有负责创新孵化的Z1 Studio和国际化的G1工作室。同时，天美还将围绕各个子工作室的核心能力，打造专属的中台能力。</p>
+  <p>腾讯将这一轮调整定义为「天美新一轮战略与组织升级」，并解释了调整的目的：</p>
+  <p>「为了进一步整合优质开发能力，充分发挥天美大团队、统一作战的优势，由核心制作人带领团队围绕重点赛道和产品进行聚焦和突破；经公司讨论决定，天美工作室群正式启动新一轮战略与组织升级。通过调整保持组织更加的聚拢与扁平，进一步完善天美各项组织与业务管理框架，保持高效决策以及有序发展。」</p>
+  <p>一位腾讯中层评论，此次调整至少有三个好处：</p>
+  <p>1、降低管理成本。新的组织架构会让团队之间的关系更简单，更清晰，较为扁平的架构，也让信息传递不容易失真；</p>
+  <p>2、方便集中资源办大事。在之前，跨团队攻坚项目需要特别调配人力支持，管理成本高，不能让典型变成常态。”</p>
+  <p>3、有利于员工成长。“以前一个150人的工作室，技术专家才几个？动特交互才几个？职能岗位太离散不利于大家的职业发展。”</p>
+  <p>此前天美的组织原则，是拆散高速成长的大团队，让大家的动作更灵活，也为有战功的员工留出管理方面的上升空间。比如诞生《王者荣耀》的L1曾被拆成L1、L2，诞生《穿越火线手游》的J3曾被拆成Y1、Y2、Y3，但拆分后，工作室负责人的汇报关系又可能保持不变。</p>
+  <p>但也正因如此，天美的工作室一度超过10个，汇报关系错综复杂。有些工作室，如原L1的人数已经达到1000人左右；有些工作室的人数则只有150人左右。在当前行业阶段，后者很难有充沛的人力投入到新的在研项目。</p>
+  <p>而这轮调整，可能有机会解决上述问题。</p>
+  <p>此前有一种解读认为，这轮调整会让大家失去管理方面的上升空间，属于降权。但从发文来看，原来子工作室负责人职级不变，只是会聚焦制作人角色，专注研发，为产品负责。他们将与工作室负责人（总经理）形成管理团队，在工作室内拉通人才与技术战略，以及中长期能力建设，商讨决策工作方向。</p>
+  <p>另有内部人士认为，40余人的晋升通知，说明天美依旧在传递信号：产品做好了，就有机会往上走，像这轮晋升的不少干部就任职于新品《三角洲行动》。而且一款大作的团队少则数百人，多则上千人，这本身已经是繁重的管理任务。在游戏行业，做出好产品才是硬道理。</p>
+  <p>此前还有人认为，天美调整团队的最大目的是减少员工数量。但有腾讯人士称，此次调整的主要目的是合并组织架构，精简汇报层级，提升研发效率。这次调整前不久，天美也曾放出数百个活水和招聘岗位。</p>
+  <p>根据腾讯COO任宇昕此前的内部讲话，以及本轮调整的目的来看，天美可能是腾讯新一轮自研升级的开始。如果试水结果不错，不排除其他工作室群做类似调整的可能。</p>
+  <p>具体来说，天美四大子工作室相关负责人的履历，以及团队特色分别如下：</p>
+  <p><strong>J1、G1负责人纪泽锋</strong>是天美副总裁，也是天美前身琳琅天上工作室的副总经理。</p>
+  <p>纪泽锋毕业于上海交通大学。2008年，他带领《QQ飞车》上线，帮助其PCU突破100万，跻身腾讯游戏“四大名著”；</p>
+  <p>2013年底，他又接手了卧龙工作室，带领团队全面开始业务战略转型和组织重置，布局竞速、动作、塔防等品类，做出了《天天飞车》《天天炫斗》。</p>
+  <p>《王者荣耀》成功后，纪泽锋承担了大量工作室的管理工作，鲜少露面，但此前天美包括L1工作室在内，几乎有半数工作室都在向他汇报。他带领下的《Arena of Valor》至今也是腾讯自有IP出海数据最好的游戏。</p>
+  <p>这轮调整后，原J1将合并F1、J5和J6，专注竞速和高品质动作游戏，其中《怪物猎人：旅人》近期也因获得版号受到关注。</p>
+  <p>同时，原J1、F1负责人秦亚林将继续担任J1助理总经理，负责竞速赛道的相关业务及团队管理，并协助管理J1的部分技术中台相关工作。</p>
+  <p><strong>L1总经理李旻</strong>是《王者荣耀》的制作人。程序员出身的他毕业于四川大学，于2005年加入腾讯，此前主导开发端游《霸三国》，后在手游浪潮来临之际转型，组建团队投入MOBA赛道，最终做出《王者荣耀》。</p>
+  <p>《王者荣耀》成功之后，L1分化出了L2，主要负责《王者荣耀：世界》的研发，李旻也转而担任L2总经理。</p>
+  <p>此次调整后，L1和L2将重新合并，继续负责王者IP系列产品，并进一步强化研运一体能力。</p>
+  <p><strong>J3总经理姚远</strong>则相对年轻。2007年，他在北京大学软件工程硕士毕业后，先是加入EA担任软件工程师，后于2009年加入腾讯，担任《逆战》的项目经理。</p>
+  <p>之后，姚远带领团队做出了《穿越火线手游》，帮腾讯拿到了射击手游的船票，后来又带队研发《使命召唤手游》，成功出海，拿下了TGA的年度最佳移动游戏。2021年，姚远担任J3总经理。2022年，J3被调整为Y1、Y2、Y3，姚远任Y1总经理，但Y2和Y3仍然向他汇报。</p>
+  <p>从某种程度上说，姚远的履历较为匹配腾讯游戏全球化的野心。通过和动视等3A大厂的交流合作，J3在工业化等方面有不少积累。在每年由腾讯组织的被投企业聚会Familly Summit上，他也有颇多输出。</p>
+  <p>这轮调整后，J3将重新合并Y1、Y2和Y3，继续专注射击品类创新和长青化。</p>
+  <p><strong>T1总经理单晖</strong>是一名多次帮天美打赢攻坚战的角色。他于2006年加入腾讯，担任《QQ飞车》的第一任主策划；在手游转型早期，他带队研发了《天天酷跑》；2016年，他又凭借《乱世王者》，帮天美拿到了SLG品类的第一张门票。</p>
+  <p>其后，一方面T1分化出了仍向单晖汇报的T2，做出了《重返帝国》，以及曾被Sensor Tower列入出海手游收入榜的《Age of Empires Mobile》（帝国时代手游）；另一方面，T1因为一直在试水休闲游戏，而成为了《元梦之星》最主要的开发团队。这些攻坚新品类的经历，也让天美乃至腾讯的高层，都曾对T1的执行力表示赞许。</p>
+  <p>此次调整后，T1和T2将重新合并，负责《元梦之星》/天天系列IP等休闲品类和SLG品类的研发以及其他新品。</p>
+  <p>以上四大子工作室负责人，均向天美总裁姚晓光汇报。</p>
+  <p>天下大事，合久必分，分久必合。2014年，腾讯曾在全面转型手游的时代，将多个工作室合并为四大工作室群，集中资源，取得了日后的胜利。如今天美的调整，或许也有类似的意图。</p>
+  <p>一位前任腾讯总经理评论，腾讯游戏的许多调整，都是在长期主义和如何迅速抓住下一个机会之间寻找平衡。就这次发文来看，当下的腾讯更在乎前者。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&amp;mid=2649955672&amp;idx=1&amp;sn=4852b0d773c0cf1c852b896e65cbc504&amp;chksm=be83a661077ca5e0213bf7062125b5fa91836d6ad8784315a42de7020c4e48f737d139242ee6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“游戏葡萄”（ID：youxiputao）</a>，作者：托马斯之颅，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116741269082112</id>
+            <title>1000万销量，2024新能源车市“黑马”和“黑天鹅”同时到来</title>
+            <link>https://www.36kr.com/p/3116741269082112</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116741269082112</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:21:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 新能源车, 销量, 价格战, 智能化  
+<br><br>  
+总结: 2024年，新能源车销量创新高，行业格局发生变化，价格战持续。比亚迪、理想汽车等车企表现突出，而特斯拉销量虽在中国市场增长，但全球市场份额下降。新造车企业面临严峻挑战，许多车企在2024年倒闭，行业洗牌加速。新能源汽车的召回规模创历史新高，技术和产品质量问题日益突出。未来，汽车行业将进入技术创新和智能化变革的新阶段。 </div>
+                        <hr>
+                    
+                    <p>2024年刚刚过去，各大新能源车企便纷纷交出了自己的年度成绩单。</p>
+  <p>这一年中，新能源车不仅在销量上屡创新高，行业格局也在悄然巨变。价格战的硝烟从年初弥漫至岁末，又延续到了2025年。</p>
+  <p>更大的变数在于，当智能化浪潮汹涌来袭，人工智能技术的火爆，使得竞争更加复杂与多维。</p>
+  <p>1月7日～10日，全球最大的消费电子盛会——国际消费电子展（CES）在美国拉斯维加斯拉开帷幕，250多家汽车技术相关公司参展，为历年之最。智能座舱、智能驾驶、大算力芯片、操作系统、AI大模型等成为热词，新能源车企的洗牌将再次加速。</p>
+  <h2><strong>格局悄然重塑，几家欢喜几家愁</strong></h2>
+  <p>2024年，诸多车企迎来了年度交付量的“高光时刻”，车市呈现出强劲的增长势头。</p>
+  <p><strong>比亚迪毫无疑问稳居行业冠军。2024年，比亚迪销量达427.2万辆，同比增长41.26%，独领风骚。</strong>其中，12月新能源汽车销量为51.48万辆，再创新高。</p>
+  <p><strong>在造车新势力方面，理想汽车以超过50万辆的全年销量继续领跑。</strong>理想汽车董事长兼CEO李想表示，自开启交付以来，历时五年，理想汽车创造豪华汽车品牌在中国市场最快实现50万辆的年销量纪录。</p>
+  <p>紧跟其后的鸿蒙智行销量也达到了44.5万辆。其中问界M9上市12个月累计大定突破20万辆，问界新M7年度累计交付突破19万辆，智界R7累计交付28969辆。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_271beba0c5bf4fe8a19e3efe29aebe6c@000000_oswg642494oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：问界M9</p>
+  <p>“蔚小理”的其他两家同样表现亮眼，蔚来公司发布的数据显示，2024年共交付新车22.1万辆，同比增长38.7%。12月单月交付突破3万台创新高，同比增长72.9%。</p>
+  <p>小鹏汽车称，2024年交付超19万辆，同比增长超30%。12月共交付新车36695台，同比增长82%，环比增长19%，已连续4个月创单月交付历史新高。</p>
+  <p>作为2024年最被关注的“黑马”，小米汽车更是表现亮眼，据小米汽车官微，2024年全年交付已超过13.5万辆。其中12月交付突破2.5万辆，已连续3个月交付量突破2万辆。</p>
+  <p><strong>数据显示，2024年，新能源汽车产销突破1000万辆，新能源渗透率连续多月迈过50%大关。</strong>然而火爆背后，车企间的竞争格局却在悄然巨变。</p>
+  <p>特斯拉公布的2024年销售“成绩单”显示，其全球销量自2011年来“首次同比下滑”，但在中国大陆销量却“逆势同比增长”8.8%，以超65.7万台的数量创下“历史新高”，并占到其全球总销量的36.7%。显然，中国市场的亮眼表现已成为特斯拉全年业绩中的最大亮点。</p>
+  <p>然而，特斯拉的市场份额却呈现下降趋势。据乘联会秘书长崔东树整理的数据，特斯拉在2024年第四季度的全球新能源车企市场份额已经跌至第三位，被中国的吉利集团超越。2021年，特斯拉曾以16.5%的市场份额位居全球新能源车企榜首。然而，短短三年时间过去，特斯拉的市场份额已经大幅下滑。</p>
+  <p>沃达福数字汽车国际合作研究中心主任张翔在接受《IT时报》记者采访时表示，特斯拉近年来在研发方面的投入相对较少，且研发进度缓慢，这导致其在市场上的竞争力逐渐下降。相比之下，其他竞争对手在技术和产品上快速进步，逐渐超越特斯拉。</p>
+  <p>值得一提的是，吉利从2021年的4.4%份额翻倍至2024年的8.8%。</p>
+  <p>这说明以吉利为代表的传统车企变革步伐正在加速。</p>
+  <p>上汽集团、吉利汽车和长安汽车的新能源汽车全年销量均创新高，分别为123.4万辆、88.82万辆和73.46万辆。</p>
+  <h2><strong>大洗牌后“黑天鹅”突显，全球10多家车企倒下</strong></h2>
+  <p>随着市场逐渐成熟，新造车企业面临的挑战也越发严峻，很多曾经崭露头角的新能源车企在2024年风雨飘摇，新一轮的“大洗牌”已经拉开帷幕，“黑天鹅”事件频频爆发。</p>
+  <p>2024年8月，盐城经济技术开发区人民法院决定受理高合汽车母公司华人运通（江苏）技术有限公司的预重整申请；威马汽车在2023年10月也申请了破产重整；2024年底，百度和吉利的合资车企极越“闪崩”更是引发轩然大波。</p>
+  <p>这一年，哪吒汽车麻烦缠身，降薪、裁员、拖欠供应商款项等消息缠身，联合创始人、CEO张勇离职。当众多车企在12月大放异彩时，哪吒却异常低调，数据显示，其11月销量仅1500辆，根据乘联会的数据，2024年前11个月，哪吒汽车的累计销量为6.14万辆，远低于年初设定的30万辆销量目标。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_5c32d6f4798a4740a3cb1e89e4afd356@000000_oswg105736oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>据《中国新能源汽车用车研究报告（2024）》显示，2017年中国新能源车企超过487家，到2024年只剩40多家，6年时间有400多家车企消失。<strong>仅2024年，全球范围内就有10多家车企倒下。</strong></p>
+  <p>“我们现在车企的数量太多了，淘汰赛对行业其实是件好事。”在张翔看来，中国汽车行业正从“汽车大国”向“汽车强国”转型，在这一过程中，汽车行业集中度较低的情况势必要改变。在汽车发达国家如美国、欧洲、日本和韩国，经过多轮洗牌后，车企的数量已减少至不到10家。</p>
+  <p>张翔预测，2025年中国车企数量将进一步精简，到2030年或2035年，车企数量有可能减少至20至30家，届时，行业竞争将更加激烈，车企的规模将进一步扩大，市场格局将趋于稳定。</p>
+  <h2><strong>价格战火燎原，召回规模前所未有</strong></h2>
+  <p>过去，车企的传统销售旺季是“金九银十”，但2024年12月成为众多车企的销售高峰期。作为汽车报废补贴与地方以旧换新置换补贴的最后一月，造车新势力纷纷祭出促销大招，车市呈现产销两旺盛景。</p>
+  <p>新年伊始，各大车企为争夺市场份额，再度推出降价策略，迎接“开门红”，包括比亚迪、吉利、蔚来、特斯拉、小鹏、深蓝在内的20余家车企均加入促销阵营中。</p>
+  <p>这些促销活动形式多样，包括国家补贴、地方补贴、限时优惠、购车红包、换新红包等，且优惠幅度多数在万元以上。同时，车企们促销活动截止时间大多在农历新年前后，不难看出是为春节而来。</p>
+  <p>2024年全国乘用车市场价格战异常激烈。乘联分会秘书长崔东树发文指出，2024年全年汽车市场降价规模显著扩大，涉及227款车型，远超2023年的148款及2022年的95款。其中，<strong>新能源车新车的降价力度平均达1.8万元，降价幅度为9.2%；而常规燃油车新车降价车型的降价力度平均达1.3万元，降价幅度为6.8%。</strong></p>
+  <p>如今，价格战的战火从2024年烧到了2025年。</p>
+  <p>崔东树分析，新能源汽车市场因产品多样化，持续推出新车并重新定位价格，所以促销手段相对温和。2024年12月，新能源车促销率达8.9%，同比微增0.3个百分点，整体保持稳定。相比之下，传统燃油车市场则面临老龄化问题，新车推出较少，难以通过定价调整和产品力提升来应对竞争，只能依赖降价促销。</p>
+  <p>崔东树认为，随着国家报废更新政策的强化和市场回暖，车市价格战的压力有所减缓，年末车市呈现出持续走强的良好态势。</p>
+  <p>不光是价格战，《IT时报》记者也注意到，随着新能源汽车市场的不断扩大，相关技术和产品质量问题正在日益凸显。</p>
+  <p>根据国家市场监督管理总局发布的全年汽车召回数据，国内乘用车市场在2024年的召回规模再度增长。根据统计，2024年全年国内共发布142次召回公告，累计召回乘用车数量达到了惊人的1112万辆，同比大幅增长65.3%。</p>
+  <p>2024年，新能源汽车召回量同比激增137.5%，达到380万辆，占全年召回总量的34.2%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_7fccc6c691ef46709987a86671153089@000000_oswg74568oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>其中，特斯拉的召回数量遥遥领先，成为此次召回风潮中的焦点。数据显示，特斯拉在2024年共召回331.6万辆汽车，占据了新能源汽车召回总量的大部分。值得一提的是，特斯拉的召回方式主要通过汽车远程升级（OTA）技术实现，而非传统意义上的实体车辆召回。</p>
+  <h2><strong>加码AI ，开启智能赛道</strong></h2>
+  <p>2025年，新能源汽车发展进入下半场，市场的竞争态势将发生深刻变化。可以预见，价格战以外，汽车行业正逐渐进入到技术创新、智能化变革以及产业生态重构的时代。</p>
+  <p>CES 2025上，宝马宣布，与中国头部科技公司合作，首创全景iDrive的底层软件架构，将搭载在首款新世代量产车型上，在2026年与中国消费者见面。本田汽车携两款基于未来概念打造的0系列电动汽车原型车亮相CES，并展示其驾驶员监控系统等全新专有操作系统。现代汽车则带来了全球首款全挡风玻璃全息投影显示屏。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_cca5e72e2c844278a203b7b3c309bad0@000000_oswg234930oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：宝马</p>
+  <p>中国造车新势力也毫不逊色。吉利旗下品牌——极氪宣布与高通携手布局智能座舱，首款量产原生自动驾驶汽车极氪RT计划于2025年开启大规模交付。</p>
+  <p>当AI汽车崛起，传统燃油车与新能源车的界限或正逐渐模糊。在比拼价格的基础战场外，车企如果想在这场竞争中突围，不仅要在硬件上不断突破，更要在软件、服务以及生态整合上占得先机，才能在智能汽车的新时代中立足。</p>
+  <p>图片／&nbsp; 国家市场监督管理总局&nbsp;&nbsp;&nbsp;问界&nbsp; 小米&nbsp; 宝马&nbsp; IT时报&nbsp;&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjM2MzEyNQ==&amp;mid=2651594120&amp;idx=1&amp;sn=5332602d4cc4fcfc3ea09e854b9f4166&amp;chksm=bca68eea9e228a8c99afbff080a967fc4eff57ebca4a542d0f7729085341aafb5cd99579b556&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT时报”（ID：vittimes）</a>，作者：贾天荣，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116762519343362</id>
+            <title>2025，AI搜索要搞大事情</title>
+            <link>https://www.36kr.com/p/3116762519343362</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116762519343362</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:19:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <AI搜索, 用户需求, 商业化, 数据库>
+<br>
+<br>
+总结: AI搜索在过去一年中逐渐渗透到各个场景，尤其是低龄儿童和老年人通过语音与AI进行问答搜索，拓展了搜索的应用场景。AI搜索的核心优势在于直接提供答案，而非传统搜索的链接列表。尽管市场竞争激烈，AI搜索仍有较大的迭代空间和商业化潜力。未来，AI搜索的成功依赖于如何优化信息加工能力和建立强大的数据库与索引库。商业化模式尚未成熟，用户连接和价值创造是关键挑战。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_aa02f796487c4cf9ba1bf143f2f15fd3@000000_oswg425481oswg985oswg667_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <blockquote>
+   <p><strong>「核心提示」</strong></p>
+   <p>老年人、小学生，最先让AI搜索支棱了起来。&nbsp;</p>
+  </blockquote>
+  <p>“鹦鹉是蹦蹦跳跳走的吗？”</p>
+  <p>“是啊，大部分鹦鹉都是这样的，不过像鸵鸟这种大型鸟类就不会这样蹦蹦跳跳了。”</p>
+  <p>社交平台上，一位家长贴出自家小孩与豆包的对话。也有网友分享，自己的父亲在买东西时会打开Kimi询问价格。</p>
+  <p>不管是定义为AI聊天工具的豆包，还是智能助手的Kimi，在用户的眼中，他们已经成了搜索工具的代名词。过去一年中，AI搜索不断在各种场景中渗透。不光是文案写作者、AI开发者本身使用AI搜索功能提效，<strong>低龄儿童、老人更是通过语音与AI进行问答搜索交互，拓展了搜索的应用场景。</strong></p>
+  <p>相对广泛的应用基础，也让AI搜索在2024年成为全球范围内最具价值的AI应用落地方向之一。来自美国的AI搜索黑马Perplexity，在2024年一年估值翻了17倍。包括抖音、百度、腾讯、阿里、小红书、360在内的诸多互联网大厂，也都在短时间内推出了自己的AI搜索应用。</p>
+  <p>在国内，这个赛道几乎从诞生起就十分拥挤。</p>
+  <p>有AI搜索公司人士告诉《豹变》，当他们尝试谈融资时，对方问：“你们凭什么干得过大厂？”这是相当现实的问题：AI搜索的进入门槛不高，但却有着更深层的壁垒。也<strong>因为市面上的产品都太过年轻，还有相当大的迭代空间</strong>。</p>
+  <p>可以预见，这个行业距离商业化模式的最终形成，还有一段路要走，但这<strong>条路通向的可能是改写行业格局的新阶段</strong>，这让大大小小的玩家们兴奋。</p>
+  <p>未来很远，我们不妨着眼当下：这个赛道里的玩家在做什么，想做什么。</p>
+  <h2><strong>搜索框过时了吗？</strong></h2>
+  <p>2022年末，ChatGpt刚刚进入公众视野时，定义为聊天机器人，人们最初的使用方式就是问问题，当时不少媒体甚至总结出了最值得问ChatGpt的10个问题。可以说，AI的搜索属性，几乎与大模型应用同时出现，也同步发展。</p>
+  <p>不同的是，过去传统搜索，是提供大量的链接让用户自己再去做一轮信息筛选，而AI搜索则是直接提供答案。</p>
+  <p>在“AI产品经理”的一期播客对谈中，360AI产品负责人梁志辉提到，他们发现2019年的搜索内容和现在用户的搜索内容其实不一样。从数据上看，2019年，传统搜索里寻址需求高达42%，问问题只占37%；而现在，面对360AI搜索，有将近72%的需求都是说问题，寻址需求降到了12%。人们对“问AI问题”的需求，已经越来越明确。</p>
+  <p>基于真实需求的不断累积，AI搜索也在2024年实现爆发。</p>
+  <p>公开资料显示，全球范围内最受瞩目的AI搜索产品之一Perplexity，在2024全年共完成了4次融资，估值也从5.2亿美元暴涨至90亿美元，翻了17倍。有外媒预计在2024年底Perplexity的月活可能达到1亿水平。</p>
+  <p>2024年10月末，OpenAI也正式上线了ChatGPT搜索功能，与谷歌、Perplexity、Bing等抢地盘。</p>
+  <p>国内快速切入AI搜索的玩家们，一队是百度、腾讯、抖音、小红书、360等互联网公司，他们基于自身的数据基础、资源能力，推出以独立AI浏览器插件或APP形式的产品。</p>
+  <p>以360为例，其在2024年发布了三款AI原生产品，其中就包括纳米搜索（原360AI搜索）。根据三六零在投资者互动平台的回复，目前纳米搜索访问量增速全球第一，从8月起，连续4个月保持“全球第一大AI原生搜索引擎”。根据最新的Similarweb统计结果，11月单月用户访问数量过超3亿。</p>
+  <p>另一队则是以秘塔AI为代表的AI搜索引擎创业公司，通过小步快跑迭代原生AI搜索产品。2024年3月推出的秘塔，当时被称为“中国版的Perplexity”。同时，不少大厂高管、从业人员离职创业，尝试深耕AI搜索更加细分的赛道，或在搜索基础上加入如知识库、脑图等新功能。</p>
+  <p>此外，例如美团、知乎等互联网公司也在站内尝试结合AI搜索，提供相关服务。</p>
+  <p>AI搜索初创公司Miku的联合创始人Gobin告诉《豹变》，AI搜索在AI应用中不算非常复杂的场景，早期的壁垒也不算高，也因此有人、有团队的大厂能够在相对短的时间内做出一个完整的产品。有AI产品开发者也对《豹变》确认了这一点。</p>
+  <p>从传统搜索到AI搜索，文字输入的边界被拓展，产品向着多模态、交互式进化，包括百度、360纳米搜索在内的诸多AI搜索，都支持对话、音视频、图片等多模态交互。而<strong>搜索也从单纯的搜，向搜索、创作、聊天等更人性化、个性化的方向发展。</strong></p>
+  <p>这也使得AI搜索更适配老人、小孩这类不适应传统搜索的人群。</p>
+  <p>在与《极客公园》的对谈中，天工AI搜索背后的昆仑万维董事长兼CEO方汉表示，随着技术和产品的迭代，新的交互形式、新的产品形式会在AI搜索上展现。</p>
+  <p>这也是诸多业内人士的共识。Gobin表示，未来Miku也将从搜索框形式慢慢过渡到聊天对话，让其作为AI助手存在。“那时候强调的就不是处理信息了，而是基于信息去处理背后的任务需求。”</p>
+  <h2><strong>AI搜索绕不过的难题</strong></h2>
+  <p>虽然初始场景不算复杂，开发难度也不算高，但AI搜索产品面临的挑战也相当明确。</p>
+  <p>一个业内 <strong>公认的壁垒是数据。</strong></p>
+  <p>用户的搜索过程，其实是在调用背后的数据库，数据量越大，用户能够得到的信息越多也越深入。毫无疑问，那些手中握有大量优质数据的厂商，已经在无形之中构建起AI搜索的护城河。&nbsp;</p>
+  <p>如果说数据库决定了搜索内容的深度和广度，那么索引库决定的则是搜索的效率和精准度。索引库和图书馆的索引类似，能够在用户的搜索过程中，帮助AI迅速定位和筛选相关网页，定位用户所需的信息。这也是如谷歌、百度、360等传统搜索引擎的优势所在，他们已经在过去的多年间，建立了强大的索引库。&nbsp;</p>
+  <p>“我们算过一个账，要爬5000万的网页，大概需要一两百万。”在与“AI产品经理”的播客对谈中，梁志辉表示。今天如果想做一个通用搜索引擎，网页基本要达到千亿级别，这是360在过去十几年的工程量，初创企业很难在几个月内实现。也因此，目前的AI搜索创业者几乎都在使用谷歌等网站提供的索引API(索引库接口)。&nbsp;</p>
+  <p>Gobin告诉《豹变》，国内目前的API都是几分钱一次调用，这个价格不算高也不算低。与此同时，他们也在针对一些特定场景，如产品内的“AI资讯”板块，通过自己的agent（智能体）自主构建索引库。“（两种索引库）我们是并接使用的。”他说。&nbsp;</p>
+  <p>梁志辉同时在对谈中表示，如谷歌等巨头，几乎不会将自己最宝贵的资源通过API接口向外输出。&nbsp;</p>
+  <p>传统搜索引擎握有通识类AI搜索需要花时间突破的资源和先机，而小红书、知乎等产品自研的AI搜索，则在垂类AI搜索上有天然的优势。比如，小红书在旅游、居家生活等类目，知乎在社会、科普知识等类目都有最优质的UGC内容，这些内容构成了他们独有的数据库。&nbsp;</p>
+  <p>如此， <strong>留给初创公司们的类目就更加垂直。</strong></p>
+  <p>有AI初创公司产品开发者告诉《豹变》，即便是旅游类目，对于初创企业来说都不够垂直。必须找到更细分的赛道，才能够做到比小红书的数据量更大。不过，如此细分的赛道是否能构成真实需求，又该如何获客，也将是开发者面临的考验。&nbsp;</p>
+  <p>数据库和索引库将目前市面上的AI搜索产品做出了更明确的层级划分，而他们面临的共性问题则是<strong>如何优化AI对信息的加工能力</strong>——这种加工不仅仅是对已有网页的信息整理，更要对以获取的信息进行排序，形成更客观的表达。</p>
+  <p>这是更为精细的探索方向。</p>
+  <h2><strong>从获客到商业化，路有多长</strong></h2>
+  <p>AI时代， 人人都在期待一个 新 超级应用的诞生， “ AI搜索有望成为首个商业化落地的C端超级应用 。 ”民生证券在研报中表示。&nbsp;</p>
+  <p>“对于用户心智来说，AI搜索的成本是最低的。”Gobin告诉《豹变》，他们开发的产品Miku最初被定义为一个agent（智能体）、AI信息官，但考虑到搜索对用户来说认知成本更低，更好上手，最终还是将其定位为一款AI搜索产品。&nbsp;</p>
+  <p>超级应用必须拥有广泛的影响力和用户基础，对产品来说， <strong>最重要的就是获客。</strong></p>
+  <p>目前诸多AI搜索厂商也都处在这个阶段。在接受媒体采访时，知乎创始人周源和腾讯搜狗输入法智能大模型产品负责人柴宝全都曾表达过类似的观点：暂时先不将商业化作为重点，“更重要的是让用户用起来。”&nbsp;</p>
+  <p>如果放眼国外，目前Perplexity已经探索出一些商业化模式，如订阅服务、广告投放、企业定制化服务等等。公开资料显示，目前其商业模式主要依赖订阅制，而非传统搜索引擎盈利模式中占比最高的广告收入。&nbsp;</p>
+  <p>在AI搜索中插入广告，目前看有比较多的挑战，尤其是大部分AI搜索希望实现一问一答这种交互形态，使得传统的搜索广告植入难以匹配。&nbsp;</p>
+  <p>“agent本身会过滤掉一些广告的信息。”Gobin表示。除此之外，和传统搜索引擎不同，AI搜索不仅是一个展示窗口，它需要对获取的信息进行整合和筛选，再推向特定的用户。不同的用户问同一个问题，得到的答案也可能不同。也因此， <strong>广告的投放率相对传统搜索引擎更低，广告收入也可能更低。</strong></p>
+  <p>Gobin也认同， <strong>订阅或将是日后AI搜索引擎的重要盈利模式</strong> 。如果按照订阅的逻辑去推导，“只有当AI搜索能解决用户真正问题， <strong>真正对用户产生价值，它才能产生商业模式</strong> 。”而现在，绝大部分AI搜索能够产生的价值，还不足以引导用户付费。&nbsp;</p>
+  <p>“比如，我今天要写一个PPT，利用AI搜索去找资料，虽然我的动作是找资料，但背后真正的需求是生成一个PPT。”&nbsp;</p>
+  <p>所以，AI搜索不能只是比传统搜索引擎更快、效率更高，它必须做到传统搜索引擎做不到的事才能引导用户付费，这也是诸多玩家不断探索的方向。&nbsp;</p>
+  <p>不过值得注意的是， <strong>Perplexity的创始人此前在采访中称，未来的主导盈利引擎会是广告</strong> ，同时公司也在通过网页右侧边栏、赞助问题等，加大对广告模式的尝试。&nbsp;</p>
+  <p>市场分析公司Gartner曾预测，到2026年，传统搜索引擎的访问量将下降25%，搜索营销的市场份额将被人工智能聊天机器人等抢走。&nbsp;</p>
+  <p>对于AI搜索来说，当更多的用户涌入，商业化之路也更容易铺就完成。现在最重要的，仍旧是如何与更多的用户实现连接。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI3OTEwMDQwNw==&amp;mid=2649962797&amp;idx=1&amp;sn=2199ec31cfea60aa93e24b26feaedc13&amp;chksm=f255bf5c94468428e8a07fe81d24fbc55db5af21452f1103bcd6e1838b367a0de30f5e584ef1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“豹变”（ID：baobiannews）</a>，作者：詹方歌，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116762340118533</id>
+            <title>小红书做视频，摸着视频号和抖音过河</title>
+            <link>https://www.36kr.com/p/3116762340118533</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116762340118533</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:14:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 小红书, 视频界面, 用户反馈, 内容消费  
+<br><br>  
+总结: 小红书在最新版本更新中对视频播放界面进行了改版，调整了互动按钮位置，旨在提升用户观看体验。然而，用户对新界面反应不佳，许多人表示更喜欢旧版，尤其是清屏按钮的便利性。此次改版借鉴了抖音和视频号的设计，试图改善视频内容的短板，推动平台从图文社区向综合内容平台转型。小红书的用户群体与抖音和视频号存在差异，用户习惯和需求的不同可能影响改版的接受度。最终，用户的反馈和数据变化将决定改版的成效。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_71e9ec2fab8040fe9ef4f0d111e9dfac@000000_oswg24328oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>“小红书！我不喜欢这个界面！我喜欢之前的版本！”</p>
+  <p>类似的内容在小红书各类视频评论区刷了屏。在最新一次版本更新后，小红书视频播放界面的改版终于从内部分批测试，覆盖到了全体用户。</p>
+  <p>1月2日，小红书视频官方号“视频薯”发帖称，为了让用户看视频的体验变好，平台近期对视频播放界面进行了改版，调整了互动按钮位置。</p>
+  <p>即便“视频薯”在文中提到，喜欢旧版界面的用户，可通过相应渠道操作返回至旧版，且平台未来将上线自主选择的能力，依据用户喜好选择视频界面样式，评论区的用户仍不买账。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_4a39dfc22f8c48c3b4a0ad895859f71f@000000_oswg489718oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>两条点赞最高的评论统一围绕小红书的清屏按钮给出了建议，分别表示“旧版的清屏按钮更方便”，“原来一只手可以直接操作，现在需要两只手放大才能清，特别不方便”。</p>
+  <p><strong>得注意的是，壹览商业发现小红书的这次视频界面改版，先后参考了抖音和视频号的攻略，希望集抖音分发逻辑和视频号私域逻辑之所长。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_90f612f466234b52bc37d47460a9d634@000000_oswg776015oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>事实上，早在去年，小红书就已经开启新界面的分批测试，彼时的改动仅是将按钮移至右侧，类似于抖音的排版，并新增了抖音也有的「分享」键。</p>
+  <p>对比来看，最新一次改版小红书又借鉴了视频号的「在看」功能，新增按钮「好」。壹览商业测试发现，「好」的功能与「在看」完全相同，当用户点击「好」后，共同好友会在该视频看到标识“xxx觉得好”。</p>
+  <p>事实上，该功能本不是小红书的新功能。早在去年3月，小红书就已上线「好视频」功能。彼时，该功能并没有明确的界面按钮，需要用户通过长按屏幕的方式来“觉得好”。</p>
+  <p><strong>不难看出，借鉴抖音的内容推荐机制和视频号的社交分发逻辑，小红书希望能补齐视频内容的短板，进一步提升用户的内容消费体验，实现从图文社区向综合内容平台的跨越。</strong></p>
+  <p>一直以来，小红书一直以图文内容为核心优势，深耕精致生活方式的分享。然而，在短视频崛起的浪潮中，视频内容始终是小红书难以突破的“硬骨头”。就在去年12月一次更新后，小红书将app的第二Tab从“购物”更改为“视频”，被业内视为其视频战略再加速。</p>
+  <p><strong>视频是小红书想做好商业化不可替代的内容形态。视频既服务于种草、服务商业化，还服务于直播电商等其他变现方式。</strong></p>
+  <p>那么，结合抖音和视频号的页面布局，小红书的视频会更有竞争力吗？</p>
+  <p>在壹览商业看来，小红书和抖音、视频号的用户基因不同。小红书的用户以追求精致生活、关注消费决策的年轻女性为主，偏好深度、细分领域的图文或短视频内容，常用于种草和决策参考。相比之下，抖音的用户基因更加多元，以娱乐、休闲为核心，强调快速消费型短视频体验；视频号则依托微信的社交生态，更倾向于熟人关系链的内容分享和传播。</p>
+  <p>举个例子，交换按钮放置右侧，最直观的变化是用户在右手刷视频的状态下，动动大拇指既可做出一个决策：点赞/收藏或其他。这便利了抖音用户出于“刷视频”目的的使用习惯，但对于小红书的用户群体来说，不一定适用。</p>
+  <p>而视频号和小红书的用户使用习惯差异就更大了。只需思考两个问题：微信和你聊天频次能达到每月一次以上的朋友，和你互关小红书有多少？你希望自己的小红书浏览内容，被你的互关看见吗？</p>
+  <p>事实就是，小红书上最初定位于“社区”，关注、互关，多数是“刷到过”“点赞过”的缘分，彼此之间对对方“觉得好”的内容并没有太大兴趣。小红书的深度用户，已经习惯了把小红书当成百度、抖音的结合体来用，看到自己主页推荐了并不熟悉的关注博主“觉得好”的内容，反而容易觉得被打扰。</p>
+  <p>当然，用户对一个软件的页面改动在初期会下意识地认知混乱，这是普遍的现象。最终还是得靠数据的变化验证改动的合理性。3.3亿用户，会给小红书答案。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3NjU1NDIxNA==&amp;mid=2247507766&amp;idx=1&amp;sn=b01fe96def0acbbe9294e146449c3825&amp;chksm=cefe7f8094d9117d642c5febc41ed3c723651cb11d368c5c342b3cfbfbcbc9b8006fffc878d7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“壹览商业”（ID：yilanshangye）</a>，作者：李彦，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116767810277641</id>
+            <title>2025CES观察：AI加速进化，中国应用进入大爆发</title>
+            <link>https://www.36kr.com/p/3116767810277641</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116767810277641</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:12:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <CES2025, 人工智能, 英伟达, 中国企业>
+<br>
+<br>
+总结: 2025年CES展会聚焦于人工智能的快速发展，英伟达创始人黄仁勋的演讲强调了AI从感知式到生成式，再到物理AI的演变。展会上，众多企业展示了AI在各个领域的应用，包括人形机器人、智能眼镜和AI医疗设备等，尤其是中国企业在AI应用方面表现突出。黄仁勋还发布了多款新产品，如RTX 5090显卡和Project DIGITS，展示了AI技术的强大潜力。整体来看，AI正在改变计算方式，并推动各行业的创新与发展。 </div>
+                        <hr>
+                    
+                    <p>拉斯维加斯的热火还在持续。&nbsp;</p>
+  <p>当地时间1月7-10日，2025CES正如火如荼地进行。</p>
+  <p>实际上，今年的CES会场，比以往更热闹。这不仅因为英伟达的黄仁勋用一场震惊AI世界的炸裂演讲拉开了展会大幕，还是因为今年AI的各类应用也进入大爆发。身处CES的展会中，从人形机器人到震惊视觉的大屏，以及各种AI医疗、AI眼镜、智能驾驶，甚至连玩偶、E-Bike、扫地机等也都具有了AI的功能。</p>
+  <p>似乎所有企业都感觉到，今天必须坐在AI trend的牌桌上了。</p>
+  <p>今年的CES，霞光社也深度参与其中，不仅在现场聆听了老黄的演讲，现场体验最新的前沿科技，还举办了一场酒会，邀请多位出海专家、高管，深度交流科技出海。</p>
+  <p>以下，我们把前方的观察带给读者。</p>
+  <h2><strong>01. 加速进化:从生成式AI到物理AI</strong></h2>
+  <p>可以这样说，整场CES展会，都是为AI准备的。</p>
+  <p>而关于AI的焦点，则给到了英伟达创始人黄仁勋。CES开场前，黄仁勋长达2小时的开幕演讲，把人们的情绪拉到了顶点。霞光社在现场看到，演讲开始前1小时，整个会场已经挤满参会者，并在门口排起近百米长队——据说，在现场围观这场演讲的有数万人之多。</p>
+  <p>大家的等待是值得的。在这场演讲中，黄仁勋不仅发布了数个新产品，还分享了对AI最新进展的思考。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_534899c478e34802954ec813f255bddd@000000_oswg22367oswg1080oswg486_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>“AI正在以惊人的速度发展”。他说。在英伟达的展台上，他们还“发明”了一个词，ACCEVOLUTION（加速进化）。</p>
+  <p>在演讲中，黄仁勋清晰地描述了AI发展的路径：<strong>最开始是感知式AI，即理解图像、文字和声音；然后是生成式AI，即创造文本、图像和声音；现在，则正在进入物理AI的时代，即能够运行、推理、计划和行动的AI</strong>。</p>
+  <p>我们可以从他的几个论断中，可以进一步感知这种发展：</p>
+  <p><strong>现在的AI ，可以理解几乎任何模态的信息，不仅包括文本、图像、声音等，还可以理解氨基酸、物理学等。并且，正从理解它们，到翻译并生成它们。</strong></p>
+  <p><strong>人工智能不仅仅是一个新的应用程序和商业机会，更重要的是，由Transformer驱动的机器学习 (machine learning) ，将从根本上改变计算的工作方式。</strong></p>
+  <p><strong>通用机器人的ChatGPT时刻即将到来。</strong></p>
+  <p><strong>最大的震撼是来自中国的令人难以置信的技术。中国的汽车制造商如比亚迪、蔚来、小米和小鹏等，已经为自动驾驶技术设立了行业标杆。</strong></p>
+  <p><strong>NVIDIA GPU 和平台是这一变革的核心，为包括游戏、机器人和自动驾驶汽车（AV）在内的多个行业带来了突破性发展</strong>。</p>
+  <p>除了这些，还有更“惊心动魄”的产品发布。</p>
+  <p><strong>第一个发布的产品是RTX 5090显卡</strong>。这款最新显卡有很多惊人的数据表现，其中一个是，它每秒可实现超过3352万亿次AI运算。</p>
+  <p>这么说吧，通过RTX 5090，开发者可以在个人电脑上运行大语言模型、图像生成等AI任务。这使得个人创作者、小团队，自己就能组建一个“超级算力引擎”。AI计算门槛的大幅度降低，可能引发新一轮草根创新潮！</p>
+  <p>RTX 5090售价1999美元；RTX 5090D（RTX 5090显卡不在国内市场开售，仅提供性能相近的RTX 5090D）旗舰显卡国行价16499元起。此外，RTX 5080、RTX 5070 Ti和RTX 5070的售价分别为999美元（国行8299元起）、749美元和549美元。据说，售价549美元的5070将提供与此前售价1599美元的RTX 4090相同的性能。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b062df9982e14a908f9bcc9d2acd9f28@000000_oswg152775oswg1012oswg530_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>第二个惊艳的产品，是Grace Blackwell NVLink72——如同盾牌大小的巨型芯片样品</strong>。黄仁勋还手持它摆出了美国队长的poss。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_efbfacbd5b8e4b008886a3c75e352de7@000000_oswg37456oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这款芯片集成的晶体管数量高达130万亿个，甚至有超越世界上最快的超级计算机的能力<strong>。</strong>创建NVLink的根本目的，是针对主动型人工智能（Agentic AI）<strong>。</strong>这块芯片的出现，或许意味着在Agentic AI时代，数据中心的算力将迎来一场新的革命。</p>
+  <p>此外，黄仁勋还拿出了压轴之作——Project DIGITS，一款可以称之为“掌上AI超算”的产品。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_3ecbd558e07d48f799dd256e13112f5c@000000_oswg227855oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>它的尺寸略大于苹果的Mac Mini，但却可以提供堪比数据中心的算力。这台设备搭载了全新的GB10 Grace Blackwell芯片，可以运行2000亿参数的AI模型，<strong>让AI研究人员和开发者在自己的办公桌上就能完成模型开发和推理任务</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b89b61a56ae84e1a83a4ed59422b5f53@000000_oswg381673oswg750oswg422_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>对比一下，ChatGPT-3.5的参数大约为1750亿个。所以Project DIGITS足以让开发者在自己的电脑上运行ChatGPT-3.5了。另外，它的售价预计预计为3000美元，今年5月上市。</p>
+  <p>除了上述硬件产品，黄仁勋还发布了几个重要的软件产品。</p>
+  <p>一是英伟达版的AI Agents——“Blueprint for AI Agents”。这是一款基于英伟达Metropolis系统的平台，帮助组织和个人提升生产力及安全性。它能够允许开发者利用强大的视觉感知能力，创建并分析视频内容，速度是传统实时观看的30倍。</p>
+  <p>另一个是让AI理解物理世界、加速物理AI开发的基础模型Cosmos。这是一套专为物理交互、模拟工厂环境及驾驶环境生成而构建的模型。包含了自动回归模型、扩散基础、高级标记器和AI加速数据管道等组件，可从文本、图像和视频等输入以及机器人传感器或运动数据的组合中生成基于物理的视频。</p>
+  <p>物理 AI 模型的开发成本很高并且需要大量真实数据和测试。而Cosmos 世界基础模型（WFM）使开发者能够轻松生成大量基于物理学的逼真合成数据，以用于训练和评估其现有的模型。他们还可以通过微调 Cosmos WFM 构建自定义模型。</p>
+  <p>就是说，老黄的野心是真的大，这是要把世界装在他的芯片和模型里。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_833dd0d7e8d547a282fc906ca046eb06@000000_oswg233864oswg991oswg578_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>物理 AI 将为总值 50 万亿美元的制造业和物流业带来巨大改变。从汽车和卡车到工厂和仓库，移动的事物能够被机器人化并通过 AI 具身化。目前Wayve、Uber等公司已经开始将Cosmos模型用于自家自动驾驶训练。</p>
+  <p>要说明一点，<strong>Cosmos是开源模型</strong>，可在从Github下载使用。</p>
+  <h2><strong>02. 中国AI应用存在感爆棚</strong></h2>
+  <p>除了英伟达带来的震撼外，展会上的含AI量也爆棚，其中来自中国的AI应用存在感十足。</p>
+  <p>先看人形机器人。</p>
+  <p>宇树科技的机器狗已经不止一次惊艳了全球科技爱好者。这次，宇树带来了Go2机器狗和G1人形机器人。</p>
+  <p>G1人形机器人售价16000美元，可以真正做到家用服务。只需通过简单的训练，G1机器人就可以承担打扫卫生、制作早餐等家务任务，从而解放双手，享受更加便捷的生活。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_fafc93b6d38444c6ae733776eb57b376@000000_oswg223205oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">现场，G1与观众互动&nbsp;</p>
+  <p>国内机器人企业傅利叶则展出了GR-2人形机器人。其全身自由度达53个，单臂运动负载达3kg，续航两小时并新增换电方案，搭载12自由度自研灵巧手及第二代执行器。</p>
+  <p>当然，还有不少人形机器人零部件企业来到展会。激光雷达企业速腾聚创此次展示具有20自由度的第二代灵巧手；星动纪元发布面向AI研究者全新定义的仿人五指灵巧手XHAND1等。&nbsp;</p>
+  <p>专注于机器人和智能硬件的领先初创企业孵化器XbotPark，在今年CES上展示了30多家孵化初创企业及其供应链平台。此外，XbotPark展示了一系列开创性项目，比如，荣获CES 2025创新奖的PETPA多宠物喂食器，可以将智能手机转变为桌面机器人的LOOI机器人，受仿生学启发的机器狗SPARKY，以及全球首款智能滚动按摩装置RheoFit A1等等。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_02bb4f16dd5b441baac6ab63f0f888da@000000_oswg61905oswg1080oswg443_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此外，AI眼镜也成为中国创业者聚焦的新赛道。&nbsp;</p>
+  <p>TCL旗下的雷鸟创新，在今年CES上发布了其最新款雷鸟V3 AI拍摄眼镜。该产品采用了业界领先的骁龙AR1芯片，集成了通义千问q定制大模型，展现出强大的拍摄性能。此外其还带来了号称全球首个可量产的表面浮雕光栅刻蚀光波导 “RayNeo光波导”。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_3369050f565d484ba648c8101a8160c1@000000_oswg85047oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">雷鸟V3 AI拍摄眼镜&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_9c037b880cd44dc08edd0990085abefa@000000_oswg135533oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">海外用户在体验雷鸟V3 AI拍摄眼镜&nbsp;</p>
+  <p>百度与Rokid合作的Rokid Max Pro智能眼镜也在CES上亮相。该眼镜已经做到与普通眼镜外观几乎相同，但借助百度文心一言大模型，可以实现智能语音交互、信息查询等功能，提供便捷服务。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_e5739a5f93e84c5081a821dc9a42fc65@000000_oswg121895oswg1080oswg1439_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Rokid 智能眼镜&nbsp;</p>
+  <p>影目科技推出的影目AR智能眼镜，则可以提供实时导航、拍照翻译等多种有趣的应用。</p>
+  <p>来自中国的XREAL今年带着最新XREAL One系列AR眼镜首次在CES线下亮相。这款智能眼镜于2024年12月5日正式发布，官方号称是“全球首款支持原生3DoF的消费级AR眼镜”。XREAL还与宝马汽车合作，展示了车内AR技术的应用，为智能驾驶和娱乐带来了新视角。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_c7bc989144d74cf691a753b38e000dbd@000000_oswg65960oswg773oswg522_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">XREAL One系列AR眼镜&nbsp;</p>
+  <p>作为国内最早量产发布 AI 眼镜的品牌，闪极也在CES发布了旗下面向海外市场的高端子品牌 loomos 及 loomos AI 眼镜。loomos AI 眼镜支持以4K照片和1080P视频来捕捉精彩瞬间，且具备开放式高保真音频用于音乐和通话。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_afdba3dd64ee43a288fb61ec74455659@000000_oswg106034oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">loomos AI 眼镜&nbsp;</p>
+  <p>根据市场调研机构洛图科技的统计，2024年中国智能眼镜市场中具备AI功能的产品占比不足20%。然而到2025年，AI功能将在智能眼镜市场中占据超过60%的销量份额。深处AI眼镜展区，我们强烈地感受到，AI眼镜已成为智能可穿戴设备市场的新风口，且中国企业在这一赛道开始显现出领先的优势。</p>
+  <p>AI医疗，也是本次CES的一大看点。据了解，今年CES上，针对健康产业共有近50场主题会议，而且94项相关产品获得CES创新奖。&nbsp;</p>
+  <p>在展区，<strong>雅培公司</strong>展示了其开发的消费级可穿戴设备Lingo。用户将生物传感器佩戴在上臂，产品就可以对血糖进行精准监测，将血糖数据实时传输至APP上，然后应用程序基于反馈数据解读个体对食物摄入、运动锻炼以及日常压力等因素的实时反应，并提供健康管理建议。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_b8bbc1e8c0c7451987103e629e0505c5@000000_oswg98470oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">雅培展台&nbsp;</p>
+  <p>Meditrix是一家三星旗下的初创公司，展示了其基于虚拟现实的生物反馈技术。该公司开发了实时分析和AI模型来支持其技术，并使用云系统进行患者数据库管理。Meditrix希望将其技术与移动应用程序、在线平台和可穿戴设备相结合。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_397cf9e30210473e83ce7d524671740c@000000_oswg146056oswg1080oswg1439_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Meditrix展台展示的可穿戴设备&nbsp;</p>
+  <p>来自深圳的<strong>杉木SHANMU</strong>，则开发了超小型、全自动的家庭医疗机器人，将其放置在马桶的内壁上，利用多光谱系统技术对尿液分子进行定量评估，进而帮助早期疾病检测，并提供处方和饮食指导。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_80023736f8ec40a3963e564d83f56b4f@000000_oswg131555oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">杉木SHANMU展示的产品&nbsp;</p>
+  <p>在可穿戴设备里，现场还有一款智能戒指 RingConn。它来自国内初创科技企业玖智科技，出自上海交大特聘教授、长江学者王国兴之手。这款戒指的特点是，在具备智能戒指易戴、便利监测特性的同时，还能通过前沿技术，实现了低功耗的可持续多指标监测，让健康数值更为全面、准确。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_81ffc84bcb8a4a2aa7e9f332c9c995c8@000000_oswg102525oswg1080oswg1129_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">RingConn</p>
+  <p>此外，还有许多我们过去习以为常的产品，在跟AI大模型结合后呈现了全新的体验。</p>
+  <p><strong>Urtopia</strong>首款ChatGPT电动自行车也出现在了CES展区。这辆车支持语音交互，如果用户说太累了，自行车就会自动调整电机为用户助力，或者帮忙寻找距离最近的餐厅等。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_e635459fe8e0424198c9cf1b540f20ae@000000_oswg161299oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Urtopia CEO张波是一名骑行爱好者。他介绍，<strong>如今在全世界自行车文化最为浓厚的荷兰，每卖10辆自行车中有5辆是电助力自行车，渗透率高达50%。</strong>在德国和北欧，电助力自行车渗透率最高也达到30%。&nbsp;</p>
+  <p>专注于空间智能的创新公司Ling.ai 灵宇宙也在CES上首发了Ling！（昵称小方）。Ling!是一款专为3至12岁儿童设计的随身AI学伴，集学习、陪伴和成长追踪于一体，通过角色演绎、互动故事、轻游戏等形式，为儿童提供随身即时学习和陪伴，提高创造性解决问题的能力，并激发他们探索世界的热情。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_3e27eb152d0f4b80848e1146652fb3b1@000000_oswg1041052oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Ling.ai 灵宇宙的展台</p>
+  <p>此外，一款主打手机辅助录音的AI硬件PLAUD NOTE成为了今年AI硬件里最为成功的产品之一，累计出货量超 10 万台。这款设备，也出现在今年CES的展台上。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_de738d3ca30f422d99b77bf354e72099@000000_oswg63498oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">PLAUD NOTE</p>
+  <p>展会上还有一款设备，可以把你的手机变成了一个智能机器人。这就是今年非常火、并被马斯克转发的Looi。Looi采用了仿生行为系统，时刻感知用户和周围的环境。同时接入了ChatGPT，能够通过对话与用户进行互动，还能在手机上显示富有表情的画面。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_18eb01a7bd1d410ba8fcd0a1e4530ac4@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>现场还有很多有科幻感的前沿产品。比如，小鹏汇天带着分体式电动飞行汽车“陆地航母”在CES上亮相。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_f53ce4baf1b44a8ea5a9ea3599ba1ea6@000000_oswg175105oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_8ebd32864e434df98b1b051cd46c3838@000000_oswg154086oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">WAYMO展示的自动驾驶汽车&nbsp;</p>
+  <p>联想则推出了全球首款卷轴屏PC——ThinkBook Plus Gen 6。用户只需轻触专用按键或通过简单的手势操控，原本紧凑的14英寸显示屏便能瞬间垂直延展至宽敞的16.7英寸大屏，额外增加了近50%的屏幕空间。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_a7000d25d4944dc2b622f74164635787@000000_oswg272346oswg640oswg379_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">正常的电脑屏和展开后的对比&nbsp;</p>
+  <p>当然，今年扫地机器人也有了新变化。石头科技的扫地机器人已经长出了手臂，可以在扫地的同时，帮你捡起散落地上的袜子，并规整到收纳箱里。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_82d6461cc6414e669ddf961bb5a2782f@000000_oswg320120oswg960oswg641_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">石头科技展出的搭载仿生机械手的扫拖机器人G30 Space探索版&nbsp;</p>
+  <p>据悉，CES上的中国展商数量和规模，已连续两年增长。中国企业已成为CES上不可忽视的力量，并持续在世界科技舞台彰显出中国‘智’造的魅力与担当。</p>
+  <h2><strong>03. AI出海，以更国际化的姿态</strong></h2>
+  <p>从CES展会上走完一圈，深处巨量的消费电子中，一个感受是，这两年AI的爆发，又激活了很多硬件企业。&nbsp;</p>
+  <p>当然，这其中有创新的真需求，比如AI眼镜，能将现实和虚拟画面融合到眼前，给人带来惊艳感受的同时，也解决了很多问题，如导航、实时翻译等等；还有就是AI医疗，这个被老黄重点提及的领域，目前已经看到越来越多的应用出现，这里面的进展不仅是一些看得见的可穿戴设备、AI诊断设备，包括AI声音诊断等，还有看不见的AI计算在生物计算领域的应用；不过，我们也会看到很多新奇的产品，看上去目前并没有挖掘出真正的需求，比如一些AI驱动的厨房设备、AI宠物玩具等。&nbsp;</p>
+  <p>另外，AI正赋予很多设备以感情。在CES上，你会发现这里展示的产品已经触及生活中任何地方，但凡你能想到的都有涉及。AI在这些设备上，除了赋予一些语音对话、互动等功能外，还正逐步赋予他们感情，只要你给与足够的耐心，这些产品可以更好地理解你，并让人更信赖地去使用这件产品。&nbsp;</p>
+  <p>换句话说，AI的发展在促进人类的生产和生活，而不是想要取代人类。&nbsp;</p>
+  <p>与此同时，在CES的舞台上，中国企业也展现出更加国际化的一面。一方面，许多中国企业不再单纯追求卖出多少产品，而是更加注重品牌的建设，并且如何在海外市场铺设服务网络，如何与本地客户互动。&nbsp;</p>
+  <p>比如，在很多公司的展台上，如果不仔细去交流，已经很难发现这是一家中国企业了。不仅产品设计非常国际范儿，就连讲解员也都是碧眼金发的外国人。甚至当他们看到你是中国面孔，还会主动询问“你需要我用中文还是英文跟你沟通？”&nbsp;</p>
+  <p>两年前，国内的AI企业还处在生死边缘，那时候大家一提起AI，还觉得很遥远——不仅赚钱遥远，改变生活更是遥不可及。但今天，CES上的每个人都对AI的未来信心满满，甚至许多人相信，接下来的2025年，我们就能见证AI的奇迹发生。&nbsp;</p>
+  <p>世界的变化就是如此之快。而也只有走向世界，我们才能真正实现成长。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MDU1MDY1NQ==&amp;mid=2247587715&amp;idx=1&amp;sn=89160de2bf76073da2aeb661cbd6dbc1&amp;chksm=cfba714065f769e562d94dc231e3d46e3fd39574a91df7b6d6c83b3a2ae651dcc87470e09971&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“霞光社”（ID：Globalinsights）</a>，作者：霞光社，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116785934712327</id>
+            <title>国产配件狂卷CES：AI定义一切硬件，“多合一”成大势所趋</title>
+            <link>https://www.36kr.com/p/3116785934712327</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116785934712327</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:05:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <CES 2025, 移动硬盘, AI NAS, 多合一设备>
+<br>
+<br>
+总结: CES 2025展会上，各大厂商展示了最新的科技产品，尤其是手机和PC配件。江波龙推出了全球首款NFC移动固态硬盘，结合了存储和NFC功能，提升了用户的数据安全和使用便利性。绿联展出了AI NAS，具备智能分类和语音指令操作，适合家庭使用。倍思则推出了融合移动电源和WiFi的产品，满足用户的多重需求。整体来看，AI技术和多合一设备成为展会的主要趋势，旨在简化用户的出行负担。 </div>
+                        <hr>
+                    
+                    <p>CES 2025（国际消费电子展）展会上，来自世界各地的厂商齐聚一堂，拿出了最新产品和技术争奇斗艳，其中既有当场发布上市的新品，也有尚未投入量产的黑科技。<strong>与往年相同，今年雷科技CES报道团再度亲赴现场，近距离观摩这场科技盛宴。</strong></p>
+  <p>过去安卓厂商常在每年第一季度发布新款旗舰手机，因而会在新旗舰面世前的CES展会上公布黑科技和充满科技感的概念机，为即将登场的新机预热宣传，一度成为CES展会的主角。如今安卓厂商新旗舰发布时间大多改为第四季度，手机厂商对待CSE展会的态度也发生了变化，参加CES展会的手机品牌大幅减少。</p>
+  <p>不过对于手机、PC数码配件品牌而言，CES展会依然是难得的曝光机会。本届CES展会全球相关厂商纷纷登场，发布了一系列令消费者眼前一亮的手机、PC配件产品。</p>
+  <h2><strong>江波龙：移动硬盘遇上NFC，手机存储新解法？</strong></h2>
+  <p>作为全球手机行业巨头、高端市场霸主，苹果常被吐槽内存芯片比金子还贵。的确，以iPhone 16 Pro为例，当前官网128GB和256GB两个版本差价高达1000元，接近4TB固态硬盘的价格。</p>
+  <p>CES展会上，存储厂商江波龙为用户带来了手机存储新选择——全球首款NFC移动固态硬盘（PSSD）。据江波龙介绍，该硬盘提供128GB至4TB多种容量可选，搭载自研WM3000主控，可确保大文件传输时上下行始终稳定、快速。</p>
+  <p>为保护用户的数据安全，江波龙还为这款产品加入了NFC解锁隐形存储空间，用户使用手机、智能手表、NFC卡等设备，轻轻触碰移动硬盘的NFC感应区域，即可实现无感解锁。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_ffab255817d44513898bffa8998f3159@1547419282_oswg2588121oswg4000oswg3000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图源：雷科技摄制）</p>
+  <p>除此之外，这块移动固态硬盘还可升级iTAP协议，结合支付宝的支付设备，轻触即可实现点单、解锁、乘车等操作。<strong>江波龙NFC移动硬盘不仅仅是一块可以用于存储数据的移动硬盘，还是能够开门的门禁卡、乘车的交通卡、支付的信用卡。</strong></p>
+  <p>雷科技有一位小伙伴平时喜欢看演唱会并拍摄视频，因iPhone 15 Pro Max大存储版本太贵，不得已自己组装了一款移动固态硬盘。然而移动固态硬盘一旦丢失，存储的其他隐私资料也可能他人获取，而且出门时身上带的东西太多，丢东西的可能性也会提升，若为其加密，使用时又会较为麻烦。</p>
+  <p><strong>江波龙NFC移动硬盘的加密功能，可以保障硬盘中的隐私信息安全，NFC解锁不需要反复输入密码，使用时更方便，能够替代其他NFC设备的特性，则为出行减负。</strong></p>
+  <h2><strong>绿联：你的硬盘，何必带在身边？</strong></h2>
+  <p>以数码配件起家的绿联，在CES展会上仿佛主场作战，推出了Nexode 500W桌面氮化镓充电器、雷电5拓展坞等产品，并且与国民级开放世界手游《原神》联名，将推出一系列基于《原神》元素设计的产品。</p>
+  <p>当然，在绿联展出的众多产品中，最受瞩目的无疑是两款AI NAS——NASync iDX6011和NASync iDX6011 Pro。国外科技网站How-To Geek对绿联NASync iDX系列大加赞赏，称赞绿联AI NAS的硬件，并在“CES最佳榜单”中，评选其为最佳办公产品。</p>
+  <p>在小雷看来，绿联AI NAS相较于办公，或许更适合家用。该产品加入了AI功能，支持本地化AI识别，可实现数据智能搜索、多条件相册分类、人脸识别、相似敏感内容识别、图片文字识别，而且配备了本地AI大模型，能够自主学习和进化。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_793a8047c9ca466bb7f68ac1a15f6998@1547419282_oswg1255567oswg2008oswg835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图源：绿联）</p>
+  <p>另外，绿联AI NAS还集成了对话大模型，并采用RAG技术，改善了交互逻辑，大幅提升了AI NAS的交互效率，令其成为贴心的数据管家。<strong>我们用手机拍摄的照片、视频无需分类存储，可直接上传至绿联AI NAS，让AI智能分类。</strong></p>
+  <p>近几年，NAS逐渐从专业设备走入千家万户，越来越多的企业进入NAS行业。但如何打造一款好用的消费级NAS，依然是所有相关企业都在思考的问题。</p>
+  <p><strong>硬盘也好，NAS也好，长时间使用后，因存入太多数据，信息混乱难以避免。为NAS加入AI功能，智能对文件进行分类整理，可以解决文件分类难题。</strong>绿联为产品加入AI功能，不但可智能对文件进行分类，还可以按照语音指令进行操作，大幅提高了AI NAS的交互效率。</p>
+  <h2><strong>倍思：WiFi、充电二合一，为出行减负</strong></h2>
+  <p>同样是国内知名数码配件厂商，倍思在CES展出的产品则以充电设备为主，包括Nomos五合一140W可伸缩桌面充电器、Nomos Qi2八合一轻巧型充电站、Nomos Qi2三合一10000mAh移动电源，以及1.5米100W Type-C伸缩数据线等。</p>
+  <p>在倍思的产品中，最耀眼的则为被授予CES创新奖的智汇系列11合1扩展坞（Mac版）与EnerGeek MiFi移动电源。智汇系列11合1扩展坞（Mac版）专为Mac用户设计，提供多个视频输出接口、USB-A接口、Type-C接口，以及千兆以太网口。</p>
+  <p>EnerGeek MiFi移动电源则将移动电源与随身WiFi融合，自带20000mAh容量大电池，最高输出功率高达67W，可满足手机、笔记本电脑的快充需求。同时，该产品还支持2.4GHz和5GHz双频，以及WiFi 6协议，兼容全球频段，可为用户提供高速度、低延迟、低功耗、更安全的网络连接。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_0b98e5b777b745b7ae57ec78570d9324@1547419282_oswg1190678oswg1494oswg996_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图源：倍思）</p>
+  <p>作为一名经常出差办公的媒体工作者，小雷对于随身WiFi和移动电源都有极高的需求度，普通随身WiFi自带电池太小，存在续航时间有限，且充电速度太慢的问题，时常困扰着小雷。<strong>倍思EnerGeek MiFi移动电源将二者巧妙融合，兼顾用户的不同需求，为需要户外使用PC办公的用户提供了完美解决方案。</strong></p>
+  <h2><strong>有道：会场媒体老师的最佳翻译助理？</strong></h2>
+  <p>CES 2025举办地位于拉斯维加斯，国内媒体老师前去参加活动最大的难题可能在于语言不通，虽然一些通俗的英语单词和句式难不倒媒体老师，可这种展会大概率会出现难以理解的专业用语、方言俚语。网易展台展出的有道词典笔X7系列，或许可以成为媒体老师的翻译小助理。</p>
+  <p>有道词典笔X7系列不但拥有7000+万超大词库量，还加入了“子曰”教育大模型原生应用Hi Echo、有道小P。基于端侧大模型，有道词典笔X7系列支持中英文离线翻译、100+小语种在线翻译，其中有道词典笔X7 Pro还支持同声传译和日、韩两种语言离线翻译。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_08fc6a4b65374f1ea536cee745e3d45c@1547419282_oswg1121831oswg1269oswg952_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>该产品配备的高清摄像头、大屏幕等配置，面对各语种的语音或文字都能轻松应对。AI全科家教、Hi ECHO虚拟人口语私教、雅思口语评分等功能，既能帮助用户翻译内容，还能帮助用户学习外语。</p>
+  <p>端侧大模型的加入，大幅提升了有道词典X7的实用性，尤其是同声传译和离线翻译两大功能，一个提高了翻译的及时性，另一个则可以在网络不佳的状况下，保持高水平翻译能力。</p>
+  <p><strong>无论是之前的IFA 2024，还是现在的CES 2025，翻译类设备的关注度都明显提升。在经济全球化、文化全球化，交通愈发便利的今天，语言或许是困扰我们的最后一道壁垒。翻译设备能力的提升，将打破这一壁垒，加速建设地球村。</strong></p>
+  <h2><strong>AI正在定义一切硬件，“多合一”成大势所趋</strong></h2>
+  <p>CES 2025展会上展出的这些数码配件大致可分为两类，一类是绿联NASync iDX系列、网易有道词典笔X7系列等注重功能性，可脱离手机、PC单独使用的设备；另一类则是江波龙NFC移动固态硬盘、倍思EnerGeek MiFi移动电源等需要配合手机或PC使用，方能发挥出更高价值的产品。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_c3835edd2a4341019fde5fe34fc23c5d@1547419282_oswg3218313oswg4000oswg3000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（图源：雷科技摄制）&nbsp;</p>
+  <p>这两类产品因功能丰富度不同，所表现出的特性也有所差异。绿联AI NAS NASync iDX、网易有道词典笔X7等设备，为满足独立使用时的性能、功能需求，加入了AI功能和大模型，以提升交互体验和智能化程度，前者可以自主对数据进行分类整理，后者则实现了离线中英日韩等常用语种翻译。</p>
+  <p>江波龙NFC移动固态硬盘和倍思EnerGeek MiFi移动电源主打“融合”，将不同设备的功能融为一体，如江波龙NFC移动固态硬盘兼顾NFC设备和移动固态硬盘的功能，倍思EnerGeek MiFi移动电源融合了移动电源和随身WiFi的功能。<strong>将多设备融合的好处在于可以减少出行时需要携带的设备数量，方便用户管理，降低出行负担。</strong></p>
+  <p>无论是哪一类设备，所加入的功能都是为了让用户使用时更方便。<strong>AI技术的加入，让设备更加智能，提供了远超以往的交互体验，未来必定会有更多数码配件和相关设备加入AI和大模型。</strong></p>
+  <p><strong>融合设备和功能已成行业趋势，化繁为简也将持续进行，将更多设备融为一体，并借助技术升级迭代缩小其体积，进一步为出行减负。</strong></p>
+  <p>本文来自“雷科技”，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116796670971911</id>
+            <title>李飞飞丈夫、Salesforce首席科学家撰文：「AI agent黎明」之后，我们期待些什么？</title>
+            <link>https://www.36kr.com/p/3116796670971911</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116796670971911</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:04:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 人工智能, agentic AI, 协同合作, 信任与问责  
+<br><br>  
+总结: 人工智能专家预测2025年将是agentic AI的爆发之年，预计到2028年，15%的日常工作决策将由agentic AI自主完成。随着大模型的发展，agent将大规模应用于日常工作，提升生产力和效率。文章探讨了agent系统的发展阶段，从专业贡献者到无缝合作者，再到企业协调者，强调了信任和问责在这一过程中至关重要。未来的成功依赖于人类与人工智能的协同合作，发挥各自的独特优势。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_0fa9cbb0153a40cea3826fa48d729fc8@46958_oswg55355oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>人工智能（AI）专家普遍认为，<strong>2025 年将是智能体（agent）爆发之年</strong>。</p>
+  <p>去年底，Gartner 也将 agentic AI 列入了 2025 年十大技术趋势之一，并预测 2028 年将至少有<strong> 15% </strong>的日常工作决策由 agentic AI 自主完成，而这一数字在 2024 年为<strong> 0</strong>。</p>
+  <p>随着大模型在多模态理解、逻辑推理等方面的进一步发展，agent&nbsp;或将在 2025 年迎来大规模落地应用，替代人类自主解决越来越多的日常工作。</p>
+  <p>日前，<strong>Salesforce 首席科学家撰文、斯坦福大学计算机科学兼职教授&nbsp;Silvio Savarese</strong>，在一篇文章中探讨了 agent 系统的发展前景、在这一过程中需要人类提供哪些帮助，以及有关 agent 的信任和问责问题。</p>
+  <p>值得一提的是，Savarese 也是“AI 教母”、斯坦福大学首位红杉讲席教授、美国三院院士<strong>李飞飞的丈夫</strong>。</p>
+  <p>他表示，正如音乐从单音旋律发展到复杂的交响乐一样，<strong>agent 也正从「个体演奏者」发展到「管弦乐团」</strong>。从现在开始，几乎所有企业——从个人贡献者到高管——不仅可以协调人类劳动力，还可以协调数字劳动力。</p>
+  <p>“未来不是人类与人工智能的对决，而是双方协同合作，发挥各自的独特优势。”</p>
+  <p><strong>学术头条在不改变原文大意的情况下，对整体内容做了精编，如下：</strong></p>
+  <p>在由 AI agent 网络增强的新兴格局中，人类在工作中的角色变得比以往任何时候都更有能力、更有趣、更有创造力。我们现在已经迎来了人工智能的第三次浪潮，它以预测式和生成式人工智能为基础。从人才招聘到超级医疗保健，我们现在将看到人工智能与人类在各个领域合作，以更快的速度满足各种需求，而且在许多情况下比人类本身更准确。<strong>Agentic AI 需要一些时间来产生效应，但它将改善我们工作的许多方面：生产力、效率、战略决策，以及总体工作满意度。</strong></p>
+  <p>欢迎来到 Agentic AI 时代的黎明。从现在开始，几乎所有企业——从个人贡献者到高管——不仅可以协调人类劳动力，还可以协调数字劳动力。</p>
+  <p>我们将看到信任和问责制作为三个阶段演进的基石：掌握离散任务的专业 agent，多 agent 系统无缝协作，以及重写业务运作方式的企业级编排。</p>
+  <p>以下是我们对 agent 系统发展前景的展望，以及在发展过程中需要人类提供哪些帮助。</p>
+  <h2><strong>agent 的演变：从规则到推理</strong></h2>
+  <p>大语言模型（LLM）是一种经过训练的深度学习模型，能够理解文本并生成文本。agent 的发展反映了机器学习本身的发展。传统的基于规则的系统，如机器人流程自动化（RPA），能够执行精确的序列，但在面对（周围环境）变化时的表现不佳。这些早期实施需要大量的技术开销和咨询服务，给许多组织带来了很高的准入门槛。</p>
+  <p>在过去的几十年里，我们见证了渐进式和突破性的进步，这些进步改变了机器处理信息的方式——从僵化的自动化发展到更加灵活、适应性更强、效率更高的学习系统。但是，<strong>更令人兴奋的是我们的发展方向：通过多 agent 推理实现自适应 agent</strong>——agent 可以从环境中学习，通过经验不断改进，并与人类和来自企业客户、合作伙伴、供应商的 agent，甚至消费者的个性化人工智能助手进行协作，而人工智能助手正在成为他们生活中越来越重要的一部分。企业 agent 的未来将分为三个阶段，而我们现在只是刚刚开始。</p>
+  <h2><strong>企业 AI agent 的三个阶段</strong></h2>
+  <p>正如音乐从单音旋律发展到复杂的交响乐一样，AI agent 也正从个体演奏者发展到管弦乐团。每个阶段都建立在上一个阶段的基础上，在企业环境中创造出更丰富、更细微的互动。</p>
+  <p><strong>第 1 阶段：“单音”人工智能——专业贡献者</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_47cee2421d2349c3a2eebfd12a0d759c@46958_oswg225996oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>在 agent 演变的第一阶段，专业 agent 擅长特定行业中的特定任务，为常规但关键的业务运营带来更高的效率和准确性</strong>。它们代表了企业人工智能采用的基础，以一致性和速度处理离散任务，从而转变部门工作流。它们还擅长提供人工智能迄今取得的进步所带来的好处，如预测下一个最佳行动和产品推荐，根据每个客户的偏好和行为进行高度个性化。此外，它们还能为客户、服务人员和销售代表——无论是人类还是机器人——提供最高水准的生成指导、营销语言和通信。</p>
+  <p>例如，<strong>在商业领域</strong>，它们彻底改变了库存和账户管理。事实上，agent 不只是处理基本的库存检查，还能主动监控多个地点的库存水平，预测季节性需求，并生成实时账户摘要，以标记异常模式或机会。过去需要数小时人工分析的任务，现在只需几秒钟就能完成，而且具有更大准确度和深度，为零售客户带来优化、个性化和近乎“神奇”的体验。</p>
+  <p><strong>服务运营</strong>也有类似的转变。除了基本的账单汇总外，agent 还能分析客户互动模式，自动分类和为服务请求设定优先级，并生成关于客户需求的预测性见解。他们会发现客户行为的趋势，这些趋势可能预示着满意度问题或扩展机会，从而为服务团队提供可操作的情报，而不是原始数据。其结果是，客户服务让终端客户感觉毫不费力、环境友好，几乎无处不在——他们的问题往往在不知不觉中就得到了解决。</p>
+  <p><strong>在金融服务领域</strong>，agent 重新定义了客户服务效率。在处理纠纷确认时，他们会分析交易历史，识别潜在欺诈活动的模式，并自动触发相关的安全协议。在财务规划方面，它们通过关联市场数据、个人客户历史和广泛的经济指标来生成综合分析。如果使用得当，agent 将为企业带来前所未有的后台效率，并为消费者提供下一代零售银行业务、投资指导和财富管理体验。</p>
+  <p><strong>第二阶段：“复音”人工智能——无缝合作者</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_28e5a136501b42e5a20d8dcb6ba07f80@46958_oswg217549oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这一阶段引入了<strong>同一公司内专业 agent 之间的协调合作，共同致力于实现共同的业务目标</strong>。在这种情况下，「管弦乐演奏家」agent 会协调多个专家协同工作，这就好比餐厅总经理如何协调有才能的主持人、服务员、经理、厨师和预备厨师等共同工作，以获得令人羡慕的米其林星级。</p>
+  <p>对于复杂的业务运营来说，“复调”人工智能是什么样的呢？考虑一下这样一种客户服务场景：多个 agent 协同工作，为零售客户要求调换淡季 SKU 尺寸的票据提供支持。</p>
+  <ul>
+   <li>一线服务 agent 处理最初的客户询问</li>
+   <li>库存专员检查各地的产品供应情况</li>
+   <li>物流 agent 计算运输选项和时间安排</li>
+   <li>计费专家审查账户历史和付款选项</li>
+  </ul>
+  <p>最重要的是：<strong>协调 agent 可以将所有这些输入信息协调为一致、有效、符合品牌形象且与上下文相关的响应，供人类审查、完善并与客户分享</strong>。</p>
+  <p>如果实施得当，这种由“协调 agent”为“协调人类”服务的多 agent 方法将带来强大的人工智能驱动优势：系统通过利用专注于特定领域的专业化、可信赖的 agent 来提高可靠性，同时减少幻觉，因为每个 agent 都在特定领域内运行。这种分布式方法还能将敏感数据的处理隔离给特定的 agent，从而加强安全性。也许最重要的是，该生态系统提供了无缝的可扩展性——组织可以根据需要不断添加新的专业 agent 来扩展功能。</p>
+  <p><strong>第三阶段：“合奏”人工智能——企业协调者</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d18cd6fb8e5641d5a861da9bf1252465@46958_oswg286968oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>最后阶段（<strong>一个理想阶段</strong>）增加了<strong>跨越组织边界的复杂 agent 到 agent（A2A）互动</strong>，创造了全新的业务关系模式。除了传统的 B2B 和 B2C 模式，我们还看到 B2A（企业对 agent）甚至 B2A2C 互动的出现，在这些互动中，agent 充当工作和交易的中介。</p>
+  <p>考虑一个简单的租车场景：<strong>客户的个人 agent 与租赁公司的商业 agent 进行谈判。</strong>客户的 agent 会优化价格和价值，而租赁公司的 agent 则希望通过附加服务实现收入最大化。但是，业务必须在激进的销售策略与将交易拱手让给竞争对手的风险之间取得平衡。这些互动可能受复杂的“博弈论”原则支配，需要优秀的谈判技巧和协议、不确定性下的风险管理、确保信任的验证机制，更不用说巧妙解决冲突的能力了。&nbsp;</p>
+  <p>现在，想象一下我们在各行各业看到的日益复杂的企业流程：从供应链优化到客户体验编排。无论你是消费者还是企业员工，“合奏”人工智能都将为你提供一个助手，帮助你根据自己的个性化需求和愿望执行复杂的编排和有意义的协作。为了实现这一目标，我们人类还有很多工作要做。</p>
+  <h2><strong>必要条件：信任和问责</strong></h2>
+  <p>随着我们部署越来越复杂的 agent 系统，每项决策都必须遵循两个基本原则：信任和问责。</p>
+  <p><strong>建立信任</strong></p>
+  <p><strong>agentic AI 时代的信任远远超出了防止毒性、偏见和幻觉的技术保障。</strong>Salesforce 最近的研究表明，61% 的客户认为人工智能的发展使可信度变得比以往任何时候都更加重要——他们是对的。我们正在进入一个需要对人类和人工智能之间的共生关系有深刻组织信任的领域。</p>
+  <p>这种信任建立在<strong>四个重要基础</strong>之上。</p>
+  <p>首先是准确性和边界的基石——agent 必须在明确定义的参数内运行，同时保持准确性。除了防止出错之外，这些防护栏还将创建可预测、可信赖的合作伙伴关系，从而增强集体智慧。</p>
+  <p>同样关键的是 agent 的自我意识。与任何有价值的同事一样，agent 必须认识到自身的局限性，并知道何时需要借助人类的专业知识。这就需要复杂的切换协议，以确保人工智能和人类智能之间的无缝协作。例如，我们的人工智能研究团队探索了训练方法，教授 agent 标记不确定区域，并在遇到未知挑战时寻求帮助。经过正确训练后，人工智能将知道何时不应尝试猜测，而应向人类寻求帮助。</p>
+  <p>对于多 agent 系统，我们还需要全球公认和采用的参与协议。可以这样想：银行有全球协议或规则，使个人、企业和国家之间的资金转移系统化。交通有协议来确保遵守规则，由我们通用的交通指示灯颜色系统管理。互联网有“IP”——我们的全球互联网协议，允许数据包的路由和寻址穿越网络，并到达正确的目的地。</p>
+  <p>因此，未来的 agent 也需要这些协议，这些协议应该得到普遍认可和实施，以便协调 agent 能够安全、合乎道德地与其他企业 agent 进行沟通、协商和合作，并使双方互惠互利。这种“合奏”级别的参与必须快速、高效和公平。如果没有这样的协议，往好了说，我们会面临 agent 与 agent 之间的“垃圾邮件”风险，往坏了说，我们会面临欺诈和其他危险。</p>
+  <p>最后，随着我们的 agent 队伍不断壮大，我们的安全措施也必须跟上。与任何技术一样，怀有恶意的人类也可能利用人工智能，设计和训练“人工智能蠕虫”，以达到数据泄露的目的，或试图劫持其他 agent，泄露客户的私人数据。加强保护、隐私控制和持续监控绝不能被视为单纯的技术要求，它们对于维护信任至关重要，而这种信任能将人工智能从我们使用的工具转变为我们企业共同成长的合作伙伴。</p>
+  <p><strong>确保问责制</strong></p>
+  <p>随着企业部署每秒可以做出数千个决策的 agent，我们<strong>必须建立明确的问责和监督框架，以确保在出现问题时有一个应对计划</strong>。这需要一种全面的方法。以下是企业高管监督 agent 实施工作的出发点。</p>
+  <p>明确 agent 决策的责任链。当 agent 做出重要决定时，谁应该对此负责不应该含糊不清。这甚至意味着要设立“人工智能运营官”这样的新角色，他们既有权监督 agent 的部署，又要在出现问题时承担责任。</p>
+  <p>强大的系统，用于检测和纠正不完整的信息、偏差、幻觉或有毒输出，以防它们影响你的业务。这不仅包括基本的安全检查，还包括对 agent 决策的持续监控、实时干预能力和系统审计跟踪。我们的研究团队最近在检索增强生成（RAG）方面取得了进展，极大地改进了人工智能系统访问和验证信息的方式，这只是其中的一个例子。这些创新实现了快速评估和过程修正，确保人工智能系统提供人类和企业可以信赖的准确、可靠的结果。</p>
+  <p>确定人类监督和干预的程序，平衡自主与控制。我们需要超越“human in the loop”的简单概念，为人类何时以及如何干预 agent 决策制定复杂的框架。正如我的同事 Paula Goldman 所说，这更多的是“human-at-the-helm”。这意味着要制定与 agent 沟通的指导原则和全组织范围内的标准方式，以及明确的升级路径，在日常任务中最大限度地发挥 agent 的自主性，同时在重大决策中保持人类判断的核心地位。</p>
+  <p>当错误发生时，采取结构化方法纠正错误。这不仅包括技术上的回退程序，还包括明确的客户沟通、补救和系统改进协议，以防止出现类似问题。</p>
+  <p>新的法律和合规框架，明确解决 agent 的问责。当前的监管环境并不是为自主的 agent 做出商业决策而设计的。我们需要积极主动地与监管机构合作，制定适当的治理结构。</p>
+  <h2><strong>展望未来：科学方法与企业创新</strong></h2>
+  <p>部署真正交互式人工智能系统需要高管的远见：我们必须将产生这些进步的同样严格的科学标准应用到现实世界的实施中。成功不仅取决于部署的 agent 数量或实施速度，还取决于企业领导者和技术专家如何将其与现有的劳动力协议、流程和偏好进行整合。</p>
+  <p>随着我们对 agent 协作、共享学习和人与人工智能交互的理解不断加深，我们发现了一些原则，这些原则得到了可重复研究和经验证据的支持。<strong>未来不是人类与人工智能的对决，而是人类与人工智能的协同合作，发挥各自的独特优势。</strong>现在是开始这种转变的时候了，通过仔细的假设检验、细致的测量和基于证据的不断完善，<strong>科学方法将照亮我们前进的道路</strong>。</p>
+  <p>正如每一次突破性实验都始于假设一样，每一次成功的人工智能转型都始于一个愿景，并以经过验证的事实结束。</p>
+  <p>原文链接：</p>
+  <p>https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/wg5lIgR6S_QCXn389qQeeQ" rel="noopener noreferrer nofollow" target="_blank">“学术头条”</a>，整理：学术君，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116796785168387</id>
+            <title>学霸夫妻联手搞仿制药和创新药，毛利率高达8成，现金流却紧张，现要IPO解困</title>
+            <link>https://www.36kr.com/p/3116796785168387</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116796785168387</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:01:06 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 港交所上市, 海西新药, 毛利率, 创新药  
+<br><br>  
+总结: 海西新药是一家成立于2012年的创新型制药公司，年营收超过3亿元，毛利率高达82%以上，但面临资金紧张问题。公司已获得14款仿制药的批准，并在研发新药方面积极布局。尽管业绩增长良好，现金流却显得紧张，急需通过IPO融资以支持研发和市场扩展。控股股东为创始人夫妇，持有41.17%的股份，且在过去三年中获得了可观的收入。 </div>
+                        <hr>
+                    
+                    <p>随着华昊中天、派格生物、康乐卫士、美中嘉和等企业递表港交所，药企前往港股上市的热潮还在继续。</p>
+  <p>近日，福建海西新药创制股份有限公司（下称“海西新药”）递交申请，欲港交所主板上市，华泰国际和招银国际为联席保荐人。&nbsp;</p>
+  <p>IPO日报注意到，这家由普林斯顿化学博士和耶鲁大学医学院研究经理共同创办的药企，年营收超过3亿元，毛利率更是高达82%以上，实际却面临资金紧张的困境。&nbsp;</p>
+  <h2><strong>年赚上亿，毛利率82.9%</strong></h2>
+  <p>据悉，海西新药自2012年3月在福州成立，是一家处于商业化阶段的创新型制药公司，集研发、生产及销售能力于一体，拥有多元化的产品组合及管线。&nbsp;</p>
+  <p>截至最后实际可行日期，海西新药已商业化的产品组合主要包括用于消化系统疾病、心血管系统疾病、内分泌系统疾病、神经系统疾病及炎症疾病的仿制药；根据灼识咨询的资料，该等治疗领域占2023年中国医药销售总额的25%以上。&nbsp;</p>
+  <p>截至最后实际可行日期，海西新药已有14款仿制药获得国家药监局批准（当中4款入选国家带量采购计划、4款入选省级带量采购计划），此外还有四款处于ANDA（简化新药申请）阶段，关于癫痫、过敏、高血压及电解质补充的在研仿制药，预计将于2025年获得上市批准。&nbsp;</p>
+  <p>在仿制药领域，海西新药重点布局首仿药、难仿药和高仿药的研发，充分利用MAH制度、仿制药一致性评价以及国家药品集采等政策优势。&nbsp;</p>
+  <p>与此同时，在创新药领域，公司以临床价值为导向，专注于开发具有全球市场潜力且临床需求明确的小分子创新药。目前，海西新药的领头项目C019199正处于Ⅰ/Ⅱ期临床研究阶段，未来有望为公司带来新的增长点。&nbsp;</p>
+  <p>业绩方面，2022年、2023年及2024年前9个月（下称“报告期”），海西新药收益分别为2.12亿元、3.17亿元及3.5亿元，期内利润分别为6898.1万元、1.17亿元及1.16亿元。<strong>其中，2024年前9个月公司收益、期内利润分别同比增长58.26%、47.9%，增长趋势良好。</strong></p>
+  <p>报告期内，海西新药的毛利率分别为81%、83.3%以及82.9%，较为亮眼；净利润率则分别为32.5%、37.1%以及33.2%。&nbsp;</p>
+  <p><strong>不过，看似年赚上亿，毛利率高企，但公司的现金却有些紧张。</strong> 截至2024年9月30日，海西新药持有的现金及现金等价物仅为1033万元。&nbsp;</p>
+  <p>回顾融资历程，海西新药自2018年以来历经多轮增资和股权转让，吸引资金2.77亿元，其中，在2022年7月，海西新药增加注册资本510.61万元，金东泓创投以对价1.3亿元认购448.509万元的注册资本，鸿磐投资以对价1150万元认购39.676万元的注册资本，而雇员持股平台泰瑞泓投资则以对价650万元认购22.425万元的注册资本。 &nbsp;</p>
+  <p><strong>也就是2022年7月后海西新药至少获得了1.48亿元的资金补充，仅仅过去一年半，海西新药持有的现金及现金等价物就剩下了1033万元，上市融资则变得更为急切。</strong></p>
+  <p>海西新药在招股书中表示，此次IPO募集所得资金净额将主要用于持续投资于研发以推进管线中的在研药物并丰富产品组合，提升研发能力并寻求合作机会，增强商业化能力并扩大市场影响力，改善生产系统以及用作营运资金及其他一般企业用途。&nbsp;</p>
+  <h2><strong>学霸夫妻执掌41.17%股份</strong></h2>
+  <p>资料显示，公司上市前，康心汕、康心汕的配偶Feng Yan（冯岩）及康心汕控制的实体泰瑞和投资一致行动且为海西新药的控股股东。截至2025年1月1日，控股股东合共拥有海西新药已发行股本总额约41.17%，包括康心汕直接持有的海西新药18.97%股权，泰瑞和投资直接持有的海西新药7.44%股权及Feng Yan直接持有的海西新药14.76%股权。&nbsp;</p>
+  <p>这一结果来自于2020年12月15康心汕和配偶Feng Yan订立婚内财产协议。&nbsp;</p>
+  <p>康心汕现年53岁，在制药行业拥有逾21年经验。&nbsp;</p>
+  <p>康心汕于1993年7月获得中国科学技术大学高分子化学学士学位，并于1999年1月获得普林斯顿大学化学博士学位。&nbsp;</p>
+  <p>2003年3月至2004年9月，康心汕于纳斯达克上市公司PTCTherapeutics,Inc.担任计算科学家。于2004年10月，康心汕加入BioPredict,Inc.，并担任药物发现主管，任职近四年。&nbsp;</p>
+  <p>康心汕2008年9月加入浙江贝达药业有限公司（现称贝达药业股份有限公司，其股份自2016年11月起于深圳证券交易所上市）担任首席药学家，直至2012年3月，任职三年半。&nbsp;</p>
+  <p>康心汕于2010年11月至2014年3月担任北京贝美拓新药研发有限公司总经理。&nbsp;</p>
+  <p>期间，康心汕自2012年3月参与创办海西新药，担任总经理，自2017年11月起担任董事长。康心汕主要负责集团业务运营的整体战略规划及作出关键业务和运营决策。&nbsp;</p>
+  <p>康心汕亦于2018年6月获福建省人力资源和社会保障厅授予教授级高级工程师资格。&nbsp;</p>
+  <p>康心汕的配偶Feng Yan现年50岁，为海西新药的共同创办人。Feng Yan于1997年6月获得兰州大学生物化学学士学位，并于2002年8月获得中国科学院粒子物理与核物理硕士学位。&nbsp;</p>
+  <p>Feng Yan于2003年1月至2009年7月在麦克马斯特大学担任实验室总监。Feng Yan于2009年9月加入耶鲁大学医学院担任研究经理。&nbsp;</p>
+  <p>Feng Yan于2012年3月加入海西新药并自彼时起至2021年12月先后担任总裁助理及副总裁。Feng Yan于2024年6月获委任为副总经理。Feng Yan主要负责集团业务运营的整体战略规划及作出关键业务和运营决策。&nbsp;</p>
+  <p>康心汕2022年、2023年分别自海西新药获得132.3万元、131.9万元的酬金，合计超过264万元，是公司薪酬最高的董监高人员。&nbsp;</p>
+  <p>此外，值得一提的是，2022年7月，康心汕将当时持有的海西新药224250元注册资本（相当于约0.33%股权）转让予汇富创景，对价为650万元，实现了部分股份的落袋为安。&nbsp;</p>
+  <p><strong>总的来说，短短三年，康心汕已将来自海西新药的超过一千万元收入囊中，再加上未披露的Feng Yan的薪酬，创始人夫妇获利可观。</strong></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/j2RPTJQ6DnrUTwilIXngAA" rel="noopener noreferrer nofollow" target="_blank">“IPO日报”</a>，作者：王莹，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116806002315524</id>
+            <title>拼技术、冲高端、全球化，中国智能清洁品牌集体“秀肌肉”</title>
+            <link>https://www.36kr.com/p/3116806002315524</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116806002315524</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 12:00:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <CES, 智能清洁, 中国企业, 技术创新>
+<br>
+<br>
+总结: CES被视为全球消费电子行业的重要展会，近年来中国智能清洁企业在展会上表现突出，展出多款搭载先进技术的产品。智能清洁行业发展迅速，市场需求持续增长，尤其是扫地机器人和洗地机的销量显著提升。各品牌通过技术创新提升产品性能，满足消费者对清洁效果的高要求。随着国际市场的拓展，中国智能清洁品牌逐渐从追随者转变为行业引领者。未来，企业需在激烈竞争中寻求高端化和多元化发展，以实现持续增长。 </div>
+                        <hr>
+                    
+                    <p><strong>编者按：</strong></p>
+  <p>CES被誉为全球消费电子领域的“风向标”，聚集着各行业最顶尖的企业、展示着行业最前沿的技术与产品。近年来，随着中国企业在国际市场中崭露头角，如今的CES上，中国消费电子企业更多，看点也更多了。</p>
+  <p>连线Insight推出《洞察CES》专题策划，通过对国内优秀参展商的解读，洞察各行业中的前沿技术与最新趋势。本期，我们将关注智能清洁行业，看中国智能清洁品牌在CES中如何“秀肌肉”。</p>
+  <p>2025年1月7日，一年一度的消费电子展CES（Consum-er Electronics Show）在美国拉斯维加斯开幕。&nbsp;</p>
+  <p><strong>作为全球消费电子行业的年度盛会，CES一直是全球科技发展趋势的重要风向标，从CES中也常常可以窥见全球科技最前沿的趋势。</strong></p>
+  <p>今年的CES展会预计将吸引超过13万名参会者，4800多家企业参展。&nbsp;</p>
+  <p>其中，有近1500家为中国企业，占比超三成，成为展会的主力军，涵盖消费电子、智能家居、人工智能、新能源、5G通信等领域。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_9fc168afbe5749cb86d06f3d6d6f3aa0@000000_oswg923034oswg1080oswg491_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源CES 2025官网&nbsp;</p>
+  <p><strong>作为智能家居的重要分支，智能清洁电器品牌科沃斯、添可、追觅、云鲸、MOVA、石头科技等悉数登场，纷纷展出搭载品牌最新黑科技的产品，吸引了不少参展者的目光。</strong></p>
+  <p>近年来，智能清洁行业发展迅猛，销量持续走高。&nbsp;</p>
+  <p>奥维云网数据显示，清洁电器凭借两位数增幅，位列家电大盘第一梯队，2024年1-9月清洁电器累计销额234亿元，同比增长11.0%，销量1901万台，同比增长17.9%。从细分品类来看，除拖把外，扫地机器人、洗地机、吸尘器、除螨仪等各个细分品类都呈现正增长。&nbsp;</p>
+  <p>而CES的展品中，可以看到智能清洁电器受青睐的原因。&nbsp;</p>
+  <p>随着消费者对扫地机器人、洗地机产品要求的不断提高，扫地机器人逐渐从辅助清洁工具迭代成为家庭必备的主要清洁工具之一；洗地机也卷出了新高度，防毛发缠绕、杀菌、边角清洁等能力都在提升。&nbsp;</p>
+  <p><strong>从2019年零星几家品牌参展，到2025年头部企业全员亮相，CES也见证着国产智能清洁电器品牌们在海外的成长。</strong></p>
+  <p>在长期的出海布局下，几乎所有的智能清洁品牌都已经在海外市场中拥有了一片属于自己的天空。&nbsp;</p>
+  <p>但随着品牌们在国际市场的加速扩张，各家品牌的市场份额差距相差不大，加之其他行业的玩家涌入，行业竞争更加激烈。&nbsp;</p>
+  <p>在不断加剧的压力之下，智能清洁企业将如何在2025年继续突围？&nbsp;</p>
+  <h2><strong>中国智能清洁企业，在CES上拿出了什么杀手锏？</strong></h2>
+  <p>开在每年年初的CES，相当于科技行业的“春晚”，汇聚了全球最有实力的厂商同台“秀肌肉”，行业最前沿的技术和概念都将在这场展会中展现。&nbsp;</p>
+  <p>今年，中国智能清洁企业们也都拿出了旗下最新、最强的产品，主推扫地机器人和洗地机两大品类。&nbsp;</p>
+  <p><strong>其中，清洁能力是两类产品的必卷项目，但在如何做到清洁力更强上，品牌们各显神通。</strong></p>
+  <p>扫地机器人方面，各品牌产品的吸力数值一个比一个高，科沃斯推出地宝X2 PRO，吸力为8700Pa；石头科技的S8 MaxV Ultra，吸力为10000Pa；云鲸的Freo Z10 Ultra，吸力甚至达到了18KPa。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_6cd8510bd83b4fa69f74d7dd594955cf@000000_oswg952291oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">科沃斯CES展厅，图源科沃斯官方微信公众号&nbsp;</p>
+  <p>洗地机方面，品牌们狂卷防缠绕、除菌、速干等性能。&nbsp;</p>
+  <p>云鲸的S30洗地机，拥有L型双排梳齿刮条和基站毛发切割设计，能有效解决养宠家庭的毛发清洁困扰；添可H15 Pro Heat洗地机搭载了灵捕智能升降机械臂技术，通过“一贴一刮”实现边缘和角落的高效清洁。&nbsp;</p>
+  <p>作为成立不到一年的新品牌，MOVA在CES 2025上展出了超过20件展品，其中有11项首创技术。例如，MOVA扫地机V50 Ultra拥有24000Pa的超强吸力；洗地机X4 Pro，采用了热水洗地技术，使用高达80℃的热水清洁、100℃的沸水进行自清洁，达到除菌和清洁的效果。&nbsp;</p>
+  <p><strong>为了能让扫地机器人能轻松躲避障碍，打扫到更多清洁死角，各品牌都给自己的产品“上”了“科技”。</strong></p>
+  <p>科沃斯的地宝X2 PRO搭载了科沃斯AINA模型，能让机器人具备更强的动态路径规划能力；云鲸的Freo Z10 Ultra凭借AI双目视觉感知技术，能精准识别超200种家庭常见物品；MOVA另一款扫地机器人Z50 Ultra也是把AI的属性值拉满，凭借三重AI脏污识别技术，让产品具有判断脏污程度的能力。&nbsp;</p>
+  <p><strong>此外，追觅科技带来了扫地机器人领域技术和产品的突破性进展。</strong></p>
+  <p>在本次展会上，追觅首次亮相了搭载了「仿生多关节机械手技术」的可自主使用清洁工具的扫地机器人，该款产品顶部隐藏的机械手拥有5个自由度，可以理解成人的“肩 肘 手腕 手指”四个核心关节。可以夹起宽度6cm以内，重量400克以内的物体，伸展距离可达30cm，大概是一个成年人臂长的一半。在具身智能大模型系统的配合下，扫地机器人首次实现了整理功能，可以自主将垃圾扔进垃圾桶、玩具放进玩具房等。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_ad1125c2a3e944449606c9ac71f54500@000000_oswg582291oswg1080oswg481_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">追觅仿真机械手技术展示，图源追觅官方微信公众号&nbsp;</p>
+  <p>另外，追觅最新的X50 Ultra扫地机器人，凭借搭载的ProLeap系统，则像是给扫地机器人安装了两条“腿”，该系统可以通过激光雷达扫描识别前方的障碍物，机身内部隐藏的电动摇臂会探出并撑起扫地机器人，并挪动位置，越过障碍或爬上较矮的阶梯，最高可达到6cm的越障高度。&nbsp;</p>
+  <p><strong>除了在清洁和避障方面的能力，品牌们也给扫地机器人和洗地机加入了智能化元素，让产品使用起来更方便。</strong></p>
+  <p>比如科沃斯在扫地机器人产品配备了全屋视频管家；石头科技G30 Space探索版扫地机器人在遇到地毯时，拖布模块自动抬升20mm，避免打湿地毯；云鲸Narwal Flow扫地机器人能够实现实时热水循环拖地和自动回收污水，品牌旗下手持洗地机产品均可以进行180°躺平，以清洁家庭低矮空间等等。&nbsp;</p>
+  <p><strong>从这些企业展出的产品中，也可以看到智能清洁市场未来的趋势。</strong></p>
+  <p>首先，产品功能的集成化或将成为主流。只带有单一功能的产品已经无法在市场中脱颖而出，智能清洁品牌必须设计出集吸尘、湿拖、杀菌消毒、自动换水等功能于一体的智能清洁产品。&nbsp;</p>
+  <p>AI也成了智能清洁品牌研发新品的标配，大多品牌展出的重磅产品身上，都拥有智能化的影子。&nbsp;</p>
+  <p>比如用AI传感器，扫描识别障碍物或脏污，让产品拥有视觉感知能力，在处理污渍和避障方面更像人；给产品搭载大模型，使其能规划路径，更具自动清洁的属性等等。&nbsp;</p>
+  <p>同时，通过与智能家居系统深度联动，用户不仅可以远程操控设备启动、暂停，还能依据个人习惯定制个性化清洁方案，设备甚至能根据室内空气质量、灰尘浓度自动调整清洁模式，真正实现智能化的懒人清洁体验。&nbsp;</p>
+  <p>在产品的功能和智能化水平“卷到极致”后，品牌可能还会更深入地挖掘产品使用的细分场景。比如对于卫生死角、狭窄空间、厨房油烟、宠物互动区域等特殊场景，研发具有针对性的清洁产品。&nbsp;</p>
+  <p>目前，设计尺寸更扁平的扫地机器人；给扫地机器人安上机械“双腿”和“手臂”；洗地机的高温杀菌和180°躺平设计等，都是品牌挖掘细分场景的表现。&nbsp;</p>
+  <h2><strong>中国智能清洁企业，在海外“杀疯了”</strong></h2>
+  <p>近年来，越来越多的中国智能清洁企业，开始在CES这样有历史底蕴与国际地位的展会中亮相。&nbsp;</p>
+  <p>2019年，追觅和科沃斯首次出现在CES展会中，随后的2020年，添可加入了CES参展商的行列。&nbsp;</p>
+  <p>到了今年，CES汇聚了中国智能清洁行业的所有头部企业，而且不仅是CES，在IFA（柏林国际电子消费品展览会）、AWE（中国家电及消费电子博览会）等国际展会上，中国智能清洁企业也越来越多，并能够吸引大量关注。&nbsp;</p>
+  <p><strong>这些“从无到有再到全”的变化，意味着中国智能清洁企业在国际市场中占据越来越高的地位，并逐步从行业的追随者转变为引领者。</strong></p>
+  <p>据IDC数据，2024年第一季度，全球智能扫地机器人的出货量为455万台，同比增长11.10%，虽然出货量排名第一的企业仍为海外厂商Irobot，但在出货量前十的厂商名单中，中国厂商占据8个席位。&nbsp;</p>
+  <p>另据海关总署最新数据，2024年1-9月，我国吸尘器（包括吸尘器、扫地机器人和洗地机等品类）出口额为49亿美元，同比增长10%，出口量13671万台，同比增长17%。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_164ed5e62e344722b9abf77163be7a5f@000000_oswg130895oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>这些数据，均得益于中国智能清洁品牌们在海外的提前布局。</strong></p>
+  <p>早在2012年，科沃斯就在美国和德国设立了分公司，又在两年后的2014年在日本设立分公司，这些早期布局帮助科沃斯在国际市场上建立了初步的立足点。&nbsp;</p>
+  <p>而分别成立于2016年和2017年的云鲸和追觅，则是在创立后不久就立刻开始布局出海赛道。比如追觅是在成立后的第二年即2018年就开启了全球化征程；云鲸最早是在2019年布局海外市场，彼时的云鲸刚刚成立三年。&nbsp;</p>
+  <p>MOVA在成立后就火速布局海外市场。2024年11月，MOVA正式在美国市场开售，并迅速布局了亚马逊和独立站等线上渠道。同时，MOVA也在拓展线下渠道，包括在欧洲地区进入MediaMarkt、Unieuro、Electro Depot等。&nbsp;</p>
+  <p>不管是科沃斯出海不久便开始在亚马逊的多个国家市场铺开产品，还是云鲸带着首代产品J1，在美国Kickstarter众筹网站上大放异彩，抑或是追觅在德国打开市场，入驻率超过70%……<strong>每家品牌都抓住了出海发展的关键时机。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_715df924cf3b49949d790e964cbbd81c@000000_oswg44674oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">云鲸Narwal J1拖地机器人，图源云鲸官方微信公众号&nbsp;</p>
+  <p>如今，多数品牌已经完成了对海外主要市场的覆盖。&nbsp;</p>
+  <p>比如截至2024年7月，追觅的产品已经覆盖全球超过100个国家和地区，包括欧洲、北美、东南亚、澳洲、中东非；截至2024年9月底，云鲸智能的海外销售国家或地区已拓展至 30 多个，覆盖北美、欧洲、日本、韩国、澳大利亚、东南亚等区域。&nbsp;</p>
+  <p><strong>同时，品牌们在海外的持续高光，也实实在在地写在了财报与销量数据中。</strong></p>
+  <p>例如2024上半年，科沃斯的海外业务实现营业收入28.45亿元，占总收入40.78%。其中，科沃斯品牌海外收入同比增长11.3%，添可品牌海外收入同比增长31.7%。&nbsp;</p>
+  <p>追觅在2024年“黑五”期间，西南欧地区全渠道GMV成功突破10.2亿元人民币大关，同比增长高达133%，其中扫地机突破7.9亿、洗地机突破1.8亿；独立站方面，GMV突破6000万，同比增长超850%，新增用户超过20万。&nbsp;</p>
+  <p>2024年1-9月，云鲸的出口量同比增长近700%，截至9月底，公司的海外业务营收同比增长近7倍。&nbsp;</p>
+  <p>可以看出，中国智能清洁企业已在海外市场初显锋芒，不过随着竞争变激烈，未来，它们还需应对更多的挑战。&nbsp;</p>
+  <h2><strong>冲高端、多元化并行，智能清洁企业在压力下谋增长</strong></h2>
+  <p>当前，中国清洁电器市场规模仍在扩大。根据GfK中怡康行业推总数据预测，2024年中国清洁电器市场零售额规模将达到380.1亿元，同比增长5%。&nbsp;</p>
+  <p><strong>但赛道中玩家众多，且各品牌之间的份额差距并不悬殊。</strong> 根据IDC发布的2024年第三季度数据显示，石头科技以16.4%的市场份额位居全球扫地机器人市场第一，紧随其后的Irobot占13.5%、科沃斯占13.1%、小米占10.3%、追觅占7.6%。&nbsp;</p>
+  <p>除了份额差距不大，市场上也存在众多其他赛道的竞争对手，入局智能清洁市场，包括传统小家电企业，如美的、海尔等；以吸尘器起家的企业，如戴森、JS环球生活等；以及依托互联网供应链进入扫地机器人领域的企业，如小米、京东京造等。&nbsp;</p>
+  <p><strong>面对这些竞争，冲击高端化成为诸多企业的破局方向。</strong></p>
+  <p>在产品布局上，扫地机器人成为各大厂商冲击高端化的重点布局品类。目前，科沃斯、追觅、云鲸都已推出4000元以上的扫地机器人产品。&nbsp;</p>
+  <p>科沃斯、追觅和MOVA也在5000元以上价格带有所布局，三家品牌的淘宝旗舰店情况分别显示，科沃斯目前有一款5000元以上产品在售，追觅和MOVA分别有两款。&nbsp;</p>
+  <p>其中，科沃斯X8PRO PLUS和追觅X50销量较高，均已有超过1万人付款，MOVA作为后起之秀，其Z5扫地机器人也很受欢迎，已经有超百人付款。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_637005a31740413a9c5f0479bf28f2b6@000000_oswg352849oswg556oswg618_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">MOVA Z5扫地机器人，图源MOVA官方微信公众号&nbsp;</p>
+  <p>除了推出高价格带的产品，各企业也纷纷加大了研发投入，一些产品的功能加量不加价。比如给产品“安排”智能算法、传感器，能够自动换水、自动换拖布等功能的基站也几乎成了扫地机器人的标配。&nbsp;</p>
+  <p><strong>高端化之外，多数品牌也采取了“两手抓”的策略，尤其是在洗地机品类上，一些品牌也走起了性价比路线。</strong></p>
+  <p>淘宝信息显示，添可、石头科技、追觅都推出过价格接近1000元的洗地机产品。&nbsp;</p>
+  <p>从行业数据来看，扫地机器人的整体价格也在下滑。奥维云网的数据显示，2024年第一季度，线上洗地机的平均价格为2092元，同比下降19.5%，线下的平均价格为3084元，同比下降7.3%。&nbsp;</p>
+  <p><strong>同时，多元化发展也是企业谋增长的关键策略。</strong></p>
+  <p>品类拓展成为趋势。在深耕扫地机器人、洗地机基础上，智能清洁企业向更多清洁品类进军。品类涉猎较多的如科沃斯、追觅推出擦窗机器人、高吸力吸尘器、割草机器人、空气净化器等；添可较为特别，推出了地毯清洁机。&nbsp;</p>
+  <p>也有企业基于扫地机器人产品的研发经验，推出智能清洁品类之外的产品。&nbsp;</p>
+  <p>比如添可和MOVA都进军了厨房电器赛道，添可推出智能料理机、智能净热一体机、智能靠炸一体机；MOVA推出了空气炸锅、咖啡机。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_f5ccb8a65e064d879ecc0c6978e37676@000000_oswg397923oswg835oswg634_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">添可食万3.0料理机，图源添可官方微信公众号&nbsp;</p>
+  <p>两个品牌也都进军了个护产品领域，均推出了头皮护理吹风机；MOVA还推出了电动牙刷。&nbsp;</p>
+  <p>当然，无论是向高端化爬坡，还是向性价比路线探索，以及做跨品类的开拓，都考验着品牌的综合实力。&nbsp;</p>
+  <p><strong>2025年的智能清洁行业竞争依然激烈，在年初的CES上，每家品牌都将使出浑身解数，争取成为展会的焦点、窥见行业的趋势、调整自身的不足，进而在新一年的市场博弈中，实现新的增长。</strong></p>
+  <p>（本文头图来源于CES 2025官网。）&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2MTc4Nzg5MQ==&amp;mid=2247549919&amp;idx=1&amp;sn=3898fe5c0f435d363217436747ca56a0&amp;chksm=cf8b4d259439474f3890b4ca51c0a5c90c0dabebb157ddc49d9ce6c841db842fcdadfb0ef419&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“连线insight”（ID：lxinsight）</a>，作者：窦文雪，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116812529914118</id>
+            <title>企业的AI转型正进入拐点：来自3000家企业调研的发现</title>
+            <link>https://www.36kr.com/p/3116812529914118</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116812529914118</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 11:54:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 图片, 腾讯研究院, 研究, 微信公众号  
+<br><br>  
+总结: 本文由腾讯研究院撰写，并通过36氪授权发布，主要展示了一系列图片。文章未提供具体的文字内容或论点，主要依赖于视觉呈现。 </div>
+                        <hr>
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_8d2c15722fb24461aee5e01dbbf4ba21@46958_oswg862431oswg1000oswg7204_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_f702eb8700754ecbbd7be4bcefe43127@46958_oswg477854oswg1000oswg6019_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d0df62f3074545a983d75cc8592cac33@46958_oswg509705oswg1000oswg6716_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_c38810a7d9814ae4b7e74c7c36647e9c@46958_oswg660397oswg1000oswg6924_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_fbb0a0ed3a014b26aca597e6b3720904@46958_oswg548089oswg1000oswg7470_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/_Olak9t25DtvPvDdKGspaQ" rel="noopener noreferrer nofollow" target="_blank">“腾讯研究院”</a>，作者：腾讯研究院，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3116812580818948</id>
+            <title>AGI奇点没来，AI“谣言奇点”先到了</title>
+            <link>https://www.36kr.com/p/3116812580818948</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3116812580818948</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 10 Jan 2025 11:53:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 地震, AI生成, 信息真实性, 社交媒体  
+<br><br>  
+总结: 2023年1月7日，西藏日喀则市发生6.8级地震，相关的AI生成图片在社交媒体上引发广泛传播，造成公众误解。随着AI技术的发展，生成的内容越来越逼真，导致人们在灾难、战争等场景中难以辨别真伪。尽管科技公司和政府正在努力建立识别和监管机制，但现有的防线仍存在明显漏洞。人类在信息真实性的防护中面临挑战，必须培养检查信源的习惯，以应对后真相时代的混乱局面。 </div>
+                        <hr>
+                    
+                    <p>1月7日9时05分，西藏日喀则市定日县发生6.8级地震。</p>
+  <p>一张戴帽子的小孩被重压在倒塌的建筑物下的图片，在某平台上疯传开来。</p>
+  <p>至少有10个以上的账号发布这张图片，并和西藏日喀则地震进行关联，有些甚至获得上万的转评赞。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_9b978942897b457ea01cc55446ec1726@46958_oswg121887oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>腾讯新闻较真平台查证了相关图片，证实这组牵动了如此多网友的心的照片，其实是由AI生成。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_5b50a2fd723d4104b7bf9574dcb8af14@46958_oswg140295oswg1066oswg1492_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图：腾讯新闻较真平台的查证报道</p>
+  <p>在这样重大的灾难面前，AI造成的误解，也暗含了正在快速增长的隐忧。</p>
+  <p>2023年3月，一张由Midjourney生成的教皇方济各身着巴黎世家羽绒服的照片在社交媒体获得超百万点击，许多人误以为是真实照片。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_3974fbc16ed14fbebe2b3e0a1f8f0333@46958_oswg472588oswg950oswg316_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图：AI生成的教皇身着白色羽绒服的图片</p>
+  <p>2023年4月，社交媒体上出现了AI生成的中国四川山火照片，由于画面极其逼真，一度引发公众恐慌，直到官方媒体出面澄清。</p>
+  <p>2023年8月，在美国夏威夷毛伊岛发生严重山火期间，社交媒体上又出现了AI生成的纽约市被洪水淹没的照片，这些虚假场景再次引发了人们对气候灾难的恐慌。</p>
+  <p>2023年12月，甘肃积石山地震期间，大量AI生成的地震现场照片混杂在真实灾情照片中传播，严重干扰了灾情信息的准确传递。</p>
+  <p>这是AI生成的内容对人类社会影响的一个切面，是可能影响最严重的部分。在灾害、战争等场景中制造半真半假的信息。</p>
+  <p>和之前的情况不同，过去我们个人有防范的手段。但随着技术的进步，AI生成的拟真已经越来越接近奇点，难辩真伪了。</p>
+  <h2><strong>真假难辨的AI</strong></h2>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_f49d945d87db48579b9a81f78f200a31@46958_oswg737451oswg1022oswg502_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>以上这几张图片，你能分出来哪张是由AI生成的吗？</p>
+  <p>答案是全部都是。</p>
+  <p>这就是2024年AI文生图模型的能力。这些AI生成的人像已泛滥在赛博空间，你在刷小红书时也许就可以碰到，但你不一定能认得出来。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_edc0ea21535345d191e3b4a5b071a5a0@46958_oswg205930oswg675oswg247_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在上述地震中的小朋友图片中，我们还可以从手部六个指头看出AI的端倪。但这是因为图片制作者并未采用最先进的大模型技术。</p>
+  <p>早在2023年3月，图像生成领域的领头羊Midjourney在其v5版本中就已经解决了手指数量的问题。他们通过海量手指标注数据，成功对模型进行了微调，让模型能够至少知道手指的样貌。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_2f391b15c9854fe5b3e9a9095bee2a6d@46958_oswg211845oswg700oswg292_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图注：从V3-V5，手指表现的改进</p>
+  <p>但到此时，AI生成的手指还有一些瑕疵，比如它的肌肉纹理并不自然。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_e937f5e218d94f048c2456a05dd41c75@46958_oswg894917oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图注：V5生成的手，有时候用力过猛</p>
+  <p>到了2024年7月，最新版的Midjouney V6.1已基本解决手指问题了，甚至将手部细节做到相当完美逼真了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_93f59a88210149e6a1274e915f905794@46958_oswg871006oswg1080oswg814_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>虽然AI生图的真实度一直在加强，但它也不是完全完美的。只是普通人想识别出它的异样，还是有点难。</p>
+  <p>比如在2024年6月，美国西北大学专门出了一份54页的手册，帮你辨别AI生成内容。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_4a70c477a6404e35a923998828c58be9@46958_oswg596810oswg1080oswg899_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在手册中，他们提到了五种核心辨别AI造假的方法。首先是解剖学上的不合理，比如手部的不自然、骨骼惊奇、牙齿奇怪。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_d2fcbe0fd0aa4de0b23b43b99d26cc93@46958_oswg79298oswg1022oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第二是风格化，如果画面看起来太干净、或者过分有电影感，这都可能是AI造假的。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_82499ddd6f6c4cf185351f0a9bf149ed@46958_oswg60107oswg1024oswg394_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第三是功能上的不合理，AI对很多功能性产品的理解有限，因此会常常表现很模糊，或者不对劲。比如把镜子放在床后面，正常人都不会干这事儿。而且目前能够正确显示汉字的AI生成模型还寥寥无几。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_68cba435a33b444bbc5dce2dec4dbe8c@46958_oswg149278oswg1044oswg994_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第四是违反物理规则，比如反光和影子不正常，镜中倒影也不对劲。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_149b89e3b03f4d74b8172bcf6d76d961@46958_oswg126684oswg1034oswg674_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第五是文化或常识上不合理，比如川普加入黑人女性排队（川普是个白人种族主义者，不可能加入女黑人的派对），或者穿着泳衣去葬礼。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_95b9f83c80a24f8f9d375537a1e604f1@46958_oswg121877oswg1050oswg630_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>然而，整本手册一直在提醒我们注意，这些错误在多次生成、或者降低Prompt复杂度的情况下是可被避免的。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_0ebd5d1094bf4a54bc04dea0002fc5f1@46958_oswg53048oswg956oswg382_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>那些有意产生看起来足够逼真AI画面的人，还是可以通过反复生成，调整提示词来扬长避短，“欺骗”你的眼睛。</p>
+  <p>而且部分细节上的“不对劲”，如果不是仔细看，人类是无法分辨的。</p>
+  <p>对于这一点，美国甚至政府部门都上阵做了考察。</p>
+  <p>早在今年三月，美国政府战略研究中心网络安全计划就做了一项研究。他们发现，人们识别AI生成内容（包括图像、视频和声音）的综合准确率仅有51.2%，接近随机掷骰子的水平。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_8f434bdcef0a4a78ab19ffffa7de783e@46958_oswg108201oswg1080oswg491_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在所有类型的AI生成内容中，图像是最不容易识别的，准确率仅有49.4%，比瞎猜都差。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_68cd88a41a754e77bd3b87e28d695185@46958_oswg17274oswg704oswg426_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而其中人脸图像更难识别，正确率仅有46.6%。而且这还是上一代图像和视频生成模型下的结果。看看下面这些具体的图像，和当前的AI生成技术水平还是有点距离。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_f852d636588e493b8729fddf8b439fb7@46958_oswg50917oswg700oswg406_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图注：具体图像的识别准确率</p>
+  <p>可以说，图片造假早已经超越了人类的识别线。而且不管你是不是专业人士，你都看不出来。在论文中，熟悉AI的人和完全不熟悉的人，准确率只差了0.8%。</p>
+  <p>而且如今，随着Sora、可灵等AI生成视频模型的更新，视频这个赛道也早就变得更加真实了。</p>
+  <p>比如在本周，Heygen（目前全球最知名的AI 视频虚拟数字人生成平台）和Sora合作的数字人计划，已经完全自然到普通人难分真假的水平了。</p>
+  <p>对于个人而言，现在还剩下的唯一一条路径就是用机器对抗机器。当你觉得不对劲时，可以用AI探查网站去验证图片或视频的真伪，这些工具利用了计算机视觉技术分析像素模式，判断图像由 AI 生成的可能性。</p>
+  <p>比如AI or not，它是一款提供简单“是”或“否”答案的工具，我们尝试了 10 张图片，获得了 80%的成功率，虽不完美但尚可。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_86e110d92f6e497d9d32a1bdec12f2d0@46958_oswg60870oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>三道防御AI的防线</strong></h2>
+  <p>当AI发展到普通人类的肉眼无法识别的时候，人类还有什么防御手段？从目前来看还有三道墙。</p>
+  <p><strong>第一道，各大科技公司让“AI的生成品”走出家门的时候，大部分还是会对AI打上一定的电子标签的，让它们有一个可以被识别的电子身份证。</strong></p>
+  <p>在这里，首先要提到C2PA，它是由Adobe、Arm、英特尔、微软和BBC等科技与媒体巨头早在2021年2月共同发起的开放技术联盟，为了建立统一的内容认证标准，通过开发开源技术规范来解决数字内容的可信度问题。</p>
+  <p>到了今天，AI生成内容爆发式增长，这个标准也在持续被科技公司采用。</p>
+  <p>比如，OpenAI采用了双重保护机制：在图像处理中采用C2PA标准水印，并在元数据中嵌入生成信息，这种数字水印无法篡改，可以记录创作时间、使用模型等信息；另外在图像右下角添加标识，相当于一个电子签名。</p>
+  <p>这种方案虽然完整，但在图片经过多次转发或格式转换时，隐藏的元数据可能会丢失。</p>
+  <p>Google开发的SynthID水印技术相对解决了这个问题，这种水印对人眼完全不可见，却能在图片经过裁剪、压缩、滤镜处理甚至打印再扫描等多重操作后依然存在。验证时需要使用专门的检测工具，通过复杂的算法分析来确认水印的存在。</p>
+  <p>这种技术虽然具有极强的防篡改性，但检测过程相对复杂，很难实现即时验证。</p>
+  <p>作为图像处理软件的行业的龙头企业之一，Adobe推出了系统化的Content Credentials方案。就像给每张图片配备了一个可靠的"电子档案"，符合国际C2PA标准，还提供了面向大众的Verify验证平台。用户只需打开网页就能轻松查证图片来源，特别是在使用Photoshop等软件时，这个"电子档案"会自动生成，完全可以融入创作流程。</p>
+  <p>但是，还是有一些科技公司，在这道防线上不太负责任。</p>
+  <p>比如，在这波生成式AI创作的浪潮中最引人关注的两家图片生成公司Midjourney和Stability AI——Midjourney没有添加传统水印，社交媒体上戏称它的独特的艺术风格就是天然标识；而Stability AI更是直接把权利交给用户，可以根据需求决定是否添加水印，完全一副”人性本善，全靠自觉“的态度。</p>
+  <p><strong>如果说，在这些AI内容生成的时候，依然有漏洞可钻，那么，人类还有第二道防线，就是在它们的传播途径中设关卡。</strong></p>
+  <p>比如前面提到的科技巨头Meta，虽然动作有点缓慢，但是已经声称“正在为旗下社交平台开发新的标识系统，计划将可见标记和隐形水印结合起来。考虑到社交平台上图片传播频繁的特点，他们特别注重标识的持久性和跨平台兼容性，就像给每张图片配上了能随时核验的电子护照"。</p>
+  <p>另外，比如X平台（原Twitter），开发了自动检测的机制，可以识别AI生成的内容，如果验证了这是AI，就会在信息流中添加明显标识；还鼓励创作者主动标注自己使用AI辅助创作的内容。</p>
+  <p>TikTok的应对措施会更为严格，要求创作者必须披露使用AI生成的内容，并建立专门的举报通道，处理未标注的AI内容。</p>
+  <p>但是，平台是否应当承担管理责任，以及是否有能力承担管理责任，目前都是未知的。</p>
+  <p><strong>在传播途径之外，人类还在努力建立第三道最强大的法律防线。</strong></p>
+  <p>欧洲速度是相对较快的，2023年底，欧盟通过了具有里程碑意义的《AI法案》（AI Act），这被公认为全球首个全面的AI综合监管框架。</p>
+  <p>它的核心要求之一是所有AI生成的内容都必须清晰标识其人工智能属性，确保用户能够轻易识别内容的来源。为了确保法案的执行力度，欧盟还设置了严厉的处罚措施，违规企业最高可能面临全球营收7%的巨额罚款。</p>
+  <p>我们国家在去年9月就已经发布了《网络安全技术人工智能生成合成内容标识办法》强制性国家标准（征求意见稿）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250110/v2_abb05aac7c8f44449f0d5878a0316010@46958_oswg260471oswg1072oswg316_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但是，由于生成式AI这两年的爆发式发展，法律制定的进程远慢于技术发展；而且各个国家的态度有所不同，都试图在监管和创新发展中找一个好的平衡点，再加上AI领域的竞争与合作关系复杂，想建立一个全球统一的治理框架和标准难上加难。</p>
+  <p>综合来看，虽然人类存在三道防线，但是这三道防线都有自己很明显的薄弱环节。所以才让各种AI Deepfake内容这样容易地入侵人类社会。</p>
+  <h2><strong>结语</strong></h2>
+  <p>在经历了漫长的技术进化后，AI终于撕开了人类感知能力的薄纱。这个发现令人不安 —— 它意味着我们正站在信息真实性的分水岭上。</p>
+  <p>AI谣言的"奇点"不是未来时，而是现在时。</p>
+  <p>然而，面对这场数字巨变，我们的社会防御体系仍显稚嫩。当下，我们正经历着类似的适应期：技术以指数级速度推进，而信任体系的重建却需要线性时间。这种不对称必然会导致一段信息生态的混沌期，就像任何重大社会变革一样，混乱在所难免。</p>
+  <p>在这个后真相时代，每个人都成了信息真实性的守门人。检查信源这件事应该成为一种日常习惯。这不仅是个人的责任，更是集体信任网络中的一环。</p>
+  <p>毕竟，在信息洪流中主动守护真相，不正是人类区别于机器的本质特征之一吗？</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/pNBO2w5zVbtKzhSkgLaOYg" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：郝博阳、郭晓静，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
