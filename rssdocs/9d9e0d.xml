@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a96d19dbf7113c459d9e9e</id>
+            <title>AI探索站 02月10日</title>
+            <link>https://m.okjike.com/originalPosts/67a96d19dbf7113c459d9e9e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a96d19dbf7113c459d9e9e</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 03:06:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    cursor-tools 这个项目牛皮，可以极大的增强 Cursor Agent 的能力<br /><br />通过 Perplexity AI 提供了网页搜索功能，帮助Cursor获取最新信息<br /><br />支持使用 Gemini 2.0 进行大规模代码库分析<br /><br />支持浏览器自动化，可以执行打开网页、执行操作、观察交互元素和提取数据等任务<br /><br />对 GitHub Issues 和 Pull Requests 的支持，允许 AI 编码助手直接从命令行访问和处理这些内容。<br /><br />使用的话需要 Perplexity 和 Gemini 的 API kay<br /><br />项目地址：https://github.com/eastlondoner/cursor-tools
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</id>
+            <title>AI探索站 02月10日</title>
+            <link>https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 00:20:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天在真格做了一个面向非技术人群（我怎么每次都是面向这个人群😂）的 DeepSeek R1 创新亮点分享会（由我司首席科学家 Peak 提供 tech review，确保我没有瞎讲）。<br />用通俗易懂的方式带大家过了一次 R1 和 V3 的技术报告。让你可以理解在这之前业界都有哪些问题和疑惑，DeepSeek 是怎样去解题的，以及其中的几个重要闪光点。<br />后半场我们讨论了从中能看到未来 LLM 应用会有哪些新范式和产品可能性。<br />同时对最近一段时间的各种光怪陆离的谣言和伪概念进行一个解释😁
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a8830cdaac145d1cc5f3fb</id>
+            <title>AI探索站 02月09日</title>
+            <link>https://m.okjike.com/originalPosts/67a8830cdaac145d1cc5f3fb</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a8830cdaac145d1cc5f3fb</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 09 Feb 2025 10:27:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天发现飞书的多维表格刚刚支持了 DeepSeek R1，一列数据粘贴进去，全自动批量请求，真的太爽了。<br /><br />昨晚发现了这个新玩法之后发了一些体验，大家的反馈超出预期，纷纷要求出教程。<br /><br />肝了一个下午，教程这就来了！<br /><br />《喂饭级教程：飞书多维表格+DeepSeek=10倍速用AI》<br />超详细，多图，教程地址：<br /><br />https://mp.weixin.qq.com/s/aIi4tIy0CCINyQE_3AfF_Q
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a728d9839dc0fae4c1d38f</id>
+            <title>AI探索站 02月08日</title>
+            <link>https://m.okjike.com/originalPosts/67a728d9839dc0fae4c1d38f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a728d9839dc0fae4c1d38f</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 09:50:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ✅【全网首发】全网最全的《Deepseek学习手册》来啦！超10W+字汇总，带你全方位学习，了解Deepseekd的方方面面，免费开源，欢迎大家学习！<br /><br />🔗学习地址：https://yunyinghui.feishu.cn/wiki/QuK2wYgOXiH3m6k1tADcxuhjnEg?from=from_copylink
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a6b84f9f24e84ae0aa64f6</id>
+            <title>AI探索站 02月08日</title>
+            <link>https://m.okjike.com/originalPosts/67a6b84f9f24e84ae0aa64f6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a6b84f9f24e84ae0aa64f6</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 01:50:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 辅助编程的几类产品<br /><br />1. AI 代码编辑器，面向职业程序员，辅助写代码，debug，设计技术方案。代表产品：cursor, windsurf, trae<br /><br />2. 一句话生成项目，面向产品经理，输入 idea，快速实现一个 MVP，支持在线发布，快速验证需求，能实现简单的交互功能。代表产品：bolt, lovable, v0<br /><br />3. 指定品牌名生成落地页，面向电商卖家 / 独立创作者，快速为自己的商品或品牌生成一个 landing page , 支持在线编辑，一键发布。代表产品：pagen, wegic<br /><br />4. 输入 URL 或上传截图，快速复刻项目/组件，面向开发者，参考目标网站写页面的场景。代表产品：screenshottocode, copycoder <br /><br />5. 其他辅助场景：一句话生成桌面/移动 App， 一句话生成管理后台，一句话生成 SQL 语句，一句话生成 API<br /><br />2025，你最看好哪类 AI 辅助编程产品？<br /><br />你觉得一个理想的 AI 辅助产品，终极形态应该是怎样的？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a62142dce1743f065d3216</id>
+            <title>AI探索站 02月07日</title>
+            <link>https://m.okjike.com/originalPosts/67a62142dce1743f065d3216</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a62142dce1743f065d3216</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Feb 2025 15:05:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    用DeepSeek R1做了个文章改写神器，测试完我就想哭了，就这么一步操作，AI出来的文章质量比我原文好多了😭<br /><br />而且，是直接用了我原文的图文结构，并且是可以直接把链接分享给别人查看的。<br /><br />我的原文：https://mp.weixin.qq.com/s/HFQbz4gQ_CCCUY9S7MwTeg<br />改写后的文章：https://ds.huasheng.ai/article.html?id=Tb9FnsHFYOGy3mKdM5zU<br /><br />文章改写工具：https://ds.huasheng.ai/rewrite.html
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a4095767917bf4ddfb6f34</id>
+            <title>AI探索站 02月06日</title>
+            <link>https://m.okjike.com/originalPosts/67a4095767917bf4ddfb6f34</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a4095767917bf4ddfb6f34</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 06 Feb 2025 00:59:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    卧槽，来了朋友们，Karpathy 三个半小时 LLM 入门课程<br /><br />如果想入门了解LLM的话必看这个视频<br /><br />没有技术背景也可以看懂<br /><br />详细介绍 LLM 训练的全部过程，包括预训练、有监督微调和强化学习<br /><br />视频是23年十月那个视频的强化版本，讲的更加详细<br /><br />这里有我用Gemini总结的详细目录和完整视频翻译：https://mp.weixin.qq.com/s/NJjfSQHRHX4uvG5dZJCswQ
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a1b5720f036de7d19285d6</id>
+            <title>AI探索站 02月04日</title>
+            <link>https://m.okjike.com/originalPosts/67a1b5720f036de7d19285d6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a1b5720f036de7d19285d6</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 06:36:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天早上，Lex Fridman 发布了一个颇有深度的播客，总长约 5 个小时。<br /><br />在这个对谈中，Lex Fridman 与半导体分析专家 Dylan Patel（SemiAnalysis 创始人）和人工智能研究科学家 Nathan Lambert（艾伦人工智能研究所）展开对话，深入探讨 DeepSeek AI 及其开源模型 V3 和 R1，以及由此引发的 AI 发展地缘政治竞争，特别是中美在 AI 芯片和技术出口管制领域的博弈。<br /><br />我做了一个全文翻译...全文超 10 万字...
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a188c6b6302275b52a3800</id>
+            <title>AI探索站 02月04日</title>
+            <link>https://m.okjike.com/originalPosts/67a188c6b6302275b52a3800</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a188c6b6302275b52a3800</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 03:25:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    深入研究了一天 ChatGPT Deep Research，震撼的不仅是它背后的 o3 模型作为 Agent 的表现——在推理、搜索和综合理解上——显著领先目前 Gemini Deep Research 和 Perplexity Pro+R1，而是它即将引发的知识工作者范式冲击和新一轮红皇后效应。<br /><br />这个具体例子让我格外感触：今天让它写一份面向大学生、企业家和经济学家的 AI 对比研究的简报。ChatGPT 只用了4分钟，而以我这些年的写作、AI研究和实战经验，至少需要 10 个小时才能达到这样的深度和全面性。<br /><br />如果你对AI应用、推理模型独特能力以及AI Agent的未来感兴趣，不妨细细阅读这份简报。也许你将和我一样，陷入沉思。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6796f649f8df72ef72154154</id>
+            <title>AI探索站 01月27日</title>
+            <link>https://m.okjike.com/originalPosts/6796f649f8df72ef72154154</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6796f649f8df72ef72154154</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Jan 2025 02:58:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2024.7.17 <br />揭秘DeepSeek：一个更极致的中国技术理想主义故事<br />https://mp.weixin.qq.com/s/r9zZaEgqAa_lml_fOEZmjg<br /><br />2023.5.24<br />疯狂的幻方：一家隐形AI巨头的大模型之路<br />https://mp.weixin.qq.com/s/Cajwfve7f-z2Blk9lnD0hA
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

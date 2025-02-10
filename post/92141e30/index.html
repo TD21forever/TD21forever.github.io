@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic|JetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="《程序员的自我修养》—— 静态链接阅读笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《程序员的自我修养》—— 静态链接">
+<meta property="og:url" content="https://www.dcts.top/post/92141e30/">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="《程序员的自我修养》—— 静态链接阅读笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242136.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242165.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242182.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242197.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242210.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242224.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242239.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242252.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242264.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242277.png">
+<meta property="og:image" content="https://qiniu.dcts.top/typora/202303140242287.png">
+<meta property="article:published_time" content="2023-03-13T18:44:51.000Z">
+<meta property="article:modified_time" content="2025-02-10T16:23:00.442Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://qiniu.dcts.top/typora/202303140242136.png">
+
+
+<link rel="canonical" href="https://www.dcts.top/post/92141e30/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>《程序员的自我修养》—— 静态链接 | C1oser</title>
+  
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-book">
+
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movie">
+
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-shuoshuo">
+
+    <a href="/shuoshuo/" rel="section"><i class="fab fa-qq fa-fw"></i>说说</a>
+
+  </li>
+        <li class="menu-item menu-item-onepage">
+
+    <a href="/onepage/" rel="section"><i class="far fa-angry fa-fw"></i>忠言</a>
+
+  </li>
+        <li class="menu-item menu-item-rssdocs">
+
+    <a href="/rssdocs/" rel="section"><i class="far fa-angry fa-fw"></i>rssdocs</a>
+
+  </li>
+        <li class="menu-item menu-item-gallery">
+
+    <a href="/gallery/" rel="section"><i class="fas fa-parachute-box fa-fw"></i>摄影</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E9%9D%99%E6%80%81%E9%93%BE%E6%8E%A5"><span class="nav-text">第四章-静态链接</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-text">总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E9%97%B4%E4%B8%8E%E5%9C%B0%E5%9D%80%E5%88%86%E9%85%8D"><span class="nav-text">空间与地址分配</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E4%BC%BC%E6%AE%B5%E5%90%88%E5%B9%B6"><span class="nav-text">相似段合并</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%A6%E5%8F%B7%E5%9C%B0%E5%9D%80%E7%9A%84%E7%A1%AE%E5%AE%9A"><span class="nav-text">符号地址的确定</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%A6%E5%8F%B7%E8%A7%A3%E6%9E%90%E4%B8%8E%E9%87%8D%E5%AE%9A%E4%BD%8D"><span class="nav-text">符号解析与重定位</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E5%AE%9A%E4%BD%8D%E8%A1%A8"><span class="nav-text">重定位表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%A6%E5%8F%B7%E8%A7%A3%E6%9E%90"><span class="nav-text">符号解析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9D%99%E6%80%81%E5%BA%93%E9%93%BE%E6%8E%A5"><span class="nav-text">静态库链接</span></a></li></ol></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/92141e30/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          《程序员的自我修养》—— 静态链接
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-03-14 02:44:51" itemprop="dateCreated datePublished" datetime="2023-03-14T02:44:51+08:00">2023-03-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/post/92141e30/" class="post-meta-item leancloud_visitors" data-flag-title="《程序员的自我修养》—— 静态链接" title="浏览">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">浏览：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">《程序员的自我修养》—— 静态链接阅读笔记</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="第四章-静态链接"><a href="#第四章-静态链接" class="headerlink" title="第四章-静态链接"></a>第四章-静态链接</h1><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>一个c语言程序需要经过预处理、编译、汇编、链接四个过程后才会生成可执行文件。预处理做了什么？编译做了什么？这里记得复习，汇编之后生成了目标文件。目标文件中包括文件头以及不同的段，比如代码段存放二进制代码、数据段存放初始化的变量等等很多段。为什么要有链接这一个过程呢？因为目标文件可能引用了其他目标文件中的符号，比如引用了全局变量或者函数，这些符号在目标文件中是没有准确的地址的，或者是一个假的地址，这需要链接器来确定这些符号的地址。整个链接步骤分为两步：首先是空间与地址分配，获取每个目标文件各个段的长度和位置，然后按照段合在一起，就是相似段合并，然后分配每一个段的虚拟地址。然后根据重定位表（也是目标文件中的一个段）找到重定位入口（找到哪一些符号是需要重新分配地址的），因为每一个符号在所在段中相对位置是确定的，然后现在每个段的虚拟地址也确定了，因此可以得到每个符号的虚拟地址。</p>
+<p>当我们有两个目标文件，如何把他们链接起来呢？</p>
+<p>整个连接步骤分为两步</p>
+<ul>
+<li><p>空间与地址分配</p>
+<ul>
+<li>获得每个目标文件各个段的长度、属性和位置</li>
+<li>符号表中的所有符号定义和符号引用收集起来，统一放到一个全局符号表</li>
+</ul>
+</li>
+<li><p>符号解析与重定位</p>
+<ul>
+<li>读取输入文件中段的数据、重定位信息</li>
+<li>进行符号解析与重定位、调整代码中的地址</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ld a.o b.o -e main -o ab </span><br><span class="line"><span class="comment">// -e 表示main作为程序入口 默认是_start</span></span><br><span class="line"><span class="comment">// -o 表示链接输出文件名位ab 默认是a.out</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="空间与地址分配"><a href="#空间与地址分配" class="headerlink" title="空间与地址分配"></a>空间与地址分配</h2><p>对于多个输入目标文件，链接器如何将他们的各个段合并到输出文件？</p>
+<h3 id="相似段合并"><a href="#相似段合并" class="headerlink" title="相似段合并"></a>相似段合并</h3><p><img data-src="https://qiniu.dcts.top/typora/202303140242136.png" alt="Untitled"></p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242165.png" alt="Untitled"></p>
+<p>上图展示了链接前后各个段的情况</p>
+<ul>
+<li>链接前VMA（虚拟地址）都是0，因为虚拟空间还没有被分配，链接后都被分配了相应的虚拟地址</li>
+<li>链接后各段的大小都进行了合并</li>
+</ul>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242182.png" alt="Untitled"></p>
+<aside>
+🧐
+
+
+<p>在一个进程的虚拟地址空间中，ELF文件是从0x8048000这个地址开始加载的。这个地址是由ld的默认脚本指定的，可以通过命令<code>ld --verbose</code>查看¹。这个值并没有特殊意义，好像是早期386上的某个类unix系统用了这个值，就一直延续下来了¹。</p>
+</aside>
+
+<h3 id="符号地址的确定"><a href="#符号地址的确定" class="headerlink" title="符号地址的确定"></a>符号地址的确定</h3><p>在第一步的扫描和空间分配阶段，链接器完成了空间分配，这个时候各个段的虚拟地址已经确定了</p>
+<p>首先，各个符号在段内的相对位置是固定的，比如a.o中的main函数相对于.text段的偏移是X，而各个段的虚拟地址也已经确定，所以main的虚拟地址就是在.text的虚拟地址+X</p>
+<h2 id="符号解析与重定位"><a href="#符号解析与重定位" class="headerlink" title="符号解析与重定位"></a>符号解析与重定位</h2><p>对于下面两个文件，a中调用了外部的一个全局变量shared以及一个函数swap</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242197.png" alt="Untitled"></p>
+<p>对于单独的a的目标文件，编译器并不能确定shared和swap的地址究竟是什么，所以用的都是假地址，真正的地址计算工作留给了链接器</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242210.png" alt="Untitled"></p>
+<p>在第一步中已经知道了每个符号的虚拟地址，因此链接器可以根据符号的地址对每个需要重定位的指令进行地址修正，下图是修正后的结果</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242224.png" alt="Untitled"></p>
+<p>很自然的一个问题，链接器是怎么知道shared和swap这两条指令需要被调整呢？</p>
+<h3 id="重定位表"><a href="#重定位表" class="headerlink" title="重定位表"></a>重定位表</h3><p>对于可重定位的ELF文件来说，必须包含有重定位表，用来描述如何修改相应的段里的内容，一个重定位表就是目标文件中的一个段，比如.rel.text段保存了代码段的重定位表，.rel.data保存了数据段的重定位表</p>
+<p>下面是一个代码段的重定位表，偏移表示代码段中必须要重定位的位置。每一行都是一个重定位入口</p>
+<aside>
+🧐 1c就是share所在指令的位置，27就是swap所在指令的位置，这个在上上一张图中可以明确找到
+
+
+</aside>
+
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242239.png" alt="Untitled"></p>
+<h3 id="符号解析"><a href="#符号解析" class="headerlink" title="符号解析"></a>符号解析</h3><p>之所以要链接是因为我们目标文件中用到的符号被定义在其他目标文件中</p>
+<p>所有未定义的符号都应该能够在全局符号表中找到，否则链接器就报符号未定义错误。</p>
+<h2 id="静态库链接"><a href="#静态库链接" class="headerlink" title="静态库链接"></a>静态库链接</h2><p>一个静态库可以看做是一组目标文件的集合,比如Linux中有C语言静态库libc位于/usr/lib/libc.a</p>
+<p>把零散的目标文件直接给库的使用者比较麻烦，通常使用ar压缩程序将多个目标文件压缩到一起，libc.a 就是这么形成的</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242252.png" alt="Untitled"></p>
+<p>我们可以看到libc中是包含有printf这个函数所在的目标文件的</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242264.png" alt="Untitled"></p>
+<p>那是不是我们写的helloword.c代码只要和printf.o以及printf.o中用到的目标文件，全部链接起来就可以了呢，就像下图一样？</p>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242277.png" alt="Untitled"></p>
+<p>而真实在链接的过程其实更加复杂，不仅仅会涉及到printf.o，甚至不仅会用到libc.a C语言库，还有其他一些辅助性质的目标文件和库, 使用-verbose会将整个编译链接过程的中间步骤打印出来</p>
+<p>具体步骤如下：</p>
+<ul>
+<li>第一步调用cc1程序编译成汇编语言，再用as程序汇编成目标文件，最后调用collect2程序完成链接</li>
+<li>collect2是ld链接器的一个包装，不仅会调用ld链接器，还会对链接结果做一些处理</li>
+<li>至少有这么多库被链接了起来</li>
+</ul>
+<p><img data-src="https://qiniu.dcts.top/typora/202303140242287.png" alt="Untitled"></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <span class="post-end-item" title="updated">
+            <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
+            <time title="更新时间：2025-02-11 00:23:00" itemprop="dateModified" datetime="2025-02-11T00:23:00+08:00">
+                <span class="post-end-item-text">更新时间：2025-02-11</span>
+            </time>
+        </span>
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
+
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/128714c8/" rel="prev" title="程序员的自我修养 | 目标文件">
+                  <i class="fa fa-chevron-left"></i> 程序员的自我修养 | 目标文件
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/28cc849c/" rel="next" title="算法基础课|数学知识|约数">
+                  算法基础课|数学知识|约数 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+  
+
+
+
+
+
+  <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/92141e30/',]
+      });
+      });
+  </script>
+<script>
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/post/92141e30/"
+    }));
+  }, window.Waline);
+});
+</script>
+</body>
+</html>
