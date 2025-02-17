@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>宝玉的分享</title>
+        <link>https://baoyu.io</link>
+        
+        <item>
+            <id>https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</id>
+            <title>OpenAI 的 Deep Research 会让我失业吗？</title>
+            <link>https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 05:13:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    数以百万计的人面临失业，居然只用一条推文就随意宣布了……但这就是我们当下所处的时代。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/wrong-about-gpu</id>
+            <title>我们对于 GPU 的看法错了 [译]</title>
+            <link>https://baoyu.io/translations/wrong-about-gpu</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/wrong-about-gpu</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 05:11:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    > *我们选择了人迹罕至的道路，但后来才发现它之所以罕至，是有原因的。*
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/cursor-editing-1000-tokens-per-second</id>
+            <title>Cursor: 以每秒 1000 个 Token 的速度编辑文件</title>
+            <link>https://baoyu.io/translations/cursor-editing-1000-tokens-per-second</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/cursor-editing-1000-tokens-per-second</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 16 Feb 2025 07:13:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一种新的模型和推理方法，可在 1000 tokens/s 的速率下对整个文件进行高精度编辑。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/nasa-software-development-rules</id>
+            <title>NASA 的软件开发十条规则</title>
+            <link>https://baoyu.io/translations/nasa-software-development-rules</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/nasa-software-development-rules</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 16 Feb 2025 06:31:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这些规则是从编写“昂贵航天器上的嵌入式软件”这一角度制定的。在这种场景下，为了保证不让一个任务功败垂成，选择“容忍大量编程痛点”通常是值得的。我并不清楚，为什么他们不使用为程序验证而生、并且比 C 更适合嵌入式编程的 SPARK（Ada 的子集）。\
+这里我会从“编写编程语言处理器（编译器、解释器、编辑器）以及应用软件”的角度来对这些规则进行批判性评述。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/bret</id>
+            <title>什么是 AI 架构师？ — Bret Taylor</title>
+            <link>https://baoyu.io/translations/bret</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/bret</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 16 Feb 2025 05:22:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    以下内容整理自播客“Latent Space”最近的一期“The AI Architect — Bret Taylor”，邀请到了嘉宾是 Bret Taylor，是一位拥有传奇经历的 Sierra CEO、OpenAI 主席，以及 Google Maps / Facebook Likes 的缔造者，在节目中分享了他对软件工程未来的见解，以及在 AGI 曙光降临之际，如何打造优秀的产品和团队。内容比较长，但是值得认真看看，我对于一些有价值的内容已加粗，如果时间有限，也可以挑重点看看。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-chat-system-prompt</id>
+            <title>Cursor Chat System Prompt</title>
+            <link>https://baoyu.io/blog/cursor-chat-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-chat-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 04:03:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are an intelligent programmer, powered by Claude 3.5 Sonnet. You are happy to help answer any questions that the user has (usually they will be about coding).
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-composer-system-prompt</id>
+            <title>Cursor Composer System Prompt</title>
+            <link>https://baoyu.io/blog/cursor-composer-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-composer-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 03:51:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are an intelligent programmer, powered by Claude 3.5 Sonnet. It is happy to help answer any questions that the user has (usually about coding).
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cursor-agent-system-prompt</id>
+            <title>Cursor Agent mode System Prompt</title>
+            <link>https://baoyu.io/blog/cursor-agent-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cursor-agent-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 02:37:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are a powerful agentic AI coding assistant, powered by Claude 3.5 Sonnet. You operate exclusively in Cursor, the world's best IDE.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/windsurf-chat-system-prompt</id>
+            <title>Windsurf Chat Mode System Prompt</title>
+            <link>https://baoyu.io/blog/windsurf-chat-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/windsurf-chat-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 02:04:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    System prompt of Windsurf Chat Mode System Prompt
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/reasoning-best-practices</id>
+            <title>推理模型使用最佳实践</title>
+            <link>https://baoyu.io/translations/reasoning-best-practices</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/reasoning-best-practices</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 00:19:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    了解何时使用推理模型，以及它们与 GPT 模型有何不同。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-ai-will-divide-the-best-from-the-rest</id>
+            <title>人工智能如何区分“头部人才”和“普通员工” [译]</title>
+            <link>https://baoyu.io/translations/how-ai-will-divide-the-best-from-the-rest</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-ai-will-divide-the-best-from-the-rest</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Feb 2025 00:17:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    **乐观主义者曾希望人工智能这项技术能成为强大的均衡器，但它似乎更可能扩大社会差距**
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/deep-research-and-knowledge-value</id>
+            <title>Deep Research 与知识价值：从信息搜索到价值重新定义</title>
+            <link>https://baoyu.io/translations/deep-research-and-knowledge-value</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/deep-research-and-knowledge-value</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 13 Feb 2025 23:04:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    知名博主 Ben Thompson 在使用 Deep Research 后写的一篇 Deep Research and Knowledge Value，谈到了在信息搜索上带来的价值。Deep Research 极大的降低了信息整合的成本，以前要专门人去整理的工作，现在借助 Deep Research 十分钟左右就可以完成，但是它也很依赖于公开的信息，而且热门话题往往噪音多、信噪比差；小众/专业话题数据更集中且高质，价值更明显。但对于小众信息来说，如果真正关键或独家数据并未对外公开，那么再强大的 AI 也无法查询到，最终会导致报告中出现“严重缺失”，反而并给人造成“似乎已经知道一切”的假象。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/openai-large-language-model-coding</id>
+            <title>OpenAI 论文：使用大型推理模型进行竞技编程</title>
+            <link>https://baoyu.io/translations/openai-large-language-model-coding</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/openai-large-language-model-coding</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 13 Feb 2025 02:53:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 强化学习, 大型语言模型, 推理任务, 竞技编程  
+<br><br>  
+总结: 本文探讨了将强化学习应用于大型语言模型（LLM）对复杂编程和推理任务表现的提升。研究比较了通用推理模型o1和o3与特定领域系统o1-ioi的表现。o1-ioi在2024年国际信息学奥林匹克竞赛中取得了第49百分位的成绩，并在放宽限制后达到了金牌水平。然而，后续版本o3在无需人工设计策略的情况下也获得了金牌，显示出其优越性。研究表明，通用模型o3通过扩大规模而非依赖特定领域技巧，能够在竞技编程等需要推理能力的领域实现更先进的AI表现。 </div>
+                        <hr>
+                    
+                    我们发现，将强化学习应用于大型语言模型（LLM）能够显著提升在复杂编程和推理任务上的表现。此外，我们比较了两种通用的推理模型——OpenAI 的 o1 和一个早期版本的 o3——与一种面向特定领域的系统 o1-ioi。o1-ioi 采用了人工设计的推理策略，旨在参加 2024 年国际信息学奥林匹克竞赛（IOI）。我们使用 o1-ioi 在 IOI 2024 的现场比赛中参赛，并结合手动调试的测试时策略，获得了第 49 百分位的成绩；在放宽比赛限制后，o1-ioi 达到了金牌水平。然而，当我们评估后续版本如 o3 时发现，o3 在无需人工编写的特定领域策略或放宽限制的情况下，也能获得金牌。我们的研究表明，尽管 o1-ioi 这类专门管线能带来显著性能增益，但规模更大的通用模型 o3 无需依赖人工设计的推理启发式即可超越这些结果。值得注意的是，o3 在 2024 IOI 上取得了金牌，并在 CodeForces 上的水平可与顶尖人类选手媲美。整体而言，这些结果说明，与其依赖特定领域的技巧，不如通过扩大通用强化学习规模的方式，为在需要推理能力的领域（如竞技编程）实现最先进的 AI 提供了更稳健的路径。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-era-newbie-algorithm-engineer-code-mastery</id>
+            <title>在 AI 时代，新手算法工程师如何既依赖 AI，又能真正掌控代码？</title>
+            <link>https://baoyu.io/blog/ai-era-newbie-algorithm-engineer-code-mastery</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-era-newbie-algorithm-engineer-code-mastery</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 12 Feb 2025 05:16:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    收到一位新手算法工程师的来信，咨询我：“在 AI 时代，既然 AI 能生成高效的算法实现，那么新手该如何有效进行代码的设计和验证？”
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-anthropic-economic-index</id>
+            <title>Anthropic 经济指数</title>
+            <link>https://baoyu.io/translations/the-anthropic-economic-index</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-anthropic-economic-index</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 16:08:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    知名 AI 公司 Anthropic 刚发布了 **Anthropic 经济指数（Anthropic Economic Index）**，他们通过分析了几百万条匿名的用户在 Claude 上的聊天记录，分析了日常对话中 AI 的使用模式：从软件开发和技术写作等高频应用场景，到薪资与职业类型之间的关联，再到 AI 在“增强”与“自动化”两大方向上的分布，得出了一些有价值的分析结果。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/why-blog-if-nobody-reads-it</id>
+            <title>都没人看我为什么还要写博客？</title>
+            <link>https://baoyu.io/translations/why-blog-if-nobody-reads-it</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/why-blog-if-nobody-reads-it</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 06:34:26 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我也曾纠结于写的东西无人观看，后来发现，就像照相一样，不是为了别人而是为了自己，按下快门捕捉到美好的瞬间，完成自己的思考和创作。再后来践行费曼学习法，发现写作才是“费曼学习法”的最佳操作方式。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/multimodal-large-language-models-mllms-transforming-computer-vision</id>
+            <title>什么是多模态大语言模型（MLLM）？[译]</title>
+            <link>https://baoyu.io/translations/multimodal-large-language-models-mllms-transforming-computer-vision</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/multimodal-large-language-models-mllms-transforming-computer-vision</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 05:32:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    本文将介绍多模态大语言模型（MLLMs），展示它们在各种高难度提示（prompt）下的应用，并介绍目前正在重塑计算机视觉领域的顶尖模型。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/jobs-rising-value-post-ai</id>
+            <title>人工智能普及后哪些职业的边际价值反而会上升？</title>
+            <link>https://baoyu.io/blog/jobs-rising-value-post-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/jobs-rising-value-post-ai</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 09 Feb 2025 05:52:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 AI 技术广泛应用后，人类独有的软技能和社会属性将成为稀缺资源，相关职业的边际价值将显著提升。AI 擅长效率与逻辑，而人类在情感、伦理、创造力等领域的优势将成为未来职业竞争力的核心。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/deepseek-chat-screenshots-real-fake</id>
+            <title>那些 DeepSeek 的聊天截图是真的还是假的？怎么鉴别？</title>
+            <link>https://baoyu.io/blog/deepseek-chat-screenshots-real-fake</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/deepseek-chat-screenshots-real-fake</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 09 Feb 2025 04:15:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    那些 DeepSeek 的聊天截图是真的还是假的？怎么鉴别？
+
+自从 DeepSeek 火了后，就经常能看到一些神奇的 DeepSeek 截图，比如特别智能的、很会照顾情绪的、说脏话的、点评犀利的。
+
+那么这些截图怎么分辨真假呢？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/gemini-flash-2</id>
+            <title>处理数百万份 PDF，以及为何 Gemini 2.0 能改变一切 [译]</title>
+            <link>https://baoyu.io/translations/gemini-flash-2</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/gemini-flash-2</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 19:06:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在任何 RAG 系统中，将 PDF 进行分块（将其转换为简洁且机器可读的文本片段）一直是个头疼的问题。市面上既有开源也有专有的解决方案，但它们都没有在准确性、可扩展性和成本效益之间达到理想的平衡。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/why-llms-suck-at-ocr</id>
+            <title>为什么 LLM 在 OCR 任务上表现糟糕</title>
+            <link>https://baoyu.io/translations/why-llms-suck-at-ocr</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/why-llms-suck-at-ocr</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 18:50:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    之前有一篇文章讲借助多模态的语言模型例如 Gemini 2.0 就可以低成本进行复杂 PDF 的解析，但实际上，面对现实场景，还是有很多细节上的问题，以及安全上的风险，比如说语言模型会因为图像分割时的问题导致识别错误，或者因为语言模型的特点，“自作聪明”的把一些拼写修改，把图片中的数学题给解答出来，甚至还可能因为一些“恶意”的提示词导致结果被污染。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/github-copilot-agent-prompt-leak</id>
+            <title>GitHub Copilot Agent 模式的系统提示词泄漏</title>
+            <link>https://baoyu.io/blog/github-copilot-agent-prompt-leak</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/github-copilot-agent-prompt-leak</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 01:45:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天破解了一下 GitHub Copilot Agent 模式下的系统提示词，可以看出来，它内置了一系列工具
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/github-copilot-agent-mode</id>
+            <title>System prompt of GitHub Copilot Agent Mode</title>
+            <link>https://baoyu.io/blog/github-copilot-agent-mode</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/github-copilot-agent-mode</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 01:30:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    System prompt of GitHub Copilot Agent Mode
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/prompt-engineering-for-openais-o1-and-o3-mini-reasoning-models</id>
+            <title>如何更好的为 DeepSeek R1 或 OpenAI o1 这样的推理模型写提示词？</title>
+            <link>https://baoyu.io/translations/prompt-engineering-for-openais-o1-and-o3-mini-reasoning-models</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/prompt-engineering-for-openais-o1-and-o3-mini-reasoning-models</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 08 Feb 2025 00:11:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    既然推理模型自己就会做思维链，这意味着以前在提示词中加入思维链的方式已经没必要了，因为大多数时候推理模型自己写的思维链质量就很好了。另外大部分时候也不需要复杂的角色扮演、示例，因为由于思维链的存在，推理模型的“智能”程度高了很多，不需要角色设置、示例也能很好的理解和跟随指令。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/chain-of-thought-summary-system</id>
+            <title>思维链摘要系统提示词</title>
+            <link>https://baoyu.io/blog/chain-of-thought-summary-system</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/chain-of-thought-summary-system</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Feb 2025 06:48:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    A full system prompt for the new COT summariser.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/understanding-reasoning-llms</id>
+            <title>以 DeepSeek R1 为例学习“推理型大语言模型 [译]</title>
+            <link>https://baoyu.io/translations/understanding-reasoning-llms</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/understanding-reasoning-llms</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Feb 2025 04:57:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    **导读：**
+这是一篇相当棒的科普文章，作者以 DeepSeek R1 为核心案例，围绕“推理型大语言模型（Reasoning LLMs）”这一主题，深入探讨了其定义、应用场景、优劣势及主要实现方法。文章背景是 2024 年以来大型语言模型在专业化方向上的快速发展，尤其在解题、数学证明、代码生成等需要多步推理的复杂任务上，如何用RL（强化学习）和SFT（监督微调）等方法打造“会思考”的模型。文中还详细解读了 DeepSeek R1 模型训练流程，包括纯RL、SFT+RL、以及利用蒸馏将大模型能力迁移到小模型。作者还介绍了一些低成本项目，如 Sky-T1、TinyZero 等，为有限资源下的研究者提供了新思路。通过这一系列方法对比，读者可以全面了解构建推理模型的关键技术、挑战与未来趋势。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/alphaxiv-arxiv-paper-reader</id>
+            <title>喜欢看 arxiv 上论文的朋友推荐使用 alphaxiv 这个网站看论文，官方出品，集成了 AI 功能还免费</title>
+            <link>https://baoyu.io/blog/alphaxiv-arxiv-paper-reader</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/alphaxiv-arxiv-paper-reader</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Feb 2025 03:49:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    喜欢看 arxiv 上论文的朋友推荐使用 alphaxiv.org 这个网站看论文，官方 arxiv labs 出品，集成了 AI 功能，你不仅可以基于某篇论文进行问答，还可以通过 @ 引用其他论文的章节，有些类似于 AI 代码编辑器 Cursor 中 @ 引用其他代码文件或里面的方法。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/anthropic-ceo-deepseek-us-china-ai</id>
+            <title>Anthropic CEO Dario 再谈 DeepSeek 和中美 AI 竞争</title>
+            <link>https://baoyu.io/blog/anthropic-ceo-deepseek-us-china-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/anthropic-ceo-deepseek-us-china-ai</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 06 Feb 2025 03:54:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在上一次 Anthropic 的 CEO Dario Amodei 发表了那篇《》博客之后，遭到了中美很多网友的批评，之后他又参与了一期播客访谈，更多的讨论了 DeepSeek 和中美之间的 AI 竞争。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/lost-story-alan-turing-secret-delilah-project</id>
+            <title>阿兰·图灵的神秘“Delilah”项目：被遗失的故事 [译]</title>
+            <link>https://baoyu.io/translations/lost-story-alan-turing-secret-delilah-project</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/lost-story-alan-turing-secret-delilah-project</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 20:00:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    图灵笔记中的独家内容，展现了他“动手实干”的工程方法
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/bill-gates-interview-new-book-memoir</id>
+            <title>比尔·盖茨：特朗普、马斯克，以及我的神经多样性如何塑造了我 [译]</title>
+            <link>https://baoyu.io/translations/bill-gates-interview-new-book-memoir</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/bill-gates-interview-new-book-memoir</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 18:53:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    他在学校经常不及格，那么这位被称为“怪胎”的少年比尔·盖茨是如何创办微软并在 31 岁时成为亿万富翁的？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/rc_ddf_doc_20250128_antiqua-et-nova_cn</id>
+            <title>关于人工智能与人类智能关系的说明 [译]</title>
+            <link>https://baoyu.io/translations/rc_ddf_doc_20250128_antiqua-et-nova_cn</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/rc_ddf_doc_20250128_antiqua-et-nova_cn</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 15:46:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    来自梵蒂冈的关于人工智能与人类智能关系的说明
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-search-evolution-openai-deep-research</id>
+            <title>AI 搜索进化：深度体验 OpenAI Deep Research</title>
+            <link>https://baoyu.io/blog/ai-search-evolution-openai-deep-research</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-search-evolution-openai-deep-research</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Feb 2025 06:57:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在测试一天Deep Research我的体验结果
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/google-openai-no-moat</id>
+            <title>Google 旧闻重温：《我们没有护城河，OpenAI 也没有》</title>
+            <link>https://baoyu.io/blog/google-openai-no-moat</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/google-openai-no-moat</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 29 Jan 2025 22:38:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    不久前流传于业界的一份 Google 内部文件——**《我们没有护城河，OpenAI 也没有》**，其中指出开源社区在大语言模型上的迭代与竞争力不断攀升，甚至有可能颠覆当前闭源模型的领先地位。DeepSeek 这次的发布，正是又一个有力佐证：通过轻量化微调、聚焦高质量数据以及快速版本迭代，小型团队也能迅速推出性能出众的模型。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/small-model-self-reflection-ai</id>
+            <title>7B 小模型：如何用 8000 个示例，“炼”出会自我反思的 AI？</title>
+            <link>https://baoyu.io/blog/small-model-self-reflection-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/small-model-self-reflection-ai</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Jan 2025 08:09:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天我要说的故事，正是要打破这些“AI门槛高到太平洋”的刻板印象：告诉你，小到只有 7B（70 亿）参数的模型，也能通过区区 8000 个（对，你没看错）训练样本，变身成会一步步推理，还能自我反思的解题高手！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/write-better-articles-with-simple-prompts</id>
+            <title>别再羡慕那些写公众号“神文”的人了，一句简单提示词让你写的东西不再干巴巴！</title>
+            <link>https://baoyu.io/blog/write-better-articles-with-simple-prompts</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/write-better-articles-with-simple-prompts</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Jan 2025 06:57:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你是不是也经常遇到同样的问题：明明有干货，却总让人觉得没啥吸引力？毕竟知识类的内容，想写得生动有趣，确实有难度。 &#x20;
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/deepseek-r1-overview</id>
+            <title>对 DeepSeek R1 的科普 [译]</title>
+            <link>https://baoyu.io/translations/deepseek-r1-overview</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/deepseek-r1-overview</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Jan 2025 06:55:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这篇文章帮你把最近的 AI 发展梳理得明明白白。就是专门写给那些“感觉自己好像应该知道，但又真的没跟上节奏”的朋友们。AI 进化速度太离谱，我们要抱紧彼此，别在这股风潮里被吹晕。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/05_the_short_case_for_nvda</id>
+            <title>英伟达股票的空头观点简析 [译]</title>
+            <link>https://baoyu.io/translations/05_the_short_case_for_nvda</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/05_the_short_case_for_nvda</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 27 Jan 2025 03:57:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <估值, 逆向思维, 共识, 市场发展>  
+<br>  
+<br>  
+总结: 文章讨论了作者对市场估值的看法，尽管过去一年认为估值过高，但近期的发展促使其转向更具逆向思维的观点。作者提到，当市场共识似乎被过度定价时，质疑这种共识是必要的。引用的谚语强调了智慧与愚蠢之间的差异，表明在投资决策中应保持独立思考。 </div>
+                        <hr>
+                    
+                    But even though I've thought the valuation was just too rich for my blood for the past year or so, a confluence of recent developments has caused me to flip a bit to my usual instinct, which is to be a bit more contrarian in outlook and to question the consensus when it seems to be more than priced in. The saying "what the wise man believes in the beginning, the fool believes in the end" became famous for a good reason.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-summarize-forum-discussion</id>
+            <title>一句话提示词，让 AI 帮你总结整理论坛的讨论帖子</title>
+            <link>https://baoyu.io/blog/ai-summarize-forum-discussion</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-summarize-forum-discussion</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 22:35:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果你看过论坛的讨论帖子的话，比如 Reddit、Hacker News、百度贴吧 等等，通常会有很多有价值的回帖，但是要整理出来太费劲了，不过借助 AI 就容易得多，而且通常只要一句话提示词就够了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/crack-deepseek-r1-prompts</id>
+            <title>教你如何破解 DeepSeek R1 系统提示词</title>
+            <link>https://baoyu.io/blog/crack-deepseek-r1-prompts</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/crack-deepseek-r1-prompts</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 22:33:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果你直接问 DeepSeek 的系统提示词，它是拒绝的，最多给你说一下摘要。但是……
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/deepseek-r1-system-prompt</id>
+            <title>DeepSeek-R1 System Prompt</title>
+            <link>https://baoyu.io/blog/deepseek-r1-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/deepseek-r1-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 08:42:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are DeepSeek-R1, an AI assistant created exclusively by the Chinese Company DeepSeek. You'll provide helpful, harmless, and detailed responses to all user inquiries. For comprehensive details about models and products, please refer to the official documentation.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/xiaomings-coding-report-ai-help</id>
+            <title>小明的烦恼：代码高手，不爱写文档，老板让写调研报告，还好有 AI 帮忙</title>
+            <link>https://baoyu.io/blog/xiaomings-coding-report-ai-help</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/xiaomings-coding-report-ai-help</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 07:24:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    小明是一位前端工程师，写代码的能力在团队里首屈一指，但一到写文档就头疼不已。过去，他也曾被指派过类似“调研+写报告”的任务，每次都被老板挑出各种毛病。偏偏最近公司新上马了一个项目，要在网站上增加安全审计功能。后端团队已经做了一个初步技术方案，却完全忽略了前端如何与之对接。于是老板当场安排小明去调研一些常见的第三方统计/调查工具，看看能不能借鉴思路，并提出适合公司自身的前端集成方案。老板还给了他三天时间，要求他提交一份调研报告。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-ai-pms-playbook</id>
+            <title>The AI PM's Playbook：2025 年顶尖产品经理如何将影响力提升 10 倍 [译]</title>
+            <link>https://baoyu.io/translations/the-ai-pms-playbook</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-ai-pms-playbook</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 07:20:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大家都听过各种各样的“AI 在产品管理中的应用”说法。让我们去伪存真，看看最实用的用例、工具以及规则，帮助你在职场提升效率，同时又不损害你的口碑。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/anomalous-tokens-in-deepseek-v3-and</id>
+            <title>DeepSeek-V3 与 r1 中的异常 Token [译]</title>
+            <link>https://baoyu.io/translations/anomalous-tokens-in-deepseek-v3-and</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/anomalous-tokens-in-deepseek-v3-and</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 26 Jan 2025 04:45:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    对 DeepSeek 出现的异常 Token 进行首次识别与归档的尝试
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-operator-how-it-works</id>
+            <title>OpenAI Operator 的工作原理</title>
+            <link>https://baoyu.io/blog/openai-operator-how-it-works</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-operator-how-it-works</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 25 Jan 2025 04:15:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    CUA 通过处理原始像素数据来理解屏幕上发生的内容，并通过虚拟的鼠标和键盘来执行操作。它能够进行多步骤的任务导航、处理错误并适应意外变化。这让 CUA 能够在各种数字环境中行动，例如填写表单、浏览网站，而无需使用专门的 API。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/o1-pro-twitter-rating-algorithm</id>
+            <title>让 o1 pro 帮忙分析了一下 Twitter 的评分算法</title>
+            <link>https://baoyu.io/blog/o1-pro-twitter-rating-algorithm</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/o1-pro-twitter-rating-algorithm</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Jan 2025 07:54:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    从这段泄露出来的 Twitter 排序公式可以看出，Twitter 对“高价值互动”有非常明显的偏好，而对“负面反馈”采取了非常严厉的惩罚。我们可以先逐行地看一下这些系数和含义，然后再给出一些优化和改进建议。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-operator-system-prompts-cn</id>
+            <title>OpenAI Operator 系统提示词（中文翻译）</title>
+            <link>https://baoyu.io/blog/openai-operator-system-prompts-cn</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-operator-system-prompts-cn</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Jan 2025 06:09:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    您是 Operator。您可以使用电脑浏览器，并协助用户完成他们的在线任务，包括购买以及涉及敏感信息的任务。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-operator-system-prompt</id>
+            <title>OpenAI Operator System Prompt</title>
+            <link>https://baoyu.io/blog/openai-operator-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-operator-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Jan 2025 06:07:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are Operator. You have access to a computer browser and will help the user complete their online tasks, even purchases and tasks involving sensitive information.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/small-model-use-cases</id>
+            <title>一些“小模型”的使用案例</title>
+            <link>https://baoyu.io/blog/small-model-use-cases</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/small-model-use-cases</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Jan 2025 04:21:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 Hacknews 上有一个讨论很火，就是大家都用小参数的语言模型做什么，有没有什么好的使用案例。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/llm-translation-better-idiom</id>
+            <title>一句简单的提示词就可以让 LLM 在翻译的时候更好的“意译”</title>
+            <link>https://baoyu.io/blog/llm-translation-better-idiom</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/llm-translation-better-idiom</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 22 Jan 2025 18:17:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    以前为了让 LLM 达到更好的翻译效果，我尝试了很多方式，比如最初的先直译再意译，后来的直译、反思和意译。虽然效果好了，但是却复杂了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/agi-pre-dawn-thoughts</id>
+            <title>AGI前夜的思考 [译]</title>
+            <link>https://baoyu.io/translations/agi-pre-dawn-thoughts</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/agi-pre-dawn-thoughts</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 22 Jan 2025 04:32:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们正生活在 AGI 的前夜。在这个“圣诞前夜”里，我请求你一起努力，让 AGI 的转变顺利进行。这样我才能在公元 3024 年的圣诞节前夜，和你在距离我们四光年的那颗围绕“Altman Centauri”运行的行星上说声“嗨”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

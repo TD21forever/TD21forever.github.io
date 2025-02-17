@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>什么值得买</title>
+        <link>http://www.smzdm.com</link>
+        
+        <item>
+            <id>https://www.smzdm.com/p/141385428/</id>
+            <title>百事 可乐 Pepsi 汽水 碳酸饮料 330ml*24听  新老包装随机发货 29.02元</title>
+            <link>https://www.smzdm.com/p/141385428/</link>
+            <guid isPermaLink="false">https://www.smzdm.com/p/141385428/</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 23:12:14</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    打死你都不买
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.smzdm.com/p/141385282/</id>
+            <title>百事 可乐 Pepsi 汽水 碳酸饮料 细长罐330ml*24听 新老包装随机发货 21.18元</title>
+            <link>https://www.smzdm.com/p/141385282/</link>
+            <guid isPermaLink="false">https://www.smzdm.com/p/141385282/</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 23:09:15</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    打死你都不买
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
