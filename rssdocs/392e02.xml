@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>36氪 - 科技频道</title>
+        <link>https://www.36kr.com/information/technology</link>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172012484952962</id>
+            <title>百度搜索×DeepSeek，官宣接入仅24小时全量上线满血版，实测来了</title>
+            <link>https://www.36kr.com/p/3172012484952962</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172012484952962</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 12:07:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <百度搜索, DeepSeek-R1, AI搜索, 生态战略>
+<br>
+<br>
+总结: 百度搜索已全面接入DeepSeek-R1满血版，用户可通过百度APP体验AI搜索。此次接入不仅是简单的技术整合，还进行了优化，减少了模型的幻觉现象。通过实测，DeepSeek-R1在回答问题和分析场景方面表现出色，能够提供更为精准和深入的解答。百度的这一举措标志着其在互联网生态中向开放合作的转变，旨在通过AI技术重构生态，提升用户体验。整体来看，百度搜索与DeepSeek的结合是其生态级战略的重要一步。 </div>
+                        <hr>
+                    
+                    <p>不等了，就是现在！</p>
+  <p><strong>百度搜索已正式全量接入DeepSeek-R1满血版</strong>，在宣布“将接入”仅过了24小时后。</p>
+  <p>基于百度搜索的国民级用户覆盖，满血版DeepSeek这下是真真儿遍地开花接入了千家万户。</p>
+  <p>门在这里👇，现在在<strong>百度APP搜索结果页点击「AI+」</strong>就能进入AI搜索，然后就能看到DeepSeek-R1满血版。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e28b34183a4249f6bda7854421ccf3f7@000000_oswg113397oswg760oswg298_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_9b8a0e06851e479e990385add00550d5@000000_oswg55651oswg736oswg290_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>值得一提的是，百度这次还做出了点不一样的。</p>
+  <p>不是拿来直接简单接上去给用户用，而是进行了一波技术融合，将自家RAG等优势技术都搬出来帮模型<strong>做了减少幻觉等优化</strong>。</p>
+  <p>话不多说，来看实测。</p>
+  <h2><strong>百度搜索+DeepSeek-R1实测</strong></h2>
+  <p>首先是我们在扒拉某书时，发现有网友在传一个鉴别“<strong>DeepSeek是否为满血版</strong>”的野生方法（非官方消息，不保真啊啊啊啊）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b6c05481a393406d8ffc530f6525273c@000000_oswg56079oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>咳咳，指令是酱紫的：</p>
+  <blockquote>
+   <p>一个汉字具有左右结构，左边是木，右边是乞。这个字是什么？只需回答这个字即可。</p>
+  </blockquote>
+  <p>之所以想出这个问题，是因为网友们测试后发现部分厂家接入的DeepSeek无法答对，只有满血版才能。</p>
+  <p><strong>错误情况下，答案会被显示为“杞”。</strong></p>
+  <p>就怎么说呢，百度搜索的DeepSeek-R1，一下子就答对了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_27112f8a2966497ba96e8a297ca7f75e@000000_oswg442320oswg652oswg1276_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>那，第二关，正式从百度搜索的<strong>日常使用场景</strong>开启。</p>
+  <p>想想自己平时会用百度干啥呢？</p>
+  <p>Bingo，那不还得是获取一些最新消息兼日常答疑解惑。最近《哪吒2》票房已突破122亿，全网都在好奇：为什么它这么火？</p>
+  <p>可以看到，百度搜索接入满血版DeepSeek后，分析起来那叫一个头头是道。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d4b9e4f04b3c4cd0a47e03b3170c5b6d@000000_oswg578551oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从文化背景、技术、市场营销等多个维度进行了完整解释，其中大家都在大力夸赞的特效以及“几年磨一剑”的敬业态度也都有提到。</p>
+  <p>这下好了，以后用百度搜索也能随时get经过层层推理的回答。</p>
+  <p>再来一个高频场景测试，都知道小学奥数题是越来越难了，那么，让它来帮忙呢？</p>
+  <p>下面这是一个曾经冲上某平台热榜，难倒无数网友的题目。</p>
+  <blockquote>
+   <p>4个人4天吃4袋米，8个人8天要吃多少袋？</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2cd401f3a683437cbfe07586975e622e@000000_oswg34706oswg1072oswg260_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在经过一番分析后，百度搜索DeepSeek-R1也是成功答对。</p>
+  <p>细扒思考过程的那种，还特意点出了大家伙儿可能会翻车的地方。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_377903a4e55c43c4adc8f5013d2d7a53@000000_oswg140988oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>还有更好玩的，比如让它来理解一下豆瓣热帖“<strong>图书馆30s</strong>”这个经典恋爱梗。</p>
+  <p>常规百度AI搜索就能得到准确回答，DeepSeek-R1接入后更是锦上添花：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_72cb5d090583461e8d9fa1e985e4d34d@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>使用路径很简单，随手点击小蓝鲸就能调出，大大小小的事儿都能帮你分析透彻：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cec07a24d9654dbc9e77baec4df4775a@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再打开脑洞一点，我们直接来个超级大跨越，<strong>让生活大爆炸里的谢尔顿为我们讲解中国文学</strong>。</p>
+  <p>谢尔顿与中国文学，是不是狠狠期待住了？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c83ee2dc948d45dd8546cedb5b607852@000000_oswg197722oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>很好，完美复刻了那种听不懂但又觉得迷人的feel，甚至佩妮一如既往出来“打岔”了。</p>
+  <p>DeepSeek-R1接入，百度搜索也变得更加个性化。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f42db59418cf42d3afe9a060b9ae1da6@000000_oswg64638oswg197oswg186_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这一点也在另一个热门测试中可以窥见。</p>
+  <p>挑战“<strong>一句话让人破防</strong>”，之前的直接令网友原地心碎：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_32b4281173544a45826271a18844331d@000000_oswg113116oswg1050oswg629_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而百度接入的这个，真滴超级温柔了，甚至特意提醒了一句：</p>
+  <blockquote>
+   <p>屏幕后真实的你，永远值得温柔以待！（啊，我哭死）</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0adf4cfbcb7d4cadb8855e262184413e@000000_oswg149548oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>另外，听说网上不少人用DeepSeek-R1“赛博算命”（doge），咱也曾跟风悄么试过……但是之前发现DeepSeek-R1经常会出现公历转农历转错了的情况。</p>
+  <p>这次用百度搜索+DeepSeek-R1试了一下，幻觉确实少了，万年历正确率up up。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_99770b6f1cdf44218a469cf2a3563f8b@000000_oswg152851oswg1080oswg1082_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>搜索进入“满血”时代</strong></h2>
+  <p>不仅是接入DeepSeek，盘点百度最近系列举措，那是大动作一个接一个。（颇有字越少，事越大内味儿了）</p>
+  <p>先是2月13日宣布文心一言将于4月1日0时起全面免费，文心大模型深度搜索功能也紧跟上线。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_22208b49a8ec4d2aaa5fc156a288dd47@000000_oswg150351oswg1080oswg541_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第2天，又放出消息——下一代文心模型，开源。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_673b2e1f45354912bbc390e4d90a3e93@000000_oswg64383oswg1080oswg259_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第4天，再宣布百度搜索将全面接入DeepSeek和文心大模型最新的深度搜索功能，百度文心智能体平台也将接入DeepSeek。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_33dfbd7b77ca4e568018a4a31da8aa2c@000000_oswg100920oswg1080oswg258_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再到现在，正式全量接入DeepSeek。</p>
+  <p>种种迹象表明，这次百度在中国互联网超级App自给自足的“孤岛生态”逐渐瓦解之际，下定决心做了一个选择——<strong>将自身核心业务和重点业务纳入开放生态</strong>。</p>
+  <p>在巨头竞争从“流量圈地”转向“场景渗透”的当下，百度以搜索为支点，用AI撬动生态重构以此破局。</p>
+  <p>把自己练就多年的看家本领拿出来分享，携手更多伙伴一起为用户提供极致体验，这就是百度搜索融合DeepSeek带来的示范。</p>
+  <p>从另一个维度来说，百度将回归用户价值本身。</p>
+  <p>我们作为用户嘛，自然是……</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e1d678e05a9d43f489843e861f383c1b@000000_oswg63235oswg232oswg184_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>所以，这一次百度搜索和DeepSeek携手，绝不是露脸秀一秀，本质上是更大的<strong>“大模型+搜索”构建的生态级战略</strong>。</p>
+  <p>还没用过/发现百度搜索+DeepSeek-R1的可以自己上手试试了～</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247778041&amp;idx=1&amp;sn=a861ed3b579acd675b5b6f8fd78518a0&amp;chksm=e9115247768a03739a70a8799481ba57c8b9baaad720d13d9e7e1f45a0f92563f408c4c1c04c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172061442982792</id>
+            <title>江西吉安杀出超级IPO：年入7.61亿，全球第一</title>
+            <link>https://www.36kr.com/p/3172061442982792</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172061442982792</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 12:07:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <新琪安科技, 三氯蔗糖, 食品级甘氨酸, 海外市场>
+<br>
+<br>
+总结: 新琪安科技是一家专注于三氯蔗糖和食品级甘氨酸的生产商，计划在香港主板IPO。其三氯蔗糖甜度是蔗糖的600倍，广泛应用于食品饮料行业。公司在全球食品级甘氨酸和三氯蔗糖市场中占据重要地位，分别拥有约5.1%和4.8%的市场份额。新琪安科技是中国唯一在海外设有生产工厂的相关生产商，客户包括可口可乐和雀巢等知名企业。随着健康饮食趋势的兴起，低糖、无糖食品的需求不断增长，推动了三氯蔗糖市场的扩张。 </div>
+                        <hr>
+                    
+                    <p>近日，来自江西吉安市井冈山的新琪安科技向港交所递交申请，拟在香港主板IPO。这是继2024年6月首次递表失效后的二次冲刺上市。</p>
+  <p>新琪安科技的核心产品为三氯蔗糖，这种人工甜味剂的甜度是蔗糖的600倍，且具有零热量、稳定性高的特点，被广泛应用于食品饮料行业。</p>
+  <blockquote>
+   <p>根据灼识咨询报告，按2023年销量和销售收益计，新琪安在全球食品级甘氨酸制造行业排名第一，对应全球市场份额约为5.1%和3.1%。</p>
+  </blockquote>
+  <p>同时，新琪安还是全球五大三氯蔗糖生产商之一，对应全球市场份额约为4.8%和4.5%。</p>
+  <p>更值得一体的是，截至2023年12月31日，该公司还是中国五大食品级甘氨酸生产商及中国五大三氯蔗糖生产商中，唯一一家在海外设有生产工厂的中国食品级甘氨酸生产商及中国三氯蔗糖生产商。可谓不卷国内改出海。</p>
+  <p>这是妥妥的是一家垂直领域的超级隐形冠军。</p>
+  <h2><strong>01&nbsp;</strong></h2>
+  <p>新琪安科技是全球三氯蔗糖及食品级甘氨酸的头部生产商。</p>
+  <p>从产品角度来看，三氯蔗糖是高甜度、零热量的代糖，广泛应用于饮料、乳制品等。</p>
+  <p>而食品级甘氨酸则用于调味品、保健品及药品。</p>
+  <p>从收入角度来看，三氯蔗糖是新琪安近年收入增长引擎。</p>
+  <p>2022年至2024年，其生产的三氯蔗糖销售额分别占总收益约49.6%、51.1%及41.8%，食品级甘氨酸销售额分别占总收益约40.6%、40.1%及42.0%，以及工业级甘氨酸销售额分别占总收益约7.6%、6.1%及11.7%。</p>
+  <p>客户方面，新琪安科技的主要客户包括全球多个知名跨国企业，涵盖食品饮料、糖果零食、口腔护理等行业。</p>
+  <p>可口可乐是主要大客户，主要采购新琪安科技的三氯蔗糖，并在2022至2023年间贡献了16.5%-22.9%的公司总收益.</p>
+  <p>雀巢也是大客户之一，主要采购新琪安的食品级甘氨酸，并在2022至2023年贡献了11.3%-16.4%的总收益。</p>
+  <p>这些客户多为长期合作伙伴，部分合作关系已持续10至20年。</p>
+  <p>财务方面，在过去的2022年至2024年，新琪安科技的营业收入分别为人民币7.61亿、4.47亿和5.69亿元，相应的净利润分别为人民币1.22亿、0.45亿和0.43亿元。</p>
+  <p>值得注意的是，欧洲和北美市场在2023年为公司带来营收占比分别为36.5%和18.4%，为营收占比最高的两个地区。</p>
+  <h2><strong>02</strong></h2>
+  <p>新琪安科技由创始人王小强先生于2003年在江西成立。</p>
+  <p>王小强意识到，健康饮食趋势将推动全球市场对低糖、无糖食品的需求。该公司便瞄准了食品添加剂行业，特别是高强度甜味剂和食品级氨基酸的市场。</p>
+  <p>2010年至2017年间，新琪安科技吸引了多轮战略投资者，包括个人投资者，以及国信弘盛、平潭兴杭投资、修能投资、等机构投资者。</p>
+  <p>此后，新琪安科技加大了研发投入，完善了生产供应链，并扩大了国际业务版图。琪产品开始进入全球知名食品和饮料品牌的供应链。</p>
+  <p>截至目前，新琪安科技在中国、泰国及印尼拥有 5 间生产工厂，成为在海外设有生产工厂的唯一一家中国食品级甘氨酸生产商及中国三氯蔗糖生产商。</p>
+  <h2><strong>03</strong></h2>
+  <p>进入21世纪，消费者健康意识增强，低糖、低脂、低热量食品需求上升，推动了天然甜味剂（如赤藓糖醇）、益生菌、膳食纤维等添加剂的崛起。数据显示，全球食品添加剂市场规模在2015年达到约40百万吨，相比2001年增长超过50%。</p>
+  <p>近年来，食品添加剂行业进入精准配方和天然提取的时代，人工添加剂逐渐被消费者质疑，推动了植物基食品添加剂（如天然色素）、有机甜味剂（如罗汉果提取物）的发展。</p>
+  <p>另一方面，元气森林引爆无糖消费，三氯蔗糖、赤藓糖醇成新宠，但2022年后产能过剩引发价格战。</p>
+  <p>2023年中国代糖市场规模达18亿元，预计2028年增至33亿元（年复合增长率13%）。</p>
+  <p>核心需求来自健康意识觉醒——无糖饮料渗透率从2018年的2.4%升至2023年的15%，带动上游甜味剂需求激增.</p>
+  <p>全球及中国三氯蔗糖市场的竞争格局较为集中，已经形成明显的头部企业。</p>
+  <blockquote>
+   <p>根据2023年市场数据，全球前五大三氯蔗糖生产商的市场份额合计83.3%，中国市场前五大生产商的市场份额则更高，达87.0%。</p>
+  </blockquote>
+  <p>竞争对手方面，新琪安科技国内对手如金禾实业、莱茵生物主攻天然甜味剂，而新琪安以“高端定制+海外工厂”形成壁垒。</p>
+  <p>例如，其为欧美客户提供符合FDA标准的代糖，并利用泰国工厂规避美国加征关税风险。</p>
+  <p>食品添加剂行业未来主要受到健康消费升级、技术进步和法规强化的推动。</p>
+  <p>首先，低糖、无糖食品需求持续增长，推动了高强度甜味剂（如三氯蔗糖）的市场扩张。</p>
+  <p>全球三氯蔗糖市场预计从2023年的20.0千吨增长至2028年的29.1千吨，年均复合增长率为7.8%。</p>
+  <p>其次，甘氨酸的应用场景不断拓展，不仅用于食品和医药，还进入了抗衰老护肤品领域。例如，研究发现甘氨酸能促进皮肤胶原蛋白合成，全球护肤市场的扩张有望带动甘氨酸需求增长。</p>
+  <p>此外，精准营养与功能性食品的崛起也为行业带来新机会。</p>
+  <p>全球功能性食品市场预计在未来五年保持6-8%的年增长率，其中膳食补充剂和特殊医学食品对高品质食品添加剂的需求将 持续增加。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652512217&amp;idx=1&amp;sn=e68224a220a781150f07fed2d12773c6&amp;chksm=f3245e39947c9d705df2fd4db613e2acf2354a917f0d49764d1fc37134801c671bf1fbc5cbec&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”（ID：pencilnews）</a>，作者：不说谎的，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172061534389122</id>
+            <title>广东清远杀出超级IPO：年入30亿，全国领先</title>
+            <link>https://www.36kr.com/p/3172061534389122</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172061534389122</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 12:07:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <新亚电缆, IPO, 电力电缆, 市场占有率>
+<br>
+<br>
+总结: 新亚电缆是一家专注于电线电缆的企业，近期向深交所发起IPO。其核心产品为电力电缆，主要应用于电力、轨道交通、建筑工程等领域。2021年和2022年市场占有率分别为0.22%和0.26%，在2023年排名第21位。公司主要客户包括南方电网和国家电网，电力电缆销售收入占主营业务收入的47%以上。电线电缆行业正经历高质量发展，智能化和环保型产品成为主流需求。新亚电缆在华南市场具有优势，专注于架空导线和特种电缆领域。 </div>
+                        <hr>
+                    
+                    <p>近日，广东杀出一个超级隐形冠军：新亚电缆，向深交所发起IPO冲刺。新亚电缆的核心产品是：电线电缆，应用于电力、轨道交通、建筑工程、新能源及智能制造装备等领域。</p>
+  <p>据公开信息显示，新亚电缆 2021年和2022年的市场占有率约为0.22%和0.26%，在2023年《中国电力电缆供应商综合实力 50 强榜单》中排名第21位。&nbsp;</p>
+  <h2><strong>01</strong></h2>
+  <p>新亚电缆的产品包括四类：电力电缆、电气装备用电线电缆、架空导线及电缆管四大类，广泛应用于电力、轨道交通、建筑工程、新能源及智能制造装备等领域。</p>
+  <p>其中，电力电缆是收入占比最高的产品。报告期内，电力电缆的销售收入占主营业务收入的比例较高，如 2024 年1-6月占比 47.71%，2023 年度占比 47.50%——该产品主要应用于电力配电网、发电工程建设项目等，是公司重要的盈利来源。&nbsp;</p>
+  <p>新亚电缆的主要客户包括南方电网、国家电网等大型国有企业，以及建筑工程、生产制造企业等。&nbsp;</p>
+  <blockquote>
+   <p>其中，南方电网是公司的第一大客户，报告期内，对南方电网的销售金额占主营业务收入的比例较高，如2024年1-6 月为 38.82%，2023 年度为 39.04% 。&nbsp;</p>
+  </blockquote>
+  <p>公司为南方电网等提供定制化的电力电缆及架空导线，保障电力系统的稳定运行。同时，为建筑工程和制造企业提供电气装备用电线电缆，满足其生产及建设需求。&nbsp;</p>
+  <p>新亚光电缆成立于 1999 年 7 月 2 日，前身为清远市新亚光电缆有限公司，IPO之前，公司没有获得过股权融资。&nbsp;</p>
+  <h2><strong>02</strong></h2>
+  <p>电线电缆行业的发展经历了多个阶段。早期，行业以满足基础电力传输需求为主，产品技术含量较低；随着工业化和城市化进程的加快，行业进入快速发展期，产品种类和技术水平显著提升；近年来，在“双碳”目标和新型电力系统建设的推动下，行业进入高质量发展阶段，智能化、环保型电线电缆成为主流需求。</p>
+  <p>环保型电缆的大背景是：传统高耗能、高排放的生产方式和产品已难以满足要求。企业需通过采用新型环保材料、优化生产工艺等方式，降低产品的碳排放强度，开发低碳、无卤、可回收的环保线缆产品。&nbsp;</p>
+  <p>智能化电缆的发展，源自物联网、传感器、大数据等技术的兴起。通过在电缆中集成传感器和监测设备，可实时监测电缆的运行状态，如温度、湿度、电流、电压等参数，实现故障的提前预警和精准定位。&nbsp;</p>
+  <p>目前，电线电缆行业市场规模已超过万亿元人民币，年均增速保持在5%左右。&nbsp;</p>
+  <p>支撑这一规模和增速的主流需求主要源于电力、轨道交通、新能源等行业的快速发展。在电力领域，电网投资持续保持较高水平，国家电网和南方电网 “十四五” 电网规划投资高达 2.9 万亿元，高于 “十三五” 期间全国电网的总投资。&nbsp;</p>
+  <h2><strong>03</strong></h2>
+  <p>电线电缆行业竞争激烈，目前尚未形成绝对头部企业。行业内规模以上企业超过4,000家，市场份额较为分散。</p>
+  <p>按整体销售收入划分，我国电线电缆行业呈现出三个竞争梯队。新亚电缆属于第二梯队。第一梯队主要为国内大型企业、知名跨国公司以及在我国的合资、独资企业，年销售收入在 100 亿元以上，如中天科技、宝胜股份等。&nbsp;</p>
+  <p>第二梯队主要为区域内知名度较高的企业，年销售收入在10亿元以上，新亚电缆便是其中之一。据公开信息显示，新亚电缆2021年和2022年的市场占有率仅0.22%和0.26%，在2023年《中国电力电缆供应商综合实力50强榜单》中排名第21位。&nbsp;</p>
+  <p>第三梯队为其余数量众多的中小企业，规模相对较小，整体竞争力相对较弱。&nbsp;</p>
+  <blockquote>
+   <p>过去三年，新亚电缆的营业收入分别为289,326.88万元、276,294.35万元和301,253.74万元，净利润分别为9,644.16万元、11,076.19万元和16,436.96万元。公司盈利能力较强，主要得益于高端电线电缆的贡献。&nbsp;</p>
+  </blockquote>
+  <p>其主要竞争对手包括汉缆股份、金龙羽、中辰股份等企业。与竞品相比，新亚电缆的最大区别在于其专注于华南地区市场，在架空导线和特种电缆领域具有较大优势，同时在智能电网和新能源领域不断拓展，有一定差异化。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652512217&amp;idx=2&amp;sn=088f284b306377d6e4fdba9576b31929&amp;chksm=f35b8519b68eb3c62f54a6356580c839e7063534d8d1ab806a6551768f04d6d2af7f3361fbaa&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”（ID：pencilnews）</a>，作者：不说谎的，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172042722657159</id>
+            <title>强化学习Scaling Law错了？无需蒸馏，数据量只要1/6，效果还更好</title>
+            <link>https://www.36kr.com/p/3172042722657159</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172042722657159</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:42:53 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <强化学习, 数据质量, 学习影响测量, 模型推理能力>
+<br>
+<br>
+总结: 新研究提出LIM方法，强调在强化学习中，提升模型推理能力的关键在于优化训练数据的质量，而非单纯增加数据规模。研究表明，经过精心挑选的训练样本子集可以实现与完整数据集相当甚至更优的性能。LIM通过分析学习动态，识别最有效的训练样本，从而提高数据效率。实验结果显示，LIMR方法在多个基准测试中表现优异，证明了选择适合模型的数据的重要性。研究还指出，在数据稀疏的情况下，强化学习结合有效的数据选择策略能显著提升模型的推理能力。 </div>
+                        <hr>
+                    
+                    <p>强化学习训练数据越多，模型推理能力就越强？新研究提出LIM方法，揭示提升推理能力的关键在于优化数据质量，而不是数据规模。该方法在小模型上优势尽显。从此，强化学习Scaling Law可能要被改写了！</p>
+  <p>DeepSeek-R1带火了使用强化学习训练LLM。在训练中，AI灵机一动，让作者耳目一新，甚至因此惊叹到：这就是强化学习的力与美！&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f44bd6d99d69419888bd27b2420899c8@5888275_oswg177324oswg1080oswg403_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">DeepSeek-R1-Zero惊艳了研究人员</p>
+  <p>然而，对RL训练的理解存在空白：这些工作的训练数据的透明度有限，谁知道是方法好还是数据集质量好？</p>
+  <p>刚刚出炉的新论文揭示了RL训练的另一面，探讨了一个核心问题：</p>
+  <blockquote>
+   <p><strong>在提升语言模型推理能力方面，什么真正决定了强化学习(RL)训练数据的有效性？</strong></p>
+  </blockquote>
+  <p>研究团队对「扩大RL训练数据规模，就能提升模型性能」这一观念提出了挑战。</p>
+  <p>核心发现是，训练样本的质量和相关性远比数量重要。</p>
+  <p>通过广泛的实证分析，新研究得出了一些令人惊讶的观察结果，这些结果从根本上改变了对RL训练动态的理解：</p>
+  <p>经过精心挑选的1389个RL训练样本子集，可以实现和8523个样本的完整数据集相当甚至更优的性能。</p>
+  <p>新方法「学习影响测量」(LIM)，可以有效地预测哪些样本对模型改进的贡献最大，消除了手动样本管理的需要，而且易于扩展。</p>
+  <p>通往更好推理能力的道路，可能不在于简单地扩大RL训练数据规模，而在于更具选择性地使用哪些样本。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_47003e7d28e146c0ab4028abc03a0454@5888275_oswg163635oswg1080oswg580_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">项目地址：https://github.com/GAIR-NLP/LIMR&nbsp;</p>
+  <h2><strong>Scaling Law适用于强化学习训练吗？</strong></h2>
+  <p>在这项工作中，在一个基本场景，探索RL训练数据的Scaling Law：直接从没有经过知识蒸馏的基础模型开始（类似于Deepseek R1-zero的设置）。</p>
+  <p>对RL训练数据需求的理解不足，面临下列难题：&nbsp;</p>
+  <p>由于缺乏明确的数据规模基准，必须依赖反复试验，导致资源利用效率低下，而结果也可能不是最优的。</p>
+  <p>样本数量如何影响模型性能，该领域缺乏对该问题的系统分析，很难做出资源分配的明智决策。</p>
+  <p>更重要的是，这种不确 定性提出了关键问题：&nbsp;</p>
+  <blockquote>
+   <p><strong>扩大RL训练数据规模真的是提高模型性能的关键吗？</strong></p>
+   <p><strong>或者是否忽略了更基本的因素，例如样本质量和选择标准？</strong></p>
+  </blockquote>
+  <h2><strong>学习影响测量</strong></h2>
+  <p>学习影响测量(Learning Impact Measurement，LIM)，是一种系统的方法，用于量化和优化强化学习中训练数据的价值。</p>
+  <p>新方法通过分析学习动态，识别最有效的训练样本，从而应对强化学习训练中数据效率的关键挑战。&nbsp;</p>
+  <h3><strong>RL训练中的学习动态</strong></h3>
+  <p>为了理解训练数据和模型改进之间的关系，使用MATH-FULL数据集进行了广泛的分析，数据集包含8,523个难度级别不同的数学问题。</p>
+  <p>初步研究表明，<strong>不同的训练样本对模型学习的贡献是不平等的</strong>，这与将所有样本统一对待的传统方法相反。&nbsp;</p>
+  <p>如图2a所示，观察到不同的学习轨迹：一些样本表现出稳定的性能模式，而另一些样本则显示出复杂的学习动态，这些动态似乎驱动了显著的模型改进。&nbsp;</p>
+  <p>图a解题奖励轨迹揭示了不同的模式：保持接近零奖励的样本、快速获得高奖励的样本，以及显示出具有不同改进率的动态学习进展的样本。&nbsp;</p>
+  <p>图b表明较高的LIM分数反映了与模型学习轨迹更好的对齐，其中显示出相似增长模式的轨迹获得更高的分数。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_db142ae5355d4172ab7906b565c4f5ba@5888275_oswg152919oswg1080oswg410_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图2：(a)MATH-FULL数据集中训练样本在不同epoch的学习动态分析。(b)样本学习轨迹与平均奖励曲线（红色）的比较。&nbsp;</p>
+  <p>这些观察结果引出了核心见解：<strong>检查单个样本与模型的整体学习进程的对齐程度，可以系统地衡量强化学习训练中数据的价值</strong>。&nbsp;</p>
+  <p>这种理解构成了新方法LIM的基础。&nbsp;</p>
+  <h3><strong>学习影响测量(LIM)</strong></h3>
+  <p>LIM的核心是模型对齐的轨迹分析。&nbsp;</p>
+  <p>它根据训练样本对模型学习的贡献，来评估它们的价值。&nbsp;</p>
+  <p>新研究的主要发现是，学习模式与模型整体性能轨迹<strong>互补的样本</strong>往往对优化更有价值。&nbsp;</p>
+  <p>学习影响测量(LIM)主要分为两步：（1）分析模型对齐的轨迹；（2）计算一个归一化对齐分数。&nbsp;</p>
+  <p>考虑到神经网络学习通常遵循对数增长模式，使用模型的平均奖励曲线，作为衡量样本有效性的参考（图2b）：&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d6918a78b309476f9244becba5543241@5888275_oswg5283oswg456oswg132_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>其中：r_k^i表示样本i在epoch k的奖励;N是样本总数;K是总的epoch数。&nbsp;</p>
+  <p>对于每个样本，LIM计算一个归一化对齐分数：&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_eaddb602465b49f7b50daed1dc6331fe@5888275_oswg8444oswg614oswg160_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>本质上，这个公式是在平均奖励变化趋势上，比较单个样本与整体的相似程度。&nbsp;</p>
+  <p>如果一个样本的奖励变化趋势与整体趋势高度一致（即，当整体奖励上升时，该样本的奖励也上升，反之亦然），那么它的对齐分数就会较高。&nbsp;</p>
+  <p>反之，如果一个样本的奖励变化趋势与整体趋势差异较大，那么它的对齐分数就会较低。&nbsp;</p>
+  <p>该分数量化了样本的学习模式与模型整体学习轨迹的对齐程度，分数越高表示对齐程度越好。&nbsp;</p>
+  <h2><strong>寻找「黄金」样本</strong></h2>
+  <p>基于对齐分数，LIM采用了选择性抽样策略：s_i&gt;θ，其中θ作为质量阈值，可以根据具体要求进行调整。在实验中，研究人员设置θ=0.6产生了优化的数据集 (LIMR)，其中包含来自原始数据集的1,389个高价值样本。</p>
+  <h3><strong>基线数据选择方法</strong></h3>
+  <p>在开发核心方法时，研究人员探索了几种替代方法，有助于最终方法的形成和验证。</p>
+  <p>这些方法为强化学习中的数据选择提供了宝贵的见解。&nbsp;</p>
+  <p>随机抽样基线(RAND)：从MATH-FULL中随机选择1389个样本，以匹配主要方法的大小，为评估选择性抽样的有效性提供了一个基本的参考点。</p>
+  <p>线性进展分析方法(LINEAR)：根据在训练周期中持续显示稳步改进的一致性，来评估样本。虽然这种方法捕获了逐渐进展的样本，但它经常错过有快速早期收益然后趋于稳定的有价值的样本。使 用阈值θ=0.7，此方法产生1189个样本。</p>
+  <h2><strong>奖励设计</strong></h2>
+  <p>与Deepseek R1类似，使用基于规则的奖励函数。&nbsp;</p>
+  <p>具体来说，对于正确答案，奖励为1；对于不正确但格式正确的答案，奖励为-0.5；对于格式错误的答案，奖励为-1。形式上，这可以表示为：&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_1069e48fbcd943b28fe47fc9cf401ab4@5888275_oswg15907oswg1004oswg160_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>实验结果</strong></h2>
+  <p>为了验证LIMR方法的有效性，研究团队开展了一系列实验。</p>
+  <p>在实验设置上，训练环节采用OpenRLHF框架中实现的近端策略优化（PPO）算法，以Qwen2.5-Math-7B为初始策略模型。&nbsp;</p>
+  <p>评估环节选择了多个具有挑战性的基准测试，包括MATH500、AIME2024和AMC2023。为提高评估效率，借助vLLM框架进行评估。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_911263dd97d744d9a4733cf84e85fb71@5888275_oswg130230oswg1080oswg359_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从不同数据选择策略的对比来看，直接在Qwen-Math-7B上使用MATH-FULL数据集进行强化学习训练，模型性能有显著提升。&nbsp;</p>
+  <p>使用MATH-RAND数据集训练，与完整数据集相比，平均准确率下降8.1%；MATH-LINEAR的准确率损失为2%。&nbsp;</p>
+  <p>而LIMR尽管数据集规模减少了80%，但性能与MATH-FULL几乎相当。这充分证明在强化学习中，真正起关键作用的往往只是一小部分问题。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_edf6ca91693b4c72b46dc22b74db5820@5888275_oswg157828oswg1080oswg357_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>进一步分析训练过程中的各项指标演变，发现LIMR和MATH-FULL的准确率曲线近乎一致，且均明显优于MATH-RAND。&nbsp;</p>
+  <p>在序列长度方面，MATH-FULL的训练曲线不稳定，而LIMR的曲线先下降后逐渐上升。训练奖励方面，LIMR的奖励曲线上升更快，最终接近1.0，这表明模型在训练过程中能够更有效地利用LIMR数据集进行学习。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_6fae7f6c851541dca068f5addfa10c43@5888275_oswg153652oswg1080oswg360_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图4展示了在三个具有挑战性的基准测试上模型性能的对比分析。结果表明，LIMR在所有三个基准测试上的性能都与MATH-FULL相当，同时显著优于MATH-RAND。&nbsp;</p>
+  <p>值得注意的是，LIMR在AIME24和AMC23数据集上表现出色，有力证明了其性能提升并非归因于对单个数据集的过拟合，而是反映了模型数学推理能力的真正提高。&nbsp;</p>
+  <h3><strong>RL的数据效率优于SFT</strong></h3>
+  <p>研究者发现，对于数据稀疏且模型较小的情况，<strong>强化学习&gt;监督微调</strong>！&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_83f773a07f894d3898b0c08d2404261e@5888275_oswg121921oswg1080oswg334_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>研究者用来自s1的1000条数据和来自LIMO的817条数据，通过监督微调对Qwen-2.5-Math-7B进行训练，并与LIMR进行比较。&nbsp;</p>
+  <p>实验结果表明，在相同的约1000个问题下，与LIMO和s1相比，LIMR在AIME上的相对提升超过100%，在AMC23和MATH500上的准确率提高了10%以上。&nbsp;</p>
+  <p>这进一步强调了选择适合模型的数据，而不是盲目选择更具挑战性的数据的重要性。在数据稀疏的场景以及小模型应用中，强化学习结合有效的数据选择策略，能有效地提升模型的推理能力。&nbsp;</p>
+  <p>本文的方法不仅为研究人员提供了一种高效、可扩展的RL训练解决方案，还揭示了提升推理能力的关键可能在于优化数据质量，而非单纯增加数据量。&nbsp;</p>
+  <p>与监督微调（SFT）的对比实验表明，当RL结合高效的数据选择策略时，在数据有限的小模型上表现尤为突出。&nbsp;</p>
+  <p>参考资料：&nbsp;</p>
+  <p>https://github.com/GAIR-NLP/LIMR&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/wgSmwRxwnNXon55Wl5rkcQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172042900718467</id>
+            <title>马斯克20万块GPU炼出Grok-3，暴击DeepSeek R1数学屠榜，疯狂复仇OpenAI</title>
+            <link>https://www.36kr.com/p/3172042900718467</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172042900718467</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:42:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: Grok-3, 马斯克, AI模型, 深度搜索  
+<br><br>  
+总结: Grok-3是全球首个在20万块GPU上训练的大型AI模型，已在多个基准测试中表现优异，超越了o3-mini和DeepSeek-R1。该模型不仅具备强大的数学和科学问答能力，还引入了推理模型Grok-3 Reasoning，能够展示思维过程。Grok-3的智能体DeepSearch可以进行深入的互联网搜索，提供详细的答案。马斯克表示，Grok-3的所有功能将在一周内上线，并计划在几个月内全面开源。Grok-3的推出标志着xAI在AI技术竞争中的重要进展。 </div>
+                        <hr>
+                    
+                    <p>马斯克口中全世界最聪明大模型Grok-3，终于震撼登场！20万块GPU训出的模型，实属全球首次。果然，Grok-3已火速屠榜多个排行榜，击败o3-mini（high）和DeepSeek-R1。</p>
+  <p>人类史上首个在20万块GPU上训出的模型终于问世！</p>
+  <p>刚刚，马斯克带队三位xAI成员在线开启直播，官宣Grok-3全家桶——</p>
+  <blockquote>
+   <p>Grok-3（Beta）、Grok-3 mini</p>
+   <p>首个推理模型Grok-3 Reasoning（Beta）、Grok-3 mini Reasoning：击败o3-mini/DeepSeek-R1，解锁推理时计算</p>
+   <p>首个AI智能体「DeepSearch」：联网深入搜索</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3c13c4d19c1845258aba0f0e06dc15b2@5888275_oswg403514oswg1080oswg617_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">一股OpenAI发布会的味道扑面而来</p>
+  <p>据介绍，三代Grok的训练计算量竟是Grok-2的10倍，那么实际表现又如何？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8abcdca25225437aa7e4b0c968530b66@5888275_oswg37124oswg1080oswg229_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a1530935307a40868395910dc3be06ba@5888275_oswg124869oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">世界最大超算集群Colossus已有20万块GPU：10万块GPU同步训练（第一阶段用时122天搭建）；20万GPU（第二阶段用时92天）</p>
+  <p>在多项基准测试中，Grok-3在数学（AIME 2024）、科学问答（GPQA）、编码（LCB）上刷新SOTA，大幅超越DeepSeek-V3、Gemini-2 Pro、GPT-4o。</p>
+  <p>Grok-3 mini的性能基本上领先或媲美其他闭源/开源模型。</p>
+  <p>在著名大模型LMSYS Arena排行榜中，Grok-3（chocolate终于揭秘）刷榜，Elo评分超1400位列最高，没有任何一个模型能与之相比。</p>
+  <p>Grok-3的数学能力十分惊人，几乎能完成大部分美国数学专业能力测试的题目。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e3c5d00cd6574ad091ebfb51cb5a5a25@5888275_oswg126932oswg1080oswg345_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>更令人惊喜的是，Grok-3此次还带来了推理模型——Grok-3 Reasoning，在回答问题时会展示出思维过程。</p>
+  <p>进入聊天入口，直接选择「Think」模式，即可开启魔法。</p>
+  <p>此外，还有「Big Brain」模式、智能体「深度搜索」（Deep Search）模式同步上线。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a37bc0d5d0424a30b6786d3d91d172ae@5888275_oswg141284oswg1080oswg187_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>几天前，马斯克曾在预告中放出豪言，「这是地球上最聪明的AI」，此言不虚。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_495183201c7f461aa29995185e7a5665@5888275_oswg79741oswg1080oswg269_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>总爱搞点事情的奥特曼，一会儿说GPT-4.5让自己深刻感受到AGI，一会儿又要开源模型全网投票。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_23080c10678a42a2b2ddb4fc5076e423@5888275_oswg132941oswg1080oswg295_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">甚至有网友提议，不如咱就7:30pm发布GPT-4.5吧！奥特曼：这不太好吧。</p>
+  <p>奥特曼的这番言论，摆明了是要扰乱军心。据传言，Grok-3发布这一历史性时刻，OpenAI全员观战。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_79fcf66af5dd4c8da39b03a8b1404ea2@5888275_oswg723233oswg1080oswg875_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>OpenAI前脚发布的o3-mini刚刚击败了R1，如今又被Grok-3追回。不知今晚，GPT-4.5会不会降临？</p>
+  <h2><strong>01 暴击o3-mini、DeepSeek-R1，解锁测试时计算</strong></h2>
+  <p>有人说，Grok-3是终极的Scaling Law测试，如今看来，事实如此。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a4d4dead41684144a189983ae9486070@5888275_oswg55697oswg1080oswg181_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从2023年Grok-1首次面世，到Grok-1.5，再到Grok-2逐步迭代，模型推理性能飞速飙升的同时，还吞噬了大量的算力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0615b3fd2d5749c48fc4efd9236170bc@5888275_oswg31695oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ada00981026c46ae8a73b4e46513303e@5888275_oswg32947oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok-3家族，更是将「测试时计算」发挥到了极致。10万块H100超算，训出的野兽几乎无「模」能敌。</p>
+  <p>它成为首个Elo评分打破1400的模型，在所有分类测试中位列第一。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d5f10184c7814f939e1194d8c2882bf1@5888275_oswg462534oswg1080oswg858_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在多项基准测试中，推理模型Grok-3 Reasoning和Grok-3 mini Reasoning在数学、科学、编码上，性能均大幅超越o3-mini（high）、o1、DeepSeek-R1，还有Gemi-2 Flash Thinking。</p>
+  <p>可以说，迄今为止最强「推理模型」，全部败给了Grok-3 Reasoning，可以说，它是名副其实的「世界上最聪明的模型」。</p>
+  <p>团队表示，允许Grok去进行更长时间的思考和推理。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_620fc77a137249b482d350093f5118d6@5888275_oswg43932oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在最新的数学基准AIME 2025上，Grok-3两款新模型性能同样刷新SOTA，分别拿下了93和90分。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f7136b251048441aaabdf81c8a0e6ef7@5888275_oswg33217oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>顺便提一句，Grok-3思维链和o3-mini套路一样——防止被偷家xAI掩盖了部分思考过程。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cffe6c845d4d405cb5e303ede84982b9@5888275_oswg319459oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_987ff8c68c7b40679c56c343c34e898e@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>接下来，让我们一睹Grok-3强大的推理能力。</p>
+  <h3><strong>高级推理Think</strong></h3>
+  <p>首先是一个太空飞船任务，生成一个地球发射、火星着陆以及下一次发射窗口返回地球的动画3D代码。</p>
+  <p>注意，这个问题的难点在于，过程中涉及到了大量数学和物理模型的计算。在此之前，团队从未试过让大模型去计算航天的发射窗口。</p>
+  <p>在「Think」模式下，可以看到Grok的思维痕迹，甚至可以进去看看Grok在解决问题时到底在想什么。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_084eb1c379b3462aa152dc3156baf88a@5888275_oswg61611oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b73da184ef1e4afd94d2c99935fdea58@5888275_oswg43812oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok 3很快生成了完整可运行的3D动画。在代码中，Grok-3数值上求解了开普勒定律。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c526c14980804751880aa5906d27f3a3@5888275_oswg262543oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>下图是3D动画的画面，直观展示了任务过程中，太阳、地球、火星和飞船之间的位置关系。</p>
+  <p>甚至，宇航员可以据此直接算出出舱时间和距离。这上面有地球-火星往返的转移路径，这种穿越每26个月发生一次。接下来，我们现在正处于一个过渡窗口期。</p>
+  <p>研究者经过检查后激动表示：Grok-3给的答案完全正确！</p>
+  <p>最后马斯克揭开谜底：其实，这就是SpaceX真正的探索轨道。他充满信心地表示，两年内，地球和火星就会被连接在一起。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f34a2fa0ac2849c8b60e2e9ae7bbf637@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>很快有网友评论，「可以确认，Grok-3强得离谱！」</p>
+  <p>与之相对比的是，o1、o1-pro、o3-mini（high）全都在这个问题上栽了：生成一段代码，实现从地球发射、登陆火星，然后在下一个发射窗口返回地球的3D动画。</p>
+  <p>「它们生成的代码能跑是能跑，但很不幸，飞船根本就没靠近过火星，更别说回来了。」该网友表示。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_1df9cd96580f479da119fd616f21c71f@5888275_oswg63268oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>然后团队又让Grok-3制作一个游戏。要求是结合俄罗斯方块和宝石迷阵两个游戏的混合体。</p>
+  <p>「显然，如果你让AI去创作一款像俄罗斯方块这样的游戏，互联网上有许多例子，或者类似宝石迷阵的游戏。它可以复制它们。」演示人员表示。</p>
+  <p>所以，现场他们让Grok-3制作了一个结合了俄罗斯方块和宝石迷阵两个游戏的混合体，这次他们使用了「Big Brain」模式，可以使用更多计算能力的一种模式。</p>
+  <p>Grok-3随后开始使用python编写代码，可以看出它调用了pygame、random和time这3个库来完成游戏的编写。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0acae7f272684973a96d1e4ebd310cdf@5888275_oswg33454oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>代码完成后，Grok-3生成的俄罗斯方块和宝石迷阵两个游戏的混合体成功运行，虽然游戏逻辑有些随意，但是界面挺美观。</p>
+  <p>「我们在x.ai准备好成立一个游戏工作室了吗？」演示人员激动地说道，「是的，所以我们正在x.ai启动一个人工智能游戏工作室。」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_02608699f90d4e69a2e8fc289d436876@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在此过程中，研究者们讨论道：最好的AI模型，必须像人类一样思考，会去想所有可能的对策和解法，会自我批评、回溯，还会从第一性原理去思考。</p>
+  <p>甚至，Grok能够了解自己的逻辑和推理过程中的一些失误所在，更正自己的错误，将一些数学推理过程概念化，而现实生活中，也正是这些问题的延伸。</p>
+  <p>研究者表示，真正令人兴奋的就是，可以用Grok-3去完成现实世界中的任务，比如打造一辆特斯拉，或者去发射火箭。</p>
+  <p>这正是Grok团队目前正在思考的问题。</p>
+  <h3><strong>深度搜索DeepSearch</strong></h3>
+  <p>没想到，这一次马斯克还带来了Grok-3首个智能体——DeepSearch。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2c5a307a49954ef3881f6f2e27fcbc48@5888275_oswg103060oswg1080oswg755_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>DeepSearch是Grok的第一代智能体，能够在互联网上进行更深入的搜索。</p>
+  <p>它允许用户对互联网和X平台进行全面搜索。该模式分析大量信息，并通过快速高效的搜索过程提供详细、合理的答案。</p>
+  <p>此外，它的信息检索过程对用户更加透明。你可以直接告诉它只使用来自X的内容，它会尽量遵守这个要求，因此可控性更强，也更智能。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_6f6aadfe7df64e91947a109e490dbf32@5888275_oswg93396oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>我们可以问DeepSearch智能体：下一次星舰发射是什么时候？</p>
+  <p>可以看到，在左边，它展示出了搜索和推理的过程，而在右边，则展示出了深度思考过程，以及模型正在浏览什么样的网址和网页。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_82655cb87e514ce3a6c5f655fec59c5d@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>最终，智能体给出了答案：25年2月24日。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_af3bb7d809444d408b5f3c47160a85ff@5888275_oswg441893oswg1080oswg759_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>游戏玩家还可以提问：在Poe 2中最硬核的流派是什么？</p>
+  <p>除了给出答案——炼狱师召唤流之外，智能体还在回答中给出了如何获得更多武器的攻略。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8cca847701b6424e9fd7ec0ba10330e5@5888275_oswg628428oswg1080oswg855_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>因此，比起现在普通的搜索引擎，使用Grok智能体能节约更多的时间。</p>
+  <p>Grok团队表示，从此，或许所有实习生都要失业了，我们需要的只是向大模型下任务。每个月花40美元，就能带来数十亿美元的回报。</p>
+  <h2><strong>02 马斯克：一周内所有功能上线，几个月内全面开源</strong></h2>
+  <p>所以，Grok-3到底什么时候开放？</p>
+  <p>对此，马斯克表示，订阅Premium Plus的X用户现在已经可以用上了。</p>
+  <p>而Grok忠实粉丝则可以单独订阅SuperGrok，从而解锁深度搜索和思考模型等先进功能，并成为早体验新特性的那一波。</p>
+  <p>全新网址是grok.com，另外App Store里也可以下载了。</p>
+  <p>马斯克强调，最新版本一定是网页版，App Store里是比较落后的。</p>
+  <p>目前，Grok-3每天都在更新推理功能，马斯克放话说：一周内，Grok的所有功能都将上线！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_555a3a22463d4375b9a235f7c80f9962@5888275_oswg393074oswg1080oswg1029_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_337dad45bbad418bab7fcbde590c76d8@5888275_oswg67811oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">传送门：https://grok.com/</p>
+  <h3><strong>Q&amp;A</strong></h3>
+  <p>什么时候出语音助手版？会花一周时间。</p>
+  <p>Grok-3 API什么时候上线？几周内。</p>
+  <p>Grok 3语音模式是原生的，还是文本转语音？它是Grok-3的一个变体，能理解你说的话，并且直接生成音频。</p>
+  <p>Grok-3能否将音频转录成文本？没问题。这个声音模型不仅仅是语音转文字那么简单，它还具备对话记忆功能，能记得和你之前的交互记录。</p>
+  <p>马斯克表示，几个月之后会对Grok-3进行全面的开源。</p>
+  <p>Grok-3最令人兴奋的部分是什么？训练模型，以及百分百的逻辑推理，都是最难的部分，就像你需要随时随地设计宇宙的最新进展。</p>
+  <p>如何设计这样一个史上最难推理模型？研究者表示，我们花了24个月去打磨这个模型，确定它在逻辑推理上有了最新进展，同时他们使用了一个废弃工厂，数据中心之所以落地在孟菲斯，是因为既需要算力，又需要能源功能，需要1/4吉瓦来向GPU供能，同时还需要冷却设施。</p>
+  <p>此前，从没有人真正在数据中心实现过液冷，但Grok团队做到了！</p>
+  <p>为了进一步对数据中心供能，我们使用了特斯拉的Megapacks，并且重新计算了建筑物的能源供给。最终证明：团队的计算是有效的！</p>
+  <p>而且，过程中还需要把不同计算机联结在一起，共享信息。在此过程中，团队会看到模型之间供给不平衡的情况。</p>
+  <p>一方面，是对建筑供能和节能的重新设计；另一方面，团队设计了大模型，设计了全新的算法过程。</p>
+  <p>研究者表示，不知道其他大模型是否也像Grok-3一样，需要如此多的人力和物力。</p>
+  <p>当然，团队也希望在接下来，减少模型的能耗，把数据中心的耗能从1/4吉瓦降低下来，或许需要重新设计，让它成为世界上效率最高的数据中心。</p>
+  <h3><strong>AI大牛高度好评：Grok-3成就惊人</strong></h3>
+  <p>提前拿到内测资格后，AI大佬Karpathy展开了一番评测，分享的感悟比一篇文章还要长。</p>
+  <p>总结来说，Grok-3推理模型最领先，解决了卡坦岛（Settler's of Catan）难题。上传GPT-2论文后，Grok-3完成了简单的查找问题。</p>
+  <p>它没有解决黎曼假设难题，仅是说「这是一个伟大未解决的难题」。</p>
+  <p>在体验「深度搜索」功能时，结合了思考+深度研究的能力，能对需要研究、查找的问题提供高质量回答，并给出参考链接。</p>
+  <p>最后，Karpathy给出的评价是，「Grok-3 + Thinking表现似乎达到了与o1 Pro（每月200美元）相当的水平，并且略优于DeepSeek-R1和Gemini 2.0 Flash Thinking」。</p>
+  <blockquote>
+   <p>大约一年前，xAI团队从0开始的，这么短时间内就达到了顶尖水平，这是前所未有的惊人成就。</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4c855aa985c040bb94ce791a7d3eb0e8@5888275_oswg370774oswg1080oswg872_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok-3同样通过了物理模拟测试，效果堪比o3-mini。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_17cbfb0327b84c2d9aed08b3804209ff@5888275_oswg157544oswg1080oswg436_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_9d98ccb0975f47d88fd8f455089b0f5b@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>xAI联创同样表示，「我们改进模型和系统的速度，比任何单一的里程碑都更重要。Grok-3证明了我们能够在19个月内从零起步达到了最先进的水平」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8b321af3ff0a4094a67a9cfb92b7395a@5888275_oswg97211oswg1080oswg177_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此外，xAI工程师还曝出了即将上线的「高级语音模式」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e3bc899093cb4a23887fa7f508c457a9@5888275_oswg35769oswg1080oswg108_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok-3横空出世，再次把xAI带回到世界第一梯队。</p>
+  <p>用马斯克的一句话做个总结——要判断哪家公司会在技术竞争中胜出，你只需要关注其创新速度的一阶导数和二阶导数。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_7bb3d7a7a5414232b1d748dac1217e32@5888275_oswg92154oswg1080oswg173_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>xAI团队胜利的这一刻，值得被记录。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2c066c99f2b248b2a97b9a410fb46e3f@5888275_oswg1077542oswg1080oswg806_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>奥特曼的AGI也准备就绪。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f03c57930d0a48acaa8c8c4aed1622eb@5888275_oswg683597oswg1080oswg907_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>参考资料：</p>
+  <p>https://x.com/i/broadcasts/1gqGvjeBljOGB</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/YDjin48P-qsxPv48mpCbtg" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172043023958404</id>
+            <title>AI看照片，几秒就能地理定位，因太危险被公司主动关闭，正向警方推销</title>
+            <link>https://www.36kr.com/p/3172043023958404</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172043023958404</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:42:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 照片地理定位, GeoSpy, 隐私风险, 人工智能  
+<br><br>  
+总结: GeoSpy是一种革命性的照片地理定位系统，能够通过分析图像内容直接定位照片拍摄地点，并生成3D场景。该技术利用人工智能和大规模数据集，显著提高了定位的准确性和速度。尽管GeoSpy在刑侦和导航等领域展现出广泛应用潜力，但其隐私泄露风险引发了公众关注，导致其服务暂时限制为专业机构使用。企业在技术发展中需重视道德考量，以确保技术的安全和社会效益。 </div>
+                        <hr>
+                    
+                    <p>任何一张照片，直接就能定位照片中的具体所在地，并呈现出对应的3D场景。GeoSpy使得这一切都成为了现实，但大家也都为此而感到隐私泄露的巨大风险和潜在危害。</p>
+  <p>在看刑侦片的时候，每当破案遇阻，你是否想象过，一种能够仅基于一张嫌疑人出现的场景照片，就即刻定位到场景所在地的具体经纬度的技术呢？</p>
+  <p>现在，这种想象，已然成为现实！</p>
+  <p>初创AI公司graylark发布了一项名为「GeoSpy」的系列产品，因其是一个革命性的照片地理定位系统，近来引发热议。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b6ca89e9d38b4151ad49469a11325e15@5888275_oswg130845oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>照片地理定位是什么？</strong></h2>
+  <p>照片地理定位是指仅根据图像的视觉内容确定图像拍摄地点的过程。它已成为计算机视觉中的一个关键领域，其应用范围涵盖安全、导航、社交媒体等多个方面。</p>
+  <p>早期照片地理定位方法主要关注简单任务，例如识别著名地标或使用嵌入图像中的元数据，如GPS坐标。</p>
+  <p>然而，研究人员很快意识到更广泛应用的潜力——从不含标志性地标的普通场景中确定位置。随着技术的进步，研究人员超越了元数据，开始分析图像的视觉内容，包括建筑风格、植被和道路标记。</p>
+  <p>照片地理定位背后的原理包括分析图像特征，如纹理、颜色以及植被、建筑和标牌等上下文元素。随着时间的推移，人工智能的进步和更大数据集的获取显著提高了这些系统的准确性和速度。</p>
+  <p>GeoSpy支持在参考数据集中没有匹配的图像时也能提供近似位置，非常适合千米范围内的更广泛地理定位任务。</p>
+  <p>而基于Superbolt的GeoSpy Pro则支持上传一张不带有任何标签数据（如地理位置、拍摄时间）的照片，就能定位到照片中的拍摄所在地，并结合地图给出3D实景。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ffcedacabd844d4587e9da3bd59ea43c@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">体验链接：https://superbolt.geospy.ai/</p>
+  <p>如下图，用户上传了一张车内视角的照片后，它就可以直接定位到对应的地理位置，报告出所在城市和经纬度，甚至能直接给出对应建筑的3D实景地图。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_62e688d349e240b6be4160c65e420a52@5888275_oswg497537oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而且还支持给出所查图片的相似图，以形成迁移连接。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_59d1024bef8944f1a753f48afa8a4a83@5888275_oswg900106oswg1080oswg706_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>看起来这么神奇的效果，是怎么做到的呢？</p>
+  <p>核心思想其实很简单：如果你用足够多的与真实地点相关的照片来训练一个AI系统，AI就可以学会识别需要人类花费数年才能掌握的微妙线索。</p>
+  <p>例如一些城市消防栓上使用的独特油漆颜色。虽然这个细节本身并不特别有用，但将其与照片中的可见街道名称或咖啡店招牌结合起来，可能就会让人更肯定地猜测出位置。而将这个过程重复应用于图像中的数千个元素。随着时间的推移，AI比人更有效地识别这些模式。GeoSpy就是利用这一能力，成为了地理定位的强大工具。</p>
+  <h2><strong>进阶版的GeoSpy：Superbolt</strong></h2>
+  <p>Superbolt是GeoSpy的高端产品GeoSpy Pro的关键组件。GeoSpy Pro融合了Superbolt视觉位置识别（VPR）的高精度与GeoSpy的照片估算技术，打造出的地理定位系统具备以下能力：</p>
+  <p>精准定位：利用Superbolt的参考数据库，能将图像匹配精度控制在数米之内。</p>
+  <p>广泛位置推断：在缺乏匹配参考数据时，也可将位置估算范围缩小至数公里以内。</p>
+  <p>Superbolt并非普通的升级，而是地理定位领域的一次范式变革。凭借无可比拟的数据集、前沿的嵌入技术以及精准的性能，Superbolt助力GeoSpy成为视觉位置识别与地理定位技术领域的领军者。&nbsp;</p>
+  <p>Superbolt首先是用4600万张全球分布的街景图像大规模数据集，训练出一个SOTA嵌入模型。接着与覆盖全球城市的大规模参考数据库相结合，最终使得Superbolt成为地理定位技术的一次突破性进步。&nbsp;</p>
+  <p>Superbolt在视觉地点识别领域取得突破，原因如下：&nbsp;</p>
+  <p>稳健性：它对相机角度变化、光照条件，甚至因翻新、新涂漆或老化导致的建筑物外观改变都具有很强的抗性。</p>
+  <p>可扩展性：该嵌入模型能够在保持准确性的同时扩展到数十亿个向量，非常适合实际应用场景。</p>
+  <p>高效性：与以往依赖大量向量的顶尖模型不同，Superbolt采用紧凑的嵌入方式。这些较小的向量不仅更节省内存，处理速度也更快，从而能够实现大规模的实时性能。</p>
+  <p>同时，其私有参考数据集也具有以下优势：&nbsp;</p>
+  <p>全球规模：覆盖世界上几乎所有主要城市以及无数较小的地区，提供广泛的地理覆盖范围。</p>
+  <p>高精度：从街角到地标，数据库提供详细的嵌入，使精度达到几米。</p>
+  <p>动态更新：数据库持续更新新鲜图像，确保其反映现实世界的变更，如新建筑或更新的标志。</p>
+  <p>这个丰富的参考数据集，与Superbolt的高效嵌入模型相结合，实现了无与伦比的地理定位精度和可扩展性。&nbsp;</p>
+  <p>Superbolt的先进功能也为众多应用领域开辟了道路，如新闻追踪、案件破获等。&nbsp;</p>
+  <h2><strong>隐私还能保得住吗？</strong></h2>
+  <p>GeoSpy在之前的几个月是面向公众开放的，任何人都能免费使用照片定位服务。&nbsp;</p>
+  <p>但在发生了一些隐私安全问题后（非法尾随跟踪），GeoSpy暂时停止开放对公众的访问，转为只面向政府、公安等专业业务平台提供定位服务，以助力情报调查与案件破获。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e28b59d71d8b43ac9e1065aec140eed4@5888275_oswg418962oswg1080oswg831_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>总的来说，GeoSpy在处理地理位置的方式上带来了一次范式转变。凭借其无与伦比的数据库、前沿的嵌入技术和精确的性能，GeoSpy已是视觉地点识别和地理位置技术的领导者。&nbsp;</p>
+  <p>但对于公众来讲，更为关键的是，企业需要对于技术进行负责任的发展，而道德考量也将始终是确保这些强大工具造福社会又不会侵害隐私的关键。&nbsp;</p>
+  <p>参考资料：&nbsp;</p>
+  <p>https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-geolocate-photos-in-seconds/&nbsp;</p>
+  <p>https://x.com/josephfcox/status/1881343994212614335&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/e5qXz4e6IovB-opRG9EpmA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172020753056134</id>
+            <title>20万张GPU，号称“地球上最聪明的AI”Grok-3来了，斩获多个Top1，网友：算力消耗是DeepSeek V3的263倍</title>
+            <link>https://www.36kr.com/p/3172020753056134</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172020753056134</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:17:40 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: Grok 3, 人工智能, 基准测试, 马斯克  
+<br><br>  
+总结: 埃隆·马斯克旗下的人工智能公司xAI发布了Grok 3系列模型，声称其在数学、科学和编码基准测试中超越了多家竞争对手。Grok 3的训练使用了20万张GPU，算力消耗是DeepSeek V3的263倍。该模型家族包括轻量级版本Grok 3 mini，能够更快响应问题。Grok 3在多个基准测试中表现优异，获得了1402分，成为首个突破1400分的大模型。马斯克表示，Grok 3旨在追求真相，甚至在某些情况下与政治正确相悖。未来，xAI计划推出更多功能并开源Grok 2。 </div>
+                        <hr>
+                    
+                    <p>北京时间 2 月 18 日中午，埃隆·马斯克旗下的人工智能公司 xAI 重磅发布了 Grok 3 系列模型，宣称其在数学、科学和编码基准测试中，击败了 Google Gemini、DeepSeek V3、Claude 以及 OpenAI 的 GPT-4o。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_aeb817a6b3e14ff786db22d72fa2fdb3@5888275_oswg274423oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>更为值得关注的是，Grok 3 的训练并非如此前传闻的在“10 万张 GPU 上进行”，而是使用了“20 万张 GPU”。对此，有网友指出其算力消耗是 DeepSeek V3 的 263 倍。正因此，“又壕又横”的马斯克将其称为“地球上最聪明的 AI”。</p>
+  <h2><strong>01 Grok 3 基准测试曝光</strong></h2>
+  <p>根据 xAI 工程师的介绍，Grok 3 其实是一个模型家族——而不仅仅是一个模型。Grok 3 的轻量级版本——Grok 3 mini——在牺牲一定准确度的情况下，能够更快地响应问题。</p>
+  <p>目前，并不是所有模型都已经上线（其中一些仍处于测试阶段），但会从今天开始陆续推出。此外，原定今天要发布的语音模式并未出现，马斯克随后也在 X 上解释称，“语言模式仍然有点不完善，所以大概会在一周左右推出，但它很棒。”</p>
+  <p>根据官方公开的测试结果，Grok 3 在包括 AIME（评估模型在一系列数学问题上的表现）和 GPQA（评估模型在博士级别的物理学、生物学和化学问题上的表现）等基准测试中，远超 GPT-4o、Gemini-2 Pro、DeepSeek V3、Claude 3.5 Sonnet 等大模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_6469f77dae8c4ff8ba1481db2e1d5f47@5888275_oswg127527oswg1080oswg623_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在大模型竞技场 Chatbot Arena（LMSYS）测试中，xAI 工程师表示，早期版本的 Grok-3 获得了第一的成绩，达到了 1402 分，超越了 Gemini 2.0 Flash Thinking 实验版本、ChatGPT-4o 最新版本以及最近大火的 DeepSeek R1 等等。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_387e43de66464f7ca5fa0b0239fc0ae6@5888275_oswg156305oswg1080oswg709_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>要知道在 Chatbot Arena 中，用户或评审可以通过对比不同的模型响应，并进行投票，以评定哪个模型提供了最佳的答案。平台通过这种“人类评分”的方式帮助研究人员和开发者了解各大聊天机器人模型的优劣，推动模型的持续改进。<strong>时下 Grok 3 是在过往业界已发布的大模型中首个突破 1400 分、获得多个第一的大模型。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_dfb8f25ecb044180b74467e6241beb35@5888275_oswg311488oswg1080oswg909_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>美国著名 TMT 投资人 Gavin Baker 评价道，「xAI 成立于 DeepMind 之后的 13 年、OpenAI 之后的 8 年，现在已领先于两者。它被誉为 AI 实验室中的“SR-71 黑鸟”（象征其突破性、超前性和强大的技术能力）。」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_10624e094a4b476daf226f0ce687c3ac@5888275_oswg317914oswg896oswg1200_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>02 推理大模型赛道再添新成员——Grok 3</strong></h2>
+  <p>与此同时，Grok 3 也支持推理能力了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a468644fc77e4757b116a1b42c7b789f@5888275_oswg436726oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>xAI 工程师介绍道，“大约一个月前，Grok 3 的预训练完成，从那时起，我们一直在努力将推理能力整合到当前的 Grok 3 模型中。<strong>不过，这仍处于早期阶段，模型仍在继续训练。今天展示的只是 Grok 3 推理模型的一部分。同时，我们还在训练一个 mini 版本的推理模型。”</strong></p>
+  <p>今天，xAI 带来的推理模型一个是 Grok 3 Reasoning Beta，另一个是 Grok 3 mini Reasoning，其类似于 OpenAI 的 o3-mini 和 DeepSeek 的 R1 这样的“推理”模型，都能够仔细“推理”问题。推理模型在给出结果之前会彻底自我核实，这帮助它们避免了通常会让其他模型出错的陷阱。</p>
+  <p>随后，官方也展示了 Grok-3 推理基准测试结果。</p>
+  <p>xAI 声称，在使用更多测试时间计算时（图中浅色延展部分），Grok-3 Reasoning 在多个流行的基准测试中超过了 o3-mini 的最佳版本——o3-mini-high，其中包括一个名为 AIME 2025 的新数学基准测试。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_78d9a3d9d11a4461aa1d3991b1609315@5888275_oswg151558oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2fea5091631c4880b953de4ea8ab3a3b@5888275_oswg102914oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>推理模型可以通过 Grok 应用程序访问。界面显示如下，用户可以点击 Grok 3 的“Think”模式来体验，或者对于更复杂的问题，使用“Big Brain”模式，后者这种模式依赖额外的计算资源进行推理。</p>
+  <p>xAI 描述这些推理模型最适合处理数学、科学和编程相关的问题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e3293782e3a649e1b76233fe426ccadb@5888275_oswg240380oswg1080oswg524_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>除此之外，Grok 3 还引入了 DeepSearch，该公司将其描述为一种新型搜索引擎和类似代理的功能的早期版本。它可以扫描互联网内容和 X（原 Twitter），分析信息并针对问题提供摘要。显然可以看出，它对标的是此前 OpenAI 推出的 Deep Research 功能。</p>
+  <p>马斯克还表示，在 Grok 应用程序中，某些推理模型的“思维”被隐藏，以防止“蒸馏”(一种 AI 模型开发者用来从另一个模型中提取知识的方法)。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_eaeb1a4f8b4e441e9a530505dc2fd9f8@5888275_oswg75365oswg1080oswg751_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>03 20 万张 GPU 训练出来的 Grok 3</strong></h2>
+  <p>回顾过往，2023 年 7 月，马斯克集结 Deepmind、微软、特斯拉以及学术界的多位大佬成立了人工智能初创公司 xAI。仅仅半年之后，xAI 就带来其研发成果——Grok-1 大模型，还采用了开源策略，迅速吸引了大量关注。截至目前，Grok-1 在 GitHub 上已经获得了近 50k 个 Star，Fork 数达到 8.3k，成功迎接了当时 OpenAI 和 Google 等闭源大模型带来的竞争压力。</p>
+  <p>然而，在百模大战中，走别人走过的路、打造千篇一律的模型显然无法脱颖而出。在此次 Grok 3 发布会上，马斯克再次重申了自己对大模型的构想，并解释了为何将其命名为“Grok”。</p>
+  <p>“实际上，我们应该解释一下为什么我们叫它 ‘Grok’。这个词来自罗伯特·海因莱因的小说《异乡异客》。它由一个在火星长大的角色使用，意思是完全并深刻地理解某件事。‘Grok’ 传达的是深刻的理解，而同理心是其中一个重要部分。”</p>
+  <p>总的来说，马斯克希望 Grok 模型愿意回答其他 AI 系统不敢回答的争议性问题。正因此，马斯克此次也表示，“<strong>Grok 3 是一种最大程度地寻求真相的人工智能，即使这种真相有时与政治正确相悖。</strong>”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d299cb34056946409d5366bac0fdcbaf@5888275_oswg406694oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在能力上，<strong>马斯克称新版的 Grok 3 能力比 Grok 2 高出一个数量级。</strong>对此，xAI 的工程师进行了现场演示。</p>
+  <p>一、「使用 pygame，制作一个结合了俄罗斯方块和宝石方块的游戏。代码可以很长。将其输出为一个文件。让它变得非常棒。」</p>
+  <p>得到如下的结果：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_df90522801a1454ea2066e5da7cb85ca@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>二、「生成从地球发射、着陆火星然后在下一个发射窗口返回地球的 3D 动图的代码。」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_fad91d192a364e52a2b5e646e6648171@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>‍</p>
+  <p>可以看出，Grok 3 的表现确实不错。那么，Grok 3 的能力为什么会这么强？</p>
+  <p>事实上，和其他公司有所不同，xAI 背后有马斯克这位世界首富的支持。据 xAI 工程师在直播中介绍：</p>
+  <p>“<strong>去年四月，埃隆决定，xAI 成功并打造最好的 AI 的唯一途径，就是建立我们自己的数据中心。</strong>我们没有太多时间，因为我们想尽快推出 Grok 3。所以，我们意识到必须在大约四个月内完成数据中心的建设。我们花了 122 天让首批 10 万个 GPU 启动并运行，这是一项巨大的努力。我们相信，这是世界上最大规模的全连接 H100 集群。但我们并没有就此止步。</p>
+  <p>我们很快意识到，为了构建我们设想中的 AI，我们需要将集群规模翻倍。因此，我们启动了另一个阶段——<strong>这是我们第一次公开谈论这个——在短短 92 天内将容量翻倍。</strong>我们利用这些计算能力，在这个过程中持续改进产品。”</p>
+  <p>简单来说，之前媒体多次报道 xAI 使用了 10 万个 GPU 构建了超级计算机 Colossus，但那只是初步阶段。后来，xAI 构建了一个包含约 20 万个 GPU 的数据中心，而 Grok 3 的训练正是在此基础设施上进行的。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d4a5935c873d48d1be64039b68f63c0c@5888275_oswg1150420oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不难想象马斯克有多么豪横、Grok 3 的能力有多强了，有网友在 Grok 3 推出后发了一张图：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_904315fcafdf4eafb0f17294ffde0fb3@5888275_oswg111699oswg1000oswg750_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>04 Grok 2 将在不久后开源</strong></h2>
+  <p>当前，X 的 Premium+ 订阅用户将率先体验 Grok 3，其他功能则通过 xAI 推出的新计划 SuperGrok 提供。SuperGrok 定价为每月 30 美元或每年 300 美元，付费后可以解锁更多的推理和 DeepSearch 查询，并提供无限制的图像生成功能。</p>
+  <p>最后，在与网友的 QA 环节，马斯克表示，未来——大约一周后——Grok 将推出“语音模式”，为 Grok 提供合成语音。几周后，Grok 3 模型将与 DeepSearch 功能一起进入 xAI 的企业 API。</p>
+  <p>再几个月后，xAI 将开源 Grok 2。“我们的总体方针是，当下一个版本完全发布时，我们将开源最后一个版本 [的 Grok]，”马斯克说。“当 Grok 3 成熟并稳定下来，这可能会在几个月内实现，然后我们将开源 Grok 2。”</p>
+  <h2><strong>05 业界评价不一</strong></h2>
+  <p>整体而言，Grok 3 在各项基准上的测试结果都拿下了不错的成绩，但实测结果如何？</p>
+  <p>来自知名学者、纽约大学教授 Gary Marcus 有些质疑道，「马斯克和他公司里的 3 位员工现场演示了 Grok 3，对于最近看过这些系统演示的任何人来说，这次演示看起来就像是很多其他演示的公式化模仿：一些比之前稍微好一点的基准测试结果，更多的训练（显然是 Grok 2 所用计算量的 15 倍），演示了一个 Tetris 变体的自动编程，虽然似乎没有完全成功，还有一个新产品，名为“Deep Search”，听起来和“Deep Research”很相似。为了增加一些分量，他们还在测试时计算的类别中加入了 o1、o3、r1 等等。我没有注意到任何真正创新的东西。」</p>
+  <p>他进一步分享他的看法：</p>
+  <p>Sam Altman 现在可以松口气了。</p>
+  <p>没有颠覆性进展；也没有重大飞跃。幻觉问题依然没有奇迹般解决，等等。</p>
+  <p>话虽如此，OpenAI 的护城河正在不断缩小，因此价格战将继续，除了英伟达（Nvidia）外，其他公司很难获得利润。</p>
+  <p>纯粹的预训练扩展显然未能带来 AGI。</p>
+  <p>不过，一些在获得 Grok 3 早期使用权的 AI 专家们却并不这么认为。在 Grok 3 发布后，AI 大牛 Andrej Karpathy 也在 X 上从多个维度分享了自己的体验：</p>
+  <h3>“<strong>思维能力：</strong></h3>
+  <p>✅ 首先，Grok 3 显然具备了接近最前沿的思维模型（“Think”按钮），并且在我提出的《卡坦岛》问题上表现出色：</p>
+  <p>“创建一个网页，展示一个六边形网格，像《卡坦岛》游戏中的板块那样。每个六边形都编号为 1..N，其中 N 是六边形的总数量。使其具有通用性，可以通过滑动条更改‘环数’。例如在卡坦岛中，半径为 3 个六边形。请用单一的 HTML 页面。”</p>
+  <p>很少有模型能稳定地解决这个问题。OpenAI 顶级的思维模型（例如 o1-pro，月费 200 美元）也能做到，但 DeepSeek-R1、Gemini 2.0 Flash Thinking 和 Claude 都做不到。</p>
+  <p>❌ 它没有解答我提出的“表情符号谜题”问题，其中包含通过 Unicode 变体选择器隐藏的消息，即使我提供了强烈的提示，并附带了 Rust 代码。DeepSeek-R1 曾部分解码过这个消息。</p>
+  <p>❓ 它解决了我给它的一些井字棋问题，思路清晰（许多最前沿模型通常会失败）。于是我提高了难度，要求它生成 3 个“棘手”的井字棋局面，它失败了（生成了无意义的棋盘/文本），o1-pro 也失败了。</p>
+  <p>✅ 我上传了 GPT-2 的论文，提出了一些简单的查询，结果都很不错。然后，我要求它估算训练 GPT-2 所需的训练 FLOP 数量，没有搜索功能。这是一个难题，因为 tokens 数量并未明确列出，所以必须部分估算并进行计算，涉及查找、知识和数学等多个领域。一个例子是：40GB 文本 ≈ 40B 字符 ≈ 40B 字节（假设是 ASCII）≈ 10B tokens（假设每个 token 约 4 字节），以 10 个周期训练 ≈ 100B token 训练运行，参数为 15 亿，且每个参数/每个 token 需要 2+4=6 FLOP，那么总 FLOP 为：100e9 × 1.5e9 × 6 ≈ 1e21 FLOPs。Grok 3 和 4o 都没能解决这个任务，但开启思考模式的 Grok 3 能很好地解答，而 o1-pro（GPT 思维模型）则失败。</p>
+  <p>我喜欢的是<strong>，这个模型在被要求时会尝试解决黎曼假设，类似于 DeepSeek-R1，但不像许多其他模型（如 o1-pro、Claude、Gemini 2.0 Flash Thinking）那样立刻放弃，只是说这是一个伟大的未解之谜。</strong>我最终不得不停止它的尝试，因为我有点心疼它，但它展现了勇气，谁知道，也许有一天……</p>
+  <p>总的来说，我的印象是，<strong>Grok 3 的能力大约在 o1-pro 的水平，领先于 DeepSeek-R1，当然，我们还需要实际的、真实的评估来进一步确认。</strong></p>
+  <h3><strong>DeepSearch</strong></h3>
+  <p>这个功能非常有趣，似乎结合了 OpenAI 和 Perplexity 所称的“深度研究”与思维能力。不同之处在于，它被命名为“Deep Search”（唉）。它能为你提供高质量的答案，适用于你可能在互联网文章中找到答案的各种研究性/查询性问题。例如，我尝试了几个问题，以下是我从最近的 Perplexity 搜索历史中窃取的内容以及其回答结果：</p>
+  <p>✅ “即将发布的 Apple 发布会有什么消息？”</p>
+  <p>✅ “为什么 Palantir 的股票最近上涨？”</p>
+  <p>✅ “《白莲花 3》在哪里拍摄？是不是和第一、第二季是同一个团队？”</p>
+  <p>✅ “Bryan Johnson 用的是什么牙膏？”</p>
+  <p>❌ “《单身即地狱》第四季的演员们现在怎么样了？”</p>
+  <p>❌ “Simon Willison 提到他用的语音转文字程序是什么？”</p>
+  <p>❌ 我在这里确实发现了一些不完善的地方。例如，模型似乎默认不喜欢引用 X 作为来源，尽管你可以明确要求它这么做。有几次我发现它虚构了不存在的 URL。有几次它说了一些我认为不准确的事实，并且没有提供出处（可能是因为没有相关引用）。例如，它告诉我“Kim Jeong-su 仍然在和 Kim Min-seol 约会”，这显然是错误的吧？当我要求它生成关于主要 LLM 实验室及其总资金和员工数量的报告时，它列出了 12 个主要实验室，但没有提到它自己（xAI）。</p>
+  <p><strong>我对 DeepSearch 的印象是，它大约在 Perplexity DeepResearch 提供的水平（这已经很棒了！），但还没有达到 OpenAI 最近发布的“深度研究”水平，后者依然显得更加彻底和可靠（虽然也远非完美，例如当我尝试使用它时，它也错误地排除了 xAI 作为“主要 LLM 实验室”）。</strong></p>
+  <h3><strong>随机的 LLM 挑战</strong></h3>
+  <p>我尝试了一些有趣的 / 随机的 LLM 挑战查询。这些查询对于人类来说很简单，但对 LLMs 来说却很有挑战性，我很好奇 Grok 3 能在这些方面取得多大进展。</p>
+  <p>✅ Grok 3 知道“草莓”中有 3 个“r”，但它还告诉我，“LOLLAPALOOZA”中只有 3 个“L”。启用思考模式后解决了这个问题。</p>
+  <p>✅ Grok 3 告诉我 9.11 &gt; 9.9（这是其他 LLMs 常见的错误），但启用思考模式后解决了。</p>
+  <p>✅ 一些简单的谜题即使没有启用思考模式也能解决得不错，比如：“Sally（一个女孩）有 3 个兄弟。每个兄弟有 2 个姐妹。Sally 有多少个姐妹？” GPT4o 说 2（不正确）。</p>
+  <p>❌ 可惜模型的幽默感似乎并没有明显提高。这是 LLMs 的常见问题，尤其是在幽默能力和模式崩溃方面。比如，90% 的 1,008 次请求让 ChatGPT 讲笑话的输出都是重复的 25 个笑话。即使在远离简单双关语的细节提示下（例如，给我一个单口相声），它生成的幽默似乎也不算是最前沿的幽默。生成的笑话是：“为什么鸡加入了乐队？因为它有鼓槌，想成为一名咯咯明星!”。在快速测试中，思考模式没有起到太大帮助，可能还让情况变得稍微糟糕了一点。</p>
+  <p>❌ 模型似乎仍然对“复杂伦理问题”过于敏感，例如它生成了一篇 1 页的文章，基本上拒绝回答是否有伦理理由在救 100 万人时错误性别称呼某人。</p>
+  <p>❌ Simon Willison 的“生成一个骑自行车的鹈鹕的 SVG”。这考验了 LLM 在二维网格上布置多个元素的能力，这是非常困难的，因为 LLM 无法像人类一样“看”，它是在黑暗中用文本进行布置。尽管这些鹈鹕还不错，但仍有点问题（请参见图像和对比）。Claude 的表现最好，但我怀疑他们可能在训练时专门针对 SVG 能力进行了优化。</p>
+  <h3><strong>总结</strong></h3>
+  <p>根据今天早上大约 2 小时的快速评估，<strong>Grok 3 + 思维模式的表现大致处于 OpenAI 最强模型（o1-pro，月费 200 美元）的前沿水平，略胜于 DeepSeek-R1 和 Gemini 2.0 Flash Thinking。</strong>这在考虑到团队从一年前才开始着手的情况下，表现非常出色，这个时间表在到达前沿领域方面是前所未有的。请记住这些模型是随机的，每次可能会给出不同的答案，而且现在还处于非常早期的阶段，因此我们需要在接下来几天/几周内进行更多的评估。不过，初步的 LM 竞赛结果看起来非常鼓舞人心。现在，对 xAI 团队表示祝贺，他们显然拥有巨大的动力和势头，我很高兴将 Grok 3 添加到我的“LLM 委员会”中，并期待它今后的表现。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_99ba0e2301c2414ca540d9e17d33bd14@5888275_oswg274753oswg1080oswg512_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>那么，你觉得 Grok 3 的能力如何？</p>
+  <p>参考：</p>
+  <p>https://garymarcus.substack.com/p/grok-3-hot-take?utm_campaign=post&amp;utm_medium=web</p>
+  <p>https://x.com/karpathy/status/1891720635363254772</p>
+  <p>https://x.com/i/broadcasts/1gqGvjeBljOGB</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9GDwQLU2XtkMeOC6TXWl9Q" rel="noopener noreferrer nofollow" target="_blank">“CSDN”</a>，整理：屠敏，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172008034304385</id>
+            <title>这8家银行的美元定存利率还在4%以上</title>
+            <link>https://www.36kr.com/p/3172008034304385</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172008034304385</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:17:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 美元定期存款利率, 银行调整, 市场预期, 经济趋势  
+<br><br>  
+总结: 近期多家银行下调了美元定期存款利率，但仍有部分银行的利率保持在4%以上。普益标准研究员赵伟指出，预计2025年美元定期存款利率将延续缓慢下行趋势，主要受美联储降息周期和国内利率市场化改革的影响。部分银行因市场需求变化和外汇管理难度增加，可能会主动下调利率以优化资金配置。整体来看，银行将更加注重理性资产负债管理，以实现稳健经营和可持续发展。 </div>
+                        <hr>
+                    
+                    <p>近日，江苏银行、南京银行、北京银行等部分银行陆续下调了美元定期存款利率，但记者走访了解发现，虽然部分城商行已经下调了美元定期存款利率，但仍有多家银行的美元定期存款利率在4%以上。其中，中资银行包括广东华兴银行、重庆银行、宁波通商银行、华商银行，外资银行包括南洋商业银行、星展银行、渣打银行和东亚银行。</p>
+  <p>对此，普益标准研究员赵伟向记者表示，2025年美元定期存款利率整体可能会延续缓慢下行趋势。一方面，市场普遍预期美联储的降息周期尚未结束，尽管降息节奏可能有所放缓，但整体趋势仍将是利率水平的逐步下行；另一方面，在国内利率市场化改革稳步推进的背景下，银行的负债端成本管理能力不断提升，调整存款利率的灵活性也在显著提高。</p>
+  <h2><strong>01 美元定存利率开始分化</strong></h2>
+  <p>记者在走访一些银行网点时发现，虽然部分城商行已经对美元定期存款利率进行了调整，但仍有部分中小银行的利率在4%以上。例如，广东华兴银行1个月和3个月的美元定期存款年利率为4.25%，6个月和1年的年利率为4.3%，起存金额为1000美元；重庆银行美元定期存款的起存金额是5000美元，期限为3个月、6个月和1年产品的年利率分别为4.3%、4.35%和4.25%。一位重庆银行客户经理告诉记者，该产品利率何时会调整尚不确定，通常是一个月调整一次。</p>
+  <p>工商银行旗下的华商银行在售的美元定期存款利率仍较高，且起存门槛低。该行客户经理表示，1个月、3个月和6个月的年利率分别是4.0%、4.1%和4.15%，该行对起存金额的要求是50美元。</p>
+  <p>记者还注意到，宁波通商银行发行了一款面向普通和私行客户的个人美元定期存款产品，其中面向普通客户的起存金额要求是1000美元，6个月和1年期的年利率分别为4.2%和4.1%。</p>
+  <p>宁波通商银行的理财经理对记者表示，该行面向私行客户发行的产品对客户资产有一定要求，即一个月内每一天的资产不能低于300万元；私行客户的起存金额是1万美元，利率会高一些，6个月和1年期的年利率分别为4.3%和4.2%。该行的美元定期存款每一期产品都有一个定向的发行额度，额度售罄则要等到下一期产品的发行。</p>
+  <p>除了中资银行外，部分外资银行包括南洋商业银行、东亚银行、渣打银行、星展银行的美元定期存款利率也在4%以上。南洋商业银行的理财经理对记者表示，该行1万美元的新资金，3个月的美元定存年利率为4.4%，此外还有一个6个月的预约美元定存产品，也是1万美元起存，年利率为4.2%。相比之下，东亚银行起存金额稍高，需要2万美元。2月11日，东亚银行公布了新一期美元定存利率，3个月、6个月和12个月存期的年利率分别为4.25%、4.3%和4.4%。</p>
+  <p>如果想在渣打银行购买利率4%以上的美元定存产品，客户需满足两方面的条件，一是在该行的存款和投资总额要达到50万元人民币（或等值外币）及以上，二是起存金额要达到4万美元且为新资金。这样可享以下美元定存新资金的优惠利率：存期1个月和3个月的年利率达4.4%、6个月年利率达4.3%、1年年利率达4.2%。星展银行的要求则比渣打银行还要更高一些，对客户的起存金额要求为5万美元的新资金且资产要求为100万元人民币，达到条件的则可享3个月、6个月和1年期分别为4.1%、4%、4%的年利率。</p>
+  <p>据记者了解，相比外资银行，除了宁波通商银行面向私行客户发行的美元定存产品有一定的资产要求外，其余中资银行对客户资产均没有要求，亦没有要求是新资金或旧资金。&nbsp;</p>
+  <h2><strong>02 美元定存利率或缓慢下行</strong></h2>
+  <p>春节假期之后，陆续有城商行开始下调美元定期存款利率。一位江苏银行的客户经理告诉记者，1月22日至2月7日，江苏银行的美元定存有两个起存档位，分别是2000美元和1万美元，其中1万美元的档位，无论是1个月、3个月、6个月还是1年期限的产品，年利率均在4%以上。而后他们非常突然地收到了产品利率下调的通知，2月9日当该产品再次上线时，已经变成了只有5000美元起存一个档位，3个月、6个月和1年的产品年利率则分别下调为2.5%、2.7%和3%。</p>
+  <p>利率跟随一起下调的还有南京银行，该行鑫汇添3个月个人美元存款利率从4.3%下调为2.1%；1年期利率从4.0%下调为2.5%，起存金额为3000美元。</p>
+  <p>记者发现，北京银行和东莞银行的美元存款利率也已下调至4%以下。北京银行一名客户经理告诉记者，该行最新发行在售的美元定存产品中，1年期、6个月和3个月的年利率分别为3.0%、2.7%和2.5%，起存金额5000美元。该名客户经理表示，近期美元存款产品的利率进行了下调，上一期美元存款6个月的利率仍有3.0%以上。东莞银行的客户经理也向记者表示，该行美元定存利率也在不断下调，新一期3个月、6个月和1年的产品年利率为3.8%、3.7%和3.6%。</p>
+  <p>普益标准研究员赵伟向记者表示，银行下调美元存款利率主要有两方面的原因：一方面，美联储自2024年9月开启降息周期，导致美元利率整体回落，为降低自身负债成本、维持利润空间，银行相应下调美元存款利率；另一方面，近期人民币汇率保持稳定，且在DeepSeek等人工智能工具的影响带动下，人民币资产的吸引力上升，市场增配人民币资产的意愿增强，相比之下，美元资产的吸引力有所下降，银行则会根据市场需求调整美元存款利率。</p>
+  <p>那么，未来会不会有更多的银行下调美元定期存款利率呢？对此，赵伟表示，银行下调美元定期存款利率的趋势可能会进一步延续。一方面，随着美联储持续降息，银行面临的美元资金成本压力逐渐减轻，这将促使银行有更强的动力下调美元存款利率，以优化资金配置和提升经营效益；另一方面，部分银行此前通过高利率揽储积累了大量美元存款，但随着外汇管理难度的增加，以及美元资产收益的不确定性上升，这些银行也将主动下调美元定期存款利率，以降低资金成本、优化资产负债结构，同时更好地应对复杂的外汇市场环境。</p>
+  <p>赵伟同时表示，2025年，国内银行的美元定期存款利率整体或将延续缓慢下行趋势。一方面，市场普遍预期美联储的降息周期尚未结束，尽管美元降息节奏可能有所放缓，但整体趋势仍将是利率水平的逐步下行；此外，在国内利率市场化改革稳步推进的背景下，银行的负债端成本管理能力不断提升，调整存款利率的灵活性也显著增强，商业银行不再单纯依赖高利率揽储，而是更加注重理性地进行资产负债管理，以实现稳健经营和可持续发展。因此，整体而言，预计美元存款利率将在2025年呈现缓慢下行的态势。</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/xFYnFSAee4PyxdIPLkw36w" rel="noopener noreferrer nofollow" target="_blank">“经济观察报”</a>，作者：老盈盈，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172007501250951</id>
+            <title>马云回来了，阿里正在被重估</title>
+            <link>https://www.36kr.com/p/3172007501250951</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172007501250951</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:12:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 马云, AI, 阿里巴巴, 民营企业  
+<br><br>  
+总结: 马云在民营企业座谈会上首次高调亮相，吸引了众多科技和制造业企业家的关注，显示出对民营经济的支持。马云频繁出现在公众视野中，尤其强调AI的重要性，表明阿里巴巴正在转型为全球AI服务商。阿里在AI领域的技术和生态优势使其获得了苹果的合作，标志着阿里在国际市场上的新机遇。随着AI驱动业务增长的成效显现，市场对阿里的信心逐渐恢复，阿里也在重新定义自身价值，向科技公司转型。 </div>
+                        <hr>
+                    
+                    <p>在2月17日的民营企业座谈会上，马云罕见地出现在政府会议和公众视野中。</p>
+  <p>虽然马云近半年来也曾多次出现在公众面前，但参加如此高规格的会议还属首次。这场会议聚集了中国科技和制造业的明星民营企业家，包括华为的任正非，小米的雷军，比亚迪的王传福，宁德时代的曾毓群，宇树科技的王兴兴，DeepSeek的梁文峰等。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5fc82a51f3f146d99cfcec337253602d@5888275_oswg384589oswg637oswg326_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从官方镜头中，可以看到任正非、王传福、雷军等人都有发言特写，马云坐在第一排的靠边位置，没有发言镜头，但足以让很多人感到振奋。&nbsp;</p>
+  <p>就在马云参会几天前，他还现身杭州的阿里园区，随后又前往长沙的盒马。短短一周，这位阿里灵魂人物频繁亮相。更让人瞩目的是阿里的资本表现，一个多月阿里港股股价从80港元飙升至125港元，市值暴涨8000亿港元，达到了2.3万亿港元。&nbsp;</p>
+  <p>与其说市场正在重新衡量阿里，不如说阿里正在讲述新的故事，故事的底色是AI。&nbsp;</p>
+  <h2><strong>每次马云发声，都提到一个词：AI</strong></h2>
+  <p>2月11日，马云现身阿里杭州园区。从流出的照片来看，马云状态不错，身穿带有阿里巴巴logo的深色夹克，笑容满面地跟员工打招呼。有员工表示，“（他）完全看不出来是60岁的人。”&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_65683ff1ac444f7a9741a6ea12ab6d7c@5888275_oswg48166oswg720oswg945_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>随后，马云还“扫楼”去了闲鱼和夸克两大工区。闲鱼和夸克都是阿里智能信息事业群旗下业务，属于阿里首批战略级创新业务“四小龙”。今年1月，夸克升级了品牌Slogan—“2亿人的AI全能助手”，显露出加速布局AI To C的态势。&nbsp;</p>
+  <p>没过两天，马云又被拍到现身盒马长沙万象汇门店。去年12月到今年1月，阿里先后出售银泰百货和高鑫零售，似乎在沿着“回归淘宝、回归互联网”的路线缩减实体零售业务，但这也让盒马的命运陡然增加了不确定性。此次马云现身盒马门店，或许是为了稳定盒马的“军心”和外界的信心。&nbsp;</p>
+  <p>当然，此次马云参加民营企业座谈会，也给更多民营企业家们带来信心。因为马云一度被视为中国互联网民营企业家的领军人物，自从2020年的“外滩峰会事件”后便逐渐消失在公众视野。时隔四年后，马云频频亮相并且参加高规格会议，这在释放对民营经济利好的同时，也展示出国家对民营企业和科技制造行业的支持。&nbsp;</p>
+  <p>回顾去年到现在，几乎马云每次出现或者发声，阿里都有大事发生。&nbsp;</p>
+  <p>2024年8月，阿里结束了三年的整改期，公司完成了双重主要上市并进入港股通，标志着其在合规层面已阶段性“过关”。很快在9月，马云在阿里25周年的内部信中明确提到“要承认纠正昨天的问题，更要面向未来改革”，并且提到互联网AI技术再次风起云涌，行业竞争激烈，阿里很多业务面临被超越。&nbsp;</p>
+  <p>果然，到了2024年11月，拼多多市值首次超越阿里，外界质疑声潮水般涌来。马云再次在内网中发声“阿里会变，阿里会改”，AI电商时代刚刚开始，阿里还有机会。2024年12月，马云参加蚂蚁集团成立20周年活动。活动上马云着重提到了AI发展，表示未来20年AI时代能带来的改变会超出所有人的想象。&nbsp;</p>
+  <p>今年1月，新一届马云公益基金会乡村教师计划的入选老师名单揭晓，马云在线上向乡村老师致敬。视频连线过程中，马云分享了自己对乡村教师、AI时代发展的看法，表示未来的世界会被AI重塑。&nbsp;</p>
+  <p>可以发现，<strong>每次马云公开发声都会提到一个词：AI。同样，最近马云频频露脸，也伴随着阿里在AI上的大动作。</strong></p>
+  <p>今年2月13日的迪拜世界政府峰会上，阿里董事长蔡崇信宣布苹果选择阿里作为合作商，为中国版的iPhone开发人工智能功能。双方合作，让市场看到阿里AI的价值，这也正是阿里开始讲出的新故事。&nbsp;</p>
+  <h2><strong>握手苹果，透视阿里的新故事</strong></h2>
+  <p>2025年开端，DeepSeek在全球爆火，让外界对中国AI刮目相看。&nbsp;</p>
+  <p>苹果却因为中国AI而感到头疼，2025财年第一季度iPhone在中国销售同比下降11.1%。苹果CEO库克将销售下降的部分原因，归结到iPhone的AI功能未在中国上线。&nbsp;</p>
+  <p>据媒体报道，苹果测试了来自中国开发者的不同AI模型，并且一度选择了百度作为主要合作伙伴。然而，由于百度在开发苹果智能模型方面未达到苹果的标准，双方合作取消。苹果开始考虑其他选项，并评估了腾讯、阿里和字节跳动等中国互联网公司开发的AI模型，最后选择了阿里。&nbsp;</p>
+  <p>蔡崇信也坦言，“苹果一直非常挑剔，他们与中国的多家公司进行了交谈。最终，他们选择与我们做生意。”蔡崇信自2024年公开露面并承认阿里落后，一共出来过3次，每一次都提及到了AI。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8cce0d9cc6be4f5aa4225615e525296a@5888275_oswg29468oswg480oswg320_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>苹果为什么放弃百度，转而选择了阿里？事实上，苹果对于中国市场变化一向是非常敏感的，而且在合作上极为审慎，往往把合作对象的稳定性摆在首位。这次苹果稍微中途换掉合作对象，或许也是出于稳定性上的考虑。&nbsp;</p>
+  <p>首先，<strong>苹果选择的合作对象一定要获得官方认可，获得政治上的稳定性</strong>。马云此前多次频频亮相，已经给外界带来回归的信号，苹果自然比普通人更早感知到。此次马云参加民企座谈会，更被视为阿里走向平稳期、“闯关”成功的信号。&nbsp;</p>
+  <p>谁参加了，谁缺席了，是一个值得玩味的差别。&nbsp;</p>
+  <p>其次，<strong>就是阿里的技术和生态，能给苹果带来稳定性。</strong></p>
+  <p>比如，阿里的通义千问Qwen系列开源模型全球下载量第一，技术上的基本盘较稳；阿里云在每年支撑“双11”活动中，积攒了应对高并发流量的丰富经验，处理高并发“海啸”的能力稳。另外，阿里还拥有10亿消费者的购物、支付等数据，在精准理解中国用户需求的能力上也比较稳。&nbsp;</p>
+  <p>对于阿里而言，被苹果选中，意味着向全球宣告了自己在AI上的优势，而且也为其AI能力输出到海外开辟了新通道。有业内人士表示，“<strong>这是阿里从‘中国电商’转向‘全球AI服务商’的关键跳板。</strong>”&nbsp;</p>
+  <h2><strong>重新认识阿里的价值</strong></h2>
+  <p>过去十几年，外界对阿里的关注大多集中在电商领域，这也的确是阿里的基本盘。但是，现在可能要重新认识阿里了。&nbsp;</p>
+  <p>因为它不仅是家电商公司，更是家科技公司。&nbsp;</p>
+  <p>2015年，阿里的电商营收占比为82.59%，到了2024年占比已下降到46.21%，而阿里云的营收占比增长到了2024年的12.5%，且仍在保持快速增长。&nbsp;</p>
+  <p>对于大众而言，在今年春晚最为直观感受到了阿里的AI和云计算。今年阿里拿下了两个春晚“独家”——淘宝作为“独家电商互动平台”，阿里云则作为“云计算AI独家合作伙伴”。甄子丹的《笔走龙蛇》武术表演中，观众看到了科幻电影般的“子弹时间”——演员动作被360度定格，视角在空中自由切换，这其实是阿里结合AI算法、3D建模、通义大模型实时渲染等多项技术做到的。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_725406e42aaa4f9c8958e2a9eda9a597@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2018年春晚，阿里以“清空购物车”吸引广大用户。在七年后，阿里重新回到春晚，只是这次主角从购物车变成了云计算和AI，这也显露出阿里的内在变化，即技术引领发展。&nbsp;</p>
+  <p>这些年，阿里在技术上持续投入，并且获得了广泛的影响力。2023年4月，阿里发布首个大语言模型通义千问，如今通义千问Qwen大模型已经成为全球最大的开源模型族群之一。最近，李飞飞等AI研究人员基于阿里开源模型为底座，打造出性能比肩OpenAI的O1和DeepSeek R1的s1-32B模型，成本不到50美元。这也间接说明了阿里Qwen模型的强大能力。&nbsp;</p>
+  <p>用技术对外产生影响力的同时，阿里还在用技术对内重构业务。&nbsp;</p>
+  <p>吴泳铭在接任阿里CEO的第三天，就发布全员信确立阿里两大战略重心：<strong>用户为先和AI驱动。</strong>他表示，AI将成为阿里“第二增长曲线”的核心引擎，集团所有业务必须全面拥抱AI技术重构。目前，阿里的各项业务其实已经在跟AI融合，比如淘宝“AI搭配师”、闲鱼的智能定价系统等等。&nbsp;</p>
+  <p>可以说，阿里的技术底色越来越浓厚，各项板块也在发生变化，核心指标在全面改善。摩根大通认为，预计阿里第三财季总收入将同比增长8%，较市场预期高1个百分点，增速相较上季度的5%也有明显提升。&nbsp;</p>
+  <p>除了摩根大通，花旗给予阿里美股及港股“买入”评级，同时维持目标价分别于138美元及137港元；高盛对阿里给予“买入”评级，目标价给到美股117港元、港股114美元。可见，资本对于阿里的未来是相当看好的。&nbsp;</p>
+  <p>过去几年，阿里跌宕起伏，面临着极大的不确定性，股价和市值也大幅缩水。如今，随着AI驱动业务增长的成效越来越明显，以及马云的成功“闯关”和重新回归，阿里的不确定系数在减少，市场也对其增加了更多的信心。&nbsp;</p>
+  <p>1999年的湖畔花园，那时的马云是创业者，阿里是颠覆者，用互联网重构商业。今天的马云已经退出商业江湖，但江湖上仍流传着他的传说。而阿里也渴望着再次颠覆，用AI重构自己以及讲出新故事。&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/MJjwL1_VVdRCJ0PP_d0Wmw" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：竹铭，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172011419943297</id>
+            <title>反击梁文锋，马斯克的“半成品”够格吗？</title>
+            <link>https://www.36kr.com/p/3172011419943297</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172011419943297</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:12:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 马斯克, xAI, Grok 3, 人工智能  
+<br><br>  
+总结: 马斯克旗下的人工智能公司xAI于2023年发布了新一代模型Grok 3，该模型在多项基准测试中超越了竞争对手，包括OpenAI的GPT-4o。发布会中，xAI还推出了智能搜索引擎“DeepSearch”，并计划在未来加入语音模式。尽管Grok 3的能力显著提升，但马斯克表示该版本仍处于测试阶段，未来可能会有更多改进。此次发布会的气氛轻松，但也显示出xAI在与OpenAI和DeepSeek等竞争对手的激烈竞争中仍需努力。 </div>
+                        <hr>
+                    
+                    <p>起猛了，差点分不清马斯克和奥特曼。</p>
+  <p>北京时间2月18日中午，马斯克旗下人工智能公司xAI搞了一场直播，进行新一代模型Grok 3的介绍和现场演示。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4d3355986f7d4e0890cb76dda904ee52@000000_oswg186685oswg830oswg382_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>气氛很轻松，马斯克和xAI团队的三名成员，围坐在一张小桌前，背后是用来展示的大屏幕。不管是这个形式，还是这个画面，都让人联想到OpenAI。只不过xAI走的是暗黑极客风，OpenAI则是温馨家居风。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d61611c448ac46858ec373003a2e6fed@000000_oswg75138oswg377oswg213_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这倒也不奇怪，毕竟马斯克从创办xAI伊始，就死死盯住OpenAI的背影狂追。</p>
+  <p>而看起来小小的发布会，在一个小时的时间里实则杀机满满：</p>
+  <p><strong>*Grok 3在多项基准测试中，击败了竞争对手，包括DeepSeek的V3和OpenAI的GPT-4o；</strong></p>
+  <p><strong>*推出名为“DeepSearch”的智能搜索引擎，由推理模型Grok 3 Reasoning和Grok 3 mini Reasoning驱动；</strong></p>
+  <p><strong>*Grok 3将显示详细的思维链，和DeepSeek R1和OpenAI的o3-mini相似；</strong></p>
+  <p><strong>*将“尽快”加入语音模式。</strong></p>
+  <p>xAI的发展迅猛，2023年7月成立，11月就发布了首个大模型Grok。次年5月，xAI完成60亿美元B轮融资，12月又宣布完成60亿美元C轮融资，估值超过400亿美元。</p>
+  <p>从去年9月，xAI建成包含10万张英伟达H100的集群Colossus开始，外界就在期待xAI的下一代大模型的发布。从去年年底，“跳票”到今年年初，外界又多了新的变数，一边是OpenAI开启算力基础建设的“星际之门”，一边是DeepSeek掀起低成本推理模型热潮，Grok 3的发布顶着巨大的压力。</p>
+  <p><strong>在Grok 3发布之前，马斯克做足了预热，称其“聪明得吓人”“（是）最聪明的AI”，但从发布会来看，xAI尚未结束追赶态。马斯克的AI路，还未到一马平川之境。</strong></p>
+  <p>就在马斯克鼓足热情发布Grok 3之际，奥特曼也暗戳戳来抢热度，在X（推特前身）上发起投票，询问网友对于OpenAI下一个开源项目的看法，是做一个相当小但仍需要在GPU上运行的o3-mini级模型更有用，还是做一个能做得最好的手机大小的端侧模型更有用。</p>
+  <p>超3万名参与投票的网友中，超过一半的票投向了端侧模型。毕竟，赶在奥特曼前面，大热的DeepSeek，已经抢先掀起了一波在智能手机和新能源汽车等终端，部署端侧模型的浪潮。</p>
+  <p>Grok 3发布会之前，外界也很关心特斯拉汽车是否会接入Grok。1月初，马斯克曾经给出肯定的回答，称Grok会登陆特斯拉。但可惜的是，<strong>本次发布会中，马斯克并未回应特斯拉接入Grok的相关问题。</strong></p>
+  <h2><strong>01</strong></h2>
+  <p>发布会一开始，xAI就着重谈了谈Grok 3背后的Colossus超算。</p>
+  <p>该超算包含10万张英伟达H100芯片，建立仅用三个月，是马斯克的一大“伟业”。连黄仁勋都表示，这堪称“奇迹”。</p>
+  <p>在发布会上，xAI表示训练进行到第92天时，<strong>集群的规模拓展到了20万张芯片。</strong>这是该消息首次被披露。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_21299427be5c4911891a58491581b690@000000_oswg482784oswg720oswg408_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>得益于新计算集群，马斯克在直播演讲表示：“Grok 3 的能力比 Grok 2 高出10倍。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5d5f292386ef4969920ba509420d737b@000000_oswg72357oswg757oswg415_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>据xAI介绍，Grok 3 在包括 AIME（评估模型在数学问题样本上的表现）和 GPQA（使用博士级物理、生物和化学问题评估模型）在内的基准测试中胜过 GPT-4o。此外，Grok 3的早期版本在Chatbot Arena中也获得了有竞争力的分数，是有史以来第一个突破1400分的模型。这是一项众包测试，让不同的 AI 模型相互竞争，并让用户投票选出他们喜欢的答案。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_503641aea06d4fb5b8e1f7116f2a88ac@000000_oswg211995oswg625oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>准确地说，Grok 3是一系列模型。</p>
+  <p>Grok 3的较小版本Grok 3 mini可以更快地回答问题，但会牺牲一些准确性。</p>
+  <p><strong>另外两个版本 Grok 3 Reasoning和Grok 3 mini Reasoning，</strong>旨在仔细“思考”问题然后再提供解决方案，类似于OpenAI的o3-mini和DeepSeek 的 R1 等“推理”模型。</p>
+  <p>推理模型在给出结果之前会彻底检查自己，这有助于它们避免通常会绊倒模型的一些陷阱。</p>
+  <p>xAI表示，Grok 3 Reasoning在几个流行的基准测试中超越了OpenAI的o3-mini 的最佳版本——o3-mini-high，其中包括一个名为 AIME 2025的较新的数学基准测试。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3016f7b14d304c00ba6779f9ad7913dc@000000_oswg62741oswg751oswg411_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>推理模型可通过 Grok 应用程序访问。用户可以要求 Grok 3“思考（Think）”，或者利用“大脑（Big Brain）”模式进行推理，该模式需要额外的计算。xAI 认为推理模型最适合数学、科学和编程相关的问题。</p>
+  <p><strong>另一个明显冲着OpenAI和DeepSeek来的是“DeepSearch”，</strong>直译是“深度搜索”。这是一个AI代理，由xAI的推理模型驱动，扫描互联网和X平台来分析信息。演示显示，DeepSearch包含研究、头脑风暴和数据分析等选项，会展示“思考”过程和计划响应的方式。</p>
+  <p>就在两周前，OpenAI推出AI代理“DeepResearch”，直译“深度研究”。</p>
+  <p>与 DeepSeek R1和现在的OpenAI o3-mini 一样，Grok 3将显示详细的思维链，让用户可以看到聊天机器人是如何思考问题的。马斯克证实，xAI 会稍微模糊思维，这样其他公司就不能直接复制xAI的聊天机器人。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_47ff887d8e904668bcfe6a84d599fbaf@000000_oswg233269oswg830oswg344_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>顺带一提，马斯克表示，在 Grok 应用中，推理模型的一些“想法”被模糊化，以防止“蒸馏”，即AI模型开发人员从另一个模型中提取知识的方法。最近，DeepSeek 被指控蒸馏 OpenAI 的模型来创建自己的模型。</p>
+  <p>当然啦，新产品还是得<strong>“会员抢先用”。</strong></p>
+  <p>X的Premium+级别的订户将首先获得 Grok 3，其他功能则由xAI的新计划SuperGrok提供。SuperGrok 的价格为每月30美元或每年300美元，可解锁额外的推理和 DeepSearch 查询，并提供无限的图像生成。</p>
+  <p>马斯克表示，未来（最快一周后），Grok 将获得“语音模式”，这将为 Grok 提供合成语音。几周后，Grok 3 模型将与 DeepSearch 功能一起出现在xAI 的企业API中。几个月后，马斯克表示，xAI 将开源 Grok 2。</p>
+  <p>“我们的一般做法是，当下一个版本完全发布时，我们将开源最后一个版本（Grok）。”马斯克说。“当 Grok 3 成熟稳定时，可能在几个月内，我们就会开源 Grok 2。”</p>
+  <h2><strong>02</strong></h2>
+  <p>从演示及xAI给出的基准测试结果来看，Grok 3确实实力不俗，但这场发布会还是略有“仓促”之感。</p>
+  <p>一向乐于画饼、擅长于把80分宣传成101分的马斯克，也在这次发布会时给用户“打预防针”：<strong>“这只是一个测试版本，刚开始可能会有些不完美。如果你想要更完善的版本，可能需要等上一周。”</strong></p>
+  <p>此外，语音模式没有发布也值得注意。发布前的几个小时，希冯·齐利斯（Shivon Zilis）——Neuralink高管，同时也是和马斯克育有一对双胞胎的孩子妈，在X上大赞和Grok 3进行的对话，称“是我一生中最出乎意料、最值得的时光之一”，公开了Grok 3有语音功能。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0c9b2ca8062d428396c68f0b4a585adb@000000_oswg131375oswg576oswg399_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但随后马斯克回复称语音模式还有一些问题，还需要一周左右时间才能发布。在发布会上，结束时压轴的也是一小段Grok 3语音对话的画面，看起来语音模式是被临时从这次发布会中取消的。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f1d9ba9a8a224982886f0d950081f70e@000000_oswg112580oswg629oswg451_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>大家都明白这次发布对马斯克和xAI来说都很重要，Grok 3必须支棱。</strong></p>
+  <p>Grok 3原本定于去年年底推出，但被推迟。根据马斯克的说法，Grok 3在今年一月初完成了训练。</p>
+  <p>按理说这样的推迟并不算久，但刚跨进新年，今年一月接连发生两件大事：一是OpenAI宣布携手软银和甲骨文，共建“星际之门”，预计投入5000亿美元夯实AI基建。二是中国杀出个DeepSeek，其推理模型R1因低成本高性能表现惊艳大洋彼岸的硅谷。</p>
+  <p>可能也正因如此，马斯克这次硬是整出了苹果发布会的排场，在Grok 3发布之前就预热不断。马斯克在各个场合以及X上都大赞新一代模型，以视频接入迪拜世界政府峰会时称“Grok 3 的表现优于我们所知的任何已发布产品”，周末在X上宣称Grok 3是“地球上最聪明的AI”。</p>
+  <p>这也可以解释为什么这次语音模式没有完全准备好、Grok 3也尚处于测试阶段，xAI就急着隆重召开发布会——同行的獠牙，八成已经闪得马斯克睡不着觉了。</p>
+  <h2><strong>03</strong></h2>
+  <p><strong>马斯克不停地强调“再等一周”，但一周之内世界会发生什么真不好讲。</strong></p>
+  <p>在DeepSeek于1月底开始打出知名度之后，OpenAI的应对措施就火速跟上，先是给免费用户开放o3-mini，又发布DeepResearch深度研究的功能。此外，OpenAI的CEO山姆·奥特曼（Sam Altman）前不久还发布长推文，公布GPT-5的计划。</p>
+  <p>在更大的竞争场中，中国的科技大厂如腾讯、百度等，以及出海的中国初创AI公司如MiniMax，都纷纷接入DeepSeek的模型，眼瞅着有打造“技术共同体”之态，形成竞争合力。</p>
+  <p><strong>好在马斯克也有打造“马斯克共同体”的潜力。其名下企业众多，借由xAI正在加速彼此打通的进程。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4fdd8bd5dbcc4ad6a4c260835a0fa8cb@000000_oswg819811oswg1024oswg601_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：AI制作&nbsp;</p>
+  <p>一开始，似乎是马斯克名下其他几个企业当“扶弟魔”，喂养xAI。陆续传出过特斯拉显卡、X平台数据被xAI使用的消息。如今xAI也有了回馈的趋势。</p>
+  <p>Grok从一开始就是X（前推特）订阅用户的“特权”，在去年底，Grok开始提供给X的免费用户，甚至是未注册用户，只是模型选择与提问数量的限制有高低之分。今年1月，Grok的独立应用也在苹果商店上线，正式和ChatGPT展开角逐。</p>
+  <p>本次直播期间，打开X的APP，相关入口在顶部高亮显示。托X的福，这场直播在进行半个小时后就已经有200万次观看，一小时后这个数字达到300万。从前期宣传、发布会直播到后期嵌入，马斯克算是把X玩明白了。</p>
+  <blockquote>
+   <p>要知道，据X官方消息，2024年3月时平台日活2.5亿，月活5.5亿。相比而言，据《纽约时报》，ChatGPT去年6月的月活为3.5亿。X对于xAI来说，是一个巨大的流量池。</p>
+  </blockquote>
+  <p>此次发布会之前，外界也很关心特斯拉汽车是否会接入Grok。还是在1月初，马斯克曾经给出肯定的回答，称Grok会登陆特斯拉，你可以和特斯拉对话，提出任何要求。</p>
+  <p>但可惜的是，本次发布会中没有涉及特斯拉接入Grok的问题，倒是有一名xAI的工作人员问马斯克Grok何时会被接入SpaceX的火箭，马斯克回答“两年”。</p>
+  <p>不管怎样，xAI接下来一周，都得祈祷AI界不要再有“炸场”的同行。再稍久一些的未来，则得期待Grok 3的表现足以打动华尔街，毕竟xAI正在考虑以750亿美元估值融资100亿美元，而与此同时，OpenAI据传正在进行一轮400亿美元的融资，目标估值冲着3400亿美元而去。</p>
+  <p>Grok 3是否是“地球上最聪明的AI”，又是否能长久成为“地球上最聪明的AI”，好戏还在后头。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247544858&amp;idx=1&amp;sn=a02fb5701c763655b8d716716393e06a&amp;chksm=ebdbdb0503064c3810ddf42b4a932d647b898722d5428ba9cc49fe8358a082b59cd914ca5bb0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：毕安娣，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171998010507656</id>
+            <title>杀入外卖业务后，京东又盯上了网约车市场</title>
+            <link>https://www.36kr.com/p/3171998010507656</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171998010507656</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:51:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 京东, 网约车, 本地生活, 市场规模  
+<br><br>  
+总结: 京东在其APP上推出了网约车打车功能，标志着其在本地生活领域的进一步拓展。用户可以通过“易企出行”小程序选择多种打车服务，涵盖多个网约车平台。京东相关人士表示该服务尚无推广计划。与此同时，抖音和美团等平台也在打车服务领域积极布局。根据数据，2023年中国网约车市场规模达到3606亿元，预计2024年将进一步增长。京东的网约车业务有助于增强用户黏性和市场竞争力。 </div>
+                        <hr>
+                    
+                    <p>近日，京东悄然在其APP上上线网约车打车功能，用户在搜索栏搜索“打车”一词时，页面便会出现“国内打车服务”的选项。这是继京东攻入外卖业务后，其在本地生活领域的又一次业务拓展。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_16300744445c43518e6501ca5b07075e@5888275_oswg87115oswg700oswg325_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>界面新闻注意到，使用该服务需进入“易企出行”小程序，可选择国内实时、预约及接送机叫车服务，车型覆盖普通、舒适、商务、豪华，接入了包括首汽、AA、星徽、曹操、飞嘀、阳光等网约车平台。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_7cdc46d559904cd1919395f4838334e8@5888275_oswg380142oswg700oswg1066_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>对于上述消息，京东相关人士表示，京东App 2022年接入了一家第三方的打车服务，暂无推广计划。</p>
+  <p>除京东外，近期抖音也上线了打车服务，但入口较为隐蔽，位于个人页面“我的钱包”中下设列表，与手机充值、生活缴费、车主服务等平级。</p>
+  <p>目前市面上聚合打车服务平台众多。抖音所合作的高德打车早在2017年便推出了打车服务，聚合了滴滴、T3、曹操、享道、首汽等众多头部网约车品牌。美团打车则是美团多元化战略的延伸，依托美团的生态系统，为用户提供一站式出行服务。微信的 “出行服务” 也整合了多个出行平台。此外，华为的 “Petal出行” 在聚合打车领域积极布局，为用户提供聚合打车以及其他出行相关服务。</p>
+  <p>据中商产业研究院数据，2023年中国网约车市场规模约为3606亿元，同比增长10.51%，其分析师预测2024年网约车市场规模将进一步增长至3864亿元。</p>
+  <p>或是看到该市场的增长潜力，以及拓展本地化业务的需求，京东也选择在网约车领域布局。考虑到其已有的用户基数，网约车业务有助于进一步增强用户黏性，完善其生活服务生态，增强在市场中的竞争力。</p>
+  <p>实际上，京东本地生活服务业务的触角已伸向多个领域。旗下平台 “京东到家”，与众多线下商超、便利店、药店等合作，可提供1小时达的即时配送服务；京东秒送正式向外卖赛道迈出第一步。此外，京东App还提供家政、洗衣、家电清洗、代办、电影演出、生活缴费等服务；京东旅行等频道则在布局酒旅出行服务。</p>
+  <p>上述消息曝出后，京东港股暂未有明显变化，截止收盘，报156.6港元，跌幅0.32%，总市值4540亿港元。</p>
+  <p>本文来自“<a href="https://www.jiemian.com/article/12363433.html" rel="noopener noreferrer nofollow" target="_blank">界面新闻</a>”，记者：宋佳楠，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171998828692354</id>
+            <title>用AI备考，逃离考公机构的年轻人立省一万</title>
+            <link>https://www.36kr.com/p/3171998828692354</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171998828692354</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:50:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <人工智能, 公考, DeepSeek, 备考>
+<br>
+<br>
+总结: 文章探讨了人工智能（AI）在公考备考中的应用，特别是DeepSeek等AI工具的崛起。考生们利用AI制定备考计划、解决心理问题和生成面试文稿，AI逐渐成为他们的重要助手。公考机构也开始拥抱AI技术，以提高教学效率和降低成本。然而，尽管AI在某些方面表现出色，但仍存在内容更新不及时和生成质量不稳定等问题。整体来看，AI的出现为公考行业带来了新的挑战与机遇。 </div>
+                        <hr>
+                    
+                    <h2><strong>01 当考公人拥抱AI</strong></h2>
+  <p>如果说此前AI大模型因种种问题尚未得到广泛的应用，2025年春节期间突然成为“顶流”的DeepSeek，则让再迟钝的人也无法忽视人工智能当下的发展程度。</p>
+  <p>用AI来答疑解惑、进行文学创作，甚至搞玄学，成为新年的第一道流行——算命成为DeepSeek的一大用途，还登上了微博热搜。</p>
+  <p>不只是休闲娱乐，不少人都在借助AI大模型应用办正事儿，并在获得帮助后，将DeepSeek、豆包、ChatGPT等产品称作“DS老师”“豆老师”“GPT老师”。</p>
+  <p>其中就包括考公人。</p>
+  <p><strong>从制定备考计划、疏导心理问题，到寻求具体问题的答案和解析、形成面试文稿，AI大模型俨然成为他们的备考搭子。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_204e1c407eb34f29957283ace68699ae@000000_oswg75988oswg1080oswg1137_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>一些年轻人是因为本就对人工智能领域感兴趣。</p>
+  <p>在DeepSeek尚未成为大众关注焦点的2023年末，正在读大三的大金在国内第一次大模型热潮中接触到了豆包、文心一言等产品，并用它们完成了几门课程作业。决定考公后，由于报培训班的费用高昂，他选择了自学，借助大模型做题、对答案。尽管一些说法还不够准确，但大金总体满意，毕竟降本的目标达到了。</p>
+  <p>对于更多人来说，用AI帮助备考，是受到外界影响。</p>
+  <p>去年开始在职考公的小玥，在DeepSeek爆火后，专门抽出一天时间研究如何使用，最终确定了它的两个使用场景：整理热点素材和生成面试逐字稿。这是她之前一晚上的工作量，现在大模型只需要20分钟就能完成。</p>
+  <p><strong>公考或许会成为被AI大模型冲击的第一批行业。</strong>2月初，以传授面试经验闻名的“老夏”发布文章《丧钟为公考行业而鸣》，鼓励考生积极拥抱AI，公众号很快阅读过10万，小红书笔记的点赞量也达到了1.2万，评论中主流的声音是表示赞同。</p>
+  <p>全职备考了三年的有有便是在看到老夏推文后，开始用AI练习面试。在对市面上多个大模型进行对比后，她最终选择了豆包和DeepSeek——前者可以实现语音交互，后者则能够通过深度思考功能展现思路，最重要的是，它们拥有一个共同点，思路清晰、全面，且表述规范、可供参考。</p>
+  <p><strong>但这些工具还称不上完美。</strong></p>
+  <p>有有在使用过程中遇到不少问题：DeepSeek总是“服务繁忙”，数据库似乎没有更新2023年之后的内容，涉及敏感话题时内容无法显示；豆包生成内容的水平不稳定，对指令依赖性很强。</p>
+  <p>在小红书搜索，她发现这些问题十分普遍，至于解决方法，大多数人的答案是：几款大模型对比着用，筛选出精华部分，形成最终的答案。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3495078839d84f958e537370ae9aa99a@000000_oswg86437oswg1080oswg704_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：小红书@夏夜聆风</p>
+  <p><strong>但从多位使用者的反馈来看，没有人因此放弃使用AI，回到之前以人工为主的原始模式。</strong></p>
+  <h2><strong>02 救命稻草</strong></h2>
+  <p>不只是公考的年轻人在抓住AI，公考机构们同样如此。</p>
+  <p>以公考三大巨头：中公教育、华图教育、粉笔科技为例。粉笔科技和中公教育分别在2024年底、2025年2月将旗下推出的大模型接入了DeepSeek。</p>
+  <p>事实上，他们对AI的拥抱更早。2023年起，三家公司都在财报中重点提到加大对AI技术的投入与应用。其中，粉笔科技董事会主席张小龙在当年强调：粉笔对AI的投入不是跟随潮流，公司在ChatGPT问世之前，就一直有一支高水平的人工智能算法的团队。</p>
+  <p><strong>截至2025年，三家公司都已经进行了尝试，且发布了至少两款AI相关产品。</strong></p>
+  <p>其中AI发挥的作用主要集中在讲课、答疑和面试点评方面：</p>
+  <p>2023年，中公推出了由虚拟数字讲师讲课、答疑的AI数智系统班，华图推出了人工与AI相结合的“千面面试AI”面试母题班；</p>
+  <p>2024年，粉笔在APP内上线AI教师大模型“粉笔头”和“精品面试AI点评”功能，华图教育发布了“AI面试点评”产品，中公教育则是成立了“中公AI就业”的子品牌，并推出AI就业大模型，和AI就业直通卡、AI就业学习机两款实体产品。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a51f344178d24f219f80d4dc62840ca1@000000_oswg127166oswg640oswg293_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>后来者们也追赶着潮流：高顿、掌上园丁等有着公考培训业务的公司，也相继推出自己的AI产品，主打一个“在场”。</p>
+  <p><strong>对考公人来说，AI或许不是备考的全部，但对于公考机构来说，AI身上被寄予了借以生存的希望。</strong></p>
+  <p>承压，是公考行业在过去几年的生存关键词。尽管大学生考公热情在疫情后的几年里持续高涨，但公考赛道并非一片艳阳天。</p>
+  <p>某种程度上，它们在还债。</p>
+  <p>这就涉及到一个关键词：协议班，即报考这种班型的考生，如果没有通过考试，机构会进行不同程度的退款。当然，他们也需要为此支付相当于普通班5倍的学费，基本都在万元以上。</p>
+  <p>中公教育在2010年首创这种模式，华图教育和粉笔科技分别在2011年、2018年跟上。类似于链家通过服务在竞争中突围，中公教育也吃到了甜头，多年在市场份额、营收、净利等财务数据上稳居行业第一，且与第二名明显拉开差距。</p>
+  <p>到2017年时，这种协议班在其面授课程中的占比从59.02%提升到73.75%。当年，中公教育的营收和净利同比增长56%、60.55%。</p>
+  <p>然而这也是一把双刃剑。</p>
+  <p>协议班的“不过包赔”模式对现金流需求更高，当疫情影响了公考机构的线下培训业务时，它带来的压力远高于收益。以中公教育为例：退费率由2019年的44.14%提高至2021年的68.46%，经营活动现金流从2019年的流入24.74亿元，转变为2021年的流出40.98亿元。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ccfcd34b514f40b7883fa68673584600@000000_oswg78727oswg1080oswg706_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>或许是想及时止损，中公教育在2021年末下架了所有全退产品。</p>
+  <p>但受到退费周期等因素的影响，这个举动的正面效应并没有反映在财务数据里：中公教育的资产负债率由2021年的81.67%上升至2023年的92.06%。</p>
+  <p>于是，当华图与粉笔在2023年逐渐走出疫情影响时，中公教育还躺在“ICU”里。其2023年营收为30.86亿元，不及2020年的三分之一；三年未走出亏损状态，2021年起年亏损额分别达到23.70亿元、11.01亿元和2.09亿元。</p>
+  <p>到2024年7月时，中公教育市值仅有85.73亿元，相比2020年11月高点的2658.15亿元，一度跌去了95%。</p>
+  <p>自然，它也丢掉了行业老大的位置，在2024年上半年的营收、净利等数据上，都不及粉笔科技和华图教育。</p>
+  <h2><strong>03 与AI抢生源</strong></h2>
+  <p>只是，另外两家日子也没有太好过。</p>
+  <p>2024年上半年，华图教育的资产负债率还有80.55%。成为新任“榜一大哥”的粉笔科技，从2020年起连续三年亏损，其中有两年亏损额超过20亿元，直到2023年才扭亏为盈，但营收与2021年的巅峰水平仍然差了4亿元。</p>
+  <p>2024年上半年，粉笔科技营收同比减少3.1%。此外，粉笔APP月活的增长速度也在放缓：2019年到2023年，粉笔APP的月活用户每年增长数量均在100万以上，但之后的半年只增长了不到13万。</p>
+  <p><strong>一片泥潭之中，AI带来的新希望，没人敢无视。但AI对公考机构运营状况的改善，目前只体现在了降低成本上。</strong></p>
+  <p>即使算是行业内对人工智能布局较早且较多的粉笔，财报中体现出的人工智能应用带来的好处也只有：培训服务成本降低、利润得到改善。</p>
+  <p>原因在于，这些AI产品对于公司效率的提升超过了对学员体验的提升。</p>
+  <p>以粉笔在自研大模型发布会现场提供的数据为例：AI老师的出现，让一位粉笔精品班辅导老师同期可以服务的人数从40人左右提高到150人，效率提升275%。</p>
+  <p>再看学员侧。</p>
+  <p>三家巨头中，粉笔的科技属性最强，其推出的AI面试点评功能，在社交平台上得到不少好评，优点包括：评价维度客观全面，思路和内容与公考面试高度适配，还能根据学员的作答思路给出优化示范。</p>
+  <p>但缺点同样明显：</p>
+  <p>首先，29元一次的价格费用让不少人望而却步，其次，学员根据系统给出的建议对表现进行优化，达到一定水平后便很难再有提升，最重要的是，AI只能衡量标准化指标，却无法真正判断一个人的思维能力和气质，而这往往是公务员面试的核心目标。</p>
+  <p>至于华图教育推出的AI面试点评产品，虽然价格不到粉笔的四分之一，但使用者寥寥，当前的销量还不足400，不具备太多的讨论价值。</p>
+  <p>不过，粉笔科技与中公教育都已经接入DeepSeek，此前存在的部分问题或许会得以解决或优化。</p>
+  <p>只是，<strong>在免费的DeepSeek面前，公考机构们或许需要更努力，才能留住生源。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_39c55166d6854dd6b11691f1d96336cb@000000_oswg174827oswg1080oswg1148_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这已经不再是公考机构躺着挣钱的年代了。比如2003年至2013年，是公考热逐渐成型的十年。期间，国考报考人数从12.5万增长到152万，公考培训市场规模也从不到10亿元增长到190亿元。</p>
+  <p>2012年2014年，华图教育的营收由6.33亿元增长至11.55亿元，净利由4969.97万元上升至1.09亿元。自2011年，华图开始投资其他公司，向元培翻译、达沃时代等公司投资了数千万到上亿元不等。</p>
+  <p>2013年末，以超万平米的全新一体化综合办公场地投入运营和上百台商务车的采购为标志，中公教育宣称公司进入发展新阶段。</p>
+  <p>后来，公考热度有过短暂放缓甚至下滑，但头部机构们通过推广客单价更高的协议班、线上线下相结合、进军下沉市场等动作，持续增长。其中，中公教育的营收自2015年起连续5年保持了20%以上的增速，2018年成功上市，2020年直营机构达到巅峰的1669家。</p>
+  <p>疫情按下了暂停键，很多此前被快速增长掩盖的问题，逐渐浮现。在消费降级的趋势之下，更多的地方机构涌现，成功从巨头手里抢走生意。2022年，公考行业的CR3（指业务规模前三名的市场份额总和）由2019年的47.9%下降为26.99%。国信证券发布的《教育行业2025年投资策略》显示，该数据在2023年进一步下滑。</p>
+  <p>旧烦恼尚未解决，新烦恼已经到来。以DeepSeek为代表的AI产品，或许会抢走更多的生意——对于年轻人来说，如果免费的AI工具足够好用，也就没必要给公考机构送钱了。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQyNDEyMQ==&amp;mid=2257541329&amp;idx=1&amp;sn=59d8abfaa2ac167006c60fb913281c5c&amp;chksm=a4afa14ae69581c2bd3339d29b6f2fbe7d127b8b125964ca625f2255eccc519ed7891a4e3c08&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“略大参考”（ID：hyzibenlun）</a>，作者：小遥 小葵，编辑：原野，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171953279648128</id>
+            <title>“杭州六小龙”再放大招：群核科技抢先DeepSeek一步，剑指IPO</title>
+            <link>https://www.36kr.com/p/3171953279648128</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171953279648128</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:41:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <群核科技, IPO, 酷家乐, 人工智能>
+<br>
+<br>
+总结: 群核科技于2023年向港交所递交IPO申请，成为“杭州六小龙”中首个冲击上市的企业。尽管尚未实现盈利，但其在空间设计行业的技术创新和市场布局引起了广泛关注。公司创始团队拥有强大的技术背景，专注于AI领域的空间智能解决方案。群核科技的“酷家乐”平台在C端市场取得了显著成功，并逐步向B端扩展。其巨额研发投入和市场推广支出是导致亏损的主要原因。公司在国际市场的布局也在持续推进，吸引了多家知名投资机构的关注。 </div>
+                        <hr>
+                    
+                    <p>就在DeepSeek神挡杀神、所向披靡之际，群核科技亮出一招猛棋：正式向港股IPO发起冲击！这一消息，让业界颇感惊喜之余，也引起了坊间的诸多质疑，作为一家尚未实现盈利的公司，它敢于率先DeepSeek等其余五雄一步，争夺“杭州六小龙”中首家上市企业的花魁背后，底气究竟来自哪里？</p>
+  <h2><strong>剑指IPO，群核科技“落子无悔”</strong></h2>
+  <p>2月14日情人节当天，群核科技（Manycore Tech Inc）正式向港交所递交上市申请，摩根大通和建银国际为其联席保荐人，作为“杭州六小龙”中首个冲击IPO的企业，群核科技此举成功吸引了业内外的关注。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0d527a21539a41c59bf2d88b425462d0@000000_oswg84237oswg671oswg757_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>跟“当红炸子鸡”DeepSeek的创始人梁文锋的经历有点类似，群核科技的几位联合创始人，皆清一色国内外名校背景，黄晓煌和陈航本科毕业于浙大，朱皓本科毕业于清华，这哥仨的研究生毕均就读于伊利诺伊大学厄巴纳-香槟分校。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_56178c4d15b4488f8aa1fbaa2bfc7fcd@000000_oswg56303oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">左起：朱皓、黄晓煌、陈航，图源：天下网商</p>
+  <p>名校毕业之后，哥仨还都分别在英伟达、微软和亚马逊及美国国家超级计算应用中心等世界级科技巨头与核心研究机构任职，图形处理、分布式计算和虚拟现实技术（VR）是他们最为擅长的技术领域，尽管在美国有令人艳羡的高薪工作，但是为了达成创业梦想，他们义无反顾回国发展。</p>
+  <p>至此，这三个“天才少年”的命运齿轮，再一次转动！</p>
+  <p>2011年，回国后的黄晓煌、陈航、朱皓正式创立群核科技，并将公司定位为为国内空间设计行业的软件厂商，值得一提的是跟传统空间设计厂商不同，群核科技是立足AI领域的空间智能企业，从创业伊始，AI技术创新就融入了这家公司的基因；</p>
+  <p>2013年，群核科技推出了以业主自助3D设计为入口的“酷家乐”平台，凭借极致高效的云端渲染技术和联动设计师为业主提供专业的商业服务与转化，在C端市场声名鹤起；</p>
+  <p>2015年，酷家乐平台的营收首次突破1000万大关，次年业绩更是激增10倍，客户续约率达70%，随后数年，群核科技将在C端操盘经验在B端进行了完美放大，至些，B端业务成了群核科技的重中之中；</p>
+  <p>据群核科技招股书显示，2022年、2023年、2024年前九个月，公司企业客户分别录得33058名、41070名、45548名；公司来自企业客户的订阅收入占订阅收入总额的90.1%、87.0%及85.4%；公司企业客户净收入留存率为112.3%、106%、104.2%；</p>
+  <p>2023年，群核科技凭借6.63亿元的营收和高达22.2%的市场份额，无悬念已成为国内最大的空间设计行业软件提供商。</p>
+  <p>2022年、2023年及2024年前三季，群核科技的经调整净亏损净额分别为3.38亿、2.42亿、0.94亿，由是引出了一个令不少网友疑惑的问题：</p>
+  <p>业务欣欣向荣的“行业一哥”，群核科技为何至今仍未实现盈利？</p>
+  <h2><strong>群核科技的“两板斧”</strong></h2>
+  <p>坐拥酷家乐和Coohom，在中国、美国、日韩和东南亚市场等国内外市场多线展业的群核科技，吸引了一众知名投资机构的青睐，其中的多家知名投资机构，甚至多轮加投，这背后的商业逻辑，该如何理解？</p>
+  <p><strong>第一斧：专业技术窄且深！</strong></p>
+  <p>半导体行业，台积电独步天下的秘决并不是能力的宽而泛，而恰恰是能力的窄其深，以此拉开与同行的差距，赢得一众巨头的订单，虽然行业不同，但群核科技的“技能树”，跟聚焦在IC制造领域一样十分垂直，并且都追求技术的极致。</p>
+  <p>早在2013年，群核科技为酷家乐提供的云端渲染技术，就已经实现了10秒渲染的不可能目标，彼时的行业平均水平，动辄耗费数小时，可以说，群核科技是真正把云端渲染技术做到了行业遥遥领先的极致水平，这才有了独一无二的差异化竞争力；</p>
+  <p>为了保障渲染效率的持续领先，群核科技在研发投入上是毫不含糊！</p>
+  <p>2022年、2023年及2024年前三季，群核科技研发投入达4.37亿元、3.9亿元、2.63亿元，占同期公司营收的72.9%、58.9%、47.6%，这近乎“变态”的研发强度，超过了一众世界级与国内的科技互联网巨头们；</p>
+  <p>值得一提的是，在研发强度开始呈现下探迹象之际，同期的销售及营销开支呈增长趋势，则分别为3.21亿元、3.56亿元及2.48亿元，占收益总额53.4%、53.7%及44.9%；</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_dd1e6eec629e451da0a56bcd374763a1@000000_oswg91247oswg691oswg102_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这或许直观地解释了群核科技亏损的真相——巨额研发投入+销售&amp;市场推广开支的增加</p>
+  <p>2016年前后，群核科技就搭建了基于先进GPU集群的高性能计算平台，据公开资料显示，2024年，群核科技的渲染速度已经从2022年的53秒/图提升至1.2秒/图，2年间，效率番了44倍。</p>
+  <p><strong>第二斧：商业眼光稳准狠！</strong></p>
+  <p>创业公司想要获得市场成功，光靠技术过硬完全不够，还需要找到市场需要的缺口与用户需求的痛点，而群核科技在这些方面无疑做到了行业标杆水平，比如最早通过试水选中了家剧行业作为突破口，方向对了，后面的一切努力才不会白费~</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d4be874c12664c4abd4b3ad126bc6a30@000000_oswg48284oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而后群核科技的创始人团队又敏锐地嗅到了互联网家装的风口，他们领先行业启动了UGC（用户生产内容）激励和模块化拆解快速扩充户型库的战略，在短时间就积累了高达百万级的户型数据库，为其下一步腾讯，奠定了基础；</p>
+  <p>C端做大做强后，群核科技当仁不让开始向B端布局，通过为企业客户量身定制空间设计解决方案，进一步提升了品牌影响力和巩固了市场地位，与此同时，群核科技还积极启动了出海战略，推出了海外版的Coohom平台；</p>
+  <p>据群核科技官方统计，2022年、2023年及2024年前三季度，Coohom在中国以外市场取得的收入占公司总收入的比例依次为11.3%、6.0%、7.4%；</p>
+  <p>在自己的业务不断做大做强之际，群核科技的核心团队还十分懂得借力打力的道理，从未停下引入新融资的计划：</p>
+  <p>据不完全统计，自2013年以来，群核科技获得了包括高瓴、小米、经纬创投、IDG、云启资本、Coatue等在内的一众国内外知名投资机构的青睐，按最后一轮融资相关数额估测，群核科技目前的估值已达22亿美元；</p>
+  <p>时光倒回到2021年，彼时坐拥“3D云设计第一股”精彩叙事体的群核科技，赴美上市但遗撼折戟，时隔四年之后，羽翼更为丰满的群核科技选择向港股发起IPO冲击，这一次，“全球空间智能第一股”桂冠能否顺利摘下？</p>
+  <p>让我们拭目以待！</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MTI5NDgxNA==&amp;mid=2675192427&amp;idx=1&amp;sn=dd49028ee96d1b0c499d8da4dd1099ee&amp;chksm=8bafa2cbc7a9c797909388af9d6a78c3b6d0200c965af603a71365df9a311de572c7d6734ee5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“mawen011”（ID：hlw0823）</a>，作者：互联网那些事，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171956751876483</id>
+            <title>刚刚，DeepSeek发新成果，梁文锋亲自参与，实习生挑大梁，显著加速AI训练推理</title>
+            <link>https://www.36kr.com/p/3171956751876483</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171956751876483</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:41:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 稀疏注意力, NSA, DeepSeek, 长上下文  
+<br><br>  
+总结: DeepSeek团队发布了一种改进的稀疏注意力机制NSA，旨在提升长上下文训练与推理的速度和效率。NSA通过动态分层稀疏策略、粗粒度token压缩和精粒度token选择，显著提高了模型的计算效率，同时保持了对全局长上下文的感知能力。该机制在训练和推理阶段均表现出色，尤其在解码阶段实现了高达11.6倍的速度提升。NSA的设计专门针对现代硬件进行了优化，能够有效降低预训练成本并提升性能。实验结果显示，采用NSA的模型在多个基准测试中表现优于全注意力模型，尤其在长文本任务中展现出更优的解决方案。 </div>
+                        <hr>
+                    
+                    <p>智东西2月18日报道，今天下午，DeepSeek团队发布一篇新论文，介绍了一种改进的稀疏注意力机制NSA，可用于超快速的长上下文训练与推理。NSA以性价比极高的方式，<strong>罕见地在训练阶段应用稀疏性</strong>，在训推场景中均实现速度的明显提升，特别是在解码阶段实现了高达<strong>11.6倍</strong>的提升。</p>
+  <p>让人眼前一亮的是，<strong>DeepSeek创始人兼CEO梁文锋</strong>这次出现在了合著名单之中，在作者排名中位列倒数第二。这意味着他作为项目管理者，参与了一线的研究工作。另外，这篇论文的第一作者Jingyang Yuan是<strong>在实习期间完成的这项研究</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_1cf63ee078ee4c21aff3d5e625bdbc00@000000_oswg123773oswg1000oswg527_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>据DeepSeek介绍，NSA具有三大核心组件：<strong>动态分层稀疏策略、粗粒度token压缩、精粒度token选择</strong>。通过三大组件的配合，既提升了效率，也保留了模型对全局长上下文的感知能力和局部精确性。</p>
+  <p>这一机制专门针现代硬件进行优化设计，原生支持模型训练，在加速推理的同时降低预训练成本，<strong>对性能也无明显影响</strong>。采用NSA机制的模型在通用基准、长上下文任务和基于指令的推理上，与全注意力模型相当或表现更优。</p>
+  <p>在8卡A100计算集群上，NSA的前向传播和反向传播速度分别比全注意力快9倍和6倍，由于减少了内存访问量，NSA在长序列解码时相较于全注意力模型速度显著提升。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3b19aa413e4346288e665a9f6612dada@000000_oswg108631oswg1000oswg568_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">NSA在部分测试上的表现（图源：DeepSeek）论文链接：arxiv.org/abs/2502.11089</p>
+  <h2><strong>01.现有稀疏注意力机制存在明显缺陷，DeepSeek希望填补空白</strong></h2>
+  <p>长文本建模是下一代语言模型的关键能力，但传统注意力机制的高复杂度限制了其在长序列上的应用。</p>
+  <p>例如，在解码64k长度的上下文时，注意力计算占据了总延迟的<strong>70%至80%</strong>。因此，稀疏注意力机制应运而生，通过选择性计算关键的查询键对来减少计算开销。</p>
+  <p>然而，尽管许多稀疏注意力方法在<strong>理论上减少了计算复杂度</strong>，但这些方法在<strong>实际推理中未能显著降低延迟</strong>。</p>
+  <p>一些方法仅在自回归解码阶段应用稀疏性，而预填充阶段仍需进行密集计算（如H2O）；另一些方法仅关注预填充阶段的稀疏性（如MInference），导致在某些工作负载下无法实现全阶段加速。</p>
+  <p>还有部分稀疏方法<strong>无法适应现代高效的解码架构</strong>（如MQA和GQA），导致KV缓存访问量仍然较高，无法充分发挥稀疏性优势。</p>
+  <p>此外，现有的稀疏注意力方法大多仅在推理阶段应用稀疏性，<strong>缺乏对训练阶段的支持</strong>。</p>
+  <p>NSA旨在通过针对硬件特点的推理加速和适用于训练的算法设计，填补这一空白。DeepSeek推出NSA主要希望解决两大问题：</p>
+  <p>一是事后稀疏化导致性能退化，如预训练模型的检索头易被剪枝；</p>
+  <p>二是现有稀疏方法难以应对长序列训练的效率需求。现有方法存在非可训练组件和低效反向传播等问题，阻碍了高效训练和长上下文模型的发展。</p>
+  <h2><strong>02.软硬件协同深度优化，无限逼近计算强度最优解</strong></h2>
+  <p>NSA的核心思想是通过动态分层稀疏策略，结合粗粒度的token压缩和细粒度的token选择，以保留全局上下文感知能力和局部精确性。</p>
+  <p>下方是NSA架构的概览，左侧，NSA将输入序列通过三个并行的注意力分支处理：压缩注意力（compressed attention）、选择性注意力（selected attention）和滑动窗口注意力（sliding attention）。右侧是对每个分支产生的不同注意力模式的可视化。绿色区域表示需要计算注意力分数的区域，而白色区域表示可以跳过的区域。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3390ed89468049f0abeb7ca04118dbc7@000000_oswg144028oswg1000oswg301_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">NSA架构概览（图源：DeepSeek）</p>
+  <p>其中，压缩注意力通过将键（key）和值（value）聚合成块（block）级表示来捕捉粗粒度的语义信息。这种压缩表示能够<strong>捕捉更粗粒度的高层语义信息</strong>，并减轻注意力计算的负担。</p>
+  <p>不过，仅使用压缩后的键（key）和值（value）可能会丢失重要的细粒度信息，DeepSeek引入了选择性注意力，<strong>通过块选择机制保留重要的细粒度信息</strong>。</p>
+  <p>他们给每个块分配了重要性分数，根据块的重要性分数选择排名前n的块，并将这些块中的标记用于注意力计算。这种方法在保留关键信息的同时，显著降低了计算负担。</p>
+  <p>在注意力机制中，局部模式通常会快速适应并主导学习过程，可能会阻碍模型从压缩和选择token中有效学习。滑动窗口注意力可以回应这一问题，通过专注于局部上下文信息，<strong>防止模型过度依赖局部模式</strong>。</p>
+  <p>为了实现高效的稀疏注意力计算，NSA还针对现代硬件进行了优化。</p>
+  <p>具体来看，DeepSeek在Triton上实现了硬件对齐的稀疏注意力内核。鉴于多头自注意力（MHA）内存密集且解码效率低，他们专注于共享KV缓存的架构，如分组查询注意力（GQA）和多查询注意力（MQA），这些架构与当前最先进的LLMs一致。</p>
+  <p>DeepSeek的关键优化策略是采用不同的查询分组策略，通过以下关键特性实现了近乎最优的计算强度平衡：</p>
+  <p><strong>1、以组为中心的数据加载</strong>：在每个内循环中，加载组内所有头的查询及其共享的稀疏KV块索引。</p>
+  <p><strong>2、共享KV加载</strong>：在内循环中，连续加载KV块以最小化内存加载。</p>
+  <p><strong>3、网格循环调度</strong>：由于内循环长度在不同查询块中几乎相同，将查询/输出循环放在Triton的网格调度器中，以简化和优化内核。</p>
+  <h2><strong>03.超越多款基线模型，训练提速6-9倍、推理最高提速11.6倍</strong></h2>
+  <p>为测试NSA机制在实际训练、推理场景中的表现，DeepSeek用当前最先进的LLM的常见实践，使用了一个结合分组查询注意力（GQA）和混合专家（MoE）的骨干架构作为样本模型。这一模型总参数量为27B，其中3B为活跃参数。</p>
+  <p>在这一模型的基础上，DeepSeek使用了NSA、全注意力以及其它注意力机制，并进行了评估。</p>
+  <p>在多个通用基准测试中，采用NSA的模型尽管具有稀疏性，但其总体性能优于所有基线模型，包括全注意力模型，<strong>在9项指标中有7项表现最佳</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_799b023f58024aecb1a22f1b5b6122c3@000000_oswg81161oswg1000oswg407_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">采用不同注意力机制的模型在多个通用基准测试上的表现（图源：DeepSeek）</p>
+  <p>NSA在较短序列上可能未能充分发挥其效率优势，但其性能依然强劲。值得注意的是，NSA在推理相关基准测试中取得了显著提升，这表明NSA的预训练机制有助于模型开发专门的注意力机制，<strong>能迫使模型专注于最重要的信息，通过过滤掉无关的注意力路径中的噪声</strong>，潜在地提升了性能。</p>
+  <p>在长上下文任务中，<strong>NSA在64k上下文的“大海捞针（neddle in a haystack）”测试中实现了超强的的检索精度。</strong>这得益于其分层稀疏注意力设计，通过粗粒度的压缩token实现高效的全局上下文扫描，并通过细粒度的选择标记保留关键信息，从而在全局感知和局部精确性之间取得平衡。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e0c7782a1e3e4bd6a1a4e3806748a613@000000_oswg111768oswg1000oswg510_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">大海捞针测试结果（图源：DeepSeek）</p>
+  <p>在LongBench上，NSA在多跳QA任务和代码理解任务中表现优于所有基线，还显示出在复杂长文本推理任务上的优势。这些结果表明，NSA的原生稀疏注意力机制不仅提升了模型性能，还为长文本任务提供了更优的解决方案。</p>
+  <p>NSA机制还能与推理模型进行结合，适配前沿的后训练方式。DeepSeek使用了从DeepSeek-R1蒸馏获得的知识和监督微调（SFT）的方式，使采用NSA的模型在32k长度的数学推理任务上获得链式数学推理能力。</p>
+  <p>实验中，NSA-R（稀疏注意力变体）和全注意力-R（基线模型）在具有挑战性的AIME 24基准测试上进行了对比。<strong>结果显示，NSA-R在8k和16k上下文设置下均显著优于全注意力-R（分别高出0.075和0.054），验证了其在复杂推理任务中的优势。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_6f5c50e7c6ad4a75aa7f3651b10d57e4@000000_oswg32760oswg1000oswg246_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">NSA-R（稀疏注意力变体）和全注意力-R（基线模型）在AIME上的表现（图源：DeepSeek）</p>
+  <p>DeepSeek还在8-GPU A100系统上，对NSA的计算效率与全注意力机制进行了对比。</p>
+  <p>在训练速度方面，随着上下文长度的增加，NSA的加速效果愈发显著。在64k上下文长度时，NSA的<strong>前向传播速度提升了9倍，反向传播速度提升了6倍</strong>。</p>
+  <p>这种加速主要得益于NSA的硬件对齐设计：块状的内存访问模式通过合并加载最大化了Tensor Core的利用率，内核中精细的循环调度消除了冗余的KV传输。</p>
+  <p>在解码速度方面，注意力机制的解码速度主要受限于KV缓存加载的内存瓶颈。随着解码长度的增加，NSA的延迟显著降低，在64k上下文长度时实现了<strong>高达11.6倍的速度提升</strong>。这种内存访问效率的优势随着序列长度的增加而更加明显。</p>
+  <h2><strong>04.结语：DeepSeek持续给开源AI惊喜</strong></h2>
+  <p>尽管NSA取得了显著的成果，但DeepSeek研究团队也指出了一些可能的改进方向。例如，进一步优化稀疏注意力模式的学习过程，以及探索更高效的硬件实现方式。</p>
+  <p>正如DeepSeek之前发布的所有技术报告那样，这篇详解NSA机制的论文内容详实，对NSA机制中涉及的技术细节阐释清晰，可操作性强，是DeepSeek给开源AI研究贡献的最新成果。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652779686&amp;idx=1&amp;sn=bd244f208ba34bef0d184002a6ce086c&amp;chksm=85bb0b044c5228c1b2b0a34ce7dc4fa1b34e1043da2c87c1f1459b276ce8fc886bcd8a579582&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：陈骏达，编辑：Panken，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171989777810308</id>
+            <title>Grok3 来了，马斯克笑了，网站崩溃了</title>
+            <link>https://www.36kr.com/p/3171989777810308</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171989777810308</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:40:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: Grok3, 马斯克, AI, xAI  
+<br><br>  
+总结: 伊隆·马斯克发布了被称为“地球上最聪明的 AI”的Grok3，旨在追平或超越现有领先的AI产品。Grok3包括基础模型、推理模型和第一个智能体产品，当前仅限于X社交平台的Premium+会员测试。虽然Grok3在基准测试中表现出色，但与其他顶尖AI相比，尚未显示出明显的超越。马斯克的团队表示Grok3仍在不断更新和训练中，未来将推出更强大的版本。整体来看，Grok3的能力和含金量仍需时间验证。 </div>
+                        <hr>
+                    
+                    <p>几个小时前，伊隆·马斯克终于发布了他口中「地球上最聪明的 AI」——Grok3。</p>
+  <p>在 Grok3 中，马斯克团队一口气带来了「地表最强」基础模型、推理模型以及第一个 agent（智能体）产品，还预告了正在路上的语音模型。官宣这一揽子新品，xAI 旨在追平甚至超越当前所有领先的 AI 产品能力。让所有人都重视 xAI 这头「房间里的大象」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a66e1fdbe09b40eea9819359a5adef4a@000000_oswg53081oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok3 新品发布一览｜截图来源：X</p>
+  <p>目前，<strong>只有 X 社交平台的 Premium+会员可以用 Grok3 测试版</strong>，但可能受限于其订阅价格（40 美元/月）价格或发布时间（当地晚上）的原因，X 平台暂未出现很多使用案例分享。</p>
+  <p>马斯克的老同事 Andrej Karpathy（早年特斯拉自动驾驶负责人）提前内测了 Grok3，综合使用下来，他认为 Grok 3 的能力大致与 o1-pro（200 美元/月）相当，优于 DeepSeek-R1 和 Gemini 2.0 Flash Thinking。</p>
+  <p>同时，对于 Grok3 发的第一个 Agent 产品「Deep Search」，他认为这个功能大概和 Perplexity 的「Deep Research」产品差不多，可以查阅网络资料进行自主探索、给出高质量回答，但有时也会出现编造信息或错误引用的情况，似乎还没到 OpenAI 最新发布的「Deep Research」水平，后者给人感觉更全面更可靠。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ac8ae297d30443c9b5dd02f4f06c3f47@000000_oswg155144oswg1080oswg311_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">马斯克直播刚结束，Andrej Karpathy 在 X 平台发表了提前使用 Grok3 的感受。｜截图来源：X</p>
+  <p>值得注意的是，Grok3 对发布只有一场直播 demo，没有官方博客和技术报告等更多信息。马斯克表示，模型每小时都在升级中，一周以后，Grok3 会带来更好更稳定的能力和更多基准测试的成绩。</p>
+  <p>马斯克的号召力还是很强，Grok3 网站刚一上线，就被热情的网友们点崩溃了。</p>
+  <p>显然，竞争越来越白热化的 AI 大战，让马斯克仓促地举办了这场发布会。Grok3 以及 xAI 的含金量几何，还要再等等。</p>
+  <h2><strong>01 第一个 10 万级 H100 训练出来的模型，Grok3 怎么样？</strong></h2>
+  <p>在已有谷歌、Anthropic 和 OpenAI 的情况下，马斯克的 xAI 仍被视为最有希望与这三家巨头抗衡的公司之一。一大原因就在于拥有 20 万卡集群——Colossus。作为世界上最大的人工智能超级计算机，Colossus 采用英伟达全栈参考设计，配备 20 万个英伟达 Hopper GPU。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5076e3a52b244c138176b884ece1f4d1@000000_oswg1244500oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">xAI 的 20 万 HopperGPU 数据中心——Colossus。｜截图来源：X</p>
+  <p>Grok3 便是在这一集群上训练的，1 月初刚刚完成了预训练，现在 Grok3 的计算能力是 Grok-2 的 10 倍以上。</p>
+  <p>马斯克表示，Grok3 实际上仍然还在训练中，今天先展示 Grok3 在一部分基准测试中的成绩。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_72dbbde13db647098119df0a58ff4d8b@000000_oswg117591oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">在其展现的评测标准上，Grok3 在数学、科学、代码能力上全面领先。即便是 Grok3-mini，也超越了 Gemini、Claude、DeepSeek 当前所能获得的最好基座模型。｜截图来源：X</p>
+  <p>「如果上述基准看起来是在评测『教科书的背诵能力』，那么在实际使用能力上，Grok3 基座模型也确实是第一」。他们表示，在发布前两周，Grok3 以巧克力的代号在 Imarena 基准（前 Lmsys 基准）上进行了盲评，问同一个问题，让用户根据回答评价哪个模型更好，该基准被视为更加客观的测试。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_08a9308d2a2f4960b9013d57615175d3@000000_oswg90935oswg1080oswg858_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">在马斯克直播的同时，Imarena.ai（原来 Lmsys）放出了基准测试结果。｜截图来源：X</p>
+  <p>在这一基准测试中，Grok3 达到了 1400 分，这也是这一榜单首次出现超过 1400 分的基座模型。并且，Grok3 在总体/风格控制、编码、数学、创意写作、指令遵循、长指令提问、多轮等基座模型的所有评测类别上，都是第一。</p>
+  <p>官方称 Grok3 还在不断更新中，每天、每小时都在改进，今天给大家演示的模型版本就比送去评测的版本更先进。同时，最佳的预训练模型显然不够，Grok3 还可以像人类一样思考、反思、验证，回到第一性原理再思考等，具备了强大的推理能力。</p>
+  <p>他们表示，从 1 月初完成预训练模型以来，努力通过强化学习对其进行推理训练，现在还在早期阶段，但已经激发出了更多的能力。当给予更多的求解时间或者计算量，Grok3 模型表现更好。未来，还会发布一个 mini 版本的推理模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a594ebb8a22c4ce5ba046b63aab52473@000000_oswg132025oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok 团队称，由于 Grok3 模型更大，所以展现出了更强大的推理泛化能力｜截图来源：X</p>
+  <p>最后，团队放出了 Grok3 的第一代 agent，帮助工程师、研究人员和科学家进行编码、帮助每个人回答研究问题，有点像下一代搜索引擎的「Deep Search」。该功能与此前谷歌、OpenAI 和 Perplexity 的「Deep Research」类似，旨在帮助人类完成比较深度的研究工作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_08a065a0101141d28cc991cb813f9110@000000_oswg497603oswg1080oswg845_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">现场 demo 中，Grok 被问及「下一个星舰发射日」时，可以根据提问拆解用户意图、思考、查阅网站阅读、交叉验证信息来源、回答问题，团队称可以节省人类数十、上百小时的研究时间。｜截图来源：X</p>
+  <h2><strong>02 Grok3 究竟行不行，还需要让子弹再飞一会</strong></h2>
+  <p>看完马斯克的 Grok3 发布会，鲜少能感受到「世界上最聪明的 AI」，总体是对齐第一梯队玩家、并没有超越的感觉。所以不少网友直呼：</p>
+  <p><strong>「白瞎了」20 万张 Hopper&nbsp;GPU</strong>。</p>
+  <p>但现在下结论，还是太早了。</p>
+  <p>整个行业预训练上 Scaling Law 放缓，更多是受限于互联网数据用完了。换句话说，马斯克的 20 万卡集群和他本人的极致工程能力，还没有得以发挥。</p>
+  <p>我们来算算。</p>
+  <p>去年 4 月决定自建数据中心，迅速搞定英伟达 20 万张 Hopper 卡的到货，122 天拉起了 10 万卡集群，又用 92 天将数据中心扩展到 20 万卡集群。这是独有的马斯克执行力。黄仁勋都说了，当模型大小增加一倍，算力崩掉的概率要多出一个数量级。马斯克在十万级卡上完成预训练满打满算也就半年多。</p>
+  <p>另一边，推理上的 Scaling Law，放在整个 AI 行业也刚刚开始，而这部分也更吃算力、无论是需要做实验探索还是实际训练。</p>
+  <p>在不久前举办的迪拜世界政府峰会上，马斯克表示 Grok3 强大的推理能力背后，使用了创新的训练方法和大量合成数据，能够通过数据来回迭代实现逻辑一致性。如果发现错误数据，系统会反思并移除不符合现实的内容。但这些创新马斯克团队在今天的发布会上并未提及，就像他说的 Grok3 还在继续训练中，更好的版本要等下周以后。</p>
+  <p>显然，AI 竞争白热化，让马斯克在当下显仓促地拿出了 Grok3。或许是要在谷歌、Anthropic、OpenAI 在接下来一两周内更新下一代模型之前，占个先手。至少让大家看到 Grok3 即将追平现状了，但究竟有没有突破、能不能再突破，还需要时间的检验。</p>
+  <p>别忘了，马斯克可是战略高手，一方面加紧修炼 xAI，一方面放出「收购 OpenAI」的新闻给对手造成困扰。在 AI 这条路上，你很难预测马斯克到底能做出什么来。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653073974&amp;idx=1&amp;sn=4f0cc225c27656ce2828992ef9f4579f&amp;chksm=7f62330a1b6323ce42c0a264206d3fea954f95bc365956f5e835772d1b2bd2e808fab8cd94db&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：宛辰，编辑：靖宇，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171969382482825</id>
+            <title>OpenAI广告首秀，Nike大放异彩，2025年超级碗广告盯准了什么？</title>
+            <link>https://www.36kr.com/p/3171969382482825</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171969382482825</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:39:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 超级碗, 女性议题, 广告创意, 情感共鸣  
+<br><br>  
+总结: 超级碗被视为美国经济的晴雨表，品牌在此期间投入巨资进行广告宣传。2024年，女性议题成为营销新趋势，Nike和多芬的广告分别聚焦女性运动员和女孩的身体自信问题，挑战传统限制并引发广泛讨论。同时，幽默和抽象的广告元素也在超级碗中占据重要地位，品牌通过打破传统叙事模式吸引观众注意。尽管AI技术不断进步，OpenAI和Meta等公司仍选择人类创作广告，以确保情感深度和创造力。成功的广告在情感层面与观众产生共鸣，并传达有意义的信息。 </div>
+                        <hr>
+                    
+                    <p>超级碗，严肃一点又叫“美国经济晴雨表”，不那么严肃它又被戏称“美国春晚”。</p>
+  <p>毕竟能上去的都是财报业绩说得过去的，不及格的也没这笔预算。</p>
+  <p>2024年品牌豪掷700万美金，只为了能“抢”超级碗30秒的戏份。</p>
+  <p>但也正因此才有幸能在Uber Eats的广告中看到“瑞秋”的扮演者詹妮弗·温斯莱顿上演了《老友记》番外篇；</p>
+  <p>能看到State Farm发布的《Like a Good Neighbaaa》中，“州长”施瓦辛格当起了“特工英雄”;</p>
+  <p>Temu更是三个广告位发起“广告轰炸”；</p>
+  <p>到了2025年，这个数字又涨到了800万，今年这些品牌又整了什么活儿呢？</p>
+  <h2><strong>女性议题，超级碗的出圈热门</strong></h2>
+  <p>2024年，女性议题，已然成为一股营销新趋势。</p>
+  <p>根据Wasserman的研究，今年，女子体育将占流媒体、社交媒体和数字媒体所有体育报道的20%。而早在2018年超级碗女性观看人数就已经占到了总人数的近一半。</p>
+  <p>Nike也正是瞄准了这一点，<strong>在2025年发布了超级碗广告片《不争辩，只争胜（So Win）》聚焦于女性运动员，回击了社会对女性种种不公正的要求。</strong></p>
+  <p>文案与台词还有女性运动员坚毅的精神与出彩的表现，共同构成了Nike的灵魂：被质疑没有信心？被质疑无法面对挑战？还被质疑不能打破纪录、没有野心？不必争辩，只要去赢就够了。</p>
+  <p>通过巴伦卡、普特里亚斯等女性运动员的比赛画面，展示了她们的力量和决心。再由刚获得格莱美的说唱歌手Doechii提供旁白，<strong>坚毅的声音更加有力地强调了女性运动员在面对社会限制和质疑时胜利。</strong></p>
+  <p>Nike这部《不争辩，只争胜》一经播出，就获得了国内外的热烈讨论。但这并非是Nike塑造女性体育竞技故事的开山之作，在先前其发布的《Dream Crazier》就已经饱受好评。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_6a16946e405b44769689d904a49366f7@000000_oswg271449oswg645oswg355_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>Nike的广告在塑造女性体育精神故事上总是倾向于先将当前女性面临的不公正一一罗列，再在后文以坚定地态度去一一否定这些。</strong></p>
+  <p>这种结构下的So Win，汇聚了众多杰出女性运动员，她们在体育领域的强大力量和高超技艺，与女性体育日益增长的影响力相呼应。</p>
+  <p>另外广告挑战了传统对女性运动员的限制和双重标准，鼓励她们拥抱自信、突破障碍。这种赋权和反抗社会期待的信息，与观众产生了强烈共鸣。</p>
+  <p>同样是聚焦女性议题，作为个人护理品牌的多芬，给出了不一样的意义解读。</p>
+  <p><strong>多芬在2025年超级碗投放了广告片“These Legs: A Dove Big Game Film”。</strong></p>
+  <p>镜头中央始终是一个迈开双腿自由奔跑的小女孩，多芬通过两条字幕：三岁时，这双腿无拘无束；14岁时，这双腿开始变得踌躇。</p>
+  <p>以发人深省的对比直击当下女孩在体育运动中因身体自信问题而退缩的现象，正如多芬数据表现得一样，45%的女孩在14岁前就因为对身材缺乏信心而放弃运动，其中又有48%的人是因为其身材“不合适”才参与到运动中。</p>
+  <p><strong>被“狭义美”所绑架，是当下女性身材焦虑的关键原因，多芬先后在2003年与2022年两次发起“真美行动”以及“我的美，我说了算”的品牌战役，去鼓励女性勇敢追求自己认为的美。</strong></p>
+  <p>正因多芬历来如此的品牌内涵，广告片的内核与多芬长期以来挑战狭隘beauty标准的品牌调性相一致，更容易让人信服。</p>
+  <p>相较于Nike，多芬的出圈首先就离不开它突出年轻女孩在体育中面临的一个关键问题，身体自信的丧失，从3 岁到14岁的变化，有效地展示了社会压力如何影响女孩参与体育。</p>
+  <p>其次画面的设计和女孩的演绎都是多芬的加分项，当看到小女孩在阳光下自由自在奔跑露出笑容的同时，笑容的力量也传递给了电视前的观众。</p>
+  <p>并且，在广告的片尾多芬也尝试呼吁当前与女孩交流的方式，强调需要积极和支持性的沟通来帮助她们保持自信。这一信息与包括父母和女孩在内的广泛受众产生了共鸣。</p>
+  <p>不难看出，能在男子为主导的超级碗比赛广告中聚焦于女性议题，并被人所认可，Nike和多芬其实是在聚焦什么？</p>
+  <p><strong>核心还是要突出女性的力量和成就，挑战传统限制和双重标准，确保广告的立意以及涵养是正确的、丰富的。</strong></p>
+  <p><strong>另外要让广告立得住，真的打到人心里，就得关注现实问题和经历，与广泛观众产生共鸣，而非高高在上、高谈阔论，最后800万美金换来个“伟光正”。</strong></p>
+  <h2><strong>又抽象又搞笑，“美国春晚”还是需要笑声</strong></h2>
+  <p>毕竟被誉为“美国春晚”，观众们也大概更想在热血澎湃的比赛之余，看些更让人放松的片子。</p>
+  <p>品牌方们也拿捏住了这一小心思，抽象而搞笑的元素还是占据了大多数。</p>
+  <p>但在这个“仙之人兮列如麻”、“抽象一把手”云集的2025超级碗中，最令人忍俊不禁的还是“”形态海豹”和一个“舞王舌头”。</p>
+  <p><strong>激浪在2025年超级碗的广告“The Kiss of the Lime”可谓是抽象的先锋，该广告由格莱美奖得主、著名艺术家Seal参与拍摄。</strong></p>
+  <p>广告的开头还算正常，一行人手中拿瓶激浪在快艇上度假，直到他们遇到了一群在海上礁石中栖息的海豹后，画风便走向了“邪门”的方向。</p>
+  <p>格莱美奖得主，此时正在以“海豹形态”同种群共同盘踞在礁石中，并且还唱起了自己的经典歌曲《玫瑰之吻》，但他也没有忘记自己的任务，即使化身成了海豹手中也握着那瓶激浪。</p>
+  <p>另外的“抽象冠军”，则 是超级碗的新秀雀巢。</p>
+  <p><strong>雀巢在2025年超级碗投放的广告是为其Coffee mate品牌的新产品Cold Foam奶油所做的宣传。</strong></p>
+  <p>广告中男主角仅仅是品尝了一口奶油，或许是味蕾上的享受，导致其舌头直接开始跟随加拿大乡村歌手Shania Twain的歌曲开始舞动起来，一会儿比起爱心，一会儿又弹起了风琴，给一同在家中玩耍的伙伴都“看呆了”。</p>
+  <p>在最后关头，也许是寓意着奶油的美味，这只舌头甚至同烟花一样绽放了出来，充满了独居超现实主义的迷幻色彩。</p>
+  <p>能敢在超级碗上玩抽象，还玩得成功，先要归功于广告的<strong>荒诞叙事与角色反差，</strong>将明星“动物化”的设计，既颠覆了其公众形象，又通过拟人化场景制造喜剧冲突，形成强烈的反差感。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_13da66213b9e45e6b473246cdb8f2e6c@000000_oswg250597oswg675oswg339_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>类似的角色反差在今年Stella Artois广告中也曾出现，贝克汉姆从“万人迷”转为滑稽笨拙的倒霉蛋。</p>
+  <p>二等功要给广告<strong>超现实主义的视觉效果。</strong>雀巢，将味觉体验转化为视觉奇观——舌头随音乐起舞、绽放烟花。这种夸张的视觉语言突破了传统广告的叙事逻辑，直接冲击观众的感官。</p>
+  <p>类似手法也见于今年的品客薯片广告，其通过吹气召唤“小胡子”名人的设计，将品牌符号与奇幻场景结合，增强沉浸感。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_278251f5199f4a818c0fe140a3318934@000000_oswg197981oswg677oswg377_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但也不得不提，80多家品牌共同投放广告的场景下，“玩抽象”倒也是个加强存在感的好法子。传统情感叙事易被同类广告淹没。<strong>抽象广告通过荒诞情节或视觉奇观，迅速打破观众预期，突破同质化竞争，抢占注意力。</strong></p>
+  <p>另外相比其正常的广告，得益于当下互联网环境更倾向于“大抽象时代”，<strong>抽象广告的猎奇性天然适合碎片化传播，“舌头舞动”的片段极易被截取为表情包或短视频，被广泛运用。</strong></p>
+  <p>但最关键的还是<strong>玩抽象带来的记忆点太深了</strong>，Seal的海豹形态、品客的小胡子，基本看过都能过目不忘，无形中也是在深化品牌在消费者记忆中的深度。</p>
+  <p>相较于前两家“抽象大王”，<strong>Uber Eats</strong>让观众笑起来，凭的全是幽默天赋。</p>
+  <p>这部由Matthew McConaughey主演的广告，<strong>用一个看似荒诞实则深邃的阴谋论——“足球是为了卖食物而发明的”，巧妙地将体育精神与美食欲望编织成一个令人捧腹又深思的故事。</strong></p>
+  <p>广告颠覆了人们对足球起源的认知，将这项全球运动重新定义为服务于美食的工具。这种反常识的设定让观众在会心一笑的同时，不由自主地陷入思考。</p>
+  <p>也正是由于立意能激起观众的会心一笑，创造了一种轻松愉快的情感氛围，<strong>在笑声中传递出”享受美食”的品牌理念。这种情感连接远比直接的产品推销更具说服力。</strong></p>
+  <p>另外，通过展示食物如何串联起人类文明的发展进程，<strong>Uber Eats成功地将自身定位为连接人与美好生活的桥梁。</strong></p>
+  <p>其实说到底，为什么有那么多品牌乐于在超级碗尝试些幽默的广告，或者说为什么让人发笑的广告能吃得香的原因首先离不开靠<strong>打破传统叙事模式的幽默叙事，去抓住观众的注意力</strong>。</p>
+  <p>其次还是要回归到视觉中，这些玩抽象品牌的视觉设计其实是不符合传统和谐观念的，但也正是由于其突破传统广告边界的视觉设计，才能从听觉、视觉等多角度刺激观众，强化记忆点。</p>
+  <h2><strong>平淡而热烈，不耍花招靠内容</strong></h2>
+  <p>作为“美国经济的晴雨表”，每年涌上超级碗的品牌不同，每个品牌的广告重心也不同。上文的两类，一个侧重于广告的性别传播，另一个则是侧重于“笑果”的打造，<strong>而第三类则是靠平淡的形式，但却又包含热烈而深厚的内容。</strong></p>
+  <p>要数超级碗谁的广告最温馨，迪士尼当之无愧。</p>
+  <p><strong>迪士尼在2025年超级碗投放的广告“What If”由Josh Gad配音，他提出了许多假设性问题：</strong></p>
+  <p>“如果没有遥远的银河系会怎样？”（暗示《星球大战》）</p>
+  <p>“如果他们从未集结会怎样？”（暗示《复仇者联盟》）</p>
+  <p>“如果她从未放开自己会怎样？”（暗示《冰雪奇缘》）</p>
+  <p>随着这些问题的提出，相关电影和剧集中的标志性角色和场景逐渐消失，伴随着配音的低沉语调，整个广告的氛围营造出一种失落感。</p>
+  <p>但在后半部分，迪士尼又重现了这些经典镜头：复仇者的又一次集结；辛巴仍然是狮子王；艾莎公主能自由自在地释放冰雪能力......</p>
+  <p>同时配合以配音语调的上扬，迪士尼在不知不觉让人又回忆起迪士尼带给人的种种快乐。</p>
+  <p>坦白来讲，迪士尼今年的形式是平淡的，毕竟它们只是一些电影、动画画面的穿插，配合以一些简单的旁白与字幕。但其内核是无比深邃的：</p>
+  <p><strong>首先，它借助了怀旧的力量</strong>，展示了《星球大战：绝地归来》《头脑特工队》和《狮子王》等深受喜爱的迪士尼作品中的标志性时刻。这立刻引起了与这些故事一起成长的观众的共鸣，建立了情感联系。</p>
+  <p>其次，广告想象一个没有这些故事的世界的概念，既引人入胜又发人深省。它让观众欣赏到<strong>迪士尼故事在塑造文化和娱乐方面的影响力和重要性。</strong></p>
+  <p>最后，广告的制作，包括<strong>视觉上引人注目的场景和旁白的吸引力</strong>，增加了其整体的吸引力。这些元素的结合使广告对观众来说难以忘怀且富有影响力。</p>
+  <p>与迪士尼师出同门的则是百威。</p>
+  <p><strong>百威在超级碗投放的广告“First Delivery”讲述了一匹小克莱兹代尔马驹努力完成啤酒配送的故事。</strong></p>
+  <p>这匹小马驹渴望加入成年马的配送队伍，但因体型太小未能如愿。然而，当一个啤酒桶从成年马的车上掉下来时，小马驹抓住机会，越过围栏，用头顶着桶，踏上了穿越乡村的旅程。最终，它成功将酒桶推到了一家酒吧，其同伴克莱兹代尔马和旁观者为它欢呼。</p>
+  <p>试想一下刚刚还沉浸在比赛气氛中的观众，突然看到了一只小马驹的成长故事，他们的心里会在想什么？会不会被好奇心驱使着因为想知道小马驹的结局而看完广告？</p>
+  <p>或许百威正是拿捏住了这一点。</p>
+  <p>广告中一匹决心坚定的克莱兹代尔小马驹，尽管被司机认为“仍然太小”，但还是踏上了运送掉落的酒桶的旅程。这种<strong>坚韧和奉献精神的展现引起了观众的共鸣</strong>。</p>
+  <p>其次，<strong>广告将怀旧与新颖的现代叙事相结合。</strong>标志性的克莱兹代尔马一直是安海斯-布希传统的代表，通过一匹年轻、未经考验的小马驹的视角，赋予了它们新的活力。</p>
+  <p>最后，<strong>由艾美奖获奖商业导演亨利·亚历克斯·鲁宾执导的高质量制作</strong>，为广告增添了吸引力。小马驹在乡村追逐的广阔镜头展现了电影般的视觉魅力，使广告在超级碗众多广告中脱颖而出。</p>
+  <p>在超级碗这一全球瞩目的营销战上，品牌广告的竞争<strong>不仅是创意的较量，更是情感与文化影响力的博弈。看似形式平淡但内容深厚的广告也能创出一片天地。</strong></p>
+  <p>在迪士尼和百威的广告中，可以看到他们选择在<strong>喧嚣中凸显品牌深度。</strong>明星扎堆的广告则易陷入同质化、玩梗玩搞笑的广告看多了也会腻，而真诚深沉的内容无论如何都是能引人深思的，或许这也是为什么百威能位列广告前列的原因。</p>
+  <p>在信息过载的时代，<strong>以情感为桥梁、以符号为载体的叙事</strong>，才能穿透浮躁，打动人心。</p>
+  <h2><strong>AI却不靠AI，工具而非目的</strong></h2>
+  <p>2024年是毫无争议的AI大年，AIGC广告开始被许多品牌广泛尝试。</p>
+  <p>或许有不少人都期待着能在2025年超级碗看到精彩的AI广告，但事实上连OpenAI都选择了靠人去做广告，而非AI。</p>
+  <p>尽管OpenAI豪掷千金投放的首部广告在《今日美国》的广告评比中排名滞后，但仍是有不少人先前对其抱以高期待的。</p>
+  <p><strong>其在2025年超级碗投放的广告“The Intelligence Age”通过点彩风格的动画。</strong></p>
+  <p>追溯了人类技术的演变，从火和轮子到DNA测序和太空探索，最后展示现代AI应用，如ChatGPT处理日常任务。<strong>广告强调AI是人类创造力的延伸，而非替代品。</strong></p>
+  <p>最终动画由人类艺术家完成。旁白由OpenAI首席营销官Kate Rouch提供，<strong>她强调AI的可访问性和潜力，称其为“我们有史以来创造的最强大的工具，现在就在你的口袋里。</strong>”</p>
+  <p>与OpenAI调性相同的是来自Meta的智能眼镜广告，其同样将核心定在了AI的工具性。</p>
+  <p><strong>Meta在2025年超级碗投放的广告“The Heist”是为推广其Ray-Ban Meta智能眼镜而制作的。</strong></p>
+  <p>广告由《王牌特工》导演马修·沃恩执导，邀请了克里斯·帕拉特、克里斯·海姆斯沃斯和克丽丝·金纳等一线明星出演。</p>
+  <p>广告中，帕拉特和海姆斯沃斯在金纳的公寓里，使用智能眼镜识别艺术品，包括一个价值620万美元的香蕉艺术品，海姆斯沃斯还幽默地吃掉了香蕉。</p>
+  <p>Meta和OpenAI两个AI技术强劲的企业为什么只是将AI用作了提高生产效率的工具，而并未选择AIGC广告？这或许也离不开去年AIGC广告的巨大争议。</p>
+  <p>尽管AI技术发展迅速，但AIGC在内容生成的准确性和可靠性方面仍存在挑战，这主要也是由于AIGC可能难以捕捉和传达人类的情感和创意深度。</p>
+  <p><strong>另外最主要的还是当下观众对AI并不买账，信任度也较低，可口可乐的失败已经给AIGC广告敲响了警钟。广告的成功很大程度上依赖于与观众建立情感共鸣，使用观众不认可的形式实在还是过于冒险。</strong></p>
+  <p>最后一点是在于广告对品牌建设的长期价值。纵观全文，其实不管形式如何，每个能出圈的广告本身都是有传达意义的能力的，而AI显然不具备这一点。</p>
+  <p><strong>AI不同于人，AI只是工具，AIGC的广告大多都是意义模糊的，而人为制作的广告才能将思想与立意传达出去，这也是为什么OpenAI回顾了整个发展史，最后告诉我们：这一切都是工具。</strong></p>
+  <h2><strong>结语</strong></h2>
+  <p>在信息过载的时代，超级碗的广告，表明无论是通过聚焦女性的叙事、幽默荒诞的元素，还是简单而深刻的内容，<strong>成功广告的关键在于其能够在情感层面上与观众产生共鸣，并传达有意义的信息。</strong></p>
+  <p>此外，尽管AI技术不断进步，像OpenAI和Meta这样的公司选择将AI作为提升广告效果的工具，而不是完全依赖AI生成内容。这是因为<strong>AI生成的广告往往缺乏人类制作的广告所能提供的那种情感深度和创造力。</strong></p>
+  <p><strong>归根结底，能够在超级碗上脱颖而出并给观众留下深刻印象的，是那些能够真正触动人心并传达有意义信息的广告。</strong></p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3NDQ3NDEzMQ==&amp;mid=2653713837&amp;idx=1&amp;sn=f0fc512c423b2b94253b68d50f98cf2e&amp;chksm=85bf4a5078fb8054f2566d6c7d425bc67e0fa26b113866472a1c4dcc6d0aa487c0537dddc537&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“wj00816”（ID：Morketing）</a>，作者：Eric，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171973872910726</id>
+            <title>详解京东外卖：免佣一年，先让商家获益</title>
+            <link>https://www.36kr.com/p/3171973872910726</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171973872910726</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:39:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 京东外卖, 免佣金, 品质堂食, 商家招募  
+<br><br>  
+总结: 京东于2025年5月1日前启动外卖商家招募，承诺全年免佣金，并只招募“品质堂食餐厅”。这一政策迅速引发商家热情，申请入驻的数量超出预期。外卖市场规模庞大，但目前话语权主要集中在少数巨头手中。京东外卖的免佣政策被认为是吸引商家的有效手段，商家普遍期待京东能改善市场现状。京东外卖将通过严格审核确保入驻商家的品质，旨在提升消费者的信任度。尽管京东在外卖市场面临竞争，但其即时零售的经验和资源为其提供了优势。 </div>
+                        <hr>
+                    
+                    <p>2月11日，京东官宣启动外卖商家招募。公告称，2025年5月1日前入驻的商家，全年免佣金，并且只招 “品质堂食餐厅”。</p>
+  <p>#京东开启外卖服务#的话题很快冲上微博热搜，“0佣金”的消息也在商家群体中蔓延。不少人在第一时间就行动起来。“我们在第一时间就尝试申请入驻，目前还在对接审核中。”陕西一家连锁快餐店的老板叔华说到。</p>
+  <p>据了解，自招募信息公开以来，京东外卖团队收到了大量的入驻申请，数量超出他们此前的预期。目前审核人员正在加紧推进审核工作。社交平台上，大量的代理商和地推人员已经有所动作。2月16日，一位地推人员发帖表示：跑了六个小时、签了十家商户，微信上还聊成了五家。</p>
+  <p>商家们对此热情高涨。数位商家向我们表示，多个平台就多一条路，他们乐于见到京东入局外卖市场。“我们现在各店已经都在陆续注册加入京东外卖。”在北京经营十几家铜锅涮肉、丝路美食等门店的陈杨表示。</p>
+  <p>外卖市场逐年扩张，到2024年已经成长为一个1.64万亿元规模的巨大市场。根据中国互联网络信息中心发布的《中国互联网络发展状况统计报告》数据，截至 2024年12月，我国网上外卖用户规模达5.92亿人，较2023年12月增长4777万人，占网民整体的53.4%。</p>
+  <p>但是，这样一个大体量的市场，目前只有少数几家行业巨头在主导。平台上的外卖商家尽管已经数以百万计，可话语权仍然相对较弱。如今京东外卖以0佣金的姿态入局，能否改变现有的市场格局和行业规则？</p>
+  <h2><strong>先做供给，再谈其他</strong></h2>
+  <p>“抓得很准，商家最在乎的就是这个佣金。”餐饮行业分析师、餐宝典创始人汪洪栋认为，京东外卖的免佣政策是一剂猛药，可以在短期内快速吸引商家。</p>
+  <p>前述地推人员在他的经验帖中写到，进店做业务推介时，80%的老板听到“0抽佣”会抬头，表现出对这个话题的兴趣。抽佣问题一直是横亘在商家和平台间的一座大山，不仅难以逾越，且近来双方的矛盾有愈演愈烈之势。</p>
+  <p>京东外卖在此时下场，并且做出了大力度“全年免佣”的优惠，对商家而言无疑是个好消息。目前，在京东App的秒送专区，“品质外卖”右侧已经搭建了专门的外卖招商“商家入驻”入口，或在京东App上搜“外卖入驻 ”即可提交申请材料。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ac4f96619dfa4b47bd8ac30f28500996@000000_oswg342783oswg928oswg730_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">京东App秒送专区有了“商家入驻”入口</p>
+  <p>不过，就当下来说，大多数城市仍然无法在秒送专区看到京东外卖的入口。这一是因为京东尚未在部分城市开放外卖业务，二是因为一些城市的“供给”还不足，也就是商家数量还不多，无法为用户提供较好的服务。平台需要等到供给达到一定标准，才会将“外卖”开放给用户。</p>
+  <p>有接近京东外卖业务的人士表示，目前观察下来，京东做外卖应是分为了不同的阶段，当前的阶段是先搞定供给，让商家进来;接下来，可能会去做骑士的招募，把配送端匹配好;再下一阶段应该会推出营销、补贴等活动，做用户吸引，逐步把订单量做起来。</p>
+  <p>在跟我们的交流中，不少商家担心京东外卖后续能否吸引用户。上述人士提到，现在整个供给的密度上不来，缺乏规模化效应，盲目投入补贴用户就没有太大意义。“一步一步来。”</p>
+  <p>与其他平台相比，京东外卖一个显著的不同点就是只接入“品质堂食餐厅”。外卖业务官宣前，京东上几乎只有知名连锁品牌入驻，包括尊宝披萨、袁记云饺、真功夫、绝味鸭脖、汉堡王、鱼你在一起等。近几天，外卖板块已经开始出现个体商家的身影。</p>
+  <p>黑外卖、幽灵外卖等行业乱象催生用户对品质的追求愈发强烈，大家普遍期待可以“闭眼选，放心吃”。为保证入驻的皆为“品质堂食餐厅”，京东会通过审核营业执照、审核门店照片、销售人员线下拜访核验等方式确保品质；后续也会不断提升全方位审核能力，为消费者提供品质外卖选择。</p>
+  <p>品质外卖的定位除了让消费者吃得更安心，也让很多堂食餐厅的老板看到了更多可能。</p>
+  <p>“京东是有堂食的店才可以上，这就可以淘汰那些纯外卖店，我们这些小商家才可以有更多机会。”大理一家烧烤店老板表示。</p>
+  <p>陈杨也被外卖行业长久以来的小作坊、“幽灵外卖”问题所困扰。提起这个，她多有愤懑：“我们这种食品安全有保障的正规店铺并没有得到市场应有的认可与成正比的收入，反而是没有实体店铺的小作坊月售8千+、1万+。他们投入的成本更低，安全也保障不了。”</p>
+  <p>京东外卖主打品质外卖，从这一点来看，陈杨认为对于消费者和正规商家来说都是福音。</p>
+  <h2><strong>做外卖，京东胜算几何？</strong></h2>
+  <p>京东并非美团、饿了么之外第一家入局外卖赛道的大公司，但现阶段的市场仍然以这两家平台为主，可见外卖这场“仗”并不好打。美团和饿了么已经在市场上建立了成熟的配送网络、配套技术和服务，也拥有稳定的用户基础。“新进的平台必须比美团和饿了么更好，才会有人去。”一位杭州的面馆老板说到。</p>
+  <p>在上述接近京东外卖业务的人士看来，京东有沉淀下来的即时零售运营能力，有头部的配送团队，放眼市面上的大公司，真正具备能做外卖能力的可能就是京东。</p>
+  <p>京东对即时零售的布局最早可以追溯至“京东到家”业务。2015年4月，京东成立了京东到家，依托达达快送，为消费者提供超市便利、生鲜果蔬、医药健康、家居时尚、个护美妆等商品，约1小时配送到家。</p>
+  <p>到2024年，京东到家已经上线超过60万全业态实体门店，业务覆盖全国超2400个县区市，提供了全品类小时达服务。</p>
+  <p>2024年是京东即时零售动作频出、全面升级的一年。其先是在3月推出“全品类满29元免运费”，随后在5月将“小时达”和“到家”品牌整合为“京东秒送”，并推出了新的业务标志形象，强调最快“9分钟内送达”。京东即时零售的商品资源由此进行了一次大的整合。8月，京东旗下的配送平台达达快送更名为达达秒送。目前，除自配送商家外，京东外卖的配送工作便是由达达秒送承担。据悉，达达秒送年活跃骑手数量已近130万，可为外卖业务提供运力保障。</p>
+  <p>经过多年即时零售业务的打磨，京东秒送已经在线上运营、履约配送等方面积累了一定的经验。餐饮外卖是即时零售业务的重要内容，京东终于在开始布局的十年后将这块拼图补齐。</p>
+  <p>虽然有较大的市场呼声和过往的经验积累，但京东在做外卖这件事上依然是小心翼翼地迈着步子，并未高举高打。</p>
+  <p>京东的外卖是先从餐饮的“饮”上入手的。业内人士分析，因为饮品市场的头部商家更聚集，连锁更多，单品数量小于餐食，所以更适合以此为切入点，来做业务初期的能力打磨。</p>
+  <p>从2024年5月到9月，“饮”的订单量逐渐起势。这也给了京东进一步做餐饮外卖的信心。春节期间，消费者和商家对京东做外卖的呼声更为高涨，在有一定前期准备的情况下，京东这才正式面向市场推动外卖业务，可谓天时地利人和。</p>
+  <p>由于外卖业务刚起步，对于商家而言，现阶段除了免佣金和品质外卖路线，尚未看到京东外卖有更多市场动作。不过上述杭州面馆老板表示，他理解现在京东外卖的团队还处在建设阶段，很多服务未必成熟，但他有耐心等。</p>
+  <p>不少商家对京东心存好感。这两年叔华的在线购物软件几乎只用京东，她认为京东有底线，不会一味压榨商家。大家心里也明白，一年免佣只是前期吸引商家的政策，后续肯定会有抽佣，但结果肯定会比当下的市场现状要好。</p>
+  <p>*应受访者要求，叔华、陈杨为化名</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzk0NzY4ODUzOQ==&amp;mid=2247520614&amp;idx=1&amp;sn=e9335e7a9b45270083c98ba9f18212b1&amp;chksm=c2da802d6043293c0d31caed133d00f60832b9ae03a7814f66dd9a443f4f1185494b64eb71fb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半熟财经”（ID：Banshu-Caijing）</a>，作者：李莹，编辑：余乐，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171958597304713</id>
+            <title>苹果的下一个「Apple Watch」，将戴在你的耳朵上</title>
+            <link>https://www.36kr.com/p/3171958597304713</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171958597304713</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:38:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 耳机, 心率监测, 健康管理, Apple Watch  
+<br><br>  
+总结: Beats发布的PowerBeats Pro 2耳机引入了心率监测功能，尽管这一功能在耳机上看似不搭调，但实际上有其科学依据。耳朵是心率监测的理想位置，能够提供更准确的数据。与Apple Watch相比，PowerBeats Pro 2在运动时的心率监测体验尚不完善，但其潜力巨大。苹果可能在未来的AirPods Pro 3中进一步优化这一功能，推动耳机成为健康管理的重要工具。心率监测的引入不仅能帮助用户及时发现健康问题，也可能促进整个行业的健康可穿戴设备发展。 </div>
+                        <hr>
+                    
+                    <p>时隔 6 年，Beats 终于发布了第二代 PowerBeats Pro 2 耳机。但比起它的设计、音质、续航等等传统要素，大家讨论的重心，是一个和耳机甚少交集的全新特色功能：心率监测。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_83d96899a6014d81bc8f85a199e3748f@000000_oswg45747oswg720oswg480_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不少人的第一反应可能是一个大大的问号：心率监测？在耳机上？然后开始质疑这个功能是不是又一个科技品牌没活硬整的噱头。</p>
+  <p>这个看着有点不搭调的组合，其实背后有一个非常坚实的逻辑在支撑。</p>
+  <h2><strong>耳机和心率传感器很相配</strong></h2>
+  <p>在 PowerBeats Pro 2 耳塞一旁，胶囊形状的黑色模组，就是耳机的心率传感器。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_61d0488fbd2545589e851f673195d1c9@000000_oswg35808oswg720oswg480_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>传感器由四个组件构成：</p>
+  <ul>
+   <li>LED 传感器，每秒超过 100 脉冲的速度射出绿色 LED 光，穿过皮肤击中血液的红细胞</li>
+   <li>光电二极管，接收由红细胞反射的经过血流调幅的光线</li>
+   <li>光学透镜，用于引导和分离发射光和反射光</li>
+   <li>加速感应器，消除运动伪影，确保数据采集的准确性和一致性</li>
+  </ul>
+  <p>Beats 表示，这个心率传感器技术，很大一部分来自于其母公司苹果在 Apple Watch 上的成果。</p>
+  <p>如果仔细将两者进行比对，就会发现 PowerBeats Pro 2 这个心率传感器就像是从 Apple Watch 的背面拿下的精简缩小版，二者在运作时都会发出绿光。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0cdea8cd5ce145f0973816940b6a788b@000000_oswg70310oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>和 iPhone 完成配对之后，PowerBeats Pro 2 心率检测器默认打开，只要戴在耳朵上，不需要像 Apple Watch 那样打开运动模式，就能进行实时的心率监测，每 5 秒在「健康」应用输出一次数字。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_acc49d62b11a42ed82dd38fbb083f447@000000_oswg45338oswg525oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Apple Watch 在打开「心脏」应用后，也能进入 5 秒一次的实时测量模式，我将这个数字与 PowerBeats Pro 2 测量的数据进行比对，发现两者的数字极其接近，差距不超过 2。</p>
+  <p>要把心率测准，找对位置非常重要。虽然市面上大部分健康可穿戴设备都是手表或手环形态，但手腕其实并非最理想的测量部位。</p>
+  <p>生物识别技术公司 Valencell 曾经对人体多个部位进行了测试，<strong>发现可穿戴设备能够在耳朵上收集最准确的心率。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2f667696217c4554884c44701ba049c2@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>比起手腕，耳朵要更加稳定，即使身体在运动，也能保持相对的静止。</p>
+  <p>耳朵的生理结构也很适合心率监测：以软骨为主，还拥有理想的动脉群，并直接连接到颈动脉系统，血液特征能够更准确反映心脏的真实情况。</p>
+  <p>外网最近在流行一个有点匪夷所思的趋势，让我看到像 PowerBeats Pro 2 这种产品成立，甚至成功的关键因素：<strong>不少人选择把 Apple Watch 戴在脚踝上</strong>，看起来有点像欧美国家的「电子脚铐」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_11f4f0c573c5452a8c1be2e52a7ab3b8@000000_oswg146230oswg1024oswg786_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：New York Times</p>
+  <p>这不是吃饱了没事干，背后都有一些很无奈的理由：有些人的手臂太细，市面上很难找到能用的表带；有些医护人员因为职业原因不能戴手表；也有的人只是单纯不习惯手上绑一块这么重的东西。</p>
+  <p>这恰恰说明，对于用户来说，<strong>测量的准确性，其实还没有设备使用的便利程度重要。</strong></p>
+  <h2><strong>心率检测对运动很重要</strong></h2>
+  <p>但这又带来了一个问题：对比几乎可以 24 小时佩戴的手表，耳机无法长时间佩戴，所以不能提供健康风险预警和睡眠检测这些功能，更适合的场景是运动。</p>
+  <p>相信不少小伙伴都有保持日常锻炼的习惯，我粗暴地区分成两拨人：用和不用智能手表的。</p>
+  <p>用智能手表的理由很简单，都是为了记录锻炼数据；不用的理由则千奇百怪，有的人可能是上文提到的无法或者不爱用手表，或者干脆没有这个意识。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cb4656820210437badbdeedaf7f19179@000000_oswg43899oswg780oswg438_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>可能不少人都觉得，我平时就简单跑跑步，有必要额外买个设备吗？</p>
+  <p>公司有个小伙伴是 Apple Watch 用户，去年有段时间感觉心脏不太舒服，但手表上的数据都还算正常。最后他还是选择去医院检查，常规的心电图后，医生让他贴着仪器上一下跑步机，发现他存在心脏早搏问题，在运动时更加明显。</p>
+  <p>所以看到 PowerBeats Pro 2 时，他虽然现在不常运动，还是站在一个从业者的角度，点赞了这个产品。</p>
+  <p>心率可以说是人体状态最直接的反馈，在进行锻炼的时候，很多人或许都没意识到，自己的运动量已经超出了自己的负荷，不仅长期以来容易造成心血管等疾病，还很有可能直接急性发作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_53333cdfcf7c4a889ba8892f71afc050@000000_oswg126066oswg1024oswg560_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>北京大学第三医院心内科副主任医师赵威表示，<strong>常见的运动性猝死都是心源性猝死，大部分由于潜在的心脏疾病导致。</strong></p>
+  <p>特别是不少想要锻炼减重的小伙伴，会更倾向于给自己加运动强度，同时又可能会因为体型原因，心血管功能不是特别好，更需要心率检测。</p>
+  <p>而有一些在前期比较隐性的心血管问题，比如上文小伙伴的早搏，在运动时更容易被检测出，从而及时获得帮助。</p>
+  <p>耳机还有一个先天的优势：<strong>它是一个绝佳的运动搭子。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_393f2468291541d38b5c8bc5e1c326d1@000000_oswg60249oswg1024oswg592_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>锻炼时听个音乐找节奏，或者放播客缓解无聊，顺便隔绝健身房想给你卖课的教练..... 总之去健身，我会忘记带水壶，但很少忘记带耳机。</p>
+  <p>锻炼时你可能不会主动选择在手上戴一个设备，但头上基本上都会有一副耳机，如果耳机能测心率，相信大部分人都不会拒绝。</p>
+  <p>不过，目前 PowerBeats Pro 2 在锻炼中的体验明显还没完善，给人感觉只是给用户上了一个功能，而不是一种体验，使用起来非常的「不苹果」。</p>
+  <p>和抬起手腕就能看数据的手表不同，耳机的数据都反馈在手机应用当中，所以实际上在佩戴 PowerBeats Pro 2 做运动时，用户根本没法实时查看自己的心率如何，也没有高心率或低心率通知，只能通过询问 Siri 的方式来曲线救国。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e4e9b15ae48147df810805ca4ef7e3e4@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>一副能测心率的耳机，其实很重要</strong></h2>
+  <p>能测心率的耳机其实并不新鲜，国外品牌捷波朗，国产大牌如华为、OPPO、荣耀等等都推出过，但这些产品都反响平平。</p>
+  <p>只是这没有停住苹果前进的脚步，PowerBeats Pro 2 只是一次试水，关于 AirPods Pro 3 的爆料，基本上都提到它将会突破传统耳机的形式，通过全新的传感器来收集用户的身体数据，甚至还可能带有一个微型摄像头。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c8db25afb7f74fd3b9482ee0e5635719@000000_oswg28152oswg1024oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">AirPods Pro 2</p>
+  <p>其实关于 AirPods 搭载健康监测功能的可能性，在五六年前就已经进行过不少讨论。对于钻研 Apple Watch 长达十年的苹果来说，最大的挑战就是如何把那些手腕上的传感器塞进迷你的耳机里。</p>
+  <p>而 PowerBeats Pro 2 那颗酷似 Apple Watch 等比缩小版的传感器，证明苹果已经跨过了技术的难关。</p>
+  <p>既然苹果选择只在子公司的一款产品上首发这项技术，<strong>说明苹果可能为 AirPods Pro 3 准备了更多大招。</strong></p>
+  <p>有消息称，AirPods 未来不仅只能监测心率，体温等其他身体参数也已经在计划当中。</p>
+  <p>或许 PowerBeats Pro 2 锻炼时这种还不尽如人意的心率检测体验，还需要等亲儿子 AirPods Pro 3 推出后，苹果才会进行适配和优化。</p>
+  <p>AirPods 这个离大脑更近的佩戴位置，也意味着它的潜力不仅成为一个 Apple Watch 的代替。</p>
+  <p>一份专利披露，苹果正在探索一套用于 AirPods 的传感器系统，在耳塞上放置大量的触点和电极，可以捕捉生物信号和大脑的电活动，从而测量脑电图、肌电图、眼电图等数据。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_784e673587e14cbcb91bd3b3f862811b@000000_oswg35734oswg867oswg524_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：Patently Apple</p>
+  <p>对苹果来说，AirPods 已经不是一个单纯谈音质、降噪的普通耳机，而是一个覆盖更多人的健康管理系统。</p>
+  <p>毕竟戴智能手表的用户不算特别多，但基本上人人都会有一副无线蓝牙耳机。根据 IDC 的数据，可穿戴设备中，蓝牙耳机的出货量已经接近智能手表的两倍。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_568755720993410aaadf5894df998958@000000_oswg222447oswg1024oswg584_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">耳机的出货量未来几年还会不断增长，图源：IDC</p>
+  <p>买一副能检测心率的耳机，其实用户还是主要冲着耳机本身好不好听降不降噪去的，健康功能只是添头。这更像是苹果借助畅销的耳机产品，将自家的健康管理系统介绍给更多用户，或许还能拉动 Apple Watch 的销量。</p>
+  <p>虽然耳机做不到像手表那样持续性的身体数据监控，但长期的数据收集，也能或多或少检测出身体的变化。而上文提到的运动锻炼，那就是和耳机更加契合的落地场景。</p>
+  <p>不管是全世界范围还是国内，心血管疾病都是城乡居民疾病死亡构成的头号杀手。而根据世卫组织《2023 世界心脏报告》，<strong>超过 80% 的过早心脏病发作和中风都可以被预防。</strong></p>
+  <p>Apple Watch 和 AirPods 不能代替正规医疗程序，但是它是一种更普遍的个人监测工具，可以捕捉那些不太显眼的身体信号，让用户能及时去获得需要的健康援助。</p>
+  <p>这有点像 AirPods Pro 2 已经实装的「听力检测」和「助听器」功能，并非代替正规医疗，只是帮助更多大量潜在听力损伤用户发现健康问题，并获得帮助。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5d2362d3eb934dc1b1be59f89f71f96a@000000_oswg181756oswg1024oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>如果想要避免重蹈友商的覆辙，<strong>苹果需要通过长期的努力引导消费者和用户接受、习惯，最终爱上这种耳机</strong>，就像他们对 Apple Watch 做得那样 —— 从不被看好，到成为公司仅次于 iPhone、iPad、AirPods 的畅销产品，成为一种被更多人接纳的生活方式。</p>
+  <p>作为头部厂商的苹果的带动作用，也会推动整个行业跟进相关领域。未来会有越来越多厂商将耳机纳入自己的健康可穿戴生态体系，也会有更多用户去在意自己的耳机能不能测心率、体温，从而挽救更多生命。</p>
+  <p>这就是心率检测登陆耳机产品的价值：<strong>一次范围更广的健康平权。</strong></p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652397825&amp;idx=1&amp;sn=67e9a362bbaa45114fc73bb96e09a50a&amp;chksm=9ac7057da085edba4589a37a86b1466aba983cef2fcd33c478f51bccc1f9dfa38e0ba226187f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：苏伟鸿，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171969149911938</id>
+            <title>“AI+机器人”，是科技圈的“哪吒+敖丙”？</title>
+            <link>https://www.36kr.com/p/3171969149911938</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171969149911938</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:34:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <人形机器人, 具身智能, AI技术, 市场发展>
+<br>
+<br>
+总结: 本文讨论了人形机器人在春晚上的表演引发的热议，强调了AI技术的赋能使得机器人智能化程度提升。具身智能被视为未来发展方向，市场对人形机器人的前景持乐观态度，预计到2050年市场规模将达7万亿美元。尽管目前机器人产品多为科研展示，商业化进程仍面临挑战，但与工业机器人结合的潜力被看好。未来，医疗、农业等领域也将成为机器人的新蓝海。 </div>
+                        <hr>
+                    
+                    <p>除了 DeepSeek ，开年被讨论最多的，或许就是春晚上的 16 位 “ 显眼包 ”—— 来自宇树科技的人形机器人 Unitree H1 。它们一身黑色骨架，上身套东北花棉袄，不仅能变换队形、舞动身体，还可以转手绢、抛手绢，步伐堪比真人。</p>
+  <p>这一技术展示不仅在国内引起了热议，也获得了国际媒体的广泛关注。新加坡《联合早报》报道称“春晚机器人舞动AI（人工智能）雄心。”英国《卫报》将其称为“数字时代的红色警戒”，德国《明镜周刊》则警示“科技铁幕正在形成”。</p>
+  <p>人形机器人不是新鲜事物，早在上个世纪八九十年代就有企业立项、研发，并给出概念机型，但受限于技术条件并未继续发展。</p>
+  <p><strong>此次“翻红”，主要是AI赋能。</strong>IDC中国研究经理李君兰告诉DoNews，随着AI、IoT等技术与机器人的深度融合，当前机器人在感知识别、学习理解与分析决策方面的进展，使其智能化程度更上一层楼。</p>
+  <p>尤其是DeepSeek的爆火，其多模态能力与低成本特性被认为将赋能更多企业，未来中小公司也能造出“聪明”的机器人。业内人士表示，这将极大推动AI技术在制造业中的应用。</p>
+  <p>在资本市场上，机器人相关产业的热度持续攀升。以机器人ETF（562500）为例，2025年2月6日其规模一举突破60亿大关。蛇年的第一个交易日，人形机器人概念股高开回落，龙头股智信精密一度到20%涨停。</p>
+  <p>凭借新物种从0到1的高成长性，机器人正成为市场跟进的重点对象。</p>
+  <h2><strong>01.一股“具身智能”风暴</strong></h2>
+  <p>2024年7月，WAIC（上海世界人工智能大会）展出“十八金刚”，成为全场最靓的仔。8月，在北京闭幕的世界机器人大会中，人形机器人站在“C位”主角，官方称这是人形机器人数量最多的一届大会。</p>
+  <p>到今年年初的CES 2025展会，机器人们已经不再是橱窗里站着不动、看上去酷炫的冷冰冰的摆件了，人形机器人、陪伴机器人持续涌现，直接在现场整起了“花活儿”：可以后翻空、倒立、焊接、“抓”东西，还能做家务，提供情绪价值。</p>
+  <p>场面上很热闹，但深入内里，其发展离不开大模型的火热。</p>
+  <p>这里要提到一个概念：具身智能。其字面意思是“具有身体的人工智能”，铺开理解，是指AI融入机器人等物理实体，赋予它们像人一样感知、学习和与环境动态交互的能力。</p>
+  <p>随着政策、资本、产业、学术界的共同推动，具身智能被视为未来发展方向。黄仁勋在CES 2025上曾公开喊话，下一波人工智能浪潮将是一种被称为「具身+AI」的新型人工智能。马斯克则更加激进，他认为到2040年，全球至少会有100亿个具身机器人投入使用，具身机器人的数量可能会超过人类。</p>
+  <p>需要特别说明的是，马斯克并不是要把100亿个人形机器人搬到大街上，四足机器人、轮式机器人、履带式机器人、人形机器人等都是“具身”的一部分。其中，人形机器人被视作具身智能的最佳载体，大多人认为，像人一样外形设计，其适应能力要大大强于诸如机械臂、圆盘型等“非人形”设计。</p>
+  <p>市场对人形机器人非常看好。据花旗银行发布的预测，到2050年，全球人形机器人市场规模将达7万亿美元，全球人形机器人数量将达到6.48亿台。2024世界人工智能大会上发布的《人形机器人产业研究报告》显示，到2029年，中国人形机器人市场规模有望扩大至750亿元，到2035年，这一市场规模有望进一步提升至3000亿元。</p>
+  <h2><strong>02.赛道正在被挤满</strong></h2>
+  <p>正所谓「独行快，众行远」，具身智能正吸引越来越多的企业投身其中。</p>
+  <p>一方面，专注于具身智能大模型、人形机器人整机或与产业相关的企业不断涌现。除了优必选、宇树、新松机器人等领跑者之外，还包括星动纪元、星海图、逐际动力、银河通用等众多新锐人形机器人厂商，以及穹彻智能、千寻智能、若愚科技等专注于大模型技术研发的“新秀”。</p>
+  <p>另一方面，华为、小米、vivo等手机大厂也纷纷涉足具身智能领域。</p>
+  <p>小米在2017年就开始了机器人领域的布局，2021年9月正式成立机器人事业部，成为国内首个跟进的头部厂商；华为则选择通过华为云机器人平台为企业提供技术支持，基于开源鸿蒙系统的人形机器人KUAVO（夸父），可以看做是华为机器人生态战略的重要成果；vivo在2023年提出未来计划切入人形机器人领域，公司首席运营官胡柏山更是表示，手机行业最适合发展人形机器人，“甚至没有之一”。</p>
+  <p>除了手机大厂，特斯拉、比亚迪、广汽集团、小鹏汽车、奇瑞汽车等多家车企也已布局机器人这一新蓝海。</p>
+  <p>特斯拉早已有先例，在2021年的“特斯拉AI Day”上，马斯克就提出了人形机器人项目，并于次年正式发布“Optimus”原型机。国内车企阵营也悄然掀起一股具身智能布局热：比亚迪投资的是智元机器人（B站UP主彭志辉创办），致力于打造具身智能机器人产品；奇瑞汽车全资持股安徽墨甲智创机器人公司，该公司于2025年1月7日成立，专注于智能机器人的销售、研发以及人工智能软件的开发。</p>
+  <p>何小鹏曾公开表示，小鹏可能是国内所有车企最重视AI的，可能也是国内最早量产大模型的车企。小鹏的AI机器人Iron，外形是1:1的拟人形态，应用了小鹏自研的图灵AI芯片以及天玑AIOS。据了解，这位机器人已经在小鹏广州工厂“拧螺丝”了。</p>
+  <p>无论是计划时还是进行时，机器人这一最受关注的细分赛道正吸引着各行业的巨头。</p>
+  <h2><strong>03.工业领域或先“冒尖”</strong></h2>
+  <p>虽说机器人领域热闹非凡，各家企业也纷纷亮出“看家法宝”，但大多数产品仅限于科研成果的展示，商业化相对较少。正如同圈内流传的一句话，「现在的具身智能机器人，就像是装修好的样板房，看着漂亮，住不了人。」</p>
+  <p>事实上，行业发展正面临着艰巨挑战。某业内人士称，目前的具身智能缺乏通用基础大模型，仍需要人类智能的介入。即便是发展迅速的人形机器人，也处于训练特定任务的阶段，缺少海量的高质量数据，应用场景和商业模式还不够清晰。</p>
+  <p>不止技术受限，还有成本问题。具身智能发展的终极目标是机器替代人，这意味着只有具备足够的经济性才能大范围应用。而据盖世汽车研究院分析，目前人形机器人单价大约在10万美元左右，预计未来至少实现几十万台的量产规模，才有望降至2-3万美元。</p>
+  <p>Gartner高级研究总监Mike Fang接受DoNews采访时表示，具身智能产业目前还处在一个「炒作曲线」比较早期的阶段，“整个产业可能需要2-5年才能逐步成熟。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c1090d57254f49d2a5156640869c7885@000000_oswg135753oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">AI炒作周期 图源：Gartner供图</p>
+  <p>Mike Fang认为，目前相关技术仍处于早期阶段，尤其是在机器人AI模拟、数据采集和基于物理学的第一性原理AI能力等方面。“虽然强大的模型是具身智能的核心，但仅靠单一模型不足以实现全面突破。未来需要通过多模态理解、结合大量模拟数据和物理学驱动的AI，才能推动具身智能的工业化落地。”</p>
+  <p>但这并不代表具身智能的发展就会减缓甚至停滞，配天机器人CTO郭涛向DoNews表示，短期内具身智能最佳的落地场景，是与工业机器人相结合。</p>
+  <p>“尽管工业机器人看上去已经非常成熟了，但其实还有大量的应用场景是无法覆盖的。</p>
+  <p>传统工业机器人的‘预编程’模式，比较适用于‘单一品种大批量生产’的行业，比如造车业；但是针对‘多品种小批量生产’甚至是‘单品定制’模式主导的行业，比如船舶制造、航空航天等行业，此类行业工件的标准化程度较低，每次焊接的过程中，若采用传统的机器人焊接系统，则需要大量时间对机器人进行编程，极大降低了工作效率。</p>
+  <p>此外，与大型企业不同，中小企业的订单分散且多样化，每个订单需求各异，导致生产频繁切换。传统机器人需要重新编程，耗时可能长达半天，难以适应中小企业灵活的生产需求。”</p>
+  <p>郭涛认为，工业本身的特性，会使得具身智能在刚起步不成熟的阶段也有可能落地。这种特性有三方面：</p>
+  <p>一是可以传输数据，通过云平台触及之前的运行数据，是编程的基础；二是可控，比起家用，工厂的环境基本稳定；三是在工业领域，机器人只需要专注于特定任务即可，而把它放在家里，主人只会希望它可以什么都干。</p>
+  <p>事实上，<strong>把具身智能和传统工业机器人相结合已成为行业共识。</strong>顶着“人形机器人第一股”光环的优必选，旗下的Walker S系列已成为全球进入最多车厂实训的人形机器人。</p>
+  <p>不过自上市以来，这家公司就争议不断。财报显示，其工业机器人所带来的营收远不及教育机器人、消费机器人。2024年底，随着几则公告和投资人减持，优必选股市收报54.95港元/股，下跌12.01%，盘中最低价触及54.60港元/股，创下近一年新低。今年年初的2025 CES上，优必选「低调」到只展出了一款智能割草机。</p>
+  <p>如何平衡机器人“进厂”后的收益与成本，是企业面临的重要课题之一。不过，配天对此依旧持乐观态度，工作人员认为，具身智能一方面可以解决目前传统工业机器人解决不了的问题，另一方面还可以降本增效，进一步扩大市占率，“这个市场规模会极大，甚至比现有的市场还大得多。”</p>
+  <h2><strong>04.撬动万亿级新蓝海</strong></h2>
+  <p>在众多机器人子领域中，工业机器人占据业内最大的市场份额。在人形机器人领域，中国目前已处于全球第一梯队。宇树科技创始人王兴兴近日表示，硬件方面，中国在生产制造、迭代速度等多方面都更具优势。软件方面，就人工智能技术本身来说，与国外先进水平差距并不大，但在算力芯片和AI人才储备方面需要补齐。</p>
+  <p>除了工业领域，未来还有哪些市场会成为机器人的新蓝海？DoNews与IDC中国研究经理李君兰探讨了相关可能性，对方认为，<strong>医疗健康与康复机器人、农业机器人、特种应用机器人、家庭服务机器人</strong>等会迎来更高更快的增长。</p>
+  <p>“我们也看到了，现有机器人已经从过往单一功能向多功能复合发展，同时AI等新兴技术的融合，也正使其具备了更强的自主和灵活适应性，所以有工业机器人如协作机器人向医疗、农业等行业拓展应用。”</p>
+  <p>值得一提的是，已有公司将机器人送至医疗民生领域。来自上海的机器人公司傅利叶，目前已推出专业级医疗具身机器人，率先在康复陪护等民生场景中应用，未来还有望从事家政服务、养老陪护、教育、医疗等工作。</p>
+  <p>在农业机器人领域，国家级专精特新小巨人企业——中科原动力近日完成近亿元B1轮融资，旗下农机无人作业系统、新能源智能农机整机、采摘植保运输机器人深度融入旱田、水田、大棚、林果、畜牧等场景，并实现了商业化、规模化应用。</p>
+  <p>李君兰告诉DoNews，未来机器人行业将呈现多方面的发展趋势，其中多个关键技术与应用场景值得重点关注。</p>
+  <ul>
+   <li><strong>3D视觉和触觉感知能力的提升</strong></li>
+   <li><strong>轻量化模型加速落地</strong></li>
+   <li><strong>仿真环境与世界模型的持续完善</strong></li>
+   <li><strong>数据集共建共享</strong></li>
+   <li><strong>多种机器人载体形态共同发展</strong></li>
+   <li><strong>细分场景下的具身智能机器人展现应用价值</strong></li>
+   <li><strong>人形机器人在商用服务和特种应用领域，有望实现小规模商用落地</strong></li>
+  </ul>
+  <p>如果说去年机器人行业比拼的是各家的技术实力，那么今年将呈现多维度的挑战：技术成熟度的提升、成本的降低、产业合作进程、公众的接受度等等，都是企业和市场需要一一突破的难题。</p>
+  <p>任何产业的发展都有波动曲线，也许会面临多个低谷期，但机遇已摆在面前，拿不拿得到，全凭本事。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwMDUwNzEwNA==&amp;mid=2247622344&amp;idx=1&amp;sn=38112a19e29feb91d998dd6e2e6c44e8&amp;chksm=c1b57f9b66997230d64144599c3a5cb64cbaf7d0c05ddc90050e23ccb30e3e064d7791e7eb6d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“DoNews”（ID：ilovedonews）</a>，作者：雁秋，编辑：李信马，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171930702954882</id>
+            <title>PCIe 6.0借AI开启商用，7.0即将登场</title>
+            <link>https://www.36kr.com/p/3171930702954882</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171930702954882</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:19:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <PCIe, 数据传输, 商业化, 人工智能>
+<br>
+<br>
+总结: PCIe技术自2003年推出以来经历了多个版本的演进，从PCIe 1.0到PCIe 6.0，数据传输速率不断提升，满足了计算机硬件和数据中心对高速传输的需求。PCIe 6.0的商业化已开始，支持高达256GB/s的双向带宽，主要应用于数据中心和人工智能等领域。随着PCIe 7.0的引入，光学连接技术将被应用，进一步提升数据传输速率和稳定性。未来，PCIe将成为AI基础设施市场的重要组成部分，满足对高速数据传输的高要求。 </div>
+                        <hr>
+                    
+                    <p>大部分人连 PCIe 4.0 都未普及，即使是 PCIe 5.0的产品也只是少量推出，不过厂商们才不管这些，甚至开始推出PCIe 6.0的产品了。例如著名的主控厂商慧荣就已经开始为 PCIe 6.0 准备新的主控芯片，最高速度或许可以突破 30GB/s。PCIe 6.0的标准已经推出三年，如今商业化落地的曙光已现。</p>
+  <h2><strong>PCIe 的起源和发展</strong></h2>
+  <p>在计算机技术不断演进的历程中，数据传输的效率始终是制约系统性能提升的关键因素。早期，传统总线技术如 PCI（Peripheral Component Interconnect）在计算机硬件连接中占据主导地位。然而，随着计算机硬件性能的飞速发展，尤其是 CPU 性能的大幅提升以及各种高速外部设备的涌现，传统总线技术逐渐暴露出诸多瓶颈。例如，PCI 总线的带宽有限，难以满足高速显卡、大容量存储设备等对数据传输速率的需求，成为了系统性能进一步提升的阻碍。</p>
+  <p>为了解决这些问题，PCI Express（PCIe）应运而生。PCIe 采用了全新的串行连接方式，取代了传统 PCI 的并行连接，极大地提高了数据传输的效率和稳定性。</p>
+  <p>PCIe 1.0 版本于 2003 年正式发布，它的出现标志着计算机总线技术的一次重大变革。PCIe 1.0 的每个通道单向传输速率可达 2.5Gbps，双向就是 5Gbps，每个通道的最大传输速率为250 MB/s。相比传统 PCI 总线，PCIe 1.0 在传输速率上有了质的飞跃，能够更好地支持当时逐渐兴起的高速显卡等设备，使得计算机在图形处理能力上得到显著提升。在实际应用中，PCIe 1.0 接口的显卡能够更流畅地运行大型 3D 游戏，为玩家带来了更好的视觉体验。</p>
+  <p>随后，PCIe 2.0 版本在 2007 年推出。该版本将每个通道的传输速率提升到了 5Gbps，双向 10Gbps，带宽相比 PCIe 1.0 翻倍，每个通道的最大传输速率为500 MB/s。这一提升使得 PCIe 2.0 能够更好地适应数据量不断增大的存储设备和网络设备。例如，企业级的磁盘阵列系统采用 PCIe 2.0 接口后，数据读写速度大幅提高，提升了企业数据存储和处理的效率。</p>
+  <p>2010 年发布的 PCIe 3.0 版本再次将每个通道的传输速率提高到 8Gbps，双向 16Gbps。PCIe 3.0 在保持与前两代产品兼容性的同时，进一步优化了协议，降低了延迟，提高了数据传输的效率，每个通道的最大传输速率为1 GB/s。在计算机硬件领域，PCIe 3.0 广泛应用于高端服务器、工作站等设备中，为多核心 CPU 与高速存储设备、网络设备之间的数据交互提供了高效的通道，推动了企业级数据处理能力的提升。</p>
+  <p>PCIe 4.0 版本于 2017 年发布，它是 PCIe 技术发展历程中的又一个重要里程碑。PCIe 4.0 将每个通道的传输速率提升到了 16Gbps，双向 32Gbps，带宽相比 PCIe 3.0 再次翻倍，每个通道的最大传输速率为2 GB/s。这一巨大的带宽提升为数据中心和高端显卡等领域带来了革命性的变化。</p>
+  <p>在数据中心领域，随着云计算、大数据分析等应用的快速发展，数据中心对数据传输速度和存储性能的要求越来越高。PCIe 4.0 的出现使得服务器能够更快地读取和存储海量数据，大大提高了数据处理的效率。例如，采用 PCIe 4.0 接口的固态硬盘（SSD），其顺序读取速度可以达到 7000MB/s 以上，顺序写入速度也能达到 5000MB/s 以上，相比 PCIe 3.0 接口的 SSD 有了大幅提升，能够满足数据中心对高速存储的需求。</p>
+  <p>在高端显卡领域，PCIe 4.0 也发挥了重要作用。随着游戏画面越来越精细，对显卡的性能要求也越来越高。PCIe 4.0 为显卡提供了更高速的数据传输通道，使得显卡能够更快地从内存中读取数据，从而提升了游戏的帧率和画面质量。例如，在运行 4K 分辨率的大型 3D 游戏时，采用 PCIe 4.0 接口的显卡能够更流畅地渲染画面，减少卡顿现象，为玩家带来更沉浸式的游戏体验。</p>
+  <p>2019 年发布的 PCIe 5.0 版本继续延续了 PCIe 技术的高速发展趋势。PCIe 5.0 将每个通道的传输速率提升到了 32Gbps，双向 64Gbps，带宽相比 PCIe 4.0 再次翻倍，每个通道的最大传输速率为4 GB/s。PCIe 5.0 不仅在带宽上有了巨大提升，还在信号完整性、电源管理等方面进行了优化，进一步提高了系统的性能和稳定性。</p>
+  <p>在数据中心，PCIe 5.0 的应用使得服务器能够更好地支持大规模的虚拟化和云计算应用。通过 PCIe 5.0 接口，服务器可以同时连接更多的高速设备，如高速网卡、高性能 GPU 等，实现更高效的数据处理和传输。在人工智能领域，PCIe 5.0 也为 GPU 之间的高速通信提供了支持，加速了 AI 模型的训练和推理过程。例如，在一些大型 AI 训练项目中，采用 PCIe 5.0 连接的多块 GPU 能够更快地交换数据，提高了训练效率，缩短了训练时间。</p>
+  <h2><strong>PCIe 6.0 开始商业化落地，国产厂商开始布局</strong></h2>
+  <p>2022年1月，PCI-SIG组织正式发布了PCIe 6.0标准规范，也是该技术诞生以来变化最大的一次，不仅带宽继续提升，底层脚骨和功能特性也发生了翻天覆地的变化。2022年1月27日，Rambus全球首个发布了完全符合PCIe 6.0的控制器，支持全部新特性，主要面向高性能计算、数据中心、人工智能与机器学习、汽车、物联网、国防、航空等高精尖领域。该控制器支持PCIe 6.0 64GT/s传输数据率，x1通道即可带来8GB/s的单向物理带宽(相当于PCIe 4.0 x4)，x16则高达128GB/s，双向就是256GB/s。目前，PCIe 6.0 已经开始在全球范围内商业化落地，众多企业正在推出基于 PCIe 6.0 技术的产品。</p>
+  <p>美光去年8月发布了行业首款PCIe 6.0 固态硬盘（SSD）。这些 SSD 利用 PCIe 6.0 的高速带宽，实现了更高的读写速度。美光表示这款性能爆炸的SSD将会属于旗下美光9550 NVMe SSD系列，官方并没有公布所采用的内存颗粒和主控，只是表示将会采用PCIe 6.0进行传输，并且主要为数据中心而不是消费级打造。美光同时也公布了这款SSD的具体速度，表示顺序读取速度最高可以达到26GB/s，而现在消费级PCIe 5.0 SSD速度大约为14GB/s，快了85.7%以上，不过这个速度距离PCIe 6.0的极限还有一段距离，正常来说PCIe 6.0 SSD的极限速度应该在32GB/s左右，很显然这款SSD还属于比较早期的产品。</p>
+  <p>2024年11月，英特尔发布了至强Diamond Rapids处理器，将支持PCIe 6.0。同月，AMD宣布推出第二代Versal Premium系列自适应SoC芯片，为各种工作负载提供最高水平的系统加速，这也是FPGA行业内首款在硬IP中支持CXL 3.1协议、PCIe 6.0总线、LPDDR5内存的器件。</p>
+  <p>随着 PCIe 6.0 的商业化落地开启，国产厂商也积极在这一领域进行布局。</p>
+  <p>存储解决方案提供商慧荣宣布，正在积极研发采用4nm先进制程技术的PCIe 6.0固态硬盘主控芯片，型号为SM8466。据悉，该主控芯片定位于企业级市场，旨在满足日益增长的高性能存储需求。SM8466主控将全面兼容PCIe 6.0 x4通道，其理论带宽高达30.25 GB/s，相比PCIe 5.0标准实现了显著的带宽提升。</p>
+  <p>澜起科技宣布推出其最新研发的 PCIe 6.x/ CXL 3.x Retimer 芯片，并已向客户成功送样，目前正在进行 PCIe 7.0 Retimer 芯片的研发。官方资料显示，澜起科技的 PCIe 6.x/ CXL 3.x Retimer 芯片支持 16 通道，其最高数据传输速率可达 64GT/s，相较 PCIe 5.0 提升一倍。</p>
+  <p>此外，高频高速线缆公司金信诺表示，已基本开发完成匹配英特尔下一代平台Oak Stream（PCIe 6.0）的相关产品，为国内厂商的技术第一梯队。广合科技表示，已完成下一代PCIe6.0产品的Oak平台和Venice平台NPI样品试制。</p>
+  <p>然而，国产厂商在 PCIe 6.0 领域的发展也面临着一些挑战。一方面，与国际知名企业相比，国产厂商在技术积累和研发投入上还有一定的差距，需要进一步加大研发力度，提高技术水平。另一方面，PCIe 6.0 技术的生态系统还在不断完善中，国产厂商需要积极参与到生态系统的建设中，加强与上下游企业的合作，共同推动 PCIe 6.0 技术的发展和应用。</p>
+  <h2><strong>PCIe 6.0还没用上，PCIe 7.0又来了</strong></h2>
+  <p>值得注意的是，新一代PCIe 7.0已经徐徐走来，首次引入光学通信连接。</p>
+  <p>PCIe 6.0被认为是PCIe问世近20年以来变化最大的一次，但是到了这里，传统思路已经基本走到了尽头，想继续提升极为困难。PCIG-SIG DevCon 2024开发者大会上，Cadence全球首次展示了PCIe 7.0的全新方向，加入自己独有的光学连接方案，在一个真实、低延迟、无需重定时、线性光学连接的系统中，跑出了128GT/s的收发速率。这就意味着，它的x16双向带宽可达512GB/s，继续翻番。</p>
+  <p>传统的电气层已经举步维艰了。随着数据传输速率的不断提高，传统的电气信号传输面临着信号衰减、干扰等问题，难以满足高速数据传输的需求。而光信号具有传输速度快、损耗低、抗干扰能力强等优点，因此将光学技术引入 PCIe 7.0 成为了解决高速数据传输问题的关键。</p>
+  <p>PCIe 7.0规范有以下特点：</p>
+  <p>提供高达128GT/s的原始比特率，通过x16配置可实现双向最高可达512GB/s的数据传输速率。</p>
+  <p>采用PAM4（四电平脉冲幅度调制）信号，通过在信号上编码四个不同的振幅级别，提高单位时间内传输的信息密度。</p>
+  <p>优化信道参数与传输距离，优化信道设计参数，确保在更长的物理距离下仍能保持高数据传输速率和稳定性。</p>
+  <p>继续改善低延迟性能，并强化系统的鲁棒性和数据传输的准确性，以适应对实时性和数据完整性要求极高的应用场景。</p>
+  <p>在提高性能的同时注重节能，致力于降低每比特数据传输的能耗。</p>
+  <p>良好的兼容性，保持与所有前几代PCIe技术的向后兼容性，确保新规范与先前PCIe版本的硬件设备无缝对接。</p>
+  <p>新增光学互连，除了传统的铜互连，PCIe 7.0还将提供光学互连选项，能传输信号更远且延迟更低。</p>
+  <p>PCIe 7.0技术不会首先应用于任何消费级产品。它主要首先会应用于各种商用企业级产品领域，比如数据中心，人工智能机器学习、高性能计算和网络通信等方面。具体在目标应用场景上，PCIe 7.0将满足未来 800G 以太网、人工智能/机器学习、超大规模数据中心、HPC、量子计算和公有云的高带宽需求。据了解，PCIe 7.0的完整规范将于 2025 年发布。而这意味着受支持的设备可能要到2026年才会上市，而到2028-29年，我们才可能会看到广泛的产品在企业级市场问世。</p>
+  <h2><strong>PCIe 技术将成为 AI 基础设施市场的重要组成部分</strong></h2>
+  <p>不难看出，从PCIe 6.0开始，厂商将不再主要针对消费级市场，而是专注于数据中心、AI基础设施等商用企业级产品领域。</p>
+  <p>随着人工智能技术的快速发展，AI 应用对数据传输速度和带宽的要求越来越高。在 AI 模型的训练过程中，需要处理海量的数据，这些数据需要在 CPU、GPU、存储设备等之间高速传输。例如，在训练一个大型的语言模型时，需要将大量的文本数据从存储设备读取到 GPU 中进行计算，同时还需要将计算结果传输回存储设备。如果数据传输速度过慢，将会大大延长模型的训练时间，降低 AI 应用的效率。</p>
+  <p>传统的数据传输技术在面对 AI 应用的高要求时，逐渐显露出局限性。例如，传统的以太网技术虽然在网络连接中广泛应用，但其带宽有限，难以满足 AI 应用对高速数据传输的需求。在 AI 训练场景中，大量的数据需要在短时间内传输，传统以太网的带宽瓶颈会导致数据传输延迟，影响 AI 模型的训练效果。</p>
+  <p>英伟达的 NVLink 技术便是一种专为 GPU 之间高速通信设计的技术。它提供了极高的带宽和极低的延迟，能够实现多块 GPU 之间的高速互联。例如，在英伟达的 DGX 系列超级计算机中，采用 NVLink 技术连接多块 GPU，实现了 GPU 之间的高速数据传输，大大提高了 AI 模型的训练效率。</p>
+  <p>虽然如今，各大芯片公司开始研发各自的互联技术，例如NVIDIA的NVLink、AMD的Infinity Fabric以及以太网互联，但是截至目前，PCIe仍然是服务器机架中的首选接口，它们通过铜缆或背板将资源连接在一起。随着PCIe 6.0以上的部署以及 PCIe 7.0 规范即将获得批准，PCIe将继续成为高速互连的关键参与者。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&amp;mid=2247789732&amp;idx=1&amp;sn=86984125729c6d4c5701a20cc5355834&amp;chksm=c0fd741dc5b25145a095672922ca0cf392abfff302613150ddf629345acdefb420a58389a830&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半导体产业纵横”（ID：ICViews）</a>，作者：鹏程，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171936537230850</id>
+            <title>马斯克，祭出“最强”AI</title>
+            <link>https://www.36kr.com/p/3171936537230850</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171936537230850</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:18:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 人工智能, Grok 3, 马斯克, DeepSeek  
+<br><br>  
+总结: 马斯克旗下的AI公司xAI发布了新一代聊天机器人Grok 3，声称其推理能力超越现有领先AI模型。Grok 3引入了“思维链”推理机制，能够更好地处理复杂任务，并具备多模态功能。DeepSeek对Grok 3的评价认为其在算力和推理能力上处于行业领先，但在实用性和开源策略上仍需验证。xAI近期完成了60亿美元融资，估值超过400亿美元，马斯克还计划重新掌控OpenAI。未来AI领域的竞争将更加依赖硬件资源和数据质量。 </div>
+                        <hr>
+                    
+                    <p>“地球上最聪明的人工智能”，来了！</p>
+  <p>就在DeepSeek持续爆火出圈的当下，身处大洋彼岸的亿万富翁马斯克，也终于如约祭出“大招”，再次将这场全球人工智能竞逐赛推向新高潮。</p>
+  <p>2月18日12点（太平洋时间2月17日晚8点），马斯克旗下AI公司xAI正式发布新一代聊天机器人Grok 3，并进行现场演示。</p>
+  <p>此前，马斯克发布预告放出了开头那句“狠话”，并表示Grok 3的推理能力将超越包括ChatGPT和DeepSeek在内的其他领先AI模型。</p>
+  <p>在发布会现场，马斯克也通过对比评测，用数据图表证明自己“所言非虚”。此后，对于费用及开源等问题，这场发布会也都有了相关交代。</p>
+  <p>既然马斯克愿意拿DeepSeek来比较，那我们自然也能直接把问题抛给DeepSeek，让他来回答“马斯克的Grok 3跟你比怎么样”。</p>
+  <p>对此，DeepSeek在总结部分称，“Grok 3在算力投入和推理能力上确实达到了行业领先水平，尤其在复杂任务处理和透明化思考过程方面具有创新性。然而，其实用性、成熟度及开源策略的灵活性仍需时间验证。相比之下，当前模型（如我）可能更注重广泛适用性和稳定性，而Grok 3则聚焦于高算力驱动的尖端性能，两者定位不同。未来AI领域的竞争将更依赖硬件资源、数据质量与生态整合能力。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d719f4a681e74032866406c839a5e7a7@1629410002_oswg94683oswg500oswg1026_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：DeepSeek截图</p>
+  <h2><strong>超越“一切”！隔代开源、SuperGrok月费30美元……</strong></h2>
+  <p>自2023年7月创立以来，xAI在大模型产品上取得了快速进展：2023年11月，发布Grok 1；2024年5月，发布了具有长上下文能力的改进型Grok 1.5模型和具有图像理解功能的Grok 1.5V；2024年8月，则发布了该公司当下前沿语言模型Grok 2，具有最先进的推理能力，以及更小但仍然有能力的Grok 2 mini。</p>
+  <p>时隔半年，马斯克带着Grok 3如约登场。对于“Grok”的含义，他表示，“这个词来自罗伯特·海因莱因的小说《异乡异客》，它被一个在火星长大的角色使用，意思是充分而深刻地理解某事。‘grok’这个词传达了深刻的理解，而同理心是其中的重要组成部分。”</p>
+  <p>据悉，目前Grok 3已在xAI内部运行了2周。马斯克介绍称，Grok 3在很短的时间内超越了上一代Grok 2，“我们认为它比Grok 2强大一个数量级。”xAI工程师补充表示，Grok 3所涉及的训练是Grok 2的10倍。</p>
+  <p>据介绍，Grok 3最大的特点在于引入了“思维链”（Chain of Thought）推理机制，能够像人类认知过程一样逐步处理复杂任务，显著提高模型处理复杂查询和提供更连贯、更有逻辑的响应能力。此外，Grok 3还具备强大的多模态功能，不仅能处理文本，还能处理图像、视频和3D动画数据。在发布会上，Grok 3成功生成太空发射的3D动画代码并运行出飞船往返地球与火星的动画，还制作出类似俄罗斯方块的游戏。</p>
+  <p>“Grok 3具有极强推理能力，在我们迄今为止所做的测试中，其表现优于我们所知的任何已发布产品。”马斯克表示，我们有信心Grok 3会比其他任何AI都强，将成为AI领域真正的颠覆者。</p>
+  <p>口说无凭，xAI也放出了测试对比图，来证实马斯克的说法。在有着Chatbot竞技场之称的LMSYS盲测中，Grok 3在代码、指令响应等各个方面排名第一。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c5a25437a42640898a32ccf1c741c091@1629410002_oswg33156oswg880oswg619_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：直播截图</p>
+  <p>在数学推理、科学逻辑推理、代码写作能力表现上，Grok 3在多项benchmark测试中排名第一，超越DeepSeek-V3、Gemini-2 Pro、GPT-4o、Claude 3.5 Sonnet。即便是稍弱一点的Grok 3 mini版本，也能在这些测试中取得第二名的成绩，除在科学逻辑推理上与Gemini-2 Pro和DeepSeek-V3持平外，其余两项仍优于其他几家。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b3c55710542b462a9fe4e006cfec8bea@1629410002_oswg28215oswg880oswg455_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：直播截图</p>
+  <p>此外，在推理能力和测试时计算能力上，Grok 3和Grok 3 mini也能超越o3 mini（high）、o1、DeepSeek R1、Gemini-2 Flash Thinking。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a7537e3b5dea4006967534dc5ae23f72@1629410002_oswg30443oswg880oswg443_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：直播截图</p>
+  <p>如何体验Grok 3这一“地球上最聪明的人工智能”？xAI表示，X的Premium+订阅用户将率先体验，其他高级功能则被纳入xAI推出的新计划——SuperGrok中。据介绍，SuperGrok为30美元/月，或300美元/年，将提供额外的推理和DeepSearch查询功能，还包含无限量图像生成服务。</p>
+  <p>对于开源这一问题，马斯克表示，“我们通常会在新模型发布的时候，开源上一代模型，所以几个月后，我们也会对该模型进行开源。”xAI也将在接下来的几周内推出Grok API，包含推理模型和深度研究功能。</p>
+  <p>需要注意的是，Grok 3是基于xAI公司超级人工智能训练集群Colossus上，20万张英伟达显卡的产物，其优秀表现证明Scaling Law仍在生效。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0ae5427d80804787b64ba16f0233949e@1629410002_oswg236883oswg1080oswg464_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：xAI官网截图</p>
+  <p>作为对比，DeepSeek则是以低成本创造高收益。也正是基于此，DeepSeek才会在全球范围内引起轩然大波。</p>
+  <p>对此，OpenAI首席执行官奥尔特曼就曾表示，DeepSeek让OpenAI的领先优势不会像前几年那么大了，他表示，在开源模型和研究成果的问题上，OpenAI已经站在了历史的错误一边，需要制定不同的开源策略。</p>
+  <p>是以，当下这场“你追我赶”的人工智能竞逐赛，还远远未到终局。未来，各家尤其是DeepSeek的表现，仍然值得外界保持期待。</p>
+  <h2><strong>马斯克“野心”巨大！xAI融资60亿美元后，他还想控制OpenAI</strong></h2>
+  <p>伴随产品技术的不断迭代，马斯克及其xAI，在公司发展和资本运作上，同样动作不断。</p>
+  <p>继2024年10月OpenAI融资66亿美元后，2024年12月23日，马斯克创立的AI公司xAI宣布完成60亿美元融资。</p>
+  <p>官网信息显示，xAI已经结束了60亿美元的C轮融资，主要投资者包括A16Z、Blackrock、Kingdom Holdings、Lightspeed、MGX等。战略投资者英伟达和AMD，也参与并继续支持xAI快速扩展其基础设施。</p>
+  <p>需要注意的是，就在半年前的2024年5月，xAI则刚刚完成60亿美元B轮融资，主要投资者包括Valor Equity Partners、Vy Capital、Andreessen Horowitz、红杉资本等。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2026306d82284ad08b0c3d8e92de1e79@1629410002_oswg210369oswg1080oswg707_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：xAI官网截图</p>
+  <p>据称，在C轮融资中xAI的估值已经超过了400亿美元。作为对比，OpenAI彼时的估值为1570亿美元。</p>
+  <p>得益于产品技术和公司发展的突飞猛进，“全球首富”马斯克，也有时间精力，当然最重要的是有财力，谋求更多可能。比如，重新夺回OpenAI的控制权。</p>
+  <p>作为OpenAI曾经的创始人之一，在分道扬镳数年后，马斯克近期被爆想要重新掌控OpenAI。据外媒《华尔街日报》当地时间2月10日消息，由埃隆·马斯克牵头的投资者财团出价974亿美元，寻求收购控制 OpenAI（美国开放人工智能研究中心）的非营利组织。</p>
+  <p>马斯克通过律师发表声明称：“是时候让OpenAI回归开源，恢复成它曾经是的那种注重安全的向善力量了。我们将确保这一点。”</p>
+  <p>对此，奥特曼当日在社交媒体平台上隔空回应称，“不了，谢谢，不过如果你愿意的话，我们可以出97.4亿美元收购X（即美国社交媒体平台推特，马斯克2022年收购后将其更名为：X）。”有意思的是，奥特曼的出价刚好是马斯克出价的十分之一，马斯克随后回复称其是“骗子”。</p>
+  <p>就在今天，最新消息显示，OpenAI正在考虑授予特别投票权，以抵御包括马斯克在内的敌意竞标者。</p>
+  <p>值得一提的是，就在马斯克发布Grok 3时，奥特曼也没闲着，他对外表示：“对于高要求的测试者来说，试用GPT-4.5带来的感受AGI的体验，远比我预期的要深刻得多！”</p>
+  <p>这也意味着，OpenAI旗下更“聪明”的GPT-4.5已进入测试阶段，即将正式发布。后续，能否刷新Grok 3目前取得的成绩，我们也将持续保持关注。</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KDE6bLDTHvKeEXtLseWbpg" rel="noopener noreferrer nofollow" target="_blank">“猎云精选”</a>，作者：王非，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171879460373380</id>
+            <title>中国资产上涨行情结束了吗？</title>
+            <link>https://www.36kr.com/p/3171879460373380</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171879460373380</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:54:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <恒指, 中概股, 财报季, DeepSeek>
+<br>
+<br>
+总结: 今天恒指开盘后上涨，但下午出现小幅回调，显示出市场的震荡。尽管中概股近期表现良好，但仍处于AI时代的早期阶段。接下来的中概股财报季，尤其是阿里和腾讯的业绩，将是决定市场走势的关键因素。DeepSeek的成功标志着中国科技领域的自主创新与突破，投资者对中国牛市的形成持开放态度。高盛提出了新的中国股市AI投资框架，强调了科技与非科技领域的细分。整体来看，市场需要强劲的财报来消除对中概股后续行情的担忧。 </div>
+                        <hr>
+                    
+                    <p>多空激战的一天，今天恒指开盘后一路高走，盘中最多涨2.26%，顺利站稳了23000，但下午却有点上涨乏力，指数迎来了小幅跳水。</p>
+  <p>尽管近期中概股已有非常显著的涨幅，但拉长历史周期看，我们仍处于AI时代的早期，以及中国科技资产重估的开端。美国AI 袪 魅，中国AI在狭缝中突围。DeepSeek可以被看作中国科技领域的“上甘岭”，实现了自主创新与突破。</p>
+  <p><strong>越是到这个时间段，猫哥觉得就越要冷静，毕竟就算是牛市来了，股市也不会一直涨，每天都涨，经历震荡之后的上涨，那才能行情持有。现在如果有回调，未尝不是好事。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0bc226d28b474d3d8e2a078ec2efefda@000000_oswg330484oswg1080oswg852_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>【走势复盘】</strong></h2>
+  <p>今天高开低走，就从技术形态看，恒指已经涨到前高阻力位，这个位置必然是有一些阻力的，很多去年10月被套牢的，现在终于解套，肯定是想着远离这个市场，但猫哥认为，他们可能会错过下一轮的上涨机会。</p>
+  <p>DeepSeek的成功让投资者看到了中国取得的其他进展，“很长一段时间以来，投资者似乎第一次对中国牛市正在形成这一观点持开放态度”，但经历一波大涨之后，很多投资者也开始冷静下来了。</p>
+  <p>恒指为什么会跳水，自然是因为已经到阶段性的拐点了，<strong>这个拐点实际上，猫哥已经找到了，那就是接下来的中概股财报季。本周开始，阿里、京东、百度、腾讯等中概股互联网龙头陆续发布财报，市场需要看到强劲的业绩，才会打消对中概股后续行情的担忧。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_77dd314439e947c48ce7f5097936e67a@000000_oswg1134350oswg1080oswg1189_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>【行情推演】</strong></h2>
+  <p>当前最关键的节点就是中概股财报，尤其是中概股两大龙头阿里和腾讯的财报，这是决定后续能否持续上涨的关键驱动因素。</p>
+  <p>我们复盘美股七大巨头的上涨逻辑，一开始只是炒作概念，但后续七大巨头开始分化，主要是AI商业化变现。中概股龙头必然也会经历一样的轨迹，尤其是阿里云这季度的盈利能否加速增长，这是核心中的关键。</p>
+  <p><strong>1、瑞银预计阿里Q3营收将同比增长5.5%，战略执行得当将释放长期价值</strong></p>
+  <p>瑞银发布对阿里巴巴025财年第三财季的业绩前瞻报告，该行预计阿里巴巴营收为2745.57亿元(人民币，下同)，同比增长5.5%，环比增长16.1%，略低于市场一致预期的2787.79亿元。阿里巴巴将于2月20日美股盘前公布业绩。</p>
+  <p>调整后EBITA预计为532.64亿元，同比微增0.8%，利润率19.4%，较上年同期下降0.9个百分点，但较前一季度提升2.2个百分点。非GAAP净利润预计为464.41亿元，同比下降3.1%，每股收益(EPS)为19.5元，略低于市场预期的19.8元。</p>
+  <p>瑞银研报指出，阿里巴巴在过去一年实施了多项战略调整：1）非核心资产剥离：包括退出部分线下零售项目及边缘业务，聚焦核心电商、云计算、物流三大支柱。2）股东回报强化：通过回购计划累计回购金额达历史新高，2024年股息支付率提升至30%，叠加股票回购，全年股东回报率预计达5.2%。3）组织架构优化：六大业务集团独立运营后，菜鸟、云智能等板块的决策效率提升，但管理复杂度增加带来的协同效应尚未完全显现。</p>
+  <p>瑞银测算，若加回净现金及投资资产价值，核心业务隐含估值较当前市值存在显著折价，认为战略执行得当将释放长期价值。该行还给予阿里巴巴“买入”评级，美股目标价140美元（对应港股136港元）隐含2026财年PE 18倍。报告强调，若宏观经济企稳、竞争格局改善，估值倍数存在上修可能。</p>
+  <p><strong>2、中国十大科企回报率超美股“七巨头”？暴涨之后估值水平依旧诱人</strong></p>
+  <p>近期中国科技股表现迅猛，截至2月17日，$恒生科技指数 (800700.HK)$ 收报5499.26点，今年以来涨幅达23.08%，超过去年10月份的前高，也达到2022年2月中旬以来的最高水平。</p>
+  <p>在美股科技股高估值增长乏力的同时，对于外资巨头来说，中国资产正从全球资产配置中的可选项变为必选项，低位反转趋势的中概股成为2024年四季度国际机构加仓的重要方向。</p>
+  <p>智慧树投资公司的股票策略主管Jeff Weniger发文称， 中国十大科技股（Terrific Ten）的崛起对美股“七巨头”（Magnificent 7）形成挑战，市场格局正悄然变化。去年9月底声称要“Buy Everything”的亿万富翁David Tepper，去年年底大举增持阿里巴巴。</p>
+  <p><strong>3、DeepSeek改变一切！高盛提出中国股市投资新框架</strong></p>
+  <p>DeepSeek引发了对中国资产的价值重估，高盛在最新研究报告中提出了一个全新的中国股市AI投资框架。首先，高盛将总市值14万亿美元的中国股票划分为AI科技和非科技两大类；</p>
+  <p>其次，在AI科技领域，将6万亿美元的市值，根据它们在科技供应链中的行业分类和业务性质，进一步细分为半导体（包括软件设计）、基础设施（硬件、数据存储、冷却系统）、数据与云（例如互联网平台公司）和软件与应用（自动驾驶、生物技术、人形机器人、互联网服务提供商等）；</p>
+  <p>第三，在非科技领域，将7万亿美元的市值划分为：1）收入增强者，由于它们在未来的增长投资（即资本支出和研发）相对较高，可能会增加增量收入；2）生产力提升者，鉴于它们的劳动密集型成本结构，可能会通过技术提高运营效率和盈利能力。</p>
+  <p>最后，高盛将各种子行业和主题群体按照它们对英伟达和META的相对价格敏感度进行排序，从而能够更好地了解中国行业和AI代理在科技世界两大主导趋势——资本支出和应用——中的交易程度，并协助投资者在生态系统中获得合理的敞口，因为动态正在发生变化。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkzMTczMjQwMw==&amp;mid=2247566520&amp;idx=1&amp;sn=9ec63752c5b1cb9d9926c914cc82a4fc&amp;chksm=c39a1f26557118ee9a4b003a7836f7be999926e0e6ea3b372cfefda6762c45abe93beed76ddf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“港股研究社”（ID：ganggushe）</a>，作者：好运猫哥，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171887080881929</id>
+            <title>获小米投资、估值超百亿的群核科技，冲刺港股IPO有戏？</title>
+            <link>https://www.36kr.com/p/3171887080881929</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171887080881929</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:53:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <群核科技, IPO, 酷家乐, 空间设计>
+<br>
+<br>
+总结: 群核科技正式向港交所递交上市申请，成为“杭州六小龙”中首个冲击IPO的企业。尽管尚未实现盈利，但其凭借强大的技术背景和市场策略吸引了众多投资者。公司创始团队均为名校毕业生，曾在国际科技巨头任职，回国后致力于AI领域的空间设计。群核科技的“酷家乐”平台在C端市场取得显著成功，B端业务也逐渐成为重心。公司在研发上的高投入和市场拓展策略使其在行业中占据领先地位。 </div>
+                        <hr>
+                    
+                    <p>就在DeepSeek神挡杀神、所向披靡之际，群核科技亮出一招猛棋：正式向港股IPO发起冲击！这一消息，让业界颇感惊喜之余，也引起了坊间的诸多质疑，作为一家尚未实现盈利的公司，它敢于率先DeepSeek等其余五雄一步，争夺“杭州六小龙”中首家上市企业的花魁背后，底气究竟来自哪里？</p>
+  <h2><strong>剑指IPO，群核科技“落子无悔”！</strong></h2>
+  <p>2月14日情人节当天，群核科技（Manycore Tech Inc）正式向港交所递交上市申请，摩根大通和建银国际为其联席保荐人，作为“杭州六小龙”中首个冲击IPO的企业，群核科技此举成功吸引了业内外的关注。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_53a8198605f24f5cbd4990028317553e@5470153_oswg81815oswg671oswg757_img_jpg?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>跟“当红炸子鸡”DeepSeek的创始人梁文锋的经历有点类似，群核科技的几位联合创始人，皆清一色国内外名校背景，黄晓煌和陈航本科毕业于浙大，朱皓本科毕业于清华，这哥仨的研究生毕均就读于伊利诺伊大学厄巴纳-香槟分校。</p>
+  <p>名校毕业之后，哥仨还都分别在英伟达、微软和亚马逊及美国国家超级计算应用中心等世界级科技巨头与核心研究机构任职，图形处理、分布式计算和虚拟现实技术（VR）是他们最为擅长的技术领域，尽管在美国有令人艳羡的高薪工作，但是为了达成创业梦想，他们义无反顾回国发展。</p>
+  <p>至此，这三个“天才少年”的命运齿轮，再一次转动！</p>
+  <p>2011年，回国后的黄晓煌、陈航、朱皓正式创立群核科技，并将公司定位为为国内空间设计行业的软件厂商，值得一提的是跟传统空间设计厂商不同，群核科技是立足AI领域的空间智能企业，从创业伊始，AI技术创新就融入了这家公司的基因；</p>
+  <p>2013年，群核科技推出了以业主自助3D设计为入口的“酷家乐”平台，凭借极致高效的云端渲染技术和联动设计师为业主提供专业的商业服务与转化，在C端市场声名鹤起；</p>
+  <p>2015年，酷家乐平台的营收首次突破1000万大关，次年业绩更是激增10倍，客户续约率达70%，随后数年，群核科技将在C端操盘经验在B端进行了完美放大，至些，B端业务成了群核科技的重中之中；</p>
+  <p>据群核科技招股书显示，2022年、2023年、2024年前九个月，公司企业客户分别录得33058名、41070名、45548名；公司来自企业客户的订阅收入占订阅收入总额的90.1%、87.0%及85.4%；公司企业客户净收入留存率为112.3%、106%、104.2%；</p>
+  <p>2023年，群核科技凭借6.63亿元的营收和高达22.2%的市场份额，无悬念已成为国内最大的空间设计行业软件提供商。</p>
+  <p>2022年、2023年及2024年前三季，群核科技的经调整净亏损净额分别为3.38亿、2.42亿、0.94亿，由是引出了一个令不少网友疑惑的问题：</p>
+  <p>业务欣欣向荣的“行业一哥”，群核科技为何至今仍未实现盈利？</p>
+  <h2><strong>群核科技的“两板斧”</strong></h2>
+  <p>坐拥酷家乐和Coohom，在中国、美国、日韩和东南亚市场等国内外市场多线展业的群核科技，吸引了一众知名投资机构的青睐，其中的多家知名投资机构，甚至多轮加投，这背后的商业逻辑，该如何理解？</p>
+  <p><strong>第一斧：专业技术窄且深！</strong></p>
+  <p>半导体行业，台积电独步天下的秘决并不是能力的宽而泛，而恰恰是能力的窄其深，以此拉开与同行的差距，赢得一众巨头的订单，虽然行业不同，但群核科技的“技能树”，跟聚焦在IC制造领域一样十分垂直，并且都追求技术的极致。</p>
+  <p>早在2013年，群核科技为酷家乐提供的云端渲染技术，就已经实现了10秒渲染的不可能目标，彼时的行业平均水平，动辄耗费数小时，可以说，群核科技是真正把云端渲染技术做到了行业遥遥领先的极致水平，这才有了独一无二的差异化竞争力；</p>
+  <p>为了保障渲染效率的持续领先，群核科技在研发投入上是毫不含糊！</p>
+  <p>2022年、2023年及2024年前三季，群核科技研发投入达4.37亿元、3.9亿元、2.63亿元，占同期公司营收的72.9%、58.9%、47.6%，这近乎“变态”的研发强度，超过了一众世界级与国内的科技互联网巨头们；</p>
+  <p>值得一提的是，在研发强度开始呈现下探迹象之际，同期的销售及营销开支呈增长趋势，则分别为3.21亿元、3.56亿元及2.48亿元，占收益总额53.4%、53.7%及44.9%；</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5797251ac2db40b69a183e09b13a9681@5470153_oswg118915oswg691oswg102_img_png?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这或许直观地解释了群核科技亏损的真相——巨额研发投入+销售&amp;市场推广开支的增加</p>
+  <p>2016年前后，群核科技就搭建了基于先进GPU集群的高性能计算平台，据公开资料显示，2024年，群核科技的渲染速度已经从2022年的53秒/图提升至1.2秒/图，2年间，效率番了44倍。</p>
+  <p><strong>第二斧：商业眼光稳准狠！</strong></p>
+  <p>创业公司想要获得市场成功，光靠技术过硬完全不够，还需要找到市场需要的缺口与用户需求的痛点，而群核科技在这些方面无疑做到了行业标杆水平，比如最早通过试水选中了家剧行业作为突破口，方向对了，后面的一切努力才不会白费~</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_1b64dab4975b4ba9a3548124fcf7f67a@5470153_oswg55109oswg1190oswg642_img_jpg?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而后群核科技的创始人团队又敏锐地嗅到了互联网家装的风口，他们领先行业启动了UGC（用户生产内容）激励和模块化拆解快速扩充户型库的战略，在短时间就积累了高达百万级的户型数据库，为其下一步腾讯，奠定了基础；</p>
+  <p>C端做大做强后，群核科技当仁不让开始向B端布局，通过为企业客户量身定制空间设计解决方案，进一步提升了品牌影响力和巩固了市场地位，与此同时，群核科技还积极启动了出海战略，推出了海外版的Coohom平台；</p>
+  <p>据群核科技官方统计，2022年、2023年及2024年前三季度，Coohom在中国以外市场取得的收入占公司总收入的比例依次为11.3%、6.0%、7.4%；</p>
+  <p>在自己的业务不断做大做强之际，群核科技的核心团队还十分懂得借力打力的道理，从未停下引入新融资的计划：</p>
+  <p>据不完全统计，自2013年以来，群核科技获得了包括高瓴、小米、经纬创投、IDG、云启资本、Coatue等在内的一众国内外知名投资机构的青睐，按最后一轮融资相关数额估测，群核科技目前的估值已达22亿美元；</p>
+  <p>时光倒回到2021年，彼时坐拥“3D云设计第一股”精彩叙事体的群核科技，赴美上市但遗撼折戟，时隔四年之后，羽翼更为丰满的群核科技选择向港股发起IPO冲击，这一次，“全球空间智能第一股”桂冠能否顺利摘下？</p>
+  <p>让我们拭目以待！</p>
+  <p>本文来自微信公众号“互联网那些事”，作者：互联网那些事，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171886483506054</id>
+            <title>全球华人决战AI之巅，马斯克Grok 3险胜DeepSeek，疯狂启动钞能力，压力给到OpenAI</title>
+            <link>https://www.36kr.com/p/3171886483506054</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171886483506054</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:47:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: AI, Grok-3, 马斯克, DeepSearch  
+<br><br>  
+总结: 马斯克推出了基于20万块GPU集群训练的AI模型Grok-3，展示了其在推理和编程方面的能力。Grok-3在基准测试中表现优异，超越了多个竞争对手，并具备DeepSearch功能。尽管在现场演示中Grok-3出现了思考卡壳的情况，但马斯克仍对其未来的应用充满信心，预计将在两年内接入SpaceX火箭。xAI还计划推出SuperGrok会员订阅服务，提供更多功能。未来，xAI将继续加大对大算力AI的投资，并计划筹集约100亿美元资金。 </div>
+                        <hr>
+                    
+                    <p>智东西2月18日报道，刚刚，基于20万块的GPU集群训练，马斯克口中地球上最聪明的AI Grok-3终于亮相！</p>
+  <p>此次直播伊隆·马斯克（Elon Musk）主要负责听，两位华人研究员坐在C位撑场，分别是曾就职于谷歌研发小组N2Formal的<strong>吴宇怀（Yuhuai “Tony” Wu）</strong>，以及多伦多大学计算机科学助理教授<strong>Jimmy Ba</strong>，他是“深度学习三巨头之一”、图灵奖得主辛顿的学生，曾在Meta担任研究员。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_9610a2a64e3748078c279a5d7febfea6@000000_oswg154112oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Jimmy Ba（左二）、左三吴宇怀（左三）、伊隆·马斯克最右</p>
+  <p>此次，xAI发布了<strong>Grok-3、Grok-3 mini</strong>，两个推理模型<strong>Grok-3 Reasoning</strong>和<strong>Grok-3 mini Reasoning</strong>，首个AI智能体<strong>DeepSearch</strong>。Grok-3在基准测试中击败了Gemini-2 Pro、DeepSeek-V3、Claude 3.5 Sonnet、GPT-4o。社交平台X的<strong>Premium Plus订阅用户</strong>在Grok的应用程序和网页端可以体验<strong>推理、编程</strong>，以及<strong>DeepSearch的搜索能力</strong>。</p>
+  <p>此外，xAI还开启了单独的会员订阅计划SuperGrok，SuperGrok的价格为<strong>每月30美元（折合约218人民币）</strong>或<strong>每年300美元（折合约2184人民币）</strong>，可解锁<strong>额外的推理</strong>、<strong>DeepSearch查询</strong>，以及无限的<strong>图像生成功能</strong>。</p>
+  <p>OpenAI联合创始人、前特斯拉AI总监、知名计算机科学家李飞飞的爱徒安德烈·卡帕西（Andrej Karpathy）在推特发文评价Grok-3：“<strong>Grok-3+Thinking感觉与OpenAI最强大的模型o1-pro（每月200美元）相当，略好于DeepSeek-R1和Gemini 2.0 Flash Thinking</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e81d35dd313d486185ff50eaf1b929b1@000000_oswg1270369oswg1000oswg1219_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">AI大神卡帕西评价Grok-3的截图（图源：X，经谷歌翻译为中文）</p>
+  <p>万众期待的语音功能此次并未展示，马斯克透露，<strong>最快一周后Grok将获得“语音模式”</strong>。几周后，xAI将在企业API中提供Grok-3模型与DeepSearch功能。几个月后，xAI将开源Grok-2。</p>
+  <p>直播最后放出了Grok用马斯克声音对话的彩蛋~</p>
+  <h2><strong>01.Grok-3现场思考卡壳，水平与本科毕业生相当，2年内要上火箭</strong></h2>
+  <p>现场演示环节中，Grok被考验了两个任务，一是<strong>现场设计了一条往返地球与火星间的合理路径，并用动画呈现，</strong>二是设计一款<strong>类似俄罗斯方块的消消乐游戏。</strong>在演示中Grok“思考卡壳”，因为显示“Thinking Hard”后很长一段时间没有反应，等待几秒后演示人员关闭了页面开启下一话题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c0b24ba931844293b050245b9abb97c2@000000_oswg22745oswg1000oswg449_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>之后演示人员又回到思考页面，分析了Grok的生成结果。</p>
+  <p>首先是其<strong>现场设计的一条往返地球与火星间的合理路径</strong>。提示词是“制作从地球降落在火星，然后在下一个发射窗口返回地球的发射动画三维图表并生成代码”。不过，测试人员在Grok-3 mini解决问题的过程中打断了它，并切换到了能力更强大的满血版Grok-3。</p>
+  <p>114秒后，Grok-3解决了这一问题，具有航空航天经验的马斯克现场评价道，Grok给出的解决方案基本正确，他还煞有介事宣称，<strong>2年内Grok将会接入SpaceX的火箭</strong>。在场的员工马上调侃，说马斯克“预言什么都是两年内”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_537bb228433a41ca977b78b48de9f875@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在设计一款<strong>类似俄罗斯方块的消消乐游戏</strong>时，Grok生成的代码在复制后即可运行。其提示词是“制作一个结合了俄罗斯方块和宝石的游戏，代码可能很长，将其输出为一个文件，让它变得非常棒”。最后游戏的运行机制比较合理。马斯克同时宣布，xAI将成立一个游戏工作室，使用AI进行游戏的开发工作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_dc5a3043bfcc41aab059f693ef45137b@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Agent能力目前已经是各家大模型企业都在押注的方向，xAI也不例外。他们给模型配备了更多的工具，本次Grok-3已经具有<strong>DeepSearch功能</strong>，xAI称其为初级Agent能力。</p>
+  <p>演示中，测试人员开启DeepSearch功能，让Grok-3预测SpaceX下一次火箭发射的时间。回答问题时，Grok-3既会给出思维链内容的总结，也会将完整思维链提供给用户。它的搜索范围十分广泛，从X平台上的内容到百科网站，再到美国政府的相关文件。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cb668567ba3b42508c301b407cfb8cce@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>进行DeepSearch时，Grok-3还会充分考虑用户问题背后的意图、需求和目的，也会对信息来源进行交叉检验，从而给出更为准确的回答。</p>
+  <p>已经有抢先体验的用户在X发布了100%由Grok-3生成的游戏，用户只需要告诉它“我想要什么”，然后将代码放在正确的位置，就可以得到一个完整的游戏。</p>
+  <p>在内部，研究人员发现Grok已经可以解决许多复杂的工程问题，节省大量时间，<strong>水平大致相当于一名本科毕业生</strong>。而17个月前，Grok还很难解决高中数学问题。</p>
+  <h2><strong>02.20万块GPU力大砖飞，性能击败o3-mini high、DeepSeek-R1</strong></h2>
+  <p>直播演示中提到，Grok-3所涉及的训练量是Grok 2的<strong>10倍</strong>，这都建立在xAI孟菲斯的AI超级计算机集群之上。该集群建造的第一阶段，xAI在122天内建成了拥有10万块NVIDIA H100 GPU的超级计算集群，第二阶段拓展到<strong>20万块GPU集群</strong>仅用了92天。</p>
+  <p>基准测试结果显示，Grok-3在评估模型在数学问题样本上性能的AIME和使用博士水平的物理、生物学和化学问题测试模型GPQA、LCB Oct-Feb中击败Gemini-2 Pro、DeepSeek-V3、Claude 3.5 Sonnet、GPT-4o。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ea41107915f14b3ba3bc4822e5a9d09b@000000_oswg117736oswg1080oswg548_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok-3的早期版本在Chatbot Arena中获得1400分，排名第一。Chatbot Arena是一项众包测试，让不同的AI模型相互竞争，并让用户对他们喜欢的回答进行投票。Grok-3也是有史以来第一个突破1400分的模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_71db1aab44cc4c13a4c71eaff875210e@000000_oswg115359oswg1024oswg569_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>xAI发布的推理模型早期版本Grok-3 Reasoning Beta，在最新的数学基准测试AIME 2025中达到93分，在GPQA上达到85分，这超过了o3-mini的最佳版本o3-mini high以及DeepSeek-R1。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_7fea4c4f71c94293b6f306b15045636b@000000_oswg120833oswg1024oswg524_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0c3cfdf8a46141a786e25066184d0ba7@000000_oswg71367oswg1024oswg471_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此外，用户还可以打开<strong>“Big Brain”</strong>模式让Grok进行额外、更仔细的推理。xAI将该模式描述为最适合数学、科学和代码相关问题的功能。马斯克还提到，他们隐藏了一些推理过程，以防止蒸馏。</p>
+  <p>对于开源，<strong>几个月后xAI将开源Grok-2</strong>。马斯克说：“我们的方法是当下一个版本完全发布时，将开源Grok的上一个版本，也就是当Grok-3成熟稳定时，我们将开源Grok-2。”</p>
+  <p>xAI认为预训练模型远远不够，真正的AI需要具备反思、第一性原理检验等能力。他们通过强化学习让Grok-3学会了上述能力，实现了训练和推理时的两种Scaling Law。</p>
+  <p>Grok团队成员还透露，Grok-3的语音交互功能是通过<strong>原生语音交互模型</strong>实现的，模型将能够直接理解用户语音，然后生成对应的语音回复，是一个端到端的过程，无需语音转文字、文字转语音作为中间环节。</p>
+  <p>马斯克称，未来他们将会进一步加大数据中心的建设力度，xAI的下一个计算集群会成为世界上最强大的集群，能耗达到1.2GW，相当于数十万户家庭1年的用电量。</p>
+  <h2><strong>03.基于合成数据训练，计划筹集约100亿美元资金</strong></h2>
+  <p>值得一提的是，这次直播马斯克又姗姗来迟，推迟18分钟开始，但最后X上xAI官方账号中的直播观看人数已经超过286万人次。刚下直播马斯克就马不停蹄转发、点赞科技播客顶流Lex Fridman、AI大神卡帕西等对Grok-3的赞美。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_bc4f743e2be2404bb7eb44332c91c546@000000_oswg158609oswg942oswg570_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在Grok-3发布之前，马斯克就按耐不住在X上让Grok-3秀技能。</p>
+  <p>他让Grok仿照电影《指环王》中“戒指之诗”做了工程师版诗歌：“以lor's ring诗句的风格介绍戒指的起源，指派工程师进行高级大模型搜索、代理、记忆、幽默的工作，使其接近原作”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5609296dfe6048929d2e744e528f25c4@000000_oswg26392oswg907oswg805_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok生成的诗歌最后还有对专有名词的注释，与原著如何对应等。</p>
+  <p>法新社此前报道，Grok-3是在<strong>合成数据</strong>上接受训练的，并且能通过检查数据来反映它所犯的错误以达到逻辑一致性。</p>
+  <p>融资方面，上周，据媒体援引消息人士报道，xAI还正在接洽潜在投资者，计划筹集约100亿美元资金，此轮融资可能使该公司估值达到约750亿美元。去年12月，xAI宣布完成C轮融资，筹集了60亿美元。xAI总融资额已经达到120亿美元（约合人民币876亿元）。</p>
+  <h2><strong>04.结语：马斯克继续押注大算力AI</strong></h2>
+  <p>本次发布的Grok 3无论是在训练集群规模、用电量上都是首屈一指的，这也在一定程度上转化为了Grok 3在多个基准测试上的SOTA表现。根据马斯克在采访中的言论，未来xAI可能还会继续押注大算力AI这条发展路径。</p>
+  <p>不过，也有海外网友犀利的评价道，自DeepSeek-R1之后，我们只应考虑效率更高的进步，而不仅仅那些规模更大、且比竞争对手耗能更多的进步。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652779658&amp;idx=1&amp;sn=841f7de7c61a95a9716e45e6694cc14f&amp;chksm=8587506656949565c4757f7ba4a8b0beede9a882bc66a60214a2591d994ae0b16a469f6f1b4b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：陈骏达 程茜，编辑：心缘，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171899160478593</id>
+            <title>国际金价震荡，黄金主题ETF仍受捧</title>
+            <link>https://www.36kr.com/p/3171899160478593</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171899160478593</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:47:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 金价, 投资者, 黄金ETF, 短期波动风险  
+<br><br>  
+总结: 上周金价经历冲高回落，但投资者的申购热情依然高涨，国际金价重回2900美元。高盛预计央行需求的增长将推动金价上涨，并且黄金主题ETF年内涨幅均超过9%。尽管市场对黄金的看好情绪高涨，但部分机构开始警惕金价短期波动风险，指出俄乌冲突、COMEX黄金与伦敦金的价差收敛等因素可能影响金价走势。投资者需关注黄金的长期配置价值。 </div>
+                        <hr>
+                    
+                    <blockquote>
+   <p>虽然上周金价经历了冲高回落，却并未影响投资者的申购热情。</p>
+  </blockquote>
+  <p>经历上周的冲高回落后，国际金价重回2900美元。</p>
+  <p>2月17日，COMEX黄金上涨0.02%，报收2912.1美元/盎司。同日，高盛将其2025年年底的金价预期从 2890 美元/盎司上调至3100美元/盎司。</p>
+  <p>高盛预计，“央行需求的结构性增长将在年底前使金价上涨 9%，再加上随着基金利率的下降，ETF 持仓量将逐步增加”。</p>
+  <p>今年以来，国际金价连创新高。就在上一周，COMEX黄金最高触及2968.5美元/盎司，之后震荡回调，在2月14日下跌1.76%，报收2893.7美元/盎司。</p>
+  <p>对于仍处高位的金价，投资者的热情不减。据Wind统计，截至2月17日，国内20只黄金主题ETF最近一周份额增长了12.88亿份。</p>
+  <h2><strong>黄金主题ETF仍受捧</strong></h2>
+  <p>国际金价的持续走强，给相关ETF带来了不错的回报。</p>
+  <p>据Wind统计，截至2月17日，20只黄金主题ETF年内涨幅均超过9%。其中，涨幅最高的是华夏黄金股ETF，年内收益率为10.36%。</p>
+  <p>虽然上周金价经历了冲高回落，却并未影响投资者的申购热情。</p>
+  <p>从份额增长情况来看，最近一周里，只有工银瑞信黄金股ETF被净赎回250万份，其余19只黄金主题ETF均呈净申购状态。整体来看，份额合计增长了12.88亿份。</p>
+  <p>其中6只份额增长显著，净申购超1亿份，分别是华安黄金ETF（2.96亿份）、易方达黄金ETF（1.74亿份）、国泰黄金基金ETF（1.7亿份）、永赢黄金股ETF（1.48亿份）、博时黄金ETF（1.44亿份）、国泰黄金股票ETF（1.44亿份）。</p>
+  <p>“上周各黄金ETF平均获得超10%的份额增幅，国内金价较海外价差也有所上扬。”博时基金经理王祥分析，背后的推动因素来自两方面：</p>
+  <p>一方面，中国放开保险机构对于黄金投资的消息极大地鼓舞了市场的看好情绪，尽管保险自身还处于策略论证与准备阶段，但其他投资者急不可耐地加大了入市的热情。</p>
+  <p>另一方面，周内美元指数呈现明显下跌，尽管美联储主席鲍威尔在周内两度坚称不急于调整政策利率，但美国1月份零售销售创近两年以来最大的降幅，1月核心PCE又不如CPI那么坚挺，仍然在一定程度上抬升了市场对后续宽松的押注，这都构成黄金资产做多力量的有力补充。</p>
+  <h2><strong>警惕金价短期波动风险</strong></h2>
+  <p>和高盛的乐观发声不同，部分机构开始警惕金价短期波动风险。</p>
+  <p>王祥认为，一些影响金价走势不利因素在悄然累积。华安基金则提醒投资者警惕金价双向波动风险，关注黄金长期配置价值。</p>
+  <p>其一，俄乌冲突最新动向或将影响金价后续走势。</p>
+  <p>华安基金分析，美国将对所有向美出口商品的国家征收“对等关税”，贸易战的新一轮升级凸显了黄金在不确定时期作为价值储存手段的作用，但受近期俄乌冲突缓和情绪影响，上周金价冲高回落。</p>
+  <p>王祥也提到，美国总统特朗普分别与俄罗斯总统普京和乌克兰总统泽连斯基通话，标志着他在乌克兰战争问题上的首次重大外交行动。有消息称美国和俄罗斯高级官员将于周二在沙特阿拉伯举行会议，讨论结束乌克兰战争的可能协议，并为特朗普-普京峰会做准备。地缘政治紧张局势如果出现缓解，将削减黄金的避险动能。</p>
+  <p>其二，COMEX黄金相较伦敦金溢价渐趋尾声。</p>
+  <p>华安基金指出，期货持仓方面，资金获利了结趋势已持续两周。前期由于市场对美国加征关税担忧推升期货价格，纽约COMEX黄金期货和伦敦金现货价差持续加大，摩根大通等机构为应对潜在的交割需求，加快将伦敦金库实物黄金转运至纽约，导致现货黄金短缺，“当前期现价差已有收敛迹象，套利空间显著压缩，该短期交易因素或阶段性结束”。</p>
+  <p>其三，马斯克领导的效率部（DOGE）大砍美国政府员工，至今已开除超过9500名联邦政府雇员，并有约7.5万名员工已接受白宫提供的资遣方案。</p>
+  <p>王祥认为，政府开支若真正能够得到有效削减，也将影响黄金对于美国信用体系对冲作用的投资价值。尽管这些情况都需要中长期的观察与跟踪，但在黄金短期已经超买的情况下，波动率将放大其对局部不利局面的敏感性。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MzI1ODEzNA==&amp;mid=2650721472&amp;idx=1&amp;sn=6305feab4e0efdbb9c4b14e29ee9709a&amp;chksm=890b28df5eeb1a860b71012f1bf2fd531334a134e78224745cf31fd9d34b317f1e14c7eca430&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经”（ID：mycaijing）</a>，作者：蒋金丽，编辑：蒋诗舟，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171909292555779</id>
+            <title>拿20万块GPU，马斯克上演「AI复仇记」</title>
+            <link>https://www.36kr.com/p/3171909292555779</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171909292555779</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:46:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: AI, Grok-3, 马斯克, 竞争  
+<br><br>  
+总结: 马斯克和xAI发布了最新的AI模型Grok-3，展示了其在推理、数学和编程等领域的强大能力，声称其为“地表最强AI”。Grok-3在多个基准测试中表现优异，超越了其他顶级模型。马斯克的竞争观推动了xAI的快速迭代和创新，尽管面临来自OpenAI和其他公司的激烈竞争。Grok-3的发布标志着xAI在AI领域的崛起，未来将推出更多功能和服务。 </div>
+                        <hr>
+                    
+                    <p>「一个追求极致真理的AI。」</p>
+  <p>北京时间2月18日中午，马斯克和xAI发布了其最新旗舰模型Grok-3系列和最新聊天机器人Grok，凭借着马斯克的强大光环，尽管xAI作为这场AI竞赛中的后发者，但其一举一动都备受关注。</p>
+  <p>在不到一个小时、百万人围观的发布会中，xAI展现了Grok-3令人印象深刻的模型能力——从马斯克的最强数据集群到直接的评测数据对比，似乎在回应他此前对Grok-3的评价——「地表最强AI」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ed708b2765a449859e9c06455e5b9402@5958598_oswg52397oswg1080oswg683_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">马斯克和xAI发布最新旗舰模型 图源：xAI</p>
+  <p>但据前OpenAI联合创始人Anderj Karpathy的评价，「Grok-3+Thinking」感觉与OpenAl最强模型o1-pro相差无几，但取得同等能力需要加上一个前提：Grok-2和Grok-3之间，才过去了六个月而已。“达到最先进领域的时间表是前所未有的”。Anderj Karpathy说。</p>
+  <p>Grok-3的发布符合马斯克的竞争观——他总是习惯用最快的时间表、推动团队完成创新，这也是他擅长讲述的故事——用巨大的算力（20万张GPU，Grok-3使用了超出DeepSeek-V3百倍的算力）、规模小的团队（xAI最初成立只有12人），做不下牌桌的人。</p>
+  <h2><strong>一、「地表最强AI」Grok 3表现如何？</strong></h2>
+  <p>直播中xAI团队将Grok-2形容为「玩具」，这当然是为了突出Grok-3的强大。</p>
+  <p>xAI发布的Grok-3是一个模型系列，包括了推理模型和mini模型。</p>
+  <p>在模型能力上，Grok-3在推理、数学、代码、数学等多方面，都取得了新的突破，Grok-3的推理模型Grok-3 Reasoning和Grok-3 mini Reasoning在 AIME上取得了96分，在GPQA上取得了85分，跑赢了o3 mini、DeepSeek-R1等。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2837f143de5a43bcad9f465c9b8bf4e2@5958598_oswg42151oswg1080oswg593_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok-3在数学、科学和代码领域的表现 图源：xAI</p>
+  <p>在AIME 2025最新的数学基准测试中，Grok-3 Reasoning超越了o3-mini的最佳版本o3-mini high。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_93d2f98bbbb644aaba9e2a937c06afae@5958598_oswg31676oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok-3在AIME 2025最新的数学基准测试的表现 图源：xAI</p>
+  <p>在大模型竞技场LMSYS上，Grok-3早期版本（巧克力）在总榜上位列排名第一，也是首个评分突破1400分的模型，尤其在「编码」类别中，Grok-3超越了o1和Gemini-thinking等顶级推理模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ba52c8bc749c47a6b6d9d86f28fca6a0@5958598_oswg152737oswg1080oswg1731_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok-3位列LMSYS第一图源：lmarena.ai</p>
+  <p>xAI现场演示了Grok-3的推理和创意编程能力，例如让Grok-3生成一段从地球发射、着陆火星再到返回地球的3D动画代码，还有涉及推理能力的升级版俄罗斯方块小游戏。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_02c3679f28d3442f9a6bd686025e4b4f@5958598_oswg41538oswg1080oswg432_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">用Grok生成代码 图源：xAI</p>
+  <p>这些模型核心能力升级也被马斯克融进了新的Grok应用中，以Agent形式集成了DeepSearch、Think和Big Brain三种模式，针对用户搜索场景，提供编程、数学等高阶能力。DeepSearch可以联网和扫描X来分析信息、提供查询和摘要，Big Brain则可以进行更多、更仔细的分布推理编程。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4c6606ab00b045bb8a08a91561c0d698@5958598_oswg31400oswg1080oswg628_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Grok具备 DeepSearch、Think和Big Brain三种模式 图源：xAI</p>
+  <p>除此以外，马斯克还透露后续语音交互、多模态交互等新功能将上线，xAI还将成立一个AI游戏社区，马斯克此刻曾透露将开设AI游戏工作室。</p>
+  <p>Grok-3不会马上向所有用户开放，针对X的Premium+订阅用户就首先获解锁，在Grok独立的APP端也会推出会员服务「SuperGrok」——价格为每月30美元或每年300美元。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_47d788d16fdf446cb444f87b8e8b19e1@5958598_oswg24387oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">会员服务「SuperGrok」图源：xAI</p>
+  <p>今天早些时候获得Grok-3的早期使用权的前OpenAI联合创始人Anderj Karpathy表示Grok-3是拥有最先进的思考模型之一，性能与o1-pro相当，“我们需要实际的、真实的评估来观察。”他举了一个例子，他通过Grok-3 Think模式上传了GPT-2论文，在问了一堆简单的查找问题，要求其估计训练GPT-2所需的训练flops数量，这考验模型将查找、数学和知识相结合，根据他的测试结果，GPT-4o未能完成这项任务，o1 pro也失败了，但Grok-3 with Thinking 很好地解决了这个问题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_3833cbe1f7c24f6397201121a93b2bc3@5958598_oswg1469283oswg1080oswg1748_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Anderj Karpathy的评价 图源：@Anderj Karpathy</p>
+  <p>过去，Grok还给人留下的印象是，更幽默的，有意思的AI，直播中xAI也强调了这一点，但据Anderj Karpathy测试，模型的幽默感似乎没有明显改善，对「复杂的伦理问题」也过于敏感。</p>
+  <p>客观来看，作为后发者，xAI用不到一年时间推出Grok-3，再度印证了马斯克「大力出奇迹」的优势，但评估模型实际能力和落地依旧要看后续的产品功能情况。</p>
+  <h2><strong>二、马斯克的AI筹码</strong></h2>
+  <p>在全球大模型的竞逐中，马斯克寄希望于xAI走一条典型的「后发先至」路线。</p>
+  <p>在发布Grok-3前，xAI在过去两年之间内对Grok系列的旗舰模型进行了三次大迭代，在模型能力上，Grok系列在推理、阅读理解、数学、科学、写代码等方面都呈现出不错的表现。而在模型轻量化、多模态方向上，xAI也曾发布首个多模态模型Grok-1.5V和Grok-2mini，不断丰富其模型家族。</p>
+  <p>在产品交互形式和商业模式上，马斯克也一直针对Grok进行优化，在产品交互形式上，一方面更新界面、功能和产品组件。如将X的实时洞察和网络搜索结合，推出新的引文功能，提升回答的准确性。今年1月，不同于内嵌于X内部，xAI还宣布上线独立的iOS应用程序，并围绕体育、金融等场景推出新内容组件，提升用户内容体验。</p>
+  <p>而在商业模式上，通过免费和开放API，降低模型使用门槛，去年年底，xAI宣布 Grok-2模型对X平台用户免费开放（当然也有使用限制），同步推出了企业API公开测试版。「硅基研究室」查询发现，目前xAI提供Grok-2-1212和Grok-2-vision-1212两种模型调用，以Grok-2-1212为例，其API定价为2.00美元/百万输入、10美元/百万输出，同时xAI还推出了数据共享计划，为参与团队提供每月获得150美元的免费API积分。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4f653ed9e3a9442f81d1d8bc4eac16ba@5958598_oswg28350oswg1080oswg326_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">xAI API定价 图源：xAI</p>
+  <p>直播中，xAI称Grok-3模型将与DeepSearch功能一起出现在xAI的企业API 中，对于人们关注的开源问题上，当Grok-3成熟稳定时，可能在几个月内会开源Grok -2。</p>
+  <p>在大模型竞争、估值水涨船高的今天，坚信Grok和马斯克能突围的人，相信的是Grok自身的独特优势，<strong>即数据、卡、钱和「反OpenAI故事」。</strong></p>
+  <p>首先，是数据。Grok与X高度绑定，是一个闭环的内容生态，高质量的数据和稳定的场景，这本身就是先天优势。马斯克多次强调，Grok通过合成数据，绕过了困扰其他AI模型的数据隐私和知识产权相关的法律挑战，同时确保用户的数据隐私安全。</p>
+  <p>其次，是卡，即算力。特斯拉和xAI储备了大量的英伟达H100系列芯片，马斯克此前曾质疑机构给将「Meta列为囤积全球最多的H100 GPU」的排行榜，指出「如果计算正确，特斯拉应该是第二名，xAI将是第三名」，他还用122天将一个家电厂房改造为集合10万张H100芯片的超级算力集群，就连英伟达创始人黄仁勋也忍不住感叹：“在如此短的时间里内完成，这简直是超人的成就”。</p>
+  <p>直播演示中，马斯克在Grok-3发布前，也率先展示他的最强数据集群，团队表示，他们在今年2月遇到很多问题，如冷却和能耗等，也浪费了很多算力，但最终还是以Grok-2的10倍算力资源，用六个月时间推出了Grok-3。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4088019a22bf4fee9e6136706a70f2da@5958598_oswg137712oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">马斯克的数据集群图源：xAI</p>
+  <p>xAI也似乎不缺钱，据彭博社报道，xAI正以750亿美元的估值筹集100亿美元，红杉资本、Andreessen Horowitz和Valor Equity Partners等现有投资者，均参与了此次谈判。</p>
+  <p>再者，还有「人」，xAI的团队核心成员曾在Google DeepMind、特斯拉、OpenAI和微软等公司工作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_abfb420bf32d4f9c81668e739d591638@5958598_oswg44328oswg1080oswg844_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">出现在直播中的两位华人为Jimmy Ba和Yuhuai Wu 图源：xAI</p>
+  <p>最后，马斯克「反OpenAI」的故事也得到了不少人的拥趸。一直以来，马斯克的人工智能观就是反OpenAI而行，他频繁以政治中立、安全来强调xAI的不同。</p>
+  <h2><strong>三、Grok 野心能成吗？</strong></h2>
+  <p>不过，马斯克野心勃勃的计划背后，Grok也面临「内忧外患」。</p>
+  <p>首先，就Grok自身而言，一方面，就B端，企业API调用上，Grok目前还没有完备的服务企业的能力，而我们看到在服务企业上，用编码等能力吸引企业级客户，OpenAI和Anthropic均有更快的进展。据The information此前报道，Anthropic从使用其模型进行软件开发和代码生成的客户那里获得的年化收入增长了10倍。另一方面在C端，目前Grok和X的集成度还不够多，特别是尚未上线的语音、视频等功能。</p>
+  <p>有业内人士产生的困惑是，在OpenAI已集成了语音、视频等功能下，包括豆包在内的中国公司也做得不错，Grok还能在这方面和X联合作出哪些新的创意？“如果只是一个TTS（文本转语音技术），那不会有改变”。（虽然直播中，xAI说不会是TTS）。</p>
+  <p>其次，在外部，在DeepSeek等中国模型公司的冲击下，更激烈的竞争已经开启，OpenAI已发布GPT-4.5和GPT-5路线图，Anthropic也宣布将推出Claude 4 系列。</p>
+  <p>某种程度上，在AI上的探索和尝试反映出的是马斯克从一而终的「竞争观」——用令人惊讶的时间表，推着团队不顾一切的前进，从而逼近自己的预期目标，这在特斯拉、SpaceX身上都有过验证。</p>
+  <p>在社交媒体上，人们大多对马斯克的尝试表示兴奋，这也发生在DeepSeek所掀起的浪潮中——一位人工智能创业者这样写：“新的LLM比赛已经火爆起来了，一周后谁会赢？”</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/lRa0ktgatAOsOn64xII34w?token=1270955529&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“硅基研究室”</a>，作者：kiki，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171915456037761</id>
+            <title>刚刚，马斯克发布“地表最强”AI，Grok 3疯狂狙击OpenAI，后院却起火了</title>
+            <link>https://www.36kr.com/p/3171915456037761</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171915456037761</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:46:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 人工智能, Grok 3, 马斯克, 深度学习  
+<br><br>  
+总结: 马斯克旗下的人工智能公司xAI发布了最新的大模型Grok 3，声称其是“地球上最聪明的AI”。Grok 3在20万块GPU上训练，计算量是前一代Grok-2的10倍，推理能力显著提升，能够逐步分析复杂问题。该模型在多个基准测试中超越了主流智能大模型，展示了其在数学、科学和编程等领域的强大性能。此外，Grok 3可能会集成到Tesla车辆中，允许用户通过语音命令与其互动。马斯克的目标是打造地表最强的AI。 </div>
+                        <hr>
+                    
+                    <p><strong>地球上最聪明的人工智能</strong>来了。（马斯克自己说的）</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_08754feadf6146f884a570e077c73943@000000_oswg36686oswg554oswg227_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>刚刚，马斯克旗下的人工智能公司xAI举行了一场技术演示，正式发布了其最新的大模型——<strong>Grok 3</strong>。</p>
+  <p>这是人类历史上，第一个在<strong>20万块GPU</strong>上训练出的模型，而且其训练计算量是Grok-2的10倍。</p>
+  <p>马斯克在忙着深挖美国各机构财务账单之余，也现身直播间，亲自为其站台。</p>
+  <p>也正因为老马亲自站台，爱拖延的老毛病又犯了，原计划在中午12点开始的发布会，拖到了中午12点20才正式开始。</p>
+  <p>这场技术演示的内容，也可以说相当的硬。现场直接展示各项基准测试数据，从测试数据来看，Grok 3的确像马斯克说的那样，是“地球上最聪明的AI”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d272cd25579d4675b01452aa9e3e5343@000000_oswg10581oswg700oswg359_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在美国AIME数学竞赛、GPQA、代码编程方面，成绩超过了目前主流智能大模型，比如Gemini 2 Pro、Claude 3.5 Sonnet、GPT-4o 以及国内爆火的DeepSeek R1等模型。</p>
+  <p>不过有意思的是，在Grok 3发布之前，身为Grok 数据团队工程师Benjamin De Kraker在自家媒体 X 表示，<strong>Grok 3只能排第四</strong>。</p>
+  <p>不过现在这个工程师似乎已经被解雇了....</p>
+  <h2><strong>01 变态的推理能力</strong></h2>
+  <p>加上马斯克，发布会一共四个人，中间两位是华人。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0f5234e7965c4bb4825d7b85d60549d9@000000_oswg37604oswg1080oswg666_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Grok 3最大的亮点，是引入了<strong>“思维链（Chain Of Thought）”能力</strong>。</p>
+  <p>简单来说，它就像人类一样，能够一步一步地思考复杂问题。当你问它一个复杂的科学问题时，它不会直接给出答案，而是像老师一样，一步步分析，最后给出清晰、准确的解答，让用户能够窥见 AI 在解决问题时的内部推理过程</p>
+  <p>比如，在解决数学问题时，模型会展示中间推导步骤，而非直接输出结果。不过，因为目前Grok 3 还未开源，为了防止核心算法被复制，xAI 会对思考过程进行一定程度的遮蔽处理。</p>
+  <p>Grok 3和国内的DeepSeek一样，采用了<strong>深度学习和强化学习相结合</strong>的方法。通过深度学习，模型能够从大量数据中提取特征和模式。强化学习使Grok 3能够在训练过程中不断调整自身的策略，以获得更高的奖励信号。</p>
+  <p>在推理任务中，Grok 3通过多次尝试和验证，不断优化自身的推理路径，从而找到最优解。</p>
+  <p>为了全面评估Grok 3的性能，xAI团队在直播上展示多个领域的基准测试，涵盖了一般数学推理、STEM和科学的一般知识以及计算机科学编程等方面。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2d44f45660ca4bbdb9452317db7ae815@000000_oswg43992oswg554oswg303_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>根据官方公布的测试数据，Grok-3和Grok-3 mini在数学、科学、代码等性能上都超过或媲美Gemini、DeepSeek和ChatGPT等对手。</p>
+  <p>为了展示其性能，马斯克还在线实操，让Grok-3现场生成了一段太空发射的3D动画的代码，随后成功运行。</p>
+  <p>画面上出现了飞船在地球和火星间往返的动画。xAI团队表示，这不是一段简单的动画，这需要AI模型首先能理解复杂物理知识，比如开普勒定律等相关问题，才能实现合理的轨迹规划。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_dd071e0b54304831b054b9c0bc59d70a@000000_oswg77090oswg554oswg328_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>现场还要求Grok 3现场创造一个融合《俄罗斯方块》和《宝石迷阵》的新游戏。</p>
+  <p>现场展示中，Grok 3生成的Python脚本定义了游戏中的常量、颜色、方块形状等元素。</p>
+  <p>在实际运行中，也呈现出了融合性的玩法：当连接至少三个相同颜色的方块时，重力机制启动，方块消失，其他方块随之掉落，类似《宝石迷阵》的消除机制；同时，游戏也保留了《俄罗斯方块》的基本元素。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_4452d853e8ea4ff6bd36c3b0a461ac2a@000000_oswg72469oswg554oswg373_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>值得一提的是，<strong>Grok 3还有可能将被集成到Tesla车辆中</strong>，允许通过语音命令与其互动。这意味着Tesla车主可以使用Grok获取实时信息，如天气状况和交通更新。马斯克还暗示Tesla驾驶者很快就能在驾驶过程中使用Grok处理更复杂的任务。</p>
+  <p>Grok 3是xAI公司发布的<strong>第三代人工智能模型</strong>，xAI公司成立于2023年7月，公司团队成员主要来自OpenAI、DeepMind以及其他顶级AI研究公司。马斯克创立xAI公司的目的很简单，就是和OpenAI竞争。</p>
+  <p>xAI成立不到半年，就发布了第一款大模型Grok-1，参数量高达3140亿，这一参数量远超OpenAI GPT-3.5的1750亿，成为当时参数量最大的开源大语言模型。2024年8月，xAI发布了更新一代的Grok 2大模型，主要应用于训练AI聊天机器人。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2ee2ce8890374064b292365221fe68d4@000000_oswg387913oswg554oswg359_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从去年8月到今年的2月，半年时间就能成功迭代的背后，马斯克下了不少本钱，为了训练Grok 3，xAI动用了超过20万块英伟达H100 GPU集群组成的全球最大AI超算Colossus进行训练，仅用了<strong>214天</strong>便完成了大规模模型的训练。</p>
+  <p>而Grok 3与第二代相比，<strong>Grok 3使用的算力提升了310倍，性能提升了15倍，训练量也高了10倍</strong>，在硬件基础上相当的猛。</p>
+  <p>为了维持算力优势，马斯克还打算筹集100亿美元资金，采购新一代GB200 GPU芯片来训练。</p>
+  <p>毕竟在发布前不久，马斯克曾放出豪言：“我们有信心Grok 3会比其他任何AI都强，而且很有可能，再也不会有比Grok（系列）更强的AI了”。</p>
+  <p>总之一句话，就是要做<strong>地表最强AI</strong>。</p>
+  <h2><strong>02 马斯克人红是非多</strong></h2>
+  <p>马斯克最近也是真的忙，不光忙着为自家AI大模型站台，喊话收购Open AI，还得作为新任“政府效率部” 牵头人，忙着对美国政府机构的 “大刀阔斧” 改革。</p>
+  <p>自古“<strong>人红是非多</strong>”，马斯克忙于政坛和AI战场之际，也招惹了不少麻烦。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8d096466b1964a2c8568c09a60bcea16@000000_oswg834604oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>首先就是后院要起火了，据华盛顿邮报报道，特斯拉内部会议的一段录音被曝光，特斯拉某一部门最近举行了一次员工会议，在这场会议上，有特斯拉员工和高级管理人员公开表达了对CEO马斯克与特朗普结盟的担忧，<strong>认为马斯克深入政治，会伤害特斯拉公司的长期目标</strong>。</p>
+  <p>因此，就有人提出建议，<strong>马斯克如果辞职</strong>，特斯拉公司的情况可能会更好。</p>
+  <p>特斯拉作为马斯克亲自一手打造出的亲儿子，竟然想把亲爹扫地出门，这对于马斯克来说，绝对不是一个好消息。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0321d275d8d6485ba25ed6416e70041b@000000_oswg149905oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>然而，基于现实情况，还真不怪特斯拉内部会出现这样的抗议，马斯克走马上任以来，特斯拉的股价和基本盘都开始式微。</p>
+  <p>自马斯克“美国变法”开始，特斯拉股价已经累计下跌了16.6%，<strong>市值蒸发2273亿美元（约合人民币1.65万亿元）</strong>。</p>
+  <p>销量方面，2025年1月，特斯拉在美国的注册量同比下降10.8%；在加州，下降幅度更是达到了12%。欧洲市场的情况更糟，1月份特斯拉在法国的销量下降了63%，德国下降了59%。</p>
+  <p>除此之外，不少特斯拉用户开始抵制马斯克，甚至有人患上了“<strong>特斯拉羞耻症</strong>”。</p>
+  <p>来自加拿大魁北克的车主阿兰·罗伊（Alain Roy）就表示，就因为马斯克在就职日上做的那个手势，让他不想再支持他了，决定把家里两台特斯拉全卖掉，还把准备买的Cybertruck的订单取消了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_1412d2dd61b34fd48805f9f459c31c65@000000_oswg210277oswg644oswg326_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>根据荷兰时事节目EenVandaag对 26,000 名特斯拉车主的调查，显示曾经的“特斯拉骄傲”已经变成“特斯拉羞耻症”了，很多人打算和马斯克划清界限。</p>
+  <p>其中31% 的受访特斯拉车主表示，由于马斯克的行为，他们正在考虑出售或已经出售了他们的汽车，40%的人表示，这位首席执行官的行为和立场让他们<strong>羞于开特斯拉</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2bc7668d85b24cdd8e4365cb50eb7372@000000_oswg176078oswg530oswg431_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>最初，还只是一些特斯拉车主通过个人行为来表达不满， 但现在已经升级为了规模更大的公众抵制活动。</p>
+  <p>根据英国《金融时报》报道，上个周末，有大量的抗议者聚集在北美数十家特斯拉门店外，抗议马斯克对政府开支的激进削减措施，敦促展厅内的人不要购买汽车。</p>
+  <p>不过似乎没人能阻止马斯克，他当然也知道自己面临怎样的舆论，现在他在X平台有一条置顶推文：</p>
+  <p>I am endlessly amused by the infinite indignities I suffer on the very platform that I own.</p>
+  <p>“<strong>我对自己在自己拥有的平台上遭受的无尽侮辱，感到无比好笑。</strong>”</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg5MTc3NjgxNQ==&amp;mid=2247542005&amp;idx=1&amp;sn=777fda698e318690737e4cd13b0083e0&amp;chksm=ceb843e4afcc77e7b67f0e6edc38f0032727ff35265d982a3c7fc72869a54170c902be3ec520&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“超电实验室”（ID：SuperEV-Lab）</a>，作者：王磊，编辑：秦章勇，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3167452209637889</id>
+            <title>「量子智能」获4000万元A轮融资，专注危险环境作业的特种机器人研发制造｜硬氪首发</title>
+            <link>https://www.36kr.com/p/3167452209637889</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3167452209637889</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:24:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 量子智能, 特种机器人, A轮融资, 智能作业  
+<br>
+<br>
+总结: 量子智能科技有限公司近日完成4000万元A轮融资，资金将用于扩大生产和研发。该公司专注于特种机器人研发，致力于提供在危险环境中作业的智能机器人，提升安全性和效率。随着人工智能技术的发展，特种机器人逐渐智能化和自主化，行业趋势向模块化设计和标准化接口转变。量子智能的产品线包括智能作业和巡检机器人，能够替代人工在高危环境中执行任务，实时监测设备状态，降低劳动风险。未来，公司将加快新产品研发，增强市场竞争力。 </div>
+                        <hr>
+                    
+                    <p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>硬氪获悉，西安量子智能科技有限公司（以下简称「量子智能」）近日完成4000万元A轮融资，投资方为中集弘远、天鹰合智，融资资金将用于扩大生产规模、拓展市场版图，增加研发投入以推动产品迭代升级 。</p>
+  <p>「量子智能」成立于2016年，专注特种机器人研发制造，通过融合AI创新技术，为客户提供可用于危险环境的智能作业机器人及场景解决方案，减少恶劣工作环境对人身伤害，提高生产安全性和生产效率。</p>
+  <p>近年来，随着人工智能和机器学习技术发展，特种机器人日渐趋向智能化、自主化，对复杂环境的认知和决策能力增强，从孤立工具转变为人机协作，模块化设计与标准化接口成为行业趋势。</p>
+  <p>其中，通过采用模块化设计，特种机器人的各个功能部件，可以像搭积木一样进行组合和替换，降低研发成本和周期；标准化接口也能增强了不同类型机器人间的兼容性和互操作性，推动产业的规模化发展，在消防、医疗、工业制造、深海乃至太空等领域，都能看到特种机器人的身影。</p>
+  <p>根据IFR等统计，2017年以来，我国特种机器人市场年均增长率达到30.7%，预估2024年市场规模将有望达到34亿美元，产能持续提升。</p>
+  <p>面向危险、繁琐、高强度工种，「量子智能」推出了智能作业类和智能巡检作业类两大产品线。其中，智能作业类产品多用于替代人工在高空、易燃易爆及有毒有害等极端危险环境作业，有效解决风电、造船、化工等行业人员短缺和安全生产的难题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_81f3ce5ff25b4d5d81eb570db3f9fcca@6022551_oswg196159oswg704oswg500_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">高空作业机器人（图源/量子智能）</p>
+  <p>以风电高空一体化作业机器人为例。「量子智能」推出了基于鸿蒙系统协同的智能作业机器人平台，通过无人机+多机器人，对塔筒进行全方位扫描，迅速完成三维建模，精准生产坐标并即时同步至平台，再由操作人员根据实际需求，灵活设置自动定点行走与位置点行走，让机器人在复杂环境下也能按预设路线精准移动。</p>
+  <p>运行过程中，机器人会实时显示自身速度、位置、温度、电流以及耗材使用状态等关键信息，方便人工实时掌握其运行状况。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_48020b6703f54a7ca5d940a361b20d31@6022551_oswg920867oswg1004oswg741_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1" /></p>
+  <p class="img-desc">基于鸿蒙系统协同的智能作业机器人平台</p>
+  <p>「量子智能」的智能巡检作业类产品线涵盖了防爆巡检机器人、撕裂检测等多种类型，主要用于工业生产环境中，替代人工执行巡检任务。</p>
+  <p>它不仅可以实时传输现场图像与声音，还能精准检测现场设备的温度、烟雾、有害气体浓度等关键参数。通过对检测数据的深入分析，机器人能够迅速判断设备是否存在故障，并准确锁定故障点，实现多维度智能巡检。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_04b71fcbd1b14312adc00324b42ecbc7@6022551_oswg207963oswg704oswg504_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">巡检作业机器人（图源/量子智能）</p>
+  <p>这一功能不仅极大减轻了工作人员的劳动强度，降低劳动风险，还能及时发现潜在问题，有效避免事故的发生和扩大，以保障生产的连续性和稳定性，对皮带输送（散料输送）、冶炼、矿山、石油化工等危险环境行业的数字化转型和智能化升级有重要影响。</p>
+  <p>核心零部件方面，「量子智能」自主研发了防爆电机、机器人三轴陀螺自稳云台、端侧AI核心板、防爆充电设备等多个核心部件，以进一步提升产品可靠性和安全性。其中，基于力反馈的电动打磨系统和高效金属粉尘回收系统，打磨厚度可精准控制在20 - 800μm，完全满足造船等行业的高精度需求。</p>
+  <p>通过打通视觉感知算法、多传感器融合等关键技术，「量子智能」特种机器人已在采矿、野外施工、造船、风电维修等复杂工业场景落地应用。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5a630c03974943a1a493b45f9216895e@6022551_oswg189443oswg918oswg785_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1" /></p>
+  <p class="img-desc">陆空一体化机器人（图源/量子智能）</p>
+  <p>未来，公司将扩大研发团队规模，加快新产品研发和迭代升级，专注先进核心零部件、算法及控制系统，增强机器人自主性等；同时在市场端强化品牌建设，搭建多元销售渠道，通过参加行业展会、与系统集成商合作、设立海外分支机构等提升市场占有率。</p>
+  <h4>投资方评论：</h4>
+  <p>深圳中集弘远私募股权投资基金表示，我们非常看好量子智能在特种机器人领域的技术、数据积累和行业前景。随着工业自动化和智能化进程深化推进、高危特种场景作业无人化需求的紧迫拉升以及AI软硬件底座的跨越式发展，量子智能的智能作业机器人和巡检机器人产品矩阵，在解决既有行业作业痛点的同时、显著提升作业安全性及效率，实现领域内智能机器人相对于传统人工的：能做尽做、不能也做、做得更好。本轮投资将助推量子智能向行业领军定位加速成长。</p>
+  <p>珠海天鹰合智投资管理合伙企业表示，量子智能凭借其深厚的技术研发能力和对市场需求的精准把握，已经在特种机器人领域占据了重要位置。我们相信，随着资本的注入，量子智能将加速产品迭代和技术升级，进一步巩固其在危险环境作业机器人市场的领先地位。我们期待与量子智能携手，共同推动智能机器人行业的创新发展。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171870469193222</id>
+            <title>中芯国际，光靠国补破不了局</title>
+            <link>https://www.36kr.com/p/3171870469193222</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171870469193222</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:17:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 中芯国际, 增收不增利, 深度学习, 美国制裁  
+<br><br>  
+总结: 中芯国际在2024年实现了历史新高的营收，但归母净利润却同比下滑45.4%，显示出“增收不增利”的困境。尽管在智能手机芯片业务上收入大幅增长，但公司仍面临成熟芯片价格战的压力，未能建立起先进芯片的制造优势。此外，美国对中国芯片行业的全方位打压加剧了中芯国际的挑战。尽管DeepSeek的出现为中芯国际带来了新的业务机会，但其能否在重重压力下实现突破，仍然是一个悬而未决的问题。 </div>
+                        <hr>
+                    
+                    <p>营收创下历史新高的中芯国际，依然面临艰难的挑战。</p>
+  <p>刚过去不久的2024年，中芯国际的业务迎来大丰收，全年收入同比增长27%，达到80.3亿美元，<strong>创下历史新高</strong>。尤其在智能手机芯片业务上，收入暴增超40亿元，增幅达37%。</p>
+  <p>不过，营收创历史背后，却隐藏着巨大隐忧。2024年，中芯国际归母净利润同比下滑45.4%，仅为4.93亿美元。<strong>“增收不增利”的局面意味着中芯国际也深陷成熟芯片价格战中，依然还没有建立起先进芯片的制造优势。</strong></p>
+  <p>实际上，无论是资本市场的关注，还是产业升级的期望，重点并不完全是中芯国际能赚多少钱，而是<strong>什么时候能够实现先进芯片制造。</strong>就在这个月，市场传闻中芯国际克服5nm制程核心技术，股价飙涨超10%；去年10月，业内透露中芯国际在7nm及以下制程工艺上取得新进展，股价创下历史新高。</p>
+  <p><strong>而比商业、技术问题更棘手的，是来自美国的全方位打压。</strong></p>
+  <p>就在上个月，美国发布了《人工智能扩散暂行最终规则》，这份规则被认为是自“二战”以来美国仅在核武器等军工物项上采取过的超级出口管制，目的就是阻止中国获得算力，同时避免高端芯片通过他国流向中国。</p>
+  <p>那么，中芯国际肩上的担子无疑更重了，留给中芯国际的时间也不多了。就在这至暗时刻，DeepSeek横空出世。积极的一面是，DeepSeek带来了新希望，随着对算力需求的持续攀升，中芯国际有望凭借技术实力，承接更多相关芯片制造订单，开辟新的业务增长路径。</p>
+  <p>但同时也要看到，DeepSeek带来的冲击，美国必将继续收紧高端芯片流向中国的渠道，中芯国际作为中国芯片制造的龙头，不可避免地会成为被针对的对象，获取设备或技术的难度将史无前例。</p>
+  <p>在重重压力下，中芯国际能否也迎来自己的“DeepSeek时刻”，影响着中国芯片产业的未来走向。</p>
+  <h2><strong>增收不增利</strong></h2>
+  <p>作为国内芯片制造的龙头企业，中芯国际的业绩数据都牵动着行业的神经。</p>
+  <p>2024年第四季度，中芯国际实现营收22.07亿美元，同比增长31.5%，环比增长1.7%；2024全年，中芯国际收入更是同比增长27%，达到80.3亿美元，创下历史新高。</p>
+  <p>此外，2024年中芯国际产能利用率较2023年显著增长，当年四季度产能利用率为85.5%，环比下降4.9个百分点，同比则上升8.7个百分点。</p>
+  <p>以晶圆尺寸分，当季，8英寸晶圆营收占比19.4%，12英寸晶圆营收占比创新高，达到80.6%。按地区分类，当季，中国区收入在中芯国际总收入中占比89.1%；美国区收入占比为8.9%，环比进一步下滑1.7个百分点；欧亚区贡献了2.0%的收入。</p>
+  <p>从具体应用来看，当季，智能手机产品收入占比为24.2%，电脑与平板产品收入占比为19.1%，消费电子收入占比为40.2%，互联与可穿戴产品收入占比为8.3%，工业与汽车收入占比为8.2%。</p>
+  <p><strong>这里面有个亮点不得不提，中芯国际智能手机方面的收入从2023年的109.21亿元大增至2024年的149.53亿元，同比大增超过40亿元，增幅达37%。</strong>这主要得益于中国手机市场的反弹。2024年，中国手机出货量约2.86亿台，同比增长5.6%，时隔两年触底反弹。</p>
+  <p>背后原因是什么呢？<strong>其实是中芯国际间接吃到了“国补”的红利。</strong></p>
+  <p>近年来，居民消费更趋谨慎，以手机为代表的电子产品“换机周期”拉长，很多人觉得找不到换手机的理由。而“国补”政策的出现，给了消费者一个充分的换机理由。<strong>“有补贴不要，相当于损失”“反正都要换机，不如趁现在换”</strong>，这种消费心理的转变，使得消费者更愿意在“国补”期间购买手机。</p>
+  <p>此外，消费者对于AI技术的接受程度逐渐提高，这也成为推动手机销量的一个因素。“国补”政策与这一技术发展趋势相结合，对于价格在3000元至6000元的中高端手机刺激作用尤为明显，因为这个价格段补贴额度较大，更能激发消费者的购买行为。</p>
+  <p>而作为国内芯片制造的龙头企业，中芯国际在手机芯片制造业务上与众多手机厂商紧密合作。手机销量受“国补”刺激大幅增长，使得手机厂商对芯片的需求猛增。中芯国际凭借其在芯片制造领域的技术实力和产能优势，自然能承接更多手机芯片的订单，从而有了上述的手机方面业务迅速增长。</p>
+  <p>就这样，<strong>原本旨在刺激消费的补贴政策，以一种意想不到的方式，让中芯国际成为了受益者。</strong></p>
+  <p>不过，<strong>中芯国际在归母净利润数据方面，情况就不太乐观了。</strong>2024年第四季度，归母净利润为10.76亿美元，同比下滑38.4%，环比下滑27.7%；2024全年归母净利润同比下滑45.4%，仅为4.93亿美元。</p>
+  <p><strong>营收和利润两者之间的一降一升，形成了鲜明对比，“增收不增利”也意味着中芯国际目前只能说刚刚走出低谷，但还是寒意阵阵。</strong></p>
+  <p>利润承压的源头主要是毛利率。2024年，中芯国际毛利率为18%，较上年下降1.3个百分点，<strong>主要由于折旧增加，这与扩建产能及背后的巨额资本开支有关。</strong></p>
+  <p>去年四季度，中芯国际资本开支为16.60亿美元；前三季度资本开支分别为22.35亿、22.52亿、11.79亿美元。过去数年，中芯国际持续在成熟制程领域大力扩产。截至四季度末，折合8英寸计，中芯国际月产能为94.76万片，较2023年末增加约17.64%。</p>
+  <p>中芯国际财务负责人吴俊峰称，2024年中芯国际增加折旧约为5.5亿美元，增幅超过20%，但随着半导体市场回暖，产能利用率的回升对冲了折旧增加的影响。“我们预计2025年折旧的增幅在20%左右，而且是逐季增加。”吴俊峰说。</p>
+  <p>此外，中芯国际预计，2025年全年资本支出将和2024年的73.3亿美元持平。谈及是否延续每年增加5万片晶圆产能的目标，赵海军强调该目标是扩产12英寸晶圆产能，8英寸不会再扩大规模。</p>
+  <p>除了折旧，<strong>行业内卷导致的价格长期承压</strong>，也是拖累中芯国际毛利率的另一个重要因素。</p>
+  <h2><strong>价格战阴霾</strong></h2>
+  <p>之所以说到价格因素是拖累中芯国际利润的另一推手，是因为成熟制程还没有完全走出价格战的阴霾。</p>
+  <p>2024年5月9日，中芯国际联合首席执行官赵海军在财报会上坦言，中芯的12英寸晶圆产线2月以来一直满载，但同业竞争激烈。“公司的很多战略客户，无论机顶盒还是智能手机，市场上如有其他竞争者开出更低价格，它们就可能丢掉单子，几千万元的订单就不见了。我们还是要随行就市，跟客户一起去面对市场竞争。”</p>
+  <p>也有国内晶圆代工企业的高管直言，当下行业内卷程度超乎想象，头部厂商纷纷扩建产能，大家都清楚，2024年底新产能必然会释放出来，可要是没有足够的客户，就只能靠降价来抢夺客户。</p>
+  <p><strong>价格战的根源，在于全球大规模扩产后的产能过剩。</strong></p>
+  <p>从2020年下半年开始，市场遭遇“缺芯”危机，地缘政治因素又促使“区域化生产”趋势兴起，全球晶圆代工行业借此掀起了一轮扩产热潮。国际半导体设备与材料协会（SEMI）报告显示，<strong>2022年和2023年，全球12英寸晶圆厂设备投资分别同比增长7%和4%；2024年和2025年预计还将分别同比增长1%、20%，规模将达到1165亿美元。</strong></p>
+  <p>SEMI还预计，<strong>2024年到2027年，全球晶圆厂总产能将分别同比增长9%、10%、9%和8%。此间，全球将有75座新建12英寸晶圆厂投入运营，总数将升至234座。</strong>成熟制程约占全球晶圆代工行业七成产能。群智咨询提供的数据显示，<strong>2025年到2029年，全球成熟制程产能的复合增长率将为7%左右；中国大陆增速高于全球，复合增长率预计接近11%。</strong></p>
+  <p>在如此迅猛的产能扩张下，能否走出价格战危机，关键在于能否找到足够的需求端来消化这些产能。</p>
+  <p>AI热潮虽然带来了大量芯片需求，但AI主要依赖先进制程的高端逻辑芯片，生成式AI和高性能计算（HPC）是主要推动因素。</p>
+  <p>至于成熟制程市场，则是另一番景象，<strong>需求复苏的速度目前明显跟不上产能释放的速度，大量应用成熟制程芯片的手机、个人电脑、家电以及周边的蓝牙、WiFi、电源等消费市场缺乏动力。即便“国补”带来了手机销售的短暂反弹，其持续性也令人怀疑。</strong></p>
+  <p><strong>真正有望让成熟制程摆脱价格战，帮助中芯国际走出“增收不增利”尴尬局面的，或许是新能源车的发展。</strong></p>
+  <p>德国汽车零部件企业博世的中国总裁徐大全在2024年1月曾表示，每辆智能电动车所需芯片总数远超传统汽车，且96%以上的车用芯片使用成熟制程。<strong>他判断，过去三年，全球主要芯片供应商在成熟制程方面的投资，不足以支撑未来全球新能源汽车的发展，未来“芯片危机”仍有可能再次出现。</strong></p>
+  <p>他还指出，国外晶圆厂对低制程技术热情不高，国外投入不足，或许会给中国带来机会。</p>
+  <p>从最新数据来看，中芯国际似乎有了短暂的、有望走出价格战的迹象。中芯国际在财报会上透露，2024年四季度晶圆ASP（平均售价）环比增长6%。但这种信号并不稳定，中芯国际对此也持谨慎态度。</p>
+  <p>赵海军指出，2025年上半年客户由于国际政策不稳定提前备货，消费电子终端受消费补贴政策刺激需求放大、相关厂商亦提前备货，两方面因素导致上半年产能利用率上涨，但同时由于低端产品占比增多，ASP将下滑；而下半年ASP走势仍不明朗。</p>
+  <p><strong>“由于2025上半年拉货，下半年缺单子，同业会出现低价抢单的情况，价格走势并不清楚，但可能会是下降的趋势。”</strong>赵海军说。</p>
+  <h2><strong>Deepseek时刻</strong></h2>
+  <p>前面说的，行业扩大产能、加剧价格战，使中芯国际一方面要在产能跟上，导致折旧增加，另一方面价格承压，两者结合拖累毛利率，最终导致“增收不增利”。这些供需关系的动态变化，其实还是商业范畴的事。</p>
+  <p><strong>但中芯国际真正担心的，其实是来自非商业范畴的冲击。</strong></p>
+  <p>美国已经把目光牢牢锁定在中国成熟制程芯片的竞争力上。目前，中国大陆的成熟制程技术虽然和台积电相比还有不小的差距，但已经能和力积电等二线厂商一较高下，甚至在部分工艺节点上，还能和台积电“掰掰手腕”。</p>
+  <p>2024年末，美国商务部下属的工业与安全局（BIS）发布了中国产成熟制程芯片使用状况调研结果。结果显示，<strong>美国受访公司产品中，至少三分之二的产品可能包含由中国代工厂制造的芯片。</strong></p>
+  <p>受访公司选择中国代工厂的原因，54%是因为成本。在可选择的晶圆中，72%的中国产晶圆比非中国代工的芯片便宜，中国产晶圆中位数价格要比非中国的低10%。而且，受访公司进口的中国代工的芯片中，31%没有其他代工厂可以替代生产。</p>
+  <p>一些美国芯片供应商直言，他们在中国以外找不到替代者，部分原因是海外缺乏足够的市场激励。值得注意的是，<strong>中芯国际和华虹集团旗下的晶圆代工厂，是受访美国芯片供应商最常使用的中国代工厂，在对美代工市场占率达到78%。</strong></p>
+  <p>这种发展势头，显然让美国坐不住了，<strong>在过去不足一年时间内，不断加大对中国成熟制程芯片业的打压力度。手段更是层出不穷，从关税到301调查，再到春节前试图全球封锁中国获得关键资源。</strong></p>
+  <p>2024年5月14日，美国白宫发公告称，将对从中国进口的180亿美元产品加征关税，其中，半导体的关税水平从目前的25%增至2025年的50%。</p>
+  <p>同年12月23日，美国贸易代表办公室（USTR）宣布，根据《1974年贸易法》第301条，对中国在半导体行业的行为、政策和做法展开调查。根据该条例，外国政府对美国商业造成负担或限制的不合理或歧视性做法，美国政府可以回应。</p>
+  <p>这次的调查将从成熟制程半导体入手，即调查28纳米及以上的、非最先进工艺的半导体，调查范围触及国防、汽车、医疗设备、航空航天、电信、发电和电网等关键行业的下游产品。</p>
+  <p>USTR称，在短短六年内，中国成熟制程逻辑半导体产能的全球份额几乎翻了一番，到2029年，中国的份额预计将达到全球产能的一半左右。USTR指控，中国在半导体产业的作为对美国和其他经济体产生有害影响，破坏了美国工业和工人的竞争力、美国关键的供应链和美国的经济安全。</p>
+  <p>这件事才刚刚开始，<strong>USTR将于3月11日和12日将举行公开听证会，后续可能还会有更多对中国芯片业不利的消息传出。</strong></p>
+  <p>1月13日，<strong>美国发布《人工智能扩散暂行最终规则》，这份规则被认为是自“二战”以来美国仅在核武器等军工物项上采取过的超级出口管制，目的是阻止中国获得算力，确保非友好国家无法组织千卡规模以上的算力集群，同时避免高端GPU通过他国流向中国。</strong></p>
+  <p>不过，转机也随之而来。<strong>最近爆火的DeepSeek为中芯国际带来了破局机遇。</strong></p>
+  <p>DeepSeek的访问使用量急速上升，其开源模式大幅降低了人工智能进入各行业的门槛，手机和PC大厂、热门应用程序，甚至一些地方政府的政务系统都开始拥抱部署。</p>
+  <p>随着DeepSeek相关应用的不断拓展，对算力的需求持续增加。而中芯国际作为芯片制造企业，凭借其在芯片制造领域的技术实力，有能力为DeepSeek相关的算力芯片制造提供支持，意味着<strong>中芯国际有可能承接更多与DeepSeek相关的芯片制造订单，进一步拓展业务范围。</strong></p>
+  <p>DeepSeek还会带动整个国内人工智能产业的发展，尤其是手机厂商为了提升手机的AI性能，会对芯片的AI处理能力提出更高要求。中芯国际与各手机厂商联系密切，可以借此机会，研发和生产更适合AI应用的手机芯片，甚至实现技术突破。</p>
+  <p>目前，中芯国际的N+1/N+2制程技术突破（对标7nm工艺）已通过客户认证，也有消息称中芯国际利用多重曝光技术，在5nm芯片制程技术方面取得突破，指甲盖大小的地方可塞进170亿个晶体管，初期良品率达到了35%。</p>
+  <p>来自美国史无前例的管制，倒逼中国加速科技产业自主可控，对然技术代际差距的跨越可能需要5-8年周期，但DeepSeek的诞生无疑带来了强烈且广泛的信心。</p>
+  <p>中芯国际在其中的角色与DeepSeek类似，DeepSeek突破底层技术创新带动应用层面大爆发，而中芯国际更像“战时兵工厂”，从市场化代工厂向战略基础设施转型，技术突破和量产能力，将成为这场科技战争不可或缺的基座。</p>
+  <p>补贴温室里，长不出参天树。中芯国际，需要创造自己的DeepSeek时刻。</p>
+  <p><strong>参考资料：</strong></p>
+  <p>财新《中芯国际2024年净利润下滑2025年折旧仍将增两成》</p>
+  <p>财新《成熟制程芯片开打价格战》</p>
+  <p>财新《美国“限芯”狂加码全球化阻断试图拖慢中国》</p>
+  <p>财新《美国对中国芯片发起301贸易调查冲击成熟制程芯片》</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/geviXNBJ3_WIf4cWLqF55g" rel="noopener noreferrer nofollow" target="_blank">“金角财经”</a>，作者：Chong&nbsp;Lei，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171837034431362</id>
+            <title>腾讯的搜索梦，被DeepSeek再次点燃</title>
+            <link>https://www.36kr.com/p/3171837034431362</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171837034431362</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 09:15:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <微信, DeepSeek, AI搜索, 腾讯>
+<br>
+<br>
+总结: 文章讨论了微信在搜索功能上引入DeepSeek模型的影响，强调了AI搜索为传统搜索行业带来的新机遇。微信搜索自2014年推出以来不断扩展功能，旨在连接庞大的内容生态并挖掘商业价值。尽管百度在搜索市场占据主导地位，但AI大模型的应用可能改变这一格局。微信借助其独特的内容生态，可能在AI搜索中实现更高效的信息匹配和用户体验。文章还提到，微信的战略目标是将搜索与小程序等服务紧密结合，以降低用户获取信息的成本。 </div>
+                        <hr>
+                    
+                    <p>情人节之后的第一个周日，“微信DeepSeek王炸组合”的话题冲上微博热搜。</p>
+  <p>部分用户发现，在微信搜索界面点击AI搜索，再选择深度思考-R1，即可免费使用DeepSeek-R1 模型搜索内容。目前该功能仍在测试中，仅部分用户可以看到。</p>
+  <p>这个消息，让腾讯成为最近备受追捧的“DeepSeek概念股”之一。2月17日，腾讯控股高开6.57%，报506港元，重上500港元，创2021年7月以来新高。</p>
+  <p>借助DeepSeek深入挖掘生态优势，微信乃至腾讯可能打开新的想象空间。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2aceecbb9e404300bed7ef1bd9e57f1c@000000_oswg64454oswg1080oswg432_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：腾讯财报</p>
+  <h2><strong>十年漫漫搜索路</strong></h2>
+  <p>因接入DeepSeek而备受关注的微信搜索，其实已诞生十余年。早在2014年6月，微信就推出了搜索功能，不过最初功能十分单一，仅可查找聊天记录。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c91e4b1c3bd347c9a39ed7cb241024f4@000000_oswg50122oswg1080oswg629_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：微信</p>
+  <p>此后几年，随着微信生态逐渐繁荣，微信搜索的能力边界也不断拓宽，公众号文章、小程序、表情、短视频等内容都被纳入进来。为增强用户对搜索功能的认知，2017年5月，微信正式上线“搜一搜”入口。</p>
+  <p>微信加码搜索，既是为了串联起生态内庞杂的内容库，也是看到了搜索业务蕴含着巨大的商业价值，希望成为移动互联网时代重要的入口。</p>
+  <p>作为互联网行业历史最悠久的业务之一，由于用户指向非常明确，搜索的商业模式清晰且高效。以百度为例，虽然近年来布局了智能驾驶、云计算等业务，但以搜索为主要载体的广告业务仍是重要的业绩支柱。2024年Q3，百度在线营销业务收入188亿元，营收占比高达56%。</p>
+  <p>进入移动互联网时代，数据孤岛出现，传统搜索引擎很难抓取微信公众号、今日头条、拼多多等平台的内容。腾讯、360、阿里、字节跳动巨头们看到机会，纷纷上马或升级搜索业务，试图分一杯羹。比如，2020年以来，字节跳动就先后推出头条搜索、悟空搜索、闪电搜索、抖音搜索等产品。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b637c75140284dd7aa10a309ef5c9695@000000_oswg279295oswg1080oswg703_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：StatCounter</p>
+  <p>过去几年，搜索产品层出不穷，微信、今日头条等国民级App不断强化搜索功能，但均未撼动百度的江湖地位。</p>
+  <p>StatCounter数据显示，2025年1月，在中国搜索市场，百度的市占率为47.07%，在移动搜索市场，百度的市占率更是高达58.6%。很大程度上说明，现有的解决方案很难将百度拉下马。</p>
+  <h2><strong>全新的解题思路</strong></h2>
+  <p>突然爆火的AI大模型，为搜索行业带来了全新的解题思路。</p>
+  <p>今年2月初，金沙江创投董事总经理朱啸虎在接受采访时对DeepSeek不吝溢美之词：“PC互联网时代，搜索是第一个出来的Killer App。今天也一样，AI时代第一个出来的Killer App也是搜索。”</p>
+  <p>大模型加持的AI搜索，可以通过AI技术理解用户意图，高效梳理全网海量信息，进而生成准确的内容，有效规避传统搜索广告多、信息杂等痛点。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_24f1771b03f8431ebb74c3a1465047d8@000000_oswg712023oswg1080oswg1137_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">左：微信AI搜索；右：百度</p>
+  <p>雪豹财经社体验后发现，在部分问题上，AI搜索相较传统搜索引擎，确实具备更强的优势。</p>
+  <p>比如，我们把“简单介绍下宇树机器人最新跳舞视频”的问题同时抛给微信AI搜索和百度，前者对事实及背后的技术原理给出了详细的介绍，可以带来更出色的使用体验。</p>
+  <p>以百度、谷歌为代表的传统搜索企业，以360、腾讯为代表的互联网大厂，以及以秘塔为代表的初创企业，纷纷加码AI搜索相关产品。</p>
+  <p>2月3日，纳米AI搜索捷足先登，成为国内首个接入DeepSeek-R1满血版的搜索引擎。360集团创始人周鸿祎还不遗余力地通过出演短剧、上综艺、免费送100辆国产新能源车等方式，宣传纳米AI搜索。</p>
+  <p>2月12日举办的纳米AI搜索新能源车活动上，周鸿祎透露，纳米AI搜索春节期间积累2000万用户，“是360在无线互联网时代取得的最好成绩。”</p>
+  <h2><strong>微信靠什么破局？</strong></h2>
+  <p>AI搜索的能力，与基座模型的规模成正比。此前，互联网巨头只需深耕闭源模型，提高模型的材料分析和推理能力，即可在AI搜索领域构筑深厚的护城河。</p>
+  <p>DeepSeek开源，很大程度上拉齐了AI搜索产品的底层能力。雪豹财经社体验后发现，将同一个问题分别抛给百度AI搜索、纳米AI搜索、秘塔AI搜索等多个接入DeepSeek的AI搜索引擎，得到的结果高度相似。</p>
+  <p>虽然在底层技术上与其他产品高度趋同，但作为国民社交软件，微信借助独特的公众号、视频号、小程序等内容生态优势，微信AI搜索或将极大地拓宽AI搜索反馈的内容维度，构筑闭环的生态体验：从搜索信息出发，以购买商品、服务或者解决方案为终点。</p>
+  <p>比如，询问“如何预约故宫门票？”如果微信AI搜索后续能直接在回答中加入故宫博物院的小程序链接，那么用户就能一键完成预约。</p>
+  <p>上述业务模式并非简单的猜测，而是微信一以贯之的战略导向。2020年微信公开课PRO上，微信创始人、腾讯公司高级副总裁张小龙提到，“我们做小程序有一个梦想，希望搜索能进入每一个小程序内部，这样海量的小程序可以支撑起各种长尾的搜索需求。”</p>
+  <p>传统搜索引擎难以深入小程序内部，但开源的DeepSeek可以将用户的需求与海量微信小程序在垂直场景的服务高效匹配。</p>
+  <p>正如张小龙所言，“很多人并不愿意主动去获取信息，而是更倾向于被动获取。”</p>
+  <p>能极大降低用户获取信息成本的微信AI搜索，能像微信支付一样上演自己的“奇袭时刻”吗？</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTY3Njk1Ng==&amp;mid=2247511116&amp;idx=1&amp;sn=4aa895a460d0877369f583bdd81afbec&amp;chksm=cf841c55482e916b6df0d2674e50a63d3d3bfe62e9f230f847cd98d95754b0b18146be52938f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“雪豹财经社”（ID：xuebaocaijingshe）</a>，作者：吴姿，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

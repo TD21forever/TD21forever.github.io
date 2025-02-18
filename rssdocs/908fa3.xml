@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>36氪 - 最新资讯频道</title>
+        <link>https://www.36kr.com/information/web_news</link>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172012484952962</id>
+            <title>百度搜索×DeepSeek，官宣接入仅24小时全量上线满血版，实测来了</title>
+            <link>https://www.36kr.com/p/3172012484952962</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172012484952962</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 12:07:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: <百度搜索, DeepSeek-R1, AI搜索, 生态战略>
+<br>
+<br>
+总结: 百度搜索已全面接入DeepSeek-R1满血版，用户可通过百度APP体验AI搜索。此次接入不仅是简单的技术整合，还进行了优化，减少了模型的幻觉现象。通过实测，DeepSeek-R1在回答问题和分析场景方面表现出色，能够提供更为精准和深入的解答。百度的这一举措标志着其在互联网生态中向开放合作的转变，旨在通过AI技术重构生态，提升用户体验。整体来看，百度搜索与DeepSeek的结合是其生态级战略的重要一步。 </div>
+                        <hr>
+                    
+                    <p>不等了，就是现在！</p>
+  <p><strong>百度搜索已正式全量接入DeepSeek-R1满血版</strong>，在宣布“将接入”仅过了24小时后。</p>
+  <p>基于百度搜索的国民级用户覆盖，满血版DeepSeek这下是真真儿遍地开花接入了千家万户。</p>
+  <p>门在这里👇，现在在<strong>百度APP搜索结果页点击「AI+」</strong>就能进入AI搜索，然后就能看到DeepSeek-R1满血版。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e28b34183a4249f6bda7854421ccf3f7@000000_oswg113397oswg760oswg298_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_9b8a0e06851e479e990385add00550d5@000000_oswg55651oswg736oswg290_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>值得一提的是，百度这次还做出了点不一样的。</p>
+  <p>不是拿来直接简单接上去给用户用，而是进行了一波技术融合，将自家RAG等优势技术都搬出来帮模型<strong>做了减少幻觉等优化</strong>。</p>
+  <p>话不多说，来看实测。</p>
+  <h2><strong>百度搜索+DeepSeek-R1实测</strong></h2>
+  <p>首先是我们在扒拉某书时，发现有网友在传一个鉴别“<strong>DeepSeek是否为满血版</strong>”的野生方法（非官方消息，不保真啊啊啊啊）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_b6c05481a393406d8ffc530f6525273c@000000_oswg56079oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>咳咳，指令是酱紫的：</p>
+  <blockquote>
+   <p>一个汉字具有左右结构，左边是木，右边是乞。这个字是什么？只需回答这个字即可。</p>
+  </blockquote>
+  <p>之所以想出这个问题，是因为网友们测试后发现部分厂家接入的DeepSeek无法答对，只有满血版才能。</p>
+  <p><strong>错误情况下，答案会被显示为“杞”。</strong></p>
+  <p>就怎么说呢，百度搜索的DeepSeek-R1，一下子就答对了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_27112f8a2966497ba96e8a297ca7f75e@000000_oswg442320oswg652oswg1276_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>那，第二关，正式从百度搜索的<strong>日常使用场景</strong>开启。</p>
+  <p>想想自己平时会用百度干啥呢？</p>
+  <p>Bingo，那不还得是获取一些最新消息兼日常答疑解惑。最近《哪吒2》票房已突破122亿，全网都在好奇：为什么它这么火？</p>
+  <p>可以看到，百度搜索接入满血版DeepSeek后，分析起来那叫一个头头是道。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d4b9e4f04b3c4cd0a47e03b3170c5b6d@000000_oswg578551oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从文化背景、技术、市场营销等多个维度进行了完整解释，其中大家都在大力夸赞的特效以及“几年磨一剑”的敬业态度也都有提到。</p>
+  <p>这下好了，以后用百度搜索也能随时get经过层层推理的回答。</p>
+  <p>再来一个高频场景测试，都知道小学奥数题是越来越难了，那么，让它来帮忙呢？</p>
+  <p>下面这是一个曾经冲上某平台热榜，难倒无数网友的题目。</p>
+  <blockquote>
+   <p>4个人4天吃4袋米，8个人8天要吃多少袋？</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2cd401f3a683437cbfe07586975e622e@000000_oswg34706oswg1072oswg260_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在经过一番分析后，百度搜索DeepSeek-R1也是成功答对。</p>
+  <p>细扒思考过程的那种，还特意点出了大家伙儿可能会翻车的地方。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_377903a4e55c43c4adc8f5013d2d7a53@000000_oswg140988oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>还有更好玩的，比如让它来理解一下豆瓣热帖“<strong>图书馆30s</strong>”这个经典恋爱梗。</p>
+  <p>常规百度AI搜索就能得到准确回答，DeepSeek-R1接入后更是锦上添花：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_72cb5d090583461e8d9fa1e985e4d34d@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>使用路径很简单，随手点击小蓝鲸就能调出，大大小小的事儿都能帮你分析透彻：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cec07a24d9654dbc9e77baec4df4775a@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再打开脑洞一点，我们直接来个超级大跨越，<strong>让生活大爆炸里的谢尔顿为我们讲解中国文学</strong>。</p>
+  <p>谢尔顿与中国文学，是不是狠狠期待住了？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c83ee2dc948d45dd8546cedb5b607852@000000_oswg197722oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>很好，完美复刻了那种听不懂但又觉得迷人的feel，甚至佩妮一如既往出来“打岔”了。</p>
+  <p>DeepSeek-R1接入，百度搜索也变得更加个性化。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_f42db59418cf42d3afe9a060b9ae1da6@000000_oswg64638oswg197oswg186_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这一点也在另一个热门测试中可以窥见。</p>
+  <p>挑战“<strong>一句话让人破防</strong>”，之前的直接令网友原地心碎：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_32b4281173544a45826271a18844331d@000000_oswg113116oswg1050oswg629_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而百度接入的这个，真滴超级温柔了，甚至特意提醒了一句：</p>
+  <blockquote>
+   <p>屏幕后真实的你，永远值得温柔以待！（啊，我哭死）</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0adf4cfbcb7d4cadb8855e262184413e@000000_oswg149548oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>另外，听说网上不少人用DeepSeek-R1“赛博算命”（doge），咱也曾跟风悄么试过……但是之前发现DeepSeek-R1经常会出现公历转农历转错了的情况。</p>
+  <p>这次用百度搜索+DeepSeek-R1试了一下，幻觉确实少了，万年历正确率up up。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_99770b6f1cdf44218a469cf2a3563f8b@000000_oswg152851oswg1080oswg1082_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>搜索进入“满血”时代</strong></h2>
+  <p>不仅是接入DeepSeek，盘点百度最近系列举措，那是大动作一个接一个。（颇有字越少，事越大内味儿了）</p>
+  <p>先是2月13日宣布文心一言将于4月1日0时起全面免费，文心大模型深度搜索功能也紧跟上线。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_22208b49a8ec4d2aaa5fc156a288dd47@000000_oswg150351oswg1080oswg541_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第2天，又放出消息——下一代文心模型，开源。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_673b2e1f45354912bbc390e4d90a3e93@000000_oswg64383oswg1080oswg259_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>第4天，再宣布百度搜索将全面接入DeepSeek和文心大模型最新的深度搜索功能，百度文心智能体平台也将接入DeepSeek。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_33dfbd7b77ca4e568018a4a31da8aa2c@000000_oswg100920oswg1080oswg258_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再到现在，正式全量接入DeepSeek。</p>
+  <p>种种迹象表明，这次百度在中国互联网超级App自给自足的“孤岛生态”逐渐瓦解之际，下定决心做了一个选择——<strong>将自身核心业务和重点业务纳入开放生态</strong>。</p>
+  <p>在巨头竞争从“流量圈地”转向“场景渗透”的当下，百度以搜索为支点，用AI撬动生态重构以此破局。</p>
+  <p>把自己练就多年的看家本领拿出来分享，携手更多伙伴一起为用户提供极致体验，这就是百度搜索融合DeepSeek带来的示范。</p>
+  <p>从另一个维度来说，百度将回归用户价值本身。</p>
+  <p>我们作为用户嘛，自然是……</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e1d678e05a9d43f489843e861f383c1b@000000_oswg63235oswg232oswg184_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>所以，这一次百度搜索和DeepSeek携手，绝不是露脸秀一秀，本质上是更大的<strong>“大模型+搜索”构建的生态级战略</strong>。</p>
+  <p>还没用过/发现百度搜索+DeepSeek-R1的可以自己上手试试了～</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247778041&amp;idx=1&amp;sn=a861ed3b579acd675b5b6f8fd78518a0&amp;chksm=e9115247768a03739a70a8799481ba57c8b9baaad720d13d9e7e1f45a0f92563f408c4c1c04c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172053770370817</id>
+            <title>等不到苹果的折叠屏，讲不出新故事了</title>
+            <link>https://www.36kr.com/p/3172053770370817</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172053770370817</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 12:07:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 折叠屏手机, 市场趋势, 用户体验, 苹果入局  
+<br><br>  
+总结: 折叠屏手机在中国市场的受欢迎程度逐渐下降，2024年Q3全球折叠屏手机出货量首次出现同比下滑。尽管折叠屏手机曾被视为创新，但用户对其内屏的使用率低，导致厂商面临高成本和低利润的困境。苹果尚未进入折叠屏市场，但其未来的入局被广泛关注，可能会影响市场趋势。尽管折叠屏手机仍有高端商务用户，但整体市场渗透率依然较低，未来发展面临挑战。 </div>
+                        <hr>
+                    
+                    <p>作为全球最大且最重要的折叠屏手机市场，中国用户正在逐渐收回对它的偏爱。</p>
+  <p>这个曾经被寄予厚望的手机形态，叙事逻辑已悄然改变。咨询公司DSCC报告称，2024年Q3，全球折叠屏面板出货量增速首次出现同比下滑，降幅高达38%。反映到终端市场，当季全球折叠屏手机出货量同比下跌1%，结束了连续六个季度的增长。2024年Q4，中国折叠屏手机出货量为250万台，在连续9个季度高速增长之后，首次同比下降9.6%。</p>
+  <p>几乎从诞生之日起，折叠屏就带有着一丝悲情色彩。与其说创新，它更像是手机厂商在智能机创新乏力时的一场集体挣扎，作为挡箭牌的折叠屏始终无法摆脱「鸡肋」宿命。</p>
+  <p>尽管人们对折叠屏的探索从二十年前就已开始。2006年MWC，荷兰公司Polymer Vison展示了可卷曲和可折叠概念电子书Readius，为后来折叠屏手机提供了灵感。到2018年，全球第一款量产横向折叠屏手机才由柔宇科技发布。作为手机屏幕厂商，这款手机的概念宣传远大于产品本身，因此关注度并不高。</p>
+  <p>2019年2月三星发布了全球首款面向广泛消费者的量产折叠屏手机Galaxy Fold。同月，华为在MWC2019巴展发布HUAWEI Mate X。至此，折叠屏正式走入大众视野。</p>
+  <p>但争议也伴随始终。当年Galaxy Fold一经发布，就曾因铰链进灰、屏幕故障，技术不成熟等原因被召回。这些缺陷直到今天也并未得到很好的解决。</p>
+  <p>「 像触屏第一次代替9键和26键，第二次直接取消下方三个功能键，二者都是能直接把上一代卷没的功能革新，但折叠屏并没有这个能力。」在资深数码发烧友牟航看来，折叠屏还能被讨论，恰恰证明手机硬件创新天花板已现，正如最近一年厂商们疯狂宣传的AI摄影和生成式AI，「基本宣告他们不会在光学和传感器方向有太大的投入了。」</p>
+  <h2><strong>01 太多折叠屏用户用不到内屏</strong></h2>
+  <p>《降噪NoNoise》访谈多位折叠屏用户后发现，人们对这款产品颇具怨言，也充满惋惜。</p>
+  <p>用户Mika告诉《降噪NoNoise》，当初买折叠屏是为了看视频看漫画，说白了就是娱乐。后来发现用折叠屏看16:9的片子并没有比大屏的直板机大很多，而且上下黑边很大，体验并不好。另外一个细节是，因为娱乐时间只占到她手机使用时间的五分之一不到，导致她多数时间都不会打开内屏。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a62e0ff28efb4f9a8108c77a8b794a94@673195656_oswg594963oswg865oswg875_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲谷歌pixel 9折叠屏手机大黑边感人</p>
+  <p>尽管听起来离谱，但这几乎是手机行业公认的冷知识：那就是很多折叠屏用户并不会打开手机使用内屏。</p>
+  <p>厂商们对此也心知肚明。此前小米MIX Fold4主打「外屏可用一整天」的宣传，就曾被用户吐槽：既然外屏能用一整天，为什么还要买折叠屏？</p>
+  <p>内屏鲜少被使用，迫使各家想出了分屏、多应用、悬浮打开等功能来适应用户的使用习惯，但数码博主天麻告诉我们，因为这些操作很深，并不实用，其实很少有用户知道这些交互。</p>
+  <p>除了交互层面，折叠屏的厚度问题一直是所有厂商倾注最多的部分。轻薄意味着在放弃原器件厚度的同时，也牺牲了性能。据了解，目前市面上的大多数折叠屏都使用上一代处理器，不仅散热系统、机械布局、电池等性能和原器件都要为折叠屏厚度做出妥协。</p>
+  <p>这是折叠屏工业设计的天然缺憾，几乎没法避免。这也导致折叠屏制造成本远高于直板机，因为原器件不能通用，造价高，在维修时也会昂贵许多。</p>
+  <p>折叠屏维修当中主板最贵，屏幕次之。以华为Pocket 2为例，其256GB版主板3299元，512GB主板3699元，这是整机的核心部分，屏幕价格在3000元左右，几乎占到售价一半。</p>
+  <p>其次维修特别费功，对维修专业要求度高。有维修师傅曾抱怨，「折叠屏内屏的拆卸通常会占到整个维修50%以上的时间，而剩下70%的维修进度都在拆卸和安装这块大屏上。」</p>
+  <p>简言之，折叠屏高额溢价的背后，外观和性能无法兼具。</p>
+  <p>春节期间，有网友晒出折叠屏到东北变成「脆皮雪糕」现象，很快引发大量讨论。此前三星、OPPO等在宣传中强调机器都做过低温折叠测试，三星称，其可折叠屏OLED屏幕理论上能在-20℃下折叠三万次，但从实际结果看，折叠屏的脆弱可能超乎预期。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_466b5204c2cd47d2b9731f390547cc54@673195656_oswg194843oswg335oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>当然折叠屏也并非一无是处。对于高端商务群体，折叠屏是他们为数不多的选择之一。在商务圈子中折叠屏带有一定社交属性，苹果手机没有辨识度，折叠屏不一样，除了会显得人有钱有资源之外，还能容易和别人打开社交话题。</p>
+  <p>都说商务人士会用折叠屏看报表、看文档，但上述受访对象称，他观察过周围金融圈的朋友，从没见他们打开过内屏，甚至连商务人士出没最多的机场候机室，也几乎没见过折叠屏的身影。</p>
+  <p>Mika坦诚，未来换机不会考虑大折叠了，可能会选择小折叠或直板机。牟航则告诉我们，「单单多出一个屏幕的面积，不足以让我付出80%的溢价去买；有创新，但没有创新到一定会换的程度。」</p>
+  <h2><strong>02 苹果入局的悬念</strong></h2>
+  <p>外界如何唱衰折叠屏并不重要，人们真正在意的是苹果何时入局。</p>
+  <p>「等哪天苹果出了折叠屏，折叠屏就会成为主流。」有这样一种观点认为，不管曲面屏还是小折叠、双折叠，只要苹果不跟，都会被时代抛弃或沦为小众群体使用。</p>
+  <p>最近有外媒报道，苹果或将于明年推出双折叠手机，该机型有望配备苹果自己生产调制解调器。Counterpoint预测，苹果预计将在2026年下半年进入折叠屏市场，凭借其在旗舰智能机市场的主导地位，将为折叠屏手机市场带来显著增长。</p>
+  <p>比起期待，人们更多是对这则「狼来了」的新闻有所怀疑。毕竟，不是第一次有这样的传闻。早在2023年，就有消息称苹果正在集中开发折叠屏iPad，并最早于2024年下半年发布。爆料称，苹果过去4年一直在开发折叠屏产品，更改设计。在推出折叠iPhone前，会先推出折叠屏iPad，但因为苹果担心折叠面板、屏幕折痕等问题，将考虑与三星Display等合作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e4de1993473149b8a193391b1015f602@673195656_oswg44375oswg500oswg485_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲彭博社记者对折叠屏iPad的爆料</p>
+  <p>有接近上游供应链人士向《降噪NoNoise》透露，根据此前对供应链的了解，苹果确实曾对折叠屏有过验证，对屏幕和工业设计等供应商都有过深入接触和推动。但这些实质性进展背后，苹果始终未将一款成熟产品推向市场。</p>
+  <p>不少用户和国产厂商似乎形成了一种共识，折叠屏手机使用一两年后就会有非常明显的痕迹，这对于追求极致的苹果来说，可能很难接受。</p>
+  <p>「毕竟很多国内厂商做折叠屏并不是为了手机而做，他只是为了告诉大家我的设计能力。我可以把一款手机做到这么薄，还能安放如此多的工业零部件」。上述人士认为，对多数国内产商来说，折叠屏只是为了「秀肌肉」，但苹果显然不需要。</p>
+  <p>Mika告诉《降噪NoNoise》，她觉得华为对于女性的吸引力太低，但其实女性对于竖折产品的接受度还是很高。如果苹果出一款竖折手机，她愿意购买，并且她相信渗透率会在短时间内有明显提升。</p>
+  <p>「苹果出折叠屏可能会好一点，但改变不了整个大的趋势。」一位不愿具姓名的业内人士称，他判断苹果更大可能最终会放弃折叠屏。折叠屏生产不管从硬件还是软件上都要去做很多投入，但苹果产品线非常稳定，不管是小屏数字系列、高性能大屏Pro Max系列，各种尺寸都有，没必要在中间再插一个折叠屏。折叠屏显然会去分流原来iPad mini的市场。「况且，苹果对于整个行业的影响力没有原来那么大了。」他说。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_a655c40af2f7495ebc7196339862e974@673195656_oswg44934oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>苹果曾推出过Vision Pro后停产，字节Pico也并没有大力出奇迹。这说明巨头掌舵的创新也并不一定会成功。如果说VR是一个可以预见的趋势，折叠屏恐怕还承载不了如此多的想象力。</p>
+  <h2><strong>03 双强阴影下，其他厂商跟不跟？</strong></h2>
+  <p>因为先天缺陷，折叠屏始终是一个叫好不叫座的产品形态。</p>
+  <p>2023年中国折叠屏手机出货量约为700万台，2024年这一数据约为917万台。虽然三星出货量尚可，但2024年发售的Galaxy Z Fold6出货量照比上一代机型只有个位数增长，与此同时，三星折叠屏面板采购金额也预计下降20%，可能是2021年以来的最低水平。</p>
+  <p>IDC表示，折叠屏手机自2019年问世以来，虽然经过了5年的快速发展，市场渗透率依然只有3.2%（2024年前三季度）。</p>
+  <p>前述分析人士透露，几乎可以肯定，市面上除了华为之外的国内折叠屏厂商都不挣钱。2023年Q4折叠屏手机销量排行榜上，华为以51.23%的绝对优势蝉联国内销冠，仅华为Mate X5一款手机就占到大折叠品类销量52.37%。至2024年Q3，国内折叠屏手机销量排行榜上，华为继续以41.0%份额蝉联国内销冠。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_ce706302893d4f7aaa0e363087fefe9a@673195656_oswg60756oswg600oswg488_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>对于其他厂商，一款折叠屏产品销量仅有几十万台，利润可以想见。此前有媒体通过查询官网和京东自营数据发现，华为Mate XT的线上总销量可能不足1万台。</p>
+  <p>不同于直板机，折叠屏每一代厚度、折痕、铰链都要做非常大改进，否则就没有推出的意义。BGD咨询资深分析师李刚告诉《降噪NoNoise》，这导致每一代都会投入较高研发成本，但销量又不高，更多是靠其他产品利润来补贴折叠屏的研发投入。「这是国内绝大多数安卓品牌折叠屏的现状」。</p>
+  <p>此前，华为和三星曾一度占据折叠屏面板采购70%市场，在这个本不肥沃的赛道，华为和三星的绝对优势给其他厂商造成了太大压力。</p>
+  <p>去年，知名分析师知名分析师郭明錤在社交平台上表示，华为以外的品牌正在慎重考虑是否停止生产利润较低的上下折（竖折）机型。尽管OPPO、vivo方面均否认了这个传闻，但两家在2024年确实未见竖折叠新机出现。OPPO首席产品官刘作虎在接受媒体采访中称，折叠产品目前还处在普及的阶段，还是按照计划在推进。</p>
+  <p>最新消息是，2025年2月20日，OPPO将发布大折叠新品Find N5，号称全球最薄折叠屏。不过与之相对的是，OPPO子品牌一加宣布今年暂停发布OnePlus Open 2折叠屏新机。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e85eda76a8204fa29a6d9377fd3b7fa7@673195656_oswg343072oswg690oswg1103_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲一加产品经理在用户社区宣布暂停折叠屏手机发布</p>
+  <p>小米2024年倒是发布了首款竖折产品MIX Flip，去年11月公布的累积备货量达50万部，表现远比销量折戟的大折叠MIX Fold 4要好。但不管MIX Flip还是小米汽车 Su7，目标之一都是拉拢女性用户。因此小米小折叠的推出与其说是折叠屏市场的争夺，不如看成是小米对女性市场的探索和试水。</p>
+  <p>当然，有头部厂商在折叠屏领域的「撑场子」，这让其他厂商也不会轻易退出，即使份额不高，大家也要各自卡住占位。</p>
+  <p>目前来看，高端化几乎成为唯一的出路。毕竟折叠屏始终有一群相对死忠的客户群体。去年底，天麻花24000元购入了华为三折叠手机Mate XT，起初他好奇三折叠是不是能够解决双折叠的问题，但使用一段时间后发现，三折叠比起双折叠似乎更加不成熟。</p>
+  <p>「它的屏幕展开很脆弱，所以用起来很不踏实，每天提心吊胆。」天麻称，华为也没有针对三折叠做专门的软件适配，这就导致虽然有三屏，但实际上只有两个屏幕可以看，效率上并没有太大提升。</p>
+  <p>四个月后，天麻把手机挂到了闲鱼。令人颇为意外的是，真正意向人群并不少，手机很快以18500元成交，保值率堪比二手奢侈品。天麻告诉我们，不仅保值率可以比肩二奢，甚至在华为门店这款机器都是放在玻璃柜里展示，看机时，店员会戴手套把机器端出来。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e81fa69d668b45089f27605d8048ebb9@673195656_oswg104425oswg1080oswg1045_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p class="img-desc">▲闲鱼上Mate XT的相关行情</p>
+  <p>和奢侈品一样，这些售价昂贵的三折叠手机也一机难求，常年断货。「他们就是想把这个做成奢侈品」。他说。</p>
+  <p>只要厂商们折腾继续，折叠屏就不会很快退出历史舞台。李刚认为，在中国市场，折叠屏和直板机未来很长一段时间内会并存。「如果未来手机行业没有更多形态和契机让大家把注意力转嫁，那么折叠屏还是各个厂家争做的典型形态。」他说。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_d0610ffbb2f44316a4973a9c2a3a63cc@673195656_oswg60377oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" /></p>
+  <p>比如今年即将上市的OPPO Find N5和三星首款三折叠手机Galaxy G fold，有关折叠屏的竞赛还在继续。或许，在成为时代的眼泪之前，厂商们还想留给人们更多回忆。</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ftqYHQa0-VDf9WTN3JWGTg?token=1832118361&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“降噪NoNoise”</a>，作者：墨迪，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3172007501250951</id>
+            <title>马云回来了，阿里正在被重估</title>
+            <link>https://www.36kr.com/p/3172007501250951</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3172007501250951</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 11:12:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 马云, AI, 阿里巴巴, 民营企业  
+<br><br>  
+总结: 马云在民营企业座谈会上首次高调亮相，吸引了众多科技和制造业企业家的关注，显示出对民营经济的支持。马云频繁出现在公众视野中，尤其强调AI的重要性，表明阿里巴巴正在转型为全球AI服务商。阿里在AI领域的技术和生态优势使其获得了苹果的合作，标志着阿里在国际市场上的新机遇。随着AI驱动业务增长的成效显现，市场对阿里的信心逐渐恢复，阿里也在重新定义自身价值，向科技公司转型。 </div>
+                        <hr>
+                    
+                    <p>在2月17日的民营企业座谈会上，马云罕见地出现在政府会议和公众视野中。</p>
+  <p>虽然马云近半年来也曾多次出现在公众面前，但参加如此高规格的会议还属首次。这场会议聚集了中国科技和制造业的明星民营企业家，包括华为的任正非，小米的雷军，比亚迪的王传福，宁德时代的曾毓群，宇树科技的王兴兴，DeepSeek的梁文峰等。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5fc82a51f3f146d99cfcec337253602d@5888275_oswg384589oswg637oswg326_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从官方镜头中，可以看到任正非、王传福、雷军等人都有发言特写，马云坐在第一排的靠边位置，没有发言镜头，但足以让很多人感到振奋。&nbsp;</p>
+  <p>就在马云参会几天前，他还现身杭州的阿里园区，随后又前往长沙的盒马。短短一周，这位阿里灵魂人物频繁亮相。更让人瞩目的是阿里的资本表现，一个多月阿里港股股价从80港元飙升至125港元，市值暴涨8000亿港元，达到了2.3万亿港元。&nbsp;</p>
+  <p>与其说市场正在重新衡量阿里，不如说阿里正在讲述新的故事，故事的底色是AI。&nbsp;</p>
+  <h2><strong>每次马云发声，都提到一个词：AI</strong></h2>
+  <p>2月11日，马云现身阿里杭州园区。从流出的照片来看，马云状态不错，身穿带有阿里巴巴logo的深色夹克，笑容满面地跟员工打招呼。有员工表示，“（他）完全看不出来是60岁的人。”&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_65683ff1ac444f7a9741a6ea12ab6d7c@5888275_oswg48166oswg720oswg945_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>随后，马云还“扫楼”去了闲鱼和夸克两大工区。闲鱼和夸克都是阿里智能信息事业群旗下业务，属于阿里首批战略级创新业务“四小龙”。今年1月，夸克升级了品牌Slogan—“2亿人的AI全能助手”，显露出加速布局AI To C的态势。&nbsp;</p>
+  <p>没过两天，马云又被拍到现身盒马长沙万象汇门店。去年12月到今年1月，阿里先后出售银泰百货和高鑫零售，似乎在沿着“回归淘宝、回归互联网”的路线缩减实体零售业务，但这也让盒马的命运陡然增加了不确定性。此次马云现身盒马门店，或许是为了稳定盒马的“军心”和外界的信心。&nbsp;</p>
+  <p>当然，此次马云参加民营企业座谈会，也给更多民营企业家们带来信心。因为马云一度被视为中国互联网民营企业家的领军人物，自从2020年的“外滩峰会事件”后便逐渐消失在公众视野。时隔四年后，马云频频亮相并且参加高规格会议，这在释放对民营经济利好的同时，也展示出国家对民营企业和科技制造行业的支持。&nbsp;</p>
+  <p>回顾去年到现在，几乎马云每次出现或者发声，阿里都有大事发生。&nbsp;</p>
+  <p>2024年8月，阿里结束了三年的整改期，公司完成了双重主要上市并进入港股通，标志着其在合规层面已阶段性“过关”。很快在9月，马云在阿里25周年的内部信中明确提到“要承认纠正昨天的问题，更要面向未来改革”，并且提到互联网AI技术再次风起云涌，行业竞争激烈，阿里很多业务面临被超越。&nbsp;</p>
+  <p>果然，到了2024年11月，拼多多市值首次超越阿里，外界质疑声潮水般涌来。马云再次在内网中发声“阿里会变，阿里会改”，AI电商时代刚刚开始，阿里还有机会。2024年12月，马云参加蚂蚁集团成立20周年活动。活动上马云着重提到了AI发展，表示未来20年AI时代能带来的改变会超出所有人的想象。&nbsp;</p>
+  <p>今年1月，新一届马云公益基金会乡村教师计划的入选老师名单揭晓，马云在线上向乡村老师致敬。视频连线过程中，马云分享了自己对乡村教师、AI时代发展的看法，表示未来的世界会被AI重塑。&nbsp;</p>
+  <p>可以发现，<strong>每次马云公开发声都会提到一个词：AI。同样，最近马云频频露脸，也伴随着阿里在AI上的大动作。</strong></p>
+  <p>今年2月13日的迪拜世界政府峰会上，阿里董事长蔡崇信宣布苹果选择阿里作为合作商，为中国版的iPhone开发人工智能功能。双方合作，让市场看到阿里AI的价值，这也正是阿里开始讲出的新故事。&nbsp;</p>
+  <h2><strong>握手苹果，透视阿里的新故事</strong></h2>
+  <p>2025年开端，DeepSeek在全球爆火，让外界对中国AI刮目相看。&nbsp;</p>
+  <p>苹果却因为中国AI而感到头疼，2025财年第一季度iPhone在中国销售同比下降11.1%。苹果CEO库克将销售下降的部分原因，归结到iPhone的AI功能未在中国上线。&nbsp;</p>
+  <p>据媒体报道，苹果测试了来自中国开发者的不同AI模型，并且一度选择了百度作为主要合作伙伴。然而，由于百度在开发苹果智能模型方面未达到苹果的标准，双方合作取消。苹果开始考虑其他选项，并评估了腾讯、阿里和字节跳动等中国互联网公司开发的AI模型，最后选择了阿里。&nbsp;</p>
+  <p>蔡崇信也坦言，“苹果一直非常挑剔，他们与中国的多家公司进行了交谈。最终，他们选择与我们做生意。”蔡崇信自2024年公开露面并承认阿里落后，一共出来过3次，每一次都提及到了AI。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_8cce0d9cc6be4f5aa4225615e525296a@5888275_oswg29468oswg480oswg320_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>苹果为什么放弃百度，转而选择了阿里？事实上，苹果对于中国市场变化一向是非常敏感的，而且在合作上极为审慎，往往把合作对象的稳定性摆在首位。这次苹果稍微中途换掉合作对象，或许也是出于稳定性上的考虑。&nbsp;</p>
+  <p>首先，<strong>苹果选择的合作对象一定要获得官方认可，获得政治上的稳定性</strong>。马云此前多次频频亮相，已经给外界带来回归的信号，苹果自然比普通人更早感知到。此次马云参加民企座谈会，更被视为阿里走向平稳期、“闯关”成功的信号。&nbsp;</p>
+  <p>谁参加了，谁缺席了，是一个值得玩味的差别。&nbsp;</p>
+  <p>其次，<strong>就是阿里的技术和生态，能给苹果带来稳定性。</strong></p>
+  <p>比如，阿里的通义千问Qwen系列开源模型全球下载量第一，技术上的基本盘较稳；阿里云在每年支撑“双11”活动中，积攒了应对高并发流量的丰富经验，处理高并发“海啸”的能力稳。另外，阿里还拥有10亿消费者的购物、支付等数据，在精准理解中国用户需求的能力上也比较稳。&nbsp;</p>
+  <p>对于阿里而言，被苹果选中，意味着向全球宣告了自己在AI上的优势，而且也为其AI能力输出到海外开辟了新通道。有业内人士表示，“<strong>这是阿里从‘中国电商’转向‘全球AI服务商’的关键跳板。</strong>”&nbsp;</p>
+  <h2><strong>重新认识阿里的价值</strong></h2>
+  <p>过去十几年，外界对阿里的关注大多集中在电商领域，这也的确是阿里的基本盘。但是，现在可能要重新认识阿里了。&nbsp;</p>
+  <p>因为它不仅是家电商公司，更是家科技公司。&nbsp;</p>
+  <p>2015年，阿里的电商营收占比为82.59%，到了2024年占比已下降到46.21%，而阿里云的营收占比增长到了2024年的12.5%，且仍在保持快速增长。&nbsp;</p>
+  <p>对于大众而言，在今年春晚最为直观感受到了阿里的AI和云计算。今年阿里拿下了两个春晚“独家”——淘宝作为“独家电商互动平台”，阿里云则作为“云计算AI独家合作伙伴”。甄子丹的《笔走龙蛇》武术表演中，观众看到了科幻电影般的“子弹时间”——演员动作被360度定格，视角在空中自由切换，这其实是阿里结合AI算法、3D建模、通义大模型实时渲染等多项技术做到的。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_725406e42aaa4f9c8958e2a9eda9a597@5888275_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2018年春晚，阿里以“清空购物车”吸引广大用户。在七年后，阿里重新回到春晚，只是这次主角从购物车变成了云计算和AI，这也显露出阿里的内在变化，即技术引领发展。&nbsp;</p>
+  <p>这些年，阿里在技术上持续投入，并且获得了广泛的影响力。2023年4月，阿里发布首个大语言模型通义千问，如今通义千问Qwen大模型已经成为全球最大的开源模型族群之一。最近，李飞飞等AI研究人员基于阿里开源模型为底座，打造出性能比肩OpenAI的O1和DeepSeek R1的s1-32B模型，成本不到50美元。这也间接说明了阿里Qwen模型的强大能力。&nbsp;</p>
+  <p>用技术对外产生影响力的同时，阿里还在用技术对内重构业务。&nbsp;</p>
+  <p>吴泳铭在接任阿里CEO的第三天，就发布全员信确立阿里两大战略重心：<strong>用户为先和AI驱动。</strong>他表示，AI将成为阿里“第二增长曲线”的核心引擎，集团所有业务必须全面拥抱AI技术重构。目前，阿里的各项业务其实已经在跟AI融合，比如淘宝“AI搭配师”、闲鱼的智能定价系统等等。&nbsp;</p>
+  <p>可以说，阿里的技术底色越来越浓厚，各项板块也在发生变化，核心指标在全面改善。摩根大通认为，预计阿里第三财季总收入将同比增长8%，较市场预期高1个百分点，增速相较上季度的5%也有明显提升。&nbsp;</p>
+  <p>除了摩根大通，花旗给予阿里美股及港股“买入”评级，同时维持目标价分别于138美元及137港元；高盛对阿里给予“买入”评级，目标价给到美股117港元、港股114美元。可见，资本对于阿里的未来是相当看好的。&nbsp;</p>
+  <p>过去几年，阿里跌宕起伏，面临着极大的不确定性，股价和市值也大幅缩水。如今，随着AI驱动业务增长的成效越来越明显，以及马云的成功“闯关”和重新回归，阿里的不确定系数在减少，市场也对其增加了更多的信心。&nbsp;</p>
+  <p>1999年的湖畔花园，那时的马云是创业者，阿里是颠覆者，用互联网重构商业。今天的马云已经退出商业江湖，但江湖上仍流传着他的传说。而阿里也渴望着再次颠覆，用AI重构自己以及讲出新故事。&nbsp;</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/MJjwL1_VVdRCJ0PP_d0Wmw" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：竹铭，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3171958597304713</id>
+            <title>苹果的下一个「Apple Watch」，将戴在你的耳朵上</title>
+            <link>https://www.36kr.com/p/3171958597304713</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3171958597304713</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 10:38:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 耳机, 心率监测, 健康管理, Apple Watch  
+<br><br>  
+总结: Beats发布的PowerBeats Pro 2耳机引入了心率监测功能，尽管这一功能在耳机上看似不搭调，但实际上有其科学依据。耳朵是心率监测的理想位置，能够提供更准确的数据。与Apple Watch相比，PowerBeats Pro 2在运动时的心率监测体验尚不完善，但其潜力巨大。苹果可能在未来的AirPods Pro 3中进一步优化这一功能，推动耳机成为健康管理的重要工具。心率监测的引入不仅能帮助用户及时发现健康问题，也可能促进整个行业的健康可穿戴设备发展。 </div>
+                        <hr>
+                    
+                    <p>时隔 6 年，Beats 终于发布了第二代 PowerBeats Pro 2 耳机。但比起它的设计、音质、续航等等传统要素，大家讨论的重心，是一个和耳机甚少交集的全新特色功能：心率监测。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_83d96899a6014d81bc8f85a199e3748f@000000_oswg45747oswg720oswg480_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不少人的第一反应可能是一个大大的问号：心率监测？在耳机上？然后开始质疑这个功能是不是又一个科技品牌没活硬整的噱头。</p>
+  <p>这个看着有点不搭调的组合，其实背后有一个非常坚实的逻辑在支撑。</p>
+  <h2><strong>耳机和心率传感器很相配</strong></h2>
+  <p>在 PowerBeats Pro 2 耳塞一旁，胶囊形状的黑色模组，就是耳机的心率传感器。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_61d0488fbd2545589e851f673195d1c9@000000_oswg35808oswg720oswg480_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>传感器由四个组件构成：</p>
+  <ul>
+   <li>LED 传感器，每秒超过 100 脉冲的速度射出绿色 LED 光，穿过皮肤击中血液的红细胞</li>
+   <li>光电二极管，接收由红细胞反射的经过血流调幅的光线</li>
+   <li>光学透镜，用于引导和分离发射光和反射光</li>
+   <li>加速感应器，消除运动伪影，确保数据采集的准确性和一致性</li>
+  </ul>
+  <p>Beats 表示，这个心率传感器技术，很大一部分来自于其母公司苹果在 Apple Watch 上的成果。</p>
+  <p>如果仔细将两者进行比对，就会发现 PowerBeats Pro 2 这个心率传感器就像是从 Apple Watch 的背面拿下的精简缩小版，二者在运作时都会发出绿光。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_0cdea8cd5ce145f0973816940b6a788b@000000_oswg70310oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>和 iPhone 完成配对之后，PowerBeats Pro 2 心率检测器默认打开，只要戴在耳朵上，不需要像 Apple Watch 那样打开运动模式，就能进行实时的心率监测，每 5 秒在「健康」应用输出一次数字。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_acc49d62b11a42ed82dd38fbb083f447@000000_oswg45338oswg525oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Apple Watch 在打开「心脏」应用后，也能进入 5 秒一次的实时测量模式，我将这个数字与 PowerBeats Pro 2 测量的数据进行比对，发现两者的数字极其接近，差距不超过 2。</p>
+  <p>要把心率测准，找对位置非常重要。虽然市面上大部分健康可穿戴设备都是手表或手环形态，但手腕其实并非最理想的测量部位。</p>
+  <p>生物识别技术公司 Valencell 曾经对人体多个部位进行了测试，<strong>发现可穿戴设备能够在耳朵上收集最准确的心率。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_2f667696217c4554884c44701ba049c2@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>比起手腕，耳朵要更加稳定，即使身体在运动，也能保持相对的静止。</p>
+  <p>耳朵的生理结构也很适合心率监测：以软骨为主，还拥有理想的动脉群，并直接连接到颈动脉系统，血液特征能够更准确反映心脏的真实情况。</p>
+  <p>外网最近在流行一个有点匪夷所思的趋势，让我看到像 PowerBeats Pro 2 这种产品成立，甚至成功的关键因素：<strong>不少人选择把 Apple Watch 戴在脚踝上</strong>，看起来有点像欧美国家的「电子脚铐」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_11f4f0c573c5452a8c1be2e52a7ab3b8@000000_oswg146230oswg1024oswg786_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：New York Times</p>
+  <p>这不是吃饱了没事干，背后都有一些很无奈的理由：有些人的手臂太细，市面上很难找到能用的表带；有些医护人员因为职业原因不能戴手表；也有的人只是单纯不习惯手上绑一块这么重的东西。</p>
+  <p>这恰恰说明，对于用户来说，<strong>测量的准确性，其实还没有设备使用的便利程度重要。</strong></p>
+  <h2><strong>心率检测对运动很重要</strong></h2>
+  <p>但这又带来了一个问题：对比几乎可以 24 小时佩戴的手表，耳机无法长时间佩戴，所以不能提供健康风险预警和睡眠检测这些功能，更适合的场景是运动。</p>
+  <p>相信不少小伙伴都有保持日常锻炼的习惯，我粗暴地区分成两拨人：用和不用智能手表的。</p>
+  <p>用智能手表的理由很简单，都是为了记录锻炼数据；不用的理由则千奇百怪，有的人可能是上文提到的无法或者不爱用手表，或者干脆没有这个意识。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_cb4656820210437badbdeedaf7f19179@000000_oswg43899oswg780oswg438_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>可能不少人都觉得，我平时就简单跑跑步，有必要额外买个设备吗？</p>
+  <p>公司有个小伙伴是 Apple Watch 用户，去年有段时间感觉心脏不太舒服，但手表上的数据都还算正常。最后他还是选择去医院检查，常规的心电图后，医生让他贴着仪器上一下跑步机，发现他存在心脏早搏问题，在运动时更加明显。</p>
+  <p>所以看到 PowerBeats Pro 2 时，他虽然现在不常运动，还是站在一个从业者的角度，点赞了这个产品。</p>
+  <p>心率可以说是人体状态最直接的反馈，在进行锻炼的时候，很多人或许都没意识到，自己的运动量已经超出了自己的负荷，不仅长期以来容易造成心血管等疾病，还很有可能直接急性发作。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_53333cdfcf7c4a889ba8892f71afc050@000000_oswg126066oswg1024oswg560_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>北京大学第三医院心内科副主任医师赵威表示，<strong>常见的运动性猝死都是心源性猝死，大部分由于潜在的心脏疾病导致。</strong></p>
+  <p>特别是不少想要锻炼减重的小伙伴，会更倾向于给自己加运动强度，同时又可能会因为体型原因，心血管功能不是特别好，更需要心率检测。</p>
+  <p>而有一些在前期比较隐性的心血管问题，比如上文小伙伴的早搏，在运动时更容易被检测出，从而及时获得帮助。</p>
+  <p>耳机还有一个先天的优势：<strong>它是一个绝佳的运动搭子。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_393f2468291541d38b5c8bc5e1c326d1@000000_oswg60249oswg1024oswg592_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>锻炼时听个音乐找节奏，或者放播客缓解无聊，顺便隔绝健身房想给你卖课的教练..... 总之去健身，我会忘记带水壶，但很少忘记带耳机。</p>
+  <p>锻炼时你可能不会主动选择在手上戴一个设备，但头上基本上都会有一副耳机，如果耳机能测心率，相信大部分人都不会拒绝。</p>
+  <p>不过，目前 PowerBeats Pro 2 在锻炼中的体验明显还没完善，给人感觉只是给用户上了一个功能，而不是一种体验，使用起来非常的「不苹果」。</p>
+  <p>和抬起手腕就能看数据的手表不同，耳机的数据都反馈在手机应用当中，所以实际上在佩戴 PowerBeats Pro 2 做运动时，用户根本没法实时查看自己的心率如何，也没有高心率或低心率通知，只能通过询问 Siri 的方式来曲线救国。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_e4e9b15ae48147df810805ca4ef7e3e4@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>一副能测心率的耳机，其实很重要</strong></h2>
+  <p>能测心率的耳机其实并不新鲜，国外品牌捷波朗，国产大牌如华为、OPPO、荣耀等等都推出过，但这些产品都反响平平。</p>
+  <p>只是这没有停住苹果前进的脚步，PowerBeats Pro 2 只是一次试水，关于 AirPods Pro 3 的爆料，基本上都提到它将会突破传统耳机的形式，通过全新的传感器来收集用户的身体数据，甚至还可能带有一个微型摄像头。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_c8db25afb7f74fd3b9482ee0e5635719@000000_oswg28152oswg1024oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">AirPods Pro 2</p>
+  <p>其实关于 AirPods 搭载健康监测功能的可能性，在五六年前就已经进行过不少讨论。对于钻研 Apple Watch 长达十年的苹果来说，最大的挑战就是如何把那些手腕上的传感器塞进迷你的耳机里。</p>
+  <p>而 PowerBeats Pro 2 那颗酷似 Apple Watch 等比缩小版的传感器，证明苹果已经跨过了技术的难关。</p>
+  <p>既然苹果选择只在子公司的一款产品上首发这项技术，<strong>说明苹果可能为 AirPods Pro 3 准备了更多大招。</strong></p>
+  <p>有消息称，AirPods 未来不仅只能监测心率，体温等其他身体参数也已经在计划当中。</p>
+  <p>或许 PowerBeats Pro 2 锻炼时这种还不尽如人意的心率检测体验，还需要等亲儿子 AirPods Pro 3 推出后，苹果才会进行适配和优化。</p>
+  <p>AirPods 这个离大脑更近的佩戴位置，也意味着它的潜力不仅成为一个 Apple Watch 的代替。</p>
+  <p>一份专利披露，苹果正在探索一套用于 AirPods 的传感器系统，在耳塞上放置大量的触点和电极，可以捕捉生物信号和大脑的电活动，从而测量脑电图、肌电图、眼电图等数据。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_784e673587e14cbcb91bd3b3f862811b@000000_oswg35734oswg867oswg524_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图源：Patently Apple</p>
+  <p>对苹果来说，AirPods 已经不是一个单纯谈音质、降噪的普通耳机，而是一个覆盖更多人的健康管理系统。</p>
+  <p>毕竟戴智能手表的用户不算特别多，但基本上人人都会有一副无线蓝牙耳机。根据 IDC 的数据，可穿戴设备中，蓝牙耳机的出货量已经接近智能手表的两倍。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_568755720993410aaadf5894df998958@000000_oswg222447oswg1024oswg584_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">耳机的出货量未来几年还会不断增长，图源：IDC</p>
+  <p>买一副能检测心率的耳机，其实用户还是主要冲着耳机本身好不好听降不降噪去的，健康功能只是添头。这更像是苹果借助畅销的耳机产品，将自家的健康管理系统介绍给更多用户，或许还能拉动 Apple Watch 的销量。</p>
+  <p>虽然耳机做不到像手表那样持续性的身体数据监控，但长期的数据收集，也能或多或少检测出身体的变化。而上文提到的运动锻炼，那就是和耳机更加契合的落地场景。</p>
+  <p>不管是全世界范围还是国内，心血管疾病都是城乡居民疾病死亡构成的头号杀手。而根据世卫组织《2023 世界心脏报告》，<strong>超过 80% 的过早心脏病发作和中风都可以被预防。</strong></p>
+  <p>Apple Watch 和 AirPods 不能代替正规医疗程序，但是它是一种更普遍的个人监测工具，可以捕捉那些不太显眼的身体信号，让用户能及时去获得需要的健康援助。</p>
+  <p>这有点像 AirPods Pro 2 已经实装的「听力检测」和「助听器」功能，并非代替正规医疗，只是帮助更多大量潜在听力损伤用户发现健康问题，并获得帮助。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250218/v2_5d2362d3eb934dc1b1be59f89f71f96a@000000_oswg181756oswg1024oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>如果想要避免重蹈友商的覆辙，<strong>苹果需要通过长期的努力引导消费者和用户接受、习惯，最终爱上这种耳机</strong>，就像他们对 Apple Watch 做得那样 —— 从不被看好，到成为公司仅次于 iPhone、iPad、AirPods 的畅销产品，成为一种被更多人接纳的生活方式。</p>
+  <p>作为头部厂商的苹果的带动作用，也会推动整个行业跟进相关领域。未来会有越来越多厂商将耳机纳入自己的健康可穿戴生态体系，也会有更多用户去在意自己的耳机能不能测心率、体温，从而挽救更多生命。</p>
+  <p>这就是心率检测登陆耳机产品的价值：<strong>一次范围更广的健康平权。</strong></p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652397825&amp;idx=1&amp;sn=67e9a362bbaa45114fc73bb96e09a50a&amp;chksm=9ac7057da085edba4589a37a86b1466aba983cef2fcd33c478f51bccc1f9dfa38e0ba226187f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：苏伟鸿，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
