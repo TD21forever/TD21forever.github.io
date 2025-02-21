@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b7ea342fc0f987660b103b</id>
+            <title>AI探索站 02月21日</title>
+            <link>https://m.okjike.com/originalPosts/67b7ea342fc0f987660b103b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b7ea342fc0f987660b103b</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Feb 2025 02:51:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI探索站 02月21日
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b7343184f32bf74a96ba17</id>
+            <title>AI探索站 02月20日</title>
+            <link>https://m.okjike.com/originalPosts/67b7343184f32bf74a96ba17</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b7343184f32bf74a96ba17</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 20 Feb 2025 13:54:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    发现之前老看的独立产品灵感周刊作者Viggo开了一个《AI零基础建站指南》指南课程.<br /><br />进去看了一下我就买了。<br /><br />他的产品制作逻辑跟我认同的很像，要做产品推广赚钱你其实不需要变得很会写代码，用对工具和方法才是最重要的。尤其有了AI加持之后，更是如此。<br /><br />而且我很喜欢他教程的一个点是，每一节都有图文版本，我可以完全不看视频教程。<br /><br />因为很多东西我都知道，视频又不好跳过，图文可太高效了。<br /><br />找他要了个优惠码，可以在现在优惠的基础上优惠 20%，看完里面内容要是感兴趣可以买来试试。<br /><br />优惠码：「GUIZANG」，在结算的时候图中这个地方输入就行。<br /><br />教程地址：https://aimaker.dev
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b59ceb0aee35056a911f22</id>
+            <title>AI探索站 02月19日</title>
+            <link>https://m.okjike.com/originalPosts/67b59ceb0aee35056a911f22</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b59ceb0aee35056a911f22</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 19 Feb 2025 08:57:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Obsidian 加 Cursor 就是最强AI知识库！<br /><br />最近发现用 Cursor 这些 AI IDE 可以完美充当 Obsidian 的 AI 辅助插件<br /><br />写了个教程，主要是三个使用方式：<br />- 帮助你用模糊的问题检索你的笔记库<br />- 帮助你基于笔记库进行研究<br />- 帮你生成和修改笔记<br /><br />下面是详细内容👇：<br /><br />这里是完整的教程，需要有好的阅读体验和上下文的可以看这里：https://mp.weixin.qq.com/s/3mlhd5lRBSz3t8NSR8o3yg<br /><br />教程里为了照顾大多数人我会用默认中文而且免费的 Trae 演示。<br /><br />但是由于现在 AI IDE 都大同小异，所以你用 Cursor 或者 Windsurf 也可以看懂甚至，快捷键和按钮位置都一样的。<br /><br />没收钱嗷，别冤枉我，单纯就这玩意免费，好上手<br /><br />准备工作：用 Trae 打开 Obsidian 文件<br /><br />Obsidian 的所有文件都储存在你本地的一个文件夹里，你可以在左边侧边栏的仓库名点击「管理仓库」之后在新开页面的三个点这里选择「显示仓库文件夹」。<br /><br />然后我们打开刚才下载的 Trae 软件，一路下一步之后选择「打开文件夹」，这里的文件夹选择你刚才找到的 Obsidian 笔记文件夹就可以了。<br /><br />用 Trae 查询笔记内容<br /><br />AI 最擅长的就是寻找模糊的内容和问题。<br /><br />比如我需要找到笔记库剪藏文件夹里面保存的一个关于苹果的蒸馏研究。<br /><br />只需要在 Trae 右侧的 Chat 输入框输入「#」然后选择剪藏文件夹，提问苹果关于模型蒸馏的内容就行。 <br /><br />用 Trae 和 Obsidian 辅助研究<br /><br />我们经常需要对多个不同的笔记文件进行比较或者综合整理进行研究<br /><br />比如我想要知道两个关于 Deepseek 的文档都提到的概念和信息有哪些，就可以在 Chat 输入框提问的时候用「#」分别引用这两个文档。 <br /><br />用 Trae 生成笔记<br /><br />这个时候我们可以将 Trae 切换到 Builder 这个模式，在这个模式下他可以操作你的文件，比如修改和新建。<br /><br />可以在 Builder 模式的输入框里面发出指令并且用「#」引用这个文档。 <br /><br />有时候我们只是想要局部编辑怎么办？<br /><br />在打开的文件里选中我们想要让 AI 编辑的内容。可以看到上面有个悬浮的按钮，我们可以选择这个 「编辑按钮」。<br /><br />然后在里面输入我们想要对这段文字进行的操作。<br /><br />可以看到 AI 给出了我们改写后的内容，还有前后的对比，如果你觉得改写 OK 的话直接点击接受，内容就会回填。<br /><br />AI 模型将原来需要非常复杂的开发工作的方案都没模块化和简单化了，从而让 Obsidian 这些自由度很高的软件重新焕发了生机，原来的缺点（学习成本高、管理复杂）甚至在 AI 加持下变为了优点（个性化、智能辅助）。<br /><br />这种趋势不仅限于笔记软件，而是正在重塑整个软件生态。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b56c9084f32bf74a747df2</id>
+            <title>AI探索站 02月19日</title>
+            <link>https://m.okjike.com/originalPosts/67b56c9084f32bf74a747df2</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b56c9084f32bf74a747df2</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 19 Feb 2025 05:30:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    DeepSeek 喂饭级教程来啦！<br /><br />分享我最近研究的 DeepSeek + 飞书 + 即梦，AI 光速出图玩法。<br /><br />- 出图教程：DeepSeek R1 + 即梦 AI<br />- 进阶教程（批量出图）：DeepSeek R1 + 飞书 + 即梦<br />- 摸鱼教程（光速出图）：DeepSeek R1 + 飞书 + 字段捷径<br /><br />这种多 AI 协作的效果，真是太强大了，设计效率提升了 100 倍不止。<br /><br />说实话，多维表格的产品经理，确实 NB。<br /><br />DeepSeek R1 + 飞书多维表格一出，基本宣告自媒体的内容创作 AI 自动化了！<br /><br />地址：https://mp.weixin.qq.com/s/z4zNjaZQHOyDz-y5xiettg<br /><br />#AI工作流 #AI的神奇用法
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b568c90aee35056a8d27df</id>
+            <title>AI探索站 02月19日</title>
+            <link>https://m.okjike.com/originalPosts/67b568c90aee35056a8d27df</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b568c90aee35056a8d27df</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 19 Feb 2025 05:14:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在大厂认识一名很优秀的程序员，非常忙，忙得没时间陪小孩。为了能陪伴小孩成长，半年前，他下定决心离职。<br /><br />最近跟他闲聊了一次，问他离职后状态怎样。他说依旧很忙，晚上还经常熬夜写代码。<br /><br />很好奇他具体在做什么。<br /><br />看了演示后，知晓在做一款陪伴小孩成长的 AI 产品。还很初级，还有大量细节需要完善。<br /><br />回想这次聊天，突然懂了一个道理：<br />没时间陪小孩的职场人，<br />离职后，大概率依旧没时间陪小孩。<br />问题根本不在有没有时间，<br />问题在不去陪小孩。<br /><br />进一步想，<br />陪伴小孩领域，最好的产品形态，<br />或许非常简单：<br />打开后，<br />手机电脑黑屏并锁定一小时。<br />趁用户发愣时，飘过一句话：<br />去陪小孩吧。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b2cf411b539960d06ef0fd</id>
+            <title>AI探索站 02月17日</title>
+            <link>https://m.okjike.com/originalPosts/67b2cf411b539960d06ef0fd</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b2cf411b539960d06ef0fd</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 05:55:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    推荐一款跨平台的文件传输助手：LocalSend。<br /><br />无需联网，秒杀AirDrop，跨平台文件传输快到飞起！<br /><br />使用 REST API 和 HTTPS 加密实现设备之间的安全通信。<br /><br />极致传输体验<br />• 闪电速度：局域网内传输速度可达 100MB/s（千兆网络实测）<br />• 无大小限制：单文件支持 1TB+，断点续传不丢数据<br />• 多任务并发：同时传输多个文件不卡顿<br /><br />全平台覆盖<br />• 支持系统：Windows/macOS/Linux/Android/iOS 全兼容<br />• 设备互通：手机/电脑/平板任意组合传输，打破生态壁垒<br />• 无客户端限制：接收方无需安装客户端（浏览器即可接收）<br /><br />安全与隐私<br />• 端到端加密：TLS 1.3 加密协议，杜绝中间人窃听<br />• 无痕传输：文件不经过任何服务器，传完即焚<br />• 开源透明：代码完全开源，无后门、无广告<br /><br />GitHub：https://github.com/localsend/localsend<br />下载地址：https://localsend.org/zh-CN/download
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67b15614b07d225afe8ac929</id>
+            <title>AI探索站 02月16日</title>
+            <link>https://m.okjike.com/originalPosts/67b15614b07d225afe8ac929</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67b15614b07d225afe8ac929</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 16 Feb 2025 03:05:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2025年会很精彩，大厂和创业公司都需要开始奔跑。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67ab4a50c4339ce480cbf2a0</id>
+            <title>AI探索站 02月11日</title>
+            <link>https://m.okjike.com/originalPosts/67ab4a50c4339ce480cbf2a0</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67ab4a50c4339ce480cbf2a0</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Feb 2025 13:02:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    为大家整理了一下最新播客里提到的论文链接🙋🙋2025和AI共同进步！：<br />DeepSeek LLM https://arxiv.org/pdf/2401.02954<br />DeepSeek MoE https://arxiv.org/pdf/2401.06066<br />DeepSeek-Coder https://arxiv.org/pdf/2401.14196<br />DeepSeekMath https://arxiv.org/pdf/2402.03300<br />DeepSeek-V2 https://arxiv.org/pdf/2405.04434<br />DeepSeek-Prover https://arxiv.org/pdf/2405.14333<br />DeepSeek-V3 https://arxiv.org/pdf/2412.19437<br />DeepSeek-R1 https://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#deepseek-r1
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67aaf2fe2d8ef3d9a00dd07e</id>
+            <title>AI探索站 02月11日</title>
+            <link>https://m.okjike.com/originalPosts/67aaf2fe2d8ef3d9a00dd07e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67aaf2fe2d8ef3d9a00dd07e</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Feb 2025 06:49:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    DeepSeek火出圈的这十几天，其实也是噪音最多的一段时间，说实话大部分的讨论成品都有种加班硬赶KPI的味道，是人是鬼都在掰扯，有留存价值的屈指可数，倒是有两期播客让我听后受益匪浅，非常推荐。<br /><br />一个是张小珺请来加州伯克利大学AI实验室博士潘家怡对DeepSeek论文的逐句讲解，接近3个小时的高密度输出，非常能杀脑细胞，但杀完之后分泌出来的内啡肽，也含量爆炸。<br /><br />另一个是Ben Thompson关于DeepSeek的3集播客合集，加起来1个多小时，这哥们是News Letter的开创者，也是全球最懂技术的分析师之一，常年旅居台北，对中国/亚洲的近距离洞察比美国同行要高很多。<br /><br />先说张小珺的那期，嘉宾潘家怡当时是在读完DeepSeek的论文之后，最快开发出了小规模复现R1-Zero模型的项目，在GitHub上已经接近1万Stars。<br /><br />这种薪火相传式的知识接力，其实是技术领域理想主义的投射，就像月之暗面的研究员Flood Sung也说，Kimi的推理模型k1.5最初就是基于OpenAI放出来的两个视频得到了启发，更早一点，当Google发布「Attention Is All You Need」之后，OpenAI立刻就意识到了Transformer的未来，智慧的流动性才是一切进步的先决条件。<br /><br />所以大家才对Anthropic创始人Dario Amodei那番「科学没有国界，但科学家有祖国」的封锁表态大为失望，他在否定竞争的同时，也在挑战基本常识。<br /><br />继续回到播客内容上，我还是试着划些重点出来给你们看，推荐有时间的还是听完原版：<br /><br />- OpenAI o1在惊艳登场的同时做了非常深厚的隐藏工作，不希望被其他厂商破解原理，但从局势上有点像是在给行业提了一个谜语，赌的是在座各位没那么快解出来，DeepSeek-R1是第一个找出答案的，而且找答案的过程相当漂亮；<br /><br />- 开源能够比闭源提供更多的确定性，这对人力的增长和成果的产出都是很有帮助的，R1相当于把整个技术路线都明示了出来，所以它在激发科研投入上的的贡献要胜过藏招的o1；<br /><br />- 尽管AI产业的烧钱规模越来越大，但事实上就是我们已经有接近2年时间没有获得下一代模型了，主流模型还在对齐GPT-4，这在一个主张「日新月异」的市场里是很罕见的，即便不去追究Scaling Laws有没有撞墙，OpenAI o1本身也是一次新的技术线尝试，用语言模型的方式让AI学会思考；<br /><br />- o1在基准测试里重新实现了智力水平的线形提升，这很牛逼，发的技术报告里没有披露太多细节，但关键的地方都讲到了，比如强化学习的价值，预训练和监督微调相当于是给模型提供正确答案用来模仿，久而久之模型就学会依葫芦画瓢了，但强化学习是让模型自己去完成任务，你只告诉它结果是对还是不对，如果对就多这么干，如果不对就少这么干；<br /><br />- OpenAI发现强化学习可以让模型产生接近人类思考的效果，也就是CoT（思维链），它会在解题步骤出错时回到上一步尝试想些新办法，这些都不是人类研究员教出来的，而是模型自己为了完成任务被逼，哦不，是涌现出来的能力，后来当DeepSeek-R1也复现出了类似的「顿悟时刻」，o1的核心堡垒也就被实锤攻破了；<br /><br />- 推理模型本质上是一个经济计算的产物，如果强行堆砌算力，可能到了GPT-6仍然可以硬怼出类似o1的效果，但那就不是大力出奇迹了，而是奇迹出奇迹，可以但没必要，模型能力可以理解为训练算力x推理算力，前者已经太贵了，后者还很便宜，但乘数效应是差不多相等的，所以现在行业都开始扎走搞性价比更优的推理路线；<br /><br />- 上个月末o3-mini的发布和DeepSeek-R1可能关系不大，但o3-mini的定价降到了o1-mini的1/3，肯定是受到了很大的影响，OpenAI内部认为ChatGPT的商业模式是有护城河的，但卖API没有，可替代性太强了，国内最近也有关于ChatBot是不是一门好生意的争议，甚至DeepSeek很明显都没有太想明白怎么承接这波泼天流量，做消费级市场和做前沿研究可能是有天然冲突的；<br /><br />- 在技术专家看来，DeepSeek-R1-Zero要比R1更加漂亮，因为人工干预的成分更低，纯粹是模型自己摸索出了在推理几千步里寻找到最优解的流程，对先验知识的依赖没那么高，但因为没有做对齐处理，R1-Zero基本上没法交付给用户使用，比如它会各种语言夹杂着输出，所以实际上DeepSeek在大众市场得到认同的R1，还是用了蒸馏、微调甚至预先植入思维链这些旧手段；<br /><br />- 这里涉及到一个能力和表现并不同步的问题，能力最好的模型未必是表现最好的，反之亦然，R1表现出色很大程度上还是因为人工使劲的方向到位，在训练语料上R1没有独占的，大家的语料库里都会包含古典诗词那些，不存在R1懂得更多，真正的原因可能在于数据标注这块，据说DeepSeek找了北大中文系的学生来做标注，这会显著提高文采表达的奖励函数，一般行业里不会太喜欢用文科生，包括梁文锋自己有时也会做标注的说法不只是说明他的热情，而是标注工程早就到了需要专业做题家去辅导AI的地步，OpenAI也是付100-200美金的时薪去请博士生为o1做标注；<br /><br />- 数据、算力、算法是大模型行业的三个飞轮，这一波的主要突破来自算法，DeepSeek-R1发现了一个误区，就是传统算法里对于价值函数的重视可能是陷阱，价值函数倾向于对推理过程的每一步去做判断，由此事无巨细的把模型向正确的道路上引导，比如模型在解答1+1等于几的时候，当它产生1+1=3的幻觉了，就开始惩罚它，有点像电击疗法，不许它犯错；<br /><br />- 这种算法理论上没毛病，但也非常完美主义，不是每道题目都是1+1这样简单的，尤其是在长思维链里动辄推理几千个Token序列的情况下，要对每一步都进行监督，投入产出比会变得非常低，所以DeepSeek做出了一个违背祖训的决定，不再用价值函数去满足研究时的强迫症，只对答案进行打分，让模型自己去解决怎么用正确的步骤得到答案，即便它存在1+1=3的解题思路，也不去过度纠正，它反而会在推理过程里意识到不对劲，发现这么算下去得不出正确答案，然后做出自我纠正；<br /><br />- 算法是DeepSeek之于整个行业的最大创新，包括要怎么分辨模型是在模仿还是推理，我记得o1出来后有很多人声称通过提示词让通用模型也能输出思维链，但那些模型都没有推理能力，实际上就是模仿，它还是按照常规模式给出了答案，但是因为要满足用户要求，又回过头基于答案给出思路，这就是模仿，是先射箭后画靶的无意义动作，而DeepSeek在对抗模型破解奖励方面也做了很多努力，主要就是针对模型变得鸡贼的问题，它逐渐猜到怎么思考会得到奖励，却没有真的理解为什么要这么思考；<br /><br />- 这几年来行业里一直在期待模型诞生涌现行为，以前会觉得知识量足够多了，模型就能自然演化出智慧，但o1之后发现推理好像才是最关键的那块跳板，DeepSeek就在论文里强调了R1-Zero有哪些行为是自主涌现而非人为命令的，像是当它意识到生成更多的Token才能思考得更加完善、并最终提高自己的性能时，它就开始主动的把思维链越变越长，这在人类世界是本能——长考当然比快棋更有策略——但让模型自个得出这样的经验，非常让人惊喜；<br /><br />- DeepSeek-R1的训练成本可能在10万-100万美金之间，比起V3的600万美金更少，加上开源之后DeepSeek还演示了用R1去蒸馏其他模型的结果，以及蒸馏之后还能继续强化学习，可以说开源社区对于DeepSeek的拥戴不是没有理由的，它把通往AGI的门票从奢侈品变成了快消品，让更多的人可以进来尝试了；<br /><br />- Kimi k1.5是和DeepSeek-R1同时发布的，但因为没有开源，加上国际上积累不足，所以虽然也贡献了类似的算法创新，影响力却相当有限，再就是Kimi因为受到2C业务的影响，会比较突出用短思维链实现接近长思维链的方法，所以它会奖励k1.5用更短的推理，这个初衷虽然是迎合用户——不想让人在提问后等太久——但好像有些事与愿违的回报，DeepSeek-R1的很多出圈素材都是思维链里的亮点被用户发现并传播，对于头一次接触推理模型的人来说，他们似乎并不介意模型的冗长效率；<br /><br />- 数据标注是全行业都在藏的一个点，但这也只是一项过渡方案，像是R1-Zero那种自学习的路线图才是理想，目前来看OpenAI的护城河还是很深，上个月它的Web流量达到了有史以来的最高值，DeepSeek的火爆客观上会为全行业拉新，但Meta会比较难受，LLaMa 3实际没有架构层的创新，也完全没有预料到DeepSeek对开源市场的冲击，Meta的人才储备非常强大，但组织架构没有把这些资源转化成技术成果。<br /><br />再说Ben Thompson的播客，他在很多地方交叉验证了潘家怡的判断，比如R1-Zero在RLHF里去掉了HF（人类反馈）的技术亮点，但更多的论述则是放在了地缘竞争和大厂往事，叙事的观赏性非常流畅：<br /><br />- 硅谷过度重视AI安全的动机之一在于可以借此把封闭行为合理化，早在GPT-2的协议里就以避免大语言模型被利用拿去生成「欺骗性、带偏见」的内容，但「欺骗性、带偏见」远未达到人类灭绝级别的风险，这本质上是文化战争的延续，而且基于一个「仓廪实而知礼节」的假设上，即美国的科技公司在技术上拥有绝对的优势，所以我们才有资格分心去讨论AI有没有种族歧视；<br /><br />- 就像OpenAI决定隐藏o1思维链时说得义正辞严——原始思维链可能存在没有对齐的现象，用户看到后可能会感觉到被冒犯，所以我们决定一刀切，就不给用户展示了——但DeepSeek-R1一举证伪了上面的迷之自信，是的，在AI行业，硅谷并没有那么稳固的领先地位，是的，暴露的思维链可以成为用户体验的一部分，让人看了之后更加信任模型的思考能力；<br /><br />- Reddit的前CEO认为把DeepSeek描述为斯普特尼克时刻——苏联先于美国发射第一颗人造卫星——是一个强行赋予的政治化解读，他更确定DeepSeek位于2004年的Google时刻，在那一年，Google在招股书里向全世界展示了分布式算法是如何把计算机网络连接在一起，并实现了价格和性能的最优解，这和当时所有的科技公司都不一样，它们只是购买越来越贵的主机，并甘愿身处成本曲线最昂贵的前端；<br /><br />- DeepSeek开源R1模型并透明的解释了它是怎么做到这一点的，这是一个巨大的善意，若是按照继续煽动地缘政治的路数，中国公司本来应该对自己的成果保密的，Google时刻也确实为Sun这样的专业服务器制造商划定了终点线，推动竞争移动到商品层；<br /><br />- OpenAI的研究员roon认为DeepSeek为了克服H800芯片所作出的降级优化——工程师用不了英伟达的CUDA，只能选择更低端的PTX——是错误的示范，因为这意味着他们浪费在这上面的时间无法弥补，而美国的工程师可以毫无顾虑的申请H100，削弱硬件无法带来真正的创新；<br /><br />- 如果2004年的Google听取了roon的建议，不去「浪费」宝贵的研究人员构建更经济性的数据中心，那么也许美国的互联网公司今天都在租用阿里巴巴的云服务器，在财富涌入的这二十年里，硅谷已经失去了优化基础设施的原动力，大厂小厂也都习惯了资本密集型的生产模式，乐于提交预算表格去换取投资，甚至把英伟达的芯片干成了抵押物，至于如何在有限的资源里尽可能多的交付价值，没人在乎；<br /><br />- AI公司当然会支持杰文斯悖论，也就是更便宜的计算创造更大量的使用，但过去几年里的实际行为却是出心口不一的，因为每家公司都在表现出研究大于成本的偏好，直到DeepSeek把杰文斯悖论真正带到了大家的眼皮底下；<br /><br />- 英伟达的公司变得更有价值，和英伟达的股价变得更有风险，这是可以同时存在时发展，如果DeepSeek能在高度受限的芯片上达到如此成就，那么想象一下，如果当他们获得全功率的算力资源后，技术进步会有多大，这对整个行业都是激励性的启示，但英伟达的股价建立在它是唯一供给方这个假设上，这可能会被证伪；<br /><br />- 中国和美国的科技公司在AI商品的价值判断上出现了显性分歧，中国这边认为差异化在于实现更优越的成本结构，这和它在其他产业的成果是一脉相承的，美国这边相信差异化来自产品本身以及基于这种差异化创造的更高利润率，但美国需要反思通过否定创新——比如限制中国公司取得AI研究所需的芯片——来赢得竞争的心态；<br /><br />- Claude在旧金山的口碑再怎么好，也很难改变它在销售API这种模式上的天然弱点，那就是太容易被替换掉了，而ChatGPT让OpenAI作为一家消费科技公司拥有更大的抗风险能力，不过从长远来看，DeepSeek会让卖AI的和用AI的都有受益，我们应该感谢这份丰厚的礼物。<br /><br />嗯，差不多就是这些，张小珺的播客在小宇宙上可以搜到，Ben Thompson的播客是订阅制的，15美金/月，希望这篇作业可以帮你们更好的理解DeepSeek出圈之后对AI行业产生的真实意义。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</id>
+            <title>AI探索站 02月10日</title>
+            <link>https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67a94654dbf7113c459a9a69</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 10 Feb 2025 00:20:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天在真格做了一个面向非技术人群（我怎么每次都是面向这个人群😂）的 DeepSeek R1 创新亮点分享会（由我司首席科学家 Peak 提供 tech review，确保我没有瞎讲）。<br />用通俗易懂的方式带大家过了一次 R1 和 V3 的技术报告。让你可以理解在这之前业界都有哪些问题和疑惑，DeepSeek 是怎样去解题的，以及其中的几个重要闪光点。<br />后半场我们讨论了从中能看到未来 LLM 应用会有哪些新范式和产品可能性。<br />同时对最近一段时间的各种光怪陆离的谣言和伪概念进行一个解释😁
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
