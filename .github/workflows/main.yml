@@ -31,7 +31,6 @@ jobs:
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
         run: |
           cd main
-          # 如有必要，可删除本地 .npmrc 文件，避免冲突
           rm -f .npmrc
           git config --global user.email "hexo-robot@users.noreply.github.com"
           git config --global user.name "hexo-robot"
@@ -39,6 +38,7 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+          npm cache clean --force
           npm install --registry=https://registry.npmjs.org/
           npx hexo g -d
 
