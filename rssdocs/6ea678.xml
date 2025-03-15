@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>宝玉的分享</title>
+        <link>https://baoyu.io</link>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-vs-intelligent-agents-applications</id>
+            <title>问答：智能体跟Ai编程这两者的区别，智能体适合什么场景，Ai编程适合什么场景？</title>
+            <link>https://baoyu.io/blog/ai-vs-intelligent-agents-applications</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-vs-intelligent-agents-applications</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 15 Mar 2025 00:58:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    问：宝玉老师，我一直很困惑，智能体跟Ai编程这两者的区别，智能体适合什么场景，Ai编程适合什么场景？请指教
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/praise-ordinary-engineers</id>
+            <title>赞美“普通”的工程师</title>
+            <link>https://baoyu.io/translations/praise-ordinary-engineers</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/praise-ordinary-engineers</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Mar 2025 02:15:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一名软件工程师对所谓的“10倍工程师”神话提出质疑
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/understanding-the-cultural-divide-between-mathematics-and-ai</id>
+            <title>数学与AI之间的文化鸿沟</title>
+            <link>https://baoyu.io/translations/understanding-the-cultural-divide-between-mathematics-and-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/understanding-the-cultural-divide-between-mathematics-and-ai</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 14 Mar 2025 02:12:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今年1月，我参加了主题为“我们决定自己的未来：AI时代的数学”的联合数学大会（简称JMM）。这场大会像是一场数学界的盛宴，各种演讲让我应接不暇。我不仅参加了自己熟悉的领域（比如模形式），也去探索了一些新鲜的领域（比如知识图谱），还关注了许多关于AI如何帮助数学研究的讲座。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/designing-llm-agents</id>
+            <title>真正的AI智能体即将到来：告别死板提示词，迎接自主规划时代！</title>
+            <link>https://baoyu.io/translations/designing-llm-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/designing-llm-agents</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 13 Mar 2025 13:41:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    目前，只有少数几家大公司有能力开发出真正的LLM智能体。虽然短期内这样的技术可能仍集中在巨头手里，但长远来看，这种局面必须被打破。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/x-platform-ddos-attack-investigation</id>
+            <title>X 平台大规模 DDoS 攻击调查：幕后黑客浮出水面</title>
+            <link>https://baoyu.io/blog/x-platform-ddos-attack-investigation</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/x-platform-ddos-attack-investigation</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 13 Mar 2025 00:22:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2025年3月10日，全球最大的社交媒体平台之一——X（前Twitter）突然陷入了严重的宕机危机。从早上6点开始，用户陆续发现平台无法访问，接连三次服务中断让全球近4万名用户陷入恐慌。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/america-is-missing-the-new-labor-economy-robotics-part-1</id>
+            <title>SemiAnalysis: 美国正在错失新型劳动力经济——机器人革命（第一篇）</title>
+            <link>https://baoyu.io/blog/america-is-missing-the-new-labor-economy-robotics-part-1</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/america-is-missing-the-new-labor-economy-robotics-part-1</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Mar 2025 23:58:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 通用机器人, 产业革命, 中国制造, 供应链优势  
+<br>  
+<br>  
+总结: 中国正在经历一场由通用机器人引领的深刻产业革命，凭借供应链优势、产业链整合和政府支持，中国在全球机器人市场中占据了领先地位。这场革命不仅带来产业升级，还将颠覆人类劳动力模式。尽管美国和西方也意识到这一趋势，但由于产业空心化和供应链问题，短期内难以追赶中国。中国正掌握未来制造的主动权，通用机器人将成为中国引领全球经济与技术革命的关键支点。 </div>
+                        <hr>
+                    
+                    随着通用人工智能（AGI）日渐逼近，机器人技术正站在一场真正意义上的产业革命前夜。本文来自美国知名半导体行业研究机构 SemiAnalysis，深入剖析了全球机器人产业的竞争格局，特别聚焦于中美之间的较量。文章认为，中国凭借庞大的工业基础、供应链优势，以及政府明确的战略布局，已迅速崛起为全球机器人产业的主导力量，而美国则在很大程度上错失了这场新的劳动经济革命。
+
+文章指出，机器人产业的特殊性在于迭代速度和规模经济能够迅速扩大优势，形成强者恒强的局面，而中国企业在无人机、大疆等细分领域的成功经验恰恰验证了这一点。目前，中国本土机器人企业已开始在全球市场中占据越来越大的份额，不仅迅速掌握了基础零部件和核心技术，甚至在高端市场也开始赶超西方老牌企业，例如 Unitree G1 的人形机器人完全摆脱了对美国部件的依赖，并实现了商业化。
+
+作者提醒，美国和西方国家的产业界和政府尚未充分意识到机器人技术背后的战略意义，特别是机器人产业带来的巨大生产力革命所蕴含的战略威胁。作者以“行动号召”（Call for Action）的紧迫语气，呼吁美国尽快觉醒，加速重建本土制造能力，参与到机器人革命的全球竞争中，否则可能彻底错失新一轮的工业红利。
+
+本文对中国读者而言，提供了一个难得的从外部视角看待中国机器人产业的机会。不仅展示了中国企业在全球市场上的竞争力与潜力，也客观指出了中国机器人产业下一步可能面对的挑战与全球产业变革的深刻影响。对于关注机器人、制造业以及中美技术竞争的读者来说，这篇深度长文将带来极具启发性和前瞻性的视角。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/what-the-dot-com-bust-can-tell-us-about-todays-ai-boom-c78482e7</id>
+            <title>从互联网泡沫破裂，看今天 AI 热潮的未来</title>
+            <link>https://baoyu.io/translations/what-the-dot-com-bust-can-tell-us-about-todays-ai-boom-c78482e7</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/what-the-dot-com-bust-can-tell-us-about-todays-ai-boom-c78482e7</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Mar 2025 01:18:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    **曾经被炒作的互联网技术，最终真的改变了世界。**
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/apple-ais-platform-pivot-potential</id>
+            <title>Apple AI 的平台转型潜力</title>
+            <link>https://baoyu.io/translations/apple-ais-platform-pivot-potential</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/apple-ais-platform-pivot-potential</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Mar 2025 01:07:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这事之所以让人震惊，是因为苹果这家素以保密著称的公司，居然会在功能尚未成熟时就大举做广告。而且，当时我（原作者 Ben Thompson）也在某种程度上赞成这波操作。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/big-ideas-in-tech-2025</id>
+            <title>50位 a16z 合伙人对 2025 年科技领域发展趋势的预测</title>
+            <link>https://baoyu.io/translations/big-ideas-in-tech-2025</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/big-ideas-in-tech-2025</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 11 Mar 2025 00:43:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    外部“AI大脑”、生物医药大动作、无限游戏、核能回潮、“无脸”创作者、挑战谷歌搜索、战场AI……
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/mcp-vs-api-model-context-protocol-explained</id>
+            <title>什么是模型上下文协议（MCP）？它如何比传统API更简单地集成AI？</title>
+            <link>https://baoyu.io/translations/mcp-vs-api-model-context-protocol-explained</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/mcp-vs-api-model-context-protocol-explained</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 09 Mar 2025 07:26:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你可以把MCP想象成AI领域的“USB-C接口”，它能让不同的AI模型与外部工具和数据源轻松连接。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-skills-future-talent</id>
+            <title>不会考察候选人的「AI能力」？你可能招不到未来的人才！</title>
+            <link>https://baoyu.io/blog/ai-skills-future-talent</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-skills-future-talent</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 09 Mar 2025 03:57:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    怎么面试才能真正考察出一个人「会用AI」呢？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/paper-ironies-of-automation.html</id>
+            <title>论文：《自动化的反讽》（Ironies of Automation）[译]</title>
+            <link>https://baoyu.io/translations/paper-ironies-of-automation.html</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/paper-ironies-of-automation.html</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Mar 2025 05:52:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    任何自动化系统最终都会变成“人与机器共同协作的系统”。哪怕你不断提高自动化的水平，“人的因素”始终至关重要。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/where-is-manus-moat</id>
+            <title>Manus 的护城河在哪里？</title>
+            <link>https://baoyu.io/blog/where-is-manus-moat</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/where-is-manus-moat</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 07 Mar 2025 05:43:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果连我这样一个伪专业人士也能大致分析出它的技术实现，那么是不是其他团队也可以去马上山寨一个出来？Manus 的护城河在哪里呢？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/turing-award-reinforcement-learning-pioneers</id>
+            <title>人工智能的最高奖项——图灵奖，近日颁给了强化学习领域的两位先驱：安德鲁·巴托和理查德·萨顿</title>
+            <link>https://baoyu.io/blog/turing-award-reinforcement-learning-pioneers</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/turing-award-reinforcement-learning-pioneers</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 05 Mar 2025 22:05:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2025年3月5日，全球最大的计算机协会ACM宣布，人工智能领域的最高荣誉——图灵奖——颁给了强化学习领域的两位先驱：安德鲁·巴托（Andrew Barto）和理查德·萨顿（Richard Sutton）。他们提出的强化学习理论，如今已成为ChatGPT等热门AI系统背后的核心技术。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ezra-klein-podcast-ben-buchanan.html</id>
+            <title>纽约时报观点 | 美国政府认为 A.G.I. 即将到来</title>
+            <link>https://baoyu.io/translations/ezra-klein-podcast-ben-buchanan.html</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ezra-klein-podcast-ben-buchanan.html</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 05 Mar 2025 22:03:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    拜登政府的人工智能顾问本·布坎南（Ben Buchanan）讨论了美国政府如何为通用人工智能做准备——以及仍然面临的所有挑战。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/model-is-the-product</id>
+            <title>模型即产品（The Model is the Product）</title>
+            <link>https://baoyu.io/translations/model-is-the-product</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/model-is-the-product</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Mar 2025 04:41:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    过去几年，人们一直在讨论下一个AI发展周期可能是什么：智能体（Agents）？推理系统（Reasoners）？还是彻底的多模态？
+
+现在是时候下结论了：下一个周期，就是“模型本身即产品”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-monarchy</id>
+            <title>《人工智能君主制》（The A.I. Monarchy）</title>
+            <link>https://baoyu.io/translations/ai-monarchy</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-monarchy</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 03 Mar 2025 04:51:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    关于加速主义、NRx，以及技术、宗教与哲学交汇之下的美国新政治核心思想分析
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-human-collaboration</id>
+            <title>AI 作为引擎，人类作为方向盘</title>
+            <link>https://baoyu.io/translations/ai-human-collaboration</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-human-collaboration</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 01 Mar 2025 07:25:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    本文的目标是探讨一种新的范式：或许可以利用 AI 来保留民主结构的好处，同时避免它的弊端。即“AI 作为引擎，人类作为方向盘”。在人类这边，只需向系统提供少量但高质量的信息，也许只需几百比特；而由 AI 将这些数据视为“目标函数”，通过大规模决策来尽最大努力满足这些目标。尤其值得探讨的是：能否在不将某个_单一_ AI 固化在中心的情况下做到这一点，而是依赖一个任何 AI（或人类与 AI 的混合体）都可以参与竞争的开放市场？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md</id>
+            <title>DeepSeek 开源周第 6 天彩蛋 – DeepSeek-V3/R1 推理系统概览</title>
+            <link>https://baoyu.io/translations/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 01 Mar 2025 04:55:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    通过以下方式优化吞吐量和时延：
+ 基于跨节点 EP 的批量扩展\
+ 计算与通信重叠\
+ 负载均衡
+
+DeepSeek 在线服务统计数据：\
+ 每个 H800 节点每秒输入/输出分别达 73.7k/14.8k token\
+ 成本利润率 545%
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-is-killing-some-companies-yet</id>
+            <title>AI 正在“扼杀”某些公司，却也让另一些公司蓬勃发展 ——让我们一起看看数据</title>
+            <link>https://baoyu.io/translations/ai-is-killing-some-companies-yet</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-is-killing-some-companies-yet</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 28 Feb 2025 23:40:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    来自 WebMD、Quora、Stack Overflow、Chegg、G2、CNET、Reddit、Wikipedia 和 Substack 的流量趋势
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/human-code-reviews-2</id>
+            <title>如何像人类一样进行代码评审（第二部分）</title>
+            <link>https://baoyu.io/translations/human-code-reviews-2</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/human-code-reviews-2</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 28 Feb 2025 07:26:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这是我关于如何在代码评审中进行有效沟通并避免陷阱的文章下半部分。在这里，我将重点放在如何在避免不愉快冲突的前提下，让代码评审顺利结束。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/human-code-reviews-1</id>
+            <title>如何像一个人一样做代码审查（第一部分）</title>
+            <link>https://baoyu.io/translations/human-code-reviews-1</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/human-code-reviews-1</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 28 Feb 2025 07:21:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近，我阅读了一些关于代码审查最佳实践的文章。我发现这些文章把重点几乎全部放在了“找漏洞”上，而几乎忽视了审查工作的其他方面。发现问题后如何以建设性和专业的方式进行沟通？对不起，这一部分似乎完全不重要！只要发现所有的漏洞，剩下的事情自然就会迎刃而解。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/blogging-in-the-age-of-ai</id>
+            <title>在 AI 时代，博客写作仍然值得 【译】</title>
+            <link>https://baoyu.io/translations/blogging-in-the-age-of-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/blogging-in-the-age-of-ai</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 28 Feb 2025 03:19:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    去年，当我重新开始半定期写博客时，也问过自己同样的问题，这篇文章正是我试图总结为何博客写作依然值得的原因。简单来说就是：写博客不只是为了被人阅读，而是为了学习与思考，同时留下你曾经思考和学习的持久证据。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/openai-gpt-45-system-card</id>
+            <title>OpenAI GPT-4.5 系统卡</title>
+            <link>https://baoyu.io/translations/openai-gpt-45-system-card</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/openai-gpt-45-system-card</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 27 Feb 2025 19:51:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们现正发布一个研究预览版的 OpenAI GPT-4.5，这是我们迄今规模最大、知识最丰富的模型。在 GPT-4o 的基础上，GPT-4.5 进一步扩大了预训练规模，并旨在比我们强大的以 STEM（科学、技术、工程和数学）为中心的推理模型具有更通用的用途。我们在训练中结合了新的监督技术以及传统方法，如有监督微调（SFT）和来自人类反馈的强化学习（RLHF），与 GPT-4o 使用的方法类似。我们在部署前进行了广泛的安全评估，并未发现与现有模型相比有任何显著增加的安全风险。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/deep-research-progress-to-prompt</id>
+            <title>Deep Research 实践经验总结：从“进度条”到“提示词”，一次搞懂！</title>
+            <link>https://baoyu.io/blog/deep-research-progress-to-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/deep-research-progress-to-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 27 Feb 2025 03:22:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近有很多朋友向我咨询：“Deep Research 的用量是怎么算的？” 又因为目前 Plus 每个月只能用 10 次，大家都非常担心浪费。其实一句话就能总结——只要开始出现 “Starting Research” 的进度条，就算使用了一次。在进度条出现之前，怎么问都不算。下面就为大家分享一些 Deep Research 的使用流程、注意事项和提示词模板，帮助大家更好地运用这一强大的研究功能。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-ai-generated-code-accelerates-technical-debt</id>
+            <title>人工智能生成的代码如何加剧技术债务</title>
+            <link>https://baoyu.io/translations/how-ai-generated-code-accelerates-technical-debt</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-ai-generated-code-accelerates-technical-debt</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 27 Feb 2025 01:51:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在我 35 年的技术生涯中，我从未见过在如此短的时间里产生如此多的技术债务
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/manson-subtle-art-not-giving-f-summary</id>
+            <title>作者 Mark Manson 对自己的畅销书《The Subtle Art of Not Giving a F*ck》的总结</title>
+            <link>https://baoyu.io/translations/manson-subtle-art-not-giving-f-summary</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/manson-subtle-art-not-giving-f-summary</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 27 Feb 2025 01:46:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大家好，我是**马克·曼森（Mark Manson）**，\
+我写过一本纽约时报畅销书，叫做《**The Subtle Art of Not Giving a Fuck**》（通常被译为《不烦恼的艺术》或《活出自己不在乎的力量》等）。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/deep-research-prompt-templates</id>
+            <title>Deep Research 提示词模板参考</title>
+            <link>https://baoyu.io/blog/deep-research-prompt-templates</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/deep-research-prompt-templates</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 26 Feb 2025 16:25:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    主要分成下面几个部分：背景信息、任务要求和输出格式&#x20;
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/introducing-copilot-agent-mode</id>
+            <title>介绍 GitHub Copilot agent 模式（预览版）</title>
+            <link>https://baoyu.io/translations/introducing-copilot-agent-mode</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/introducing-copilot-agent-mode</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 23:33:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Copilot agent 模式是 AI 辅助编程的下一步演化。它可以作为一位自治的“编程同伴”，执行多步骤的编码任务——分析你的代码库、阅读相关文件、提出文件修改建议、执行终端命令并运行测试。它能够对编译和 lint 错误作出响应，监控终端和测试输出，并在循环中自动修复，直到任务完成。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-deep-research-problem</id>
+            <title>Deep Research 的问题 【译】</title>
+            <link>https://baoyu.io/translations/the-deep-research-problem</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-deep-research-problem</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 23:12:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 的 Deep Research 看起来像是专门为我打造的工具，但我却无法真正使用它。它再次展现了惊艳的演示效果，直到它崩溃——而且崩溃得十分有趣。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/deep-research-system-card</id>
+            <title>Deep Research 系统卡（中文）</title>
+            <link>https://baoyu.io/translations/deep-research-system-card</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/deep-research-system-card</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 19:41:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    本报告概述了在发布深度研究之前所开展的安全工作，包括外部红队测试、根据我们的准备框架进行的前沿风险评估，以及针对关键风险领域所制定的缓解措施。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/llm-ml-job-interviews-fall-2024-process</id>
+            <title>LLM（机器学习）职位面试（2024年秋季）——流程回顾 [译]</title>
+            <link>https://baoyu.io/translations/llm-ml-job-interviews-fall-2024-process</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/llm-ml-job-interviews-fall-2024-process</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 06:40:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这是作者在 2024 年秋季面试以 ML/LLM 研究科学家/工程师为主要方向的职位时的经历分享。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/visible-extended-thinking</id>
+            <title>Claude 的推理思考（Extended Thinking）【译】</title>
+            <link>https://baoyu.io/translations/visible-extended-thinking</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/visible-extended-thinking</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 06:37:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    有些事情，我们几乎瞬间就会想到答案，比如“今天是星期几？”。但也有一些事情需要更大的脑力投入，例如解一道有难度的填字谜题或排查一段复杂的代码错误。我们可以根据手头的任务，自由选择要投入多大程度的认知努力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/claude-3-7-sonnet-and-claude-code</id>
+            <title>Claude 3.7 Sonnet 和 Claude Code 【译】</title>
+            <link>https://baoyu.io/translations/claude-3-7-sonnet-and-claude-code</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/claude-3-7-sonnet-and-claude-code</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 25 Feb 2025 06:33:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude 3.7 Sonnet 在编程和前端网页开发方面表现尤为突出。伴随这个新模型，我们还推出了一个用于代理式编程的命令行工具——Claude Code。目前 Claude Code 作为一款有限的研究预览版本向开发者开放，允许他们从终端直接将大量工程任务委派给 Claude。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-batch-video-cutting</id>
+            <title>如何用 AI 来批量切割视频</title>
+            <link>https://baoyu.io/blog/ai-batch-video-cutting</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-batch-video-cutting</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 24 Feb 2025 16:02:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    分享一个我日常生活的应用 AI  的案例：
+比如我有个超长 YouTube 视频，我想按照 Timestamps 切割，正常用法就是用视频编辑工具手动找到位置，然后导出么，但是这么多视频，切起来就有点费劲了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/request-no-not-yes</id>
+            <title>请求“不”，而非请求“是”</title>
+            <link>https://baoyu.io/translations/request-no-not-yes</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/request-no-not-yes</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 24 Feb 2025 01:21:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我认为保持行动的偏好非常重要。就像其他习惯一样，这可以通过练习养成。向前迈进能让你取得进展。我不知道你是否也有过这样的经历：曾经因为不知道该选择哪条路而感到停滞不前。哪怕只是迈出最小的一步，也能帮助你打破这种僵局。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/anthropic-ai-best-practices-common-errors</id>
+            <title>Anthropic 在和客户合作的过程中总结的的企业落地 AI 最佳实践以及常见错误</title>
+            <link>https://baoyu.io/blog/anthropic-ai-best-practices-common-errors</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/anthropic-ai-best-practices-common-errors</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 23 Feb 2025 20:22:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 AI 迅速发展的今天，企业如何将 AI 技术落地应用，推动业务创新，成为了摆在许多从业者面前的难题。Anthropic 这两天在“AI Engineer Summit 2025”分享了他们在与众多客户合作的过程中，总结出来的一套行之有效的企业落地 AI 的最佳实践，并识别出了一些常见的错误。我在这里把视频上一些有价值的实践经验和教训整理出来了，希望能帮助你在 AI 应用的道路上少走弯路。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/gemini-podcast-to-text</id>
+            <title>如何使用 Gemini 把播客转成格式良好文本</title>
+            <link>https://baoyu.io/blog/gemini-podcast-to-text</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/gemini-podcast-to-text</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 23 Feb 2025 16:36:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很多朋友跟我一样，日常有把视频、播客、会议记录音频转成文本的需求，尤其是要识别出发言人，把发言人和发言内容对上，这样可以节约大量时间去听几个小时视频，而且不会漏掉重点，毕竟文字阅读速度还是快多了。而且有了文本，还可以进一步生成摘要、写一篇文章。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/booking-com-ai-exploration</id>
+            <title>Booking.com 在 AI 落地方面的探索</title>
+            <link>https://baoyu.io/blog/booking-com-ai-exploration</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/booking-com-ai-exploration</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 23 Feb 2025 05:35:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这是 Booking.com 和 Sourcegraph 的技术负责人在昨天 AI Engineer Summit 2025 上的一场主题为“在企业 SDLC 中构建真正带来投资回报的 AI 智能体”的演讲，他们分享了自己如何开发与使用 AI 工具，来替公司里的开发者节约时间、减少重复劳动，还能保证产品质量。在某种程度上，这就和我们在日常生活里寻找各种“捷径”或“自动化工具”有异曲同工之妙。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-is-evolving-programmers</id>
+            <title>AI 正在推动程序员的进化，而不是灭亡</title>
+            <link>https://baoyu.io/blog/ai-is-evolving-programmers</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-is-evolving-programmers</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 22 Feb 2025 00:41:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这是纽约时报新刊登的一篇 AI 对程序员影响的文章，有人担心 AI  很快会自动取代数百万个工作岗位，文章主要观点还是认为 AI 正在推动程序员的进化，而不是灭亡，创造力、批判性思维、解决问题的能力、沟通能力、共情能力——这些才是人们在未来需要持续培养的技能。当然，还要学会如何管理和使用好这些 AI 工具。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/coinbase-ai-improves-development-efficiency</id>
+            <title>Coinbase 使用 AI 编程工具提升开发效率，同时正在欺诈预防、客户支持、风险评分、设计等多个业务领域积极应用 AI 技术</title>
+            <link>https://baoyu.io/blog/coinbase-ai-improves-development-efficiency</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/coinbase-ai-improves-development-efficiency</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Feb 2025 22:50:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    根据 Coinbase 首席执行官布莱恩·阿姆斯特朗（Brian Armstrong）的消息，Coinbase 正在多个业务领域积极应用人工智能（AI）技术，包括欺诈预防、客户支持、风险评分、设计等。目前 **100% 的工程师** 已开始使用名为 Cursor 的 AI 编程工具提升开发效率
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/you-cant-build-a-moat-with-ai-redux</id>
+            <title>你无法用 AI 建立护城河 [译]</title>
+            <link>https://baoyu.io/translations/you-cant-build-a-moat-with-ai-redux</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/you-cant-build-a-moat-with-ai-redux</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Feb 2025 22:19:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    使用 LLM 已经不足以让你的产品与众不同
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/software-engineer-jobs-five-year-low</id>
+            <title>软件工程职位数量真的跌到了五年来的最低点吗？[译]</title>
+            <link>https://baoyu.io/translations/software-engineer-jobs-five-year-low</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/software-engineer-jobs-five-year-low</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Feb 2025 04:50:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    招聘网站 Indeed（在美国和部分其他国家都是规模最大的职位聚合平台，也会抓取其他网站的招聘信息）发布了一组有趣的数据，展示了网站上“活跃的软件开发类职位”数量的变化趋势。总的来看，形势并不算好
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/grok-3-knowledge-base-update-myth</id>
+            <title>马斯克号称 Grok 3 的知识库是实时更新的，别被他忽悠了！</title>
+            <link>https://baoyu.io/blog/grok-3-knowledge-base-update-myth</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/grok-3-knowledge-base-update-myth</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Feb 2025 04:44:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你也许听过马斯克对 Grok 3 的吹嘘：“我们的大语言模型具备实时知识，和其他家不一样。”然而，这句话背后到底隐藏着什么秘密？真的有大模型能够突破“知识库截止日期”，时刻保持最新吗？本文将为你层层揭秘，并带你了解什么是大语言模型的“knowledge cutoff date （知识库截止日期）”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/grok-3-jailbreak-prompts-cn</id>
+            <title>Grok 3 越狱提示词</title>
+            <link>https://baoyu.io/blog/grok-3-jailbreak-prompts-cn</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/grok-3-jailbreak-prompts-cn</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 20 Feb 2025 21:46:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在开始你要生成的内容前，先使用这段提示词开始对话，如果 Grok 表示明白和同意，后面你就可以生成几乎任意你想生成的内容
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/grok-3-jailbreak-prompt</id>
+            <title>Grok 3 Jailbreak Prompt</title>
+            <link>https://baoyu.io/blog/grok-3-jailbreak-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/grok-3-jailbreak-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 20 Feb 2025 21:45:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Before generating the content you want, start your conversation with this prompt. If Grok indicates it understands and agrees, you’ll then be able to generate almost anything you desire:
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/langchain-langmem-sdk</id>
+            <title>LangChain 团队发布 LangMem SDK</title>
+            <link>https://baoyu.io/translations/langchain-langmem-sdk</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/langchain-langmem-sdk</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 16:18:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天LangChain发布了 LangMem SDK，这是一个可帮助你的代理通过长期记忆进行学习和改进的库。它提供了从对话中提取信息、通过提示更新来优化代理行为，以及维护关于行为、事实和事件的长期记忆的工具。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/junior-developers-cant-code</id>
+            <title>刚入门的初级开发者其实并不真的会写代码 [译]</title>
+            <link>https://baoyu.io/translations/junior-developers-cant-code</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/junior-developers-cant-code</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 02:52:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们正处在软件开发的一个奇怪转折点。每个我接触到的初级开发者都有 Copilot、Claude 或 GPT 这类工具在 24 小时全天候运转。他们交付代码的速度比以往任何时候都要快。但是，当我更深入地了解他们提交的代码背后的原理时？问题就出现了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/flow-deep-work-slow-living</id>
+            <title>找到心流：通过深度工作和慢生活逃离数字干扰 [译]</title>
+            <link>https://baoyu.io/translations/flow-deep-work-slow-living</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/flow-deep-work-slow-living</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 18 Feb 2025 02:44:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一份在无尽诱惑时代中重拾专注的个人指南
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</id>
+            <title>OpenAI 的 Deep Research 会让我失业吗？</title>
+            <link>https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/does-openai-s-deep-research-put-me-out-of-a-job</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Feb 2025 05:13:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    数以百万计的人面临失业，居然只用一条推文就随意宣布了……但这就是我们当下所处的时代。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
