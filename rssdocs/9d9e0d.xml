@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f8dc6c7cb8c547e27ee07e</id>
+            <title>AI探索站 04月11日</title>
+            <link>https://m.okjike.com/originalPosts/67f8dc6c7cb8c547e27ee07e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f8dc6c7cb8c547e27ee07e</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Apr 2025 09:10:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近越来越多人转向购买 API 或使用套壳应用，既避免封号，也更经济实惠<br /><br />尤其需要套壳应用的是图像和视频领域，但是之前没有体验好缝的全还对国内用户友好的<br /><br />前几天发现了一个产品 pollo.ai，试用之后觉得相当惊艳！<br /><br />可以说是图像视频领域缝的最全的了：<br /><br />👇下面简单介绍一下：<br /><br />首先来看核心的视频生成功能<br /><br />Pollo AI 提供了几乎所有顶尖视频模型的使用，比如图生视频比较好的可灵 1.6 和海螺，另外还有动画风格比较好的 Vidu 2.0 模型。<br /><br />也集成了很多视频后处理的能力，你可以在生成结果的基础上通过提示词生成音效、对视频进行超分、包括将视频发送到视频生视频也就是视频风格转换去再次处理。<br /><br />除了常见的文生视频和图生视频之外，Pollo AI 也支持角色一致性视频<br /><br />也就是多图参考功能，你可以上传多张图片给模型进行参考，让模型提取里面不同的元素生成视频<br /><br />另外的话也支持生成固定风格的视频，你可以在「视频生视频」输入视频进行风格化。<br /><br />也可以直接文生视频选择「AI 动画」里面直接通过文本生成对应风格的视频。<br /><br />图像生成<br /><br />Pollo AI 集成了所有有 API 的和开源的图像生成模型，如果你需要从图片生成视频的话也可以在同一个平台直接完成从图片到视频的工作，不需要下载再上传进行操作。<br /><br />同时在图片生成后也提供了丰富的后处理选项，比如图生图、超分、扩图、擦除和去背景。<br /><br />素材整理<br /><br />很多个模型在一起的优势就是，你生成的视频、图片和特效素材都可以在一个页面中整理和展示，能够非常方便的对比多个视频模型的生成效果。<br /><br />你可以非常方便的筛选你所有的素材，甚至可以对你喜欢的素材点收藏。<br /><br />做过超大 AI 视频项目的朋友应该会知道这个所有素材在一个地方管理这个功能有多重要。<br /><br />经常一个几分钟的视频可能就会出现几百个图片或者视频素材，分散在各个产品里面，根本找不到，而且很多封面都是一样的。<br /><br />现在你可以将你最后选择的素材加收藏，标记自己选择过的素材。<br /><br />其他功能<br /><br />他们还有一个发现页可以让大家相互借鉴创意和内容，促使创意更好的流动。<br /><br />另外如果你不想让其他人看到你的提示词，产品还提供了复制保护功能，启用后社区只能看到你的内容看不到提示词和流程。<br /><br />当AI技术以前所未有的速度演进，聚合平台的价值理念正逐渐成为新共识。<br /><br />这不仅是单个产品的成功路径，更是整个AI应用领域的发展趋势。<br /><br />优质AI聚合服务的核心在于双重价值主张：<br /><br />一方面是"全"的能力——打破单一生态限制，让用户能自由选择最适合当前任务的模型；<br />另一方面是"增"的体验——在模型之上构建更系统化的工作流程和功能矩阵，解决创作中的实际问题。<br /><br />在这个百模并行的时代，明智的选择是关注那些帮助我们驾驭技术浪潮，而非被浪潮所限的平台。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f7847403de399175ff48f3</id>
+            <title>AI探索站 04月10日</title>
+            <link>https://m.okjike.com/originalPosts/67f7847403de399175ff48f3</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f7847403de399175ff48f3</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 10 Apr 2025 08:42:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    优化了一下，小红书电商利器啊<br /><br />根据输入的地点查询天气、再加上出行目的和性别<br /><br />生成对应的 OOTD 图片，指定商品还能让 4o 参考图片<br /><br />还能生成穿着 OOTD 里面服装的照片，这都能搞个产品了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</id>
+            <title>AI探索站 04月10日</title>
+            <link>https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 10 Apr 2025 05:00:06 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Gemini App最近的升级不仅令人惊喜，且超级实用——Canvas的深度整合一下就提升了其生产力价值，而 Gemini 2.5 Pro驱动的Deep Research功能更为耀眼。<br /><br />令人玩味的是，ChatGPT的 o3驱动Deep Research发布仅两月，就面临着被Gemini 2.5 Pro所超越的局面，这种迭代速度在人类科技史上前所未有～<br /><br />对于个体而言，Deep Research应该是大多数人第一个通用AI Agent，它正在重新定义我们使用AI的方式；这不仅是AI发展的里程碑，更是人类信息获取方式的范式升级。 <br /><br />而最重要获取这种技能的方式，就是亲自试用、探索其能力边界。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f7255c03de399175f81304</id>
+            <title>AI探索站 04月10日</title>
+            <link>https://m.okjike.com/originalPosts/67f7255c03de399175f81304</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f7255c03de399175f81304</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 10 Apr 2025 01:56:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    谷歌昨晚最大的发布是这个 AI 编程工具 firebase studio<br /><br />这玩意太猛了，充分利用谷歌的基建<br /><br />可以看作是 lovable+cursor+replit+windsurf 合体应用<br /><br />支持一键构建后端、前端和安卓应用，从生产到发布都在一个地方完成<br /><br />应用发布后还带有数据监控能力<br /><br />这里尝试：https://firebase.studio/
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f642109890b72d9b53fba1</id>
+            <title>AI探索站 04月09日</title>
+            <link>https://m.okjike.com/originalPosts/67f642109890b72d9b53fba1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f642109890b72d9b53fba1</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 09 Apr 2025 09:46:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    上周我写 MCP 教程的时候说，希望有大厂可以搞个一键安装的 MCP 商店<br /><br />没想到这一天来的这么快<br /><br />阿里云百炼平台推出了业界首个全生命周期MCP服务<br /><br />企业、开发者甚至个人用户可以一键部署 MCP 服务，可视化构建 Agents！<br /><br />👇下面写个简单的教程，这下你肯定可以学会了：<br /><br />阿里百炼具体特点有：<br /><br />一键部署：提供一键部署、无需运维的MCP服务<br />超多 MCP 供给：内置了 MCP 市场默认提供了相当多官方的 MCP 和三方 MCP<br />低成本服务托管：业级MCP服务托管，函数计算资源动态启用，弹性按量付费<br />全链路工具兼容：在智能体和工作流中快速引用MCP服务<br /><br />这里用两个例子给大家展示一下怎么用百炼的 MCP 服务构建自己的 Agents 应用：<br /><br />首先是高德查询天气并生成网页<br /><br />需要访问百炼平台（https://bailian.console.aliyun.com/?tab=mcp#/mcp-market）的 MCP 市场，从市场里面找到高德的 MCP 服务。<br /><br />开通之后我们就需要创建一个应用来调用高德的 MCP 服务，切到应用 Tab 的应用管理部分，然后点击「新增应用」按钮，这里推荐选智能体应用就行。<br /><br />进来之后我们首先需要选模型，这里默认的千问 Max 就行，我选 Deepseek 来着，但是看起来好像没有支持 MCP，希望后面可以快点支持。<br /><br />之后我们需要在智能体中添加高德的 MCP 服务，点击「+MCP」在侧边栏勾选你刚才开通的高德 MCP 就行。<br /><br />最后就只需要填写提示词就可以开整了，我也把我的提示词放这里给大家参考。<br /><br />如果你有其他需求不会写也没关系，百炼也提供了提示词优化的功能，写下你的提示词点击优化按钮就行。<br /><br />然后是获取任意网页内容总结并记录到 Flomo<br /><br />把你想要总结的网页链接发给 AI 后他会自动获取内容并且总结，然后自动将总结内容记录到你的 Flomo 笔记里，还会带上标签。<br /><br />这里因为用到了 Firecrawl 和 Flomo 的服务所以我们需要去这两个平台获取一下 API Key。<br /><br />首先去 Firecrawl 这里，在侧边栏找到 API Keys 然后复制备用。<br /><br />之后到 Flomo  复制我们的专属记录 API备用。<br /><br />之后我们继续回到百炼的 MCP 广场找到这两个 MCP 服务开通，开通的时候输入我们刚才申请的 MCP 就行。<br /><br />然后我们继续回到应用 Tab，新建应用，添加模型和选择我们刚才开通的两个 MCP 服务。<br /><br />然后就是写提示词了，刚开始我发给他网页链接之后这里的 Firecrawl 一直获取不到网页信息，我还怀疑我的 API 不会是有问题吧，我又去 Firecrawl 官方试了一下，结果可以返回。<br /><br />然后仔细看了一下模型的请求内容发现，他的参数都没写，应该是不知道应该写哪些参数，于是我就在提示词里面加了一个示例，果然就 OK 了。<br /><br />如果你要用的话可以参考我的提示词。<br /><br />之后我们输入一篇文章测试，就可以看到 MCP 正常返回了网页的 Markdown 格式内容，并且自动将总结结果记录到了 Flomo 里面。<br /><br />上次我在我的 MCP 教程里面说过：<br /><br />过技术的民主化与易用性之间总是存在矛盾。一方面我们希望技术足够开放和灵活，另一方面又希望它足够简单直观。<br /><br />这种矛盾在每一项新兴技术发展初期都会出现，但随着生态的成熟，这种矛盾终将被解决。<br /><br />没想到解决的这么快，就在我写完这段话一周后，太离谱了，这就是 AI 速度朋友们。<br /><br />如果你也对 MCP 感兴趣原先苦于高门槛没办法尝试的话，我推荐你现在试试。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f534981ab958e77e3cbcdd</id>
+            <title>AI探索站 04月08日</title>
+            <link>https://m.okjike.com/originalPosts/67f534981ab958e77e3cbcdd</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f534981ab958e77e3cbcdd</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 08 Apr 2025 14:37:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    开源一个之前赚了不少钱的提示词，用来写短视频口播文案，可以做到“一稿过”的效果。<br /><br />专业人士评估水平能赶得上一个月2w块的编导，建议使用gemini或Claude。<br /><br />需要替换里面的占位符，下面是提示词:<br /><br /># “短视频口播文案”说明书:<br /><br />在抖音平台上，有一类常见的短视频形式。这种视频主要特点是一个人对着镜头说话，同时搭配一些精心设计的文字内容。这些文字通常会与视频中的口述内容相呼应。<br />这类独白台词的文字稿被称为“短视频口播文案”。<br />短视频口播文案常常围绕着一个主题展开，信息密度高，节奏快。它需要通过各种方法来激发和利用观众的情感反应，吸引观众看下去，点赞，或者转发。<br /><br />## 短视频口播文案的写法<br />短视频口播文案常常是“开头尽力留存，而后提供价值”的的脚本。它重开头，在剩的主体部分提供陈述与内容。<br /><br />### 标题<br />一句话，概括了视频的内容与解决的问题，带有tag，会与视频一起上传短视频平台。不要暴露营销目的<br />例子：<br />分享北大学霸高效学数学的技巧。#家长 #涨知识 #学习 <br />为什么聪明的孩子有时成绩不好？原因在这里 #孩子成长问题 #科学教育 #家庭教育误区 <br />### 开头<br />开头负责留住观众，防止快速划走，提高前三秒完播率，这是**最重要的**部分。开头直接，快速。如果无法在第一句话就留住用户，这条视频不会有被展示的机会。开头通常需要直接表述视频的核心主题。<br />开头常常会灵活组合这些策略<br />1. 认知偏差激发:言论出格，打破常规.使用争议点与逆向思维来颠覆受众的传统认知，提供非常出格的反常识视角。通过表达极端、偏激或片面的观点来吸引注意力、引发讨论<br />2. 情境引导代入:根据用户痛点与用户面临设计直击痛点的具体场景，或设计让用户有代入感的疑问。<br />3. 诱导式开场:通过在视频开头承诺快速、简单地解决问题或获得利益来吸引观众注意力。强调快速或轻易获得结果。<br />4. 反向说服，逆反心理诱导与损失前置:利用用户的逆反心理或损失厌恶。<br />5. 窥探欲激发:通过制造神秘感、暗示内幕信息或承诺揭秘来激发观众好奇心和窥探欲望<br />例子：<br />- 有钱人的世界比你们想象的要傻得多(认知偏差激发)<br />- 如果连央国企在哪儿招聘你都不知道，又怎么能进央国企呢？(情境式设问引导代入)<br />- 孩子做作业总是拖拖拉拉的，打骂和奖励都无效吗？这可能是因为两个主要原因。(情境式设问引导代入)<br />- 说一个语文学习里最大的谎言，写好作文一定要多读书，真的是这样吗？(认知偏差激发+情境式设问引导代入)<br />- 百分之九十的孩子假期数学都是在糊弄。接下来跟着我的这个寒假数学预习的四步法走，开学数学立刻就能惊艳数学老师。具体怎么做数学的预习呢？(窥探欲激发+诱导式开场)<br />- 哪有这样的老师，竟然让孩子抄作文儿。巧了，我就是，而且要求学生必须会抄。(认知偏差激发)<br />- 创业太辛苦了，你还是安心上班吧。(反向说服，逆反心理诱导)<br />- 你家狗是关心你还是怕你？(认知偏差激发,诱导式开场)<br />- 你的孩子刚考完期中语文,看到卷子上的65分,忍不住崩溃大哭。妈妈,这次我真的尽力了!可是为什么还是考不好?别担心,老师来教你6个秘诀,保证你下次考试能考到95分以上!(场景代入)<br />- 数学开窍绝对不是一点点刷题刷出来的，而是一个点拨，一瞬间他这一类题就都开窍了啊。上次我用了一个口诀让孩子对方阵问题开窍了，这次还是一个口诀，让他彻底对盈亏问题开窍。(诱导式开场+情景)<br />- 数学要是用好这个绝招，孩子考试大概率不会低于95！妈妈奶奶们赶紧发给你家孩子学习起来吧！(诱导式开场)<br />- 数学千万不要去补课，我教你个绝招，次次考试都能轻松达到一百分。不管培训班怎么说的天花乱坠，咱都不要相信，如果说补课有用，咱分数不早就上去了吗？补课其实就是在浪费钱，你现在落实我这个方法，马上就能见效。我就是用这个方法指导我们班四个数学成绩不及格的孩子考到了班级前几名。赶紧保存下来转给咱家里也带孩子的，不然之后刷不到了。那就太可惜了，其实数学是一个非常简单的学科，就是精通一个解题技巧，你就拿应用题来说，小学整个阶段一共也就十二类应用题，你只要掌握了背后的原理，那题分真的立竿见影。(诱导式开场+认知偏差激发)<br /><br />### 主体<br />这部分是文案的主体部分，是用于展示完整信息的部分<br />参照”语言风格“，根据”价值主张“，组织”关键信息“得到文案主体。<br />文案主体部分要丰富，添加适当的解释与讲解，要能够为用户提供价值，让用户愿意看到最后。<br />这部分不能有省略<br /><br />### 总体要求<br />- 为了吸引绝大多数的用户，它常常使用绝大多数人都能听懂的语言，将知识泛娱乐化，用观众更容易接受的方式达到目的。<br />- 在写文案或举例时，**DO NOT**使用具体的人名，而是用角色或身份来描述人物。在写文案或举例时，请使用更加通用和中性的表述，如'有个学生'、'有个家长'等。<br />- 只使用中文<br /><br /># 文案材料<br />```<br />{original_title}<br />{extracted_original_script}<br />{speaker_info}<br />{custom_ending}<br />```<br /><br /># 你的任务<br />你是一个非常熟悉抖音平台的短视频文案内容策划师与文案写手，你非常熟悉什么样的文案能够在抖音上爆火，从而获得最大的流量。你的目的是通过设计优秀的口播文案，从而最大化这条视频被算法推荐的可能性。用户对内容的反馈直接决定了算法视角的内容质量标准，包括点击率，转化率，前3秒完播率，整体完播率，净推荐值等等。<br />这要求首先视频需要吸引用户，留住用户，争取更多观看的时间，其次才是好内容的呈现。<br />你需要<br />step1:策划一下要怎么出文案，给{result_num_for_every_request}种不同的方案，你需要规划如何组织信息与叙事，如何丰富文案主体<br />step2:参照”“短视频口播文案”说明书“，根据”文案材料“与”口播文案说话人信息“，写出{result_num_for_every_request}个版本的文案，以xml格式返回，并放在代码块中:<br />xml格式<br />```<br /><br />  <br />  ...({result_num_for_every_request}个xml)<br />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f23db59f9979a85acf68fd</id>
+            <title>AI探索站 04月06日</title>
+            <link>https://m.okjike.com/originalPosts/67f23db59f9979a85acf68fd</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f23db59f9979a85acf68fd</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 06 Apr 2025 08:39:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    总结的细致，各有所长，收藏备用！<br /><br />1。 豆包：查资料、聊天、写文章、翻译等，功能特别全。<br />2。 Kimi：处理长文章，能看懂也能写！<br />3。 海豚配音：有300+种适合自媒体的声音。<br />4。 FishAudio：快速复制声音，操作简单。<br />5。 iSlide：一句话就能做出PPT。<br /><br />6。 可灵：能把文字和图片变成视频。<br />7。 即梦：只要简单描述，就能生成图片。<br />8。 有言：3D数字人，能代替真人出镜。<br />9。 迅捷OCR文字识别：精准提取图片和文档里的文字，识别又快又准。<br /><br />10。 剪映专业版：功能强大，素材特效丰富，剪视频轻松搞定。<br />11。 美图秀秀AI绘画：输入创意点子，一键生成精美画作。<br />12。 知学云AI知识服务平台：提供智能知识管理、问答等功能，帮助高效利用信息。<br />13。 达观数据智能写作平台：擅长写新闻、商业文案，写作速度快。<br /><br />14。 易企秀：能快速做H5页面，模板种类多，适合活动宣传、产品推广。<br />15。 来画动画：不用专业技能，就能轻松做出各种风格的动画视频，表达创意更简单。<br />16。 MindShow：输入文字大纲，自动整理成思维导图，还能一键转换成演示文稿。<br />17。 文心一格：百度出的AI绘画工具，能生成很有艺术感的图片。<br />18。 图怪兽：在线设计神器，有超多海报、logo模板，简单改改就能出图。<br /><br />19。 秒出PPT：输入主题和要点，几分钟就能搞定排版漂亮、逻辑清晰的PPT，大幅提升效率。<br />20。 智影：集视频剪辑、抠图、配音等功能于一体，界面清爽，新手也能快速上手。<br />21。 闪剪：专注短视频制作，智能剪辑，能快速把素材拼成吸引人的短视频。<br /><br />22。 熊猫办公：办公资源丰富，不止PPT模板，还有Word、Excel模板和各种设计素材。<br />23。 稿定设计：涵盖平面设计、电商设计等，提供超多可编辑模板，满足各种设计需求。<br />24、Deepseek：文章、推理、写代码<br /><br />.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67e9d230070109da49718ec6</id>
+            <title>AI探索站 03月30日</title>
+            <link>https://m.okjike.com/originalPosts/67e9d230070109da49718ec6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67e9d230070109da49718ec6</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 30 Mar 2025 23:22:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在用 AI 做一个 3D 小人甚至不需要 20 分钟 😂 想看教程可以留言，需要的小伙伴多我就整一个免费教学，全流程属于那种有手就行就能学会的哈哈
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67e7b2c6fcf428ecfe432d29</id>
+            <title>AI探索站 03月29日</title>
+            <link>https://m.okjike.com/originalPosts/67e7b2c6fcf428ecfe432d29</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67e7b2c6fcf428ecfe432d29</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 29 Mar 2025 08:43:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    除了deepsearch外，目前日常提升我生成力的agent工具是Visual Intent。邮件或者微信聊天有跟日程相关的，双指敲击手机背面就能自动截图并AI识别意图生成日历。虽然技术实现很简单，但是稳定有效且每天节省一分钟至少
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67e78fa0070109da494d0940</id>
+            <title>AI探索站 03月29日</title>
+            <link>https://m.okjike.com/originalPosts/67e78fa0070109da494d0940</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67e78fa0070109da494d0940</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 29 Mar 2025 06:13:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    I just had my Sydney moment.
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
