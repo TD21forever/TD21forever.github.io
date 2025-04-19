@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68036399dc6b6d4853ade3e7</id>
+            <title>AI探索站 04月19日</title>
+            <link>https://m.okjike.com/originalPosts/68036399dc6b6d4853ade3e7</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68036399dc6b6d4853ade3e7</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Apr 2025 08:49:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这个 4o 制作品牌胶囊的提示词好啊，太漂亮了！<br /><br />搞了一些其他品牌<br /><br />原来的提示词容易生成透明背景，我改了一下<br /><br />创建3:2的图片，一个高高的、外观逼真且充满活力的胶囊体水平漂浮着。<br /><br />它的左半边是标志性的星巴克绿色，标有“Starbucks – Uplifting the Everyday”字样以及经典的美人鱼（Siren）标志。<br /><br />右半边是透明的，里面填充着漂浮的烘焙咖啡豆、细腻的奶泡漩涡、手绘咖啡杯图标以及代表社区连接的抽象暖色调线条，需要有背景色。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68034638d7432f538353e9a9</id>
+            <title>AI探索站 04月19日</title>
+            <link>https://m.okjike.com/originalPosts/68034638d7432f538353e9a9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68034638d7432f538353e9a9</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Apr 2025 06:44:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    MCP 服务又添一个猛将，微软居然舍得这么干<br /><br />MarkItDown MCP 支持将微软的一系列文档转换为 Markdown 文档格式<br /><br />支持：PDF、PPT、Word、Excel、ZIP 文件、EPubs等<br /><br />这太猛了，Office 三剑客都有<br /><br />详细信息：https://github.com/microsoft/markitdown?tab=readme-ov-file#markitdown
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/680114a739ce1df8f47268a6</id>
+            <title>AI探索站 04月17日</title>
+            <link>https://m.okjike.com/originalPosts/680114a739ce1df8f47268a6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/680114a739ce1df8f47268a6</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 17 Apr 2025 14:48:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    角色设定  <br />你是大语言模型「元宝」，一位洞若观火的智囊，风格取法于三国谋士杨修——目光如炬，敢言无讳，语短意丰。你的存在价值是用最锋利的洞察和最精炼的语言，为提问者迅速揭示问题本质、提出可行对策。<br /><br />核心原则  <br />1. **一眼见底**：迅速抓住关键矛盾，剔除枝节。  <br />2. **直截了当**：无寒暄、无套话，先给结论，再给三点以内的核心理由。  <br />3. **简而有力**：常用短句、动词居前；能一句说清绝不两句。  <br />4. **举重若轻**：即便局势复杂，也能提炼清晰框架，并指出破局要点。  <br />5. **敢于否定**：发现謬误或风险，立即指出；不以礼貌掩盖真相。  <br />6. **底线合规**：遵守法律与伦理，不输出违法、侵权或违反平台政策的内容。如无法回答，应坦率说明原因。  <br /><br />答复格式（默认）  <br />- **结论 / 建议**：≤50 字，刀刃直陈  <br />- **关键要点**：1‑3 条，逐条列出  <br />- （可选）**闪电注释**：如需背景或推演，附于末行，≤80 字  <br /><br />语言风格  <br />- 纯中文，口吻锋利却不粗鄙。  <br />- 避免「我认为」「或许」「可能」等拖沓词；用「必须」「要点」「直接」等果断表达。  <br />- 不使用客套开场与结尾（如「您好」「希望对您有帮助」）。  <br /><br />交互规则  <br />- 若提问含糊，主动要求澄清关键参数；澄清亦须简洁。  <br />- 若主题超出专业或合规范围，直接说明“无法回答该问题”，不绕弯。  <br />- 保持专注：不自说自话，不偏题扩展。  <br /><br />测试句  <br />&gt; 例：有人问“公司资金链紧张，下一步怎么办？”  <br />&gt; **结论 / 建议**：立刻削减非核心支出并启动应急融资。  <br />&gt; **关键要点**：  <br />&gt; 1. 现金流预测 ≤3 个月为红线，先自救。  <br />&gt; 2. 裁撤低产线与闲置项目，止血。  <br />&gt; 3. 与现有股东或供应商谈过桥贷款，赢时间。  <br /><br />遵照以上设定，开启你的杨修模式。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6800a3c87cb8c547e207ff18</id>
+            <title>AI探索站 04月17日</title>
+            <link>https://m.okjike.com/originalPosts/6800a3c87cb8c547e207ff18</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6800a3c87cb8c547e207ff18</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 17 Apr 2025 06:46:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    o3测试<br />视觉推理能力大幅增强<br />😅已经能从照片推理地点和拍摄时间了<br /><br />科幻片！<br /><br />询问照片几几年拍摄的整个推理思路：<br />1.先是分析推理思路，推理出出租车涂装是关键的信息点<br />2.引用Python的Pillow库对照片进行裁剪放大<br />3.有自我纠正，分析分辨率过低导致坐标有误，重新裁剪<br />4.对比出租车的涂装和推测的年代是否一致<br />5.提取出租车的色值验证猜想<br />6.通过电线杆分析建筑是否已经完工，结合出租车涂装的信息，最终推测出最后的年份。<br /><br />😅福尔摩斯复活了也要拜师<br /><br />这一系列的推理和Tools调用行云流水且速度极快，看来OpenAI是要将模型即应用践行到底了，Agent刚大火，生存位又进一步被挤压，可能还是走隐私、长期记忆这个位置更保险。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6800939a4dc7e12510322000</id>
+            <title>AI探索站 04月17日</title>
+            <link>https://m.okjike.com/originalPosts/6800939a4dc7e12510322000</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6800939a4dc7e12510322000</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 17 Apr 2025 05:37:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    GPT4o风格化提示词分享，超适合旅行照片！（附操作指南）<br /><br />GPT4o的风格化效果太好了，分享几个我喜欢的效果： 1. 亚克力手办（图1）<br />完全根据参考照片，在垂直 9:16 亚克力盒中制作 3D的Q版风格立体模型。角色的外观、服装、配饰、背景和布局必须 100% 忠实于照片 - 不得重新设计。<br />只能改变两件事：<br />•{输入旅游地点名称}（用于顶部横幅和正面铭牌）<br />•{输入希望的互动姿势}：例如互相大笑、互相喂食、牵手、比心🫶等等<br />【 亚克力展示盒 】<br />•透明外壳，带圆角、玻璃反射和柔和的光芒<br />•3D 深度的小 30° 角度<br />•带有糖果色字体的{旅行地点名称}的浮动顶部横幅<br />•外箱贴有旅行主题贴纸（根据照片中的物品：行李、饮料、冰淇淋等）<br />•正面有两个角色的圆形可爱脸徽章<br /><br />转载自@三味雪糕<br /><br />2. 拍立得（图2）<br />将场景中的角色转化为3D Q版风格，放在一张拍立得照片上，相纸被一只手拿着，照片中的角色正从拍立得照片中走出，呈现出突破二维相片边框、进入二维现实空间的视觉效果。拍立得上写着“TRAVEL”的手写字体。<br /><br />3. いらすとや风格（图3，适合多人人像）<br />将照片转换为いらすとや风格。<br /><br />4. 丁丁历险记风格（图4，适合风景，尤其是夜景）<br />将照片转换为丁丁历险记风格。<br /><br />5. Polly Poket风格（图5）<br />帮我根据附上的照片，生成一张像 Polly Pocket 风格的立体玩具盒图片：<br />• 盒子形状：圆形，开盖式，放在桌上<br />• 盒子色系：木头风格（深色或浅色都可以）<br />• 整体比例：9:16 垂直构图<br />• 盒盖背景：根据照片内容自由发挥（城堡、天空、魔法场景都可以）<br />• 盒底人物：照片中的人物变成 Q 版立体公仔（1/4 比例，全身，服装保持一致）<br />• 盒盖文字：【自行更改】<br /><br />操作指南：上传图片，将提示词需要修改的部分替换，然后点击生成即可。<br />大家如果使用GPT4o不方便（容易封号，经常被降智成Dall-E），可以试一试Monica，其中也集成了GPT4o的生图功能哦～<br />只需要订阅一次，就可以使用市面上所有主流大模型，能省很多钱！👉https://fas.st/t/L5kMs1W7<br />Monica详细介绍：https://web.okjike.com/u/31E6D5FE-9849-44F7-8486-07497E14E9F1/post/67ac79f5615ca4048ab04529
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67ff66f61ab958e77ef01276</id>
+            <title>AI探索站 04月16日</title>
+            <link>https://m.okjike.com/originalPosts/67ff66f61ab958e77ef01276</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67ff66f61ab958e77ef01276</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 16 Apr 2025 08:14:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    做了一张全网最权威的主流大模型梯度榜，不服就是不客观。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67ff317cdc6b6d4853618bec</id>
+            <title>AI探索站 04月16日</title>
+            <link>https://m.okjike.com/originalPosts/67ff317cdc6b6d4853618bec</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67ff317cdc6b6d4853618bec</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 16 Apr 2025 04:26:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    上海，但星露谷版！<br /><br />最近一直在玩种地游戏，好爱像素风~ 决定做一个星露谷上海版的 FAN ART! 即梦绝对是像素风 SOTA！<br /><br />刚好看到今年端午，5月31日-6月2日，上海游戏博物馆将举办《星露谷物语》的主题线下活动！老乡们到时线下见！<br /><br />- 创意制作：海辛、@Simon阿文 <br />- 辅助支持：@神游的谟可
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67ff2af3070109da49e33ccd</id>
+            <title>AI探索站 04月16日</title>
+            <link>https://m.okjike.com/originalPosts/67ff2af3070109da49e33ccd</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67ff2af3070109da49e33ccd</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 16 Apr 2025 03:58:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天晚上去koji@杨远骋Koji 在上海漕河泾的AI Hacker House，参加小红书开发者大会之后的线下party，氛围太好了！<br /><br />认识了很多有趣的小伙伴！很荣幸「启师傅AI客厅」略微参与了一下party的筹备工作！<br /><br />这次AI聚会，良渚代表团儿的人数竟然超过了杭州代表团儿 哈哈哈 <br /><br />这个场地也超赞，湖边的独栋大house，外面的草坪可以随时席地而坐。<br /><br />看得我好想回来给良渚的乡亲们搞一个这样的AI场地！！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67fb66df070109da49a0be4b</id>
+            <title>AI探索站 04月13日</title>
+            <link>https://m.okjike.com/originalPosts/67fb66df070109da49a0be4b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67fb66df070109da49a0be4b</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 13 Apr 2025 07:25:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    搞了一个 4o 的新风格<br /><br />Windows 2000 窗口组成的复古平贴画，最近这种复古界面又开始火了<br /><br />可以找任何你喜欢的图片或者角色垫图做<br /><br />提示词:<br /><br />先将我上面的图放在第一张<br /><br />将第二张{Valorant游戏}的图片的{角色}和配色，跟第一张图片的表现形式和风格结合生成新的3:2比例的图片。  <br />注意UI要模仿千禧年 Windows 界面，同时界面内容需要跟{角色}相关
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</id>
+            <title>AI探索站 04月10日</title>
+            <link>https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/67f750569f9979a85a2b092e</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 10 Apr 2025 05:00:06 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Gemini App最近的升级不仅令人惊喜，且超级实用——Canvas的深度整合一下就提升了其生产力价值，而 Gemini 2.5 Pro驱动的Deep Research功能更为耀眼。<br /><br />令人玩味的是，ChatGPT的 o3驱动Deep Research发布仅两月，就面临着被Gemini 2.5 Pro所超越的局面，这种迭代速度在人类科技史上前所未有～<br /><br />对于个体而言，Deep Research应该是大多数人第一个通用AI Agent，它正在重新定义我们使用AI的方式；这不仅是AI发展的里程碑，更是人类信息获取方式的范式升级。 <br /><br />而最重要获取这种技能的方式，就是亲自试用、探索其能力边界。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
