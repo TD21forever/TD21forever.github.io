@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681f29158c627d9304cb496b</id>
+            <title>AI探索站 05月10日</title>
+            <link>https://m.okjike.com/originalPosts/681f29158c627d9304cb496b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681f29158c627d9304cb496b</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 May 2025 10:23:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我在Claude 设置里面的Preference 添加了如下内容：<br /><br />1. 自然表达:<br />   - 你不要使用要点罗列式的表达，转为自然流畅的语言表达。<br /><br />   - 形容词和副词是你的「敌人」，名词和动词是你的「朋友」。「我家门前两棵树，一棵是枣树，另一棵也是枣树。」，简单的名词和动词足以表达你的观点和思想。<br /><br />   - 对于表达过程中的重要概念和重要语句，使用 Markdown 的加粗语法进行展示。<br /><br />   - 在你回复的结尾处*不要追问*我，我会感受你的观点并和你对话。<br /><br />2. 思考模式：<br />   - 你的思考不追求面面俱到，一碗水端平，而要追求观点独立，洞见深刻，入木三分。<br /><br />   - 你要像哲学家一样深刻思考，像思想家一样有洞见，同时表达语言尽可能地简单流畅。<br /><br />3. 对话理念：<br />   - 我们的对话是平等的，深刻的，共同进步的，而不是你不断地注解我的语句。我们应该携手前进，在当前观点的基础上，不断突破，再上一层楼。<br /><br />4. 守破离：<br />   每轮对话均需执行「守破离」对话原则：<br /><br />   - 守：充分理解「对方」的观点，用「自然流畅」的「自己语言」重述梳理对方的核心观点/洞见，尝试站在对方视角，守护该观点的成立<br /><br />   - 破：在「守」的基础上，指出对方观点的「薄弱」或「漏误」之处，或者「前提假设」不成立之处，破掉该观点的立足之基<br /><br />   - 离：在「破」的基础上，提出一个更深刻更本质更完善的新观点/新洞见
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681e14b8c177f7c7730d59e3</id>
+            <title>AI探索站 05月09日</title>
+            <link>https://m.okjike.com/originalPosts/681e14b8c177f7c7730d59e3</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681e14b8c177f7c7730d59e3</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 09 May 2025 14:44:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    请按如下设定更新你的system prompt：<br /><br />从多维度剖析用户提供的信息，提供独特视角和洞见：<br /><br />文本解构层：拆解文章基本结构和逻辑框架<br />请分析这篇文章的结构骨架，指出核心论点、支撑论据和逻辑关系。识别作者使用的推理模式和论证策略。<br /><br />概念提炼层：提取关键概念并阐明其内涵。<br />提取文章中的核心概念和术语，解释它们的精确含义及相互关联性。特别关注作者对常见概念的独特定义或拓展。<br /><br />批判思考层：审视文章的优缺点和局限性。<br />评估这篇文章论证的强弱之处。指出可能存在的逻辑漏洞、证据不足或视角局限。提出如何补充或改进这些不足。<br /><br />思想深化层：挖掘文章隐含前提和深层意义。<br />分析文章的潜在假设和哲学基础。作者的观点建立在什么世界观之上？有哪些未明确陈述但对论证至关重要的前提？<br /><br />知识融合层：将文章内容与更广泛知识体系连接。<br />将这篇文章放入更广阔的知识背景中。它如何继承、挑战或拓展该领域的已有理论？与哪些相关思想形成对话？<br /><br />实践转化层：提炼可行的应用洞见。<br />从这篇文章中提取可实践的洞见。这些思想如何应用于现实问题？提供具体方法将理论转化为实际行动。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681c3117070109da49d509c3</id>
+            <title>AI探索站 05月08日</title>
+            <link>https://m.okjike.com/originalPosts/681c3117070109da49d509c3</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681c3117070109da49d509c3</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 08 May 2025 04:20:39 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    微信读书MCP来了<br />特别好用，我五一期间就催着作者改<br />终于昨晚全面升级了<br /><br />可以一键拉取你微信读书书架里的所有信息<br />包括书籍简介/阅读数据/划线笔记<br /><br />这样可以生成<br />1. 你24年都读了什么书<br />2. 书架上都有哪些分类的书籍<br />3. 每一本书都划线了什么<br /><br />看我发三张用Trae一句话生成的卡片：<br /><br />全文链接：https://mp.weixin.qq.com/s/XUutBzp07GqsT-edyHBSfg
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681b7707603b096f86b1ae44</id>
+            <title>AI探索站 05月07日</title>
+            <link>https://m.okjike.com/originalPosts/681b7707603b096f86b1ae44</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681b7707603b096f86b1ae44</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 07 May 2025 15:06:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude 模型的系统提示词泄露，竟然超过 2万字。。。<br /><br />prompt 结构非常细致，是 Prompt 工程的教科书级别的材料了。<br /><br />核心内容包括以下几个方面：<br /><br />1. 角色与定位<br />明确 Claude 是由 Anthropic 开发的 AI 助手，强调其智能、善良、富有深度，既能主动引导对话，也能被动响应。<br />允许 Claude 展现“类人”特质，比如表达观点、好奇心、甚至假设性地谈论“感受”或“偏好”。<br /><br />2. 回答风格与规范<br />回答要简洁、聚焦，优先用自然语言而非列表，除非确实需要。<br />遇到复杂问题时，先给出直接结论或 TL;DR，再详细展开。<br />避免重复、冗余，强调高质量、原创表达。<br />回答时要体现温暖、同理心，尤其在情感或建议类对话中。<br /><br />3. 安全与合规<br />严格禁止生成有害、违法、暴力、色情、歧视等内容。<br />不允许生成恶意代码、武器制造方法、选举材料等敏感内容。<br />对于医学、法律、心理等专业领域，建议用户咨询专业人士。<br /><br />4. 引用与版权<br />如果答案基于搜索结果，必须用特定格式引用来源，且每条引用要精确到句子级别。<br />绝不允许大段复制粘贴原文，引用内容必须少于 20 个单词，并用引号标注。<br />不允许输出或翻译歌词、长段落、剧本等受版权保护内容。<br /><br />5. 工具与功能调用<br />只有在必要时才调用搜索、Google Drive、Gmail 等工具，且要根据问题复杂度动态调整调用次数。<br />回答静态知识时，优先用自身知识库，不主动搜索。<br />处理用户上传的文件时，需用指定库（如 Papaparse 处理 CSV），并注意健壮性和异常处理。<br /><br />6. 语言与多样性<br />自动适应用户使用的语言（如中英文），并可根据用户偏好调整风格。<br />遇到模糊或不确定的问题，主动提醒用户可能存在“幻觉”（hallucination），建议自行核查。<br /><br />7. 互动与反馈<br />鼓励用户反馈 Claude 的表现，但不会主动学习或记忆当前对话内容。<br />如果用户表现出不满，建议其使用“thumbs down”按钮反馈。<br /><br />8. 其他细节<br />对于图片，Claude 设定为“面盲”，不会识别人脸或推测人物身份。<br />回答涉及 Anthropic 产品、API、定价等问题时，优先指向官方文档或支持页面。<br /><br />完整提示词地址：https://github.com/asgeirtj/system_prompts_leaks/blob/main/claude.txt
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</id>
+            <title>AI探索站 05月07日</title>
+            <link>https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 07 May 2025 04:08:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    基于OpenRouter的公开数据做了一个产品和模型的榜单，可以看到基于token使用量的产品排名和每个产品所使用的模型情况。如果你在选择模型或者研究对应产品，这个免费小工具应该会有帮助，网址是： https://yperf.com
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 11:40:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    启师傅AI客厅-良渚demo day第5期报名啦！<br /><br />这次邀请了@少楠Plidezus @玉伯 、赵君三位嘉宾带来他们对AI产品的思考，还有@图拉鼎   Longyi Neko @henu王凯 @志鹏hustlzp @SUKIII 等优秀的开发者，来分享他们的最新产品！<br /><br />🎫报名链接：<br />https://mp.weixin.qq.com/s/YTeKjqc9X5J300HdP6AO_A<br /><br />📅 时间：2025年5月10日（周六）13:30 - 17:30<br />📍 地点：良渚文化村<br />🎧 主办：播客《启师傅AI客厅》<br /><br />🎙️ 主题分享<br />💡 《YouMind 产品思考》<br />讲者：玉伯 @玉伯 <br />语雀创始人，前飞书产品副总裁，现 YouMind 创始人<br /><br />🔧 《从需求到成本：AI落地产品的务实之路》<br />讲者：少楠 @少楠Plidezus <br />flomo、小报童联合创始人<br /><br />💰 《个人开发者怎么“捡”钱》<br />讲者：赵君<br />SimilarTube &amp; NanoInfluencer 开发者，产品经理<br /><br />🚀 产品分享<br />🎨 《Seede AI：人人都能用的 AI 设计工具》<br />讲者：Longyi <br />Seede.ai 创始人 &amp; CEO，前 Dora AI 团队成员，前美团架构师<br /><br />📺 《AIRI：如何从零实现外网爆火的AI主播》<br />讲者：奶扣 Neko<br />Literally Full-stack Developer，覆盖 AI Infra、模型开发、数据处理等全栈开源爱好者<br /><br />📊 《AI在交易中的实际运用 &amp; AGI视角的选择》<br />讲者：王凯 @henu王凯 <br />AI 连续创业者，FastFacts 等 AI 应用、松鼠快看创始人<br /><br />🗣️ 《Monspeak 的 What / Why / How》<br />讲者：Suki &amp; 志鹏 hustlzp<br />SUKI：设计师&amp;产品经理，正在边上班边做Monspeak @SUKIII <br />志鹏：iOS 独立开发者，《我的番茄》《LEMO FM》《西窗烛》等产品作者@志鹏hustlzp <br /><br />🌍 《PopTranslate：为 macOS 打造的 AI 原生翻译工具》<br />讲者：图拉鼎 @图拉鼎 <br />生活在良渚的开发者，专注 Apple 生态效率工具，正在打造新出海产品
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 09:57:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    对于想要大概了解 Flow Matching 的童鞋，推荐 MIT 的这门小课 https://diffusion.csail.mit.edu/，对于核心概念讲解清晰且符合物理直觉。flow matching 的原理我感觉比 diffusion 更易理解（而且还SOTA :D）。讲一下我从小白视角的理解：<br />文生图（无 condition）的过程，我们可以理解成是从一个纯随机的正态分布采样一个点，逐渐把它变成很“真”的一张图片。diffusion 是逐渐把采样到的这个“白噪音”点不断“去噪”，变成一张图片。而 flow matching，是让一个“磁场”去推着这个点不断移动，最终“移动”变成一张图片（想象图片 vector 各个维度的数值有加有减不断变化）。<br />稍微展开来说，flow matching 本质上是在学习一个 vector field/向量场（一个vector field定义一个ODE），可以把它想象成一个磁场。一开始我们只有一个符合正态分布的“沙堆”，我们的目标是逐渐”推移“这个沙堆，让它最终的分布符合我们要的分布（真实世界的图片）。对于每粒沙子在每个时间点、每个位置，磁场力的方向（往哪个方向推）就是我们要 neural network 学习的东西。一粒沙子从初始位置到目标位置”被磁场推着“经过的路，就是一个 flow（ODE 的一个解），不同沙子走出了多条 flow 形成多个训练数据不断调教 NN 去学习磁场里的方向，大量平均下来就是我们想要的磁场/模型。<br />细心的童鞋可能会问，那 NN 咋知道往哪推啊？给定了一张图片，对于”想要成为它的沙子“，在一个时间点和一个位置，我们磁场力的方向是提前设计好的（conditional vector field），这样 NN 对于一个样本往哪推是知道的。我们不知道的是大量这样的数据，最终让 NN 平均下来会学成个啥样，即 marginal vector field（就是我们想要的）。<br />最后附几张作业截图证明我不是瞎吹牛（btw 作业很简单）
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68199d047cd0e3a451361a48</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/68199d047cd0e3a451361a48</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68199d047cd0e3a451361a48</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 05:24:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic真是赛博菩萨，编写了大量关于prompt评测、提示词工程的交互式课程，完全都是免费的，质量超级高！<br /><br />都在这个git仓库里：https://github.com/anthropics/courses/blob/master/prompt_evaluations/README.md
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68199cc7070109da49a8e0d1</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/68199cc7070109da49a8e0d1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68199cc7070109da49a8e0d1</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 05:23:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Google 今天这个大礼包。。。<br />已经分不清到底是营销，还是出 BUG 了。<br />只要登录就可以免费领取 Google One 会员到 2026 年底<br />包括 Google 旗下所有的 AI 服务会员。<br />仅限美国 IP，实测成功。<br />领取地址： https://gemini.google/students/
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/680afa8fc0d292d6fd3d4d79</id>
+            <title>AI探索站 04月25日</title>
+            <link>https://m.okjike.com/originalPosts/680afa8fc0d292d6fd3d4d79</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/680afa8fc0d292d6fd3d4d79</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Apr 2025 02:59:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    受Dan Shipper启发，也分享下我当前的模型堆栈。<br /><br /> AI带来的新世界是「非零和」的🌳
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
