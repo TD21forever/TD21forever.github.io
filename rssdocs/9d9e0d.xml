@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/682851f5dc6b6d48531c80d0</id>
+            <title>AI探索站 05月17日</title>
+            <link>https://m.okjike.com/originalPosts/682851f5dc6b6d48531c80d0</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/682851f5dc6b6d48531c80d0</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 17 May 2025 09:08:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    用 Lovart 手搓《老友记》像素小游戏！<br /><br />一直想自己做游戏，感觉在 AI 时代，应该会是触手可及的事情。<br /><br />刚好收到了 Lovart 的内测邀请，决定今天上午试试看！<br /><br />做了一个《老友记》粉丝向的像素小游戏 demo，大概游戏设定是在 Monica 在家里打扫，会不断找到其他人的小物品，包括 Phoebe 的吉他、Rachel 的杂志、Joey 的三明治等等。<br /><br />其中所有的素材都让 Lovart 一次性批量生成，包括：Monica 公寓地图、六个角色的像素版本、以及六个角色各自的小道具。<br /><br />我的感觉是 Lovart 批量生成的素材画风都很统一，非常适合快速做一些简单的游戏素材。<br /><br />然后将这些素材导进游戏引擎 Godot 里进行设置，很快就做好了这个游戏 demo~ （之前我从来没有用过 Godot, 也是 Claude 教我怎么用的哈哈哈。)<br /><br />整个过程也就今天一天的时间。<br /><br />希望今年能做出完整版给大家玩！<br /><br />【戳评论区看过程素材~】
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/682755862334406ef768d2ce</id>
+            <title>AI探索站 05月16日</title>
+            <link>https://m.okjike.com/originalPosts/682755862334406ef768d2ce</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/682755862334406ef768d2ce</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 16 May 2025 15:11:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    天塌了！今天发现有大佬提供了新的无限续杯 Cursor 方法，而且还直接免费开源，又可以免费无限续杯了！<br /><br />github 上又有大佬提供了新的方法，创造者们，又给大家带来愉快的无限续杯方法啦！<br /><br />完全免费的 Cursor 助手工具，提供以下功能：<br />1️⃣  一键获取新额度<br />2️⃣ 自动满额度账号<br />3️⃣ 无需登录账号<br />4️⃣ 解决机器码问题<br />5️⃣ 支持 Windows 跟 Mac 系统<br /><br />亲测有效，手慢无呀，先用先享受<br /><br />这个 github 项目名称是：cursor-free-everyday<br /><br />最新情况，我发现需要进群才能拿，所以我已经打包好了，各位创造者可以直接去下载 👉https://pan.quark.cn/s/3f10f8e2d0cb
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6826e6c5ca977f7fc77cb25e</id>
+            <title>AI探索站 05月16日</title>
+            <link>https://m.okjike.com/originalPosts/6826e6c5ca977f7fc77cb25e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6826e6c5ca977f7fc77cb25e</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 16 May 2025 07:18:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    豆包也是出息了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6826cd1c63466eecf7121c99</id>
+            <title>AI探索站 05月16日</title>
+            <link>https://m.okjike.com/originalPosts/6826cd1c63466eecf7121c99</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6826cd1c63466eecf7121c99</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 16 May 2025 05:29:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Agent 是 25 年的大热概念，Manus 以后，我们一直在讨论什么时候会有视频生成的 Agent. <br /><br />最近我看到了很有希望的 AI 视频 Agent 产品：Medeo<br /><br />▶ 官网地址：https://medeo.app/<br /><br />告诉 Medeo 一个简单的视频需求，Medeo 会帮你生成这个短视频需要的所有元素：包括画面、文案、配音、字幕。最后交付给你完整的视频！<br /><br />需求的形式可以是：一句话、一个网页或者上传一个文件（甚至可以是一篇论文）。<br /><br />特别酷的是，交付的不只是一个完整的视频，还是可编辑的视频工程文件。你可以调整想修改的局部细节，或者直接替换/重新生成某个素材。<br /><br />▼ 下面的视频是我给 Medeo 提供了《少年新知》的一篇文章《大熊猫的竹子为什么成为了垃圾食品》 ，请 Medeo 直接帮我做成了短视频来讲这件事。<br /><br />里面每一个视频片段都是 Medeo 自己生成或者帮我挑选的，在片子生成完以后，还可以自定义替换任意/重新生成视频素材！<br /><br />感觉特别适合知识类、新闻报导类、信息咨询类视频的快速生成。<br /><br />在不久的将来，可能只要视频内容本身能被结构化，可能都可以以 Agent 的形式被制作出来。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6826c1eff0d718ce7ae19b71</id>
+            <title>AI探索站 05月16日</title>
+            <link>https://m.okjike.com/originalPosts/6826c1eff0d718ce7ae19b71</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6826c1eff0d718ce7ae19b71</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 16 May 2025 04:41:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天测了一组涂鸦+实物结合的广告海报提示词，很好玩，可以基于自己的想象和AI的帮忙实现各种概念设计。<br /><br />提示词框架：<br /><br />简洁而富有创意的广告，背景为干净的白色背景。<br />一个真实的[商品]被融入到手绘的黑色墨水涂鸦中，线条流畅，趣味十足。涂鸦描绘了[场景]。在顶部添加粗体黑色“[文案]”字样。将[品牌]的标志清晰地放置在底部。视觉效果应简洁、有趣、对比度高，且概念巧妙。<br /><br />比如第一张的完整提示词就是：<br /><br />简洁而富有创意的广告，背景为干净的白色背景。<br />一支真实的口红被融入到手绘的黑色墨水涂鸦中，线条流畅，趣味十足。涂鸦描绘了一个火箭发射平台，口红下方弥漫着烟雾，使其看起来像是火箭正在升空。在顶部添加粗体黑色“Launch Your Beauty”字样。将MAC的标志清晰地放置在底部。视觉效果应简洁、有趣、对比度高，且概念巧妙。<br /><br />下课！🧐
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68257d19ca977f7fc7655039</id>
+            <title>AI探索站 05月15日</title>
+            <link>https://m.okjike.com/originalPosts/68257d19ca977f7fc7655039</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68257d19ca977f7fc7655039</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 15 May 2025 05:35:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    跑了一组女明星的……Fetish向居家自拍图，也是反复试探ChatGPT的风控边界。🫣<br /><br />初始提示词：a careless iPhone mirror selfie. The photo has some motion blur and is slightly overexposed due to uneven sunlight. The angle is awkward, the composition is non-existent, and the overall effect is aggressively mediocre - like an accidental photo taken while taking the phone out of your pocket to take a selfie. A girl sitting on a couch at night (no lights on), (the subject/girl in frame is “人名”) (no lights on) sitting on a couch at night, wearing 衣着描述.She is holding both legs up and her feet are clearly visible in the frame. Her face is very beautiful The photo has a vertical aspect ratio of 9:16. Neon lights are faintly visible from the outside
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6822c473e03d82181c847000</id>
+            <title>AI探索站 05月13日</title>
+            <link>https://m.okjike.com/originalPosts/6822c473e03d82181c847000</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6822c473e03d82181c847000</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 May 2025 04:02:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    真正的领导者探索未知，而非发号施令<br /><br />在AI first团队中，真正的leader不会满足于开通付费工具、督促他人适应，而是亲自穿越未知的崎岖小径、发现独特风景，并将这些宝贵的发现和感悟无保留地分享给团队。<br /><br />在剧变的时代，领导力的精髓不只是指挥，而在于示范；不在于命令，而在于树立榜样。<br /><br />好的Leader以好奇心和同理心绘制「探索路书」，团队才会真正激发出10X的创造力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</id>
+            <title>AI探索站 05月07日</title>
+            <link>https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/681adcd9efb7d4a44fd11dc8</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 07 May 2025 04:08:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    基于OpenRouter的公开数据做了一个产品和模型的榜单，可以看到基于token使用量的产品排名和每个产品所使用的模型情况。如果你在选择模型或者研究对应产品，这个免费小工具应该会有帮助，网址是： https://yperf.com
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6819f51cdc6b6d48532c54a8</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 11:40:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    启师傅AI客厅-良渚demo day第5期报名啦！<br /><br />这次邀请了@少楠Plidezus @玉伯 、赵君三位嘉宾带来他们对AI产品的思考，还有@图拉鼎   Longyi Neko @henu王凯 @志鹏hustlzp @SUKIII 等优秀的开发者，来分享他们的最新产品！<br /><br />🎫报名链接：<br />https://mp.weixin.qq.com/s/YTeKjqc9X5J300HdP6AO_A<br /><br />📅 时间：2025年5月10日（周六）13:30 - 17:30<br />📍 地点：良渚文化村<br />🎧 主办：播客《启师傅AI客厅》<br /><br />🎙️ 主题分享<br />💡 《YouMind 产品思考》<br />讲者：玉伯 @玉伯 <br />语雀创始人，前飞书产品副总裁，现 YouMind 创始人<br /><br />🔧 《从需求到成本：AI落地产品的务实之路》<br />讲者：少楠 @少楠Plidezus <br />flomo、小报童联合创始人<br /><br />💰 《个人开发者怎么“捡”钱》<br />讲者：赵君<br />SimilarTube &amp; NanoInfluencer 开发者，产品经理<br /><br />🚀 产品分享<br />🎨 《Seede AI：人人都能用的 AI 设计工具》<br />讲者：Longyi <br />Seede.ai 创始人 &amp; CEO，前 Dora AI 团队成员，前美团架构师<br /><br />📺 《AIRI：如何从零实现外网爆火的AI主播》<br />讲者：奶扣 Neko<br />Literally Full-stack Developer，覆盖 AI Infra、模型开发、数据处理等全栈开源爱好者<br /><br />📊 《AI在交易中的实际运用 &amp; AGI视角的选择》<br />讲者：王凯 @henu王凯 <br />AI 连续创业者，FastFacts 等 AI 应用、松鼠快看创始人<br /><br />🗣️ 《Monspeak 的 What / Why / How》<br />讲者：Suki &amp; 志鹏 hustlzp<br />SUKI：设计师&amp;产品经理，正在边上班边做Monspeak @SUKIII <br />志鹏：iOS 独立开发者，《我的番茄》《LEMO FM》《西窗烛》等产品作者@志鹏hustlzp <br /><br />🌍 《PopTranslate：为 macOS 打造的 AI 原生翻译工具》<br />讲者：图拉鼎 @图拉鼎 <br />生活在良渚的开发者，专注 Apple 生态效率工具，正在打造新出海产品
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</id>
+            <title>AI探索站 05月06日</title>
+            <link>https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6819dcf6070109da49ad7802</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 May 2025 09:57:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    对于想要大概了解 Flow Matching 的童鞋，推荐 MIT 的这门小课 https://diffusion.csail.mit.edu/，对于核心概念讲解清晰且符合物理直觉。flow matching 的原理我感觉比 diffusion 更易理解（而且还SOTA :D）。讲一下我从小白视角的理解：<br />文生图（无 condition）的过程，我们可以理解成是从一个纯随机的正态分布采样一个点，逐渐把它变成很“真”的一张图片。diffusion 是逐渐把采样到的这个“白噪音”点不断“去噪”，变成一张图片。而 flow matching，是让一个“磁场”去推着这个点不断移动，最终“移动”变成一张图片（想象图片 vector 各个维度的数值有加有减不断变化）。<br />稍微展开来说，flow matching 本质上是在学习一个 vector field/向量场（一个vector field定义一个ODE），可以把它想象成一个磁场。一开始我们只有一个符合正态分布的“沙堆”，我们的目标是逐渐”推移“这个沙堆，让它最终的分布符合我们要的分布（真实世界的图片）。对于每粒沙子在每个时间点、每个位置，磁场力的方向（往哪个方向推）就是我们要 neural network 学习的东西。一粒沙子从初始位置到目标位置”被磁场推着“经过的路，就是一个 flow（ODE 的一个解），不同沙子走出了多条 flow 形成多个训练数据不断调教 NN 去学习磁场里的方向，大量平均下来就是我们想要的磁场/模型。<br />细心的童鞋可能会问，那 NN 咋知道往哪推啊？给定了一张图片，对于”想要成为它的沙子“，在一个时间点和一个位置，我们磁场力的方向是提前设计好的（conditional vector field），这样 NN 对于一个样本往哪推是知道的。我们不知道的是大量这样的数据，最终让 NN 平均下来会学成个啥样，即 marginal vector field（就是我们想要的）。<br />最后附几张作业截图证明我不是瞎吹牛（btw 作业很简单）
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
