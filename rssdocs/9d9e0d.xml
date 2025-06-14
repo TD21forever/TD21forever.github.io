@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684d100ed82bae994a636129</id>
+            <title>AI探索站 06月14日</title>
+            <link>https://m.okjike.com/originalPosts/684d100ed82bae994a636129</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684d100ed82bae994a636129</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 14 Jun 2025 06:00:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    从郎瀚威will 通用Agent 5月数据看几个Agent<br /><br />1 Manus非常稳，流量基本横盘<br /><br />已经成为了Agent的BenchMark<br />你做Agent必定绕不过的品牌<br /><br />2 GenSpark逐渐崛起<br /><br />8个人团队拼命更新新功能<br />还是让人满震惊的<br />并且有不少有创意的idea<br /><br />3 Flowith靠牛皮癣打兴奋剂<br /><br />邀请码权益和超长邀请文案让人震惊<br />靠自传播就没起来过<br />这次品宣还和数据造假的自媒体关联在一起<br />如果6月的数据稳不住<br />说明这种产品形态完全不被C接受<br /><br />4 Lovart &amp; SkyWork <br /><br />新秀，刚出来，留待观察<br /><br />5 Fellou<br /><br />浏览器形态的Agent，留待观察
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684d04752b50c68918ad2b33</id>
+            <title>AI探索站 06月14日</title>
+            <link>https://m.okjike.com/originalPosts/684d04752b50c68918ad2b33</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684d04752b50c68918ad2b33</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 14 Jun 2025 05:11:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天很有趣，两家知名的公司各出了一篇文章，争论要不要使用多智能体系统。<br /><br />Claude 的官方 Anthropic ：如何构建多智能体系统<br />Devin 的官方 Cognition ：不要构建多智能体系统<br /><br />这核心的争议点在于：Context 上下文到底应该共享还是分开？<br /><br />Claude 这边的观点是，搜索信息的本质是压缩，单个智能体的上下文有限，面对无限的信息，压缩比太大就会失真。<br />这就好比一个老板能力再强，也不可能搞定所有的事情，还是需要雇人去解决。<br />通过多智能体系统，老板让不同的智能体分别研究、汇报重点，老板最后整合到一起。由于每个智能体有自己的专长，具有多样性，减少了单一路径依赖现象，实际效果上，多智能体也超过但智能体 90%。<br /><br />这是集体智慧，一起协作获得的胜利。<br /><br />Devin 这边的观点是，多个智能体的上下文不一致，会导致信息割裂、误解、他们汇报给老板的信息经常充满了矛盾。<br />而且很多时候，智能体的每一步行动都是依赖前一个步骤产生的结果，而多智能体通常分别跟老板沟通，互相之间缺乏沟通，这样很容易导致互相矛盾的结果。<br />这体现出了个体智慧的完整性和高效性。<br /><br />两边观点看下来，是否使用多智能体架构，特别像是人类运行一家公司的选择。<br /><br />一人公司还是多人公司？<br /><br />一人公司，一个人的脑力、体力、时间都是非常有限的。<br />优点是一人公司的沟通成本为0 ，可以把所有的时间都高效使用。<br /><br />而多人公司，人越多，沟通成本就越高，管理难度就越大，总体效率下降。<br />但因为人数多，脑力多，体力多，整体的价值产出也就有可能更多。<br />多智能体的设计很有难度，这其实很正常，就像运行一家公司一样，很难。<br />难就难在建立有效协作的系统。<br />而且 1个人，3个人，10个人，100人，1000人，所需要的协作系统又不大相同。<br /><br />参考人类历史，依靠集体智慧，人类在近代获得了文明的指数级发展。<br />多智能体的集体智慧，也许就是在 Scaling Law 逐渐放缓后，AI 获得指数级发展的那个萌芽。<br /><br />而关于上下文，人类的协作至今也无法做到完美的上下文管理。<br /><br />这让我想到，软件工程从来不是追求完美，而是持续迭代。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684cf0882b50c68918abec5c</id>
+            <title>AI探索站 06月14日</title>
+            <link>https://m.okjike.com/originalPosts/684cf0882b50c68918abec5c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684cf0882b50c68918abec5c</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 14 Jun 2025 03:46:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    使用AI的三条路：<br /><br />1.  以我为主，AI 为辅。 人要比AI 凶。我曾经站这条路，现在改了。<br /><br />2.  AI 为主，我为仆人。我觉得现在市面上很多人以为的vibe coding，都是这条路。把错误信息粘贴给AI，自己不断地重复「它报错了，是这个」「能再好看点吗？」之类的话。<br /><br />3.  人+AI。核心是"+"，修炼的是「协作共创」能力.  真正的vibe coding, vibe writing， 我理解就是这个。  我现在站这条路。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684aa0c25c33a444fbdd8ac7</id>
+            <title>AI探索站 06月12日</title>
+            <link>https://m.okjike.com/originalPosts/684aa0c25c33a444fbdd8ac7</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684aa0c25c33a444fbdd8ac7</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Jun 2025 09:41:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    和大家分享一个真实的AI创业故事<br />2个人，不到一年时间，2万月活，100万月收入<br />而且完全是在国内，没有出海<br /><br />或许你都不相信<br />但这是真实的<br />我们在一个小群里，基本每天都会讨论<br />我是一步步看着他的各种产品和运营策略<br />然后数据指标的各种曲线<br /><br />一直到今天，借着5月份突破100万月收入的契机<br />把这个故事完整写了出来！<br /><br />个人觉得有几点还蛮有启发的：<br /><br />1. 时机比努力重要 <br />AI能力的爆发 + 网文行业的痛点 + 创始人的行业经验<br /><br />2. 让用户成为你的员工 <br />通过利益机制，让用户帮你推广、帮你答疑、帮你创造内容。<br /><br />3. 生态思维 <br />不是做一个工具，而是构建一个生态。生态很难被复制。<br /><br />4. 正反馈循环 <br />用户赚钱→分享案例→吸引新用户→更多人赚钱，<br />这个飞轮一旦转起来就停不下来。<br /><br />不知道你怎么看<br />创始人在这： @猛龙过江0601 <br /><br />全文：https://mp.weixin.qq.com/s/deJQvoqlvVKe9vTpko3OqQ
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684a098385dc67026ef065e8</id>
+            <title>AI探索站 06月11日</title>
+            <link>https://m.okjike.com/originalPosts/684a098385dc67026ef065e8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684a098385dc67026ef065e8</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Jun 2025 22:56:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    🍀 YouMind 0.3: The Last AI Creation Agent<br /><br />YouMind 是人人可用的 AI 创作工具。让每一个想创作的人，都有能力从起心动念到开始行动。<br /><br />今天发布 0.3 版本，增加了类似 Manus 的一键找资料写文档功能，能搜索并保存高质量资料，同时文档可类似 Cursor 一样进行编辑。还可生成好看的配图、生成播客等。<br /><br />无需邀请码，注册即可用：youmind.ai<br />需 PC 下访问<br /><br />你是你的船，YouMind 是你的桨。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6848d18ed8e45145de79afa9</id>
+            <title>AI探索站 06月11日</title>
+            <link>https://m.okjike.com/originalPosts/6848d18ed8e45145de79afa9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6848d18ed8e45145de79afa9</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Jun 2025 00:45:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    15个方法帮助你提高AI编程效率（Vibe Coding）<br /><br />1.从模板开始：通过克隆 GitHub 或其他来源的模板项目，快速启动你的项目。<br /><br />2.使用 Agent 模式：使用 Cursor 的 Agent 模式（不是普通模式）来创建、编辑和管理文件，用自然语言指令就能操作一切。<br /><br />3.用 Perplexity 找灵感：用 Perplexity 查找新的设计和 API 示例。比如你想在 nextjs 项目中创建某个功能，直接说出你要做什么，它会提供具体的步骤和代码。<br /><br />4.每个任务新建一个 Composer 聊天：每一个不同的任务新建一个 Composer 对话，避免一个对话做所有事，让节奏更清晰。<br /><br />5.本地运行、频繁测试：使用内置服务器在本地运行项目，尽早发现问题，及时修复，减少后期麻烦。<br /><br />6.快速迭代，不纠结完美：别一开始就追求完美，先做出来，边用边改，一步步打磨。<br /><br />7.语音输入提升效率：试试 Whispr Flow 等语音转文字工具，加快输入速度，让你保持创作的 flow。<br /><br />8.善用 GitHub 的 Clone 和 Fork：GitHub 上的项目就是最好的灵感库，直接 Fork 下来改一改，省时省力。<br /><br />9.错误信息复制进 Composer 处理：出错时，把控制台报错直接粘贴给 Composer Agent，多试几次它基本能搞定，记得尽可能把错误背景描述清楚。<br /><br />10.别忘了可以恢复旧的 Composer 聊天记录：遇到问题可以随时回退之前的对话记录状态。<br /><br />11.保护好你的敏感信息：API 密钥等敏感内容一定写进 .env 文件中，不要直接写进代码。<br /><br />12.频繁提交 Git：定期提交代码到 GitHub，防止丢失。Cursor 也可以帮你做提交，只要你开口。<br /><br />13.尽早部署上线：用 Vercel 之类的平台早点部署你的项目，确保上线前没有隐藏问题。<br /><br />14.记录效果最好的提示词：哪些提示词最有效？记下来，下次还能复用，省时又高效。<br /><br />15.享受这个过程——Just Vibe：不要太焦虑结果，把它当作一场有趣的创作旅程，不断尝试、学习、玩起来！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6848cbec3a349d458a50ad89</id>
+            <title>AI探索站 06月11日</title>
+            <link>https://m.okjike.com/originalPosts/6848cbec3a349d458a50ad89</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6848cbec3a349d458a50ad89</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Jun 2025 00:21:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    7 款超好用的 AI 法律助手，让你轻松应对法律问题！<br /><br />详细介绍：https://mp.weixin.qq.com/s/oiEKiTmqkNWYhObOg2GshA<br /><br />工具清单如下：<br />1.阿里通义法睿：https://tongyi.aliyun.com/farui/home<br />2.秘塔 MetaLaw：https://meta.law/<br />3.同花顺法智：https://www.fazhi.law/<br />4.百度法行宝：https://ailegal.baidu.com<br />5.语迟 SLAW：https://chat.slaw-ai.com/<br />6.元典智库：https://www.chineselaw.com/tyjs/index<br />7.海瑞智法：https://www.hairuilegal.com
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/684277e74e98b7acd544ba17</id>
+            <title>AI探索站 06月06日</title>
+            <link>https://m.okjike.com/originalPosts/684277e74e98b7acd544ba17</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/684277e74e98b7acd544ba17</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 06 Jun 2025 05:08:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近大家都在聊 AI 加持下的 vibe coding，我来聊聊作为资深开发者最近高强度使用 AI 的一些感受：<br /><br />一句话总结，AI 让不会写代码的人具备了“直接造辆车”的能力，而让资深开发者一个人就有了“独立建造航母”的可能。<br /><br />### 项目重构<br /><br />最近使用 claude-4 对我之前的一些代码进行了重构。原因是原来的实现中，为了降低编写时的心智负担，会使用一些性能偏低但是易于书写的代码。比方说自动锁管理、ARC、使用 array 数据结构代替 queue。<br /><br />然而用 AI 实现就没了这些负担，我先让 AI 为原始实现编写完整测试用例，确保原代码行为明确，然后让 AI 对整个 class 进行重构，追求极致性能，写完新代码后再重新运行测试保证行为一致。<br /><br />就这样，我轻松完成了部分核心数据结构的重构。尽管重构后的代码量几乎翻倍，但逻辑清晰、复杂度可控，换来的则是约 20% 的性能提升。<br /><br />核心是，AI 编写代码不怕苦不怕累，没有必要为了简化代码而牺牲性能。人类工程师目前主流习惯是牺牲部分运行性能以换取开发效率。<br /><br />### AI 编程语言<br /><br />这牵扯出的另一个观察是，什么编程语言对 AI 更友好，我的观察是可读性越高、行为越明确的语言效果越好。语法糖等简化编码技术，反而不利于 AI 使用。（AI 在发现一些奇怪的行为是运算符重载导致的不知道会不会跟我一样跳脚骂街）<br /><br />而像 SwiftUI 那些优势仅在开发效率上的技术，在 AI 时代更显得有些生不逢时。反正都是 AI 写，AI 用 UIKit/AppKit 实现不过是代码长一点而已，在可控性和行为明确性方面更适合 AI 自动化维护，性能也高的多。<br /><br />### AI 的资深<br /><br />虽然 AI 的编码技能，比起资深的工程师其实可能还是会有差距，但是要论知识丰富程度，则远非任何个体可比。<br /><br />这个优势体现在当我要去实现一些技术盲区时，原本的流程大概是：先读几本书，再对照比较一系列 RFC，再请教下相关领域的朋友确认自己已经理解。或者先按照自己的想象做个最小工程实践，然后再根据各种问题一点点填坑。<br /><br />比方说最近在实现 IPv6 ND 协议栈，一些特定的 RA 消息构造在某些操作系统上就是无法生效，原本这可能要耗费我几天的时间去研究，阅读各种文献甚至 kernel 源码实现，而现在只需请教 AI，就能非常准确地找到答案。<br /><br />AI 的这种资深，在你对某个技术的表层足够了解，但是缺乏经验和细节信息时，能够极快的帮你补全。<br /><br />### 极强的 debug 能力<br /><br />我的项目里有一个藏了很久的问题，在特定情况下会出现 TCP 性能下降，由于并没有产生任何明确的报错，这让修正这个问题变得异常麻烦。<br /><br />我原本是单纯向 AI 描述了我的使用场景和问题表现，AI 提出了几种猜想，大部分我看一眼就知道不靠谱，剩下几个试了下也并无效果。索性，我直接把 100MB 的抓包结果丢给了 o3 让他分析。它在几分钟内就精准指出了问题所在，甚至给出了改进建议。这种调试能力在人类团队中几乎无法复现。<br /><br />如此庞大的数据量，人工分析非常困难。即使借助各种工具，仅学习用法、配置环境就已令人头大。（因为 TCP 流控分析的各种工具链基本都是上个世纪的项目）<br /><br />现在我已经习惯了这种 vibe debug，遇到什么问题，直接把 verbose 日志和问题描述丢给 AI，大概率就能直接找到问题，这其实也是得益于 AI 的不怕苦不怕累的精神。<br /><br />### Peer review<br /><br />作为独立开发者，我的 code review 一直以来只能靠自己，但是自己写的 bug，很多时候自己是看不出来的🙈，现在我只需将 git diff 的结果交给 AI，就能请它帮我 review。<br /><br />同样的，我也会 review AI 给出的结果，AI 当然也会犯错，高级低级的都有。但是比起人类同事来说，AI 没有 ego，能很好地接受反馈并立即调整；很多人类做不到，或至少过程很曲折。<br /><br />### 职业影响<br /><br />就目前 AI 的能力来看，无疑是对初级开发者就业市场产生了巨大的压力，对于资深工程师来说，反而是一种赋能。（我目前还是能为找到 AI 的错误并指导它而沾沾自喜，但也不知道还能持续多久。）<br /><br />这比较让人担忧的是，这可能导致职业断层，因为初级开发者根本没有机会得到训练机会而成长。<br /><br />不过这已经早已不仅仅是软件工程师所面临的问题，本质上来说，所有脑力工作者的职业都受到了巨大威胁。像咨询、律师等职业，还可以依靠私域信息门槛维持。而像医生这样完全依赖公域信息的职业，初级职位也同样完全可以被 AI 替代了，当然最终取决于患者的接受程度。<br /><br />我最近一次体检后的报告喂给 o3 进行解读，他给出的信息量、准确性、建议，均远超全科医生给出的解读。不仅仅是因为 AI 的信息更全面，AI 可以为报告中每一项异常数据，检索最新研究与各国医疗指南，并整合后给出建议，甚至由于 GPT 已经了解我的生活习惯，能更优针对性的给出意见。而这种工作量对于人类医生来说是不可接受的（当然大多数情况下也确实没有必要）。<br /><br />很多人对 AI 医疗的顾虑是：AI 犯错了怎么办？然而其实人类医生也会犯错，而且就现在的 AI 水平来看，AI 犯错的概率应该已经比一般人类医生低了。当然最优解还是兼听则明，把 AI 的意见告知医生，也把医生的反馈告知 AI，基本最后都会达成一致。对于一些不重要的小问题，仅 AI 意见完全足够。<br /><br />### AI 的限制<br /><br />当然 AI 也不是万能的，甚至可以说局限性相当明显。claude-4 虽然非常强，但是随着 context 的增长，注意力溃散的非常严重，后面基本就像喝多了一样。<br /><br />当前的最佳实践是：尽量保持 context 精简，聚焦具体任务，依靠人力来拆解复杂目标。<br /><br />比方说先用一个 context 确定具体需求，再开一个 context 将明确好了的需求转换为具体任务列表，再把任务单独交给一个个 context 去具体实现。这样效果会好很多。<br /><br />仔细一看，这不就是人类的团队协作模式嘛 😂<br /><br />这让我想起不久前由 GPT o1 和 DeepSeek R1 的思维链引发的 AI 能力巨幅提升。其实在思维链能力出来之前，就可以靠 prompt 指引 AI 一步步思考，取得类似的效果，甚至催生了 prompt 工程师职业。然而直接在模型层面将这种能力整合后，prompt 引导就非常多余了。<br /><br />那么目前编程实践中，如今常用的 context 切分技巧，我认为在不久的将来也可能被模型层原生支持，即 AI 自主可以通过切换 context 的方式维持注意力，保持高效。这可能带来 AI 能力的又一次飞跃式进步。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68393bb5d9288e4a516c8782</id>
+            <title>AI探索站 05月30日</title>
+            <link>https://m.okjike.com/originalPosts/68393bb5d9288e4a516c8782</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68393bb5d9288e4a516c8782</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 30 May 2025 05:01:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    感谢@硬地骇客 的支持，把三五环和半拿铁的多数文稿整理了一下，投入到 ima.copilot 里面，可以对话了。<br /><br />之前跟 ima 的朋友交流，就聊到未来知识库的「整理」变得没那么重要，而「采集」变得更重要，独特的筛选标准，以及采集逻辑，是决定知识库的价值的。ima 里也有很多筛选自己喜欢的内容而形成的公开知识库。<br /><br />对内容创作者自己来说，沉淀好自己的内容也特别有意义，有的不存不用确实就容易丢了。哪怕对别人没用，自己时常反刍也很有帮助。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/682d6a21ca977f7fc7e6e8e6</id>
+            <title>AI探索站 05月21日</title>
+            <link>https://m.okjike.com/originalPosts/682d6a21ca977f7fc7e6e8e6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/682d6a21ca977f7fc7e6e8e6</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 21 May 2025 05:52:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    但我觉得 Sergey Brin 和 Demis Hassabis 那个对谈里最有趣的问题其实是这个。<br />主持人：你会雇佣一个在面试里用 AI 的面试者吗？<br />两个人显然都愣住了，哼哼唧唧半天，最后基本上都是说自己也说不好。<br /><br />这看起来是个实操细节，事实上是个本质议题。就是如果 AGI 真的如他们预言的那样在五年左右（见上一条 https://web.okjike.com/u/0E8AFC24-2DB7-4C8D-8D27-794903C79641/post/682d48f8e0619112afecf6e8 ）到来，那今天你就要开始想你到底怎么量度工作的价值，包括面试的时候你要考察什么东西。换句话说就是：人这个世界上最重要的商品和资源到底怎么定价。<br /><br />很显然即使聪明如 Sergey Brin 和 Demis Hassabis 也没想好。我不认为世界上真的有人想清楚了这个问题，但五年后社会经济怎么运转是基于这个问题的答案的。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
