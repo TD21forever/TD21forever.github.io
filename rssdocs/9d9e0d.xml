@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6869136b91c7e8c1b96fca7e</id>
+            <title>AI探索站 07月05日</title>
+            <link>https://m.okjike.com/originalPosts/6869136b91c7e8c1b96fca7e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6869136b91c7e8c1b96fca7e</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 05 Jul 2025 11:58:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 3D模型最接地气的打开方式：PPT<br /><br />要素过多的一期教程。当众表演一下，用 Tripo Studio 做一个 PPT 模板。<br /><br />希望对做 AI PPT或者Slide Agent 的各位有启发！（因为我超想用！）
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68686ecad5eb1bd8a44c18f9</id>
+            <title>AI探索站 07月05日</title>
+            <link>https://m.okjike.com/originalPosts/68686ecad5eb1bd8a44c18f9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68686ecad5eb1bd8a44c18f9</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 05 Jul 2025 00:16:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    LangChain 官方团队发布了一份名为 「Agents From Scratch」 的完整教程，手把手带你快速上手 Agent。<br /><br />以前，你可能觉得 Agent 技术很“重”，需要啃大量论文。<br />现在，你只需要跟着这份官方指南，就能快速搭建起自己的 Agent 原型。<br /><br />GitHub 链接直达：<br />github.com/langchain-ai/agents-from-scratch<br /><br />🌱 你能从中学到什么？<br /><br />🤖 Agent 的核心循环 (Core Loop)：<br />理解 Agent 是如何像人一样思考、行动、观察、再思考的。<br /><br />🛠️ 工具的定义与使用 (Tools)：<br />学会如何让 Agent 能调用外部 API 或数据库，比如查询天气、搜索信息。<br /><br />🧠 ReAct 框架的精髓 (Reason + Act)：<br />掌握当前最主流的 Agent 思考模式，学习如何让 LLM 自我推理和决策。<br /><br />🗨️ LLM 输出的解析 (Output Parsing)：<br />解决那个最头疼的问题：如何稳定、准确地从 LLM 返回的文本中提取出下一步的行动指令。<br /><br />💾 状态与记忆管理 (State Management)：<br />让你的 Agent 拥有记忆，能够处理多轮对话和复杂任务。<br /><br />你最想用 Agent 技术来解决什么具体问题？<br />或者打造什么样的产品？<br />评论区聊聊
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6867d0546357962e617fab2e</id>
+            <title>AI探索站 07月04日</title>
+            <link>https://m.okjike.com/originalPosts/6867d0546357962e617fab2e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6867d0546357962e617fab2e</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 04 Jul 2025 13:00:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    朋友在单位组织的一次ai培训中，了解到了豆包，然后问我怎么用豆包，需不需要报课程去学习之类的😅<br /><br />我直接把官方文档发给他，跟他说看完这些文档，他也是豆包高手👋<br /><br />是啊，有官方这么详细的免费教程，还要花啥钱去买课程呀！😆<br /><br />不过不得不夸一句：不愧是字节，产品的文档写得就是细(¯▽¯)👍<br />———<br />豆包应用创作1.0（豆包编程）：<br />https://bytedance.larkoffice.com/wiki/Rv8Jwqg01iZpaek7LeacEak5nmh<br /><br />豆包超能创意2.0（豆包绘画-内测中，需申请）：https://bytedance.larkoffice.com/docx/A49Id3FKEoxcJnx4x0Ace2LZnAw<br /><br />豆包超能创意1.0（豆包绘画-已正式上线）：https://bytedance.larkoffice.com/docx/OWpHdkNoYoBjHVxntQPcZa5Qndb<br /><br />豆包使用宝典：https://bytedance.larkoffice.com/docx/N1MbdcLuqohCJexjBv0cjuajnZb<br /><br />小云雀内容创作Agent：https://bytedance.larkoffice.com/docx/OJ3jdZ6e2oWvIuxfb1Kczsk8nVe
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68668c0f3f664434f0686d73</id>
+            <title>AI探索站 07月03日</title>
+            <link>https://m.okjike.com/originalPosts/68668c0f3f664434f0686d73</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68668c0f3f664434f0686d73</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 03 Jul 2025 13:56:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    海螺，拥有最强忍术能力的 AI 模型！<br /><br />海螺 02 的动态实在太强了，无论是体操动态还是特效都不在话下，甚至可以做复杂的忍术！<br /><br />尝试让家里的小猫，挑战了知名忍术，居然都可以实现~！Prompt 也附在视频里啦！<br /><br />大家也来试试用自己的小猫挑战忍术吧~！最近 WaytoAGI 正在办第一届海螺杯动物忍术大赛🥷~！快来一起玩！！<br /><br />▶ 创意制作：海辛、@Simon阿文
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/686662ecd5ef978b0f18682b</id>
+            <title>AI探索站 07月03日</title>
+            <link>https://m.okjike.com/originalPosts/686662ecd5ef978b0f18682b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/686662ecd5ef978b0f18682b</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 03 Jul 2025 11:01:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    哈哈哈哈哈哈哈哈哈哈哈我笑不活了，就算待会被饭圈姐妹们冲了我也要发这个乐子！<br /><br />前因是我在某平台的热搜里发现一个「DeepSeek因误导言论向王一博道歉」的词条，当下就纳闷了，这家公司应该为了R2的训练忙得不可开交，怎么有空理会这种事儿啊，次元壁也不是这么破的吧。<br /><br />结果点进去一看，都是图里这种贴子，姐妹们和DeepSeek掰扯了一番，然后成功「威逼」出了DeepSeek的幻觉，搁那儿输出一通不明觉厉的许诺，什么全网删除信息、同步互联网法院、公证处道歉、启动赔偿方案等等⋯⋯<br /><br />姐妹们是真的把D指导的这种胡言乱语当真了，觉得是DeepSeek代表公司在向她们正式道歉，以及做出了那些实际上根本不存在的后续操作。<br /><br />连羊城晚报这种媒体都信以为真了，专门出了篇报道，说DeepSeek公司向王一博道歉，真是离谱他妈给离谱开门，离谱到家了。<br /><br />我记得前几天微博上也有一个热搜，说有网友在和DeepSeek的对话中发现有错误，指出来之后DeepSeek直接承诺要给他赔偿3000块钱，而他左等右等也没等来这笔钱，于是直接告到电视台去了⋯⋯<br /><br />哈哈哈哈哈AI科普真的任重道远啊！！！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/686650d309997cd4b7bc2e71</id>
+            <title>AI探索站 07月03日</title>
+            <link>https://m.okjike.com/originalPosts/686650d309997cd4b7bc2e71</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/686650d309997cd4b7bc2e71</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 03 Jul 2025 09:43:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这组极简矢量风格的出图提示词挺稳定的，非常适合对文娱作品进行二创海报设计，包括但不限于图书、游戏、电影等等。<br /><br />创建一个受[电影名称]电影启发的极简主义矢量风格海报设计。保持电影的核心视觉主题和关键元素（如主要角色、标志性符号或场景），但以简洁、现代的矢量艺术风格重新构想。使用大胆的形状、纯色、高对比度和极简细节。构图应平衡良好，适合海报或印刷品。标题采用时尚、现代的字体风格。图像比例必须为 2:3。<br /><br />* 「电影」可以按需改成其他体裁。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</id>
+            <title>AI探索站 07月02日</title>
+            <link>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 03:16:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    基于和课代表立正的一期采访，总结了最近一些思考，2025年已经过半，“推背感”更加明显，甚至超过很多乐观从业者的预期，我们正在见证AI革命进入新纪元。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6863ecd6f4cead4a795c3443</id>
+            <title>AI探索站 07月01日</title>
+            <link>https://m.okjike.com/originalPosts/6863ecd6f4cead4a795c3443</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6863ecd6f4cead4a795c3443</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 01 Jul 2025 14:12:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    良渚demoday终于第7期 🎉 这次非常开心这次活动和即刻/小宇宙官方联办，也感谢大屋顶提供支持，能在自己喜欢的建筑家安藤忠雄的建筑里办活动很开心！<br />@瓦恁 @kyth @熊猫镇长 @JC. @Xinyang <br /><br />🎁在这次demoday我们也会和即刻联合宣布一个好玩的良渚文化村村民福利，到时候揭晓！<br /><br />启师傅AI客厅良渚demoday第7期<br />主题：AI出海和无边界创新<br />📍 杭州 · 大屋顶 · 良渚文化艺术中心<br />⸻<br />本期亮点嘉宾 👇<br />🟡 即刻 &amp; 小宇宙的 AI 实践<br />🎙 熊猫镇长 × JC @熊猫镇长 <br />🟡 软件出海创业第一课<br />🎙 生姜 Iris，AFFiNE 联合创始人（融资千万美金）@生姜iris <br />🟡 数字游民到数字村民<br />🎙 Allen（Grow 创始人）@allenwang <br />🟡 AI 工具产品出海避坑指南<br />🎙 Sam 韩晟（小影科技创始人）<br />⸻<br />产品 Demo 精选 🚀<br />•fotox.ai：AI 商业化实战<br />•Chat Memo：记录你的 AI 对话资产@一泽Eze <br />•知乎直答：你的 AI 知识引擎<br />•Dreamoo：AI 营销与产品玩法<br />•Second Me：打造你的 AI 身份@Tao水木八公 <br />⸻<br />🎫 活动报名方式<br />扫码下图二维码填写报名表👇
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/686101b136def6ff84109105</id>
+            <title>AI探索站 06月29日</title>
+            <link>https://m.okjike.com/originalPosts/686101b136def6ff84109105</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/686101b136def6ff84109105</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Jun 2025 09:04:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天想试试最近比较火热的Claude Code，看看到底和Cursor的体验有何不同，新闻和视频介绍看了不少，但和亲手尝试还是不同的。遗憾的是Claude Code在国内没法用，翻墙都不行，经同事帮助，找了个开源路由库成功搞定，使用私有的LLM API。<br /><br />试着让它写了个乒乓游戏和发推的脚本，都one shot成功了。有人说Claude Code像AI工程师，而Cursor Agent像实习生，从这两次简单的实验，确实能感受到Claude Code的爽点，交给它任务，直接获取结果，中间没那么多要确认的东西。<br /><br />用的开源库是：https://github.com/musistudio/claude-code-router
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</id>
+            <title>AI探索站 06月28日</title>
+            <link>https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Jun 2025 07:29:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    和群里朋友聊 AI 学到一个洞察。<br /><br />我们都知道人类的聪明分成 book smart 和 street smart。前者是做题家的长处，而后者在很多现实问题上更有用。<br /><br />这两者的区别可以理解为训练方式的差别。前者是 instruction-following based 为主，训练的是模仿和把指令内化为习惯和技能。后者则不然，训练的环境是对抗性的，没有自洽的指令，只有彼此矛盾的约束。训练的是如何在一个混乱的环境里生存、协作和发展。<br /><br />AI 天生就更擅长前者，因为 AI 比人类还要做题家——今天人们对如何用奖惩机制训练 AI 服从指令已经得心应手，但对如何让 AI 在对抗性环境里自己找到策略仍然不是很熟悉。棋牌类游戏是少有的能成功训练 AI 的领域，但棋牌类游戏的环境比起真实社会毕竟抽象得多，而且这些 AI 模型都不是语言模型，使用非常受限。<br /><br />这就是为什么今天 AI 写起政府公文来一套一套的，你让它在街上开个馄饨铺子它就彻底抓瞎。归根结底，AI 是东亚小孩里的东亚小孩。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
