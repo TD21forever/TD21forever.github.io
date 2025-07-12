@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687203b9e81ba2a179da0925</id>
+            <title>AI探索站 07月12日</title>
+            <link>https://m.okjike.com/originalPosts/687203b9e81ba2a179da0925</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687203b9e81ba2a179da0925</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 12 Jul 2025 06:42:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨晚试了一下 Kimi K2，前端能力上非常强！<br /><br />可以替换掉 Claude Code 的默认模型，用 K2 驱动 Claude Code，再也不用担心封号，搭配超划算价格，我直接爽用！<br /><br />先看测试结果，后面附上如何在 Claude Code 中使用 K2 的教程，完整提示词在这里：https://mp.weixin.qq.com/s/S5SKpzQ8GFGzv6dO6efnFA<br /><br />先来藏师傅的经典提示词，这次加上了 PPT 逻辑，让整个页面支持类似 PPT 的翻页。<br />不是很多朋友想要 PPT 提示词吗，现在来了。<br />效果超出预期了，即使是 Gemini 和 Opus 4 也时常有超出页面高度的问题。<br />K2 一次成功，而且还为每一个卡片加上了回弹和缓动效果，图表都加上了动效，非常适合展示汇报内容。<br /><br />然后整一下藏师傅的日签网站吧，基本上就是看简单的前端能力和构建网页的美学素质。<br />直接来看结果，这个质量和效果基本跟 Claude Sonnet 4 差不多，所有功能都能够使用，而且他还做了简单的文案排版。<br />看到这个我舒了一口气，国内很多模型的前端能力连这个都搞不定，现在终于可以往下测试上重量了。<br /><br />然后就是一个偏视觉能力的的考察项目，让他整个点阵动画。<br />在当时这个提示词除了 DeepSeek 0528 之外是全军覆没的，基本都无法运行。<br />直接看结果，第一次就正确运行，同时上面的动画模式和形状选择切换也没问题。<br />下面的其他调整选项第一次没有生效，跟他说完修复了一次也好了，夜间模式也能正常搞定。<br /><br />来整一个真的能干活的带有复杂逻辑的产品，比如一个极简的 Markdown 笔记编辑器。<br />K2 首次生成的结果在功能上处理的很好，基本上所有的功能都可用，都是生效的，没有 Bug。<br />就是渲染的 Markdown 样式有点感人，我就跟他说样式各种格式的样式渲染太差了，再改一下吧。<br />然后基本上就改好了，所有的样式都没啥问题。<br />除了那个表格背景色，这个好说，这么复杂的功能和样式处理第一次搞成这样已经超出预期了。<br /><br />如何在 Claude Code 中使用 K2<br /><br />这次的 K2 模型不止兼容了常见的 Open AI 调用方式，还兼容了 Anthropic 的模型调用。<br />这就是说你可以将 K2 替换为为 Anthropic 提供服务的模型，不用担心封号和费用彻底爽用 Claude Code了。<br /><br />首先我们需要去月之暗面的开发者（https://platform.moonshot.cn/console/account）后台创建一个 API Key。<br />进去以后随便充值个几块钱，然后去 API Key 管理这个侧边栏新建一个 Key 记好。<br />然后你需要安装 Claude Code 了，打开你苹果或者 Windows 的终端，安装前需要安装 Node.js，输入下面的命令。<br />安装完成 Node.js 后，我们安装 Claude Code，继续在终端中输入，如果最后输出了 Claude Code 的介绍和版本号说明就安装成功了。<br />这期间你可能会遇到各种问题，相信我，复制你的终端输出结果扔给 GPT-o3，他都能帮你搞定。<br />这时候我们已经安装成功了，接下来我们需要把 Claude Code 里面原来的 API 请求地址和 Key 给他替换掉。<br />先创建一个你想要写代码的文件夹，然后打开终端，输入“cd+空格+文件夹路径”按住 shift 把文件夹拖到终端里面就会自动展示路径了，直接回车就行。然后输入这两个命令：<br /><br />export ANTHROPIC_AUTH_TOKEN=你的月之暗面 API Key<br />export ANTHROPIC_BASE_URL=https://api.moonshot.ai/anthropic<br /><br />我最近经常跟朋友们说。<br /><br />海外的 Agent 的编程产品如火如荼，每天都有新的出现。<br />国内到现在也没有一个在工具调用和前端能力都符合要求可以驱动 Agent 的模型，感觉被锁死了，不自觉的有点悲观。<br /><br />但现在我试完这个开源的 K2，我感觉自己又恢复了信心。我意识到它填补了一个关键空白：工程实用性。<br /><br />K2 当然在世界范围不是最强的模型，但它是又一个让我觉得"能用来干活"的国产开源模型。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6871ffd7db445f44039cf27b</id>
+            <title>AI探索站 07月12日</title>
+            <link>https://m.okjike.com/originalPosts/6871ffd7db445f44039cf27b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6871ffd7db445f44039cf27b</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 12 Jul 2025 06:25:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一大早睡醒，wildcard（野卡）被ban了。用的时候就感觉到这个支付方式不长久，太容易被用来洗钱了，所以一直没有往里面放太多钱。<br />看到群里有小伙伴都在问wildcard没了后面该怎么支付，分享一个我稳定用了两年的海外支付方式。<br />办一张visa的外币信用卡，我办理的是招商的全币种国际信用卡。然后用这个信用卡绑定Google Pay，海外支付的时候直接使用Google Pay支付。<br />基本上能解决90%以上的支付需求，也不会因为是国内的visa卡而出现不让支付的场景。<br />我这两年的海外付费AI产品都是这么支付的，简单好用，又稳定。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68711ee8a9ac22544419b1f2</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/68711ee8a9ac22544419b1f2</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68711ee8a9ac22544419b1f2</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 14:25:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    艰难爬升两位，老六了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687110f4d41964c563589014</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/687110f4d41964c563589014</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687110f4d41964c563589014</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 13:26:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一用户在 YouMind 天使群分享的 aha moment<br />我也有点震惊了<br />我们最近对 Claude 绘图做了一些优化<br />没想到效果这么好<br /><br />暑假就得多玩玩<br />欢迎用 YouMind 制作攻略<br />AI + 你一起<br />比任何旅游 Agent 都靠谱
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6870ed677ee613ba5ab5f8cf</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/6870ed677ee613ba5ab5f8cf</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6870ed677ee613ba5ab5f8cf</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 10:54:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    对 Kimi 来说，一个新的里程碑来了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6870df3d7ee613ba5ab5092c</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/6870df3d7ee613ba5ab5092c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6870df3d7ee613ba5ab5092c</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 09:54:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    推上老哥用 Lovart 做的 PPT 封面视频很不错<br /><br />但是他是零碎的聊天记录，我整理成了提示词可以稳定一键生成多个漂亮的 PPT 封面<br /><br />在 Lovart 和星流 Agent 都可以用<br /><br />藏师傅的动态 PPT 背景设计与动画制作提示词<br /><br />为主题演讲创建一系列带有动态图形的背景设计和循环动画，具体要求如下：<br /><br />**基础设计要求：**<br />- 使用模型：image-1 和 Kling 2.1<br />- 画面背景：纯黑色填充整个画面<br />- 画面比例：16:9<br />- 主要元素：半透明玻璃面板效果（在黑色背景上的视觉效果）<br />- 面板特征：<br />  - 细长的玻璃卡片质感，具有半透明效果<br />  - 面板之间略有重叠<br />  - 锐利清晰的边缘<br />  - 干净现代的3D数字渲染<br />- 设计风格：简约优雅，苹果风格设计语言<br />- 视觉效果：柔和的渐变和反射，形成流动的弧线<br /><br />**颜色方案：**<br />- 主色调：蓝色系为主<br />- 渐变效果：紫罗兰色到蓝色的渐变<br />- 保持所有版本使用相同的配色方案<br />- 在纯黑背景上营造深邃而优雅的视觉氛围<br /><br />**构图变化版本：**<br />1. 从左到右轻微弧形排列<br />2. 从右到左弧形排列<br />3. 居中对称排列<br />4. 扇形发散排列<br />5. 交错层叠排列<br /><br />**文字元素：**<br />- 主标题：使用Outfit字体，大号文字显示"The keynote"<br />- 副标题：小号文字显示"BY guizang"<br />- 文字处理：文字作为画面的一部分，与玻璃面板效果和谐融合<br />- 文字可带有微妙的发光或反射效果<br /><br />**动画要求：**<br />- 动画类型：无缝循环动画<br />- 动画速度：缓慢流畅的运动<br />- 循环特性：动画结束时回到起始位置，实现完美循环<br />- 动画效果建议：<br />  - 玻璃面板的缓慢漂浮或旋转<br />  - 光线在面板间的流动<br />  - 渐变色的微妙变化<br />  - 反射光的移动<br />  - 面板之间的相对位置变化<br />- 动画时长：5 秒完成一个循环<br /><br />**交付要求：**<br />1. 每种构图的静态预览图（完整画面）<br />2. 每种构图的循环动画文件（完整画面）<br />3. 保持所有版本的视觉一致性和专业感<br />4. 所有输出都是带有黑色背景的完整作品<br /><br />重要说明**：**<br />请创建完整的画面作品，黑色背景是画面的一部分，不要生成需要后期合成的透明素材或抠图效果。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 02:45:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Dia 昨晚又进行了一次更新，推出了内嵌浏览功能<br /><br />可以在与 AI 聊天时，直接在对话界面旁边打开网页内容，无需跳转到新标签页或离开当前对话。<br /><br />你可以在一个界面内完成信息查找和决策，聊天线程始终可见。<br /><br />他们也介绍了背后的设计思路：<br /><br />越来越多的用户习惯以“聊天”作为任务的起点，而不是传统的网页。对话本身成为了信息探索和任务处理的锚点。<br /><br />Dia 的新思路是让 AI 成为网页浏览的增强工具，而不是屏障。用户可以一边与 AI 互动，一边实时查阅网页，获得更丰富、透明的信息。<br /><br />这种设计强调“人性化”——让用户自主选择是依赖 AI 总结，还是亲自查阅网页细节。<br /><br />未来的浏览体验不是“AI 或网页”的二选一，而是两者的无缝协作。AI 和网页内容可以在同一界面、同一流程中互补，提升效率和体验。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</id>
+            <title>AI探索站 07月02日</title>
+            <link>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 03:16:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    基于和课代表立正的一期采访，总结了最近一些思考，2025年已经过半，“推背感”更加明显，甚至超过很多乐观从业者的预期，我们正在见证AI革命进入新纪元。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/686101b136def6ff84109105</id>
+            <title>AI探索站 06月29日</title>
+            <link>https://m.okjike.com/originalPosts/686101b136def6ff84109105</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/686101b136def6ff84109105</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 29 Jun 2025 09:04:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天想试试最近比较火热的Claude Code，看看到底和Cursor的体验有何不同，新闻和视频介绍看了不少，但和亲手尝试还是不同的。遗憾的是Claude Code在国内没法用，翻墙都不行，经同事帮助，找了个开源路由库成功搞定，使用私有的LLM API。<br /><br />试着让它写了个乒乓游戏和发推的脚本，都one shot成功了。有人说Claude Code像AI工程师，而Cursor Agent像实习生，从这两次简单的实验，确实能感受到Claude Code的爽点，交给它任务，直接获取结果，中间没那么多要确认的东西。<br /><br />用的开源库是：https://github.com/musistudio/claude-code-router
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</id>
+            <title>AI探索站 06月28日</title>
+            <link>https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/685f99c578eaceb2cfa755f1</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Jun 2025 07:29:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    和群里朋友聊 AI 学到一个洞察。<br /><br />我们都知道人类的聪明分成 book smart 和 street smart。前者是做题家的长处，而后者在很多现实问题上更有用。<br /><br />这两者的区别可以理解为训练方式的差别。前者是 instruction-following based 为主，训练的是模仿和把指令内化为习惯和技能。后者则不然，训练的环境是对抗性的，没有自洽的指令，只有彼此矛盾的约束。训练的是如何在一个混乱的环境里生存、协作和发展。<br /><br />AI 天生就更擅长前者，因为 AI 比人类还要做题家——今天人们对如何用奖惩机制训练 AI 服从指令已经得心应手，但对如何让 AI 在对抗性环境里自己找到策略仍然不是很熟悉。棋牌类游戏是少有的能成功训练 AI 的领域，但棋牌类游戏的环境比起真实社会毕竟抽象得多，而且这些 AI 模型都不是语言模型，使用非常受限。<br /><br />这就是为什么今天 AI 写起政府公文来一套一套的，你让它在街上开个馄饨铺子它就彻底抓瞎。归根结底，AI 是东亚小孩里的东亚小孩。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
