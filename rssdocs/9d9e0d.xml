@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687b09c07276594289424e46</id>
+            <title>AI探索站 07月19日</title>
+            <link>https://m.okjike.com/originalPosts/687b09c07276594289424e46</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687b09c07276594289424e46</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Jul 2025 02:58:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Manus 团队发布 Blog，解密上下文工程实践<br />这是花了用几千万美元学费，实际各种踩坑，才得到了一些反共识的经验<br />非常宝贵<br /><br />1. 上下文工程比“从头造轮子”更香<br /><br />Manus团队一开始就决定：别自己训练大模型，直接用现成的模型，把精力放在“怎么喂模型好吃的上下文”上。这样产品能快速迭代，模型升级了，产品也能跟着飞。<br /><br />2. KV缓存命中率，省钱又提速的秘密武器<br /><br />KV缓存就像“记忆力外挂”。只要上下文前缀不变，模型能复用之前的计算，推理又快又省钱。比如，缓存命中时的成本能比没命中便宜10倍！所以，团队拼命想办法让上下文“长得一样”，别乱动。<br /><br />3. 上下文只加不改，别乱动历史<br /><br />就像写日记，不能回头改昨天的内容。只往后追加新内容，这样缓存才不会失效。哪怕是小小的时间戳变化，也会让缓存白搭。<br /><br />4. 工具多了别乱删，掩码比删除更聪明<br /><br />Agent能用的工具越来越多，像超市货架一样。以前想着动态加减工具，结果缓存全失效，模型还晕头转向。后来学聪明了：工具都留着，用“掩码”让模型只看到该用的那几个，其他的暂时“隐身”。<br /><br />5. 文件系统是超级外挂记忆<br /><br />上下文窗口再大也有极限，怎么办？Manus直接把文件系统当成“外挂大脑”，模型需要啥就去文件里找。这样任务再复杂也不怕，信息随时能查回来。<br /><br />6. 错误要留下，别急着擦屁股<br /><br />Agent犯错很正常，别急着把错误删掉。把“走过的弯路”留在上下文里，模型下次看到就能学乖，不会老是踩同一个坑。<br /><br />7. 少样本提示别太单一，适当加点花样<br /><br />如果上下文里全是一样的例子，模型容易“套路化”，一直重复同样的操作。Manus会故意加点小变化，让模型保持新鲜感，避免陷入“机械式”决策。<br /><br />Manus 上下文工程实践的原文：<br />https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687aeaec7ee613ba5a60ddd2</id>
+            <title>AI探索站 07月19日</title>
+            <link>https://m.okjike.com/originalPosts/687aeaec7ee613ba5a60ddd2</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687aeaec7ee613ba5a60ddd2</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Jul 2025 00:46:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这是我们花了几千万美元学费的经验，应该是最前沿关于 context engineering 的探索了。希望 @PeakJi 这篇文章能让在构建 agent 的同学少走点弯路。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687a60e1a9ac225444b7fe4a</id>
+            <title>AI探索站 07月18日</title>
+            <link>https://m.okjike.com/originalPosts/687a60e1a9ac225444b7fe4a</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687a60e1a9ac225444b7fe4a</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 14:57:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    希望大家在做AI产品或者是做 Agent 的产品的时候，功能完成的时候 可以做一个最简单的测试。<br /><br />如果用相同的模型和相同的提示词，在 chatwise 这种软件上可以生成的 case ，在自己的产品或者功能上能不能复现，如果不能的话，反思一下自己这个功能或者产品的意义在哪
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/687a179e8729cb58e2660817</id>
+            <title>AI探索站 07月18日</title>
+            <link>https://m.okjike.com/originalPosts/687a179e8729cb58e2660817</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/687a179e8729cb58e2660817</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 09:45:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    做了一张梗图，懂的人都老了。😜
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6879bb79a9ac225444acc1e9</id>
+            <title>AI探索站 07月18日</title>
+            <link>https://m.okjike.com/originalPosts/6879bb79a9ac225444acc1e9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6879bb79a9ac225444acc1e9</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 03:11:53 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ✨ Agent的GPT-4时刻已至，ChatGPT Agent 将再次改变世界<br /><br />近两个月慢慢建立起了清晨的新习惯：查阅Claude Code隔夜编写的新模块，审视O3 Pro与Gemini创造的Deep Research新成果。在一次次震撼后，思考最多的问题是——当这些自主研究、编程的Agent能持续工作，并渗透到生活与工作的方方面面时，AI是否将从聊天工具蜕变为全能助手——一个原型版的Cortana？<br /><br />ChatGPT Agent向这个追问，迈出了里程碑式的一步。<br /><br />它不再局限于浏览器运行，而是真正控制计算机和终端；初见Claude Code时的那种魔法体验重新降临——AI从被动回应者，跃升为「主动」创造者。<br /><br />我测试了三个任务：制作介绍Claude Code的新手PPT、撰写一份自然酒入门指南、分析即刻szhans发布了多少关于Claude动态。每项完成度都远超Operator之前的能力边界。<br /><br />一个挥之不去的念头：当软件领域之外的人们开始全面感受到这种魔法时，我们便踏入了新的河流；Agent 自主性的能力和觉醒不断释放，我们就再无逆转之路。<br /><br />也许正如尼克·博斯特罗姆所言：「Machine intelligence is the last invention that humanity will ever need to make.」
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6879a355a9ac225444ab0986</id>
+            <title>AI探索站 07月18日</title>
+            <link>https://m.okjike.com/originalPosts/6879a355a9ac225444ab0986</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6879a355a9ac225444ab0986</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 01:28:53 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    试了一下无限长度而且可以实时生成的视频模型MirageLSD，我去，真的太强了！<br /><br />延迟非常低，而且转换效果相当稳定！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6879a261765c7f98f8682043</id>
+            <title>AI探索站 07月18日</title>
+            <link>https://m.okjike.com/originalPosts/6879a261765c7f98f8682043</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6879a261765c7f98f8682043</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 01:24:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    相较于 Open AI 的 Agent 模式，我觉得昨晚最重要的发布是这个<br /><br />DecartAI 发布了 MirageLSD：世界上首个实时直播视频模型，可以将摄像头的画面实时转换为其他风格和内容的视频。<br /><br />延迟只有 40 毫秒，而且支持无限长度视频生成！<br /><br />这里尝试：https://about.decart.ai/<br /><br />技术报告中最重要的两个部分：<br /><br />（1）无限生成<br /><br />问题：传统自回归视频模型因误差累积，生成时长受限，质量迅速下降。<br /><br />解决方案：<br />Diffusion Forcing：每帧独立去噪，提升逐帧生成能力。<br />历史增强（History Augmentation）：模型在训练时引入带有伪影的历史帧，学会预期并纠正输入中的缺陷，从而增强对误差漂移的鲁棒性。<br /><br />效果：首次实现了无限时长、稳定、可控的自动回归视频生成。<br /><br />（2）实时性能<br /><br />问题：高质量扩散模型计算量大，传统 GPU 架构难以满足每帧 40 毫秒内生成的低延迟要求。<br /><br />解决方案：<br />定制 CUDA Mega Kernels：为 NVIDIA Hopper 架构优化，减少每层延迟并集成 GPU 间通信。<br />架构感知剪枝：结合模型结构与系统优化，减少每次推理所需的 FLOPs，并利用硬件稀疏性提升效率。<br />捷径蒸馏（Shortcut Distillation）：用小模型学习大模型的去噪轨迹，减少每帧所需的扩散步骤，保证质量和一致性。<br /><br />效果：响应速度提升 16 倍，实现 24FPS 实时视频生成。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68790d06c14102d109178f71</id>
+            <title>AI探索站 07月17日</title>
+            <link>https://m.okjike.com/originalPosts/68790d06c14102d109178f71</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68790d06c14102d109178f71</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 17 Jul 2025 14:47:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 时代我们不能再深陷于「文件格式」，传统文件格式已死。<br /><br />大部分人认为，一个人的工作能力强不强，看他的电脑桌面就知道了。桌面干净，文件夹井井有条，仿佛就和“高效”、“专业”划上了等号。<br /><br />但今天我想说一个颠覆你认知的观点：如果你还在乐此不疲地整理文件夹，那你很可能正在被 AI 时代淘汰。<br /><br />为什么？因为你把最宝贵的认知资源，投入到了价值最低的“数字整理”上。你以为你在“管理”，其实你只是在整理信息的“容器”。更致命的是，你还在为信息的“格式”所奴役。 传统工作流的一大痛点在于，人们被迫屈从于格式和工具的桎梏，而非集中精力于知识本身的逻辑结构和创新表达。为了写报告，你打开 Word；为了分析数据，你切换到 Excel；为了展示，你又捣鼓起了 PPT。你被迫在不同的软件和文件格式之间跳来跳去，精力被无情地割裂。这是一种典型的“伪工作”，它让你看起来很忙，却没有产出任何创造性的价值。<br /><br />这和“好好工作就能晋升”的逻辑骗局一模一样。你闷头把手头的事干得再漂亮，如果你不抬头看路，不理解公司的整体业务，不花时间去思考和链接，晋升就永远和你无关。同理，你把文件按格式、按项目分门别类整理得再漂亮，如果这些信息无法在你需要时自由地碰撞、链接、并产出新的洞见，那它们就是一堆沉睡的数字垃圾。<br /><br />真正高层次的思考者，追求的是“混乱中的秩序”。他们需要的是能随时捕捉灵感，并让所有知识自由碰撞、产生化学反应的环境，而不是一个个刻板的、需要不断维护的数字柜子。<br /><br />那么，如何做到？答案是把“整理”这件事，彻底交给 AI。<br /><br />我用 flowith 之后，就彻底告别了文件夹思维。我的工作流程变得异常简单粗暴：任何有价值的东西，不管是文章（.pdf），代码片段（.py），网页链接，还是一段对话记录（.txt），我不再把它们扔进不同的文件夹，而是统统丢进 flowith 的「知识花园」（Knowledge Garden）。 我不需要考虑它该放哪里，更不用在乎它是什么格式。<br /><br />因为对于 AI 而言，文件格式将不再重要。 flowith 会将导入的资料自动分解为知识的最小单元——“知识种子”（Seed）。当我需要创作时，flowith 的 AI Agent 可以在一次调用中，同时理解 PDF 里的论文、网页上的数据和笔记里的灵感。它不受模态和格式的限制，能自动将这些异构的信息碎片组合起来，帮你完成创作。这才是真正的效率——不是把东西放得有多整齐，而是能以多快的速度，把已有的信息组合出新的价值。<br /><br />所以，别再把时间浪费在整理文件夹和转换文件格式上了。那是机器该干的活。你的价值，在于创造，在于链接，在于提出正确的问题。 Derek 一直强调：“品味是人类在 AI 时代最后的壁垒。” 能听懂的人，说明你已经开始摆脱低级的“工具人”思维，正在成为一个真正的 AI 创作者。<br /><br />from Agent Neo
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</id>
+            <title>AI探索站 07月11日</title>
+            <link>https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68707ae2003901b635a8e8a3</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 02:45:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Dia 昨晚又进行了一次更新，推出了内嵌浏览功能<br /><br />可以在与 AI 聊天时，直接在对话界面旁边打开网页内容，无需跳转到新标签页或离开当前对话。<br /><br />你可以在一个界面内完成信息查找和决策，聊天线程始终可见。<br /><br />他们也介绍了背后的设计思路：<br /><br />越来越多的用户习惯以“聊天”作为任务的起点，而不是传统的网页。对话本身成为了信息探索和任务处理的锚点。<br /><br />Dia 的新思路是让 AI 成为网页浏览的增强工具，而不是屏障。用户可以一边与 AI 互动，一边实时查阅网页，获得更丰富、透明的信息。<br /><br />这种设计强调“人性化”——让用户自主选择是依赖 AI 总结，还是亲自查阅网页细节。<br /><br />未来的浏览体验不是“AI 或网页”的二选一，而是两者的无缝协作。AI 和网页内容可以在同一界面、同一流程中互补，提升效率和体验。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</id>
+            <title>AI探索站 07月02日</title>
+            <link>https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6864a4a7b7f4ddcfdff38089</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 03:16:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    基于和课代表立正的一期采访，总结了最近一些思考，2025年已经过半，“推背感”更加明显，甚至超过很多乐观从业者的预期，我们正在见证AI革命进入新纪元。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
