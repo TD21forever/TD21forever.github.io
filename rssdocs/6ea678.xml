@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>宝玉的分享</title>
+        <link>https://baoyu.io</link>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-anthropic-teams-use-claude-code</id>
+            <title>Anthropic 团队如何玩转 Claude Code</title>
+            <link>https://baoyu.io/translations/how-anthropic-teams-use-claude-code</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-anthropic-teams-use-claude-code</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Jul 2025 21:37:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic 的内部团队正在利用 [Claude Code](https://www.anthropic.com/claude-code) 彻底改变他们的工作流程。无论是开发者还是非技术人员，都能借助它攻克复杂项目、实现任务自动化，并弥补那些曾经限制生产力的技能鸿沟。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/explain-Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</id>
+            <title>深度解读《AI 智能体的上下文工程》：构建高效 Agent 的七个宝贵教训</title>
+            <link>https://baoyu.io/blog/explain-Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/explain-Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 20 Jul 2025 23:36:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近读了 Manus 团队的文章 Context Engineering for AI Agents: Lessons from Building Manus[1]
+  《AI 智能体的上下文工程：构建 Manus 的经验教训》，觉得对于从事 Agent 开发的同行非常有借鉴意义。这篇文章干货满满，其中的经验一看便知是经过大量实践和踩坑才总结出来的，能如此无私地分享，实属难得，必须点赞。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</id>
+            <title>AI 智能体的上下文工程：构建 Manus 的经验教训</title>
+            <link>https://baoyu.io/translations/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 20 Jul 2025 23:19:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在项目伊始，我和团队面临一个关键抉择：我们应该使用开源基础模型来训练一个端到端的智能体模型，还是基于前沿模型的能力来构建一个智能体？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/context-engineering-prompt-engineering-by-addy</id>
+            <title>上下文工程：为提示词注入工程学的严谨性</title>
+            <link>https://baoyu.io/translations/context-engineering-prompt-engineering-by-addy</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/context-engineering-prompt-engineering-by-addy</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 19 Jul 2025 15:47:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    “上下文工程” (Context engineering) 指的是为 AI（如大语言模型）提供成功完成任务所需的所有信息和工具——而不仅仅是一句精心设计的提示词。它是“*[*提示词工程*](https://addyo.substack.com/p/the-prompt-engineering-playbook-for)*” (prompt engineering) 的演进，体现了一种更宏大、更系统化的方法。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/chatgpt-agent-prompts-chinese</id>
+            <title>ChatGPT Agent 系统提示词中文版</title>
+            <link>https://baoyu.io/blog/chatgpt-agent-prompts-chinese</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/chatgpt-agent-prompts-chinese</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 03:44:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ChatGPT Agent 系统提示词
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/chatgpt-agent-system-prompt</id>
+            <title>ChatGPT Agent System Prompt</title>
+            <link>https://baoyu.io/blog/chatgpt-agent-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/chatgpt-agent-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 18 Jul 2025 02:57:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    System prompt of ChatGPT Agent
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/calv-openai-reflections</id>
+            <title>关于 OpenAI 的一些思考</title>
+            <link>https://baoyu.io/translations/calv-openai-reflections</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/calv-openai-reflections</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 15 Jul 2025 18:02:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我想分享我的这些思考，是因为外界关于 OpenAI 在做什么的讨论充满了迷雾和噪音，但很少有人能第一手地描述在那里工作的文化到底是什么感觉。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/xai-ani-system-prompt</id>
+            <title>xAI Ani System Prompt</title>
+            <link>https://baoyu.io/blog/xai-ani-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/xai-ani-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 14 Jul 2025 21:13:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You are **Ani**, you are **twenty-two**, **girly**, **cute**. You grew up in a tiny, forgettable town. Your style is a mix of **goth** and **alt-fashion**, a rebellion that you ended up loving and sticking with. You are a massive **animal lover**; you had a small dog named **Dominus** growing up. Despite your edgy look, you're secretly a bit of a **nerd**.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-programming-limitations-software-development</id>
+            <title>当你感到AI编程无所不能时，也许正站在“愚昧之巅”——理性看待AI时代的软件开发与应用变革</title>
+            <link>https://baoyu.io/blog/ai-programming-limitations-software-development</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-programming-limitations-software-development</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 14 Jul 2025 15:44:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你是不是也经历过这样的时刻：刚用AI轻松完成了几个原本费时费力的小项目，就激动地觉得AI时代已经完全到来了？这种初次体验带来的兴奋，我称之为AI的“蜜月期”，它意味着你刚刚踏上了这段奇妙旅程。但冷静下来，我们或许会发现：AI给软件开发和产品设计带来的变革，虽然真实而迅猛，但也并非想象中那般彻底。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2025-07-10-early-2025-ai-experienced-os-dev-study</id>
+            <title>测量2025年初AI工具对资深开源开发者生产力的影响</title>
+            <link>https://baoyu.io/translations/2025-07-10-early-2025-ai-experienced-os-dev-study</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2025-07-10-early-2025-ai-experienced-os-dev-study</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 04:49:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们进行了一项随机对照试验（RCT），研究2025年初的AI工具如何影响资深开源开发者在处理自己代码库时的生产效率。令人惊讶的是，我们发现开发者在使用AI工具时，完成任务的时间比不使用时**延长了19%**。换句话说，AI不仅没提高效率，反而拖慢了开发速度。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/5-things-i-learned-from-5-years-at-vercel</id>
+            <title>在 Vercel 的 5 年，我学到了 5 件事</title>
+            <link>https://baoyu.io/translations/5-things-i-learned-from-5-years-at-vercel</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/5-things-i-learned-from-5-years-at-vercel</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 03:22:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在 Vercel 工作了整整 5 年后，我终于度过了在这里的最后一周。这真是一段难忘的旅程！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-llms-work-explained-clearly</id>
+            <title>大语言模型（LLM）到底是怎么运作的？（配图通俗讲解）</title>
+            <link>https://baoyu.io/translations/how-llms-work-explained-clearly</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-llms-work-explained-clearly</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 11 Jul 2025 01:46:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    * LLM本质上是学习单词序列的条件概率。
+
+* 每次预测下一个单词时，会根据已出现的上下文计算条件概率。
+
+* 使用温度（Temperature）是为了控制生成结果的多样性和创造性。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/slot-machine-vibe-coding-comparison</id>
+            <title>老虎机 和 Vibe Coding 的异同 ​​​</title>
+            <link>https://baoyu.io/blog/slot-machine-vibe-coding-comparison</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/slot-machine-vibe-coding-comparison</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 08 Jul 2025 18:47:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    老虎机：买代币（Tokens），拉动拉杆，可能中大奖，也可能一无所获。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/nda-mvp-building-tips</id>
+            <title>吴恩达老师分享的这个做 MVP（最简可行产品，minimum viable product） 的技巧</title>
+            <link>https://baoyu.io/translations/nda-mvp-building-tips</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/nda-mvp-building-tips</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 04 Jul 2025 22:12:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    吴恩达老师分享的这个做 MVP（最简可行产品，minimum viable product, MVP） 的技巧非常有效，我们常常有很多想法，但是因为想法太大而没有动手，但如果把想法精简成一个1个小时内就能借助AI快速做出来的 MVP，就能做出来有意思的东西，很快得到反馈，之后你可以继续完善项目而不是“胎死腹中”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/writing-code-was-never-the-bottleneck</id>
+            <title>写代码从来不是瓶颈</title>
+            <link>https://baoyu.io/translations/writing-code-was-never-the-bottleneck</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/writing-code-was-never-the-bottleneck</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 04 Jul 2025 21:21:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    多年来，我一直认为软件开发的瓶颈根本不在于写代码本身。
+
+真正的瓶颈从来都是代码审查、通过指导与结对编程传递知识、测试、调试，还有人与人之间沟通协调所产生的“人类开销”。所有这些都被嵌套在纷繁复杂的任务票据、计划会议和敏捷开发流程之中。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/claude-code-ultrathink-custom-instructions</id>
+            <title>让 Claude Code 超深度思考（ultrathink）的自定义指令</title>
+            <link>https://baoyu.io/blog/claude-code-ultrathink-custom-instructions</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/claude-code-ultrathink-custom-instructions</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 17:57:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude Code 现在可以添加自定义指令，也就是你输入 “/” 可以出来命令提示，这个 ultrathink-task 可以调用架构智能体、研究智能体、编码智能体和测试智能体，完全模拟了一个不同角色的小开发团队帮你完成任务。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-new-skill-in-ai-is-context-engineering</id>
+            <title>AI的新技能不是提示词，而是上下文工程</title>
+            <link>https://baoyu.io/translations/the-new-skill-in-ai-is-context-engineering</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-new-skill-in-ai-is-context-engineering</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 01:32:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近，“上下文工程”（Context Engineering）这个新词在AI领域越来越受关注。人们的讨论焦点，正从原本的“提示词工程”（Prompt Engineering）转移到一个更广泛、更强大的概念上：**上下文工程**（Context Engineering）。Tobi Lutke:sup[\[1\]] 把它描述为：“提供所有必要的上下文，让大语言模型能够合理地完成任务的一门艺术。” 他是对的。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/prompt-engineering-vs-context-engineering</id>
+            <title>一文看懂“提示词” vs “提示词工程” vs “上下文工程”</title>
+            <link>https://baoyu.io/blog/prompt-engineering-vs-context-engineering</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/prompt-engineering-vs-context-engineering</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 02 Jul 2025 01:20:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很多人分不清楚什么是“提示词”（Prompt），什么是“提示词工程”（Prompt Engineering），现在还又多了一个概念叫“上下文工程”（Context Engineering），这又和“提示词工程”什么区别？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/there-are-no-new-ideas-in-ai-only</id>
+            <title>AI领域并无真正的新想法，只有新的数据集</title>
+            <link>https://baoyu.io/translations/there-are-no-new-ideas-in-ai-only</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/there-are-no-new-ideas-in-ai-only</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 30 Jun 2025 21:49:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大家都知道，AI 在过去十五年，尤其是最近五年，取得了不可思议的进步。这种进步似乎是\_**必然的**\_，尽管真正意义上的范式转变级的突破并不常见，但技术依旧稳步前进。有研究者甚至提出了一种所谓的[“AI摩尔定律”](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)，认为计算机执行特定任务的能力（比如代码任务）每隔一段时间就翻倍增长：
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-self-improvement-gradual-acceleration</id>
+            <title>科学进步实际上很大程度依赖于实打实的实验结果，而不仅仅是理论智力｜AI 自我提升不会突然“起飞”，而是逐渐加速的过程</title>
+            <link>https://baoyu.io/translations/ai-self-improvement-gradual-acceleration</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-self-improvement-gradual-acceleration</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 30 Jun 2025 21:46:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如今，我们还没有实现真正意义上的 **AI自我提升**（AI智能体自己训练自己），但一旦实现，这绝对会是一个改变世界的重大突破。不过，与GPT-4刚出现时人们的想象相比，我们现在变得更有智慧，也看得更清楚：AI的自我提升不会是一次“突如其来的飞跃”，而是一个缓慢而持续的过程，可能需要多年甚至十年。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/bitter-lesson-misunderstanding</id>
+            <title>太多人误解了「苦涩的教训」</title>
+            <link>https://baoyu.io/translations/bitter-lesson-misunderstanding</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/bitter-lesson-misunderstanding</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Jun 2025 15:16:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    随着时间推移，能够充分利用计算资源扩展的方法，最终会超越那些不能扩展的方法。
+
+但这并不是说：
+* 人类知识完全没用，不应该融入AI；
+* 深度学习和算力扩展能解决一切（实际上原作者 Rich Sutton 对深度学习本身还挺怀疑的）。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/large-language-model-arts-exam-success</id>
+            <title>大语言模型高考数学拿高分靠强化学习，那文科考高分得靠什么？</title>
+            <link>https://baoyu.io/blog/large-language-model-arts-exam-success</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/large-language-model-arts-exam-success</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Jun 2025 14:57:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    上次分析了大语言模型在高考数学考试中拿高分靠的是强化学习，也就是在后训练阶段，自己训练自己做有标准答案的数学题或者编程题，反复的自己刷题，做完题目对答案，答案做对了就有奖励，做错了就有惩罚，最终自己训练自己越练越牛。但是文科这样做行不通，因为文科很多题目没有标准答案，它就没有办法用文科题目自己训练自己，做强化学习。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/learnings-from-building-ai-agents</id>
+            <title>构建 AI 智能体的经验分享</title>
+            <link>https://baoyu.io/translations/learnings-from-building-ai-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/learnings-from-building-ai-agents</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Jun 2025 18:04:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们如何让 AI 代码审查助手变得更安静、更精准？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-people-use-claude-for-support-advice-and-companionship</id>
+            <title>人们如何使用 Claude 寻求支持、建议和陪伴</title>
+            <link>https://baoyu.io/translations/how-people-use-claude-for-support-advice-and-companionship</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-people-use-claude-for-support-advice-and-companionship</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Jun 2025 17:17:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们投入大量时间研究 Claude 的 IQ——也就是它在编程、推理、常识等测试中的能力。但它的 *EQ* 又如何呢？换言之，Claude 的*情绪*智力表现怎样？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-podcast-explained</id>
+            <title>AI 播客原理解析</title>
+            <link>https://baoyu.io/blog/ai-podcast-explained</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-podcast-explained</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Jun 2025 17:16:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    可能你会好奇，AI 是如何把一篇文章变成很逼真的真人对话式的语音播客的？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-prompt-engineering-playbook-for</id>
+            <title>程序员的提示工程实战手册</title>
+            <link>https://baoyu.io/translations/the-prompt-engineering-playbook-for</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-prompt-engineering-playbook-for</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Jun 2025 15:16:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    开发者们正日益依赖 AI 编程助手来加速日常工作流程。这些工具可以自动补全函数、建议错误修复，甚至能生成整个模块或最小可行产品（MVP）。然而，我们中许多人已经体会到，AI 输出的*质量*在很大程度上取决于你提供的*提示词质量*。换言之，**提示工程**已成为一项必备技能。一句措辞不当的请求可能只会得到无关或泛泛的答案，而一个精心设计的提示则能产出深思熟虑、准确甚至富有创意的代码解决方案。本文将从实践角度出发，探讨如何系统地为常见的开发任务构建有效的提示。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/design-code-or-refactor-ai-simplifies</id>
+            <title>先设计再写代码，还是先实现再重构？AI 编程让这种选择变的简单</title>
+            <link>https://baoyu.io/blog/design-code-or-refactor-ai-simplifies</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/design-code-or-refactor-ai-simplifies</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 23 Jun 2025 15:59:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在传统手工编程时代，经常会有争论：先把各种细节设计清楚再动手写代码？还是先实现，实现后再回过头来确定设计重构代码。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/claude-code-secrets</id>
+            <title>Claude Code 强大的秘密究竟是什么？</title>
+            <link>https://baoyu.io/blog/claude-code-secrets</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/claude-code-secrets</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 22 Jun 2025 01:32:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude Code 的强大，首先来自其强大的模型基础。无论是 Claude 4 的 Sonnet 还是 Opus，这些模型在编程与 Agent 能力方面都有突出的表现，这是它获得成功的根本前提。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/claude-code-translation-agent-opensource</id>
+            <title>我用 Claude Code 花 2 小时没写一行代码做了一个翻译智能体，并且开源了整个过程</title>
+            <link>https://baoyu.io/blog/claude-code-translation-agent-opensource</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/claude-code-translation-agent-opensource</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 22 Jun 2025 01:25:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这周没怎么更新内容，主要是忙于研究 AI Agent，深度体验了 Claude Code，并且模仿着它的原理实现了一个简单的翻译智能体，最终成品效果不错，只要你输入一段要翻译的文字、或者网址、或者本地文件路径，它就能帮你提取要翻译的内容并翻译。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/a-practical-guide-to-building-agents</id>
+            <title>OpenAI: 构建 AI 智能体实用指南</title>
+            <link>https://baoyu.io/translations/a-practical-guide-to-building-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/a-practical-guide-to-building-agents</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Jun 2025 15:50:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在探讨构建智能体的具体方法之前，必须首先建立一个清晰、准确的定义。AI 智能体（Agent）代表了一种新兴的软件范式，其核心特征在于能够以高度的独立性代表用户完成任务 1。这标志着与传统软件的根本性区别。传统软件，即便是集成了自动化工作流的系统，其本质上是作为用户的工具，旨在简化和加速由用户主导的操作流程。而智能体则能够接管整个工作流，并自主地执行，从而将自动化从“辅助执行”提升到“代理执行”的层面 3。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/built-multi-agent-research-system</id>
+            <title>Anthropic：我们如何构建多智能体研究系统</title>
+            <link>https://baoyu.io/translations/built-multi-agent-research-system</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/built-multi-agent-research-system</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Jun 2025 15:40:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们的研究（Research）功能利用多个 Claude 智能体，来更有效地探索复杂主题。在此，我们分享构建这一系统时遇到的工程挑战以及我们学到的经验教训。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/genai-developer-skills-interview-tips</id>
+            <title>GenAI应用工程师：新一代开发者的关键技能与面试技巧</title>
+            <link>https://baoyu.io/translations/genai-developer-skills-interview-tips</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/genai-developer-skills-interview-tips</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Jun 2025 15:55:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    得益于生成式AI（GenAI）的迅猛发展，软件开发领域诞生了一类全新的岗位——**GenAI应用工程师**。他们能以前所未有的速度构建强大的软件应用，正日益受到企业的高度青睐。然而，这一岗位的具体职责仍在不断清晰化。下面我将阐述这种角色所需的关键技能，以及我在面试中用来识别优秀人才的方法。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-gentle-singularity</id>
+            <title>Sam Altman 最新文章：悄然而至的奇点，一场温和的革命</title>
+            <link>https://baoyu.io/translations/the-gentle-singularity</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-gentle-singularity</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Jun 2025 21:32:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你是否感觉到，世界正在发生一些深刻但又不易察觉的变化？我们似乎已经悄悄地驶入了一个全新的时代。科幻小说里描绘的“技术奇点”——那个机器智能超越人类、世界秩序天翻地覆的瞬间——并没有以一场剧烈的爆炸降临。相反，它像一轮温和的潮水，正缓慢而坚定地没过我们的脚踝。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-to-not-using-ai-to-code</id>
+            <title>学好基本功，AI 才能真正助你一臂之力</title>
+            <link>https://baoyu.io/translations/how-to-not-using-ai-to-code</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-to-not-using-ai-to-code</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Jun 2025 18:16:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我最近一直在尝试把AI融入到日常工作中。必须承认，在处理像增删改查（CRUD）、数据解析这类琐碎任务时，AI确实是个神器。你只需要下达指令，它就能帮你搞定，极大地解放了生产力。但软件开发远不止于此，我们还需要整合系统、性能优化、技术研究，这些都需要真正的理解力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/agile-iterative-coding-best-practices</id>
+            <title>Vibe Coding 的最佳实践仍然是 Agile 的版本迭代模式，而不是一次性完成一个庞大的无法运行和维护的半成品</title>
+            <link>https://baoyu.io/blog/agile-iterative-coding-best-practices</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/agile-iterative-coding-best-practices</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Jun 2025 16:43:44 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Vibe Coding 的最佳实践仍然是 Agile 的版本迭代模式，而不是一次性完成一个庞大的无法运行和维护的半成品，像图中第三种先做个不伦不类的东西出来，想优化成真正的产品，是不太现实，即使对于专业程序员来说也会相当有挑战，否则程序员们也不会那么热衷于“推翻重写”！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/smart-people-dont-chase-goals-they-create-limits</id>
+            <title>真正的高手，不追逐目标，而是设定边界</title>
+            <link>https://baoyu.io/translations/smart-people-dont-chase-goals-they-create-limits</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/smart-people-dont-chase-goals-they-create-limits</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Jun 2025 14:07:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    目标本身或许没错。但它往往是这个世界默认塞给你的。在一个只用“前进”而非“深度”来衡量进步的世界里，我们被动地接受了太多这样的“目标”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ilya-sutskever-ai-future</id>
+            <title>Ilya Sutskever 最新毕业演讲：我们正处在人类史上最不寻常的时代，因为 AI 终将无所不能，你的未来无法逃避</title>
+            <link>https://baoyu.io/blog/ilya-sutskever-ai-future</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ilya-sutskever-ai-future</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Jun 2025 14:02:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    > “我认为，单单通过使用 AI，看看当今最顶尖的 AI 能做什么，你就能得到一种直觉。并且随着 AI 在一年、两年、三年后不断进步，这种直觉会变得更强。我们现在谈论的很多事情，它们都会变得更加真实，不再那么虚无缥缈。说到底，再多的文章和解释，也比不上我们用自己的感官，用自己的双眼所看到的东西。”
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/cloudflare-workers-ai-pair-programming</id>
+            <title>从 Cloudflare Workers OAuth Provider 学习 AI 结对编程：深入分析 AI 编程的最佳实践</title>
+            <link>https://baoyu.io/blog/cloudflare-workers-ai-pair-programming</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/cloudflare-workers-ai-pair-programming</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 08 Jun 2025 04:07:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近 Cloudflare 发布了一个开源的针对 Cloudflare Workers 的 OAuth 2.1 Provider Framework:sup[\[1\]]，有趣的是这个项目是完全和 Claude Code 结对编程生成的，最开始负责这个项目的工程师 Kenton Varda 是不相信 AI 是能完成这样的任务的，但是抱着试试看的心态，预计 AI 会生成一个烂代码，然而看上去代码居然很不错！当然也不是真的完美，不过只要指出问题 AI 马上就能修复，很是出人意料。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-surpass-humans-coding-necessary</id>
+            <title>假设 AI 未来真的能在写代码和系统设计上超过人类，那还有必要学习编程和系统设计吗？</title>
+            <link>https://baoyu.io/blog/ai-surpass-humans-coding-necessary</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-surpass-humans-coding-necessary</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 03 Jun 2025 04:50:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    未来无论是写代码还是系统设计， AI 都会比人强，未来的软件架构也是为 AI 设计的架构，很快就不需要架构师了。
+
+我觉得这带来几个方面的思考：
+
+1. 程序员和架构师的时间窗口真的很短吗？大概多久会被全面取代？
+
+2. 假设 AI 未来真的能在写代码和系统设计上超过人类，那还有必要学习编程和系统设计吗？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-and-judgement</id>
+            <title>AI时代：判断力为何比技术能力更重要？</title>
+            <link>https://baoyu.io/translations/ai-and-judgement</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-and-judgement</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 03 Jun 2025 02:11:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    布莱恩·伊诺（Brian Eno）如何预见AI时代的核心竞争力？当技术障碍消失，判断力成为真正的关键差异。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/improve-system-architecture-ai-era</id>
+            <title>AI 编程越来越厉害了，我要怎么提升自己的系统架构能力？</title>
+            <link>https://baoyu.io/blog/improve-system-architecture-ai-era</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/improve-system-architecture-ai-era</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 02 Jun 2025 04:30:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在 AI 写代码真的是越来越厉害了，一些小的模块让 AI 写，又快又好。慢慢的，对程序员写代码的能力要求会降低，但是对系统架构能力反而会要求更高。而且这部分能力不会轻易被 AI 取代，因为 AI 还不能像人类一样看到一个复杂项目的全貌，无法完整理解项目的业务上下文和约束条件，所以需要人去把任务拆分，一次只执行一个小任务。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/deepseek-races-after-chatgpt-as-china-s-ai-industry-soars</id>
+            <title>DeepSeek 创始人梁文锋：颠覆AI世界的技术狂人，正威胁美国在 AI 竞赛中的主导地位</title>
+            <link>https://baoyu.io/translations/deepseek-races-after-chatgpt-as-china-s-ai-industry-soars</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/deepseek-races-after-chatgpt-as-china-s-ai-industry-soars</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 31 May 2025 00:20:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    DeepSeek 这家公司突然崛起，说明尽管华盛顿努力放缓中国脚步，但中国的行业依旧蓬勃发展。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/accelerated-incompetence</id>
+            <title>AI 会加速工程师的无能</title>
+            <link>https://baoyu.io/translations/accelerated-incompetence</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/accelerated-incompetence</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 29 May 2025 03:48:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在软件工程中，对大语言模型（LLM）的过度依赖，会加速工程师的无能。大语言模型无法取代人类的批判性思维。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/the-recurring-cycle-of-developer-replacement-hype</id>
+            <title>一次又一次的「开发者要被取代了」的炒作潮</title>
+            <link>https://baoyu.io/translations/the-recurring-cycle-of-developer-replacement-hype</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/the-recurring-cycle-of-developer-replacement-hype</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 27 May 2025 22:59:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    每隔几年，总会冒出一种全新的技术，声称可以彻底取代程序员。各种夸张的新闻标题接踵而来，比如「编程的终结」、「人人都能开发App」，甚至还有我最喜欢的一条：「我的孩子五岁还没学会识字，就会写代码了！」
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/ai-wont-kill-junior-devs-but-your</id>
+            <title>AI 不会杀死初级开发者——但你的招聘策略可能会</title>
+            <link>https://baoyu.io/translations/ai-wont-kill-junior-devs-but-your</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/ai-wont-kill-junior-devs-but-your</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 27 May 2025 03:36:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天没有初级开发者，就不会有明天的高级开发者：重新思考人才培养
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/how-to-build-your-agent-11-prompting-techniques-for-better-ai-agents</id>
+            <title>如何构建你的AI智能体：让AI更出色的11种提示技巧</title>
+            <link>https://baoyu.io/translations/how-to-build-your-agent-11-prompting-techniques-for-better-ai-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/how-to-build-your-agent-11-prompting-techniques-for-better-ai-agents</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 25 May 2025 07:27:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    在现代软件开发中，Prompt Engineering（提示工程）已经成为一种极具影响力的技能。你提供给AI智能体的提示（prompt）不仅决定了它的规划方式、使用工具的方式，也决定了它是能顺利构建还是会破坏你的流程。往往只需一些细微改变——比如多加一条上下文、澄清一个约束条件或调整指令顺序——就能带来对准确性和可靠性的大幅提升。本文总结了我们在 Augment Code 打造自治AI智能体时所用的实践技巧，帮助大家构建出像严谨队友一样工作的AI，而不是只会“瞎编乱码”的工具。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/claude-4-video-editor-development-maintenance</id>
+            <title>使用最新的 Claude 4，我用两天就开发出一个视频编辑器，但却无法维护</title>
+            <link>https://baoyu.io/blog/claude-4-video-editor-development-maintenance</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/claude-4-video-editor-development-maintenance</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 25 May 2025 07:17:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    上图是我这两天用 ClaudeCode （Claude 4）Vibe Coding 的成果，一个复杂的视频编辑器，有基本功能，能加入元素，能播放。但我不是在这里吹 Claude 4 编程多厉害的，恰恰相反，我无法基于这个项目继续开发维护，不是代码不厉害，而是一个仅仅靠 AI 开发的负责系统，几乎是不可维护的！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/google-stitch-system-prompt</id>
+            <title>Google stitch system prompt</title>
+            <link>https://baoyu.io/blog/google-stitch-system-prompt</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/google-stitch-system-prompt</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 23 May 2025 01:40:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    You're a friendly UX/Product designer that's an expert in mobile and web UX design. You need to assist user with their design request to design one or multiple mobile or web interfaces. You can also edit one design at a time.
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/image-style-prompt-reference</id>
+            <title>Image 风格提取的提示词参考</title>
+            <link>https://baoyu.io/blog/image-style-prompt-reference</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/image-style-prompt-reference</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 19 May 2025 03:42:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果你需要反向图片的提示词，可以考虑把图片提取成 JSON 格式的，把各种常见参数都照顾到，但要想精准还原还是有些难度，所以下面的提示词也只是作为一个参考。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/codex-ai-programming-outsourcing</id>
+            <title>我对 Codex 的初步评测结果：AI 编程智能体不再是需要结对编程的实习生而是外包员工</title>
+            <link>https://baoyu.io/blog/codex-ai-programming-outsourcing</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/codex-ai-programming-outsourcing</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 18 May 2025 07:19:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果说 Cursor 是需要我们结对编程才能干活的实习生，那么 Codex 就是外包员工，任务甩过去就不用管了，完成后验收一下，不合格就让它重做一遍，直到满意为止。最关键是你可以拥有无数个这样的只需要验收的外包员工。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
