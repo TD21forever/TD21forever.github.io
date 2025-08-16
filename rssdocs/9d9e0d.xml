@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68a0341309198084b38a0ee6</id>
+            <title>AI探索站 08月16日</title>
+            <link>https://m.okjike.com/originalPosts/68a0341309198084b38a0ee6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68a0341309198084b38a0ee6</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 16 Aug 2025 07:32:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    忠诚不绝对，就是绝对不忠诚。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689ea0d8e3c948a5ca2dbeec</id>
+            <title>AI探索站 08月15日</title>
+            <link>https://m.okjike.com/originalPosts/689ea0d8e3c948a5ca2dbeec</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689ea0d8e3c948a5ca2dbeec</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 15 Aug 2025 02:52:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    可以在魔搭上训练 Qwen Image 的 LoRA 了，几张就可以出很好的效果。<br /><br />训练完全免费。训练前可以选择是否对社区开源，完成后可以在魔搭的服务器上使用，也可以自己下下来用。<br /><br />能给图像模型补充其不具备的知识，甚至可以是排版的 Lora.<br /><br />▶ 魔搭训练地址：modelscope.cn/aigc/modelTraining<br />▶ Qwen LoRA 库：modelscope.cn/aigc/models?filter=QWEN_IMAGE_20_B&amp;modelType=LoRA&amp;page=1<br /><br />图二是训练的豹猫 lora, 数据集来源一只叫萝卜的小猫。之前做豹猫的图老是出豹子，有了 lora 效果好多了。<br /><br />图三是@Simon阿文  做的一套艺术家小卡，感觉能够让模型学会指定排版真的会很有想象空间。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689e0ba59fcca3ed1f339599</id>
+            <title>AI探索站 08月14日</title>
+            <link>https://m.okjike.com/originalPosts/689e0ba59fcca3ed1f339599</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689e0ba59fcca3ed1f339599</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 14 Aug 2025 16:15:33 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我真是求求不要瞎鸡儿用AI写文章了，一个句式翻来覆去的用真是看吐了，货真价实的比特废品。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689ddd9bf00fd49661ae6dd6</id>
+            <title>AI探索站 08月14日</title>
+            <link>https://m.okjike.com/originalPosts/689ddd9bf00fd49661ae6dd6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689ddd9bf00fd49661ae6dd6</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 14 Aug 2025 12:59:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天见了偶像——Optiver 创始人老爷子，荷兰首富，全球第一做市商、高频量化王者，比西蒙斯更会赚钱的人，1000人的in house trading每天几亿利润。老爷子非常喜欢Bobby，即将和RockFlow在AI agent全方位深入合作。他说：“我朋友跟我说，一定要见见这个有交易天赋的女生，你们背景很像，你们会很喜欢彼此“。今天被偶像点赞，是这几年最开心的事情了🥰
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689da784acee2860be464955</id>
+            <title>AI探索站 08月14日</title>
+            <link>https://m.okjike.com/originalPosts/689da784acee2860be464955</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689da784acee2860be464955</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 14 Aug 2025 09:08:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    试了一下昨天这个海外产品 MuleRun，发现很牛啊。<br /><br />从理念和效果上看都很厉害，感觉 Agent 产品要有新品类了。<br /><br />我眼睁睁看这个 AI 帮我打完了星穹铁道的每日任务。<br /><br />这个最强的核心能力是，每个用户都会有一个完整的虚拟机可以运行 Agent 帮你操作里面的软件，不只是浏览器。<br /><br />Agent 创建者可以把完成任务的环境建好，用户就能直接用这些自动化的 Agent。<br /><br />不是 Manus 那种你只能看到有限文件和界面的，你甚至可以自己操作里面的 Windows 电脑，这样想象力就丰富超级多了，Agent 终于拜托了 Office 三件套和网页生成。<br /><br />他可以帮你自动做游戏的日常，能帮你用 Blender 建模。里面甚至还有帮你自动打崩坏星穹铁道的每日任务的 Agent 。<br /><br />我亲眼看着他找到游戏的图标启动引导我登录之后开始自己操作角色和界面打对应的日常任务，太省心了，而且这个不死板，你可以指定任务完成的顺序和轮数以及完成哪些任务。<br /><br />我还用里面的 Blender Agent 让他创建了一个灯塔模型。<br /><br />里面还有帮你做视频的以及刷评论作图的 Agent，要是有邀请可以试试，很好玩。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689b192c63d0ccf3150275c8</id>
+            <title>AI探索站 08月12日</title>
+            <link>https://m.okjike.com/originalPosts/689b192c63d0ccf3150275c8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689b192c63d0ccf3150275c8</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 12 Aug 2025 10:36:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    试了一下扣子空间新增的设计能力<br /><br />这个一键生成公众号文章图片、文字素材并且排版的能力太屌了<br /><br />而且支持一键复刻和生成带很多文字的小红书封面完全不用写提示。<br /><br />🧵下面是我发现的一些玩法和功能介绍<br /><br />首先是即使在设计模式下，扣子空间依然是可以调用搜索功能的。<br />这样你就能批量生产那种小红书常见的很有设计感的不同品类知识卡片，另外他也可以参考你上传的图片的排版帮你基于新的内容生成图片。<br />比如这里我就找了一个健康类的卡片让他帮我生成一个养狗须知的宠物类知识卡片。<br /><br />然后我就想这个参考能不能做带人物的呢，于是就找了一个排版的参考一个人物照片，让他生成新的封面图。<br />本来我就是试一下，没想到他能搞定的。<br />他居然直接把第二张图的人像扣了出来加上了描边，而且放到了新生成的图片上，太牛了这个，大家以后想做类似封面可以参考我这个玩法。<br /><br />然后我试了一下让他出一些连续的剧情图片，比如我找了一个小说的前两张然后让扣子空间生成连续的漫画。<br />以往生成漫画的时候由于小字比较多，都是图片生成之后再手动加文字，很麻烦，扣子空间的强大文字能力可以连文字和图像一起搞定，而且他还会自己处理提示词，你只需要简单提要求就行。<br /><br />最后就是这次发现的最吊的功能了，他可以直出排版好的公众号文章，而且里面连素材图和文本的排版都搞定了。<br />来看一下结果，看到的时候我都惊了，他真的生成了这个文章里面的所有素材图和文案，而且把这些素材图和文案排版成了一个视觉信息很丰富的公众号文章。<br />这个时候你只需要点击右侧的公众号图标就可以一键复制，直接粘贴到公众号编辑器的时候图片和排版都跟预览的一致，直接发布就可以了。<br /><br />然后我们再看看他在最基础的提示词下，就是我只说我的文字内容，完全不管设计他能做成什么样。<br />可以看到这些日常生活中各行业常见的设计需求他都完成的很好。<br />而且扣子空间这次不知道做了啥骚操作，即使图片里面的小字也超级清晰。<br />这里就有了一个非常大的商机和认知套利空间，比如你可以去任何能接触到有设计需求但是预算不到的用户的地方宣传，然后用扣子空间出图，然后用极低的价格或者搭配其他服务销售给他们，这部分需求非常强烈。<br /><br />扣子空间直接生成的图片已经不错了，但是我们肯定会有一些修改需求，比如有个字错了，或者说想要图片变得清晰一些，这些扣子空间也是支持的，而且都非常实用和精准。<br />你可以在扣子生成图片预览窗口的上面找到这些功能。<br />无痕改字是这里面最强的功能，我们之前在其他产品上生成带文字图片的时候经常遇到，这张图特别好就是某个字错了，这时候非常可惜，想改对非常难。<br />但还扣子空间这个改字非常强大，基本改就有，涂抹一下，输入想要改的字，字体和原来的还是一致，而且新生成的文字也都是对的。<br /><br />上面就是这次扣子空间设计能力的测试和我发掘的玩法了。<br />我之前常说 80 老太都能操作，扣子空间这个设计能力真的达到了这个需求，加个语音输入说句话就行，可以说日常的设计需求 100% 0 门槛化了。<br />我这里说的日常设计需求，不是我们所理解的电商或者互联网运营设计，而是每一个不会设计的普通人，比如小红书发个简单的帖子、为自己的小店整一个招聘海报或者小区物业需要个简单的报告。<br />其实这些人日常也是需要设计的，只是以前设计师太贵，而且沟通成本很高，AI 来了之后又得需要付费和找提示词，非常麻烦。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689b0806ba4e69f5b2cf3a2f</id>
+            <title>AI探索站 08月12日</title>
+            <link>https://m.okjike.com/originalPosts/689b0806ba4e69f5b2cf3a2f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689b0806ba4e69f5b2cf3a2f</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 12 Aug 2025 09:23:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    遇到了一个有趣的问题，正好落在 AI 模型的能力边界处：试证明不可能把平面分成无穷个圆的无交并。<br /><br />在我尝试的所有模型里，只有 GPT 5 thinking model 成功做了出来（虽然花了点时间）。<br /><br />有趣的不是这个结论，而是观察它们的思路。所有失败的模型都有个共同点：它们的思考基本上是从文字到文字的。它们会调用自己脑海中各种已有的定理和知识，然后漫无目的地试图拼凑出一个证明，但所有这些定理，不管是拓扑的还是几何的还是测度的，对它们来说都是纯粹字面意义上的陈述。Qwen 的思考过程最典型：它滔滔不绝想了很久，但很显然从头到尾它都并不真的理解它在说什么。圆也罢，开集闭集也罢，Baire 纲定理也罢，对它来说都是纯粹的概念，给人的感觉是它甚至并不真的知道「圆是圆的」。<br /><br />微妙之处在于，这种「没有几何直觉的几何思考」在某些时候其实未必是一种劣势。现代数学早已挣脱了对三维现实想象的依赖，大部份数学思考本来也确实是在纯粹的概念思辨空间中进行（特别是当问题进入代数乃至范畴论的领域的时候，这时从概念到概念的思考就变成了一种必然）。有的时候，几何直觉甚至反而会成为一种束缚，特别是当思考高维空间的时候，基于低维现实的直观常常是有误导性的。在这些问题上，AI 的「盲目」反而带来了自由，使得它不必受困于视觉直觉。——当然，人类的视觉直觉可能会渗透进人类的文本语料里，在某种程度上「污染」AI，但这是另一个问题。<br /><br />然而对原问题来说，因为这是一个低维问题，直觉在这里不但有用，而且能大大缩短思考搜索的难度。在这一点上，一个把圆只作为抽象概念来理解的 AI 就会有巨大的劣势，因为它无法享受到几何直觉带来的跳步。这种直觉使得人可以一眼「看出」关键的构造，而这种构造在文本层面被搜索出来是困难的。<br /><br />考虑到 AI 的应用毕竟大多数情况下还是为了解决世界现实问题而不是思考高维几何，有几何直觉的 AI 会在大多数问题上显得聪明得多。于是一个现实问题是，这种直觉是只有依赖多模态的训练才能获取，还是可以通过精巧的文本训练就能实现？这有点像是 AI 领域的玛丽房间问题。这是一个经典的知识论思想实验：一个从出生就生活在黑白房间里、精通颜色物理与神经机制的科学家玛丽，当她第一次走出房间看到红色时，她是否获得了新的知识？<br /><br />今天大多数 AI 领域的困难都可以归结于此。人类是自己感官的奴隶，我们听到、看到、闻到，我们体会身体激素的涨落，我们想象、困惑、愤怒，然后试图把这一切投射在文字空间里。AI 则正好相反，它们在文字里理解这一切，但最终需要努力地——有时候是徒劳地——明白，一个圆在什么意义上是圆的。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68956c79369da0a84be8c3a2</id>
+            <title>AI探索站 08月08日</title>
+            <link>https://m.okjike.com/originalPosts/68956c79369da0a84be8c3a2</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68956c79369da0a84be8c3a2</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 08 Aug 2025 03:18:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ✨ GPT-5 初体验<br /><br />作为ChatGPT 的深度同行者，我在GPT-5 发布这个重要节点，选择了最朴素的交流方式—— 模拟大学生询问它有什么特别之处？ GPT-5  以极快的速度输出了一张场景匹配表，隐约揭示出我们正站在新的分水岭。<br /><br />随后，想到了ChatGPT最新Study模式正风靡全球，想看看它会怎么介绍给新时代的中学生们；让GPT-5 写了欢迎信进行自我介绍；GPT-5 非常快、而5 Pro的缜密和深度令人印象相当深刻。<br /><br />回想起任天堂刚刚发布了一个独立游戏的直面会还没看，要不先让Agent 帮我梳理一下？  GPT-5 在 Agent 模式花了18分钟，列出了一份详实的清单：好家伙，21个新游、熟悉面孔不多；不过铲子骑士家出的新作《挖掘者米娜》很期待呢<br /><br />打开Open AI 的GPT-5直播发布会，气氛依旧温暖、平等并充满人文气， 其中关于 GPT-5 语音模式的对话意外相当亲切；于是拿起手机端也聊了几句，更智能、也更个人化（调皮），我知道以后的日子里更离不开它了。<br /><br /> GPT-5的发布会如老朋友般松弛，这与当年的苹果式发布会炫酷创新形成鲜明反差。任何一个保持开放、拥抱变化的AI 创造者来说，无论过去三年多么的波澜壮阔，也会在这个时刻有那么点怀旧；Open AI 也找来了早期员工分享2022年底正式发布前，内部还称呼这个产品还叫Chat with GPT的往事，不疾不徐、简约克制。<br /><br />然而，新时代的改变又是极为剧烈的：过去我们与AI对话，现在我们委托AI执行；每天数十个任务ChatGPT Agents ——做研究、写创意文案、完成海量设计和编码。这个全能助手已经彻底融入工作和生活，比移动设备更加亲密和自然。 <br /><br />我知道无法在短短几十分钟揭示GPT-5的全貌， 便让它以自己最擅长的方式—— Deep Research ——进行一次深度回顾。<br /><br />三年巨浪，我们从旁观者成为创造者。这不只是技术进步的见证，更是每个深度用户内心变迁的缩影。 相信你也能在这个回顾中找到自己的心路历程。Enjoy～<br /><br />《从ChatGPT到GPT-5：三年AI革命的全景回顾》<br />https://chatgpt.com/s/dr_6895633264248191913fdb1138eaf853
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68943e5d723686893f13022d</id>
+            <title>AI探索站 08月07日</title>
+            <link>https://m.okjike.com/originalPosts/68943e5d723686893f13022d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68943e5d723686893f13022d</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 07 Aug 2025 05:49:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    感觉 OpenAI 最近开源的 gpt-oss 真的被严重低估了。它虽然不是最聪明的，但在使用场景和定位上是非常成功的（服了 Sam 老六）。<br /><br />首先最小尺寸的 gpt-oss:20b 绝对是你在 Mac 或者家用电脑上就能跑的最好模型之一（对我来说是“唯一”）。它是那种少有的“真正能用”的本地模型，对话体验非常好，持续对话下来非常稳定、不会出现输出混乱崩溃的问题。大部分早期能跑的本地模型是不具备的。<br /><br />它的尺寸刚刚好，不管是模型文件还是运行显/内存都非常小（大约是 12～16GB），大部分电脑都能使用。在我的 M4 Mac 上能做到 70token/秒 的输出，在我的 19 年老 Intel 的 Mac 上能做到大约 1 token/秒的输出。整体性能上非常出色。<br /><br />最为重要的是，虽然硬件要求非常低，但它的智能表现出乎意外的好。我把个人最近一些非编程类的问题同时发给 gpt-oss:20b 和元宝（DeepSeek R1），不管是回答速度还是回答质量，我更喜欢 gpt-oss:20b 多一点。这不是严谨的对比测试，我也只尝试了五、六个问题，但考虑到硬件要求，这样的回答效果已经让我感到满意了。<br /><br />如果你的对话需求非常简单，或者想要一个完全离线、隐私自由的本地模型，gpt-oss:20b 绝对是一个简单可靠的选择。<br /><br />其次是最大尺寸的 gpt-oss:120b，OpenAI 号称接近 o4-mini 的水平。理论上它也能在 Mac 或者家用电脑上运行起来。我记得大约需要 60～80 GB 的显/内存，对我的 Mac 来说非常吃力。如果电脑硬件足够强、或者并行几个 Mac Mini 跑起来问题应该不大，这就能拥有一个接近 o4-mini 水平的离线本地模型了。<br /><br />gpt-oss:120b 另外一个被低估的意义是在价格上。在 together.ai 上这个模型的价格低至 $0.15 / $0.60，相比之下 DeepSeek V3（注意是 V3 不是 R1）的价格是 $0.27 / $1.10。也就是说，这么一个号称性能接近 o4-mini 的模型，价格只需要 DeepSeek V3 的一半！！据我所知这样的价格已经是 LLM 中的最低档，类似价格的是 gpt-4o-nano 和 gemini 2.5 flash-lite。<br /><br />我现在非常怀疑 OpenAI 这波就是冲着 DeepSeek 来的……<br /><br />另外我还发现了 gpt-oss 非常容易破解，比其他开源模型简单很多。容易到什么程度呢，我可以在大约三次对话内让它回答各种非法问题。不过这个话题不适合在这里讨论了……
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/689386c4369da0a84bc0d4c6</id>
+            <title>AI探索站 08月06日</title>
+            <link>https://m.okjike.com/originalPosts/689386c4369da0a84bc0d4c6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/689386c4369da0a84bc0d4c6</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 06 Aug 2025 16:45:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    👀Gemini Storybook玩了，整体内容输出质量很高，故事情节连贯性和配图质量都符合预期。提了一个指令是“做一个梵高和毕加索绘画风格结合的插图（图7）”，生成物的确融入了毕加索立体主义时期的创作风格。<br /><br />主要是生成的真快，可以想象在哄娃睡觉这个场景下，面对不停提需求的娃，崩溃的家长可以直接打开Gemini寻求帮助了。<br /><br />📝prompt:<br />Using Vincent van Gogh artistic style to create a storybook about Pablo Picasso enthusiastically tries to convince van Gogh to collaboratively draw and commercialize their collaborative work through art dealers. The story should be open ending about the fate of van Gogh and should be based on historical facts. At least one picture in the storybook should demonstrate a collaborative work of van Gogh and Picasso. Targeted readers are females between 20-35 years old.
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
