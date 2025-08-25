@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>36氪 - 最新资讯频道</title>
+        <link>https://www.36kr.com/information/web_news</link>
+        
+        <item>
+            <id>https://www.36kr.com/p/3438173266398594</id>
+            <title>「巨硬」真的来了，马斯克硬刚微软，官宣新公司：要靠AI“复刻”整个微软</title>
+            <link>https://www.36kr.com/p/3438173266398594</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3438173266398594</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Aug 2025 12:04:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 马斯克,Macrohard,AI软件公司,微软
+<br>
+<br>
+总结: 马斯克正式宣布旗下xAI将孵化一家名为Macrohard的全新AI软件公司。该项目并非玩笑，旨在用纯粹由AI Agent驱动的模式挑战微软。其核心逻辑是通过多智能体协作，用AI模拟微软的软件产品和订阅服务。Macrohard将依靠数百个专用Agent分别负责编程、图像生成等任务，并由Grok调度。该公司商标申请范围宽泛，几乎覆盖微软所有产品线。其背后算力支柱预计是xAI的超级计算机Colossus 2。这标志着马斯克将与微软展开实打实的商业对抗。 </div>
+                        <hr>
+                    
+                    <p>就 当 大家还在消化 OpenAI、 谷歌 、 Meta &nbsp;近期 在 AI 领域的 各种 新动态时，马斯克又一次抢走了聚光灯——近日 ， 他 正式宣布旗下 xAI 将孵化一间全新的 AI 软件公司 ， 名叫 &nbsp;<strong>Macrohard（巨硬）</strong> 。&nbsp;</p>
+  <p>光听名字，你可能会以为这只是一个马斯克式的“科技梗”，对着微软（Microsoft）开玩笑。但仔细看下去，你会发现，这一次他并非调侃，而是要认真试图用纯粹由 AI&nbsp;Agent&nbsp;驱动的软件公司，去挑战全球最强的软件帝国。</p>
+  <p>马斯克在 X&nbsp;上强调：“<strong>名字虽然有点搞笑，但项目绝对是真的。</strong>”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_928158f46df746419678db443cc492d8@46958_oswg934946oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>从一句玩笑，到正式立项</strong></h2>
+  <p>其实，Macrohard 这个名字并不是今天才出现。<strong>早在 2021 年，马斯克就曾在 X 上发过一句玩笑：“Macrohard &gt;&gt; Microsoft”</strong>。当时没人当真，只觉得是马斯克在“怼”比尔·盖茨。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_74e3549477424b45845001f94b30f83f@46958_oswg27439oswg464oswg250_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>时间快进到 2024 年 7 月，微软发生了一次全球性宕机事故，导致数百万用户服务中断。马斯克又趁机翻出这条旧帖进行调侃。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_2d55358016a34f3ab8c8afa1f3e05bf2@46958_oswg45460oswg692oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但谁也没想到，一年之后，马斯克真的把这句玩笑落到了实处。</p>
+  <p>今年&nbsp;8 月 22 日，他在 X 上宣布：“<strong>加入 @xAI，一起打造一家纯粹的 AI 软件公司</strong>，叫 Macrohard。这名字虽然有点搞笑，但项目绝对真实！”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_db83351b82e74a13b161327b6d9e0d1d@46958_oswg157379oswg812oswg482_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>更关键的是，此前有报道称，早在 8 月 1 日，Macrohard 的商标申请就已递交到美国专利与商标局（USPTO）了——这表明马斯克已经将其推向实操层面，而不是一句随口的玩笑。</p>
+  <h2><strong>多 Agent 协作，马斯克要用 AI 来“复刻”微软</strong></h2>
+  <p>正如其推文中所说，马斯克打造&nbsp;Macrohard&nbsp;的核心逻辑是：</p>
+  <p>微软这样的软件公司本身并不生产硬件，而是通过软件产品和订阅服务赚钱——既然如此，那么<strong>在理论上完全可以用 AI 来“模拟”一家微软</strong>。</p>
+  <p>换句话说，Macrohard 的定位是：微软能做的，AI 也能做，而且只靠 AI。</p>
+  <p>事实上，马斯克早在 7 月就已经为这个计划埋下伏笔。当时他透露，<strong>xAI 正在打造一个多智能体（multi-agent）AI 软件公司</strong>，其中：</p>
+  <p>●&nbsp;核心引擎：由 xAI 的聊天机器人 Grok 负责调度；</p>
+  <p>●&nbsp;数百个专用&nbsp;Agent：分别负责编程、图像/视频生成与理解，协同工作；</p>
+  <p>●&nbsp;虚拟用户交互：Agent&nbsp;可在虚拟机中模拟人类使用软件，反复测试，直到结果优秀。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_8071f03bfbb04605bfdf57bf4b44c2e5@46958_oswg217303oswg829oswg593_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>当时，马斯克甚至<strong>在推文里“卖关子”</strong>：“这是一个宏大的挑战（macro challenge），也是一个难题（hard problem），竞争会非常激烈！你能猜到这个公司的名字吗？”</p>
+  <p>如今答案揭晓：就是&nbsp;Macrohard。</p>
+  <p>除此之外，有外媒称&nbsp;xAI&nbsp;在向&nbsp;USPTO&nbsp;递交的&nbsp;Macrohard 商标申请中，其涉及范围相当宽泛，包括：语音与文本生成软件、用于设计/编码的AI工具、对话型 AI 聊天机器人、AI&nbsp;驱动的视频游戏开发等等。</p>
+  <p>这不禁让人联想到微软的产品矩阵：Office、Teams、Copilot、Visual Studio、Xbox……几乎每一条产品线，Macrohard 都似乎要找到一个 AI 版本的替代品——这也意味着，在马斯克的设想中，Macrohard 并非简单的“AI 聊天机器人升级版”，而是一个分布式、多&nbsp;Agent&nbsp;协作的 AI 工厂，并且剑指微软。</p>
+  <p>除了以上，目前马斯克几乎没有发布其他关于&nbsp;Macrohard&nbsp;的具体信息。</p>
+  <p>但要让数百个&nbsp;Agent&nbsp;同时运作，仅靠一个聊天机器人远远不够。故而有媒体猜测，<strong>Macrohard 背后的算力支柱，应该是 xAI 在美国孟菲斯建设的超级计算机集群 Colossus 2</strong>。</p>
+  <p>毕竟，在与&nbsp;OpenAI&nbsp;等竞争时，Colossus&nbsp;就是马斯克&nbsp;AI&nbsp;战略的关键组成部分。</p>
+  <p>此前马斯克已确认，Colossus 2 计划部署 100 万英伟达 GPU。按这个配置，其峰值算力预计将达 2000-4000 EFLOPS，较当前 20 万 GPU 的 Colossus（800 EFLOPS）可实现五倍跃升。</p>
+  <h2><strong>写在最后：玩笑还是未来？</strong></h2>
+  <p>毫无疑问，微软是当前 AI 领域的重要玩家之一。过去几年，它先后向 OpenAI 投资超过百亿美元，并将 GPT 模型深度集成进 Office 办公套件和 Windows 系统，试图让 Copilot 成为日常软件使用的标配。</p>
+  <p>而马斯克则是 OpenAI 的长期批评者，他多次指责该公司与微软的合作背离了最初的「开源与公益」愿景。与此同时，他与比尔·盖茨之间的隔阂也早就不是秘密，曾多次公开与他“互怼”。</p>
+  <p>在此背景下，Macrohard 的诞生，更像是马斯克将这场口水战，转化为实打实的商业对抗。</p>
+  <p>未来，Macrohard&nbsp;能否真的做到“用 AI 复制微软”？目前还没人能给出答案。但有一点是确定的：马斯克正在用自己的方式，给整个软件行业抛出一个最激进的问题——<strong>如果微软这样的软件公司能被 AI 完全模拟，那软件产业的未来会是什么样？</strong></p>
+  <p>参考链接：</p>
+  <p>https://www.teslarati.com/elon-musk-targets-bill-gates-microsoft-new-ai-venture-macrohard/</p>
+  <p>https://www.ndtv.com/world-news/elon-musk-takes-on-bill-gates-microsoft-with-macrohard-what-it-is-9145022</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/kTG9-maol6-JEt9q8didrQ" rel="noopener noreferrer nofollow" target="_blank">“CSDN”</a>，整理：郑丽媛&nbsp;，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3438127741062533</id>
+            <title>Github的十字路口 ：并入微软AI，是开源精神的终结吗？</title>
+            <link>https://www.36kr.com/p/3438127741062533</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3438127741062533</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Aug 2025 11:18:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: GitHub, 微软, AI整合, 开源社区  
+<br>
+<br>
+总结: GitHub CEO Thomas Dohmke宣布卸任，微软宣布不会任命继任者，并将GitHub并入其Core AI部门。这一举措引发了对GitHub未来独立性和开源文化能否保持的担忧。GitHub自2018年被微软收购后一直独立运营，但现在将直接向微软AI部门汇报。开发者担心微软可能将平台数据用于AI训练，并限制对公共代码的访问。尽管GitHub的Copilot曾是领先的AI编程工具，但面临市场竞争压力。微软此举旨在强化AI工具整合，但开源社区对其保持开放性和中立性存疑。 </div>
+                        <hr>
+                    
+                    <p>8月11日，Github CEO Thomas Dohmke宣布卸任，而后微软宣布不会有继任者。</p>
+  <p>随之到来的，是Github宣布并入微软的Core AI部门。这一举措，在科技界引起轩然大波。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_f8cbd19c49054898b1b6b839b3851b91@46958_oswg209689oswg950oswg535_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>自2018年被微软收购以来，Github一直保持独立运营，并始终坚持自己的开源文化。</p>
+  <p>而如今这一举动不得不让开发者们发出疑问，Github在未来是否还能继续保持独立？这个开源乌托邦是否终将迎来落幕？</p>
+  <p>本期文章，我们就来聊聊，这个全球开发者们的理想社区为何行至于此？而微软又为何走出这步？AI的发展，是否必然意味着开源精神的终结？</p>
+  <h2><strong>01 Github并入微软，独立性的挑战？</strong></h2>
+  <p>八年前，一个名叫Thomas Dohmke的程序员在Reddit上发帖：我是Thomas Dohmke，HockeyApp的联合创始人。我们的软件旨在方便开发者进行移动App的beta测试、收集崩溃报告。</p>
+  <p>在这条帖子的评论里，聚集了一大批热情的开发者。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_df86dbd274c14ab28c4a31bebe4fc9e3@46958_oswg516273oswg951oswg536_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>当时，他的公司已经被微软收购，成为微软移动业务中的一环。Thomas本人也加入了微软，并在2021年成为了Github的首席产品官。</p>
+  <p>几个月后，CEO Nat Friedman宣布离职，并在推特上表示要“回归自己的创业初心”，而Thomas则代替Friedman成为了Github的CEO。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_a31aceb5cd3e49e4ab288cfe94e86f15@46958_oswg300247oswg955oswg509_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不过，今年8月11日，Thomas也突然宣布卸任。在博客上，他用母语德语向Github及其背后庞大的开发者社区道别，并说了和当年Friedman一样的话：我的创业初心始终牵动着我，所以我决定离开Github，再次创业。<strong>但让所有人措手不及的是，这次Github却没有任命新的CEO。</strong></p>
+  <p>微软CoreAI部门的主管Jay Parikh宣布，Github将不再独立运营，而是完全融入今年一月成立的CoreAI。</p>
+  <p>这具体体现在两项组织结构变化：第一，微软开发者部门主管Julia Liuson将负责监督GitHub的营收、工程及支持工作。其次，GitHub首席产品官Mario Rodriguez，将向微软AI平台副总裁Asha Sharma汇报。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_e35b32724cb34fcea26336586dd1791f@46958_oswg250313oswg950oswg537_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>很多人看到这则新闻的时候才发现，自2018年微软收购Github以来，已经过去七年了。</p>
+  <p>说实话，这七年里微软的存在感一直很弱。Github作为一个子公司，始终是独立运营，并长期坚持自己的企业文化。这种文化，和“开源”密不可分。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_9b4f1c046fc44a01927f3d2c5732fef1@46958_oswg289602oswg952oswg529_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <blockquote>
+   <p><strong>Jasper Zhang</strong></p>
+   <p><strong>Hyperbolic Labs CEO和联合创始人：</strong></p>
+   <p>所以在我看来，Github不单是一个平台，它其实是一个社区，能够让各种相信开源这个运动的开发者能够一起协作，然后让大家更好的去推进软件的发展。</p>
+  </blockquote>
+  <p>Jasper Zhang是Hyperbolic的创始人及CEO，他的产品旨在为新兴的AI项目提供灵活和高性价比的算力。</p>
+  <p>他告诉我们，<strong>开发者主要担心的是，Github在未来是否还能继续保持独立？</strong></p>
+  <p>这样的担心来自于两个方面：一方面，是Github的商业决策是否会更加贴近微软的Azure和AI战略，在基础设施的选择上更加依赖微软，并将原本的免费功能付费化。另一方面，在各大实验室也面临AGI竞争的情况下，开发者担心微软是否会使用平台上大家上传的代码去训练自己的AI。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_ec6127ebaa064b1ebd669e6b4b51cd6b@46958_oswg202699oswg1080oswg413_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但与此同时，也有人乐观地认为，这次架构调整会进一步强化AI工具的能力，让开发过程更便捷。</p>
+  <p>那么，微软为什么要走这一步棋？Github及其开发者的未来又将如何？</p>
+  <p>要解答这个问题，我们先来回顾一下Github的历史。</p>
+  <h2><strong>02 Github的历史，社区属性和开源精神</strong></h2>
+  <p><strong>Github的故事，要追溯到1991年。</strong></p>
+  <p><strong>那年，芬兰裔美国工程师Linus Torvalds创建了Linux内核，也就是全球无数服务器、安卓手机和超级计算机都在运行的核心系统。</strong></p>
+  <p><strong>2005年，他写了Git这个版本控制系统，作为Linux的官方版本控制工具。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_e764688775f1404a8de33580aff2af21@46958_oswg353116oswg950oswg533_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>所谓版本控制，主要用来追踪和管理代码变更，不仅能让每个开发者的电脑上都保留完整的代码历史，还方便多人协作。</strong></p>
+  <p><strong>但一开始的Git几乎全是命令行操作，使用之前要搞懂很多术语，对于初学者和非核心开发者来说门槛很高。于是，Github诞生了。</strong></p>
+  <p><strong>2007年，一名叫做Chris Wanstrath的年轻人从大学辍学，搬到了旧金山，在线上网站CNET当一名网页工程师，但他同时也在开源社区里十分活跃。</strong></p>
+  <p><strong>在旧金山市中心的一家酒吧里，他遇到了同样熟悉开源和Ruby开发语言的Tom Preston-Werner。两人都看到了Git的潜力，于是一拍即合，决定做一个让Git更便于使用，且开源友好的工具。</strong></p>
+  <p><strong>这个工具，叫做Logic Awesome，后来改名为更直观的Github。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_417cc92e59ef484f8ce371c1b6046864@46958_oswg539672oswg953oswg537_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>几个月后，Chris在CNET的前同事PJ Hyett也加入了这个团队，三人在2008年4月推出了Beta版Github。</strong></p>
+  <p><strong>Github并不是第一个Git托管方案，但却比之前的任何一个方案都要简单、直观和有趣：它不仅是一个便于使用、界面美观的网页版Git仓库，还带有社交功能，比如用户资料、关注、和动态信息流，让每个用户都能看到公共仓库上的编程协作和成果。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_b6d2a1175ca949069fa19520568db3fe@46958_oswg509833oswg950oswg539_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>一开始，Github先在Ruby开发者中流行了起来，后来扩展到了更广泛的开源社区。</strong></p>
+  <p><strong>刚才我们说到的免费公共仓库吸引了开源项目，而需要付费的私密仓库则开始吸引企业客户。</strong></p>
+  <p><strong>在2010年代，也就是Marc Andreessen口中“软件正在吃掉世界”的那段时间，Github成了软件公司追捧的工具，Andreessen的a16z也给Github投了1亿美元，赌的就是Github会成为下一个微软或者甲骨文。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_30e1e2878c8a41a18e58a164479ddf47@46958_oswg281845oswg950oswg542_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>后来的故事，我们就都知道了。Github从一个酒吧里诞生的业余项目变成了全世界最大的源代码托管平台。</strong></p>
+  <p><strong>可以说，几乎所有的现代主流开源项目都在Github上发布或托管过。这就包括编程语言Python和Rust、开源深度学习框架Tensorflow和PyTorch，以及支持软件部署的基础设施Docker和Terraform等等。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_e008189487344f1c9cba5b85fbb63b35@46958_oswg136482oswg947oswg531_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>2018年，微软以75亿美元收购了Github。</strong></p>
+  <p><strong>其实当时，很多用户就对Github是否还能保持作为第三方平台的中立性提出了质疑。但当时，微软向开发者承诺，Github将保持独立运营，不干涉其开放性。</strong></p>
+  <p><strong>为此，微软还聘请了在科技界广受尊重的Nat Friedman，最终Github依旧是深深根植于热爱编程的开发者和开源社区当中的平台。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_d5f0196b37864769bb77ff1984dfba2b@46958_oswg240605oswg946oswg534_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>03 Copilot，Github和微软的赌注</strong></h2>
+  <p><strong>事实证明，微软收购Github的几年中，确实做到了当时的承诺。</strong></p>
+  <p><strong>开源生态依旧繁荣，Github也保持了相对独立，没有出现优先服务微软的Azure、Visual Studio等生态的情况，也没有出现激进的收费、广告以及与产品的强绑定。</strong></p>
+  <p><strong>甚至在2021年，在Thomas麾下的Github还推出了Copilot这样的重磅创新，成为了首个被大规模应用的AI编程助手。</strong></p>
+  <p><strong>2022年6月，Github向所有个人用户开放了Copilot，这甚至比GPT 3.5的出现还早几个月。</strong></p>
+  <p><strong>在六月的一次采访中，Thomas透露，早在2020年GPT-3发布后，Gitbhub就通过微软和OpenAI的合作获得了早期访问权限，并发现GPT-3能用多种编程语言写出不错的代码，随后OpenAI针对编程场景微调出Codex模型，而Github也发布了Copilot，几个月就突破了100万用户。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_fa10c36236b848c6abec9430d8cc772b@46958_oswg282693oswg950oswg538_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <blockquote>
+   <p><strong>Thomas Dohmke&nbsp;</strong></p>
+   <p><strong>Github前CEO：</strong></p>
+   <p>我们和OpenAI一起意识到，GPT-3能够用多种编程语言写出相当不错的代码，而且不会混淆Python、Ruby和JavaScript的语法。这周有人问我最让我惊讶的是什么，我的回答就是即使没有内建编译器，它也能做到。</p>
+   <p>这项功能运行得非常好，所以我们很快就看到公司内部的Hubbers（GitHub 员工）开始使用这个工具，给出了非常高的评价，说“这个太棒了，我想一直用下去。”这并不是那种“管理层让你用但你其实并不想用”的情况。</p>
+  </blockquote>
+  <p><strong>虽然一开始Copilot让开发者非常惊艳，但是，随着AI的发展，编程助手很快成了各家大厂和初创公司的兵家必争之地。</strong></p>
+  <p><strong>尽管使用Github Copilot的人数依然很高，达到了2000万用户，但市场上也出现了其他更好用的产品。</strong></p>
+  <blockquote>
+   <p><strong>Jasper Zhang&nbsp;</strong></p>
+   <p><strong>Hyperbolic Labs CEO和联合创始人：</strong></p>
+   <p>慢慢的会有一些新的初创公司做类似的功能，因为本质上只要这个模型够好，你就可以通过做一个coding agent去解决问题，所以慢慢的像Cursor、Windsurf这些软件都发布了，Cursor就做的非常好，然后就把market share给抢过去了。</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_e09db777073942a590198ba8df5ca3c6@46958_oswg431673oswg1080oswg508_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>不少人猜测，这就是微软要把Github和CoreAI部门紧密结合的原因：在AI时代，Github最大的价值已经不是作为代码仓库而存在，而是Copilot这样的AI开发工具。</strong></p>
+  <p><strong>在Thomas的告别信中，他数次提到Copilot，表示“Github Copilot是继个人电脑之后，在软件开发领域最伟大的进展。”</strong></p>
+  <p><strong>而Satya Nadella也提到Copilot对AI的重要性，并在三个月前宣布开源Copilot，从而抢回市场份额。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_335fa3f5b1ac4fe294f9f32e81f70492@46958_oswg277946oswg949oswg536_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <blockquote>
+   <p><strong>Satya Nadella</strong></p>
+   <p><strong>Microsoft CEO：</strong></p>
+   <p>开源是GitHub的核心。现在我们正迈出下一大步。随着GitHub Copilot在VS Code中不断演进，AI已经成为编程过程中的核心部分，这也是为什么我们决定将Copilot在VS Code中开源。我们对此感到非常兴奋。</p>
+  </blockquote>
+  <p><strong>所以，微软此举是要让Github从“代码托管平台”彻底转型为“AI开发工具核心”，并把Copilot的经验和技术输送到整个微软的Copilot生态中。</strong></p>
+  <p><strong>Github Copilot的技术、用户反馈和生态数据都对整个微软的AI布局至关重要。通过最开始我们说的精简Github组织架构，直接对接微软的AI负责人，让微软能更好的统一资源投入。</strong></p>
+  <h2><strong>04 开发者的质疑和社区的未来</strong></h2>
+  <p><strong>但是，在微软野心勃勃的商业前景里，却并没有提到那些开源开发者们，也就是Github作为一个代码分享社区存在的意义。</strong></p>
+  <blockquote>
+   <p><strong>Jasper Zhang&nbsp;</strong></p>
+   <p><strong>Hyperbolic Labs CEO和联合创始人：</strong></p>
+   <p>但我觉得一个更大的担心是，Github会慢慢的不让其他的用户或开发者通过API去access（访问）这些public（公开）的数据。举个例子，在AI来临之前，reddit的用户可以直接通过API去读取平台上大部分的数据。甚至还有很多第三方的软件会调用这些API，让你通过第三方软件去聊天。</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_f0a385a3bfbf415fb4a127f04459aade@46958_oswg103497oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">来源：Reddit</p>
+  <p><strong>但如果大家看过两年前我们发的关于《从"loser文化"到"AI数据金矿"：美国贴吧Reddit的19年爱恨史，及新资本故事》，就会知道：在AI时代，Reddit变成了一座“数据金矿”，官方显然不愿意让第三方软件再免费获取这些数据，于是态度强硬地限制了API的使用。</strong></p>
+  <p><strong>现在人们担心，Github也会面临一样的命运。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_3209f76152b14d5ea28bab7300633ed9@46958_oswg76966oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <blockquote>
+   <p><strong>Jasper Zhang&nbsp;</strong></p>
+   <p><strong>Hyperbolic Labs CEO和联合创始人：</strong></p>
+   <p>一旦你的代码无法提供百分之百的access（访问），总是会带来一些局限。如果它是一个代码分享平台，但是却需要用户付费才能使用他人代码的话，就会带来不好的用户体验。</p>
+  </blockquote>
+  <p><strong>CEO的离开，象征着那个承载着开源与黑客精神的独立Github时代的落幕。</strong></p>
+  <p><strong>但话说回来，Github作为一个历史悠久、全球最大的开发者社区，要让用户舍弃现存的机制，搬移到其他开发者社区，几乎是不可能的事情。</strong></p>
+  <p><strong>通过刚才的分析我们也知道，对于微软来说，让Github成为微软AI版图的一部分不失为一个合理的举措。</strong></p>
+  <p><strong>但在这种情况下，微软还能否继续保持对开源精神的尊重和对开发者的开放性？这将是全球数千万开发者最关心的问题。</strong></p>
+  <p><strong>就像Satya Nadella自己说的：我们内部的组织架构，对我们的用户和竞争对手都没有任何意义。或许，正如十七年前那个旧金山酒吧里诞生的想法一样，Github的真正价值，不在于它属于谁，而在于它能否继续成为全世界开发者的共同家园。</strong></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/z9fEdNx_vwcv_Gx29b3eCw" rel="noopener noreferrer nofollow" target="_blank">“硅谷101”</a>，作者：Yiwen，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3438089104641412</id>
+            <title>一大批版号突然下发：173个创新高，腾讯网易三七B站在列，《逃离鸭科夫》过审了</title>
+            <link>https://www.36kr.com/p/3438089104641412</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3438089104641412</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 25 Aug 2025 11:12:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                        <div> 关键词: 游戏版号,国产游戏,进口游戏,审批信息
+<br>
+<br>
+总结: 国家新闻出版署于2025年8月25日发布了新一批游戏审批信息。国产游戏版号下发166个，以移动类别为主，多端产品趋势上升。进口游戏版号下发7个。截至8月，年内国产版号已达1050个，本月过审数量创下新高。进口版号下发频率增加但数量稳定。文中列举了本批次中部分知名厂商和产品，并提供了完整名单和一批版号审批信息的变更。 </div>
+                        <hr>
+                    
+                    <p>今天（8月25日），国家新闻出版署发布了《2025年8月份国产网络游戏审批信息》。</p>
+  <p>本批次共下发国产游戏版号166个，以申报类别划分：其中“移动”类别163款（含“移动-休闲益智”类别39款）、“客户端”类别19款、“游戏机”类别1款；此外，还有17款游戏同时拿到了“移动”类别和“客户端”类别的版号，可见多端产品的趋势在上升。</p>
+  <p>国产版号之外，今天还发布了新一批的进口游戏版号7个，其中6款为移动端版号、3款为客户端版号、2款同时拿到了移动端和客户端版号。</p>
+  <p>截至今年8月，年内已下发的国产游戏版号共计1050个。值得一提的是，如果从近一年的每月版号下发数量来看，可以发现版号的过审数量在阶段性增长，并在这个月创下了新高。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_95816ba090194657b777f70f9df07eee@000000_oswg76363oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而进口游戏版号方面，由于下发频率从过去的每两月一发转变为今年开始的每一月一发，因而在每月下发数量上没有明显的增长趋势，但也保持相对稳定。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_cd4d701f4f4d4528a42b61c480836440@000000_oswg72494oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>综合来看，在今天下发的新一批国产和进口游戏版号中，知名的厂商或产品包括：</p>
+  <p>国产游戏版号方面：</p>
+  <p>网易雷火《天下：万象》、灵犀《宗师之上》、三七互娱《超牛英雄》、B站《逃离鸭科夫》、雷霆《出动吧！库鲁》、益世界《九州百业录》、上海游卡《三国杀：智定乾坤》、友谊时光、《花与绯想》、广州谷得《烽火望长安》、蓝飞互娱《宝藏水族馆》、上海胖布丁《边缘空间》、深圳冰川《超能战机》、广州漫灵《大梦仙途》、成都卓杭《呼噜噜大冒险》、百度多酷《进化：开局是只史莱姆》、深圳鲤游《萌兽特攻队》、深圳奥玩《千机阵》、四三九九《弹弹小队》；</p>
+  <p>进口游戏版号方面：</p>
+  <p>腾讯《卡厄思梦境》、盛趣《大航海时代：起源》、B站《嘟嘟脸恶作剧》、成都奇侠互娱《三国志：王道天下》、深圳奥创《淘金历险记：克朗代克》、上海游斐《天之炼狱归来》。</p>
+  <p>值得一提的是，《卡厄思梦境》是由韩国Smilegate旗下曾研发《第七史诗》的SUPER CREATIVE团队开发的一款全新宇宙黑暗幻想肉鸽卡牌游戏。国服版本将由小明太极和腾讯游戏联合运营发行。</p>
+  <p>在游戏中，名为「卡厄思」的宇宙性灾难侵蚀所有行星，幸存者们离开行星，开启了方舟文明时代。玩家将作为「卡厄思」中的领航者、「梦境号」的舰长，带领伙伴们探索未知、消弭灾厄、寻找宇宙的真相。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_07d675eab7e049eba8d8f7a77eb05ae8@000000_oswg975227oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>以下为本批次版号的完整名单：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_292fbcfb4f3149a89010f28ab64952dc@000000_oswg279173oswg1080oswg747_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>最后，还有一批版号审批信息的变更：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20250825/v2_8ac60b20a5aa4a73b3d1537716af1504@000000_oswg642397oswg1080oswg1704_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&amp;mid=2651271915&amp;idx=1&amp;sn=90e9a81d93114e159479e7a41601687e&amp;chksm=bcc07a8edacc72fcd730f71a916fd72cae4686af6b8a710b3e2732ec72b045cc356a924e5394&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“手游那点事”（ID：sykong_com）</a>，作者：摸摸猫、零，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
