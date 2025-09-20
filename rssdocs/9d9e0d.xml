@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68cd2a586402636c2b8cc699</id>
+            <title>AI探索站 09月19日</title>
+            <link>https://m.okjike.com/originalPosts/68cd2a586402636c2b8cc699</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68cd2a586402636c2b8cc699</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 19 Sep 2025 10:03:04 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    艰难蠕动，前进一位
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68ccd3c21ffb5e6ad6bbc9ba</id>
+            <title>AI探索站 09月19日</title>
+            <link>https://m.okjike.com/originalPosts/68ccd3c21ffb5e6ad6bbc9ba</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68ccd3c21ffb5e6ad6bbc9ba</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 19 Sep 2025 03:53:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    现在很多人号召普通人学 AI，看内容都是 AI 的实现原理，大模型的搭建什么的。<br /><br />这就像是互联网刚来的时候，号召大家学 Java 和 HTML 一样。别说互联网刚来的时候大部分人用不上，就是今天，大家也都用不上啊。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68ccc28b1ffb5e6ad6ba5462</id>
+            <title>AI探索站 09月19日</title>
+            <link>https://m.okjike.com/originalPosts/68ccc28b1ffb5e6ad6ba5462</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68ccc28b1ffb5e6ad6ba5462</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 19 Sep 2025 02:40:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一直都用不上 Gemini in Chrome，Google 账号里能改的地方都改成了美国。<br /><br />今天突然发现，原来账号归属地不是用户自己可以随意修改的，它决定了 Google 用哪国法律来处理你的账号。<br /><br />查看的地点在“右上角头像”下面的“terms of service”。<br /><br />点进去能看到自己的账号归属地。<br /><br />然后这个归属地是根据你的用户行为习惯由系统自动判定的，即便是你改了 IP，也要大约 1 年左右才会变更。<br /><br />我被判到了新加坡，原因……嗯，就是因为我经常用新加坡的网。<br /><br />但可以手工填一个表来修改，不知道成功率如何。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68cb9d0bd9abb9785da96ccf</id>
+            <title>AI探索站 09月18日</title>
+            <link>https://m.okjike.com/originalPosts/68cb9d0bd9abb9785da96ccf</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68cb9d0bd9abb9785da96ccf</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 18 Sep 2025 05:47:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    🤔️如何让NotebookLM成为教学神器？<br /><br />给大家分享几个最近很火的教学玩法，用NotebookLM把枯燥的课本知识秒变互动游戏和可视化内容！<br />不仅可以生成思维导图、时间线，还能把课文变成双语学习材料和故事书🎮<br /><br />方便📖地址🔗：https://mp.weixin.qq.com/s/jFOFcdt0bKZlisQAE1S2Fw<br /><br />操作过程非常简单，但是呈现出来的效果非常棒！<br />以下是3种玩法的操作步骤👇<br /><br />玩法1⃣️：思维导图升级图像抽认卡 🎴<br /><br />📍 工具选择<br />工具A：NotebookLM 🔗 notebooklm.google.com<br />工具B：Google AI Studio的flashcard applet  🔗 https://aistudio.google.com/apps/drive/17wgHsdaCI89z3RK0GsWJsgpKzv_0VL_o?showPreview=true&amp;showAssistant=true<br /><br />📍 操作步骤 <br />1、在NotebookLM生成知识点思维导图 <br />2、打开Google AI Studio，找到flashcard applet这个应用 ，选择Mindmap Edition<br />3、导入思维导图内容，生成带图片的抽认卡<br /><br />玩法2⃣️：定制化语言学习 🌍<br />📍 工具选择<br />NotebookLM（支持多语言）🔗 notebooklm.google.com<br /><br />提示词示例（直接复制👇）<br />You are a [Target Language]-[Native Language] language tutor for kids. <br />Create a structured bilingual learning report:<br />- Title in both languages<br />- Introduction in [Native Language]<br />- For each sentence:<br />  • Original sentence in [Target Language]<br />  • Simple translation in [Native Language]<br />  • Grammar notes in brackets<br /><br />比如你想学习英文，可以用下面提示词<br />You are a [English]-[Chinese] language tutor for kids. <br />Create a structured bilingual learning report:<br />- Title in both languages<br />- Introduction in [Chinese]<br />- For each sentence:<br />  • Original sentence in [English]<br />  • Simple translation in [Chinese]<br />  • Grammar notes in brackets<br /><br />📍 操作步骤 <br />1、在NotebookLM上传目标语言的文章或故事 <br />2、使用Custom Reports功能，粘贴上述提示词 <br />3、生成双语对照学习报告 <br />4、把刚刚生成的双语学习材料粘贴进来，并单独勾选☑️<br />5、点击生成Flashcards抽认卡<br /><br />玩法3⃣️：学习指南变故事书 📖<br />📍 工具选择<br />工具A：NotebookLM 🔗 notebooklm.google.com<br />工具B：Gemini App- storybook 🔗 https://gemini.google/overview/storybook/<br /><br />提示词示例（直接复制👇）<br />Create a unique storybook about the study guide I've uploaded.<br />Tailor it for a [grade level] kid.<br />Include characters they would enjoy like [Legos/dinosaurs/princesses].<br /><br />📍 操作步骤 <br />1、在NotebookLM中创建知识点的学习指南：点击 报告-学习指南 <br />2、复制学习指南内容 <br />3、打开Gemini App的Storybook功能 <br />4、粘贴内容+提示词，选择喜欢的主题 <br />提示词示例：<br />Create a unique storybook about the study guide I've uploaded.<br />5、生成精美插图故事书，复杂概念秒变趣味故事！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68cac3e01c8d6f1245823b15</id>
+            <title>AI探索站 09月17日</title>
+            <link>https://m.okjike.com/originalPosts/68cac3e01c8d6f1245823b15</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68cac3e01c8d6f1245823b15</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 17 Sep 2025 14:21:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    前几天还在找邀请码的朋友可以不用找了，Mule Run 开放注册了！<br /><br />他们管自己叫 AI 劳动力市场，每个 Agent 就是一个数字员工，你可以雇佣他们完成任务。<br /><br />而且现在注册送 1000 积分，可以爽玩很久了。<br /><br />另外现在他们还推出了 Creator 支持计划，可以根据创作者为 MuleRun 带来的 GMV 直接获得现金奖励，最高会超过 10000 美元！<br /><br />申请并且发布第一个 Agent，可以直接获得 100 美元等值积分补贴。<br /><br />最近他们又增加了很多新的 Agent 玩法，覆盖了最近各种 AI 玩法和实用的工具。<br /><br />比如有一个 AI 求职视频简历制作器，只需要输入你的想法以及环境描述，他就会根据你的信息帮你生成一个求职视频，你可以发在社交媒体等待算法发力。<br /><br />还有就是他们还接入了 Nano Banana，发布了不少热门 Banana 玩法。<br /><br />比如老照片修复器以及 3D 桌面手办照片生成，还有日常发布文章需要的插图生成，九宫格不同姿势照片生成等，操作门槛低了不少。<br /><br />这个要是开放创建，藏师傅能把探索页面灌满。<br /><br />甚至有 AI 推理游戏，里面每个嫌疑人对话都会根据你的选择发生变化，你可以在互动和探索中寻找线索，解锁隐藏区域，你还可以点击图片进行交互收集证据。<br /><br />目前来看他们这种跟优质创作者合作，放宽使用门槛，提高创作门槛的策略确实不错。<br /><br />可以确保大部分 C 端用户用到质量相对高的 Agent，而不会像其他类似平台那样一进来就被各种用户和产品团队作恶的劣质 Agent 劝退。<br /><br />如果你是Agent 创建大牛可以去注册创作者，如果是普通用户也可以去玩玩这些你觉得好玩的 Agent。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68c8ee33781876295415b0e6</id>
+            <title>AI探索站 09月16日</title>
+            <link>https://m.okjike.com/originalPosts/68c8ee33781876295415b0e6</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68c8ee33781876295415b0e6</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 16 Sep 2025 04:57:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    前几天甲骨文暴涨的核心原因是披露了和OpenAI未来5年-3000亿美金的天价合同；<br />但问题是OpenAI其实没有那么多钱，即便是超级激进的营收预估，OpenAI单年盈利也得在27-28年；<br />所以在可见的中短期Sam肯定需要至少再融几笔超级大的钱，这个“大”的程度其实已经超出了所有的历史记录；<br />The Information说，29年OpenAI的投入会达到1150亿美金……<br /><br />图-1，历史上4家在上市之前最烧钱的公司（Uber、Snapchat、特斯拉、Netfilx）一共也就烧了420亿美金<br />图-2，OpenAI未来5年的营收/成本预估<br /><br />更多信息：https://sherwood.news/markets/openai-doesnt-have-the-cash-to-pay-oracle-usd300-billion-raising-it-will/<br />🤷
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68c7e4d114af706d82dc6ae0</id>
+            <title>AI探索站 09月15日</title>
+            <link>https://m.okjike.com/originalPosts/68c7e4d114af706d82dc6ae0</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68c7e4d114af706d82dc6ae0</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 15 Sep 2025 10:05:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    太好玩了！<br /><br />拯救废片，将任何照片变成酸性设计海报的提示词<br /><br />突发奇想能不能让 Seedream 4.0 帮我们把日常拍摄的废片用排版处理拯救一下<br /><br />于是我真分析了一些常见的海报设计方法，把这些方法整理成提示词，果然可以将任何照片转换成Y2K 酸性设计的海报<br /><br />提示词在这里：<br /><br />请分析我上传的这张照片，并将其转换成一张现代风格的平面设计海报。请按以下步骤操作：<br /><br />主体处理：首先，将主体从原始背景中精确地抠出来，作为海报的核心主体。<br /><br />背景改造：将原始背景替换为一个抽象的、具有毛玻璃质感的背景。这个新背景应该保留原背景的色调倾向（比如绿色和棕色），但要完全模糊掉具体细节。<br /><br />核心构图：<br /><br />在主体的后面，添加一个醒目的纯色矩形色块。色块的颜色请从照片上最亮的颜色中提取。<br /><br />添加与照片主体内容相关的主标题文字，使用一种粗大的、有设计感的无衬线字体。最关键的是，将这个标题图层放置在主体的后面，形成主体遮挡文字的空间感。<br /><br />细节添加：<br /><br />在画面的不同位置，添加一些与画面内容相关的小号的、信息性的文字，以创造视觉层次。<br /><br />在花茎的底部，添加一些模拟透明胶带的素材，让花朵看起来像是被贴在海报上一样，增加真实感和拼贴感。<br /><br />风格统一：最后，确保整个海报的风格是Y2K美学或酸性设计，画面具有丰富的纹理和层次感。让标题和色块与背景的玻璃质感有一些透明度的融合，使整体看起来更协调。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68c50d2de5597c28d33e30f1</id>
+            <title>AI探索站 09月13日</title>
+            <link>https://m.okjike.com/originalPosts/68c50d2de5597c28d33e30f1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68c50d2de5597c28d33e30f1</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 13 Sep 2025 06:20:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    15条来自姚顺雨最新一期2.5hrs 播客的insight<br /><br />在飞机上，听完了小珺姐最新一期与姚顺雨 （以下简称姚老师）的 podcast，对踏入agent领域快一年的我来说，这是最近收获最大的一期内容。<br /><br />我第一次听姚老师讲话是今年一月，在 Monica 的 onboard ！上。那时候在深圳调研，我躺在大巴的最后一排，耳机里放的是将近三小时的节目，录音效果不太好，嘉宾声音有点糊，他的口条也算不上最流畅，但就是那一期里，他给我留下的印象最深刻。<br /><br />这次和小珺姐的访谈，他依然是那个节奏，说话方式没变：没有实操技巧，也没多少未来畅想。但他不断提的一点，正是「要思考实际落地的应用价值」，就像他在《AI 的下半场》那篇文章里说的。<br /><br />以下是我整理出的 15 条 insight：<br /><br />1.人的泛化能力，本质上来源于推理。<br /><br />2.语言是人类为了实现泛化而发明的工具。<br /><br />3.人类社会网络的中心化，本质上就是信息的中心化与隔离。<br /><br />4.Essentially, environment is always the outer part of memory hierarchy —— “the brain and computer.”<br /><br />5.对于 ChatGPT 来说，memory 很可能是形成护城河和壁垒的关键。<br /><br />6.我们需要更多去思考这些东西的实际价值，明确应用本身的价值在哪里。<br /><br />7.现阶段 agent 的 fundamental research 最重要的三件事：<br />•memory（记忆）<br />•intrinsic reward（内在激励）<br />•multi-agent（多智能体）<br /><br />8.12–24 个月内 agent 领域的预测：<br />•模型公司的 chatbot 会逐步演化成 agentic 系统；<br />•会出现越来越多像 Cursor 这样的产品，也会在新环境下涌现出 copilot。<br />这两种交互方式是正交的：一种基于 remote virtual machine，另一种是把 AI 能力直接嵌入现有的软件和环境。<br /><br />9.对于未来的创业者更值得探讨的是：agent 与数字世界交互的环境会是什么样？人和 agent 的交互又会是什么样？<br /><br />10.创业公司更应该担心的是模型能力没有溢出。没有溢出，可能意味着毫无机会；只有当能力产生溢出时，才预示着更多可能性。<br /><br />11.Manus 挺有意思，产品 sense 很好，带给他了些启发。<br /><br />12. 有一种类型的产品（iPhone，Manus…）其价值在于提供一种通用的交互方式，想象空间很大。但这并不妨碍它在不同阶段出现各自的 killer app。很多伟大的产品，都是从足够通用、简单、第一性的交互方式起步，再通过多样化的应用不断增长。<br /><br />13.姚老师最大的 bet：未来会出现不同的产品形态，以及多样化的交互方式。<br /><br />14.姚老师的推荐书：《智能简史》。<br /><br />15.INFP —— 姚老师是个 INFP，他听过的唯一一期xiaojun播客就是 Red 那一集，作为 Manus 的创始人，也是个 INFP。<br /><br />安利大家有空务必要去亲自去听！！！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68afdc69704e30c9e4ab5a1c</id>
+            <title>AI探索站 08月28日</title>
+            <link>https://m.okjike.com/originalPosts/68afdc69704e30c9e4ab5a1c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68afdc69704e30c9e4ab5a1c</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 28 Aug 2025 04:34:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很荣幸作为 Google AI Asia 的开场嘉宾来介绍下 Manus 近期的进展。除了上午的 panel 和 keynote 外，下午三点我还会分享 Manus 背后的几点产品设计与技术思考，如果在现场欢迎来听听。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68ae821114af706d82dbd41b</id>
+            <title>AI探索站 08月27日</title>
+            <link>https://m.okjike.com/originalPosts/68ae821114af706d82dbd41b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68ae821114af706d82dbd41b</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 27 Aug 2025 03:57:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    🧙‍♀️我无数次表达过 GPT image 是真正的魔法。但难以置信的是，仅仅半年时间Gemini 2.5 flash image 就将这种魔法上升到了全新的层次：<br /><br />- 10倍的生成速度<br />- 惊人的品质和一致性<br />- 几乎完全免费<br /><br />值得再次强调是，获取这种魔法的关键就是亲自尝试——「对话」的能动性成为了唯一的门槛。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
