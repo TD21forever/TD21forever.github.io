@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68fb620e1ed9b53c781da64d</id>
+            <title>AI探索站 10月24日</title>
+            <link>https://m.okjike.com/originalPosts/68fb620e1ed9b53c781da64d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68fb620e1ed9b53c781da64d</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Oct 2025 11:25:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我的一鱼多吃...<br /><br />用Claude Code做了个自动化写作的agent，写出来的公众号数据不错，于是就发了小红书<br /><br />小红书数据又很好，于是又梳理了下构建的自动化写作流程，写了篇教程文章，数据又是很好...<br /><br />所以，在这种情况下，干脆再作为视频选题，做了个教学视频发B站
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68fb2ba63a808b6d8999ae78</id>
+            <title>AI探索站 10月24日</title>
+            <link>https://m.okjike.com/originalPosts/68fb2ba63a808b6d8999ae78</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68fb2ba63a808b6d8999ae78</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Oct 2025 07:32:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    ⭕ 笨办法用 AI 之 5W2H<br /><br />---<br /><br />今年盯着腾讯元宝用，日均 2 小时，基本上取代了以前读书、微信群聊、看知乎的碎片时间。<br /><br />用法很简单，就是 5W2H。<br /><br />Why：为什么事而问？先从自己的控制圈的事情问，然后是影响圈，少量关注圈。由近及远。太远的事情，知道再多也用不上，只会积压一堆答案，问了也白问。近处的事情，和自己密切相关的事情，问了之后，用在认知上，豁然开朗，用在行动上，立马有反馈。如果觉得不知道该和 AI 聊什么问题，就先把焦点回到当下（此时，此地，此我），看看自己有哪些不满的、感到麻烦的、痛苦的，最好的问题不是来自别人的，而是从自身生长出来的，不是来自好奇，而是来自痛苦。<br /><br />What：问什么？我一般对一件事会先提取一个概念，然后盯住这个概念追问，其中穿插这件具体的事，这样就能从本质而不是现象上弄清楚这件事。如果不知道问什么概念，直接问事情也行，平时和朋友怎么聊天，和 AI 也怎么聊。或者先描述事情，让 AI 用一个大众常见且精准的概念来描述这件事的本质。<br /><br />How：怎么问？把常用的提示词分为组块，在手机和电脑输入法中，为各个组块设定快捷键，比如 `z+26个字母`，就可以放 26 个常用组块，像乐高积木一样，拼出各种提示词。What 里面的事情与概念像食材，不同食材拿到厨房里，都由这些炊具组合来处理，不同食材需要不同提示词炊具。<br /><br />Where：问完之后，下一步做什么，放到哪里去？如果只是问，然后看完回答后就关掉，和读网络小说也没什么区别。这些回答要有个去处，我设定的统一去处是 Obsidian。往 Obsidian 里面放什么呢？一般是三种信息：一种是清单，把 AI 回答中对我有用的信息提取出来，写一份主题清单，每份清单 20 条，不超过 2000 字；一种是把每个对话里问的好问题，都放到一份表格里，按时间顺序记，再打上不同主题标签；还有一个是把 AI 对我本人的分析与理解，说的精准的，单独摘出来，放到《个人自传》中，便于我认识自己，也便于后续和 AI 对话时发给它，提供更个性化的答案。这个环节，一周集中处理一次。<br /><br />Who：对于记录在 Obsidian 里的清单和问题，有一类标签是 Who，即自己照顾与关注的人名字，每一条笔记、每一份经验，可以用于身边的哪个人。因为问 AI 是为了获取知识，获取知识是为了行动，行动是为了给人创造价值，而人类那么多，自己的时间与资源是有限的，优先要做的是照顾好自己、伴侣、孩子、父母，再外面一圈是团队、客户、供应商，有余力再涉及其他，但是大多数人，照顾好自己和身边几个人，已经用尽全力了。<br /><br />When &amp; How Much：When 是什么时候问？不分时候，随地大小问，万事不决，先问 AI。How Much 是每天聊多久，聊几条？这个也没有严格限制，有碎片时间都可以用上，一般每天可以问至少 10 个问题。有时候，脑子里想到某个问题，但是没时间问，先在手机速记中记下来，格式如 `问AI：xxxx？`，待有空了再挑出来问，或者把同一类问题放到一个对话里进行追问。问不在多，关键在于持续，把和 AI 聊天嵌入日常生活中，成为生活方式的一部分。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68fad41012ce30c3dd448049</id>
+            <title>AI探索站 10月24日</title>
+            <link>https://m.okjike.com/originalPosts/68fad41012ce30c3dd448049</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68fad41012ce30c3dd448049</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 24 Oct 2025 01:19:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    握草，巨牛逼，有个UP主叫AI研究室-帆哥，他给视障人士制作了一款AI眼镜，硬件成本只要一百多块钱，就能让盲人/视障人群自由出行。<br /><br />这个小哥戴上自家产品，模拟了盲人出行的一天，在盲道上走路，听AI提醒+纠错避开障碍物，过满是车流的红绿灯。到超市买水果，通过摄像头与耳机的指引拿到西瓜、黄瓜。让AI眼镜识别上海外滩的夜景，为他讲述眼前到底是怎样的造型与风韵，犹如聆听一首散文诗。<br /><br />一个3D打印眼镜架+摄像头+图传+扬声器+麦克风+陀螺仪+多模态大模型Qwen Omni=AI眼镜。<br /><br />核心硬件成本只要143.28块钱。 <br />这是我从未想到过的低价…<br /><br />市面上一些雷达避障的AI眼镜要3000块钱…<br />这省下的就不是一块两块了。<br /><br />关键帆哥把它的配件清单+agent代码开源了，放在了魔搭社区，任何厂家和个人都能用这套纯视觉避障方案做眼镜。<br />这是一种AI时代的伟大。<br /><br />我觉得啊，咱们中国的盲道之所以常常被占用，是盲人并没有真正的进入我们的生活，当帆哥蒙住双眼做道路测试时，很多路人主动提供了帮助，提醒他避障，为他挪动盲道上的车等等，体现出了人性上的伟大。<br /><br />#AI能帮视障群体做什么# 很多人在评论区建言献策，认为盲人不需要拍照录像功能，也不需要镜片，设计思维可以超出常理，像汽车设计方案那样弄更多的摄像头，用更好一点的图传，与高德等地图APP深度合作，让视障人群能够安全的抵达心目中的彼岸。<br /><br />原来盲人喜欢听的有声书是可以由自己谱写的。<br /><br />可能有一天，中国的盲人能去云南闻花香，去高山林莽听虫鸣鸟叫，去广袤的海岸线品尝各个海域海水的咸淡。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68fa3ee26d3337f9d71249c7</id>
+            <title>AI探索站 10月23日</title>
+            <link>https://m.okjike.com/originalPosts/68fa3ee26d3337f9d71249c7</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68fa3ee26d3337f9d71249c7</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 23 Oct 2025 14:42:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    写了一篇 4 万字的 AI 产品 PRD 模版，抛砖引玉。<br /><br />起因是，我在搜索“AI产品的 PRD 怎么写”时，翻了十几页发现一个能用的内容都没有！<br /><br />这太恐怖了，哪怕你搜模型微调、模型部署，都能找到大量实践教程，但是关系产品命脉的 PRD 竟然没有<br /><br />于是我结合自己的经验&amp;认知，拿字节一个非常优秀的 Agent 项目反推写了一个模版。<br /><br />希望能给大家思考一些“抓手”<br /><br />PRD文档地址：https://bytesmore.feishu.cn/wiki/KP5ywyaKyiLmQrk3atrcIG2tnrz<br /><br />选用此框架的思路：https://mp.weixin.qq.com/s/zWCxhTHFLn-G7cOPY1vHNA
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68f8461a67913e3e94375a80</id>
+            <title>AI探索站 10月22日</title>
+            <link>https://m.okjike.com/originalPosts/68f8461a67913e3e94375a80</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68f8461a67913e3e94375a80</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 22 Oct 2025 02:48:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这绝对是我见过最清晰、最实用的 AI 工具列表了，用好他们能省下大把时间！<br /><br />日常助手<br />1. Perplexity：AI 搜索引擎和研究助手<br />2. Claude：通用聊天机器人，超适合做项目和分享成果<br />3. ChatGPT：记得开启高级语音模式，直接和 AI 对话<br /><br />效率工具<br />1. Granola：AI 会议笔记工具，自动生成摘要<br />2. Wispr Flow：语音转文字工具，在任何应用里把说的话变成文本<br />3. Gamma：用 AI 快速制作演示稿、文档和网站<br />4. Adobe：和 PDF 对话，还能自动总结内容<br />5. Cubby：协作研究专用的 AI 工作空间<br />6. Cora：AI 邮件助手，帮你智能整理收件箱<br />7. Lindy：搭建 AI 智能体，自动处理工作流程<br /><br />粉丝增长<br />1. Delphi：创建 AI 克隆分身（文字、语音、视频），和粉丝互动<br />2. HeyGen：用 AI 虚拟形象批量制作内容或给视频配音翻译<br />3. Argil：专为社交媒体视频打造的 AI 虚拟形象<br />4. Overlap、Opus：把长视频自动剪成爆款短视频<br />5. Persona：为创作者打造的 AI 智能体搭建工具<br />6. Captions：AI 视频剪辑，自动加字幕还能修正眼神接触<br /><br />产品开发<br />1. Cursor：懂你代码的 AI 编程编辑器<br />2. Replit：用自然语言描述，AI 智能体直接帮你建应用和网站<br />3. Anychat：一站式调用各种 AI 模型<br />4. Codeium：AI 驱动的代码自动补全工具<br /><br />创意设计<br />1. ElevenLabs：逼真的 AI 语音生成<br />2. Suno、Udio：用文字描述直接生成音乐<br />3. Midjourney、Ideogram、Playground：AI 图片生成<br />4. Runway、Kling、Viggle：AI 视频生成<br />5. Krea：创意画布，实时生成和增强图片/视频<br />6. Photoroom：AI 图片编辑器，产品图修图神器<br /><br />学习成长<br />1. Rosebud：交互式日记，用 AI 帮你分析内心想法<br />2. Good Inside：育儿助手，提供个性化支持<br />3. Ada Health：AI 驱动的症状健康评估<br />4. Ash：个性化 AI 心理咨询和教练<br />5. NotebookLM：把任意文档变成 AI 播客<br />6. Particle：AI 新闻应用，多篇文章整合成一篇摘要<br /><br />娱乐玩耍<br />1. Remix：AI 图片/视频创作与分享的社交应用<br />2. Meta Imagine：在 Meta 系应用里生成自己和朋友的 AI 形象<br />3. Grok：xAI 出品的聊天机器人<br />4. Curio：给孩子的 AI 互动对话玩具
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68f6d424d9abb9785d23234f</id>
+            <title>AI探索站 10月21日</title>
+            <link>https://m.okjike.com/originalPosts/68f6d424d9abb9785d23234f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68f6d424d9abb9785d23234f</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 21 Oct 2025 00:30:28 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    DeepSeek的论文每篇都是精品，R1养活了一批研究强化学习的人，OCR这篇意味CV研究员的春天到来了。用图片替代文本输入，确实是很有开创性的想法。DeepSeek真是开源菩萨，换做CloseAI估计要藏一辈子。<br /><br />大模型在处理长文章时，消耗的计算量会爆炸性增长。<br /><br />但如果把文字“画成图片”，模型只需要很少的“视觉 token”就能理解同样内容。<br /><br />就像人看书一样，我们也是靠视觉来阅读文字，如果这个方向靠谱，那么我们就相当于用OCR技术给大模型装上了眼睛。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68f666506c58154f4d5d1965</id>
+            <title>AI探索站 10月20日</title>
+            <link>https://m.okjike.com/originalPosts/68f666506c58154f4d5d1965</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68f666506c58154f4d5d1965</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 20 Oct 2025 16:41:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近抖音很火的即梦或者豆包直出三宫格氛围人像照片<br /><br />只需要拿你的照片加上提示词就能搞定，建议用 2:3 比例<br /><br />提示词在下面，整了三套不错的👇：<br /><br />提示词 1：<br /><br />一张以图片人像为主角的三宫格胶片质感艺术感写真图,场景为清晨安静的图书馆,阳光从高窗斜射进来。<br />图中人物和参考图一致,人物和脸不变,衣服为简单的白色毛衣。第一张为近景,上半身背影,人物站在高大的书架前,仰头寻找一本书,添加中英字幕“故事都写在书里吗？-Are all the stories written in books?-”第二张为中景,人物侧身坐在窗边的桌前,阳光照在翻开的书页上,低头看书,添加中英字幕“我好像…读到了别人的脚本。-I seem to be... reading someone else's script.-”第三张为大特写,人物脸部位于画面偏左侧,合上书本,眼神平静地望向窗外的光,添加中英字幕“我的故事,从这一笔开始。-My story begins with this stroke.-”整体色调清冷,带有富士胶片效果,过度曝光,画面粗粝且色调偏冷,暗部细节保留完整,高光区域呈现自然晕化、均采用柔和漫射光,无明显硬边阴影,营造出文艺且充满自我探索情绪的氛围,三张图合成一个三宫格,字幕位于底部居。<br /><br />提示词 2：<br /><br />一张以图片人像为主角的三宫格胶片质感艺术感写真图,场景为古典美术馆的空旷走廊,早晨或傍晚,光线透过拱形窗户洒在地板上。<br />图中人物和参考图一致,人物和脸不变,衣服为简约款的白色针织衫或衬衫。第一张为近景,上半身背影,人物站在一幅巨型画作前,双手插兜,背影显得修长而有艺术气息，添加中英字幕“美,是否有终点？-Does beauty have an end?-”第二张为中景,人物侧身走在长廊上,目光落在墙壁上的雕塑或另一幅画上，光影勾勒出侧脸的轮廓，优雅而富有吸引力，添加中英字幕“我只是,路过每个瞬间。-I merely, pass through every moment.-”第三张为大特写,人物脸部位于画面偏左侧,微抬下巴,眼神略带疑惑却又充满好奇,仿佛在与艺术品对话，展现出一种知性的帅气，添加中英字幕“也许我本身,就是意义。-Perhaps I myself, am the meaning.-”整体色调清冷,带有富士胶片效果,过度曝光,画面粗粝且色调偏冷,暗部细节保留完整,高光区域呈现自然晕化、均采用柔和漫射光,无明显硬边阴影,营造出文艺且充满探索与沉静的氛围,三张图合成一个三宫格,字幕位于底部居中。<br /><br />提示词 3：<br />一张以图片人像为主角的三宫格胶片质感艺术感写真图,场景为霓虹闪烁的城市街道,刚下过雨,地面湿润反光。<br />图中人物和参考图一致,人物和脸不变,衣服为风衣,撑着一把透明的伞。第一张为近景,上半身背影,人物撑伞站在路口,看着对面的红绿灯和穿梭的车流,添加中英字幕“这座城市会为谁停留？-For whom does this city pause?-”第二张为中景,人物在公交站台的玻璃后,侧身看着玻璃上的雨滴,添加中英字幕“每个人都在等一趟车吗？-Is everyone just waiting for a bus?-”第三张为大特写,人物脸部位于画面偏左侧,,脸颊上有一滴分不清是雨水还是泪水的水珠,眼神平静地望向镜头外的霓虹,添加中英字幕“没关系，我的终点是我自己。-It's alright, my destination is myself.-”整体色调清冷,带有富士胶片效果,过度曝光,画面粗粝且色调偏冷,暗部细节保留完整,高光区域呈现自然晕化、均采用柔和漫射光,无明显硬边阴影,营造出文艺且充满自我探索情绪的氛围,三张图合成一个三宫格,字幕位于底部居中
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68f36542cc3970b79da16cc8</id>
+            <title>AI探索站 10月18日</title>
+            <link>https://m.okjike.com/originalPosts/68f36542cc3970b79da16cc8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68f36542cc3970b79da16cc8</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 18 Oct 2025 10:00:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    今天读到了一个非常有趣的 idea。<br /><br />背景是 Dwarkesh Patel 和 Andrej Karpathy 的一个对谈，里面提到了一个智能领域的常见问题：不管是人还是 AI，如果局限于自己的经验，用经验指导自己的行为， 又在这个行为的基础上累计经验，如此循环下去，最终总会崩溃（这里的「崩溃」不是心理意义上的，是智能层面上的）。一个健康的心智需要不断通过从不在自己经验范围内的世界（比如同他人的交谈，和与自己行为模式不符的人合作，etc.）获得外部熵来阻止这种崩溃。小孩还没有对生活过拟合，所以不太容易崩溃，而成年人崩溃的风险则越来越大。<br /><br />以上是背景。下面是那个有趣的 idea，来自2021年的一篇 paper "The overfitted brain: Dreams evolved to assist generalization"。它的主旨是说：人类做梦是防止这种过度拟合和崩溃的一种方式。做梦之所以具有进化适应性，是因为它会让你置身于与你日常现实截然不同的奇特情境中，从而防止这种过度拟合。<br /><br />这里有个鸡生蛋蛋生鸡的问题：既然过拟合体现为大脑无法学到分布外的规律，大脑是如何构建出这些分布外的梦境的？Hoel 的解释是梦的构建有一个非智能的 noise injection 步骤，这些随机噪声在白天建立的神经连接中渗透，产生奇异的、扭曲的、不连贯的 corrupted sensory inputs，从而把大脑从过拟合的陷阱中拯救出来。<br /><br />虽然这只是一个假说（而且是一个非常新的理论），但我越想越觉得它非常精妙。按照这种视角，梦的价值不在于它的逼真，而恰恰在于它的不逼真——梦境与清醒时的经历（训练集）如此不同（但又不是纯粹意义上的噪声），所以才能迫使大脑学习到更具泛化性的表征而不是仅仅记忆真实经历本身。<br /><br />梦通过不可能存在的反事实体验迫使我们更好地理解世界的本质。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68f10c1863dc501909135f14</id>
+            <title>AI探索站 10月16日</title>
+            <link>https://m.okjike.com/originalPosts/68f10c1863dc501909135f14</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68f10c1863dc501909135f14</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 16 Oct 2025 15:15:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Manus 1.5 来啦。全面升级的原生 AI web app 构建能力，让每个人都能用 AI 来实现自己的想法，打造自己人生中第一个 AI 应用。这个版本对我们来说也格外重要，除了在速度、性能上的全面提升外。它也再次证明了 Manus 核心架构的通用性，我们并没有刻意去做一个 AI website builder，而是持续进化 Manus 的核心框架，并为其提供合适的工具，最终在短短一个月的时间里就进化出了 sota 级别的 AI web app 构建能力。<br />与此同时，这个能力并不是单独存在的，它与 Manus 全套功能都是打通的，你可以创建一个自己的服务介绍网站，用户留资后你的 Manus 客户端会收到通知，你的邮件也会收到推送从而可以触发 Mail Manus 功能完成后续的任务（比如给每个留资客户准备一个个性化的幻灯片？）<br />这项增强功能今天面向所有 Manus 用户推出。支撑这项能力的基础设施是我们正在构建的更宏大愿景的一部分——一个任何人都能利用云计算和 AI 的全部力量的平台，只需通过对话。<br />敬请期待。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/68ea47481ed9b53c78bffaee</id>
+            <title>AI探索站 10月11日</title>
+            <link>https://m.okjike.com/originalPosts/68ea47481ed9b53c78bffaee</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/68ea47481ed9b53c78bffaee</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 11 Oct 2025 12:02:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很多需求真的是无法空想出来的。比如当我交替使用 GPT 和 Gemini 的时候，最终决定我使用体验的完全不是两者的智能或者风格区别，而是一个纯粹的 feature 差异：后者不支持通过修改对话历史从而实现对话的分岔。<br /><br />对话的分岔显然是一个 GPT 出现之前没有人会预料到的功能。现实中不存在这个东西。当然有时候你会想哎呀我昨天和那谁的对话要是编辑一下重开一个平行宇宙就好了，但反正你知道这不可能，也不会认真对待这个想法。然而 GPT 一旦提供这个功能，你就立刻发现它不可或缺。无数次——或者说几乎每一次——我能从一段对话中学到些什么的体验，都来自于我对之前对话记录的反复 refinement。通过不断比较它们导致的对话走向，我才真正理解我们其实是在说什么。<br /><br />非常奇妙。你意识到对话的本质不是线性的，而是由一连串 what-if 构成的。好的对话不是一条河流，而是一棵树。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
