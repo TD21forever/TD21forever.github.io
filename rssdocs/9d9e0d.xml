@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/692153762cfb41ac395ac903</id>
+            <title>AI探索站 11月22日</title>
+            <link>https://m.okjike.com/originalPosts/692153762cfb41ac395ac903</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/692153762cfb41ac395ac903</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 22 Nov 2025 06:08:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    搞了个牛皮东西，Nano Banana Pro 帮你生成任意位置的打卡照！<br /><br />用 Gemini 3 写了个工具，只需要在地图上选点，然后上传你的人脸照片，就可以生成你在这个地方的打卡照。<br /><br />会根据当前位置的天气和时间生成图片，你的衣服也会根据现在的时间以及天气去变化。<br /><br />人脸一致性真的太高了，我去。<br /><br />ai.studio/apps/drive/1IX2kH8UKwPI6X3khbHsJzPPnGs1e2a12?fullscreenApplet=true <br /><br />来玩！需要你自己的 AI Studio API
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/692151b23ea7571a7897c545</id>
+            <title>AI探索站 11月22日</title>
+            <link>https://m.okjike.com/originalPosts/692151b23ea7571a7897c545</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/692151b23ea7571a7897c545</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 22 Nov 2025 06:01:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    送给长期使用ChatGPT的人一个Prompts：<br />请根据你对我的记忆，有哪些事情是我自己意识不到的，但是如果明白了就能改变我的生活的残酷真相？请坦诚告诉我，以完全客观性的战略深度审视我的情况。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69208bf7e89d61e89b8b2525</id>
+            <title>AI探索站 11月21日</title>
+            <link>https://m.okjike.com/originalPosts/69208bf7e89d61e89b8b2525</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69208bf7e89d61e89b8b2525</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Nov 2025 15:57:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Nano Banana Pro 爆款玩法，原推五十万曝光了。<br /><br />多个动漫少女在一个写实房间，看起来超级温馨。<br /><br />而且还有打破次元壁，你的纸片人老婆出来陪你的感觉。<br /><br />原推的提示词有点复杂我自己搞了一个：<br /><br />1️⃣先自己生成一张写实风格的没有人的照片。<br /><br />2️⃣然后将这张没有人的照片和下面的提示词一起发给 Gemini： 请帮我写一段 AI 绘画提示词。 基础要求： 基于这张图片的背景，添加【X个】动漫人物，氛围要【热闹/安静/活泼】。 输出格式： 请分行详细描述每个人的【装扮 + 动作表情 + 所在位置】，直接给我中文描述。 <br /><br />3️⃣然后在他生成的提示词前加上： 为这个写实的实景场景房间添加多位性格各异的动漫风格女孩，确保房间是写实风格，只有少女为动漫风格。<br /><br />4️⃣最后将你生成的写实图片和完整提示词发给 Nano Banana Pro 就可以了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/692036231ed9b53c7825e822</id>
+            <title>AI探索站 11月21日</title>
+            <link>https://m.okjike.com/originalPosts/692036231ed9b53c7825e822</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/692036231ed9b53c7825e822</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Nov 2025 09:51:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    牛皮，用 Nano Banana 生成生成论文介绍的板书<br /><br />这个用来理解论文太方便了，而且还可以直接从英文论文变中文<br /><br />5000 多字的论文直接整理完了，太顶了<br /><br />提示词：将这个论文转换为中文教授白板图片，帮助我理解信息
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69202b1be89d61e89b82f482</id>
+            <title>AI探索站 11月21日</title>
+            <link>https://m.okjike.com/originalPosts/69202b1be89d61e89b82f482</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69202b1be89d61e89b82f482</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 21 Nov 2025 09:04:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一直没理解这么多AI创业公司怎么都招不到人<br />直到看到ta给的薪资、永远兑现不了的期权、做不完的事情、躁郁症的创始人、以及在成功后PR说当年困境时果断地裁掉员工（可能还没赔偿）的决定是多么英明
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/691eca52d07a7f07aab4fbb1</id>
+            <title>AI探索站 11月20日</title>
+            <link>https://m.okjike.com/originalPosts/691eca52d07a7f07aab4fbb1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/691eca52d07a7f07aab4fbb1</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 20 Nov 2025 07:59:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    刚发现了一个宝藏GitHub 仓库，里面收录了超级多X大神创作的Gemini3 pro提示词，建议收藏 👉 https://github.com/ZeroLu/awesome-gemini-ai<br /><br />包括：<br />1. 高质量landing page<br />2. 酷炫AR应用<br />3. 高质量Crypto仪表盘<br />4. 企业级带酷炫动效的网站
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/691a974b00c0686ab5d56d1c</id>
+            <title>AI探索站 11月17日</title>
+            <link>https://m.okjike.com/originalPosts/691a974b00c0686ab5d56d1c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/691a974b00c0686ab5d56d1c</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 17 Nov 2025 03:32:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们特别善于造词的 Karpathy 老师又写了一篇文章，提出了一个有意思的分类。<br /><br />他说此前的计算机技术（他称为Software 1.0）能完成的任务的特点是 specifiable，也就是说，你能用清晰的语言描述步骤。<br /><br />而有了强化学习之后的计算机技术（他称为Software 2.0）能完成的任务的特点是 verifiable，也就是说，如果一项任务做的好不好是可验证的，那么它就可以被强化学习进行优化。<br /><br />这一点当然也不是全新的洞见。Jason Wei 今年夏天写过一篇文章（他称为 verifier's law），讨论验证不对称性在 AI 领域的关键作用。生活里大量的任务都处在这个「解决起来不容易但验证是否解决很容易」的不对称空间里（不妨把这理解为 P/NP 不对称性的一个推广），比如证明一个定理比阅读并检查一个证明是否正确困难，画一幅有特定形状的杯子的画比检查一副画里是否有这样一个杯子困难。强化学习意味着训练人工智能解决某个任务的难易程度与该任务的可验证性成正比。可验证性越高，就越容易在新范式下实现自动化。如果任务不可验证，则只能寄希望于神经网络的泛化能力，或者通过模仿等较弱的手段来实现。<br /><br />这个思考框架简单且诱人，问题是它在实践中常常有些模糊。比如写（日常意义上的）文章算不算 verifiable task？理论上说，它不像编程，是一种更不客观更软性的创造性工作。但实际上，因为对除了纯文学创作以外的大多数文章类别，训练人工智能分辨文章好坏都没那么困难，所以实际上AI 在写日常文章这件事也算是基本取代人类了。<br /><br />一件事情 verifiable 通常是因为它可以沙盒化，也就是在一个可控可还原的环境里反复试验。如果想在这一波 AI 浪潮里找到价值，这是个很好的出发点：去寻找那些可以沙盒化但还没有沙盒化的事情，这通常意味着它还处在被 AI 取代的早期，有巨大的套利空间。<br /><br />反过来，如果想找到短期内不会被 AI 取代的工作，这也是个很好的出发点：去寻找那些不容易 verify 的事。它们通常有这样几个特点：<br /><br />- 只能在现实世界里操作，从而很难加速。比如商业/管理决策，是否成立总要执行了才知道，而执行是很慢的事情。<br />- 因果链条很长很难归因。比如和人建立有互信的伙伴关系，或者在用户心中建立品牌形象，这类任务需要下水磨工夫，要做对很多环节，且做完了也不太确定到底哪一步是真的管用。<br />- 验证过程对现实本身有不可逆的影响，比如说服某个特定的人，治疗某个特定的复杂病患。就像杀死薛定谔的猫，是死是活一锤子买卖。<br /><br />当前范式的 AI 对这类工作几乎无能为力。（不幸的是，这类工作对大多数人也都更困难，毕竟很难训练 AI 通常就意味着也很难培训人类自己。）<br /><br />但上面所有这些讨论有个根本的前提：这一轮人工智能始终把强化学习作为基础范式，而这一点本身是存疑的。不少领域里有迹象表明强化学习只是一个过渡性的技术。如果人们找到了绕过强化学习的窍门，那可验证性长远来看就没那么重要。<br /><br />（当然那样也就意味着人类的栖身之所又变得更小了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69141d09a6137d337b816b69</id>
+            <title>AI探索站 11月12日</title>
+            <link>https://m.okjike.com/originalPosts/69141d09a6137d337b816b69</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69141d09a6137d337b816b69</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 12 Nov 2025 05:37:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近关于 AI 泡沫的讨论非常多，我画了两张图来表达我现在的想法。<br /><br />图一：这波以 ChatGPT 为代表的 AI 革命开始后，很多人心中 AI的进展可能像灰色虚线一样，是一个持续指数增长的过程。但实际上，它可能更像是个类似阶跃函数的S曲线。我们现在正在进入已有范式的平台期，所以会看到虽然投入资源增大，但模型的能力提升速度开始放缓。而下一个范式是什么，什么时候能开始应用又很不确定。<br /><br />新范式出来的时候，会有一段高速增长，超越预期的过程。而下一个新的范式还没出来的时候，可能就会有一段低于预期的过程。我们现在对未来的很多判断分歧在于，下一个新范式什么时候出现，以及它会是什么。<br /><br />图二：但实际上，如果我们退后一步，AI的进步从更宏观的尺度来看，就是不断地由不同的S 曲线范式组合所驱动。每个范式都会经历从低估到高估，从革命到泡沫的过程，而这些范式变化合起来是真正的 Scaling law。<br /><br />对新技术短期高估长期低估的amara law大概率会再一次生效，历史不会简单重复，但往往押韵。短期要谨慎，长期要有信心和耐心。<br /><br />再补充一点，和互联网相比的话，互联网基于的底层技术没有大的变化，30年前的网站底层技术和30年后差别没有那么大，所以互联网泡沫更多的是一个建设周期带来的波动。而AI的技术变化剧烈得多，10年前的技术栈和现在很不一样，其实叠加了技术周期和建设周期，所以AI带来的预期波动可能会大得多/多得多。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6909bebe1ed9b53c78442223</id>
+            <title>AI探索站 11月04日</title>
+            <link>https://m.okjike.com/originalPosts/6909bebe1ed9b53c78442223</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6909bebe1ed9b53c78442223</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 04 Nov 2025 08:52:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI算力免费领？！这波福利再不冲就亏了！💥<br /><br />听说你的项目还在为算力发愁？🤔<br />听说AI很火但成本太高不敢试？🚫<br />别划走！机会来了！天翼云双十一活动疯狂开启！🎉<br />🔥【上云正当时，AI智算0门槛】🔥<br />我们准备了满满的“弹药”，助你轻松冲浪AI时代！<br />👇划重点，福利在这👇<br />✅ 新人专享·万元礼包<br />新用户注册，11111元上云券免费领！这还不是真香现场？<br />✅ 爆款智算·击穿底价<br />息壤·智算平台2500万Tokens免费使用！<br />高性能GPU云主机、Deepseek算力超市 ……热门算力产品限时特惠！ <br />✅ 新老普惠·续费有礼<br />云主机多种优惠机型适配不同类型业务场景！<br />云电脑、存储、网络、安全等多种产品，新客首单0.27折起！<br />多种产品每日9:00开放抢购，更有1年3.5折，6个月4折续费优惠！<br />🎯 适合谁？<br />→ 想要尝试AI应用的个人开发者<br />→ 急需降本增效的初创团队<br />→ 希望业务智能升级的所有企业<br />【参与方式】超级简单！<br />1.点击下方链接：https://www.ctyun.cn/d/Jpyv2w<br />2.一键注册，领取福利<br />3.选择产品，开启你的智算之旅！<br />💡 小提示： 名额有限，先到先得！手慢无！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6906e01900c0686ab531e52e</id>
+            <title>AI探索站 11月02日</title>
+            <link>https://m.okjike.com/originalPosts/6906e01900c0686ab531e52e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6906e01900c0686ab531e52e</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 02 Nov 2025 04:37:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    藏师傅复刻了爆火的社交媒体卡片提示词，大幅增加表现力与中文适应性！<br /><br />还增加了这种霓虹灯管手写体名字，通过用即梦&amp;豆包修复了中文显示问题<br />主题色和提示词会根据不同平台适配，目前支持即刻、推特、微博、小红书。<br /><br />提示词：在后面图片里<br /><br />适配模型：豆包或者即梦，GPT 也可以，中文可能会有问题<br /><br />使用方法：选择合适的平台提示词，修改引号中的名字，上传社交媒体主页截图，内容较多的话简易遮挡一些无关的，比如 IP 属地等，可以防止文字崩坏
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
