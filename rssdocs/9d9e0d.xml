@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69622413800201ac686cd175</id>
+            <title>AI探索站 01月10日</title>
+            <link>https://m.okjike.com/originalPosts/69622413800201ac686cd175</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69622413800201ac686cd175</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Jan 2026 10:04:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天写了个用 Nano Banana Pro 在 Claude Code 生成 PPT 的 Skills <br /><br />顺便写了篇内容教大家怎么用，以及用这个例子看一下我是怎么创建 Skills 的<br /><br />完整长文可以在这里看：https://mp.weixin.qq.com/s/QRek8OUN_BvBvOPr6ySvBA<br /><br />有意思的是我前几天看到 oh-my-opencode 在安装方式哪里直接写上了给 AI 编程工具看的内容和对应的提示词<br /><br />你可以一键让 AI 帮你安装这些项目，这次我也学了一下，直接复制提示词给 Claude Code 或者 Cursor 它就能帮你安装了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6960841ec5a1d4e649632705</id>
+            <title>AI探索站 01月09日</title>
+            <link>https://m.okjike.com/originalPosts/6960841ec5a1d4e649632705</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6960841ec5a1d4e649632705</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 09 Jan 2026 04:29:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    用 Claude Skills 创建一个简单的 Agent 真的太简单了<br /><br />人人都能创建自己的 Agent 大军，我这里搞了一个 Nano Banana Pro PPT 生成 Skills<br /><br />基于任何文档生成 PPT，支持风格选择、页数自定义<br /><br />生成后会导出图片文件以及帮你生成一个全屏预览的网页<br /><br />也可以作为整个图文混排 Agent 体系的一个部分
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/695fd6589f3cd84f65a6798b</id>
+            <title>AI探索站 01月08日</title>
+            <link>https://m.okjike.com/originalPosts/695fd6589f3cd84f65a6798b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/695fd6589f3cd84f65a6798b</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 08 Jan 2026 16:07:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    若干年后，AI 会发现：套壳的难度，远大于训练基础模型。套壳公司的市值，也将远超模型公司。<br /><br />大部分人类不太信。这就是机会所在。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/695f22fa25bae56612561d94</id>
+            <title>AI探索站 01月08日</title>
+            <link>https://m.okjike.com/originalPosts/695f22fa25bae56612561d94</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/695f22fa25bae56612561d94</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 08 Jan 2026 03:22:34 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    发现 X 上一位斯坦福 AI 女极客 Molly Cantillon，她刚写了篇狠文，讲她几个月来，怎么用 Claude Code 搭了套「个人全景监控系统」。<br /><br />- 她通过定时任务自动拉取 Amplitude 数据，交叉比对 GitHub，精准指出需要开发的功能，处理 A/B 测试，生成文案，客服部门完全自主运行。<br /><br />- 邮箱首次实现收件箱清零（Inbox Zero），所有来信自动生成回复草稿。<br /><br />- 训练计划根据混乱的旅行日程自动调整。<br /><br />- 睡眠方面在 WHOOP 追踪数据六小时后触发投影仪，用她最爱的箴言唤醒自己。<br /><br />- 订阅管理帮她找回两千美元自己都不知道的持续扣款，还有那些曾被忽视的、旧金山交通罚单和拖延到快被遗忘的待办事项。<br /><br />- 控制智能家居系统，甚至照料植物生长。<br /><br />- 个人财务现在在终端里管理。每天深夜系统会撬开互不相通的券商系统，抓取国会文件和对冲基金持仓报告，收集 Polymarket 预测概率、X 平台舆情动态、关注列表的新闻头条和 10-K 年报。<br /><br />- 清晨 ~/trades 目录里都会新增一份简报。上月它标记出菲尔兹议员增持奈飞股票，三周后华纳兄弟收购案就公布了。她说自己不总是跟单交易，有时会和它的分析逻辑辩论，但再也不必在清晨六点同时盯住十五个浏览器标签了。<br /><br />- 爱泼斯坦档案解密那晚最疯狂。她和五个朋友彻夜剖析成千上万份文档，解析成可检索的索引：航班记录、短信往来、照片资料、亚马逊购物清单、房产信息。<br /><br />- 凌晨四点时他们跑赢了整个新闻编辑室的效率。清晨七点推出 Jmail 邮箱检索工具，至今已有 1800 万人搜索过那个逝者的收件箱。若在十年前这需要整个团队和大量筹备时间，而他们仅用一夜就完成了。<br /><br />- 圣诞节她看着父母学习命令行。她没有将其包装成编程教学，只是设置了简单的别名指令'c'，告诉他们用日常英语描述想实现的操作。<br /><br />她同时并行运行着八个实例：nox、metrics、email、growth、trades、health、writing、personal。每个实例独立运行，能够生成短期存活的子智能体，并通过明确的交接流程交换上下文。<br /><br />在机场在她入睡时 caffeinate -i 参数持续保持系统唤醒状态，任务完成后发送短信，她回复检查点后继续推进。所有思考痕迹均被记录并归档，为实现递归式自我优化提供基础。<br /><br />简直太酷了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/695dbc8825bae566123435e0</id>
+            <title>AI探索站 01月07日</title>
+            <link>https://m.okjike.com/originalPosts/695dbc8825bae566123435e0</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/695dbc8825bae566123435e0</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 07 Jan 2026 01:53:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    全网最好的 agent skill 中文完全指南，一文看完就能精通(๑˃̵ᴗ˂̵)👍<br /><br />从基础概念、应用价值优势，<br />到使用与制作教程、哪些场景适合做 skill<br />都给了说人话的详尽解析<br /><br />结合了不同复杂度的 skill 实验与多篇技术博客后，终于把 agent skill 的终极指南写完了！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/695b9290c5a1d4e649eb9e7e</id>
+            <title>AI探索站 01月05日</title>
+            <link>https://m.okjike.com/originalPosts/695b9290c5a1d4e649eb9e7e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/695b9290c5a1d4e649eb9e7e</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 05 Jan 2026 10:29:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    【手慢无】免费获得ChatGPT一年plus 最简单教程（详见图片教程）：<br />1、 新账号注册，然后登录，最好无痕模式<br /><br />2、chatgpt.com/veterans-claim ，点击【验证资格条件】进入新页面，这个页面别动了（等下用）<br /><br />3、复制【discord.gg/7mt422QN9Y】链接，在浏览器打开，会跳转加入 Discord 社区，可能需要安装软件，点击大兵专用频道,输入/verify,在旁边出现的link旁边输入【复制第二步的新页面要输入内容的网页链接】并发送<br /><br />4、确认 Discord 群里面，回复你验证成功后，再刷新第二步的页面，就会变成已认证<br /><br />5、.认证成功后,再次打开https://chatgpt.com/veterans-claim，然后点击领取优惠绑卡，绑卡扣0元,可以试试国内visa卡,不行的话开注册一张虚拟卡,绑卡后直接获得一年plus会员
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/695a46f355437242ae2b6b20</id>
+            <title>AI探索站 01月04日</title>
+            <link>https://m.okjike.com/originalPosts/695a46f355437242ae2b6b20</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/695a46f355437242ae2b6b20</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 04 Jan 2026 10:54:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    如果你能对每条IM消息进行编程。<br /><br />事情的起因是，今天打算发送一张图片给微信好友，但是担心对方在上班，万一当众把图片打开就社死了。<br /><br />于是想到，要是IM软件可以让你在发送图片的时候，自定义图片的显示效果就好了，例如对方看到图片是有一层模糊效果的，需要手指滑动才能看到原图片。<br /><br />这个时候灵光一现，何必只是图片呢，只是这个效果呢？如果对于每一条消息，用户都能选择如何显示以及会有什么效果呢？<br /><br />用户在发送消息时，可以由AI推荐效果，也能由用户自己输入。接着 AI 就可以根据文字描述写好代码，最好代码就能随消息一起发送出去，并显示在屏幕上。<br /><br />有了这个想法后，就在 ai studio 上让 gemini 写了一个 demo，就是视频的这个样子了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6959d761b35f06265835118c</id>
+            <title>AI探索站 01月04日</title>
+            <link>https://m.okjike.com/originalPosts/6959d761b35f06265835118c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6959d761b35f06265835118c</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 04 Jan 2026 02:58:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    📊 我一天到底工作了多少？来看看键盘和鼠标使用量！前端同事假期做了个macOS 菜单栏应用，可以知道你的鼠标今天走了多少米，滚轮滚了多少万像素：https://github.com/debugtheworldbot/keyStats<br />（隔壁cursor同事敲了最多的Tab🤣）<br /><br />除此之外，昨晚还有其他同事，不约而同地发布假期作品：<br />- 设计师做了个桌面便签应用（用的electron）<br />- pm做的小程序<br />（像是要参加什么hackathon）<br /><br />【团队还在招设计师和增长负责人，如果以上的氛围吸引到你，欢迎戳我聊聊】<br /><br />（主业是AI产品，上个月的token消耗是1/5的manus）（一种计量方式，没有蹭manus的意思(´･_･`)
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6958d9690d0cd914a8182bd0</id>
+            <title>AI探索站 01月03日</title>
+            <link>https://m.okjike.com/originalPosts/6958d9690d0cd914a8182bd0</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6958d9690d0cd914a8182bd0</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 03 Jan 2026 08:55:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    拍脑袋很想知道一个数据，但又不好意思麻烦数据同事放假加班，想着自己搓一下。但每次找AI跑的sql代码都是报错真的很痛苦。问题无非AI又自己创建了一个莫名其妙的字段或者生创了一个关联把表连在一起，很多轮次后才艰难调通。<br /><br />过程中发现其实很多想要的数字在系统里都有一些相关的表，如果把已经在跑的表拿出来给ai理解一下字段和表的关联关系，生成一个字段明细，根据这个明细再生成的表的可用概率就大大提高。<br /><br />做完前面的一切感觉前面的工作流稍微抽象一下可以变成个小工具，求助了一下几个AI老师，搓了一个给不会写sql的产品+运营以及忙不过来的数据分析师可用的小工具。<br /><br />早年间数据同事开过sql课大家还能搓一点瘸腿sql，时间久了脑子实在不够用确实也没法每张表都自己上。<br /><br />差不多成型以后自己拿来测试了几个之前偶尔冒出来的想法但因为偷懒没直接求助数据工程师的需求，竟然意外的好用，又完善了一下外观和报错的反馈部署到线上了。<br /><br />省流版：<br />网页预览：https://sql-assistant-iota.vercel.app/<br />项目说明：https://sql-assistant-iota.vercel.app/about<br /><br />可能的用户：不会写sql的产品运营和忙不过来的数据工程师<br /><br />部署在本地，不涉及线上数据安全问题
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6957c53b8dab01fe53b51c3e</id>
+            <title>AI探索站 01月02日</title>
+            <link>https://m.okjike.com/originalPosts/6957c53b8dab01fe53b51c3e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6957c53b8dab01fe53b51c3e</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 02 Jan 2026 13:16:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    新的产品形态，往往来自于重新定义最小单位。<br /><br />对于 notion 来说，文档的最小单位变成了 Block<br />对于 Claude 来说，对话的最小单位变成了 Artifact
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

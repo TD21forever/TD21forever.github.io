@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>什么值得买</title>
+        <link>http://www.smzdm.com</link>
+        
+        <item>
+            <id>https://www.smzdm.com/p/166406452/</id>
+            <title>百事 生可乐 柠檬味碳酸饮料 330ml*6听 7.9元</title>
+            <link>https://www.smzdm.com/p/166406452/</link>
+            <guid isPermaLink="false">https://www.smzdm.com/p/166406452/</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 11 Jan 2026 00:05:42</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    漫武随风
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.smzdm.com/p/166405871/</id>
+            <title>王小卤 去骨凤爪  休闲零食 鸡爪 酸辣无骨凤爪罐装 蒜香500g*1罐+柠檬500g*1罐共2罐 29.9元</title>
+            <link>https://www.smzdm.com/p/166405871/</link>
+            <guid isPermaLink="false">https://www.smzdm.com/p/166405871/</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Jan 2026 23:44:54</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    值友菌
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
