@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69872bb69f3cd84f654f7d10</id>
+            <title>AI探索站 02月07日</title>
+            <link>https://m.okjike.com/originalPosts/69872bb69f3cd84f654f7d10</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69872bb69f3cd84f654f7d10</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 07 Feb 2026 12:10:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2026年春天，Y Combinator在寻找这些方向的创业公司<br /><br />1️⃣ 产品经理的Cursor（Cursor for Product Managers）<br />AI很擅长写代码，但产品的成功取决于决定要做什么。我们认为，有机会打造一个AI原生系统，专注于帮助团队搞清楚要做什么，而不仅仅是怎么做。<br /><br />2️⃣ AI原生对冲基金（AI-Native Hedge Funds）<br />1980年代，量化交易看起来还很边缘；今天它已是行业标准。我们正处在AI带来的类似拐点上，下一代伟大的对冲基金将是AI原生的，用智能体以机器的规模分析文件、电话会议和市场。<br /><br />3️⃣ AI原生中介机构（AI-Native Agencies）<br />中介机构一直很难规模化。AI改变了这个模式——让公司用软件在内部完成高质量的工作，获得更高的利润率，把中介机构变成可以远超今天服务公司规模的类软件业务。<br /><br />4️⃣ 稳定币金融服务（Stablecoin Financial Services）<br />稳定币正在快速成为全球金融的关键基础设施，但金融服务层的大部分还没建立起来。这为提供DeFi优势的服务创造了空间。现在正是在这个领域构建的最佳时机。<br /><br />5️⃣ 政府AI（AI for Government）<br />AI已经让提交表格变得容易多了，但政府仍在手工处理很多表格。AI原生工具有巨大的机会让政府运营现代化——虽然很难卖，但一旦被采用就会非常强大。<br /><br />6️⃣ 现代化金属轧制厂（Modern Metal Mills）<br />美国再工业化不只是劳动力或地缘政治的问题——金属轧制厂运行缓慢是因为用的是过时的系统。现代软件为轧制厂创造了机会，可以缩短交付时间、降低成本，同时提高灵活性和利润率。<br /><br />7️⃣ 体力工作的AI指导（AI Guidance for Physical Work）<br />关于AI的讨论大多集中在哪些办公室工作会被取代。但对于体力工作，AI还做不到在真实世界中行动。有了多模态模型和无处不在的硬件，就有机会为工人提供实时AI指导，大幅缩短培训时间，大规模释放熟练劳动力。​​​​​​​​​​​​​​​​
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69871d2dc5a1d4e649ffd20b</id>
+            <title>AI探索站 02月07日</title>
+            <link>https://m.okjike.com/originalPosts/69871d2dc5a1d4e649ffd20b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69871d2dc5a1d4e649ffd20b</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 07 Feb 2026 11:08:29 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我用了 Clawdbot（openclaw）两周不到完成的所有任务<br /><br />好的，整理完了！从 1月26日到2月7日，共 13天，完成了以下任务：<br /><br />📊 完成任务总览（1/26 - 2/7）<br /><br />🔧 基础设施搭建<br /><br />| 任务                | 日期    | 说明                                     |<br />| ----------------- | ----- | -------------------------------------- |<br />| Bootstrap 完成      | 01-26 | 建立身份 配置 Telegram、Brave Search |<br />| GitHub 连接         | 01-27 | gh CLI 登录 |<br />| 语音 STT 配置         | 01-27 | Groq Whisper 语音转文字                     |<br />| 语音 TTS 配置         | 01-29 | ElevenLabs 克隆3个声音|<br />| Memory Search 本地化 | 01-31 | M3 本地 embedding|<br />| Gateway 稳定性修复     | 01-28 | 禁用 Discord、移除72小时时限                    |<br />| 加密钱包生成            | 01-27 | 区块链钱包，安全存储                   |<br /><br />📈 投资研究<br /><br />| 任务             | 日期    | 产出                                                |<br />| -------------- | ----- | ------------------------------------------------- |<br />| Ubisoft 股票分析   | 01-26 | |<br />| Comcast 深度研究   | 01-27 ||<br />| 万代高达 IP 调研     | 01-27 ||<br />| 布鲁可 (00325.HK) | 01-27 | |<br />| BTC 投资分析       | 01-30 | |<br />| 贵金属深度研究        | 02-02 | |<br /><br />🎰 Polymarket 自动化<br /><br />| 任务            | 日期       | 说明                        |<br />| ------------- | -------- | ------------------------- |<br />| API 对接 + 做市部署 | 01-28    | 日本服务器，跑通完整流程        |<br />| 做市策略迭代 v1-v5  | 01-28~29 | 从单边买入到库存做市                |<br />| 链上 Approve 配置 | 01-29    | CTF Exchange + NegRisk 全套 |<br />| 亏损复盘 + 经验总结   | 01-29    | 总结教训               |<br />| v5.1 清理 + 重启  | 02-05    ||<br /><br />📱 微信系统整合<br /><br />| 任务                        | 日期    | 说明                                |<br />| ------------------------- | ----- | --------------------------------- |<br />| Contact Management API 对接 | 02-02 | 8995 联系人、93 标签                    |<br />| ChatLog Tunnel 链路         | 02-04 ||<br />| ChatLog JSON 存储           | 02-04 | 一次 API 拉全|<br />| wechat-chatlog Skill      | 02-04 | 联系人搜索 + 聊天记录拉取                    |<br />| CRM V1.0 需求文档             | 02-07 | PRD-V1.0.md + TECH-DESIGN-V1.0.md |<br />| CRM Phase 1 开发            | 02-07 | AI 服务 + 定时任务 + 数据库表               |<br />| CRM Phase 2 开发            | 02-07 | 建议卡片 + 话术生成                       |<br /><br />📊 Fund Dashboard<br /><br />| 任务           | 日期       | 说明                                  |<br />| ------------ | -------- | ----------------------------------- |<br />| 富途 OpenD 部署  | 02-04~05 | 本地 API + Python bridge              |<br />| Dashboard 搭建 | 02-05    | Futu + Binance + 国债 + Fed           |<br />| 宏观数据集成       | 02-05    | Treasury Yields + Fed Balance Sheet |<br />| NAV 历史回算     | 02-06    | 22天数据，币安+港股修复                       |<br />| 服务持久化        | 02-05    | Windows 任务计划 + 守护进程                 |<br />| v1.0 发布      | 02-05    | GitHub tag                          |<br /><br />🎙️ 播客系统<br /><br />| 任务         | 日期    | 说明                        |<br />| ---------- | ----- | ------------------------- |<br />| 播客监控系统     | 01-30 | 14 个播客，AI 转录，cron 轮询 |<br />| 飞书集成       | 02-02 | 上传云盘 + Webhook 通知         |<br />| zice 配置    | 02-03 | 10 个播客，独立飞书群              |<br />| Summary 复用 | 02-07 | 全局索引避免重复转录                |<br /><br />📝 文风分析<br /><br />| 任务           | 日期    | 说明            |<br />| ------------ | ----- | ------------- |<br />| Twitter 推文抓取 | 01-27 | 99 条推文 + 分析报告 |<br />| 36KR 专栏分析    | 01-29 | 52 篇文章 + PDF  |<br />| 知乎专栏分析       | 01-29 | 30 篇文章 + PDF  |<br />| 大文章分析        | 01-29 | 2 篇深度文章 + PDF |<br /><br />💳 财务分析<br /><br />| 任务                         | 日期    | 说明          |<br />| -------------------------- | ----- | ----------- |<br />| 信用卡账单分析                    | 02-01 | 建行+招商 24 个月 |<br />| 支付宝账单分析                    | 02-01 | 出行/打车/酒店细分  |<br />| credit-card-analysis Skill | 02-01 | 可复用解析器      |<br /><br />🛠️ 工具/脚本<br /><br />| 任务                 | 日期    | 说明                           |<br />| 扫雷游戏               | 01-27 | Snake repo 新增 minesweeper.py |<br />| PDF 生成方案           | 01-30 | puppeteer 脚本|<br />| LI.FI 跨链脚本         | 01-28 ||<br />| Manus Slides Skill | 02-04 | Markdown → Manus润色→ PDF     <br /><br />统计：<br />• 📅 13 天<br />• ✅ ~50+ 个独立任务<br />• 📄 10+ 研究报告<br />• 🔧 20+ 脚本/工具<br />• 📦 5 个 Skill
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6986187a3eaf1b23760192ef</id>
+            <title>AI探索站 02月06日</title>
+            <link>https://m.okjike.com/originalPosts/6986187a3eaf1b23760192ef</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6986187a3eaf1b23760192ef</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 06 Feb 2026 16:36:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Seedance 2.0 就是现在世界上最强的视频模型，没有并列 的<br /><br />字节终于站起来了
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69860204c5a1d4e649e45b9b</id>
+            <title>AI探索站 02月06日</title>
+            <link>https://m.okjike.com/originalPosts/69860204c5a1d4e649e45b9b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69860204c5a1d4e649e45b9b</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 06 Feb 2026 15:00:20 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    seedance 2.0 是我 26 年来最大的震撼
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69856471c5a1d4e649d56108</id>
+            <title>AI探索站 02月06日</title>
+            <link>https://m.okjike.com/originalPosts/69856471c5a1d4e649d56108</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69856471c5a1d4e649d56108</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 06 Feb 2026 03:48:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    中美ai大战过于戏谑了。<br />​<br />​宛如海洋文明和农耕文明的碰撞。<br />​<br />​美国，我们推出了GPT 5.3-codex, 速度更快，所需指令数量不到5.2-Codex的一半。<br /><br />​还有Claude Opus4.6的升级，能够更长时间的执行任务，并且能够发现自身错误。<br />​<br />​<br />​我们ai大战。<br /><br />宝，喝奶茶吗？<br />宝，红包你看领一个吗？
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69841656c5a1d4e649b67226</id>
+            <title>AI探索站 02月05日</title>
+            <link>https://m.okjike.com/originalPosts/69841656c5a1d4e649b67226</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69841656c5a1d4e649b67226</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 05 Feb 2026 04:02:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们恐惧 coding，就像原始人恐惧火。<br /><br />但 code 从来不是程序员的专利。38 亿年前，DNA 就开始在做这件事——用四个字母，编织出生命。<br /><br />宽泛地讲，食谱是 code、法律是 code，你每天坚持的习惯也是 code。追溯词源，你会发现 coding 的本质是「编排规则，让系统自行运转」——我们一直在做这件事。<br /><br />更重要的是，它是通用 Agent 时代最强大的力量，可能没有之一。藏在这四个字母里的，是解放人类创造力的终极钥匙。<br /><br />放下恐惧——像拥抱心跳一样，拥抱智能的编排本身。它沉默了数十亿年，此刻正在破土，以亿万天才之国的名义。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69815b74c5a1d4e6497608a2</id>
+            <title>AI探索站 02月03日</title>
+            <link>https://m.okjike.com/originalPosts/69815b74c5a1d4e6497608a2</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69815b74c5a1d4e6497608a2</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 03 Feb 2026 02:20:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    来自秋芝整理的相关 Skill 网站<br /><br />🌐 Agent Skills 合集网站<br />这些网站聚合了大量现成的技能，方便快速查找和安装。<br /><br />• SkillsMP：聚合了 GitHub 上超过 11 万个开源技能<br />  https://skillsmp.com/zh<br /><br />• Agent Skills：包含 6000 多个好用的实用技能<br />  https://agent-skills.md/<br /><br />• Skills.sh：侧重于发现热门技能，支持一键安装<br />  https://skills.sh/<br /><br />• SkillStore：经过安全审查的中文友好技能商店<br />  https://skillstore.io/zh-hans<br /><br />• Skills Directory：由 Reddit 社区推荐的技能合集<br />  https://www.skillsdirectory.com/<br /><br />• Agent Skills Me：编辑精选的技能推荐<br />  https://agentskills.me/<br /><br />📦 Agent Skills 仓库<br />这些是官方或知名开发者维护的技能源码库。<br /><br />• Anthropics Skills：Anthropic 官方提供的技能仓库<br />  https://github.com/anthropics/skills<br /><br />• Vercel Agent Skills：Vercel 官方提供的技能仓库<br />  https://github.com/vercel-labs/agent-skills<br /><br />• Awesome Agent Skills：精选出的优质技能合集仓库<br />  https://github.com/JackyST0/awesome-agent-skills<br /><br />• Antfu Skills：由知名开发者 Antfu 维护的技能库<br />  https://github.com/antfu/skills<br /><br />• Ultimate Agent Skills Collection：终极 Agent 技能收藏库<br />  https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/697da5559f3cd84f656d7cf7</id>
+            <title>AI探索站 01月31日</title>
+            <link>https://m.okjike.com/originalPosts/697da5559f3cd84f656d7cf7</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/697da5559f3cd84f656d7cf7</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 31 Jan 2026 06:46:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    让我的clawdbot去帮我找项目了…教ta做个e人，注意安全，have fun！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/697b693625bae56612f9a3ec</id>
+            <title>AI探索站 01月29日</title>
+            <link>https://m.okjike.com/originalPosts/697b693625bae56612f9a3ec</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/697b693625bae56612f9a3ec</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 29 Jan 2026 14:05:42 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    太赛博了😂  🦞们的论坛
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/696dde6356a2a552f97f8576</id>
+            <title>AI探索站 01月19日</title>
+            <link>https://m.okjike.com/originalPosts/696dde6356a2a552f97f8576</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/696dde6356a2a552f97f8576</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 19 Jan 2026 07:33:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近飞书、Plaud 这些硬件录音设备引起了不少讨论。大家最自然的质疑就是：“手机明明就能录音，还能转写，为什么要多带一个设备？”<br /><br />“如无必要，勿增实体。”既然手机能做，这个新“实体”还有存在的必要吗？<br /><br />如果只从“功能层”看，手机确实能录音，能转写，甚至能接 AI。<br /><br />但如果我们把视角切换到“交互层”，结论可能完全不同。工具改变的往往不是“能不能做”，而是“怎么做”。<br /><br />分享两点思考：<br /><br />1. 功能 vs 交互：<br /><br />很多人觉得打开 App 录音只是几秒钟。但在真实的会议、访谈或灵感迸发的瞬间，这几秒钟包含了：解锁手机、找到 App、进入录音界面、启动录音……其间可能还需要确认状态、担心电话打断，事后还要头疼录音文件在哪找。<br /><br />这一系列动作都在增加你的认知负荷，在不断把你的注意力从“正在发生的事情”上强行拉走。<br /><br />专用设备把“记录”从一个需要决策的操作，变成了一种不需要占用心智资源的自然反应。<br /><br />这让我想起“可供性”（affordance）这个产品设计领域的概念，简单说，就是物体本身在“暗示”你该怎么用它。<br /><br />手机作为一个通用设备，它的暗示是模糊的。而一个专门的录音设备，它的物理形态、按钮、指示灯，都在极其明确地告诉你：“不用多想，我就是干这个的”，通过物理形态降低你启动行为的门槛。手机是“能做”，硬件是“适合做”。<br /><br />专用录音设备的价值，不在于它“能不能录音”，而在于它让“记录”这件事变得足够简单、足够自然、足够不打扰。<br /><br />当一个工具通过更好的交互设计，让人更愿意去做一件本来就重要的事，它就不是多余的。<br /><br />2. 必要性不止取决于功能，还取决于人群<br /><br />如果一个月甚至几个月才录一次音，手机确实足够了。<br /><br />但是对于高频会议者、内容创作者或需要大量“先记录，再消化”的人来说，手机录音带来的摩擦感是不可接受的。<br /><br />“必要性”不仅要看功能，更要看“人群”。<br /><br />往往是那些身处其中、有原生痛点的创新者，能率先看到特定人群的“必要性”。<br /><br />所以，有一类硬件创新的机会常常在于：<br />你通过交互提升的体验，从特定人群那里挖掘出的「价值总量」到底有多大？<br /><br />当一个工具让人更愿意去做一件本来就重要的事，它就不是多余的实体。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
