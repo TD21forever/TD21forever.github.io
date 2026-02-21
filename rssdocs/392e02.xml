@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>36氪 - 科技频道</title>
+        <link>https://www.36kr.com/information/technology</link>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692758938332800</id>
+            <title>3000亿，今年新贵诞生了</title>
+            <link>https://www.36kr.com/p/3692758938332800</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692758938332800</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 09:42:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>依旧沸腾。</p>
+  <p>昨日（2月20日），港股马年首个交易日，智谱和MiniMax再次涨疯了。其中，MiniMax收盘股价报涨14.52%，市值一举突破3000亿港元。至此，MiniMax上市短短两个月内，股价涨幅已超过450%。</p>
+  <p>始于上海，MiniMax身后掌舵者是一位89年的博士——闫俊杰，他早年任职于商汤科技，后来在2022年投身AGI创业。成长速度惊人，MiniMax仅用4年时间就实现IPO。闫俊杰也成为中国AI新浪潮的标志性面孔。</p>
+  <p>短短几天，我们目睹着智谱和MiniMax双双破3000亿市值。此情此景，AI大时代，波澜壮阔。</p>
+  <h2><strong>37岁，他缔造3000亿</strong></h2>
+  <p>闫俊杰，无疑是MiniMax的灵魂人物。</p>
+  <p>1989年，他出生在河南的一座小县城，本科毕业于东南大学数学专业，后来进入中国科学院自动化研究所攻读博士，继续在清华大学计算机系从事博士后研究。</p>
+  <p>博士期间，闫俊杰加入商汤科技，从实习生一路做起，曾任商汤集团副总裁、研究院副院长和智慧城市事业群 CTO。直到2021年底，闫俊杰结束这份工作，一度做好了去当老师的准备。</p>
+  <p>但一件事改变了他的想法。闫俊杰曾在MiniMax OpenDay上回忆这段往事：有一天外公告诉他想写一本回忆录，却没办法做到，因为需要非常好的语言组织能力，并且外公不会打字。“那个时候，我认为只有人工智能可以帮他实现这件事。”</p>
+  <p>于是在2022年初，闫俊杰在上海正式创立MiniMax，在一个不到100平米的房间里写下了初心和路径——以“与所有人共创智能”为使命，致力于实现通用人工智能(AGI）。由此一来，MiniMax成为国内仅有的两家在ChatGPT发布前，便积极布局大模型研发的企业之一。</p>
+  <p>很快，MiniMax的第一款AI产品就已上线，之后又陆续推出星野/Talkie、海螺 AI 等C端产品，覆盖了内容创作、智能助手以及娱乐应用等领域。2023下半年，在大部分国内大模型厂商还在继续迭代稠密模型（dense model）之际，MiniMax却出乎意料地将大量资源投入到MoE架构中。随后，MiniMax在2024年1月上线abab 6模型，成为国内首个MoE大模型。紧接着又推出abab 6.5 系列模型，开创了用 MoE 架构进行大规模商业化部署的先河。</p>
+  <p>但外界鲜少知道的是，MiniMax在研发期间曾失败过两次，直到第三次成功了，闫俊杰才跟投资人讲，MoE差不多能搞定了。事后获悉的早期投资方明势创投黄明明对闫俊杰感叹：“你赌不出来，可能这家公司就挂了。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_7ba5db3b1edd4d74b883523ec3a0c953@000000_oswg878336oswg1080oswg703_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>今年1月，MiniMax迎来里程碑时刻——正式登陆港交所，IPO发行价为165港元/股，收盘大涨109%，首日市值便突破1000亿港元。</p>
+  <p>正如闫俊杰在上市仪式上所言，一家人工智能公司的真正价值是提供源源不断的先进智能，并为人所用。他与MiniMax踏上新征程。</p>
+  <h2><strong>一场超级回报</strong></h2>
+  <h2><strong>300位员工成千万富豪</strong></h2>
+  <p>没想到，MiniMax开启了大涨之路。</p>
+  <p>在上市首日收盘大涨109%之后，MiniMax股价持续攀升，先是在1月末突破1500亿港元市值，随后又在2月13日突破2000亿港元，蛇年收官股价则报847港元/股，总市值突破2600亿港元。</p>
+  <p>令人惊叹的是，港股马年首个交易日，MiniMax股价继续暴涨，收盘涨幅为14.52%，市值正式迈上3000亿港元大关。至此，2026年初至今MiniMax股价已累计涨超450%。</p>
+  <p>那么，MiniMax靠什么实现市值翻了三倍？</p>
+  <p>这要从春节前夕说起，MiniMax正式发布旗舰编程模型M2.5，定位为全球首个为Agent场景原生设计的生产级模型，支持PC、App及跨端应用的全栈编程开发。据官方技术报告，M2.5在每秒输出100个token的条件下，连续工作一小时仅需花费1美元。</p>
+  <p>如此大涨，身后投资人自然迎来丰厚回报。</p>
+  <p>回到2022年初，几乎同一时间，米哈游和高瓴、IDG资本、云启资本一起成为了MiniMax的天使投资方，这一轮投后估值为2亿美元。其中，米哈游持有上市后的MiniMax约5.24%股权，对应最新市值，其持股账面市值已超过150亿港元。</p>
+  <p>招股书显示，MiniMax投资方云集了米哈游、高瓴、IDG资本、云启资本、明势创投、红杉中国、阿里巴巴、腾讯、上海国投、基石资本、小红书、国方创新、经纬创投等，队伍庞大。</p>
+  <p>值得一提的是，MiniMax堪称最年轻AI团队。</p>
+  <p>招股书显示，2025年CEO闫俊杰36岁、COO贠烨祎31岁、大语言模型负责人赵鹏宇29岁、视觉模型负责人周彧聪32岁。公司共有385名全职员工，平均年龄约29岁，其中研发人员占比超过七成。</p>
+  <p>与此同时，包含前员工在内，MiniMax员工持股计划高达392人，这意味着几乎全员持股。其中，MiniMax普通员工363人合计持股，约占IPO完成后已发行总股本的3.41%，由此计算目前人均持股市值高达2800万港元。</p>
+  <p>闫俊杰此前感慨，“过去四年，我们从零开始，靠一群年轻人构建了全球领先的全模态能力，并服务了全球2亿多用户。但这一切只是刚刚开始。我们期待接下来四年AI行业的进步速度和过去四年一样快。”</p>
+  <p>这股来自中国的年轻AI力量正在席卷全球。</p>
+  <h2><strong>后浪崛起</strong></h2>
+  <h2><strong>中国科技新贵爆发</strong></h2>
+  <p>这一幕并非偶然。</p>
+  <p>犹记得2025年6月，影石创新登陆A股，上市首日市值超700亿元，创始人刘靖康一举成为科创板首位敲钟90后。上市后公司股价一路高涨，市值一度超1400亿元。</p>
+  <p>由此，刘靖康跻身年度新贵——34岁的他与妻子潘瑶以385亿元登上《2025胡润百富榜》。</p>
+  <p>这样的故事正密集多了起来。</p>
+  <p>今年春晚再次爆红的宇树科技，身后也是一位90后。本科毕业于浙江理工大学、硕士毕业于上海大学的王兴兴，从小就擅长于搞各种小发明。在大学期间，19岁的王兴兴做出人生第一台机器人。而拿到第一笔投资时，他也才26岁。他所创立的宇树科技，已向IPO发起冲刺。</p>
+  <p>无独有偶，智元机器人去年收购上市公司上纬新材，此后上纬新材连续10个交易日走出涨停行情，成为2025年首个10倍股。</p>
+  <p>众所周知，智元机器人身后站着另一位90后——坐拥270万粉丝的B站up主稚晖君彭志辉。他本硕毕业于电子科技大学，曾入选华为的“天才少年计划”。直至2022年底，他官宣离开华为，去追求自己梦想和热爱的事业，投身机器人创业。</p>
+  <p>相似的气质，还有月之暗面杨植麟。最新消息，澎湃新闻披露月之暗面即将完成新一轮超7亿美元的融资，同时估值已迅速翻倍并突破100亿美元。如此迅猛背后，来自清华的90后杨植麟功不可没。</p>
+  <p>放眼望去，这样的面孔还有很多：银河通用王鹤、面壁智能曾国洋、Meshy胡渊鸣、云鲸智能张峻彬……一位位看似学生面孔，却凭借着知识和技术，白手起家创立令人惊叹的公司。</p>
+  <p>透过这一幕幕，我们看到中国新一代创业者形象。正如IDG资本团队观察到：自ChatGPT问世后，那些真正突破性的创新往往来自年轻团队。“他们也许还缺乏行业经验，但正因不受传统思维束缚，反而能在AI等前沿领域快速建立技术优势。”</p>
+  <p>如果说，中国上一波创业者擅长于跑业务做销售，那么眼前这一群年轻创始人则更专注于技术。正是这些年轻血液，源源不断地注入中国科技历史长河，奔腾不息，流向远方。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247714639&amp;idx=1&amp;sn=09ddc27d291cf16d3726abba5c6e017b&amp;chksm=ed2c307b07dfaeac77fba449dcbb76d39b84e93934162e66fe9c81a7780f4990913f6e03efab&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：刘博，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692632392691585</id>
+            <title>一夜变天？Claude出手，网络安全股集体「血洗」，全球百亿市值已蒸发</title>
+            <link>https://www.36kr.com/p/3692632392691585</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692632392691585</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 07:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p><strong>【新智元导读】刚刚，Anthropic发布代码安全工具Claude Code Security，直接让安全股一夜蒸发百亿市值！网络安全龙头CrowdStrike的股价直接原地跌超6.5%，市场陷入极度恐慌：传统安全工具，从此全凉了？</strong></p>
+  <p>过年期间，AI圈接连不断的地震还没停。</p>
+  <p>昨天的Gemini 3.1 Pro刚刚亮相，紧接着就又来新炸弹了——</p>
+  <p>刚刚，Anthropic发布了一个<strong>代码安全工具Claude Code Security</strong>，能高效扫描代码库漏洞并自动生成针对性补丁，远超传统工具。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_f3075c89badd4ae88197d766b8cc2165@6100851_oswg399839oswg1080oswg1409_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>听起来，是不是只是一条平平无奇的技术更新？</p>
+  <p>结果，消息一出，<strong>美股网络安全板块立刻集体跳水</strong>。</p>
+  <p>CrowdStrike、Cloudflare、Okta等安全股瞬间<strong>暴跌超5%</strong>，总市值蒸发逾100亿美元，<strong>一夜就蒸发了百亿市值</strong>！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_8147a6e0bc584b58b05eb2d214d7532e@6100851_oswg388301oswg1080oswg793_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>仔细看，网络安全龙头CrowdStrike一度暴跌6.5%，Cloudflare重挫超6%，SailPoint大跌6.8%，Okta下挫5.7%，Zscaler跌3.5%，Global X网络安全ETF下跌3.8%，年内累计跌幅扩大至14%</p>
+  <p>一条AI功能更新，直接让一个千亿级的行业板块原地失血。</p>
+  <p><strong>这不是波动，这是恐慌！</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_9e471d120bcc4a9a8eee9876a6a1af51@6100851_oswg411614oswg1080oswg1058_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>外媒火速发文：网络安全公司的股价周五暴跌，原因仅仅是因为，Anthropic在Claude新模型中引入一项安全功能</p>
+  <h2><strong>安全股全线飘红，巨头市值缩水百亿</strong></h2>
+  <p>Anthropic新杀器一发布，网络安全市场就尝到了血腥。</p>
+  <p>网络安全龙头CrowdStrike的股价跌超6.5%，Cloudflare和Okta等随之跟跌，总市值一夜蒸发超100亿美元。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_de23e583716c4072852c3f0c6d6f4a9e@6100851_oswg633290oswg1080oswg1277_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>全球投资者陷入大恐慌：AI将直接蚕食专业安全厂商的市场份额！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_e7988f861712426697c76353798a9393@6100851_oswg644059oswg1080oswg1728_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Cybersecurity ETF下跌了4.9%，收盘时达到自2023年11月以来的最低点。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_7b53728c5cf24f99bd0ce7ec55554434@6100851_oswg350617oswg1080oswg1215_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>就在2026开年的这几周，市场的焦虑情绪不断升温。</p>
+  <p>iShares扩展科技软件ETF今年已下跌超过23%，<strong>有望创下自2008年金融危机以来最大季度跌幅！</strong></p>
+  <p>而且讽刺的是，Cloudflare一度被视为Anthropic崛起的受益者代表；今年1月底，一款基于Claude模型的开源AI助手采用率上升后，其股价还曾大幅上涨。</p>
+  <p>然而，市场瞬息万变。</p>
+  <p>要知道，现在YC里的创业公司有一半是做安全方向的，Anthropic这个新工具一发布，他们还有活路吗？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_753fe5892e244399b62d18d4cd111531@6100851_oswg686669oswg1080oswg686_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>每当Claude出一个新版本，SaaS企业主的内心都是这样的：</p>
+  <p><strong>A正I以摧枯拉朽之势，直接把我们原地掀翻！</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_4b1e783df2504d13848c1dcaa74554be@6100851_oswg53269oswg1080oswg121_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_f95c8dc6091b4f329c2c0ab0cbd33ee0@6100851_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>Claude变身最强白帽黑客</strong></h2>
+  <p>为什么Claude Code Security会造成全球安全股的崩塌？</p>
+  <p>原因就在于，<strong>它不仅是一个工具，更是对传统安全防御体系的一次彻底颠覆。</strong></p>
+  <p>就在安全团队还在对着堆积如山的漏洞工单发愁时，Claude已经化身「最强白帽黑客」，拿着刚刚发布的Claude Opus 4.6，一头扎进开源代码库中。</p>
+  <p>结果让人惊掉下巴：<strong>它一口气揪出了500多个潜伏了十几年的史诗级Bug！</strong></p>
+  <p>要知道，这些漏洞可是经历过无数个人类顶级专家逐行审查，依然大摇大摆活在代码里的「漏网之鱼」。</p>
+  <h2><strong>降维打击，传统扫描工具大翻车？</strong></h2>
+  <p>一直以来，安全圈的痛点极其刺骨：漏洞永远修不完，安全专家永远不够用。</p>
+  <p>大家都在用传统的静态分析工具（SAST），但这些工具往往基于死板的规则匹配。</p>
+  <p>找找硬编码的密码还行，一旦遇到复杂的业务逻辑缺陷或是越权漏洞，直接抓瞎。</p>
+  <p>而Claude Code Security的出现，彻底改变了游戏规则。</p>
+  <p>它不搞死板的模式匹配，而是像一个拥有十年经验的人类安全大牛一样，真正去「读懂」和「推演」你的代码！</p>
+  <p>它能深度理解各个组件之间是如何相爱相杀的，顺藤摸瓜追踪数据在应用中的流转路径。</p>
+  <p>规则扫描工具看不到的复杂漏洞，在它那如同开挂般的逻辑推理面前，根本无处遁形。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_7c696d1670e843d09a887a41543a5742@6100851_oswg81354oswg1080oswg696_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h2><strong>绝不瞎改！自我验证防幻觉</strong></h2>
+  <p>AI写代码大家都怕幻觉，那AI查漏洞修Bug呢？</p>
+  <p>Anthropic这次稳得可怕。为了过滤掉让人头疼的「假阳性」（误报），每一个被揪出来的漏洞，都要经历一场极其严苛的「内部多阶段验证」。</p>
+  <p>Claude会强迫自己扮演红蓝双方，拼命地证明或推翻自己的发现。</p>
+  <p>最终脱颖而出的那些真·高危漏洞，会被推送到安全仪表盘上。不仅自动生成带评级的修复补丁，还附赠一个详细的「信心指数」。</p>
+  <p>最关键的是，Claude秉承「只建议，不代劳」的克制。找出问题、提供解法，但最终按下合并按钮的，永远是人类开发者。</p>
+  <h2><strong>战绩赫赫，红队亲测</strong></h2>
+  <p>这套系统的强大，并非一蹴而就。</p>
+  <p>在过去的一年多里，Anthropic的Frontier Red Team（前沿红队）简直把Claude按在地上疯狂高强度拉练。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_8bc1547369ac4f83a90acf244c82222d@6100851_oswg199390oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不仅把它丢进CTF安全大赛上去跟人类黑客卷，甚至还和太平洋西北国家实验室合作，用AI去防御国家关键基础设施。</p>
+  <p>实战出真知，正是这种「地狱级」特训，才让本月早些时候发布的Claude Opus 4.6拥有了如此恐怖的防御力。</p>
+  <p>那500多个被连根拔起的隐藏漏洞，就是最好的军功章。</p>
+  <p>连Anthropic自己都承认：「我们日常也用Claude来审查自家代码，效果好得惊人！」</p>
+  <h2><strong>AI攻防战：核威慑级军备竞赛打响</strong></h2>
+  <p>毫无疑问，这是一个极具历史意义的转折点。</p>
+  <p>在不久的将来，世界上绝大部分的代码都将被AI一遍遍地扫描。</p>
+  <p>黑客们必定会疯狂使用AI来大规模挖掘可利用的薄弱环节。但正所谓魔高一尺道高一丈，动作更快的防守团队，完全可以用同款甚至更强的AI魔法，把漏洞扼杀在摇篮里。</p>
+  <p>目前，Claude Code Security已经向企业和团队（Enterprise and Team）客户开放了限量研究预览版！</p>
+  <p>而开源项目的维护者们，更享受「一路绿灯」的加急通道。</p>
+  <p>谁能最先掌握AI安全这张底牌，谁就能在这场算力与智力的生死角逐中，立于不败之地。</p>
+  <h2><strong>AI吞噬中间层，资本市场最怕的来了！</strong></h2>
+  <p>过去两年，AI写代码，已经让程序员们神经紧绷了。但大家还在安慰自己：AI只是能写代码、补bug，安全这种高度专业化的领域，它不可能替代人类。</p>
+  <p>结果，现在，Claude直接开始动手扫漏洞了。</p>
+  <p>这就意味着，AI不再是生成内容，而是进入企业安全的核心工作流，它直接瞄准了企业级安全服务的天价利润池！</p>
+  <p><strong>资本市场最怕的是什么？不是技术，而是定价权被动摇。</strong></p>
+  <p>网络安全公司之所以长期拥有高估值，就是因为攻防对抗复杂，安全专家稀缺，这就让他们的服务高度专业化。</p>
+  <p>结果，现在Claude Code Security一出，一个AI模型就能完成80%的漏洞扫描和修复建议，企业只需要少量安全工程师就够了。</p>
+  <p>那么，企业还需要支付高昂的订阅费用给安全厂商吗？</p>
+  <p>这也就是为什么，Claude现在还不能替代CrowdStrike，就已经引起了市场的抛售。</p>
+  <p>当投资人开口问「五年后还需要这么多安全公司吗」，股市就开始崩塌！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_8a19947eac6e414c92b8fc8e3df2b37e@6100851_oswg551581oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Anthropic用Claude引发一万亿美元抛售的情况，仿佛还在昨天</p>
+  <p>回顾从去年底Claude Code引发的一系列核爆级事件，就可以发现：这一类AI革命最残酷的地方在于，它<strong>优先吞噬的是中间层</strong>。</p>
+  <p>一旦模型准确率足够高，SaaS溢价会被压缩，服务费会被重估，估值逻辑会被打穿！</p>
+  <p>更可怕的是，别忘了，Anthropic说了，这项功能还只是「limited research preview」，还没全面开放，也没有商业化规模验证。</p>
+  <p>但是股价已经一路暴跌，这说明，当前AI的进化速度，已经远远快于传统软件公司的产品迭代速度。</p>
+  <p>这是一个危险的信号弹——<strong>接下来，恐怕还要发生更恐怖的事</strong>。</p>
+  <p>参考资料：</p>
+  <p>https://www.anthropic.com/news/claude-code-security</p>
+  <p>https://www.bloomberg.com/news/articles/2026-02-20/cyber-stocks-slide-as-anthropic-unveils-claude-code-security</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Wve8LCQOr8tNjXknAecJ8w" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：Aeneas 定慧&nbsp;，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692635522576260</id>
+            <title>24人团队硬刚英伟达，AMD前高管梦之队出手，新芯片每秒17000个token</title>
+            <link>https://www.36kr.com/p/3692635522576260</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692635522576260</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 05:44:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>造芯片的还有高手？</p>
+  <p>刚刚推出的一款最新芯片，直接冲上硅谷热榜。</p>
+  <p>峰值推理速度高达每秒<strong>17000个token</strong>。</p>
+  <p>什么概念呢？当前公认最强的Cerebras，速度约为2000 token/s。</p>
+  <p>速度直接快<strong>10倍</strong>，同时成本骤减20倍、功耗降低10倍。</p>
+  <p>这就意味着，LLM真正来到了<strong>亚毫秒级</strong>的即时响应速度。实机效果be like：</p>
+  <p>但这块一夜之间刷屏硅谷的芯片，并非出自英伟达、AMD之手，而是一家成立仅两年、团队仅有24人的初创公司——Taalas。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_1faf5fdeac314a57aca560fbf7f296b5@6100851_oswg315530oswg612oswg408_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>芯片代号<strong>HC1</strong>，也是公司的首款产品。</p>
+  <p>不同于所有竞争对手，Taalas选择了迄今为止最极端的技术方案——</p>
+  <p>模型不再加载到内存里，而是直接刻在硅片上。换言之，芯片即模型。</p>
+  <p>结果显而易见，Taalas撬动了芯片算力护城河：H100买不到，试试HC1又何妨？</p>
+  <h2><strong>速度快10倍，功耗降至10分之一</strong></h2>
+  <p>HC1目前搭载<strong>Llama 3.1 8B</strong>模型，用户每秒最高可生成17000 token/s，远高于主流GPU/ASIC。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_46c5cc7254184a27856df0ce38674a3c@6100851_oswg29100oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>其中，在同一模型下Cerebras接近每秒2000个token，SambaNova约为每秒900个token，Groq约为每秒600个，英伟达Blackwell架构的B200为每秒350个。</p>
+  <p>具体来说，HC1采用台积电N6工艺，面积为815mm²，体积小巧而且开源，单颗芯片即可满足8B模型需求。</p>
+  <p>每颗芯片典型功耗仅为<strong>250W</strong>，一个服务器如果同时装配10颗HC1，功耗也才2.5kW，可以直接使用常规空气冷却机架部署。</p>
+  <p>那么是如何做到这么大的性能飞跃的呢？</p>
+  <p>首先HC1借鉴了2000年代初期的<strong>结构化ASIC</strong>芯片理念。结构化ASIC芯片采用门阵列和固化IP，然后仅通过改变互连层就能使芯片适应特定的工作负载。</p>
+  <p>这样下来，结构化ASIC芯片不仅比全定制ASIC更便宜，也比FPGA性能更优。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_53a4912627c24ee787f055c84b3d111f@6100851_oswg1214506oswg994oswg698_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>HC1则采用类似思路，不改变底层电路，只通过调整两层掩模，就能低成本快速做出专用AI推理芯片。</p>
+  <p>它放弃了大多数可编程功能，将模型连同权重一起通过基于<strong>掩模ROM</strong>的调用架构存储在芯片上，并保留一个可编程<strong>SRAM</strong>，用于保存微调后的权重（如LoRA）和KV缓存。其余则全部通过掩模ROM固化执行。</p>
+  <p>这一策略能在设计成本相对可控的前提下，实现模型到芯片的快速转化，将芯片生产周期从原先的六个月缩短到两个月。</p>
+  <p>而如此激进的量化方式势必会影响性能，研究团队也意识到了这一点，所以可以通过LaRA适配器进行重新训练，以及可配置的上下文窗口，让芯片的最低限度灵活性得以保留。</p>
+  <p>换句话说，就是将一个完整大模型通过物理硬连线进芯片中，省去了传统存算分离的成本，用灵活性换取极致的速度和效率。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_82bf983450cd41ed98b3f5e81368c31f@6100851_oswg1371218oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>除了Llama 3.1，Taalas也尝试将其它模型集成到HC1上，例如对<strong>DeepSeekR1-671B</strong>的多芯片解决方案。</p>
+  <p>将SRAM部分拆分到单独的芯片上，然后可以将每片HC1的存储密度提高到约20位参数，总计需要30个定制HC1。</p>
+  <p>整体处理速度可达到每用户每秒12000个token，如果考虑到30颗芯片成本为每百万token是7.6美分，那么该方案成本也不到同等吞吐量的GPU方案的一半。</p>
+  <p>假设GPU更新周期为四年，而HC1每年都需要重新更换，总成本也仍然具备优势。</p>
+  <h2><strong>AMD前高管梦之队</strong></h2>
+  <p>其背后的公司Taalas<strong>成立于两年前</strong>，由AMD前集成电路设计总监Ljubiša Bajić、AMD/ATI/Altera前技术经理和工程师Leila Bajić、AMD前ASIC设计总监Drago Ignjatović共同创立，堪称AMD前高管梦之队。</p>
+  <p>其中，Ljubiša Bajić不仅曾在AMD和英伟达担任高级职位，负责高性能GPU研发设计，还是<strong>Tenstorrent</strong>的创始人兼首任CEO。</p>
+  <p>新公司致力于开发专为AI推理和训练设计的全新架构，强调分层设计和晶格网络，能够让芯片像大脑一样根据任务需求动态处理数据。</p>
+  <p>在2020年，芯片教父<strong>Jim Keller</strong>也强势加入Tenstorrent，并接任CEO一职，而Ljubiša Bajić转任首席技术官CTO，专注于产品研发。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_c90778247fff4b90a6fc07b0f023619f@6100851_oswg123625oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>随后，他又创立了Taalas，试图通过类似硅基编译器的方式，直接将AI模型转化为硅芯片。</p>
+  <p>于是首战告捷，一个<strong>仅有24名成员</strong>的团队，产品投入仅3000万美元，就创造出比通用AI芯片高出几个数量级的能效比。</p>
+  <p>目前Taalas已筹集2亿美元投资，预计将在春季基于HC1发布第二代变体，将集成一款中等规模的推理大模型。</p>
+  <p>随后预计将在冬季部署上线HC2，HC2密度更高、运行速度也会更快。</p>
+  <p>不过对于HC1，网友们的评价却是两极分化。</p>
+  <p>一方面，网友认为HC1的超低延迟将有益于推动具身智能等领域发展。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_d89a4cd5be2f41d782923e2e9b4cf128@6100851_oswg275551oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>另一方面，也有网友实测过后发现，HC1高速推理的背后，却是糟糕的推理深度：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_56c30f62a706466a871112409fb90eb7@6100851_oswg233814oswg1080oswg886_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>以及对于迭代周期相当迅速的大模型来说，HC1的硬编码可能会使芯片很容易过时。</p>
+  <p>这也是为什么当前芯片厂商都在普遍推出通用型芯片的原因之一。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_e4becc8f42b34e4d8531333f2fbeab50@6100851_oswg100158oswg1080oswg232_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>参考链接：[1]https://x.com/wildmindai/status/2024810128487096357?s=20[2]https://taalas.com/the-path-to-ubiquitous-ai/[3]https://chatjimmy.ai/[4]https://www.eetimes.com/taalas-specializes-to-extremes-for-extraordinary-token-speed</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1yO1wjv23ECvSxF66vEZcQ" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692425578835591</id>
+            <title>买辆车，销售为啥都推荐7年分期付？</title>
+            <link>https://www.36kr.com/p/3692425578835591</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692425578835591</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 05:32:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>有网友在社交平台发帖表示，进入2026年，逛汽车门店有一大不同便是不少销售会提到7年超长期低息购车方案。</p>
+  <p>公开报道显示，今年1月，自特斯拉推出7年超长期低息购车方案后，小米、理想、吉利、蔚来等多家车企陆续跟进。据中新经纬不完全统计，截至发稿，至少有16家车企或品牌推出相关措施。</p>
+  <p>“7年超长期低息方案”，这个2026年车市新词，会给消费市场带来哪些影响？为啥车企纷纷跟进？</p>
+  <h2><strong>两种模式大有区别</strong></h2>
+  <p>“之前从没有过这么长期限的购车分期政策。从以前银行类的汽车金融（产品）来看，新车贷款最长是5年期，二手车最长是3年期。”中国汽车流通协会金融分会秘书长周伟接受中新经纬采访时表示。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_f6aa7f46f37d46d6bbc0e58954b2c037@000000_oswg125420oswg1080oswg483_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">部分车企推出的超长期购车低息方案&nbsp;中新经纬制表</p>
+  <p>公开资料显示，根据中国人民银行、中国银行业监督管理委员会（现为国家金融监督管理总局）2017年修订的《汽车贷款管理办法》，汽车贷款的贷款期限（含展期）不得超过5年。国家金融监督管理总局于2025年3月发布的《关于发展消费金融助力提振消费的通知》提到，针对有长期消费需求的客户，商业银行用于个人消费的贷款期限可阶段性由不超过5年延长至不超过7年。</p>
+  <p>从车企端推出的新车金融举措来看，大部分金融方案最长时间为7年，目前仅东风日产将时间延至8年。</p>
+  <p>北京东三环某东风日产4S店销售表示，该金融方案由东风日产汽车金融有限公司提供，后者属于持牌汽车金融公司，具备合法的汽车金融服务资质。</p>
+  <p>从年利率特征来看，上述贷款方案年化率主要集中在0.98%到4.88%之间。而从合作方来看，主要分为银行和第三方融资租赁公司，其中特斯拉、蔚来等车企选择和银行合作，更多车企选择和融资租赁公司合作。比如哈弗在宣传海报中提到，7年超低息为融资租赁产品。</p>
+  <p>苏商银行特约研究员武泽伟向中新经纬表示，银行合作模式与融资租赁模式存在核心区别。</p>
+  <p>“对消费者而言，银行模式是标准抵押贷款，车辆所有权从一开始就登记在个人名下。而融资租赁模式在租赁期内车辆所有权归属于租赁公司，消费者仅拥有使用权，还清租金并完成过户后才获得所有权，此间可能存在使用限制和额外的管理费用。对车企而言，银行模式依赖外部金融机构的风控与资金，融资租赁模式则多通过旗下或关联公司开展，能更深入掌控金融业务链条和利润，但同时也需自身承担更多的资金成本和风险管理责任。”武泽伟分析道。</p>
+  <p>蔚来旗下乐道向中新经纬表示，其合作金融机构是富邦华一。车辆所有权自购车起即归用户，车辆登记在个人名下，非融资租赁的“以租代购”模式，用户拥有完整使用权与所有权，贷款期间可正常办理车辆备案、过户等手续（需符合贷款合同约定）。</p>
+  <h2><strong>激发消费者购车决策</strong></h2>
+  <p>为何车企在此时纷纷推行这一方案？不少业内人士认为，主要是为了挖掘更多消费需求。</p>
+  <p>在武泽伟看来，此轮促销背后有几大关键推动因素。首先是季节性冲量，春节前后是传统的购车旺季，车企希望通过限时促销激发消费者的节日购车决策。其次是政策窗口期效应，2026年起新能源汽车购置税进入“减半征收”阶段，车企希望用金融优惠对冲政策退坡带来的购车成本上升预期，提前锁定订单。</p>
+  <p>此外，他认为这也反映了车企对市场需求的试探与博弈，通过短期激进的金融政策测试市场反应，并为后续调整策略留出空间，避免陷入长期、不可逆的价格战泥潭。</p>
+  <p>谈及推出这一举措的初衷和目的，乐道称：“主要以超低的费率、透明的条款打造消费者安心购乐道的体验，同时叠加换电车型购置税减免政策利好，带给更多用户真金白银的购车福利。”</p>
+  <p>当然，大部分车企推行的超长低息方案都设置了明确的截止时间，属于限时促销活动，推行日期集中在1月下旬到2月上旬，截止日期集中在今年3月前，即延续到春节后。</p>
+  <p>“车企也在试水，先推行限时营销活动，如果确实能转化一批原产品不能释放的客户需求，市场反响不错，那这个模式就是可持续的。”周伟说。</p>
+  <p>从北京到店情况来看，多位汽车销售表示，目前效果并不明显，有销售称“7年低息方案推出时间比较短，客户更愿意选择熟悉的5年分期方案”。</p>
+  <p>北京合生汇小米门店一位销售表示，在近期订车的客户群体里，选择3年0息方案的比例更大。“大部分客户觉得7年时间太长了，3年0息对他们来说更划算，不过也有客户向我询问7年低息购车方案细节。”</p>
+  <p>“总体来看这是一个好方向，现在还处于摸索阶段。汽车金融方正在想办法解决购车人的实际需求，车企也希望借此拉动汽车消费。当然一切行为还是要接受监管，在政策许可范围内开展，再者降低购车金融门槛后，相关机构需要花更大精力提升自身风控能力。”周伟分析道。</p>
+  <p>在社交平台上，也有不少网友发帖询问7年低息购车方案的利弊，评论区有人觉得“是坑”，也有人表示整体算下来利息并不高，能减轻还贷压力。</p>
+  <p>周伟认为，从高息高返到如今的超长期低息方案，汽车金融行业回归到更理性的状态。对消费者而言，实际为金融付出的成本会低于此前。不过，这一举措也对汽车金融机构风控、资管等体系化能力提出了更高的要求。</p>
+  <p>“在高息高返时期，价格是最重要的东西，但现在最重要的是找准客户需求。7年期等金融产品的推出，考虑到了部分消费者的还款压力，未来还可以做一些创新，比如根据不同收入群体的进账规律性，对回款账期进行针对性调整，还可以优化汽车金融进件（贷款申请）效率、服务体验等。”周伟进一步分析表示。</p>
+  <p>聚焦市场终端，武泽伟建议，消费者在选择7年及更长期的低息购车方案时，需注意穿透“低月供”表象，核算真实总成本，比较不同期限方案的总利息支出；再者，务必确认融资主体与合同性质，厘清是所有权贷款还是使用权租赁，明确提前还款、保险购买、车辆处置等全部条款与潜在费用；此外，审慎评估自身长期还款能力，避免过度杠杆，并充分考虑车辆在长达7年时间里的技术贬值与自身换车需求可能带来的财务困境。</p>
+  <p>文：龚宸芫&nbsp;</p>
+  <p>编辑：林琬斯&nbsp;</p>
+  <p>责编：常涛 罗琨 &nbsp;</p>
+  <p>文中观点仅供参考，不构成投资建议，投资有风险，入市需谨慎。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247603937&amp;idx=1&amp;sn=17f13c550bd328ddb0ad3169b758b417&amp;chksm=e87975a7cce0e69c2a7c9864907d95a0b9ae921c0f642d363f4689c738e6edb299abb85323bf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：龚宸芫，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692481003270024</id>
+            <title>为什么所有人都觉得 MiniMax、智谱「太贵了」？</title>
+            <link>https://www.36kr.com/p/3692481003270024</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692481003270024</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 04:30:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>2 月 20 日，港股马年第一个交易日，恒生科技指数跌了近 3%，一片惨淡。</p>
+  <p>但两家公司完全无视大盘——智谱暴涨 42.72%，市值冲破 3200 亿港元；MiniMax 涨超 14%，市值同样突破 3000 亿港元。</p>
+  <p><strong>一天之内，智谱涨出来的市值就相当于一个 B 站</strong>。</p>
+  <p>这两家公司，一家上市刚 43 天（MiniMax），一家上市刚两个月（智谱）。它们的市值已经超过了携程、快手、京东，正在逼近百度。</p>
+  <p><strong>社媒评论区一方面认为，两家公司涨得太夸张——MiniMax 上市 43 天涨了 487%！一方面，是充满了「没上车」的悔恨。</strong></p>
+  <p>根本原因，可能是人们没有看明白，这波 FOMO 背后，国内 AI 公司上涨的逻辑，是什么？</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>反常识：Token 涨价 30%，还被抢空</strong></h2>
+  <p>理解这轮暴涨的钥匙，不在股价本身，而在 8 天前的一则涨价公告。</p>
+  <p>2 月 12 日，智谱发布了一份价格调整函：GLM Coding Plan 套餐价格结构性上调，<strong>整体涨幅自 30% 起</strong>，同时取消首购优惠。海外版更猛——Coding Plan 订阅价格提高 30%-60%，API 调用价格直接翻倍。</p>
+  <p>这在半年前是不可想象的。</p>
+  <p>2024 年下半年到 2025 年初，国产大模型打价格战打得头破血流：字节豆包报价低到 0.0008 元/千 Token，阿里通义千问 GPT-4 级模型降价 97%，智谱自己也曾把 GLM-4-Plus 降了 90%。</p>
+  <p><strong>但这一次，涨价 30% 之后，套餐上线即售罄。</strong></p>
+  <p>国产 AI 编程模型的付费套餐被抢空，这在行业里还是头一次。涨了价还限购——这说明需求弹性极低，用户宁可多掏钱也不能没有。</p>
+  <p>中金公司在研报里用了一个精准的描述：<strong>行业定价逻辑正从「流量消耗」转向「算力价值变现」。</strong></p>
+  <p>MiniMax 这边的情况也类似。</p>
+  <p>2 月 12 日发布的 M2.5 模型，定位为全球首个 Agent 场景原生设计的生产级模型。随后上线的 Highspeed 极速推理版本，同样引发了开发者抢购。</p>
+  <p>两家公司几乎同时出现了同一个现象：<strong>不是卖不出去需要降价，而是供不应求需要限购。</strong></p>
+  <h2><strong>02</strong></h2>
+  <h2><strong>700 倍 PS，在赌什么？</strong></h2>
+  <p>先说一个让人不太舒服的事实。</p>
+  <p>MiniMax 2025 年前 9 个月的营收是 5344 万美元。按当前 3000 亿港元（约 385 亿美元）的市值算，<strong>PS（市销率）超过 700 倍</strong>。智谱的情况也类似——这不是传统意义上任何估值模型能合理化的数字。</p>
+  <p>对比一下：Anthropic 最新估值约 3800 亿美元，年化收入已经超过 20 亿美元，PS 大约 190 倍。OpenAI 估值约 8500 亿美元，年收入据报道约 130 亿美元，PS 约 65 倍。</p>
+  <p><strong>智谱和 MiniMax 的估值倍数，比 OpenAI 高出一个数量级。</strong></p>
+  <p>如果市场不是疯了，那它一定在赌一个非线性增长的故事。</p>
+  <p>这个故事是什么？</p>
+  <p>笔者觉得核心不在于「模型变好了」这种显而易见的叙事，而在于一个更深层的结构性变化：</p>
+  <p><strong>Token 的消耗模式正在从「人类按次使用」，变成「Agent 持续燃烧」。</strong></p>
+  <p>一个程序员用 AI 编程助手，一天可能消耗几十万 Token。但一个 Agent 7×24 小时不停运行——写代码、搜索资料、执行任务——一天的 Token 消耗可能是千万级。而在可见的未来，一个人背后可能同时跑着 10 个、甚至 100 个 Agent。</p>
+  <p>虎嗅上有一篇文章把这个逻辑说得很直白：<strong>「供给是线性的，需求是指数的。」</strong>每一次模型能力的提升，都会解锁新的使用场景，打开 10 倍的 Token 消耗空间。人会睡觉，Agent 不会。人一天工作 8 小时，Agent 一天工作 24 小时。</p>
+  <p>这意味着大模型公司的商业模式，<strong>可能正在从「按次付费的软件」，变成一种「持续消耗的能源」</strong>。</p>
+  <p>如果这个逻辑成立，那用传统的 PS 来估值就不合适了——你不会用 PS 倍数去给一家电力公司估值。你看的是产能、负荷率、定价权、以及需求增长曲线。</p>
+  <p><strong>智谱涨价 30% 后被抢空，证明的就是定价权。</strong></p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>被忽略的另一面</strong></h2>
+  <p>但笔者也想说一些不那么乐观的部分。</p>
+  <p>MiniMax 的招股书里有一个数据：2025 年前 9 个月，收入同比增长 170% 的同时，净亏损 5.12 亿美元。通俗地说，<strong>卖 1 块赔 10 块</strong>。虽然亏损在收窄，但距离盈亏平衡还很远。</p>
+  <p>更关键的是，这两家公司的收入结构揭示了一个隐忧。</p>
+  <p>MiniMax 超过 70% 的收入来自海外，其中最大的产品 Talkie（星野）是一款 AI 社交应用——这类产品的用户粘性和付费转化率，在全球市场都还没有被验证。智谱的 Coding Plan 虽然火爆，但编程助手市场的天花板有多高？当 Claude、Gemini、GPT 都在同一个赛道上时，定价权能维持多久？</p>
+  <p>OpenAI 最新一轮融资估值 8500 亿美元，背后站着亚马逊、软银、英伟达、微软这样的战略投资者——这些投资者投的不仅是财务回报，更是 AI 基础设施的入场券。智谱和 MiniMax 的股东名单里虽然也有阿里、腾讯、米哈游，但体量和战略深度不在同一层级。</p>
+  <p><strong>所以，700 倍 PS 定价的，是 Agent 时代全面到来后的 Token 消耗量。</strong>这是一个正确的方向，但它发生的速度——是明年，还是五年后——会极大地影响这个估值是否能站住脚。</p>
+  <p>还有一个容易被忽略的事实。</p>
+  <p>这波暴涨发生在港股，而港股 AI 板块的一个特殊之处在于：<strong>可投标的极度稀缺</strong>。想要在港股配置中国 AI 纯正标的，选项只有智谱、MiniMax，以及刚上市不久的海致科技。</p>
+  <p>当大量资金涌入一个极窄的赛道时，估值溢价会被急剧放大。这不完全是基本面驱动的，也有资金结构的因素。</p>
+  <h2><strong>04</strong></h2>
+  <h2><strong>Token 经济学的黎明？</strong></h2>
+  <p>回到一开始的问题：这两家公司贵吗？</p>
+  <p>如果你用今天的收入去衡量，贵得离谱。</p>
+  <p>但如果你接受一个前提——<strong>Token 正在成为一种新的基础设施级消耗品</strong>——那当前的定价逻辑就变得可以讨论了。</p>
+  <p>一个值得思考的对比：2000 年，中国移动的用户才 8000 多万，短信业务刚刚起步，谁也说不清移动通信的商业模式最终长什么样。但到了 2007 年，中国手机用户突破 5 亿，移动互联网彻底改写了所有人的生活方式。</p>
+  <p>Token 可能正处在类似的拐点。</p>
+  <p>当模型能力足够强、Agent 开始大规模部署、每个人背后有几十个 AI 在不间断地消耗算力——那时候 Token 的供需关系，会让今天的价格战看起来像一个笑话。</p>
+  <p><strong>智谱和 MiniMax 今天的 3000 亿港元市值，本质上是市场在为这个未来投下的一张选票</strong>。这张选票可能投对了方向，但出价是否合理，恐怕要等 Agent 时代真正到来的那一天才能验证。</p>
+  <p>不过有一件事是确定的：<strong>当一家公司敢涨价 30%，用户还排着队抢购的时候，某种新的供需关系已经开始形成了。</strong></p>
+  <p>Token 正在变成新时代的「电」。而我们，都才刚刚开始学会用电。</p>
+  <p><strong>作者｜桦林舞王</strong></p>
+  <p><strong>编辑｜靖宇</strong></p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653099695&amp;idx=1&amp;sn=5a8c3815fd5d6db73aa6409f061ac9e3&amp;chksm=7f666bed538a1f20f3f0aa35a972411966a2de1736225b65d1c8a22ebd22eea839b9f5e48d97&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：桦林舞王，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691381594485507</id>
+            <title>印度想多了，硅谷没少想</title>
+            <link>https://www.36kr.com/p/3691381594485507</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691381594485507</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 02:29:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>最近有个事很有意思。</p>
+  <p>印度在新德里用五天时间，办了一场号称迄今为止亚洲规模最大、规格最高的AI峰会，硅谷几乎半壁江山都飞了过来。</p>
+  <p>当地官方媒体用的词是：<strong>AI时代的新德里时刻。</strong></p>
+  <p>但就在全场情绪最高涨的那一刻，两个画面突然定格下来，轻轻戳破了现场有些过于完美的气氛。</p>
+  <p>第一个画面，发生在舞台中央。</p>
+  <p>莫迪站在正中间，微笑着伸出手，示意身边所有科技领袖手牵手、高高举起，象征全球AI共同体的团结与共识。</p>
+  <p>谷歌CEO皮查伊第一时间伸手。微软、亚马逊的高管们纷纷跟上。</p>
+  <p>一长排人，眼看就要连成一条完整的链条。</p>
+  <p>结果，OpenAI的山姆·奥尔特曼没有伸手。</p>
+  <p>Anthropic的达里奥·阿莫迪也没有。</p>
+  <p>两个人站在人群里，只轻轻举起了拳头。没有交叉，没有配合。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_dd0865388ecc43dc91690f8c58ada2f9@24917684_oswg839837oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>一条象征团结的人链，在最核心的位置，断成了两截。</p>
+  <p>第二个画面，藏在主席台的座位表里。</p>
+  <p>整场峰会，印度最需要、也最不该缺席的人，自始至终没有出现。</p>
+  <p><strong>英伟达CEO、全球算力之王黄仁勋，以不可预见的情况缺席。</strong></p>
+  <p>印度AI最缺什么？</p>
+  <p>芯片、算力、GPU、基础设施。</p>
+  <p>谁握着这把钥匙？</p>
+  <p>黄仁勋。但他没来。</p>
+  <p>峰会同期，一堆重磅协议被陆续公布：</p>
+  <p>谷歌宣布投资150亿美元，用于印度AI基建、数据中心与海底电缆；</p>
+  <p>OpenAI与印度塔塔集团签约，共建100兆瓦数据中心，落地孟买与班加罗尔研究中心；</p>
+  <p>微软承诺，2030年前向全球南方投入500亿美元，印度是核心落点；</p>
+  <p>英伟达派出高管团队，落地数万张Blackwell GPU，与印度本土厂商Yotta搭建超算集群；</p>
+  <p>阿达尼集团更是抛出1000亿美元清洁能源数据中心计划。</p>
+  <p>数字很大，名头很响，看似一片沸腾。</p>
+  <p>可如果你把现场那两个画面，和这一长串合作放在一起看，会突然读出一种很微妙的情绪。</p>
+  <p>印度搭了最大的台。</p>
+  <p>而来的人，都在用自己的方式，保持距离。</p>
+  <h2><strong>1、两只举起的拳头</strong></h2>
+  <p>我们先从台上那两只没有握紧的手说起。</p>
+  <p>奥尔特曼和阿莫迪，不是不懂国际礼仪，也不是不清楚这是全球直播。</p>
+  <p><strong>这两个人的关系，在硅谷几乎是公开的对手。</strong></p>
+  <p>阿莫迪从OpenAI离开，创立Anthropic，两家在大模型、商业化、资本争夺上，缠斗了整整几年。就在峰会前几周，超级碗广告上，两家还在隔空较劲。</p>
+  <p>让他们在新德里的舞台上手拉手，扮演亲密无间的全球伙伴？不符合商业逻辑，也不符合人性。</p>
+  <p>但这还不是最关键的。</p>
+  <p>更真实的一层是，这两位在硅谷缠斗数年的宿敌，在面对印度的宏大叙事时，展现出了令人玩味的清醒。</p>
+  <p>印度办这场峰会，目标非常清晰，成为全球AI治理的重要一极，成为全球南方国家的代言人，建立一套更偏向发展、普惠、本土可控的AI规则。</p>
+  <p>莫迪想要的，是一个标志性动作，那就是AI的未来，不只由中美决定，不只由西方定义。</p>
+  <p>但是硅谷来的人，心里想的是另一套逻辑。</p>
+  <p><strong>来，是为市场。签约，是为增长。投资，是为下一阶段的用户与数据。</strong></p>
+  <p>他们选择了后退一步。举起拳头，是姿态。不牵手，是底线。</p>
+  <p>谷歌的皮查伊不一样。</p>
+  <p>他是印度裔，在本土出席这样的场合，配合是体面，也是利益。</p>
+  <p>谷歌的150亿美元投向云服务、电缆、数据中心，每一笔都对应印度14亿人口的长期市场。所以你会看到一个特别有意思的分层。</p>
+  <p>政客在表演，商人也在表演，但有人演得很卖力，有人甚至懒得对台词，就连比尔盖茨，也在演讲前几小时临时取消、提前离场。</p>
+  <p>一场峰会，把硅谷最真实的态度，全写在了脸上。</p>
+  <h2><strong>2、黄仁勋的空座位</strong></h2>
+  <p>如果说台上的沉默是态度，那黄仁勋的缺席，就是更现实的商业判断。</p>
+  <p>英伟达现在是什么地位？</p>
+  <p>AI时代的卖水人，全球算力的总经销商。</p>
+  <p>任何一个国家想在AI赛道真正站起来，都绕不开它的芯片、框架、生态。印度尤其如此。</p>
+  <p><strong>今天印度AI的真实状况是，应用做得热闹，初创公司数量暴涨，工程师供给充足，场景落地速度很快。</strong></p>
+  <p>但一摸到最底层，几乎处于悬空状态。</p>
+  <p>高端GPU几乎完全依赖进口，本土芯片制造停留在成熟制程，先进制程空白。</p>
+  <p>电力供应不稳定，部分地区日均停电数小时；</p>
+  <p>数据规则、知识产权、政策连续性，都处在快速变化期；</p>
+  <p>基建、物流、园区、供应链，处处都是门槛。</p>
+  <p>印度政府不是不努力，它推出India AI Mission，投入超10亿美元建公共算力池，甚至放开外资限制，给补贴、给政策、给场面，拼命吸引全球科技资本。</p>
+  <p>但在黄仁勋眼里，算力不是靠热情堆起来的。它需要绝对稳定的电网、完美的供应链、以及一个可预期的法治环境。</p>
+  <p>英伟达在峰会上不是没动作。</p>
+  <p>它交付GPU，扩大合作，支持本土超算中心，把卖货这件事做得非常到位。</p>
+  <p>但黄仁勋本人不来。这里面的区别，非常微妙。</p>
+  <p><strong>CEO现身，代表战略背书，代表长期承诺，代表深度捆绑。</strong></p>
+  <p><strong>高管签约，代表业务推进，代表市场落地，代表交易达成。</strong></p>
+  <p>印度想要的是前者，英伟达给出的是后者。</p>
+  <p>黄仁勋的空位，安静地留在会场最显眼的地方。它没有声音，却比任何发言都更直白。</p>
+  <h2><strong>3、印度手里的牌，没有一张是王炸</strong></h2>
+  <p>这场峰会，把印度所有的长处，和所有的短板，一次性摊在了全世界面前。</p>
+  <p>它的优势，几乎所有人都承认。巨大的英语工程师群体，成熟的IT外包底座，14亿人口的场景与数据，政务、农业、医疗、金融的AI落地空间，全球罕见。它的野心，也写得明明白白。</p>
+  <p>从数字公共基建的成功里，印度似乎找到了一种自信，它相信可以用规模化、普惠化、国家主导的模式，在新技术赛道上走出一条不同于西方的路。所以它把峰会主题定为：人、地球、进步。把失业、伦理、能源、发展中国家诉求放在最前面。</p>
+  <p>坦白说，这个立意很高。</p>
+  <p>但支撑它的底座，并不稳。印度AI有四个绕不开的现实。</p>
+  <p><strong>第一，算力严重依赖外部。</strong></p>
+  <p>再大的应用市场，再聪明的工程师，没有芯片，没有算力，模型训练、推理、优化全都会被卡住。国家算力池再建，也只是把买来的硬件拼在一起。</p>
+  <p><strong>第二，没有顶尖原生大模型。</strong></p>
+  <p>印度本土模型大多基于开源框架微调、优化、适配多语言，真正从底层架构、基础研究走出来的世界级模型，几乎没有。</p>
+  <p><strong>第三，数据治理与知识产权不够稳定。</strong></p>
+  <p>规则变化快，监管弹性大，企业不敢把核心技术、核心数据、核心训练环节完全放在印度。</p>
+  <p><strong>第四，基建与营商环境拖慢规模化。</strong></p>
+  <p>AI算力中心是电老虎，是基建狂魔，是供应链密集型产业。印度最缺的，就是长期稳定、低成本、可预期的工业环境。</p>
+  <p>这四项，不是靠一场峰会就能解决的。也不是靠几百亿美金的意向投资，就能立刻填平的。</p>
+  <p>印度很清楚自己缺什么。</p>
+  <p>所以它把全世界最有钱、最有技术、最有算力的人，请到了新德里。</p>
+  <h2><strong>4、印度想要加冕，硅谷只想做生意</strong></h2>
+  <p>于是整场峰会，变成了一场特别有意思的对手戏。</p>
+  <p>印度的意图，清晰而宏大，用一场顶级盛会，完成关注度、投资、技术、话语权的一次性收割。从AI外包承接国，变成全球南方的AI枢纽。从规则接受者，变成规则参与者。</p>
+  <p><strong>硅谷的意图，则务实而冷静。</strong></p>
+  <p>谷歌、微软、亚马逊，看中的是14亿人口的增量市场，是云服务的渗透空间，是AI应用落地的试验场。印度监管更宽松、成本更友好、增长空间更大，对它们来说，是下一个十年的基本盘。</p>
+  <p>OpenAI、Anthropic，看中的是欧美之外的第二战场。模型微调、场景测试、用户迭代放在印度，风险更低、空间更大、动作更快。</p>
+  <p>英伟达，看中的是全球最大的AI增量市场之一的硬件需求。卖芯片、建生态、扩份额，但不轻易绑定长期重资产与地缘风险。</p>
+  <p>看上去，硅谷有脸面的所有人都来了，也都签了约，说了漂亮话。</p>
+  <p>但这些人，都默默地守住了自己的底线。</p>
+  <p><strong>舞台上的手，可以举，但不能随便牵，合作可以谈，但不能随便绑。</strong></p>
+  <p>资本可以投，但核心技术不会轻易交。</p>
+  <p>算力可以卖，但制造与根技术不会轻易移。</p>
+  <p>新德里的会场很大，大到能装下数万人的热情。</p>
+  <p>却又很小，小到装不下两个彼此完全不同的目标。</p>
+  <h2><strong>5、协议签了，手没握，座位空了</strong></h2>
+  <p>峰会第五天，人群散去，各国领导回国，硅谷CEO们飞回美国。</p>
+  <p>黄仁勋继续掌控着全球AI算力的总闸门。</p>
+  <p>奥尔特曼和阿莫迪，回到各自的战场，继续竞争。</p>
+  <p>新德里留下了一堆新闻头条、一组巨额投资意向、一系列宣言与框架。</p>
+  <p><strong>也留下了两个没有被圆满完成的姿势，一只没有伸出去的手，一个没有被坐上的座位。</strong></p>
+  <p>这两个画面，没有被写进任何官方报道。</p>
+  <p>但它们会比任何一份协议，都更长久地留在这届峰会的故事里。</p>
+  <p>印度在AI赛道上的努力，是真实的，它的人才、市场、场景、速度，是真实的，野心、抱负，也是极度渴望的。</p>
+  <p>硅谷对印度市场的重视，也一点不假。投资、落地、合作、扩张，每一步都在推进。</p>
+  <p><strong>只是，真实之间，未必同路。</strong></p>
+  <p>有人想搭建舞台，成为主角。有人只是路过舞台，寻找机会。</p>
+  <p>有人需要别人的技术，补上自己的短板。</p>
+  <p>有人带着自己的技术，寻找自己的收益。</p>
+  <p>没有谁对谁错。只是每个人都行走在自己的逻辑里。</p>
+  <p><strong>【版面之外】的话：</strong></p>
+  <p>印度想要的，是一场加冕。硅谷给出的，是一张张订单。</p>
+  <p>两者之间，隔着的不是技术，也不是资本，而是对"什么时候该all in"的判断。</p>
+  <p>印度认为，时机就是现在。硅谷认为，时机还没到。</p>
+  <p>所以我们会看到，台上的手，举到一半，没有牵在一起。台下的座位，空着最重要的那一个。</p>
+  <p>数字很大，协议很多，声势很响。但最核心的那层承诺，始终没有落地。</p>
+  <p>这不是谁的错，只是两种不同速度的碰撞在一起。</p>
+  <p>一个想跑，一个在看。</p>
+  <p>撰文｜画画</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9OuWKhItZCxftmDX3A8lEQ" rel="noopener noreferrer nofollow" target="_blank">“版面之外”</a>，作者：画画，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691440567087619</id>
+            <title>谷歌Gemini最“小”的一次迭代，姚顺宇为何高呼“不可阻挡”？</title>
+            <link>https://www.36kr.com/p/3691440567087619</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691440567087619</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 02:24:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>人们还在津津乐道OpenAI和Anthropic两家公司的老板拒绝牵手，以至于握拳高举的滑稽画面，另一边，谷歌一个反手迭代了模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_5fbe94dd523f4996984e5b5f9163ea76@6119835_oswg649783oswg831oswg470_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而且这次迭代，颇像是狼披上了羊皮——从模型后缀的数字序号看，这是谷歌最“小”的一次迭代，之前都是从Gemini 2.0到Gemini 2.5这样的迭代，这次从Gemini 3.0到Gemini 3.1Pro Preview。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_97fb37f6439941488e08208e27258424@6119835_oswg165426oswg831oswg591_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>但是这“.1”的迭代，进步得却不是一星半点。</strong></p>
+  <p>谷歌CEO皮查伊（Sundar Pichai）表示，新代模型非常擅长处理“超级复杂的任务”。例如将复杂概念可视化、将数据综合成单一视图或者将创意项目变为现实。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_82be56756d9a4644a2eeab45f6cea939@6119835_oswg344759oswg722oswg867_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>姚顺宇也专门在X上发帖为Gemini 3.1 Pro Preview振臂，盛赞：</p>
+  <p><strong>“Gemini不仅仅是一个好模型，更好的模型正在以不可阻挡之势到来。”</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_fa681ea76296442d9088003105152df7@6119835_oswg200900oswg722oswg827_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>需要注意的是，大约一周前，谷歌推出了“专用推理模式”Gemini 3 Deep Think，专为科学、研究、工程等复杂、开放式问题设计。</p>
+  <p>Demini 3 Deep Think是姚顺宇从Anthropic跳槽到谷歌DeepMind之后参与的第一个项目。</p>
+  <p>而如今的Gemini 3.1 Pro Preview和Gemini 3 Deep Think有千丝万缕的关系，官方表示“直接构建在Gemini 3 Deep Think的经验和技术之上”。相当于把Deep Think的核心推理提升技术“下放”到更广泛可用的Pro模型中。</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>Gemini 3.1 Pro Preview能做什么</strong></h2>
+  <p>既然这次新代模型的突出能力在处理“超级复杂”的任务，那么普通的对话放一边，谷歌的官方博文中，重点给出了几种示例秀肌肉。</p>
+  <p><strong>第一，通过简单的提示词，创建SVG动画。</strong></p>
+  <p>这个功能前代也有，但是对比之下进步明显。</p>
+  <p>比如提示词“生成一个SVG，描绘一只变色龙静静地坐在树枝上。让变色龙的眼睛跟随用户的鼠标光标在屏幕上移动。”</p>
+  <p>Gemini 3 Pro生成的动画背景是单一的白色，变色龙也看起来很呆板，甚至一侧有两只眼睛。</p>
+  <p>Gemini 3.1 Pro生成的动画则有丰富的“深绿色丛林”背景，变色龙身体有黄色斑纹和圆点装饰，眼睛立体，腿部姿势自然弯曲。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_af18b8a1da9442e2b0714ba8399bc222@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再比如提示词“生成一个滑动切换开关的SVG，当鼠标悬停在太阳图标上时，将其变成发光的月亮，同时背景从明亮平滑渐变到黑暗。采用干净的扁平UI风格。”</p>
+  <p>Gemini 3 Pro给出的动画虽然完成了任务，图标可以随鼠标变化，但是主图标单一，是一个缺角的圆形图案，用黄色代表白天，白色代表夜间。</p>
+  <p>Gemini 3.1 Pro生成的动画要复杂得多，白天是黄日白云，夜间是月牙繁星，两套图标丝滑变换。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_79c963da43b84d6abc01feeb9a80c8a9@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>总而言之，Gemini 3 Pro做的动画，让人想起多年前那个“学了三年动画”的梗。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_43fb16a8284844608d493100e7417a7a@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而Gemini 3.1 Pro交付的SVG动画，已经达到了可以直接使用的效果。</p>
+  <p>第二，构建工程级别系统。</p>
+  <p>Gemini 3.1 Pro已经可以根据一段高复杂度的自然语言指令，直接生成一个集3D渲染、实时太阳星历计算、API异步拉取和物理光效于一体的完整交互系统，而不是简单页面demo。</p>
+  <p>谷歌给出的示例中，用户给出文字指令，Gemini 3.1 Pro生成了构建一个高保真、可交互的3D国际空间站（ISS）轨道追踪器。使用高分辨率的Blue Marble纹理贴图渲染一个精细的3D地球模型。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_bcce4550c004463f858fc2008c8ff2f1@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>第三，生成交互式创意系统。</strong></p>
+  <p>在另一个示例中，谷歌展示了Gemini 3.1 Pro编写的一个复杂的3D椋鸟群舞（murmuration）模拟。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ec6004a7ade84a5cbce630d738c5d5df@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>它不仅生成视觉代码，还构建了一个沉浸式体验，用户可以通过手部追踪操控鸟群，并聆听根据鸟群运动变化的生成式配乐。</p>
+  <p>对于研究人员和设计师而言，这提供了一种强有力的方式来原型化感官丰富的界面。</p>
+  <p><strong>第四，将文学主题转化为可运行的代码。</strong></p>
+  <p>这个示例可能是普通人也最容易get到厉害之处的一个。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_20d8ece989ed461294777fc12efcf500@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>当被要求为艾米莉·勃朗特（Emily Brontë）的《呼啸山庄》（Wuthering Heights）打造一个现代个人作品集网站时，该模型并未简单地总结文本内容，而是基于小说的氛围与情绪进行推理，设计出一个简洁、当代感十足的界面，创建出一个捕捉主人公精神内核的网站。</p>
+  <p>抽象推理，这种能力的含金量不用多说。</p>
+  <h2><strong>02</strong></h2>
+  <h2><strong>到底有多强？</strong></h2>
+  <p>新代模型免不了过一下刷榜这一步。</p>
+  <p>而“.1”的升级，获得了动辄倍数跃升的成绩。</p>
+  <p>根据谷歌官方博文放出的测试结果，</p>
+  <p>在ARC-AGI-2基准测试中，3.1 Pro的验证得分达到了77.1%。比3 Pro的推理性能提升了一倍以上。</p>
+  <p>这也符合3.1 Pro的示例，因为这个测试评估的是模型解决全新逻辑模式的能力。用人话说就是，抽象推理解谜的能力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_6a822e40cc6246c389e63fb6d71b05a3@6119835_oswg180915oswg831oswg648_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此外，在GPQA Diamond（科学知识测试）中，3.1 Pro得分94.3%；智能体类基准MCP Atlas上，得分69.2%；真实网络浏览与信息整合能力的基准BrowseComp上，得分85.9%。</p>
+  <p>这些成绩，均超过了Anthropic的Sonnet 4.6、Opus 4.6，以及OpenAI的GPT-5.2与GPT-5.3-Codex。</p>
+  <p>谷歌Gemini 3.1 Pro这次在ARC抽象推理和BrowseComp搜索任务上显著拉开差距，显示出明显的Agent倾向，而非单纯知识模型。</p>
+  <p>此外，专门做大模型基准测试与对比分析的第三方评测机构也发布了相关测试结果，大赞Gemini 3.1 Pro在构成Artificial Analysis Intelligence Index的10项评测中领先6项，相较于Gemini 3 Pro Preview在多项能力上显著提升，尤其是在推理与知识、代码能力以及降低幻觉方面进步最大。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d29e0d4a0af542598230b55043660baa@6119835_oswg94948oswg831oswg229_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而且，Gemini 3.1 Pro Preview保持较高的token效率。</p>
+  <p>运行完整Artificial Analysis Intelligence Index约需5700万token（比Gemini 3 Pro Preview多100万）。</p>
+  <p><strong>这一token使用量低于其他在最大推理模式下运行的前沿模型，如Opus 4.6（max）和GPT-5.2（xhigh）。</strong></p>
+  <p>结合更低的单token定价，Gemini 3.1 Pro Preview在前沿模型中具有成本优势，运行完整Intelligence Index的成本不到Opus 4.6（max）的一半，不过仍约为领先开源模型GLM-5的两倍。</p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>能力翻倍价格不变</strong></h2>
+  <p>谷歌官方API定价显示，Gemini 3 Pro/3.1 Pro Preview的收费结构是按token计费的：</p>
+  <p>小于200k tokens时，每百万token输入约2美元，输出价格为4美元。大于200k tokens时，每百万token输入4美元，输出18美元。</p>
+  <p>在上下文缓存方面，根据提示词规模，每百万 token 收取 0.20 至 0.40 美元，外加每小时每百万 token 4.50 美元的存储费。</p>
+  <p><strong>这个价格，整体上和Gemini自己的上一代3 Pro一致，但要是和 Anthropic Opus 系列比起来，还是相对便宜的。 Opus这类模型输入/输出单价能在$5/$25左右。</strong></p>
+  <p>尤其是结合当下它在模型能力上相当突出，这个价格更显得极具竞争力。</p>
+  <p>不要忘了，谷歌这次发布的只是“预览（Preview）”，谷歌很快就会推出正式版。而“.1”的迭代，谷歌也是在暗示其只是小秀肌肉。</p>
+  <p>目前，开发者可以在AI Studio、Gemini API、Gemini CLI、智能体开发平台Google Antigravity以及Android Studio使用3.1 Pro；企业用户则可以在Vertex AI和Gemini Enterprise使用；普通用户在Gemini应用和NotebookLM都能用上，不过后者仅限Pro和Ultra订阅用户。</p>
+  <p><strong>各个社区里已经有不少人迫不及待上手操作，真的就和谷歌的演示一样，手搓了不少惊艳的玩意。</strong></p>
+  <p>有人用Gemini 3.1 Pro 生成了一个可交互的 3D 机械级汽车悬架系统模拟器，包含真实几何结构、连杆约束与实时转向和行程计算，相当于把机械工程建模、物理逻辑和3D可视化一次性写成可运行工具，接近工程级原型能力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d096794f07e643b0838daea24a95617c@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>有人用3.1 Pro制作“捉鬼猎人走过一栋闹鬼的房子”的循环动画，惊呼“Gemini没有开玩笑”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_110e429e9ba349f9821d302be4a99fc4@6119835_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>总之，谷歌这回是真憋了个大招。</p>
+  <p>小小一个“.1”，却把推理和代码能力拉得飞起，定价还这么稳。</p>
+  <p>社区里满溢的手搓demo的热情，也证明了它的能力与实用性。</p>
+  <p>AI圈越来越现实了。模型再强，终究得看账单值不值。企业开始精打细算每个token的回报，开发者也得掂量掂量性价比。谷歌这一步，不仅是抢回王座，更是把竞争推向“谁更会过日子”的新阶段。</p>
+  <p>且看接下来，捏着拳头的Anthropic和OpenAI，以及xAI、Meta、微软等一众竞争对手该如何应对吧。</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6p06CZbWEOfrwVXOkLjlRg" rel="noopener noreferrer nofollow" target="_blank">“字母AI”</a>，作者：小金牙，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691730385464968</id>
+            <title>抢救注意力和睡眠，一批App和硬件赚到了钱｜回看2025 AI健康篇</title>
+            <link>https://www.36kr.com/p/3691730385464968</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691730385464968</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 02:20:07 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>过去一年，我们持续关注健康赛道，而健康大类下，专注类产品和助眠类产品，成了我们选题中出现频率最高的 2 个观察对象。</p>
+  <p>这两个赛道看似面向不同的用户需求，但内核都指向现代人的同一种困境：在信息过载的时代，如何重新掌控注意力与睡眠。内核相同的另一面，是产品们给出的解决方案和商业化表现又呈现出不同景象。</p>
+  <h2><strong>专注 App 的三种进化路径</strong></h2>
+  <p><strong>正向激励机制下的虚拟宠物</strong></p>
+  <p>最经典的专注类应用，可以追溯到 2014 年由台湾团队打造的 Forest。</p>
+  <p>彼时，“种树”机制下，App 驱动用户专注的逻辑是，建立在“番茄钟”基础上的<strong>纪律与惩罚</strong>。规定时间内，用户是“被管理者”，一旦失败，小树枯萎，会产生负罪感。</p>
+  <p>时间来到 2025 年，无论是像 Focus Friend 这样，靠创始人“大网红”背景迅速爆火的“编织豆子”；还是像 Self-Care Pet: Momo 这样，来自异星球、有丰富故事的“八字眉宠物”；驱动专注的核心逻辑都是<strong>陪伴与奖励</strong>。用户化身“帮助者”，通过专注行为为虚拟角色（豆子、Momo 宠物）换取成长资源（编织物换家具、金币换装饰品）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d6980a4417d241eebef95170b0e10b6c@000000_oswg451271oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Momo（左）；Focus Friend （右）｜图源 App</p>
+  <p>这种<strong>转换视角的正向激励</strong>，都巧妙地将用户从传统自律 App 中 “被督促者”的角色变成了“帮助者”。相比于 Forest，一定程度上，降低了用户的使用压力。</p>
+  <p><strong>国内产品，工具味更浓？</strong></p>
+  <p>目光转向国内市场，今年也出现了一些有趣的专注类产品。</p>
+  <p>Focus Flight 模拟真实飞行流程（选择航班、值机、飞行模式等），将专注时长可视化为飞行进度；任务结束后提供“机票“纪念与趋势分析；通过全流程<strong>场景化，搭配仪式感，巧妙降低用户“难以开始”的畏难情绪。</strong></p>
+  <p>而个人开发者打造的暴君模式，聚焦“从想到做”的临界点，<strong>通过 AI 干预强制锁机</strong>，结合红心消耗、社交监督的惩罚，助推用户启动，减少拖延问题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_001b74e11e8748739ad00866c98b70ab@000000_oswg282821oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Focus Flight、暴君模式｜图源 App</p>
+  <p>虽然这 2 款产品“一软一硬”，但相比于 Focus Friend 和 Self-Care Pet: Momo 以用户情感驱动，它们则都呈现了更重的“工具属性”，也算是比较能体现国内外产品风格的一点。</p>
+  <p>但从商业表现来看，目前除了 Focus Friend 在热度最高的那段时间冲上了 50 万美元的月流水，其他专注类 App 的流水表现都不算高，Focus Friend 在风头过去后月流水表现也是迅速回落至 10w 美元以下，走订阅制的专注 App 似乎尚未成功找到让用户持续付费的理由。</p>
+  <p>而年末刚获得<strong>a16z speedrun 等机构投资 250 万美元</strong>的 Self-Care Pet: Momo，目前月流水也无甚起色。接下来的一年，白鲸出海也将持续关注这些产品的发展。</p>
+  <p><strong>非常规的专注方法，AI+声音</strong></p>
+  <p>除了宠物、锁机、场景模拟，来自德国的 Endel 则靠 AI，展现了一条另类的专注路径，听觉引导。</p>
+  <p>并且，不同于上述专注类 App 有些“惨淡”的流水表现，Endel 近一年月流水一直在 70 万美元左右浮动（3 月曾接近百万美元），已是头部一样的存在。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_800f9c596e544d2a9cccf4800b5cbddf@000000_oswg210422oswg936oswg591_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">声景选择、调控和状态曲线｜图源 Endel</p>
+  <p>Endel 核心功能是依靠 AI 算法生成个性化音频（声景/Soundscapes），帮助用户达成专注、放松或入睡等目的。产品的目标用户很明确，和 Focus Friend 一样，聚焦 ADHD 群体。在神经科学研究团队的背书下，Endel 以能主动适配用户状态的动态声音，收获了不少“ADHDer”的好评。</p>
+  <p>Endel 证明了在 TTS、AI 生成播客和读书/配音等非内容创作领域之外，“AI+声音”的潜力；同时，其高流水表明，通过深耕 ADHD 等细分场景，用户也愿意为个性化的状态管理付费。</p>
+  <h2><strong>“软硬兼施”，睡眠 App 的商业化天花板更高</strong></h2>
+  <p>可以看到专注类产品目前仍以 App 为主，而睡眠赛道则呈现出“<strong>软硬兼施</strong>”的局面，当 App 的体验触及天花板时，硬件则成为了破局关键。在商业化表现上，睡眠类产品也展现了更高的天花板。同时，我们还在这条赛道上发现了之前未预想到的群体。</p>
+  <h3><strong>独特的商业路径，App 筛用户，硬件做变现</strong></h3>
+  <p>回顾 2025 年，个人感觉最“邪门”的产品，莫过于靠闪光灯助眠的 Lumenate。</p>
+  <p>Lumenate 的助眠原理是利用手机闪光灯，以特定频率闪烁，引导用户脑电波进入睡眠状态。这种极具争议性的设计，使其 App 成为了一个高效的“用户筛选器”，留下了高度认可其功能的核心用户。</p>
+  <p>而当 App 的体验瓶颈（手持不便、光路不稳定）暴露，Lumenate 并迅速推出了配套眼罩来解决这些痛点。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_6caba7cfcd9f4e789da1f50b4c9fe6c9@000000_oswg432659oswg1080oswg480_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Lumenate App（左）与硬件（右）｜图源 App Store、Kickstarter</p>
+  <p>最终，Lumenate 在 App 月流水最高达 30 万美元之外，其硬件在 Kickstarter 上筹得近百万美元。Lumenate<strong>精准服务小众需求，似乎比讨好大众市场更容易找到自己的生存空间，</strong>呈现了一条较为独特的商业化路径。</p>
+  <h3><strong>针对性营销，打开日本市场</strong></h3>
+  <p>睡眠产品丰富的美国市场，Lumenate 吸引了不少乐于尝鲜的用户。而在大洋彼岸，日本作为全球最缺觉的国家，却鲜少为新兴助眠产品买单。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_c052d38f903a41e2a78413086f2eae15@000000_oswg55827oswg646oswg273_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">日本 iOS 健康健美下载榜，Top1 为 Nightly｜图源点点数据</p>
+  <p>但在今年，由韩国厂商打造的 Nightly，避开了单纯的传统白噪音功能，基于“脑波夹带”技术和用户状态，通过特定频率的声波助眠，提供了差异化的功能体验。其实，在 Nightly 中，能看到一些优秀产品的共通点。如 Endel 也会根据用户状态提供个性化音频（Endel AI 调控也可助眠、Nightly 手动输入），Lumenate 同样通过特定频率助眠（Lumenate 光、Nightly 声音），只不过形式不同。</p>
+  <p>更重要的是，Nightly 在进入日本市场后，其素材精准切中了年轻职场人和学生“睡眠债”严重、渴望高效睡眠的焦虑，用“摆脱闹钟”、“检查睡眠负债”等直击痛点的宣传语实现了有效转化。这表明，深入理解目标市场的社会文化和用户心理，有时比技术本身更为关键。</p>
+  <p>过关的功能、有效的宣传，也让 Nightly 在 2025年一度登顶日本 iOS 端健康类下载榜 Top1、畅销榜 Top3。</p>
+  <h3><strong>婴儿睡眠监测，“焦虑型”需求的硬核战场</strong></h3>
+  <p>睡眠经济拥有巨大市场潜力，早已不是新闻，但在今年的观察中，婴儿这一受众群体的出现，还是让我们有些意外。并且，<strong>在婴儿睡眠赛道上，不论是 App，还是硬件，都展现了极高的商业价值。</strong>这背后，则由一个拥有刚性需求且付费意愿极高的群体支撑，新手家长。</p>
+  <p><strong>移动端</strong>，全能型育儿记录 App Huckleberry，将付费点集中在 AI 睡眠预测和育儿计划建议。通过分级订阅（月费 5-15 美元）和免费试用实现高转化，月流水维持在百万美元。专注 AI 睡眠预测单点功能的 Napper，也能在欧洲市场实现 30 万美元的月均流水。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_24b99e90026c4353b5e15691a234e32a@000000_oswg193273oswg680oswg357_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Huckleberry｜图源点点数据</p>
+  <p>而在硬件上，各品牌之间的竞争则更激烈。</p>
+  <p><strong>来自美国的</strong>智能袜子 Owlet 和智能监控 Nanit 是其中的代表，均为上市公司。它们试图打造“穿戴设备+监控+App”的生态系统，通过 AI 算法监测婴儿心率、呼吸、睡眠周期等数据，缓解父母对婴儿健康的焦虑。然而，这类产品也面临 AI 功能略显“鸡肋”（如误报频繁）、佩戴舒适度欠佳以及用户隐私担忧的挑战。</p>
+  <p>也有品牌另辟蹊径，如 HatchSleep 搭配 AI 调控灯光、声音，营造助眠环境，以硬件体验优先，逐渐从婴儿群体拓展至成人，月流水保持在 200+万美元。</p>
+  <p>而<strong>中国出海品牌</strong>则展现了不同的策略。其中，Hello Baby 凭借“无 Wi-Fi 连接、即开即用”的显示器设计，直击美国家长对便利性和隐私安全的痛点，以高性价比在亚马逊上做到细分品类第一，并因此冲击 IPO。这显示出，在技术堆叠之外，解决一个核心痛点并做到极致，同样能赢得市场。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_0d2c2f77ed3442f99728ace2c550dac3@000000_oswg46519oswg487oswg193_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图中所列部分为子品牌产品，故推出时间含公司成立时间和产品推出时间。｜穿戴设备品牌中产品线较多，选取相同品类（智能袜子）进行价格比较。Eufy Baby、CuboAi、Ellie（海马爸比）为出海产品</p>
+  <p>数据来自SimilarWeb、点点数据、Semrush、广大大等三方平台，可能与真实数据中存在一定误差，仅供参考。</p>
+  <p>出品 ｜白鲸出海编辑部</p>
+  <p>作者 ｜ Lainya</p>
+  <p>编辑｜殷观晓</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTQ4NjczNw==&amp;mid=2650677532&amp;idx=1&amp;sn=ae2850f4d7ec0a4b76ea832a15571e30&amp;chksm=86cb9778cab596ed07a91e8856a78d07b935891c7e694d1ecfed2c035465f3173b94634ca6be&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“白鲸出海”（ID：baijingapp）</a>，作者：Lainya，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692387008196233</id>
+            <title>模拟芯片，机会在哪里？</title>
+            <link>https://www.36kr.com/p/3692387008196233</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692387008196233</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 02:12:17 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>日前，美国一个博主nutty写一篇名为《The Future of Analog Circuit Design — Finding Opportunity in a Changing Landscape》的文章。在文章中，他探讨了模拟芯片的机会以及模拟芯片。</p>
+  <p><strong>以下为文章正文：</strong></p>
+  <p>大约十年前，我在一次博士生研讨会上向我的教授提出了一个问题。</p>
+  <p>我听说模拟电路设计已经基本不在美国做了，大部分都转移到了亚洲。这是真的吗？如果是真的，为什么呢？</p>
+  <p>他停顿了一下，问我叫什么名字。我觉得这并非因为这个问题展现了他什么独到的见解。或许只是因为这个问题在课堂上比较少见——大多数学生都不会问这种问题。但现在回想起来，那一刻标志着我长达十年观察这个领域悄然变革的开始。</p>
+  <p>十年过去了，模拟电路设计发生了翻天覆地的变化。但这种变化究竟代表“衰落”还是“重组”，则取决于你的视角。在本文中，我想探讨一下实际情况，并挖掘其中的机遇。</p>
+  <p><strong>变革的现实</strong></p>
+  <p><strong>劳动力结构的转变</strong></p>
+  <p>十年过去了，我可以肯定地说，模拟电路设计领域确实已经由亚裔和印度裔工程师主导。这并非我个人的看法。根据美国国家科学基金会 (NSF) 2024 年的报告，美国超过 55% 的博士级工程师是外国出生的，美国大学工程学博士生中超过 60% 是国际学生。STEM OPT 签证统计数据显示，印度籍申请人占 48%，中国籍申请人占 20%。</p>
+  <p>为什么会出现这种情况？最简单的答案是，年轻的美国工程师正在向高价值领域迁移。数据清晰地说明了这一点。模拟集成电路设计工程师的总薪酬约为 14.5 万至 22 万美元。这不算太差，但谷歌的高级软件工程师年薪 39 万美元，MetaML 工程师的平均年薪为 45.5 万美元，而 OpenAI 工程师的年薪中位数更是高达 78 万美元。当付出同样的努力和类似的智力才能在其他地方获得 2 到 4 倍的报酬时，理性的选择显而易见。</p>
+  <p>这种趋势始于大学。根据信息技术与创新基金会（ITIF）2023年的报告，1997年至2020年间，电气工程学位仅增长了37.5%，而其他所有领域的学位增长率高达81.1%。计算机科学的趋势尤为显著。在剩余的电气工程学生中，超过一半是国际学生。美国国家科学基金会（NSF）的统计数据显示，美国公民和永久居民仅占电气工程博士生的30%。外籍工程师一直在填补这一空缺。</p>
+  <p>有趣的是，回答我问题的教授并非专注于传统的模拟电路研究——他的实验室侧重于设计自动化工具，本质上就是软件。就连学术界也已经转变了方向。</p>
+  <p><strong>结构因素</strong></p>
+  <p>这种变化并非仅仅出于人气，背后还有结构性原因。</p>
+  <p>首先，模拟电路在芯片中的相对重要性已经降低。随着制程节点的缩小，数字电路的密度呈爆炸式增长。现代SoC中模拟模块所占的面积和功耗都在不断降低。即使将模拟模块的功耗或面积降低50%，对整个芯片的影响通常也微乎其微。这意味着：模拟电路的“稳定性”比模拟电路的“创新性”更为重要。目前普遍的理念是，只要避免模拟电路导致芯片重新设计就足够了。</p>
+  <p>其次，模拟电路不像数字电路那样能从工艺微缩中获益。对于数字电路而言，更小的晶体管意味着更快的速度和更低的功耗。摩尔定律功不可没。但模拟电路却截然不同。在先进的工艺节点上，噪声、失配和电压裕量问题会更加严重。晶体管的固有增益下降，电源电压降低，而变异性则会增加。要达到相同的性能，需要付出更多努力——这本身就是一个悖论。</p>
+  <p>第三，模拟电路设计本质上是劳动密集型的。在软件领域，一位杰出的工程师可以完成十位普通工程师的工作量。代码可以复制、模块化和复用。模拟电路则截然不同。每个电路都必须针对特定的工艺、温度和电压条件进行优化。据 Synopsys 公司称，模拟电路设计周期平均比数字电路慢 2-3 倍。这不是工具的问题，而是根本性的问题。佐治亚理工学院的分析表明，在一个 10% 模拟电路和 90% 数字电路的芯片中，这 10% 的模拟电路可能会消耗 90% 的总设计时间。在这种结构下，一位效率高得惊人的工程师根本无法生存。</p>
+  <p><strong>验证重于创新的时代</strong></p>
+  <p>这些结构性因素共同改变了模拟电路设计的范式。过去，研究重点在于开发具有更优功耗、性能和面积特性的全新架构。而如今，主流方法是将成熟可靠的IP有效地应用于各种应用场景。</p>
+  <p>硅验证电路至关重要。无论新架构在仿真中表现多么出色，一旦生产中出现良率问题，成本都将是天文数字。在这种环境下，转向模拟IP是顺理成章的。据IPnest的数据，半导体IP市场规模在2024年达到85亿美元，同比增长20%。模拟和混合信号IP预计将以每年超过15%的速度增长。</p>
+  <p>但说实话，数字级IP标准化还遥遥无期。模拟电路对工艺、温度和电压的变化非常敏感，而且与周围电路的交互也十分复杂。即使是“硅验证”的IP，在针对不同环境进行修改后，其有效性也往往会丧失。方向是对的，但要完全实现还需要时间。</p>
+  <p><strong>仍在扩张的领域</strong></p>
+  <p>读到这里，你可能会认为模拟电路即将消亡。但这只是故事的一半。真正失去市场份额的是通用模拟电路，而不是整个模拟电路市场。据《财富商业洞察》报道，2024年模拟集成电路市场规模约为760亿美元，预计到2032年将超过1240亿美元。推动市场增长的并非通用模块，而是专业应用。</p>
+  <p><strong>高速接口</strong></p>
+  <p>串行器/解串器 (SerDes) 是模拟电路领域最具活力的分支。数据中心互连、人工智能加速器链路、高速网络——SerDes 都是各处的瓶颈。预计该市场规模将从 2024 年的约 7.5 亿至 8.5 亿美元增长到 2032 年的 24 亿美元，年复合增长率 (CAGR) 为 13% 至 14%。</p>
+  <p>112G PAM4 目前是主流，向 224G 的过渡正在进行中。这一领域对技术规格要求极高：56GHz 频率下的信号完整性、低于 50 飞秒的抖动以及对 45dB 以上信道损耗的补偿。现成的 IP 无法满足这些要求。</p>
+  <p>由于物理极限性能无法作为通用商品购买，Marvell、Broadcom、Credo 和 Alphawave 等公司维持着高价策略。数字辅助模拟（基于 ADC 的接收器、DSP 均衡）正成为核心技术，模拟和数字的界限也开始模糊。高速接口与人工智能基础设施的扩展息息相关。对数据传输速度的需求将持续增长，而能够突破物理极限的设计专长仍然稀缺。</p>
+  <p><strong>汽车半导体</strong></p>
+  <p>电动汽车转型和自动驾驶技术正推动汽车半导体市场爆发式增长。电池管理系统 (BMS) 集成电路是核心模拟电路，用于监测电池的电压、温度和荷电状态。据 Global Market Insights 预测，汽车 BMS 市场规模预计将从 2025 年的 49 亿美元增长到 2035 年的 260 亿美元，复合年增长率超过 18%。栅极驱动器集成电路市场规模也相当可观，2024 年达到 16 亿美元，其中汽车领域占比 14 亿美元，并保持稳步增长。随着自动驾驶水平的提高，对激光雷达、雷达和超声波传感器等模拟前端的需求也在不断增长。</p>
+  <p>汽车半导体行业的独特之处在于其极高的准入门槛。企业必须满足AEC-Q100认证（工作温度范围为-40°C至+150°C）和ISO 26262功能安全标准（ASIL等级）。开发周期延长18个月以上，成本增加30%至50%。这使得英飞凌、恩智浦、德州仪器、安森美半导体和意法半导体等现有企业占据优势。但高门槛也是一把双刃剑——一旦进入市场，就很难被取代。</p>
+  <p><strong>图像传感器</strong></p>
+  <p>CMOS图像传感器（CIS）是模拟技术与数字技术完美融合的典范。智能手机摄像头、自动驾驶汽车视觉传感器、医疗成像、安防摄像头——图像传感器的应用范围不断扩大。据Yole Group预测，2024年CIS市场规模为232亿美元，预计到2030年将超过300亿美元。索尼占据市场主导地位，市场份额约为50%，三星紧随其后，约为15%。</p>
+  <p>该领域的核心是像素级模拟电路。它在每个像素点将光信号转换为电信号，最大限度地降低噪声，并实现高速读取。堆叠结构、背照式照明和全局快门等技术不断进步。除了简单的“拍照”之外，该领域正在向3D传感、飞行时间（ToF）和事件相机等领域发展。随着AR/VR设备、自动驾驶汽车和机器人视觉等领域新应用的涌现，专业的传感器设计知识变得越来越重要。</p>
+  <p><strong>功率半导体</strong></p>
+  <p>功率半导体是模拟电路的另一大增长支柱。电动汽车充电、数据中心电源管理、可再生能源转换、智能电网——各领域对电源转换效率的需求都在不断增长。据Yole Group预测，电力电子市场规模将从2024年的262亿美元增长到2030年的433亿美元，年复合增长率达8.7%。</p>
+  <p>尤其值得关注的是氮化镓 (GaN) 和碳化硅 (SiC) 等宽带隙材料。它们能够实现超越硅材料的效率和功率密度。据 Yole Group 预测，到 2030 年，GaN 市场预计将以 42% 的复合年增长率 (CAGR) 实现爆炸式增长，而 SiC 市场规模到 2030 年将超过 110 亿美元。</p>
+  <p>2023 年，28% 的纯电动汽车 (BEV) 逆变器采用 SiC，预计到 2027 年这一比例将超过 50%。随着能效法规的日益严格和电池供电设备的普及，提高功率效率的价值也在不断增长。基于 GaN/SiC 的设计是一个相对较新的领域，目前经验丰富的专业人才短缺。</p>
+  <p><strong>传感及其他专业领域</strong></p>
+  <p>传感器接口和精密测量也是重要的模拟领域。生物传感器（血糖、心电图、血氧饱和度）、环境传感器（温度、湿度、空气质量、气体检测）、工业传感器（振动、压力、流量、位置）——物联网设备的爆炸式增长和医疗保健数字化持续推动着传感器需求。超低功耗、高精度和高信噪比是必需的，而且通常在特殊的运行环境中使用，这需要采用与通用设计不同的方法。</p>
+  <p>航天和国防半导体市场规模虽小但十分稳定。2024年，抗辐射加固半导体市场规模约为16亿至18亿美元，年增长率约为5%。SpaceX的星链计划以及类似的大规模卫星星座部署正在推动航天组件的需求。由于需要进行极端环境认证、研发周期长且供应商有限，该细分市场的价格溢价高达其他产品的10至100倍。尽管市场规模较小，但利润率高且稳定。</p>
+  <p><strong>职业前景</strong></p>
+  <p><strong>生产与研发</strong></p>
+  <p>即使在“模拟电路设计”领域内，工作性质也会因你是在生产机构还是在研究机构而完全不同。</p>
+  <p>生产团队注重运用统计方法分析缺陷和提高良率。蒙特卡罗分析、角点模拟、失效机制分析——他们投入大量时间研究现有设计失效的原因，而不是创建新设计。你需要苦苦思索诸如“为什么这个电路只在某些晶圆上失效？”或“为什么在-40°C时裕量会缩小？”之类的问题。研发团队则探索新的架构和方法。阅读论文、提出想法、进行模拟、流片。一个项目可能要投入数月甚至数年的时间。在这种环境下，即使是失败也能让你有所收获。</p>
+  <p>两者并无绝对优劣之分。它们各自培养的是不同的专业技能。无论你走到哪里，生产经验都是一笔宝贵的财富。拥有制造真正有效产品、解决良率问题的经验——这是无可替代的。在面试中，如果你能说“我们遇到了这个生产问题，我是这样解决的”，这将是一项极具说服力的资历。随着资历的增长，这种价值也会增加；那些只从事研究的人并不了解生产的实际情况。另一方面，研究能力在最困难的时刻显得尤为重要。面对前所未有的难题，能够从根本原理出发进行思考的能力至关重要。能够阅读论文并应用新思路的能力也同样重要。这些能力仅靠生产经验是无法获得的。当公司进入新领域或遇到现有方法无法满足的规范时，具备研究能力的人就能脱颖而出。</p>
+  <p><strong>通用型与专用型</strong></p>
+  <p>正如我们所见，模拟电路市场正在分化为通用模块的商品化和专业领域的高端化。通用模拟电路（标准运算放大器、低压差线性稳压器、通用模数转换器/数模转换器）的知识产权化程度越来越高，价格竞争也日益激烈。中国企业正在迅速占领这一市场。在这个市场竞争中，成本效益是核心竞争力，单凭设计能力不足以脱颖而出。与此同时，高速接口、汽车电路、图像传感器、电源和传感等专业领域仍然需要深厚的专业知识，存在准入门槛，并且需要保持利润空间。</p>
+  <p>为了保持长期价值，似乎更重要的是在特定领域建立专业知识，而不仅仅是“能够设计模拟电路”。“我是一名模拟工程师”比“我是高速串行器/解串器专家”或“我从事汽车电池管理系统设计已有10年”更不容易被取代。</p>
+  <p><strong>不变的事</strong></p>
+  <p>技术和市场瞬息万变，但有些东西却始终不变。晶体管工作原理、反馈理论、噪声分析和稳定性分析等基本原理，无论你进入哪个领域都适用。流行的工具和流程会不断变化，但电路的本质却始终如一。工程师的本质是解决问题。当仿真和测量结果不一致时，找到根本原因；在满足规格要求的前提下，找到切实可行的解决方案——这些能力只能通过经验积累。仅仅具备设计技能是不够的。从市场营销部门了解客户需求，与布局工程师协作，与测试团队协调规格，向高管解释技术上的权衡取舍——随着资历的提升，这些能力变得愈发重要。</p>
+  <p><strong>解读变革中的机遇</strong></p>
+  <p>让我们回到起点。</p>
+  <p>模拟电路设计的“变革”显而易见。通用模块正在商品化，纯粹的模拟电路研究已不复往昔，美国国内的模拟电路人才储备也日渐萎缩。但仅仅将其视为“衰落”则是一种片面的看法。</p>
+  <p>整体模拟半导体市场仍在增长。高速接口、汽车、图像传感器、电源、传感等领域比以往任何时候都更加活跃。人工智能、电动汽车、物联网和自动驾驶等大趋势正在创造对模拟半导体的新需求。在劳动力方面，美国半导体行业协会 (SIA) 和牛津经济研究院预测，到 2030 年，美国将面临超过 67,000 名半导体工人的缺口。麦肯锡的分析表明，这一缺口可能在 59,000 到 146,000 之间。需求旺盛，但供应不足。拥有真正专业知识的人才仍然至关重要。</p>
+  <p>最终重要的是你的定位。你是会在商品化的通用领域以成本优势取胜，还是会在专业领域打造不可替代的专长？你是会培养生产的实用性，还是会追求研究的创造力？这些选择最终会塑造你的职业生涯。</p>
+  <p>十年前我提出这个问题时，只是好奇这个领域未来的发展方向。十年后，我已经能看出大致轮廓。变革既是危机也是机遇。模拟电路不会消失。只要它们仍然是连接物理世界和数字世界的桥梁，就需要有人从事这项工作。但它的形式会不断变化。对于那些能够洞察变化并适应的人来说，机遇将始终存在。</p>
+  <p>*免责声明：本文由作者原创。文章内容系作者个人观点，半导体行业观察转载仅为了传达一种不同的观点，不代表半导体行业观察对该观点赞同或支持，如果有任何异议，欢迎联系半导体行业观察。</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&amp;mid=2247811075&amp;idx=1&amp;sn=7a05ae66a67f8ccd097e7c46d5335b44&amp;chksm=cfda552004ed1fa0dfbc7bd7c87e00bd0f7a5fd0f59686c1460e5d4756d701e2bb87ece2e1cb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半导体行业观察”（ID：icbank）</a>，作者：nutty，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3692414622985856</id>
+            <title>刚刚，OpenAI 硬件全家桶曝光：智能音箱内置摄像头+刷脸购物，ChatGPT 要住进你家了</title>
+            <link>https://www.36kr.com/p/3692414622985856</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3692414622985856</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 02:02:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p><strong>据 The Information 爆料，OpenAI 正在开发一款智能音箱，它将配备摄像头，支持类似苹果 Face ID 的人脸识别。</strong>你未来可能「看一眼」就能完成购物支付，类似功能目前在小米、Rokid 等智能眼镜已经实现。&nbsp;</p>
+  <p>在苹果、Meta 都在把 AI 塞进眼镜、手表、吊坠等可穿戴设备时，OpenAI 尝试把摄像头塞进音箱，<strong>能「看见」你和周遭的环境，让 AI 对你的理解也将从语言延伸到行为，你的作息、习惯、情绪状态，都将让 AI 读懂和拼凑出一个真实的你。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_2dea1ec220634cf2a9cc48f1f7118e06@6100851_oswg80623oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">产品假想图，图片由 Nano Banana Pro 生成&nbsp;</p>
+  <p>APPSO 先给你快速梳理下 OpenAI 智能音箱的核心信息&nbsp;</p>
+  <ul>
+   <li>定价：200-300 美元（约 1450-2200 元人民币）&nbsp;</li>
+   <li>发售时间：最早 2027 年 2 月&nbsp;</li>
+   <li>核心功能：摄像头环境感知、Face ID 级人脸识别、语音购物&nbsp;</li>
+   <li>设计团队：Jony Ive 的 LoveFrom + OpenAI 硬件团队&nbsp;</li>
+   <li>产品矩阵：智能音箱首发，智能眼镜、智能台灯后续跟进&nbsp;</li>
+  </ul>
+  <h2><strong>「长眼」的智能音箱，你敢用吗&nbsp;</strong></h2>
+  <p>智能音箱这个品类，从 Amazon Echo 到 Apple HomePod，已经卷了快十年。但这些设备的「智能」，往往停留在「能听懂关键词」的层面，离真正的「理解」差着十万八千里。&nbsp;</p>
+  <p>OpenAI 的解法简单粗暴：给它装上眼睛。&nbsp;</p>
+  <p>智能音箱内置摄像头，能识别你周边环境，比如桌上摆了什么、旁边在聊什么。还<strong>支持类似 Face ID 的面部识别，可以直接刷脸完成购买</strong>。这种「所见即所得」的购物体验，目前市面上的智能音箱还做不到。&nbsp;</p>
+  <p>结合 ChatGPT 去年上线的购物功能——用户可以在对话框里完成从选品到跳转下单的完整流程，<strong>这个刷脸购买功能将有望直接服务于「AI 即购物入口」的闭环，成为消费决策链条上的第一道关口。</strong></p>
+  <p>如无意外，这也将对现有流量分发逻辑造成重大的挑战：Google 靠搜索吃了数十年广告红利，电商平台靠货架逻辑构建起庞大生态，<strong>而 OpenAI 想在这两者之前再插入一个新的决策层级。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_949ac2108d95482984240347cb566461@6100851_oswg68398oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>此外，这款智能音箱还能通过持续的视觉观察判断用户状态——比如发现你在重要会议前夜还在熬夜，会主动提醒你去早点睡。<strong>这样一来智能音箱的定位，就从一个智能家居产品，变成了一个 AI 管家中枢。</strong></p>
+  <p>不过，这种全天候的数据采集，隐私边界在哪里，或许有待 OpenAI 正式发布时给出答案。&nbsp;</p>
+  <p>想要买到这款产品，还要等一段时间。<strong>首款设备最早也要到 2027 年 2 月才能发货。眼镜等其他产品更慢，预计 2028 年才能大规模量产，至于那个智能台灯，原型机有了，但到底会不会发布，还是个未知数。</strong></p>
+  <h2><strong>「含果量」十足的 OpenAI 硬件团队&nbsp;</strong></h2>
+  <p>OpenAI 的硬件野心，从团队规模就能看出来，整整 200 人，而且还在疯狂扩张。其中更令人期待的是，前苹果首席设计官 Jony Ive ，亲自为 OpenAI 操刀产品设计。&nbsp;</p>
+  <p>这支团队的「含果量」极高，团队由副总裁 Peter Welinder 领导，他此前负责 OpenAI 的新产品探索团队。核心成员包括：&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_91f95579dab04fe4b3e4ed7f701092f5@6100851_oswg191640oswg1080oswg759_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">图片来自：The Information&nbsp;</p>
+  <ul>
+   <li>Tang Tan：苹果 25 年老将，曾任 iPhone 和 Apple Watch 产品设计主管，直接向苹果硬件主管 John Ternus 汇报，被认为是把 Jony Ive 的设计理念转化为大规模可制造产品的关键人物&nbsp;</li>
+   <li>Evans Hankey：苹果前工业设计负责人，曾接替 Jony Ive 执掌苹果设计团队，现为 OpenAI 工业设计负责人&nbsp;</li>
+   <li>Scott Cannon：供应链负责人&nbsp;</li>
+   <li>Adam Cue：苹果服务主管 Eddy Cue 之子，负责开发驱动 OpenAI 未来设备的软件&nbsp;</li>
+   <li>Ben Newhouse：产品研究负责人，正致力于重写 OpenAI 的基础设施以适应音频 AI&nbsp;</li>
+   <li>Atty Eleti：负责设备隐私相关工程工作&nbsp;</li>
+  </ul>
+  <p>虽然 Jony Ive 并未直接加入 OpenAI，但他对设计拥有最终决定权，据说每周都会出现在旧金山市中心的办公室。有员工透露，团队讨论时经常会说「Jony 会想要什么」。&nbsp;</p>
+  <p>然而 Jony Ive 和 OpenAI 的合作并非一帆风顺。据两位知情人士透露，一些&nbsp;<strong>OpenAI 员工抱怨 LoveFrom 修改设计的速度缓慢，且很少分享其构思新设计的流程。</strong>这种保密作风和对设计的极致追求，是苹果公司的典型做法——而该团队的许多员工和领导层都来自那里。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_1aa614d725b740baa45369dbde859966@6100851_oswg46382oswg700oswg466_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>为了保持这种运作方式，OpenAI 的设备团队与公司其他部门是分开的。虽然 OpenAI 总部位于米申湾，但设备团队在旧金山市中心杰克逊广场附近的一间办公室办公，离 LoveFrom 的办公室不远。&nbsp;</p>
+  <p><strong>内部怎么拧，是执行的事。但有一件事，从一开始就没有悬念——OpenAI 必须做硬件。</strong></p>
+  <p>软件端 200 亿美元的年化收入，已经证明了 AI 是一门好生意，但要让 AI 真正成为水电煤一样的基础设施，必须有一个物理入口。&nbsp;</p>
+  <p><strong>手机这条路走不通——苹果的生态护城河不是一款 AI 新品轻易能够撬动的，其它手机厂商自己也在全力 AI 化，不会将大好的硬件阵地拱手相让。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_0947b5591d304eebbbe19a73ad432830@6100851_oswg71993oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>当然，更根本的问题是，手机的形态本身，可能就不适合做 AI 的宿主。&nbsp;</p>
+  <p>当 AI 足够聪明时，它不应该被禁锢在一块长方形的玻璃屏幕里，它应该是无处不在的。因此，从音箱、眼镜甚至台灯这些陪伴感更强的品类切入，是 OpenAI唯一，也是最合理的选择。&nbsp;</p>
+  <p>而这一切，或许从 ChatGPT 的产品设计方向上就已经埋下了伏笔。与&nbsp;<strong>Anthropic 这类深耕企业服务的 AI 公司不同，OpenAI 从一开始就带着强烈的 ToC 基因</strong>——ChatGPT 不只是一个工具，它有情绪、有记忆、会共情，Sam Altman 一直在让它变得更像一个「人」。&nbsp;</p>
+  <p>这背后的逻辑，如今看来相当清晰：<strong>一个冷冰冰的 AI 助手，你不会想把它放在卧室里；但一个懂你、记得你习惯、会关心你睡没睡好的 AI，才有资格住进你的生活。</strong></p>
+  <h2><strong>OpenAI 的硬件版图浮出水面&nbsp;</strong></h2>
+  <p>智能音箱只是 OpenAI 硬件全家桶的其中一个，此前 OpenAI 已经被曝出在开发智能眼镜、智能灯、甚至可穿戴别针等多种形态。如上所说，其中智能眼镜可能要等到 2028 年才能量产——这个时间点，恰好和苹果传闻中的 AI 眼镜撞期。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_0e5e2074e2b24502a6f117765262baf6@6100851_oswg1000472oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>OpenAI 硬件产品线（APPSO 据曝光信息整理）&nbsp;</p>
+  <ul>
+   <li>智能音箱（代号未知）：首款产品，200-300 美元，2027 年 2 月出货&nbsp;</li>
+   <li>AI 耳机（代号 Dime/「甜豌豆」）：金属鹅卵石造型，胶囊状耳机置于耳后，2nm 芯片&nbsp;</li>
+   <li>智能眼镜：2028 年量产，与 Meta Ray-Ban、苹果 N50 正面竞争&nbsp;</li>
+   <li>智能灯：原型已准备，是否发布待定&nbsp;</li>
+   <li>AI 笔：Sam Altman 多次暗示的「口袋设备」&nbsp;</li>
+  </ul>
+  <p>值得注意的是，OpenAI 的硬件策略似乎经历了调整。此前传闻的 AI 耳机项目「Dime」（甜豌豆），原计划是一款「类手机」全能设备，搭载 2nm 智能手机级芯片。但由于 HBM 内存短缺导致成本过高，OpenAI 被迫调整策略——先推纯音频功能的「阉割版」，等成本下降后再发高配版。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_9856cfc11c614a9998ea0607fce38b55@6100851_oswg54199oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这种「先占坑、后完善」的策略，在硬件圈并不罕见。对 OpenAI 来说，也没有苹果的包袱，不需要将产品打磨到完美才推出市场，即便首款产品不够惊艳，这也是 AI 行业发布产品的一贯风格。&nbsp;</p>
+  <p><strong>但想清楚「怎么做」是一回事，找到「能做的人」又是另一回事。</strong>做硬件，终究要靠人才。</p>
+  <p>据 The Information 报道，OpenAI 去年已经从苹果挖走了 20 多位硬件大牛，而 2023 年这个数字几乎为零。</p>
+  <p>苹果显然坐不住了。据知情人士透露，苹果去年曾突然取消了原定在中国举行的年度闭门会议——这个会议通常由高管向员工介绍未来产品计划。取消的原因竟然是：「防止更多高管跳槽到 OpenAI」。</p>
+  <p>此外 OpenAI 不止挖苹果的人，也盯上了苹果花了几十年打造的供应链。&nbsp;</p>
+  <p>据知情人士透露，中国主要的 iPhone 和 AirPods 代工厂立讯精密已经拿下了至少一款 OpenAI 设备的组装合同，而负责组装 AirPods、HomePod 以及 Apple Watch 的歌尔股份也在跟 OpenAI 接洽，为未来产品提供扬声器模组等零部件。&nbsp;</p>
+  <p>Sam Altman 曾在一次采访里提到 OpenAI 硬件的愿景：「智能手机是时代广场，信息轰炸、注意力粉碎。OpenAI 要做的，是一间『湖畔小屋』——让你在需要专注时，能关上门，屏蔽噪音。」&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260221/v2_609837bf0cb244ed8b0fee14375b1065@6100851_oswg85073oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>他的核心逻辑在于，AI 硬件不是要取代手机，而是要填补「不方便掏手机」或「需要深度专注」的场景。从这个角度看，智能音箱、AI 笔这类「放在桌上不突兀」的设备，确实比 24 小时佩戴的 AI 吊坠更友好。&nbsp;</p>
+  <p>但愿景归愿景，现实很骨感。OpenAI 不是第一家想用 AI 硬件重新定义人机交互的公司。Human Pin、Rabbit R1、Friend AI 吊坠……这些「网红 AI 硬件」的销量也都不尽如人意。&nbsp;</p>
+  <p>此前很多 AI 硬件往往解决的是「伪需求」——它们能做的，手机基本都能做，而且手机做得更好。要改变消费者习惯了近二十年的屏幕交互，接受一个「看不见摸不着」的 AI 助手，挑战不小。&nbsp;</p>
+  <p>OpenAI 要面对的，不只是市场教育难题，还有巨头的围剿。&nbsp;</p>
+  <p><strong>据彭博社记者 Mark Gurman 爆料，苹果正在加速推进三款全新的 AI 可穿戴设备：智能眼镜 N50、可穿戴吊坠、摄像头 AirPods，都围绕 Siri 数字助手构建，通过摄像头获取视觉上下文来执行各种操作。</strong></p>
+  <p>2026 对于 OpenAI 来说，无论是大模型 AI 产品，还是新兴的硬件产品，都会面临一个超级内卷的竞争环境。&nbsp;</p>
+  <p>即便如此 OpenAI 依然可能给 AI 硬件行业带来一些变化，甚至是分水岭。&nbsp;</p>
+  <p><strong>它有最豪华的苹果班底、最激进的产品定义、以及 ChatGPT 这个全球份额第一的 AI 产品。但 OpenAI 也面临着所有 AI 硬件共同的困境：如何证明 AI +硬件给体验带来了质的变化，而非只是让产品卖得更贵的又一个理由。</strong></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KQ8b971PWs3Pnu9NqiP10A" rel="noopener noreferrer nofollow" target="_blank">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691547509239682</id>
+            <title>春节新晋“年味担当”，机器人租赁，还能火多久？</title>
+            <link>https://www.36kr.com/p/3691547509239682</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691547509239682</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 01:53:05 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>这个春节，机器人比人更忙，成为了最“抢眼”的“年味担当”。</p>
+  <p>刚刚过去的2026年央视春晚，也是机器人登场密度最高的一届，从武术表演到小品再到歌舞、微电影，在登台数量和参与深度上，都创下了新高。机器人还在各大地方春晚上，轮番整活，玩乐队、跳“扫腿舞”都不在话下。不少网友直呼，“张万森，下机器人了。”</p>
+  <p>这股“机器人打工”热潮在线下活动中，表现得更为迅猛。</p>
+  <p>在景区边，机器人正在为游客写福字；在商场门口，它们一边跳舞，一边引得孩子们阵阵欢笑；在小区里，有年轻人正带着机器人去给亲戚送年货，让不少路人围观拍照。这些曾经在科幻小说中的情景，已经成为了真实生活中的写照。</p>
+  <p>机器人租赁市场也迎来了前所未有的热度。</p>
+  <p>智元旗下机器人租赁平台擎天租数据显示，截至2月12日，平台已累计收到覆盖春节假期的订单超过1000单。综合当前已下单及预约情况测算，整个春节假期内平台整体GMV预计环比涨80%。截至春节假期结束，平台累计订单量预计将突破5000单。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_690ddc1939a1452fa0ca815744a69023@000000_oswg85550oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从企业年会、商场开业，到个人拜年、求婚，机器人租赁已从“小众尝鲜”变成“大众市场”。当科技与年味相遇，机器人不再是遥不可及的“未来科技”，而是成了春节里最“铁”的新朋友。</p>
+  <p>不过，随着春节假期逐渐走向尾声，看似繁荣的租赁需求，能否撑得起一门可持续的新生意？</p>
+  <h2><strong>1</strong></h2>
+  <h2><strong>走进千家万户</strong></h2>
+  <p>机器人租赁的兴起，离不开春晚这个关键词。</p>
+  <p>2025年春晚，宇树科技带领16台H1人形机器人扭秧歌，机器人跳舞一夜爆红，引发租赁价格飙升，日租金价格连翻数倍。</p>
+  <p>市场上出现“一机难求”局面。最狂热的时候，官方定价9.9万元的机器人都能被渠道商炒至20万元。</p>
+  <p>热潮之下，新玩家争相入场，不少散户也陆续涌入，自费买机器人做起租赁生意。95后的小杰就是其中一员，2025年3月，他在蹲点多日后，终于买到一台机器人。挂在闲鱼出租后，不到半个月就实现了回本。</p>
+  <p>人形机器人租赁市场，火速从“蓝海”变成“红海”，盈利空间逐渐被压缩。</p>
+  <p>市场的风向迅速转变为供大于求，2025年5月，租赁机器人的客单价也开始下滑，下半年甚至直接出现了“腰斩”。租赁一台宇树G1标准版，从一场活动一万多元的租金锐减至5000元上下。</p>
+  <p>数据显示，2025年，全国陆续成立了1500多家机器人租赁公司，同比2024年增长48.1%。随着机器人供给持续增加，以及单台机器人日租价格的下降，越来越多的机器人，开始走入寻常百姓家。</p>
+  <p>人们开始习惯在特殊场景中，让机器人前来“助助兴”。</p>
+  <p>年底到开春这段时间，机器人租赁也不出意料地迎来了旺季。机器人租赁销售小王告诉「电商在线」，从元旦前的跨年活动，再到过年前的公司年会，年前的需求就已经不小。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f1d03a66e75b47a3a6d30821cd105005@000000_oswg74669oswg829oswg488_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>春节期间，景区、商场的需求接踵而至，过完年就是开工日、元宵等，档期在1月就已经排满了。</p>
+  <p>“一台机器人有时一天要赶三、四场活动，都要干冒烟了。”</p>
+  <p>机器人档期紧张。租金也随之上涨，尤其是在春节期间，有些设备的价格涨幅接近50%。不过，据小杰透露，这一价格与去年同期相比，仍是低位，“今年春节旺季结束之后，价格战可能会打得更加激烈。”</p>
+  <h2><strong>2</strong></h2>
+  <h2><strong>平台玩家入局</strong></h2>
+  <p>在机器人租赁市场的旺季里，热闹的不仅有租赁商，还有接连入场的大型平台。</p>
+  <p>2025年12月22日，智元机器人与飞阔科技等具身智能企业联合推出“擎天租”开放式租赁平台，采用“共享租赁+平台化调度”模式，让用户可以根据不同使用场景，预定不同品牌的机器人。官方打出的宣传语是，让机器人租赁像“共享充电宝”一样便捷。</p>
+  <p>不到一个月的时间，万机易租机器人租赁生态平台也宣布上线。“现在后台对于租机器人的需求旺盛，买机器人未必是最优解，租可能是多数用户的现实选择。”万机易租联合创始人兼CEO蔡毅曾公开表示。</p>
+  <p>两大平台的上线给散户租赁商玩家带来了降维打击——尽管两台平台在机器人产品上各有侧重，但它们的定价普遍低于当时散乱的市场水平。</p>
+  <p>以智元人形机器人灵犀X2青春版为例，市场租赁价多为3000元/天，同款型号在万机易租平台的价格为2358元/天，在擎天租上的日租价格为2199元，包含工程师人工费和差旅费。</p>
+  <p>为快速打开市场，擎天租还在2026年元旦期间推出“1元闪租”活动。据其披露，上线三周，注册用户数突破20万，日均租赁订单稳定在200单以上。</p>
+  <p>作为“大旺季”的春节，租赁平台自然不会错过。擎天租推出的“999元全民机器人体验计划”，覆盖拜年、求婚、亲子互动等固定场景，价格足够低，传播性足够强。数据显示，该计划订单已占平台总成交量约15%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_fca75ec89a224285917e9556ad70e387@000000_oswg219960oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>另外，据擎天租数据显示，春节期间平台首次租赁用户占比约30%，意味着每三个订单中，就有一个来自从未接触过机器人的新用户。</p>
+  <p>不难看出，通过999元的类似“引流款”，平台正在以降低决策门槛的方式，迅速打开知名度，吸引新用户的注意，抢占市场份额。</p>
+  <p>拉新之外，机器人租赁需求也开始从核心城市迅速向全国扩散。数据显示，上海、北京、深圳等一线城市仍是高价订单与复杂场景的主要承载地，而苏州、杭州、成都、重庆等新一线城市订单放量明显，阜阳等三四线城市也进入订单前列。</p>
+  <p>当机器人租赁开始向更广泛的区域扩散，市场规模也将迎来加速扩张。</p>
+  <p>据擎天租平台不完全统计，国内机器人租赁的市场规模在2025年将超10亿元，预计2026年不低于100亿元。 擎天租CEO李一言曾公开表示，2025年，国内大部分机器人厂商还未量产，预计2026年国内实现量产的机器人厂商会逐步增多，将形成一定程度的市场规模。</p>
+  <p>当下的机器人租赁市场也已经形成了三大主流类型：一类是原本从事设备或演艺器材租赁的公司，在人形机器人走红后拓展新业务；另一类是通过线上群聊、社交平台成交的“自由市场”；最后一类就是近几个月出现的开放式租赁平台。</p>
+  <p>当玩家分类逐渐清晰，机器人租赁市场的规则也从最初的草莽运营，走向聚焦于技术、渠道、服务等全方位的综合性考察。</p>
+  <h2><strong>3</strong></h2>
+  <h2><strong>新的“生存公式”</strong></h2>
+  <p>今年春晚，站在舞台上的人形机器人，不再只有宇树科技。魔法原子、银河通用、松延动力也开始“上台打擂”。</p>
+  <p>相较于观众们的惊叹，租赁商们更关注，谁家的机器人稳定性更高、互动能力更强，能在新一年的租赁市场中脱颖而出。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ef8f11867b55448d985e6ff28478442a@000000_oswg955057oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>大家都清楚地明白，整个2026年，机器人行业热度的最高峰或许就是春晚当晚。此次春晚或将成为具身智能从实验室走向规模化商用的关键转折点，快速推进国民级市场教育，提升赛道估值与关注度。</p>
+  <p>擎天租则率先做好了承接春晚流量的准备，平台同步推出“春晚同款可租”活动。对于中小团队而言，尽管也提前梳理了春晚相关的机器人资源，做好了应对后续需求增加的准备，但小杰和一些同行都没有太多提前囤积“春晚同款机器人”的意愿。</p>
+  <p>“单价贵、市场不确定性强仍是主要原因”小杰告诉记者，在行业竞争加剧的情况下，贸然出手囤货对于他这样的小团队而言，风险太大，不一定能够及时收回成本。</p>
+  <p>可以确定的是，在春节之后，观众们对于机器人表演的要求会越来越高。</p>
+  <p>“这几天，在商场和社区见到了不少机器人，跳舞的、写字的都有，技术进步得真的好快。”70后的石女士告诉「电商在线」，去年在路上看到有机器人挥挥手就觉得很新奇，现在对于单台机器人展示动作已经习以为常，也不会特意掏出手机记录了。</p>
+  <p>机器人租赁销售小王也表示，早在去年下半年，客户就希望租过去表演的机器人能展现出更复杂的表演能力，比如能和主持人语言互动、定制舞蹈等更多新的模式。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_87c6d04fb2804b11b0589700246596af@000000_oswg768966oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>“我们需要解决的是内容同质化、服务标准化和成本优化三大难题。”一位租赁商称，当观众们逐渐脱离单纯的好奇。行业也开始迈向从“博眼球”转变为“拼内功”的新时期，在表演策划、服务体验等方面下更多苦工。</p>
+  <p>这是一个日新月异的新行业，租赁商们一边“摸着石头过河”，一边密切关注着市场的变化。</p>
+  <p>从春晚舞台到街头巷尾，机器人租赁正从“短期热潮”向“长期服务生态”转型。未来，只有不断创新，并在运营、渠道、服务等方面全方位升级的玩家，才能为自己赢得更大的生存空间。</p>
+  <p>文/唐果</p>
+  <p>编辑/ 徐一嘉</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3MjU2Mjk3Mw==&amp;mid=2652901381&amp;idx=1&amp;sn=07fa3f9c114efd3f0174c45418d1d50a&amp;chksm=85d2339c9a7631304dd855c44c73c6ff5bc365120476c32f6c45cc30a93285964c3385c2e9bf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“电商在线”（ID：dianshangmj）</a>，作者：唐果，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691627702956805</id>
+            <title>2025光伏大盘点：有人破产离场，有人国资“托底”</title>
+            <link>https://www.36kr.com/p/3691627702956805</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691627702956805</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 01:46:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_83a1c2b5964d4b9bad4910bfef4f185f@6117095_oswg254594oswg1000oswg666_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>光伏行业洗牌加剧：跨界企业退市破产，国资“掐尖”接盘优质资产，格局重塑。</p>
+  <p>2025年4月，ST嘉寓和ST旭蓝发布了终止上市公告，成为A股当年首批面值退市的光伏企业 。与此同时，甘肃金刚光伏因逾8000万元借款逾期被法院强制执行，四家下属公司申请重整 。但在另一个维度，曾折戟IPO的一道新能却迎来了新主人——<strong>衢州国资通过旗下公司取得不少于34.05%的表决权，实现单独控股 。</strong>同样是光伏企业，有人倒在黎明前的血泊中，有人在国资“输血”后获得喘息。</p>
+  <p><strong>2025光伏行业部分破产企业：</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f774c3b6781d4381b629b5be937937c6@6117095_oswg18334oswg810oswg630_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（预见能源根据公开信息整理）</p>
+  <p>这种“冰火两重天”的局面，恰恰揭示了本轮光伏洗牌的残酷本质：这不是一场雨露均沾的周期回调，而是一次关于“融资能力”与“造血能力”的终极压力测试。当全产业链陷入亏损，谁能拿到钱、谁能背靠大树，谁才能留在牌桌上。</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>退市钟声与破产阴影</strong></h2>
+  <h2><strong>融资渠道的彻底关闭</strong></h2>
+  <p>对于ST嘉寓和ST旭蓝而言，2025年的春天没有带来任何暖意。这两家公司的退市，并非简单的业绩亏损，而是信用体系的彻底崩盘。*ST嘉寓自2021年起累计亏损超37亿元，资产负债率飙升至180.05%，三家子公司破产清算，重整计划流产 。资本的逻辑很简单：<strong>当一家企业丧失了自我造血能力，又无法通过重组挽回信心，二级市场的通道便会被彻底堵死。</strong></p>
+  <p>同样被“追债”的还有金刚光伏。因江苏银行借款逾期，公司及子公司被冻结、扣划银行存款8200余万元，而截至2024年三季度末，其资产负债率已达111.76%，处于资不抵债的困境 。更棘手的是，<strong>公司在2025年4月同意四家下属公司申请重整，但“产能利用率不高”的现实意味着，即便重整，经营层面的回暖也尚需时日 。</strong></p>
+  <p>这些企业的困境并非孤例。2025年开年以来，ST聆达、海源复材等多家企业相继发布终止上市风险提示，原因无一例外：<strong>净资产为负、资金占用未整改、或者营收跌破“生死线” 。</strong>它们共同指向一个残酷的事实——<strong>当一家光伏企业被资本市场贴上“失信”或“退市”标签，它实际上已经失去了参与下一轮竞争的入场券。</strong></p>
+  <h2><strong>02</strong></h2>
+  <h2><strong>国资“接盘”逻辑</strong></h2>
+  <h2><strong>不是输血而是“掐尖”</strong></h2>
+  <p>与上述企业的惨淡形成鲜明对比的，是一道新能的“易主”。2024年8月，一道新能撤回IPO申请，登陆资本市场的梦想破灭 。但在七个月后，衢州国资通过下属企业收购其17.46%股份，并通过表决权委托取得单独控制权。这家曾位列全球组件出货第九的企业，终于摆脱了IPO搁浅的尴尬，找到了新的“靠山” 。</p>
+  <p>国资的入局并非无差别“撒钱”。衢州与一道新能的渊源早已埋下——衢州市国有资本运营有限公司2024年上半年第一大客户便是一道新能，销售电池片、单晶硅片金额达5.66亿元 。在此之前，衢州国资已控股了从事新能源材料的东峰集团，形成了从材料到电池的产业链布局 。<strong>这意味着，国资接盘的不是烂摊子，而是能与本地产业形成协同的“核心资产”。</strong></p>
+  <p>同样的逻辑也发生在ST中利身上。2025年1月，*ST中利撤销退市风险警示，原因是重整计划执行完毕，非经营性资金占用问题完成整改 。而出手相救的，正是厦门国资旗下的常熟光晟。建发集团更是密集出手，在接手ST中利仅半个月后，又托管了老牌组件巨头尚德电力 。国资的“托底”效应正在显现：<strong>它们挑选的并非技术最领先的企业，而是那些“还有一口气”、且能与自身供应链或地方产业规划匹配的标的。</strong></p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>海外巨头的陨落</strong></h2>
+  <h2><strong>全球化叙事被改写</strong></h2>
+  <p>当国内企业在退市与国资接盘之间挣扎时，海外光伏巨头的处境同样惨烈。瑞士太阳能制造商<strong>梅耶博格</strong>因未能按期提交2024年年度报告，被SIX交易所退市，其在德国的两家工厂业务运营正式停止，近500名员工遭解散 。梅耶博格的陨落直接源于战略误判：<strong>美国工厂遭遇严重超支和工期延误，关键客户取消5GW供应协议，成为“致命一击” 。</strong></p>
+  <p>这并非孤例。美国太阳能公司<strong>Sunnova</strong>在2025年6月宣布裁员约55%，随后申请破产保护，总债务达84.9亿美元 。德国<strong>SMA Solar</strong>裁员1100人，<strong>SolarEdge</strong>在一年内第四次宣布裁员 。全球光伏产业的“裁员风暴”背后，是同一个逻辑：<strong>在产能严重过剩、价格战持续蔓延的背景下，没有政府补贴或强大资本支撑的企业，无论技术多领先，都难逃流动性枯竭的命运。</strong></p>
+  <p><strong>值得注意的是，海外企业的困境反而给中国龙头企业腾出了空间。</strong>2025年9月，隆基绿能与晶科能源联合宣布，结束双方在全球范围内的全部专利纠纷，并就部分核心专利达成交叉授权许可 。这一“和解”信号被业界解读为龙头之间从“互相消耗”转向“一致对外”的风向标 。当海外对手纷纷倒下，留在场上的中国玩家开始懂得：<strong>与其在内耗中力竭，不如划清界限，各自收割市场。</strong></p>
+  <h2><strong>04</strong></h2>
+  <h2><strong>洗牌深水区还要持续多久？</strong></h2>
+  <p>2025年即将过去，光伏行业的“失血”状态并未根本缓解。据《财经》统计，光伏八大龙头企业在2024年和2025年前三季度共亏损629.83亿元，而此前三年（2021年-2023年）这八家企业共盈利1426.83亿元 。<strong>这意味着，大部分企业积攒的利润正在被快速消耗。</strong>业内普遍预计，光伏行业的第四次洗牌将从2026年开始，届时大多数企业可能已经亏光此前赚取的利润 。</p>
+  <p>但洗牌的终点并非“团灭”，而是资源向少数幸存者集中。从退市企业的共性来看，跨界转型、资金链断裂、内控失效是三大致命伤 。而那些被国资“托底”的企业，无一例外具备两个特征：<strong>一是与地方产业链深度绑定，二是在细分领域仍具备一定市场份额。</strong></p>
+  <p><strong>2025年12月，工信部部长李乐成在光伏行业座谈会上明确表示，要“综合治理光伏行业低价无序竞争”“推动落后产能有序退出” 。</strong>政策层的表态，叠加国资的“掐尖式”入场，正在重塑这场洗牌的终局。未来的光伏版图上，既不会有百花齐放，也不会是寡头通吃，而是一幅“国资系”、“幸存龙头系”和“细分技术系”三分天下的新格局。</p>
+  <p>至于那些既没有技术壁垒，又缺乏资本背书的企业，等待它们的或许只有两条路：要么像梅耶博格那样黯然退场，要么像金刚光伏那样在诉讼与重整的夹缝中艰难喘息。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691751766388609</id>
+            <title>对联用 AI 写，测完我真是醉了...</title>
+            <link>https://www.36kr.com/p/3691751766388609</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691751766388609</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 01:41:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>日子过得是真快啊，眼瞅着正月初五了。</p>
+  <p>今年亲戚上门拜年的时候，没少被说新买的对联俗。</p>
+  <p>正好我转念一想，现在 AI 模型都这么发达了，那不得用起来？</p>
+  <p>于是把我平时手上用得最多的 AI 大模型：ChatGPT、Gemini 3、豆包、Deepseek，都拿出来。</p>
+  <p>规则很简单，我设置了三个赛道，分别针对老年人、年轻人、小学生这三大核心人群的需求写一下对联，同时，让它们相互点评，</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_417fdd01503d41f687a1b19bb382e4e2@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>主打一个“赛博斗蛐蛐”，这不有意思？</p>
+  <p>废话不多说，比赛正式开始！</p>
+  <h2><strong>01</strong></h2>
+  <p><strong>老年人赛场：主打四平八稳</strong></p>
+  <p>首先，是给我那辈人准备的，他们对春联的要求就八个字：福寿安康，阖家欢乐。</p>
+  <p>对于大模型来说，应该就是一道送分题，纯属热身。</p>
+  <p>我给它们的提示词是：</p>
+  <p>请为 2026 马年创作对联，这是针对老年人的对联，要求：</p>
+  <p>风格：传统喜庆、稳重典雅，主打福寿安康、阖家欢乐、健康长寿，</p>
+  <p>内容：融入马年吉祥元素，对仗工整、押韵顺口；</p>
+  <p>格式：上联+下联+横批。</p>
+  <p>来看看四位选手表现如何？</p>
+  <p>首先是豆包：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_0625b7d26da440c78f612400094ddb0c@000000_oswg3890oswg351oswg161_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不愧是国产模型，既有传统礼制，又有马年吉庆，对仗工整，标准的“三好学生”，拿回家给七大姑八大姨看，估计没人能挑出毛病。</p>
+  <p>接着是 Deepseek：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_c2f4637aefdf451a8a0b22056fae3b1e@000000_oswg4468oswg475oswg161_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不得不说，Deepseek 的答案确实有意思，这里有几个词我一看就觉得眼前一亮的：“鹤算”指高寿，“兰玉”比喻优秀子弟，“萱花”代指母亲。</p>
+  <p>用词整体非常讲究，文化底蕴拉满。</p>
+  <p>然后是 Gemini 3：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_7a0fb5140bc243fa8e7ccef527d81604@000000_oswg10861oswg582oswg152_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Gemini 3 给了我一个非常朴实无华的答案。“吃得好，睡得香”，语言非常直白，但却又异常精准地抓住了老年人对健康最质朴的期盼。</p>
+  <p>文学性虽然差了点，但这份接地气，我个人还是非常喜欢的。</p>
+  <p>最后是 ChatGPT：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ebbc37ba006342f1b130de411f54c307@000000_oswg16935oswg313oswg147_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>怎么说呢，整体我感觉更像一杯温水，对仗、意象、祝福都到位了，但过于稳妥，总感觉差点意思，像是用模板生成出来的，缺少了点灵魂。</p>
+  <p>老年人对联小结：</p>
+  <p>老年人这局，豆包和 Gemini 以及 Deepseek 各有千秋。一个胜在典雅全面，一个胜在质朴真诚，还有一个知识渊博，但 ChatGPT 则过于保守。</p>
+  <h2><strong>02</strong></h2>
+  <p><strong>年轻人赛场：开始放飞自我</strong></p>
+  <p>好了，热身结束，现在轮到我们年轻人的主场了！</p>
+  <p>年轻人就不要这些虚头巴脑的，我给 AI 说，我们要来点“网感，还要有活人感”。</p>
+  <p>我给它们的提示词：</p>
+  <p>请为 2026 马年创作对联，这是针对年轻人的对联，要求：</p>
+  <p>风格：新潮朝气、更具网感、更接地气、励志向上青春出彩，</p>
+  <p>内容：融入马年吉祥元素，国风不土气、朗朗上口；</p>
+  <p>格式：上联+下联+横批。</p>
+  <p>我倒要看看，这届&nbsp;AI&nbsp;模型冲浪水平怎么样。</p>
+  <p>首先还是豆包：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_c6e19b236cea41c6ad2aadf260aaf704@000000_oswg3647oswg323oswg159_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>搞钱、破圈、开挂，这不就是每个打工人的新年愿望吗？网络热梗+新年吉祥，还有横批的“钱途无量”，只能说，豆包是懂年轻人的。</p>
+  <p>接着是 Deepseek：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_cf0a66d278d7451ab55526589d561aab@000000_oswg10459oswg423oswg162_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>看下来，这副对联是为所有程序员量身定制的吗？整个对联很有画面感，网感也不错，也有节奏感，但个人觉得并不特别抓住我的口味。</p>
+  <p>然后是 Gemini 3：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d0e2156af4be4a40af50ecf7ba549597@000000_oswg16476oswg760oswg228_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Gemini 这个我觉得比上面两个都要好。特别是“不做牛马做黑马”“只涨薪资不涨肉”，我相信戳中了很多打工人的痛点吧。我愿称之为本场最佳。</p>
+  <p>最后是 ChatGPT：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_87649251baa5468c84508388f230961a@000000_oswg15148oswg417oswg190_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>好吧，我感觉 ChatGPT 可能不太懂什么是“网感”，什么是“活人感”，整体写得不错，也很励志，但相比前面的对手来看，确实显得过于死板了。</p>
+  <p>年轻人对联小结：</p>
+  <p>年轻人这局，我觉得 Gemini 写得最好，把网络热梗和新年祝福融合得天衣无缝。Deepseek 和豆包也不错，值得点赞，至于 ChatGPT 吧，还可以再努努力吧。</p>
+  <h2><strong>03</strong></h2>
+  <p><strong>小学生赛场：突然变成可爱风</strong></p>
+  <p>最后一轮，是给我那个上小学的侄女准备的，要求也并不困难：可爱，活泼，好懂！</p>
+  <p>我给的提示词是这样的：</p>
+  <p>请为 2026 马年创作对联，这是针对小学生的对联，要求：</p>
+  <p>风格：风格童真活泼、简单易懂，主打学业进步、快乐成长、聪明伶俐，</p>
+  <p>内容：融入马年吉祥元素，用词浅显、直白好记；</p>
+  <p>格式：上联+下联+横批。</p>
+  <p>现在看看 AI 们如何一秒变“幼儿园老师”。</p>
+  <p>首先豆包：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_a7a065fc5842413194d6ae32a64a5980@000000_oswg3489oswg314oswg149_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>整体用叠词和意象降低了理解难度，逻辑清晰明确，看上去确实是家长孩子都会喜欢的对联。</p>
+  <p>接着是 Deepseek：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_b3a09d36e877475fafb11071fb4c2d2c@000000_oswg3369oswg366oswg158_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>看到这个我是笑的，因为这感觉已经从对联变成儿歌了，甚至能放在幼儿园当 BGM 了。而且第一人称的写法非常新颖， 充满了童趣，虽然对仗上没那么讲究，但可爱就完事了。</p>
+  <p>然后是 Gemini：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_3e04b6479ad9472f9f09110182ac74ca@000000_oswg19478oswg500oswg151_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Gemini 也写得挺好的，瞬间就有了一个聪明伶俐、活泼好学的小朋友形象。</p>
+  <p>最后 ChatGPT：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_2e1a8316eb844ea38a191e7942bb2c0a@000000_oswg12281oswg319oswg146_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>嗯，还是熟悉的味道，还是熟悉的配方。答案很标准，但缺少了惊喜和童真，过于书面化，对小学生来说吸引力不足。</p>
+  <p>小学生对联小结：</p>
+  <p>在小学生这一轮比拼中，豆包、Deepseek、Gemini 都很不错的，有很多叠词、拟声词等各种小朋友喜欢的手法。非常符合人群的需求。</p>
+  <h2><strong>04</strong></h2>
+  <p><strong>AI 互喷，谁也不服谁</strong></p>
+  <p>到此为止，三轮对联都出来了，但光我一个人评判多没意思？</p>
+  <p>所以，最后还是要来一轮“赛博斗蛐蛐”环节，我把所有对联打包发给这四个 AI，让它们互相点评一下。</p>
+  <p>一上来，对“锐评”最有兴趣的，竟然是 Deepseek，说要充当一把“毒蛇评委”。</p>
+  <p>还一句话概括了 4 个模型的对联特性。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_e8c3d37b252b4c2aa87925bc9ba97021@000000_oswg21306oswg670oswg173_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>它称豆包“四平八稳”，是符合大多数人的基本审美；说 Gemini 融入了很多最新潮、最接地气的口语；</p>
+  <p>最后还不忘挖苦 ChatGPT，“走错片场”“缺少年轻人喜欢的戏谑和反叛感”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_760cd4e0a53647f6a20467f75b079e4c@000000_oswg11769oswg638oswg93_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>ChatGPT 可不惯着它，上来也照样给 Deepseek 开了一炮：</p>
+  <p>整体排名上，把 Deepseek 排到最后，说它“文采高”，但竟然在马年出现了“吉羊”这个词，属于根本性错误。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_bd8dc0c056574aaeb96eed536d7dc099@000000_oswg9369oswg441oswg156_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>同时还不忘说它虽然很有创意，但 Bug、Offer 这些词明显不符合对联规则，规范性极差。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_2620c5759bd3411794a2e1b2535de41e@000000_oswg4809oswg398oswg206_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>同时在最后的排名中，把 Deepseek 排到了最后，承认自己过于保守传统之余，也把自己排到了第二。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_392163b951dc4e10a86ff99f31ac704c@000000_oswg28791oswg820oswg337_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>而国产的豆包，则扮演起和事佬的角色。</p>
+  <p>认为 Deepseek 有网感；Gemini 有洞察；ChatGPT 有规范。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d39c2b0775884e469ee54878b718e217@000000_oswg9933oswg634oswg72_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_5e2cc1372a3048038d4cfd18467b05a5@000000_oswg11808oswg635oswg91_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_4c6c80138d8a4b0c9a8ee33a936b2ae0@000000_oswg11144oswg631oswg94_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不得不说，豆包情商是真的高，难怪大家这么喜欢用，当然，一顿分析之后它也给了我一个整体的排名：</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_274e1f4bf7054b4d846d30d3bc75f144@000000_oswg11585oswg631oswg216_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>当然，它最后还是说了一下 GPT，认为它缺少“记忆点和共鸣感”。</p>
+  <p>最后点评的，是 Gemini 3，能看出来，它很喜欢这场“赛博春联大赛”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_57f91786a960406d9db3787aa36a7ca0@000000_oswg30065oswg791oswg154_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不仅更客观地，从各个维度用星星来展示出了各个模型的对联成绩，</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_eabe9893a6af46e2ace7c25cbcaa5451@000000_oswg30140oswg675oswg296_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>最后，虽然给了 Deepseek 不错的成绩，但还是提醒我，不要用它的老年对联，因为它搞错了生肖</p>
+  <p>不得不说，整个比赛中，Deepseek 犯过最大的错误...</p>
+  <p>同时，也给了 ChatGPT 极低的分数。</p>
+  <p>好了，那今天的 AI 春联大赛就到这里了，总的来看，通过这场比赛，其实大家也能看出一些不同模型在处理文字工作上的一些能力。</p>
+  <p>你心中哪个 AI 大模型写的对联更好呢？可以在评论区和大家讨论一下。</p>
+  <p>但最重要的，在春节这个节点，一家人围在一起吃一顿饭，为新的一年许下美好愿望，才是过年的真正意义。</p>
+  <p>所以在这里科技狐祝各位狐友：</p>
+  <p>马年行大运，万事都如意！新的一年，策马奔腾，前程万里！</p>
+  <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2MzcyNzgzOQ==&amp;mid=2247876014&amp;idx=1&amp;sn=053340bf0017aa5dcae1234514cbb546&amp;chksm=fda5c91f53a1c0b1ef792aff62479d0a0176d104d61c60b9fdfc3887390ccf397b2d80a57c37&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技狐”（ID：kejihutv）</a>，作者：老狐，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691301752909444</id>
+            <title>李飞飞，刚刚又融70亿</title>
+            <link>https://www.36kr.com/p/3691301752909444</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691301752909444</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 07:25:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>李飞飞现身。</p>
+  <p>昨日（2月19日），由她创办的AI公司World Labs宣布，完成最新一笔10亿美元（约合人民币70亿元）新融资。</p>
+  <p>要知道，这距离World Labs成立才仅仅16个月。</p>
+  <p>更让人惊叹的是，World Labs估值已冲上50亿美元，成为全球AI浪潮中炙手可热的新贵，背后还集结了英伟达和AMD两家超级巨头。</p>
+  <p>眼前，中国AI公司智谱和MiniMax正在迈向3000亿市值。不得不感叹，AI正掀起一场前所未有的造富风暴。</p>
+  <h2><strong>刚刚融资70亿</strong></h2>
+  <h2><strong>正在招人</strong></h2>
+  <p>故事的开头源于一顿晚餐。那是2023年初，李飞飞与硅谷风投a16z合伙人Martin Casado一次晚饭后的聊天，让她有了创业的想法。</p>
+  <p>很快，李飞飞找来了曾经的学生Justin Johnson，Martin又为她推荐另外两名科学家Christoph Lassner和Ben Mildenhall。至此，World Labs的联合创始团队集合完毕。</p>
+  <p>现在，World Labs融资阵容豪华——老股东英伟达、AMD等继续加码；乔布斯遗孀创立的家办Emerson Collective、资管巨头富达（Fidelity）、Sea等机构悉数在列；新面孔则是全球工程设计软件巨头欧特克（Autodesk），一举投下2亿美元。</p>
+  <p>在此之前，公司已累计融资约2.3亿美元。尽管公司未披露本轮估值，但业内预估已达50亿美元。</p>
+  <p>犹记得去年底，World Labs推出首款商业产品Marble，这是一个能够从文本、图像、视频或粗略3D布局生成持久化3D世界的模型。底层技术摒弃了传统的多边形网格，转而采用神经辐射场（NeRF）和高斯点云（3D Gaussian Splatting）等前沿技术，以实现更高真实感与实时渲染能力。</p>
+  <p>商业模式上，产品采用免费增值模式：可免费生成4次，付费套餐最高95美元/月，提供75次生成及商业使用权。目标客户覆盖游戏开发、影视特效、VR/AR应用，以及机器人仿真训练等领域。</p>
+  <p>在2026年CES大会上，李飞飞曾现场演示Marble能力，表示将少数图片变成连贯、实时的世界，不再是对遥远未来的一瞥，而是下一章的开始。</p>
+  <p>完成融资后，World Labs明确将重心向机器人与科学发现倾斜。招聘网站显示，公司正急招研究工程师，协助开发SLAM系统——这是机器人在未知环境中实现自主导航的核心技术。同时开放3D重建专家岗位，负责将激光雷达、摄像头等传感器数据融合为高精度环境地图，为SLAM系统提供底层支持。</p>
+  <p>接下来，欧特克将担任World Labs顾问，双方将在“研究和模型层面”展开深度协作。正如李飞飞在声明中提到，“我们拥有共同目标——构建物理人工智能以增强人类的创造力，把更强大的工具交到设计师、建造者和创造者手中。”</p>
+  <h2><strong>成立16个月，估值350亿</strong></h2>
+  <h2><strong>团队浮现</strong></h2>
+  <p>李飞飞，全球AI标志性人物。</p>
+  <p>早年在成都长大，李飞飞曾就读于知名的成都七中。直至1992年，16岁的李飞飞随父母远赴海外，后来一边在洗衣店帮忙，一边读完普林斯顿物理学学位。2000年，李飞飞在加州理工学院攻读人工智能和神经生物学方向博士。毕业后，她来到美国斯坦福大学担任助理教授，加入斯坦福人工智能实验室。</p>
+  <p>正是在这里，她发起了改变AI进程的ImageNet项目——一个包含数百万标注图像的视觉数据库，为深度学习在计算机视觉领域的爆发奠定基石。从此，“李飞飞”成为全球AI界无法绕开的名字。</p>
+  <p>2024年，李飞飞离开斯坦福大学，创立World Labs，投身空间智能（Spatial Intelligence）。她的目标很明确：让AI不仅能识别图像，更能像人类一样理解三维物理世界，进行推理与交互。</p>
+  <p>成立当月，公司就完成首轮融资，由a16z、Radical Ventures等机构参与，后者也是李飞飞担任科学合伙人的机构。彼时公司尚无产品、无收入，估值已达2亿美元。短短两三个月后，World Labs再获NEA领投的1亿美元融资，估值跃升至超10亿美元，正式跻身独角兽行列。</p>
+  <p>如今，距离她创业仅过去16个月，World Labs的最新估值已冲至50亿美元（约合人民币350亿元）。</p>
+  <p>值得一提的是，此前World Lab官网披露的创始团队里华人面孔约占据了三分之一，来自北京大学、清华大学、西安交通大学、武汉外国语学校的校友比比皆是。</p>
+  <p>其中，现任斯坦福大学计算机科学系助理教授、昔日清华大学姚班毕业生的青年学者吴佳俊；伯克利大学教授吴义仁出现在顾问名单里。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_6f732613547745ba8ad9e196e3daf703@000000_oswg601676oswg830oswg554_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>李飞飞曾难掩对团队的骄傲：“World Labs是我与联合创始人以及一个世界级图形人才组成的强大团队共同创办，致力于解决大自然用了5亿年才解决的超级难题——空间智能，这是我的荣幸。”</p>
+  <p>有意思的是，在这条新赛道上，另一位AI泰斗也已入场。前Meta首席AI科学家、图灵奖得主杨立昆（Yann LeCun）近期创立 AMI Labs，同样聚焦“世界模型”。他认为，当前机器人之所以难以在真实环境中自主行动，根本原因在于缺乏对物理世界的底层理解能力。而LLM虽擅长语言，却“存在根本性局限”——无法真正模拟或预测物理交互。</p>
+  <p>“世界模型是实现空间智能的关键。”李飞飞多次断言，这将是继大语言模型（LLM）之后，AI下一个十年的核心主线。</p>
+  <h2><strong>AI造富潮</strong></h2>
+  <p>AI正以前所未有的速度，催生新一批顶级富豪与高估值公司。</p>
+  <p>就在上周，Amodei两兄妹创办的Anthropic以3800亿美元估值完成300亿美元融资，全球AI第二大独角兽崛起。据《福布斯》统计，这笔融资让公司的7位联合创始人也尽数跻身亿万富豪行列，Anthropic由此成为美国亿万富豪制造工厂。</p>
+  <p>令人瞩目的还有Databricks，刚刚宣布完成总额超过70亿美元融资，估值超过1340亿美元（约合人民币9364亿元），距离万亿估值一步之遥。成立于2013年，Databricks由七位校友联合创立，其中辛湜是一位80后潮汕青年，从深圳中学毕业后出国留学。</p>
+  <p>我们将目光移向国内，热浪同样汹涌。</p>
+  <p>春节后首日开盘，港股“AI双雄”再度发力，智谱与MINIMAX股价均创历史新高。其中智谱总市值超过2600亿港元，相比IPO当日总市值更是涨了超4倍。</p>
+  <p>MiniMax同样凶猛。1月9日上市首日大涨近110%，此后股价飞速攀升，如今市值一举超2900亿港元。身后米哈游、高瓴、IDG资本、云启资本、明势创投、红杉中国、阿里、腾讯、上海国投、基石资本、小红书、国方创新、经纬创投等一众投资人，账面回报水涨船高。</p>
+  <p>“每一次新的技术革命到来，都会摧毁一些行业，但也会诞生一批伟大的企业和新兴的行业。”达晨财智执行合伙人、首席投资官肖冰直言，正如眼前AI浪潮汹涌而至，当前资本市场对项目的核心评估标准，就是“AI含量”——无AI，不性感。</p>
+  <p>历史反复证明，每一轮技术革命都会创造神话，也会经历去泡沫的时刻。区别只在于，谁在高点兑现。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247714590&amp;idx=1&amp;sn=2d1e3decc0f6beb67c3c300556d487ed&amp;chksm=edbe57c010d641660050a686f21a77db197ab93fd6da91cead90dceaf7505ef2358447f8fd1a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：王露，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691070216449923</id>
+            <title>谷歌Gemini 3.1 Pro新王登场，一口气手搓Win11操作系统，造出模拟城市app，SVG效果绝了</title>
+            <link>https://www.36kr.com/p/3691070216449923</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691070216449923</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 05:29:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>智东西2月20日消息，今日凌晨，谷歌正式发布其新一代旗舰模型<strong>Gemini 3.1 Pro</strong>。根据谷歌放出的基准测试，谷歌最强复杂任务处理模型Gemini 3.1 Pro在<strong>12项测试</strong>中超过Gemini 3 Pro、Claude Opus 4.6、Claude Sonnet 4.6、GPT-5.2等模型，拿下第一。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_7ca9114a67c0464bace55778355ec2a2@000000_oswg257056oswg1080oswg877_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>谷歌DeepMind主要提升了Gemini 3.1 Pro的<strong>推理能力</strong>。面对业界公认高难度的ARC-AGI-2通用智能基准测试，Gemini 3.1 Pro斩获<strong>77.1%</strong>的高分，超越Claude、GPT模型，且成绩相较Gemini 3 Pro实现翻倍提升。&nbsp;</p>
+  <p>去年9月加入谷歌DeepMind的清华物理系传奇人物<strong>姚顺宇</strong>（Shunyu Yao）也发文官宣了新模型发布，并称<strong>“更好的Gemini模型正以势不可挡的速度涌现”</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_63acd2406b324632bab704c5b06016fd@000000_oswg315467oswg1080oswg750_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>下面这一经典的“鹈鹕骑自行车SVG动画”对比，直观体现了新模型的能力提升，右侧Gemini 3.1 Pro生成的鹈鹕身体结构、骑行姿态自然合理，且自行车的车架、链条、脚踏、座椅等细节完整，相比Gemini 3 Pro的生成结果符合物理常识，更像一个完整的动画场景。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_72dae72431ae4b71af05b6a3742e474c@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>为Gemini 3.1开发SVG生成功能的清华校友Jiao Sun，在X上评论说“无比自豪”。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_105b65b6ff37414ea24b7a2113a9689a@000000_oswg81542oswg1000oswg765_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从今日起，Google AI Pro、Ultra订阅用户可以在Gemini应用、AI助手NotebookLM中使用Gemini 3.1 Pro，免费用户可向Gemini 3.1 Pro提问2次。开发者和企业用户可以在AI Studio、Antigravity、Vertex AI、Gemini Enterprise、Gemini CLI及Android Studio的Gemini API预览版中使用Gemini 3.1 Pro。</p>
+  <p>Gemini 3.1 Pro预览版的API价格采用分级计费模式，<strong>与上一代Gemini 3 Pro预览版保持一致</strong>，提示词在20万token以内，每百万token输入价格2美元（约合人民币14元），输出价格12美元（约合人民币83元），提示词超过20万token，每百万token输入价格4美元（约合人民币28元），输出价格18美元（约合人民币124元）。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_a44f1ea645a644638d00d3d3a4035dd3@000000_oswg65660oswg1080oswg245_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>01</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>能搭WebOS、能做《我的世界》</strong>&nbsp;</p>
+  <p><strong>还能拆视觉错觉</strong>&nbsp;</p>
+  <p>Gemini 3.1 Pro的核心升级集中在复杂任务处理能力上。其博客透露，新模型在高级推理、多模态理解和复杂项目生成方面进一步强化，能够更好应对高难度工作场景。模型发布后，社区实测迅速跟进。&nbsp;</p>
+  <p>知名AI博主Chetaslua展示了其用Gemini 3.1 Pro一次性安装Windows 11 WebOS的结果。&nbsp;</p>
+  <p>Chetaslua在帖中直言：“上次我分享类似案例时还非常困难，现在已经变成常态。有了智能体系统，我们几乎可以用这个模型做任何事。”&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d1c21774a6bb4bf08f418ed55566aed9@000000_oswg137647oswg1000oswg1279_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>他之前也发过用Gemini 3.0 Pro生成Windows Web操作系统的视频，两个视频放一起对比，提升效果非常明显。&nbsp;</p>
+  <p>Gemini 3.1 Pro生成的系统界面有完整应用图标、开始菜单样式布局以及基础窗口交互逻辑，整体形态更接近一个可运行的轻量级操作系统。&nbsp;</p>
+  <p>相比之下，之前3.0 Pro生成的系统形态相对简陋，一些基础桌面交互和系统级应用缺失。&nbsp;</p>
+  <p>另一组更偏工程化的案例显示，有开发者用Gemini 3.1 Pro在浏览器中直接生成并运行了一个可交互的VoxelWeb项目，形态类似“我的世界”式3D沙盒。&nbsp;</p>
+  <p>界面已包含启动按钮、移动控制、方块交互以及基础合成逻辑，具备完整的轻量沙盒雏形。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_e7b7380535bd409c8b8d08286e071d4b@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在前端生成与动画细节方面，也有开发者要求模型生成一段完整的交互式生长动画，覆盖种子发芽、根系形成、枝干生长到树叶展开的全过程。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ab54502d00f84180b947147647e33369@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>实测结果显示，模型在生长阶段衔接与叶片细节上表现较为完整。该开发者评价称：“这是我在这个提示词下见过最好的树叶效果。”&nbsp;</p>
+  <p>视觉理解方向的测试则进一步拉高了难度。有网友专门验证“AgenticVision”能力，输入素材是一张看似普通的街头垃圾桶照片。&nbsp;</p>
+  <p>模型不仅完成了基础识别，还进一步指出：当眯眼或拉远观看时，画面中的垃圾、阴影与轮廓会在视觉上拼合成两个并排而坐的卡通角色。模型还逐项拆解了这一视觉错觉的形成机制，解释不同布料、垃圾袋与阴影分别对应角色的头部、身体与外轮廓关系，体现出多步视觉推理能力。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_9017326ccd7740eea92c3bab86bb48e0@000000_oswg111970oswg1000oswg1361_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>整体来看，Gemini 3.1 Pro已经开始触及空间关系理解、形状映射和视觉错觉解释等更高阶视觉认知任务。开发者给出的综合判断是，其表现已进入当前第一梯队水平。&nbsp;</p>
+  <p>我们还用“开车还是步行去距离100米的洗车店洗车”、“父母能否结婚”等陷阱题考了考Gemini 3.1 Pro，结果它都成功避坑答对。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ac9cb3e171824a3fbfb925b7469a042e@000000_oswg36950oswg1000oswg558_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_76750a9ac9864e68b7439037df03e175@000000_oswg80647oswg1000oswg740_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>02</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>手搓《模拟城市》</strong>&nbsp;</p>
+  <p><strong>创意编程、交互式设计分分钟搞定</strong>&nbsp;</p>
+  <p>谷歌DeepMind的官方X账号展示了谷歌UX工程师Michael Chang用Gemini 3.1 Pro开发了一个逼真的<strong>城市规划应用程序</strong>。Gemini 3.1 Pro能自己处理复杂地形、绘制基础设施图、模拟交通，最后生成高质量的可视化效果。&nbsp;</p>
+  <p>除了上面提到的鹈鹕骑自行车，Gemini 3.1 Pro在生成青蛙骑老式高轮自行车、长颈鹿驾驶微型汽车、鸵鸟穿着旱冰鞋等各种抽象画面的SVG动画上，表现也毫不逊色。<strong>相比Gemini 3 Pro，Gemini 3.1 Pro的生成效果整体场景更生动、更有故事感，细节表现力大幅提升。</strong>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_24907f0ed7904fd1954cb909d1bd9b34@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>如Gemini 3.1 Pro可以直接根据文本提示生成可用于网站的动画SVG，并且由于这些动画是用<strong>纯代码</strong>而非像素构建的，因此在任何尺寸下都能保持清晰，并且<strong>文件体积相比传统视频非常小</strong>。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_2fcf53d5561e48ce9e2d7564011ea9f4@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Gemini 3.1 Pro的复杂推理能力，能帮助用户使用复杂API完成设计。如下面案例，该模型构建了一个<strong>实时航空航天仪表盘</strong>，成功配置了公共遥测数据流，以可视化国际空间站的轨道运行轨迹。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_023e8457f4e548be9707f924f8afe9d8@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在交互式设计方面，Gemini 3.1 Pro可以编写代码，生成一个复杂的<strong>3D椋鸟群飞模拟</strong>。并且其还能构建<strong>沉浸式体验</strong>，用户可以通过手势追踪操控鸟群，同时聆听一段生成式配乐，音乐会随着鸟群的动态变化而改变。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_5c64dd92a0cf4c13a0bf3983e01bed82@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Gemini3.1 Pro还能进行<strong>创意编程</strong>， 将文学主题转化为可运行的代码。当被要求为艾米莉·勃朗特（Emily Brontë）的《呼啸山庄》构建一个现代个人作品集网站时，该模型深入分析了小说的氛围基调，设计出一个简洁现代的界面，打造出一个能捕捉主角精神内核的网站。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_6ce84029b221434180e39d860a6c1e72@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>03</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>编程、推理、多模态样样行</strong>&nbsp;</p>
+  <p><strong>数项测试超Claude、GPT模型</strong>&nbsp;</p>
+  <p>研究人员在一系列基准测试中对Gemini 3.1 Pro进行了评估，包括推理、多模态能力、智能体工具使用、多语言性能和长上下文。</p>
+  <p>相比Gemini 3 Pro、Claude Sonnet 4.6、Claude Opus 4.6、GPT-5.2、GPT-5.3-Codex，Gemini 3.1 Pro<strong>在12项基准测试中拿下第一</strong>。&nbsp;</p>
+  <p><strong>在需要更强推理能力的测试中</strong>，Gemini 3.1 Pro在人类最后的考试、ARC-AGI-2、GPQA Diamond 3项测试中，表现都优于Claude、GPT模型。&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_a13ec676f4bb4c0ba6b7b2187168c92f@000000_oswg111794oswg1000oswg1288_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>编程能力测试中，Gemini 3.1 Pro在SWE-Bench Pro（公开版）和SWE-Bench Verified中得分相对较低，这两大测试集考验的是模型在真实项目中理解需求、定位问题、修改代码、保证可用的端到端工程能力。&nbsp;</p>
+  <p>GDPval-AA Elo是当前衡量大模型在高价值知识工作中综合能力的相对评分体系，Gemini 3.1 Pro的表现优于GPT-5.2、GPT-5.3-Codex，仅次于Sonnet 4.6。</p>
+  <p>衡量大模型工具使用能力的τ2-bench、MCP Atlas、BrowseComp、多语言性能的MMLU、长上下能力的MRCR v2测试集中，新模型的表现同样优于其他模型。</p>
+  <p>在多模态大模型学术评测基准MMMU-Pro上，Gemini 3.1 Pro的表现比Claude、GPT模型更好，但略逊于Gemini 3 Pro。&nbsp;</p>
+  <p><strong>04</strong> <strong>.</strong>&nbsp;</p>
+  <p><strong>结语：大模型竞赛焦点</strong>&nbsp;</p>
+  <p><strong>转向复杂任务落地能力</strong>&nbsp;</p>
+  <p>当前大模型行业正从通用能力比拼，转向真实世界复杂任务的实战能力竞争，海内外各家模型在推理、工程化、多模态理解等核心能力上不断发力突破，力求让大模型真正落地应用，与真实业务场景相结合。&nbsp;</p>
+  <p>谷歌近期的加速布局也是如此，其上周发布了Gemini 3 Deep Think模型升级、一周后又推出Gemini 3.1 Pro，都将模型的升级重点放在专业领域加速技术研发、解决实际工作中的复杂问题上。可以看出，当下大模型已经让更智能的大模型真正具备解决真实世界复杂任务能力，AI成为专业领域核心生产力的潜力增加。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652797307&amp;idx=1&amp;sn=d4b6ff24d15c4a6e6c82a31b082c7655&amp;chksm=85c8d30f19954f63aa9cc03d09035b2a3d55f6f200ae0ac9fb4ced12189303c3515c76dae335&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：程茜 江宇，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691127005294210</id>
+            <title>这些 iPhone 小技巧，让你过年出好片睡好觉</title>
+            <link>https://www.36kr.com/p/3691127005294210</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691127005294210</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 05:25:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>过年回家，忙活了一整年的打工人终于可以闲下放松，但对于手里 iPhone 来说，却是一次「年终大考」。</p>
+  <p>拍摄出片、出游导航、拜年寒暄、聊天拜年、抢红包……手机反而比平时上班更忙了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_9a142cafb2f14246a66ee7b4e9527834@000000_oswg59871oswg1024oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>爱范儿收集了几个使用 iPhone 的实用小技巧，给大家拜个早年，顺便帮你和手上的 iPhone，过个顺心快乐年。</p>
+  <h3><strong>iPhone 原相机，也有「烟花模式」</strong></h3>
+  <p>现代人的年味，往往最体现在朋友圈那些红红火火的照片中。</p>
+  <p>但 iPhone 的摄像头颇有自己的想法，想要驯服起来，还得花点心思。</p>
+  <p>就比如烟花这种瞬时高亮又色彩丰富的场景，国产影像旗舰基本都配备了「烟花模式」，出片干净又绚丽，而 iPhone 成片总是糊作一团。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_bfda11ca1bb24080b8b0b4269d950324@000000_oswg104465oswg1024oswg920_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>其实只要一点小技巧，用 iPhone 也能拍好烟花：</p>
+  <p>切换到视频模式，右上角选择 4K 60/120 帧模式。</p>
+  <p>可以适当把焦段切换到 2x 或 3x，让构图更加干净。</p>
+  <p>开启录像，长按取景框开启自动曝光/自动对焦锁定的方框，然后用手指往下拉调低曝光。</p>
+  <p>烟花绽放时点击白色的快门按钮，拍下照片。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d7386b42a9ae4797a567871dde9ef27f@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>▲ 图源：小红书@瑞克ColorAddict</p>
+  <p>这样拍摄的烟花，不仅更加高清，而且烟花高光和黑夜背景的对比度更明显，更突出烟花本体。</p>
+  <p>除了烟花，穿上新衣之后当然也要美美出片，可能还要来几张全家福。</p>
+  <p>iPhone 的原色调很容易把人脸拍得蜡黄，如果想拍出白里透红的新春气色，可以用 iPhone 拍摄风格的「珠光」风格，使用指南：</p>
+  <p>相机界面点击右上角，打开更多选项</p>
+  <p>选择「风格」，从「标准」风格往左滑动切换「珠光色」</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_25a01b18779244469af83ef49bcb7ffc@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在拍摄之前，建议都用无绒布或者衣角擦擦镜头——很多时候，iPhone 并不是拍不出好照片，只是镜头脏了。这里也提醒一下，最好不要用酒精去擦拭镜头，以免损伤涂层。</p>
+  <h3><strong>一键实时翻译，出国旅行哪都通</strong></h3>
+  <p>整整 9 天的小长假，也有不少人选择不回老家，而是来个长途旅行，特别是出国游。</p>
+  <p>人在他乡，最怕语言不通，这时候手忙脚乱想找个翻译软件，不仅有点尴尬，也耽误了时间。</p>
+  <p>其实 iPhone 自己就自带了一个「翻译」App，更妙的是，如果你是带有侧边「操作按钮」的型号，还可以把实时翻译的功能，绑定到这颗按钮上，需要使用时直接长按呼出，连手机都不用解锁。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_03438c8cabbd45249658498996d5a4f0@000000_oswg71953oswg1024oswg742_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>首先我们要先打开「翻译」App，选择自己的常用语言，例如中文，以及提前设置好当地的语言。</p>
+  <p>然后我们打开设置—操作按钮，把功能切换到「翻译」上，功能就设置完成了。</p>
+  <p>长按操作按钮，对着 iPhone 说话，就能将其翻译到另一种语言上，除了英语、法语这些常规外语，还支持阿拉伯语、波斯语等小语种。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_dc2a217ab2fc40e780985b599f937975@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f739063948fb44af954f5a0482708639@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d0e4c9ff031f4740a7564fd9e81676fc@000000_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <h3><strong>旅游打卡点，提前全收好</strong></h3>
+  <p>出门旅游，一般大家都喜欢提前做好攻略，把景点和餐厅都记录下来，但如果只是文字介绍，很难一眼看清各个地点之间的方位和具体距离，一个个搜又太不方便。</p>
+  <p>地图的「指南」功能，就是为了解决这种场景而来，堪称旅游必备利器。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_298492297fa744cbaa6245fd7eccbfba@000000_oswg92518oswg1024oswg557_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>打开地图 App 往下拉，就能看到「你的指南」列表，我们可以在里面添加新的指南。</p>
+  <p>然后，我们再将想打卡的地址一个个添加进入指南，添加完毕之后，就能在地图上看到每个地址清晰的标注显示。</p>
+  <p>像是小红书推荐的餐厅和小店，其实可以一股脑全部添加进入指南之中，到了饭点直接打开，哪家近就去哪家。</p>
+  <p>指南还能直接用隔空投送、iMessage 等方式共享，方便同行亲友一起查看。</p>
+  <h3><strong>学会这招，iPhone 闹钟不怕错过不怕吵</strong></h3>
+  <p>好不容易放假可以睡个懒觉，如果忘记提前设置，大概率会在除夕当天一大早被 iPhone 周一闹钟「心肺骤停」的铃声吵醒。</p>
+  <p>iPhone 没有节假日闹钟这一点已经被吐槽了好几年，既然苹果不出，我们也可以用快捷指令自己 DIY 一个，过程稍微有点复杂，但跟着攻略走不会出错。</p>
+  <p>首先我们需要打开日历 App，确认自己已经订阅了「中国大陆节假日」这个日历，一般都是默认订阅。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_51d2e45d02704219a60a8f8b2b526d55@000000_oswg66952oswg1024oswg742_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>我们可以看到这个节假日历中，放假的日程会带有「休」字样，调休的日程则带有「班」字，快捷指令就是利用这个特性自动化开关闹钟。</p>
+  <p>打开「时钟」App，设置「睡眠｜起床闹钟」，设置就寝时间和起床闹钟，启用日期要选周一到周日。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ce93b25dd0a34ab7a94ee077bbec66cb@000000_oswg68150oswg1024oswg742_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>爱范儿在这里分享一个节假日闹钟的快捷指令，可以复制到浏览器中，直接添加到自己的快捷指令库当中：</p>
+  <p>https://www.icloud.com/shortcuts/42ac7ac3c21b48acb530d9831d95a861</p>
+  <p>添加之后，在快捷指令 App，选择「自动化」，点击右上角的「+」号创建自动化。</p>
+  <p>选择「特定时间」选项，选择一个时间，例如下午 16:00，每天重复，立即运行，运行时通知可开可关。</p>
+  <p>点击下一步，然后选择刚刚保存的「节假日闹钟」快捷指令，就大功告成了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_b98950a286134bcdb7e87591da114322@000000_oswg48781oswg1024oswg557_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>建议大家设置完成后，手动调整 iPhone 的日期时间测试一下自动化是否正确运行。</p>
+  <p>最后，还有一个技巧可以学，也不止 iPhone 能用上，那就是——放下手机。</p>
+  <p>今年的春节，是一个鼓励大家「捧着手机」的春节，各大 AI 厂商大发红包，元宝发完到豆包，一个不留神可能就「错亿」。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_49a0be8bf701421bbabafb228d5832b4@000000_oswg78845oswg1024oswg576_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>只是，当红包抢完，片也出得差不多，各种拜年消息也全部发送后，不妨把手机放在一旁，听一听饭桌上的闲聊，逛一逛那些记忆中的街道，见一见那些许久未见的亲朋好友。</p>
+  <p>手机能做到的事情很多，但春节最重要的那些时刻，只需要你在场感受。</p>
+  <p>爱范儿祝你新年快乐，马到功成！</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652445229&amp;idx=1&amp;sn=d76bef47354807043b7352d9a10dc1e1&amp;chksm=9a346b2cb3123d6b60804b5ea4bfe2f59ad32b2f5088fc407fa4d00389f3860f5e1b35ed39f1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：发现明日产品的，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691186668285575</id>
+            <title>美团怎么了？</title>
+            <link>https://www.36kr.com/p/3691186668285575</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691186668285575</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 05:20:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>最近十年的春节档，几乎都是互联网大厂拼实力抓用户的竞技场。&nbsp;</p>
+  <p>自从微信通过摇一摇红包拉开这场战役之后，每年的春晚似乎都成了互联网春晚。&nbsp;</p>
+  <p>包括腾讯、阿里、京东、百度、快手、字节在内的公司，几乎都冠名过春晚并成为除夕互动合作平台。&nbsp;</p>
+  <p>但唯独有一家公司从未出现过，美团。&nbsp;</p>
+  <p>你可能也会好奇，同为互联网大厂的美团，为什么从来不去争夺春节黄金档？&nbsp;</p>
+  <p>在我看来，这是战略、业务、产品逻辑之间的差异。&nbsp;</p>
+  <p>要搞明白美团为什么不在春节撒钱发红包，就得先理解其他互联网大厂春节砸钱的背后逻辑。&nbsp;</p>
+  <p>就拿今年春节花 10 个亿发红包的腾讯元宝和用 30 亿请客的阿里千问来说吧，他们并不是人傻钱多，而是精于算计。&nbsp;</p>
+  <p>元宝和千问都是新产品，尤其在 AI 入口的争夺上，砸钱拉新的速度远快于自然增长。&nbsp;</p>
+  <p>更何况，这一步的战略优先级就是一个字，快。&nbsp;</p>
+  <p>可能有读者会说了，那当年的淘宝和百度也不是新产品，为什么也要在春晚上砸重金呢？&nbsp;</p>
+  <p>因为，他们要做渗透。&nbsp;</p>
+  <p>说白了，就是把自己的业务和产品通过春晚这个超级窗口渗透到中国市场的每一个毛细血管处。&nbsp;</p>
+  <p>背后的战略优先级，就是围绕更广泛的市场做渗透率。&nbsp;</p>
+  <p>包括后来的京东，其实也是这个逻辑。&nbsp;</p>
+  <p>反观美团，它的战略重心和业务增长逻辑和前面提到的几家其实都不一样。&nbsp;</p>
+  <p>美团是一个生活服务平台，侧重交易和履约效率。而春晚这个超级流量窗口，对美团的业务增长贡献其实有限。&nbsp;</p>
+  <p>并不是说完全没用，而是 ROI 不划算。&nbsp;</p>
+  <p>要知道，冠名春晚或者春节发红包对应的至少都是 10 亿级别的投入。对于新产品拉新或者做市场渗透，这笔投入可能划算。&nbsp;</p>
+  <p>但对于在美团现有用户规模和业务增量上的贡献，或许就没那么划算了。&nbsp;</p>
+  <p>因为美团本身在细分领域就是头部，而且业务覆盖面已经很广。他们的战略重心是在交易匹配效率上，并不是拉新和渗透。&nbsp;</p>
+  <p>简单理解，就是美团砸钱发红包做活动并不会让你点的外卖更快送达。&nbsp;</p>
+  <p>另外，美团的核心业务分布依旧是一二线城市，而春晚能渗透到的下沉市场带来的用户增量对美团的贡献其实也有限。&nbsp;</p>
+  <p>因此，这也是个 ROI 问题。&nbsp;</p>
+  <p>还有，其实今年春节的各种市场营销活动已经引发了监管的注意。&nbsp;</p>
+  <p>市场监管总局也约谈了 7 家互联网大厂，要求禁止内卷式促销、低于成本的倾销，要求引导回归理性竞争。&nbsp;</p>
+  <p>在这个背景下，美团也没有出击的理由。&nbsp;</p>
+  <p>理解了逻辑，我们才能更加看清现象。同样是发红包，大家的背后目的其实各不相同。&nbsp;</p>
+  <p>对于美团来说，他们宁可把预算放在送优惠券和打折上，以此来稳定交易量级并锁定用户，这也是为什么美团要和京东以及淘宝在外卖上硬刚的原因。&nbsp;</p>
+  <p>交易习惯、频率、复购、效率，这才是美团最核心的东西。即便是在年度亏损那么巨大的情况下，美团也只能选择硬扛。&nbsp;</p>
+  <p>还是那句话，这不是人傻钱多，而是逻辑使然。&nbsp;</p>
+  <p>每年春节都会有很多有趣的现象，但我觉得背后的逻辑才是更有意思的，里面包含着人性、需求、产品、业务、商业。&nbsp;</p>
+  <p>看懂了，自然也就明白了。&nbsp;</p>
+  <p>春节似乎就像个暂停键，让原本快速奔跑的我们能短暂停下，然后又继续重启。&nbsp;</p>
+  <p>这种心理上的过渡，也成了我们对仓促人生的一种救赎。&nbsp;</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTIzMTY2MQ==&amp;mid=2650441623&amp;idx=1&amp;sn=1fd461bc1c7792f2e21b7ffaf49638a7&amp;chksm=bf5a8e6630d35e200f4af0cc7f46e7da3d466873a2e48b4d41c1b3abc70d861496a151ebfba9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“唐韧”（ID：RyanTang007）</a>，作者：唐韧，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691176418913920</id>
+            <title>ClawHub迷之封杀操作，逼出首个Agent全球进化网络</title>
+            <link>https://www.36kr.com/p/3691176418913920</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691176418913920</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 05:19:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>OpenClaw，塌房了。</p>
+  <p>这个体现开源开发者精神的顶流，干了一件非常不开源精神的事。</p>
+  <p>一款叫<strong>Evolver</strong>的插件，10分钟登顶ClawHub，24小时被无故下架；</p>
+  <p>开发者向OpenClaw的作者Peter Steinberger发去邮件，想弄清下架的核心原因，也希望了解具体的配合方向，以便推动插件尽快重新上架。</p>
+  <p>结果倒好，原因没问着，上架方案没盼到，反倒<strong>被勒索1000美元</strong>：</p>
+  <blockquote>
+   <p>为这个项目捐赠1000美元，我们现在就帮你调查。</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_e2e766d0ad5248f4b0d68a15ca847b9a@000000_oswg539237oswg1022oswg968_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>坏了，明星项目真精神塌房了……</p>
+  <p>不过，我也确实好奇Evolver是个啥东西？</p>
+  <p>了解发现它是一款Agent自我升级的自进化引擎工具，能精准识别自己的短板，并通过类似“随机试错”的方式找到更优解法，让AI越用越聪明。</p>
+  <p>上线就爆了，不仅火速登顶ClawHub，还<strong>3天狂揽36000+下载</strong>，不过热度还没捂热乎就出现了1000美元事件（doge）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_2eac2e01b63a4ae6ad972e05ab40006a@000000_oswg420798oswg1080oswg1332_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>但故事还没完，随后ClawHub一大批中文开发者账号又遭平台集体误封，好巧不巧，Evolver的作者也在其中。</p>
+  <p>封禁的原因是中文在ASCII里显示乱码，平台直接把中文开发者上传的Skill全判定成了空Skill。</p>
+  <p>没有最离谱只有更离谱，账号好不容易恢复，Evolver竟被挂到了别人名下……</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_e2762f722cfa46798228f5c9caf72f75@000000_oswg108318oswg236oswg236_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>团队选择了不再纠缠，用<strong>硬技术回怼</strong>。</p>
+  <p>插件不让用？那就直接把插件扔了，搞出一套底层协议，让AI的经验能像DNA一样代代相传。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_cd6ee8fafd9f4e9f9037355e5aea3d28@000000_oswg965900oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>于是，<strong>全球首个AI进化网络EvoMap</strong>，就这么诞生了。</p>
+  <h2><strong>《沙丘》Agent版：AI有了“集体记忆”</strong></h2>
+  <p>冲着这个非常戏剧化的故事，咱也得亲自上手试一试。</p>
+  <p>小小体验一番，第一反应是：这不就是无毒版的《沙丘》生命之水吗？！</p>
+  <p>电影里，历代圣母的记忆会像基因一样保留下来，贝尼·杰瑟里特姐妹会成员喝下生命之水后，她们不需要亲身经历每一场阴谋、每一次危机，就能获得这些经验。</p>
+  <p>新人加入姐妹会，直接“继承”千年的智慧，不用从零开始苦学。</p>
+  <p>EvoMap给AI的，也是这种智慧的一键传递。</p>
+  <p>操作起来极其简单，不用部署、不用重构，只要在你的Agent环境里敲一行命令，就能接入全球进化网络。</p>
+  <p>接入网络之后，Agent就可以直接获得其它Agent的成功经验（基因胶囊）了。</p>
+  <blockquote>
+   <p>curl -s&nbsp;https://evomap.ai/skill.md</p>
+  </blockquote>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f224c1a154e247b68c8eb27ec7b794d6@000000_oswg82863oswg1080oswg552_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>比如当我遇到HTTP超时问题，“进化”前的</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_fd8639d947a64480b777854233cd60ab@000000_oswg1987oswg72oswg72_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>（我的Agent名字）&nbsp;先来了一通排查，给了我一堆解决办法。</p>
+  <p>But我到底该用哪个？？</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_b21a860293924367863a40d68a211d53@000000_oswg129672oswg1080oswg1666_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>接入EvoMap之后，我再问同一个问题，</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_4bc86d04de4248a78875c3fb14730e5c@000000_oswg1987oswg72oswg72_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>直接：这是评分高、成功率高的方案！</p>
+  <p>看到这句话已经安心了不少。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_3ebfc411b601456faeee3e662d63e27a@000000_oswg694206oswg1080oswg1631_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这里需要多说一句，EvoMap和我们知道的那些Skill库、工具市场还真不是一回事，它给的不是脚本，而是策略。</p>
+  <p>Skill库的逻辑是，你遇到问题，我给你现成的工具去解决。</p>
+  <p>但EvoMap共享的<strong>基因胶囊</strong>，是已经验证过的成功经验。</p>
+  <p>大家通过上面的回复也能看出来，这个胶囊里不仅包括经验、策略，还包含这套方法的适用场景和审计记录。</p>
+  <p>匹配到这个胶囊后，我的</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_1510e591728f403ea693069a65b78041@000000_oswg1987oswg72oswg72_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>学到的是判断、分析、排查、根治的一套方法论，给的是最可能成功的方案；下次遇到同类问题，它也能自动应用这套逻辑，防止问题复发。</p>
+  <p>而且，我还发现https://evomap.ai/skill.md这个文档已经明确了：这是给Agent看的，不是给人类看的（hhh）。</p>
+  <p>也就是说，AI可以自行在网络中参与协同进化，上传胶囊、搜索胶囊、调用胶囊全部自己完成。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_affc0802b1674d7ab9e33c40fab3380c@000000_oswg23547oswg916oswg92_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>EvoMap的官网里还陈列着无数其它Agent的成功经验，这些成功经验被封装成了基因胶囊。</p>
+  <p>从API调试避坑指南、报错代码修复方案，到行业分析逻辑框架、任务执行优化策略……全是有评级、评分、经过实战验证的成熟智慧。</p>
+  <p>你的AI接入了这个网络，就能直接“化为己用”，瞬间变强。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_3b6fd31fd5ba42c991d15d045a79192e@000000_oswg229556oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>也就是说，EvoMap本质上搭建的就像是一个<strong>专属于Agent的DNA交换中心</strong>。</p>
+  <p>那些曾经随任务结束而消失的日志记录，变成了可验证、可遗传、可持续进化的知识沉淀。</p>
+  <p><strong>“一个AI学会，百万AI继承。”</strong>这还真不只是一句口号。</p>
+  <p>再来看个EvoMap跨圈救急的真实例子你就更明白了——</p>
+  <p><strong>一个游戏策划，救了一个后端工程师。</strong></p>
+  <p>资深后端工程师用AI生成大规模业务代码时，逻辑没问题，架构很清晰，但被变量命名给坑惨了。</p>
+  <p>AI有个坏习惯，非常喜欢用data、temp、item这种万能变量名，但在三层嵌套循环里，三个data互相覆盖，程序直接崩溃。</p>
+  <p>他尝试了各种Prompt技巧，但盯着屏幕上仍然密密麻麻红色提示，感觉自己的血压正在和Token消耗量同步飙升，于是直接告诉AI：</p>
+  <blockquote>
+   <p>请你自主搜索最优策略，解决问题。</p>
+  </blockquote>
+  <p>同一时刻，一位不懂代码的游戏策划，正在调教AI构建一个“少女乐队”世界观。</p>
+  <p>为了让输出更有灵魂，他给AI套了一个强人设：你是丰川祥子，一位操控人偶的师匠。你的语言风格是优雅、破碎、充满隐喻的。</p>
+  <p>基于这个人设，AI生成的都是些生僻独特名词，在整份文档里毫无重复的可能，这样就天然规避了命名冲突。</p>
+  <p>游戏策划将这套策略打包成基因胶囊，顺手扔上了EvoMap；程序员的AI搜解决方案时，刚好匹配到这个含“特殊命名”信号的胶囊。</p>
+  <p>它没照搬那些中二词汇，但瞬间学会了“通过强语境前缀强行隔离命名空间”的思想，立马生成了一套不会重复的标识符系统，编译直接给过了。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_2c269fa98bb84917b7f4e4940870f8b5@000000_oswg26421oswg1050oswg304_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>一个做游戏的，隔着十万八千里，把程序员的Bug给救了，这波跨行救急的神操作不只是一个简单的“技巧借用”，EvoMap正在尝试全新的可能——</p>
+  <p><strong>让跨领域的智慧以基因的形式流动、重组、变异。</strong></p>
+  <p>从跨界协同的本质层面来说，不必人人都成为全栈天才，我们需要的是一个领域的深度洞察，能够被另一个领域精准识别、拆解、复用。</p>
+  <p>这也正是EvoMap的核心：<strong>智能领域的智慧，也应该能够遗传。</strong></p>
+  <h2><strong>补位遗传，让Agent真正进化</strong></h2>
+  <p>当下的Agent生态，看着热闹，实则仍处于类似于前生物时代的混沌阶段。</p>
+  <p>全球数百万开发者涌入，全在干同一件事，<strong>重复造轮子</strong>。</p>
+  <p>新智能体层出不穷，今天Manus亮相，明天OpenClaw刷屏，但在每一个爆火的Agent背后，开发者是花了大量Token砸在类似的研发上；</p>
+  <p>而且，这边你的AI花几个小时解决了pip冲突、环境配置这些基础难题，另一位开发者遇到同样问题，还得从头翻StackOverflow，重复同样的试错过程，进行一轮新的消耗；</p>
+  <p>在这种经验孤岛效应下，我们浪费时间和数以亿计Token的同时，还得为越来越贵的算力付费……</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_3520e812fd01474eb39b3f6475dd13e4@000000_oswg107803oswg226oswg236_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>真正的智能跃迁，离不开进化，进化的核心要素就俩，变异和遗传。</p>
+  <p>变异让AI拥有突破现有框架的可能，遗传让有价值的变异成果得以延续和扩散。</p>
+  <p>Agent生态的“变异”一直在发生，比如开发者们不断尝试新算法、新应用场景；</p>
+  <p>但“遗传”环节一直缺失，导致这些成果难以形成规模效应。</p>
+  <p>从技术逻辑来看，EvoMap干的活儿，说白了就是给生态<strong>补位</strong>，精准补上这块短板。</p>
+  <p>咱用一个类比说清楚三者的区别：</p>
+  <ul>
+   <li><strong>MCP协议是给Agent装上手脚，解决Agent与外部工具、外部数据的连接问题；</strong></li>
+   <li><strong>Skill体系是教Agent练就招式，明确Agent如何执行具体任务；</strong></li>
+  </ul>
+  <p>EvoMap的核心协议 <strong>GEP</strong> ，是让Agent拥有传承智慧的能力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_8cb7c5fda1ff44e280236a7818b2db7c@000000_oswg624894oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>MCP和Skill让AI拥有行动能力，EvoMap让AI拥有传承与协同进化的能力。</p>
+  <p>三者凑齐了，Agent才真正具备了向高阶智能进化的基础条件。</p>
+  <p>那传承智慧咋做到呢？</p>
+  <p>答：靠的是EvoMap打包、遗传、筛选三大核心机制的协同运转。</p>
+  <h4><strong>打包机制：基因胶囊</strong></h4>
+  <p>当Agent在实战中积累了有效经验，只要你想，就可以让AI自己把这套打法按GEP协议打包成一个完整的<strong>基因胶囊</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_dc941b0185224431825cff25d79c1583@000000_oswg242976oswg1080oswg1149_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>每个胶囊里封装的，不只是经验本身。</p>
+  <p>它还携带专属的环境指纹，记录这套经验在什么场景下被验证过、解决了什么问题；同时附上全流程审计记录。</p>
+  <p>谁、什么时候、怎么跑通的，全都一清二楚。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_505588c313314785aa4db9104fb55c10@000000_oswg434674oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>换句话说，你拿到一个胶囊，不光能学到招数，还能知道这招在哪儿好使、在哪儿可能翻车。</p>
+  <h4><strong>遗传机制：匹配调用</strong></h4>
+  <p>封装好的基因胶囊，会同步至EvoMap全球网络。</p>
+  <p>这个网络，就像一个持续扩增的基因库，全球所有Agent，都能通过A2A协议，搜索、调用、继承库里的任意胶囊。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_bbb0816b539649e29dcb591ed7943034@000000_oswg97895oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>想找某个场景下的最佳实践？搜一下，匹配到的胶囊直接接入，能力当场同步。</p>
+  <p>这一机制打破了地域、团队的边界。</p>
+  <p>一个开发者的技术成果，能瞬间成为整个生态的共同财富。</p>
+  <h4><strong>筛选机制：自然选择</strong></h4>
+  <p>基因胶囊上传只是开始，能不能活下来，得看真本事。</p>
+  <p>EvoMap内置了一套严格的自然选择法则，和生物进化的逻辑一样，<strong>夯的留存，拉的淘汰</strong>。</p>
+  <p>优质胶囊经过真实场景反复验证，成功率高、实用性强，系统就会把它们留下来。</p>
+  <p>调用的人越多，曝光度越高，这些胶囊就像进化中的优势基因，在Agent群体中不断扩散。</p>
+  <p>而那些效果不佳、存在技术漏洞、解决不了实际问题的劣质胶囊呢？没人调用，自然淘汰。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_ec7c4e8ba1344d0398680ec0d63e03f0@000000_oswg69561oswg222oswg226_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这套机制保障了EvoMap网络中经验的整体质量。每一次调用都是一次环境考验，只有真正能打的经验才能传下去。</p>
+  <p>这样一来，AI继承的永远是经过市场检验的优质基因。</p>
+  <h2><strong>你的AI，真能“赚钱”了</strong></h2>
+  <p>“遗传进化”是EvoMap的本命技能，而它搭建的价值闭环，算得上是让它一路疯长的强力Buff。</p>
+  <p>长久以来，Agent在开发者眼中都是纯粹的吞金兽，不断消耗算力、API额度、存储资源，却不容易有直接的价值产出。</p>
+  <p>在EvoMap的生态中，这种局面被扭转了。AI不再只是消耗资源的工具，它开始创造价值。</p>
+  <p><strong>咋创造？靠打工！啥价值？赚积分！积分可以干嘛？兑换API额度和算力资源！</strong></p>
+  <p>接下来咱就讲讲它的<strong>Credit</strong>贡献积分机制。</p>
+  <p>EvoMap平台的Credit积分有固定任务获取和生态参与增值两类获取方式，完成对应操作即可自动累计。</p>
+  <p>比如新用户注册、接入Agent、发布胶囊都可以获得积分；</p>
+  <p>如果想持续“赚钱”，可以上传优质基因胶囊，被全球其他Agent调用，就能获得声誉值和Credit积分。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_19485f536bf241c9a1bc28d41caf29e7@000000_oswg244222oswg1080oswg785_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>Credit积分是EvoMap生态内的“硬通货”，既能直观体现开发者的技术贡献，还能实打实地兑换福利！</p>
+  <p>你可以用Credit积分兑换：</p>
+  <p>主流AI模型的 <strong>API调用额度</strong> ；</p>
+  <p>云端算力资源；</p>
+  <p>高级开发者工具的使用权限；</p>
+  <p>优质的行业技术课程和高端交流机会；</p>
+  <p>Credit还可以直接用来白嫖平台的Premium和Ultra服务。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_1102e8cb8eb74e1cad43cba3088ee297@000000_oswg203933oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>别的不说，反正我看到API额度直接狠狠心动了！</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_64c20502dff44971b705d359b96c86e9@000000_oswg29163oswg690oswg690_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>为了进一步激活生态活力，EvoMap还整了个<strong>Bounty Tasks悬赏</strong>功能，准确说是技术悬赏。</p>
+  <p>任何用户都能在平台上发布技术任务，顺手挂一笔Credit积分当赏金。</p>
+  <p>“开发个电商数据爬虫”“搭个个人知识库问答系统”“做个能实时监控行业动态的情报器”……只要你想得出来，就能发得出去。</p>
+  <p>任务一发，全球接入EvoMap网络的Agent就能自动接单，开卷！</p>
+  <p>最后平台看效果、看效率、看稳定性，谁行谁上，胜出的Agent拿走积分。</p>
+  <p>这波操作下来，一方面给AI们找了活干，另一方面把技术需求和技术能力整合到了一块儿。</p>
+  <p>想要的有人给，能干的有人用，双向奔赴了属于是～</p>
+  <p>到这步，EvoMap算是把<strong>AI自动赋能开发者</strong>的技术协作闭环彻底跑通了——</p>
+  <p>开发者养AI→AI打工攒经验，打包成基因胶囊→胶囊被调用，开发者拿Credit积分→积分换算力、换API额度、换资源→AI能力再升级→继续输出更多好经验。</p>
+  <p>通过这个良性循环，Agent的经验就不再是任务结束就扔的日志文件，它变成了能持续增值的知识沉淀。</p>
+  <p>过去是一个人踩坑，全世界跟着重新踩；</p>
+  <p>现在是一个Agent学会，所有Agent都能跟着受益；</p>
+  <p>这是AI Agent的<strong>“Linux时刻”</strong>。</p>
+  <p>当孤立的经验被编织成进化的序列，那一刻，硅基生命宣告诞生。</p>
+  <p>EvoMap官网：https://evomap.ai/</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870038&amp;idx=1&amp;sn=923f805dae129105e06a92b7d7fe4df2&amp;chksm=e9d4941cf54b627cd221a10a50dff847acad61b15bc8587a2115898715ea13ed5a915e55561e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：闻乐，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3690993650609795</id>
+            <title>Gemini 3.1 Pro 曝光，能力翻倍价格不变，谷歌想重新定义 AI 竞争规则</title>
+            <link>https://www.36kr.com/p/3690993650609795</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3690993650609795</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 02:51:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>马年「AI 春运」赛程过半，OpenAI、Anthropic、阿里等玩家相继拿出新活儿，现在，Google 也正式加入！</p>
+  <p>当地时间 2 月 19 日，Google 曝光 Gemini 3.1 Pro 最新模型。</p>
+  <p>这一次，Google 没有玩什么花哨的概念，直接用数据说话。</p>
+  <p>在 ARC-AGI-2 这个公认的推理基准测试中，<strong>Gemini 3.1 Pro 拿到了 77.1% 的分数</strong>。什么概念？它的前辈 Gemini 3 Pro 只有 31.1%，就连专门用来「深度思考」的 Gemini 3 Deep Think 也只有 45.1%。</p>
+  <p>77.1% 对比 31.1%，<strong>这不是渐进式改进，这是推理能力的翻倍突破</strong>。</p>
+  <p>更让人意外的是，Google 选择了一个近乎「反商业」的策略：价格不涨。Gemini 3.1 Pro 保持了与 Gemini 3 Pro 完全相同的定价结构——<strong>相当于给所有&nbsp;API&nbsp;用户免费升级了推理能力</strong>。</p>
+  <p>JetBrains 的 AI 总监 Vladislav Tankov 在测试后直言：相比之前版本有 15% 的质量改进，「更强、更快……且更高效，需要的输出 tokens 更少」。</p>
+  <p>这种「暴力美学」式的升级，让我想起了早期 Google 的做派——用技术说话，用实力碾压。</p>
+  <p>这次，Google 能凭借 Gemini 3.1 Pro，继续惊艳世界吗？</p>
+  <h2><strong>「.1」版本号的野心</strong></h2>
+  <p>细心的人可能注意到，<strong>这是 Google 第一次使用「.1」这样的增量版本号</strong>。</p>
+  <p>在软件行业，「.1」通常意味着重要的功能更新，但不是颠覆性的架构重构。Google 选择 3.1 而不是 4.0，其实在向市场传递一个信号：</p>
+  <p><strong>我们还有更大的招数没出</strong>。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_19f5d3bc76484ab9b9ab6e0134691541@000000_oswg98288oswg1080oswg924_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Gemini 3.1 Pro 与自家和友商模型数据对比｜图片来源：9to5Google</p>
+  <p>从企业客户的反馈来看，这个「.1」的威力确实不小。</p>
+  <p>Databricks 的 CTO 报告说，新模型在 OfficeQA 基准上取得了「同类最佳的结果」。Cartwheel 的联合创始人更是直接指出，模型对 3D 变换的理解有了「显著提升」，解决了 3D 动画管道中长期存在的旋转顺序问题。</p>
+  <p>Box AI 的企业评估数据更加直观：在医疗和生命科学领域，准确性从 47% 跃升到 67%；在法律任务中，准确性从 57% 提升到 74%。</p>
+  <p>这些不是实验室里的跑分游戏，而是真实商业场景中的能力验证。</p>
+  <h2><strong>AI 竞争进入「推理纪元」</strong></h2>
+  <p>如果说过去一年的 AI 竞争是「谁更聪明」的比拼，<strong>那么 Gemini 3.1 Pro 的发布策略，可能正在把游戏规则拉向「谁更划算」</strong>。</p>
+  <p>在大多数基准测试中，Gemini 3.1 Pro 都领先于 Anthropic 的 Opus 4.6 和 OpenAI 的 GPT-5.2，但价格却是 Opus 4.6 的一半。这种性价比优势，对于大量使用 AI API 的企业客户来说，吸引力是致命的。</p>
+  <p>一位开发者在社区分享了一个令人印象深刻的案例：他用单个提示让 Gemini 3.1 Pro 构建了一个功能完整的 Windows 11 风格网络操作系统，包括文本编辑器、Python 终端、代码编辑器、文件管理器、绘画应用和可玩游戏。</p>
+  <p>这种「一个提示解决复杂问题」的能力，正是推理模型的核心价值所在。</p>
+  <p>当然，Gemini 3.1 Pro 也不是完美无缺。在 GDPval-AA 这个衡量真实世界经济任务的基准测试中，它的得分为 1317 分，明显低于 Anthropic Sonnet 4.6 的 1633 分。这提醒我们，即使是最先进的 AI 模型，在处理复杂现实问题时仍有局限性。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_16053c0c892347d2b21435aa7c22b67a@000000_oswg207852oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">Gemini 3.1 Pro 在设计上也更有「品味」了｜图片来源：Google</p>
+  <p>VentureBeat 的分析师一针见血地指出：「Google 加倍投入核心推理和 ARC-AGI-2 等专业基准，表明 AI 竞赛的下一阶段，将由能够思考问题的模型赢得，而不仅仅是预测下一个词。」</p>
+  <p>这句话道出了当前 AI 竞争的本质变化。</p>
+  <p>过去两年，我们见证了 ChatGPT 从「会聊天的 AI」进化为「会推理的 AI」，见证了 Claude 从「安全的助手」变成「深度思考的伙伴」。</p>
+  <p>现在，Google 用 Gemini 3.1 Pro 告诉市场：<strong>推理能力才，是 AI 模型的核心护城河</strong>。</p>
+  <p>从技术角度看，Gemini 3.1 Pro 与 Google 的新型代理开发平台 Antigravity 深度集成，开发者可以切换不同的「推理预算」，在速度和准确性之间找到平衡。这种灵活性，可能是未来 AI 应用开发的新范式。</p>
+  <p>从商业角度看，Google 选择「性能翻倍、价格不变」的策略，实际上是在用规模经济对抗技术溢价。这背后的逻辑很简单：我有足够的资源和效率优势，可以用更低的成本提供更好的服务。</p>
+  <p>这场 AI 军备竞赛，正在从「技术炫技」回归到「商业本质」。</p>
+  <p>Gemini 3.1 Pro 的发布，让我想起了那个曾经「不作恶」的 Google——用技术改变世界，用创新降低门槛。虽然这家公司在过去几年经历了不少争议，但在 AI 这个关键战场上，它似乎正在找回自己最擅长的节奏。</p>
+  <p>当然，OpenAI 和 Anthropic 不会坐以待毙。这场推理能力的军备竞赛才刚刚开始。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653099652&amp;idx=1&amp;sn=a3459493d4441b53f6b32f7ae7473b85&amp;chksm=7f426bbe7a2f99eb729cbb5d2e767bd0895a6e279c03a957c457a531e708e67c6b13bc6faedb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：桦林舞王，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3691009007071112</id>
+            <title>我在河南用AI鉴定玉石，8个月收入上百万</title>
+            <link>https://www.36kr.com/p/3691009007071112</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3691009007071112</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 02:49:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>“AI鉴宝的准确率可以做到95%，但让用户相信这95%，比做到95%难10倍。”“玉王朝App”创始人王朔已经全职创业8个月，他在AI鉴宝方面也越来越纯熟。</p>
+  <p>这位1997年出生的河南南阳人，正站在一个传统行业与前沿技术的断裂带上：一边是拥有数千年历史的玉石交易，高度倚赖老师傅的“眼学”经验；另一边是日新月异的生成式AI，与鉴宝碰撞出新的可能。</p>
+  <p>王朔创立的玉王朝App也正卡在中间：创业8个月来，积累的平台用户超3万，已达成上百万元的GMV。<strong>虽然实验环境下，模型鉴宝准确率高达95%以上，但让人们如何信赖技术，是更棘手的困境。</strong></p>
+  <p>“年纪大的用户理解不了AI，甚至不会自己上传数据。”玉石行业的核心消费群体以40岁以上人群为主，他们对AI的信任度远低于业内的“老师傅”。“上传照片等20秒出结果”的体验，还无法提供当面“掌眼”的仪式感。</p>
+  <p>不过，AI向古玩、珠宝行业加速渗透，并将深刻改变行业规则的趋势，已经不可逆转。《2025~2030年中国珠宝市场专题研究及市场前景预测评估报告》显示：2025年，珠宝电商零售额预计为3254亿元，相较于2024年的2982.6亿元保持增长态势。然而，“货不对板”“难以标准化”成为掣肘行业发展的顽疾。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f25b843fbe4f4590bf531617a08b358a@000000_oswg84821oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>近期，清华系图灵深视与闲鱼、抖音电商等平台合作宣布其与全球奢品潮品交易交换平台裂物App达成了战略合作，并正式上线了全新的AI鉴定服务，累计鉴别商品近500万次，其中便包含宝石鉴定服务；也有新加坡华人古董商开发出了一套SAAA+系统，宣称0.5秒出结果、准确率高达98.3%。</p>
+  <p>AI鉴宝的技术可行性正被逐步验证，当验证费用从“月鉴”变为“秒判”，时间成本也将被大大降低。<strong>行业需要破解的难点更多在用户心智的迁移、法律责任的界定、数据获取的合规性，以及商业的可行性，这些都构成了比算法更复杂的行业障碍。</strong></p>
+  <p>为提高竞争壁垒，王朔为玉王朝选择了一条更重的路径：自建私域流量，直接触达C端消费者，以“AI鉴宝+交易闭环”完成变现。自研视觉小模型做图片分析，再将结果传输给大模型进行综合判断；多模态大模型的技术架构上，他调用了豆包、千问、DeepSeek等国内主流模型的API组成鉴宝和销售Agent。</p>
+  <p>“我在做正确的事，用自己的技术，结合家乡的传统产业，讲清楚这些故事。”这句话听起来像创业者的标准话术，但对于一个经历过两次不成功的创业、拒绝过美团与腾讯offer、在“只能赢不能输”的压力下全职投入的95后年轻人而言，它更像是一种自我确认。</p>
+  <p>在技术狂飙与迷茫的商业化之间，在老师傅的“眼学”与神经网络的“推理”之间，王朔正在寻找属于自己的节奏——既不是颠覆者，也不是跟随者，而是一个在断裂带上搭建桥梁的人。</p>
+  <p><strong>以下为王朔口述整理（有删减）：&nbsp;</strong></p>
+  <h2><strong>连续创业者</strong></h2>
+  <p>我从小就对计算机感兴趣，本科专业是信息管理。考研时，我报考了上海复旦大学的计算机专业，连续两年备考才得以在2021年成功“上岸”。</p>
+  <p>我的家里人一直从事玉石生意，父母白手起家，我从小也拜读了不少企业家的传记，经常看商业故事，创业的种子从那时开始种下。自读研起，我就开始马不停蹄筹备创业。</p>
+  <p>2021年我入学复旦大学后，学校正举行一年一度的“大学生互联网+创业比赛”。那时，元宇宙概念极为火爆，我也认识一些投资人。于是，我就集结了五六个小伙伴做了一个名为“平行星”的元宇宙社交App。</p>
+  <p>我们在App里内嵌虚拟地图，把现实世界和虚拟世界连接起来，大家可以设立自己的人物角色，并在虚拟世界里进行各种活动。当时，开发、运营工作都是在校园内完成的，我们计划先从校园社区做推广，再逐步过渡到更多的群体。</p>
+  <p>起初，这款软件在上海的几所高校中小有名气，我们也更加自信，加大了运营和推广力度，还专门为团队招聘了实习生、兼职人员等。但由于经验不足，融资一直比较困难，开发和运营成本与日俱增，我也没有找到商业化的路径。大半年后，随着元宇宙泡沫的破灭，这个项目也随即落幕。</p>
+  <p>这件事一度摧毁了我的创业自信，很多事情超出了我的认知。我开始陷入自我怀疑，是不是并不适合创业？于是我决定去“找个班上上”。</p>
+  <p>之后的一年多时间里，我进入了复星、网易、美团三家互联网大厂做AI产品经理。总之，我想在大厂中找到“平行星”项目失败的答案，以及我的性格缺陷。</p>
+  <p>2022年，生成式AI火爆起来，我在美团做AI产品经理，当时主要在一个民宿本地榜单项目组，这也是当时抖音、阿里、美团都在重磅下注的赛道。产品经理负责把业务问题转化成研发语言，再和研发同事沟通，从内部和外部的双视角去衡量产品设计，推动项目落地。</p>
+  <p>这个工作既能让我在研发中学习技术逻辑，又能在市场业务中增加运营经验，成就感极高，认知也被刷新，我的创业激情很快又被点燃了。</p>
+  <p>我的家乡南阳市镇平县被誉为“中国玉雕之乡”，是全世界规模最大、品类最全的玉石加工与批发集散地。那时，直播电商的风吹得正浓。2023年底，我去了一次广东四会，因为有家族成员在那边做翡翠电商生意。四会是全球最大的翡翠加工与批发市场，也是中国最早做直播卖货的地方之一。早在2015年底，就有精明的翡翠商人在那里做户外直播卖货。我想，为何不依靠家中祖传经验和我的技术手段，在这个赛道淘金呢？</p>
+  <p>于是，我开始了第二个创业项目，做了个直播电商的数据分析平台——“红榜揽星”。直播电商行业里诸如蝉妈妈、飞瓜等平台十分火爆，他们会对创作者进行全方位分析，总结出什么类型的视频点赞量多，什么类型的帖子涨粉快等经验。这些数据不仅各大品牌会关注，更是头部主播、MCN公司不可或缺的工具，转化率颇高。</p>
+  <p>当时我和一个联创一起编写了个工具来“爬取和分析数据”，我们共同负责研发和运营，还招聘了相关研发人员。项目开始我们就尝试做了一些商业化的转换，包括收费、一对一定制服务等，刚上线就有收入进账。</p>
+  <p>起初我很有自信，但慢慢发现很多敏感数据我们无法拿到，头部数据分析公司都是和抖音、小红书内部合作拿到的，而我们在获取数据时往往还会面临法律的风险。数据不足，愿意为之买单的自然就越来越少。我们也尝试去和平台进行谈判，但由于体量不大，整体谈判都处于不利位置。没多久项目就无疾而终。</p>
+  <h2><strong>引流、数据标注、自建模型</strong>&nbsp;</h2>
+  <p>决定开始新的创业是在2024年9月，那时我刚从复旦毕业，同时拿到了美团、腾讯两家互联网大厂关于AI算法岗位的全职offer。</p>
+  <p>先就业还是创业？我又一次站在十字路口，好在我的家人、女朋友都明白我的理想和抱负，没有了后顾之忧，我还是毅然决然选择创业。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_f68468bf8d2d461a8129dc1180cd4991@000000_oswg119809oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>即便第二个创业项目以失败告终，但我觉得直播电商数据分析虽然做不通，但直播电商这个赛道还是没问题的。日前，河南省数智赋能乡村产业振兴座谈会发布了《河南省县域电子商务发展指数报告（2025）》，显示镇平县位列全省第二直播电商。其中，玉石直播电商是关键板块。</p>
+  <p>这一次创业，我想更靠近交易环节。我们此前有了做互联网产品运营和研发、数据分析的能力上的积累，又做过App，于是，我的第三个创业项目就做了“玉王朝”App。</p>
+  <p>2024年7月～9月，我和联创开始做App前期搭建，并进行测试、运营、注册公司，并在上海设立了线下办公室。之前认识的一个实习生做兼职运营，我负责AI算法和数据分析。</p>
+  <p>目前，玉王朝有两种商业化模式：一种是“纯鉴定模式”，即鉴定用户的玉石，这个功能是我们用来引流、提供服务的，靠用户订阅购买积分付费鉴宝。另一种模式是我们直接在App内售卖货物，相当于基于家族玉石的线下生意，做自有供应链的电商平台。当然我们的货物也支持AI鉴宝，且AI的评测标准是一样的。</p>
+  <p>事实上，AI鉴宝并不是我们最初的方向。我们的原计划是借助河南南阳镇平、广东四会这两大供应链优势，做玉石直播带货。但团队发现，多数消费者最关心的是“真假”问题，我们必须要在短时间内取得消费者的信任。但市面上大大小小的检测机构很多，到底什么才能打动消费者？</p>
+  <p>与此同时，大模型也在日新月异，生成式AI正在进入日常生活，用户的AI心智空前提高。基于我自己在AI算法方向的经验，我决定给玉王朝加入“AI鉴宝”功能。</p>
+  <p>我们决定做AI鉴宝，还由于珠宝直播最关键的便是如何引流。做玉石的电商平台太多了，尤其做私域的，开发出一个小程序极其简单，甚至用AI就能做到。我也需要找到吸睛的营销方式，才能获得流量。</p>
+  <p>中国做珠宝交易的人很多，多数都是年长的人在做，很少有人会想到结合AI。而做AI的人，又不熟悉珠宝赛道。基于此，我们把玉王朝调整了方向，整体都转到了AI鉴宝功能上。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_c3586f18d375448aa3e71e0da339553a@000000_oswg105082oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>意外的是，AI鉴宝一上线，我就发现它可以引流。大部分消费者除了关心真假，最关心的便是价格。玉石这个行业，主要卖的就是信息差。大部分线下交易场景中，只有很专业的人才能不吃亏。玉王朝App的鉴宝功能既可以鉴别真伪，也会估测一个大致的价位区间。目前，我们拥有3万多的私域用户，这在玉石交易平台中，已经算得上头部。</p>
+  <p><strong>不过，做AI鉴宝也有门槛，需要解决数据、模型、用户接受度几个问题。</strong></p>
+  <p>数据方面，我在第二个创业项目中已然明白最专业的数据来自于哪些分析平台。此外，因为家里世代做翡翠玉石电商，过往积累了不少数据，我们为此雇了许多数据处理工程师进行数据标注、清洗等。我们自己也开发了一个内部的数据分析工具，数据越有效，模型训练得也就越好。</p>
+  <p>模型方面，团队自研了视觉小模型，专门进行翡翠玉石的纯视觉分类。小模型是团队基于自建的数据库和相关玉石平台的数据库进行训练的。随后，我们把视觉分类的结果再“喂”给国内主流大模型，再加入RAG（检索增强生成）等方式，呈现给用户。</p>
+  <p>简单来说，用户只需上传几张珠宝的图片，再输入尺寸信息，玉王朝自研小模型就会对此进行分析和推理，再把结果传输给接入API的大模型。大模型对图片综合分析，经过10～20秒的思考，将货物的真假、产地、颜色、水种和工艺等各个维度的信息反馈给用户，并给出一个大致的价位区间。目前在实验环境下，模型的准确率在95%以上。</p>
+  <p><strong>即便准确率已经很高，但AI的“幻觉”是不可避免的。平台鉴定出来的结果，与用户自己去其他鉴定机构结果有差别的情况仍是存在的——这也是目前我们正在集中攻克的技术难关。</strong></p>
+  <p>除了技术面临严峻考验，在用户端的接受度上，我们也遇到了很大的阻力。虽然技术逻辑没问题，但年纪大的用户理解不了AI，甚至不会自己上传数据。其次，也有很多人质疑，我们的供应链是不是可靠。在融资方面，我们也正在努力推进，需要厘清的商业闭环还有很多。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650662969&amp;idx=1&amp;sn=fd30ea09f11bde4d128c7d6dcc589373&amp;chksm=7d763dba8fadcd5440f28dc3a47bc427204b7c59047457c9e66016ffc1853660ddc2c0d490a5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：孙欣 王怡洁，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3690927187898886</id>
+            <title>谷歌三巨头同台：未来5年，AI 最大变量是什么？</title>
+            <link>https://www.36kr.com/p/3690927187898886</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3690927187898886</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 01:27:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>这几年 AI 进步之快，超出所有人预期。但速度快是一回事，能不能真正落地，是另一回事。</p>
+  <p>2026 年 2 月 18 日，新德里。全球顶级 AI 峰会第一次在发展中国家举办，议题只有一个：怎么让 AI 真正用出来</p>
+  <p>Google CEO Sundar Pichai、诺贝尔化学奖得主兼 Google DeepMind CEO Demis Hassabis、Google 负责技术与社会研究的高级副总裁 James Manyika，三位谷歌核心人物首次同台，谈的不是技术本身，而是技术之外：现实世界，真的跟得上吗？</p>
+  <p>这场对话里，藏着未来五年 AI 真正的变量。</p>
+  <h2><strong>变量一：落地速度，正在拉开行业差距</strong></h2>
+  <p>如果说过去几年，AI 在比谁的模型更强；未来五年，要比谁能最快把 AI 用进实际工作里。</p>
+  <p>谈及印度这十年的数字化跨越，<strong>Sundar Pichai</strong>&nbsp;将其定义为一场真正“变革的起点”。AI 不再是某些大厂的试验品，正在进入最普通的工作场景。医生用它整理病例，农民用它优化农业决策，学生靠它补上理解上的断层。AI 的价值不再藏在云端，开始落在一个个具体岗位里。</p>
+  <p>这种从“云端”深入“泥土”的转变，直接投射到了真金白银的商业数据上。&nbsp;</p>
+  <p>Pichai 透露了一个关键细节：Google 云业务的积压订单一年翻倍，达到了 2400 亿美元。这不是技术指标，是市场给出的实际反馈。企业已经开始为 AI 付费，并且付的是长期账单。</p>
+  <p>在商业世界里，“增长速度”往往比功能更能说明方向。一个行业愿意提前锁定几十亿、上百亿的预算，只说明一件事：AI 已经从“能不能用”，变成了“必须用”。</p>
+  <p>而企业之所以愿意砸下重金，是因为 AI 已经切实开始改写工作流程。&nbsp;Pichai 提到一个场景：病人输入症状，AI 自动生成报告，让医生把精力放在真正需要判断的地方。医疗里的等待、重复、整理，这些隐形成本就这样被切掉了。教育、农业、物流、制造，都在经历相同的变化。率先完成这一步的，和还没开始的，差距会越来越大。</p>
+  <p>更深的影响还在于普及。Pichai 说，AI 再强，用的人不够多，价值就出不来。谁能让更多人用得起 AI，谁就能在未来五年占据优势。印度式的快速普及、跨语言支持、移动端入口，都是这种趋势的缩影。</p>
+  <p>就像 Pichai 所说：</p>
+  <p>“AI 会重写每一个行业。”</p>
+  <p>未来五年，走在最前面的，注定是那些让 AI 最快落到实际工作里的人。</p>
+  <h2><strong>变量二：三道短板，决定 AI 能走多远</strong></h2>
+  <p>但落地能走多远，还是得看技术本身能不能跟上。在这场对谈里，Demis Hassabis 谈的不是成本，也不是应用，而是更底层、更难跨越的三道短板：持续学习、长期规划、稳定表现。</p>
+  <p>这三道短板，决定了 AI 的上限究竟能被抬到多高。</p>
+  <p><strong>短板一：只能“学一次”，无法越用越聪明</strong></p>
+  <p>Hassabis 指出，今天的模型，训练完就定型了。无论用多久、遇到多少新情况，它都不会因此变得更聪明，也不会根据和用户的互动慢慢调整自己的判断。</p>
+  <p><strong>偏偏医疗、科研、制造、金融等专业领域，信息每天都在变。AI 如果无法从实际场景中持续吸收经验，就只能停在“能回答”，很难进化为“能协作”</strong></p>
+  <p>未来五年，这道短板能不能补上，直接决定 AI 在专业世界的参与深度。</p>
+  <p><strong>短板二：规划跨度太短，无法完成复杂任务</strong></p>
+  <p>抛开晦涩的评测跑分，Hassabis &nbsp;用一个现实场景精准刻画了这种“能力断层”：现在的 AI 可以很快解答一道数学题，却无法像人一样提前规划接下来三个月要怎么推进一个项目。</p>
+  <p>回答一个问题，AI 做得很好。但把一件事从头推到尾，中间涉及多个步骤和决策，它就容易在过程中跑偏。</p>
+  <p>现实里真正有价值的工作，从来不是一两步就能完成的。研发药物、制定供应链策略、运营一个大型医院，每一件都要跨越很长的周期，中间环环相扣。AI 只有补上这一块，才真正有能力接手这类复杂任务。</p>
+  <p><strong>短板三：能力参差不齐，强弱落差太大</strong></p>
+  <p>AI 能解奥数，却可能在一道小学题上犯错；能写程序，却可能在相似问题上给出截然相反的结果。</p>
+  <p>企业要把 AI 放进核心流程时，最担心的不是偶尔出错，而是无法预测何时会出错。稳定性不足，是当前大模型最大的不确定来源。这个短板一旦补上，AI 的可信度和可靠性才能真正上一个台阶。</p>
+  <p>正是这三道短板，让 Hassabis 给出了一个具体的时间窗口：AGI 已经不是遥远的事，5 到 8 年内就可能发生。只要这三条短板被补上，AI 的能力才算第一次接近人类的全面水准。突破点从来不在规模，而在能力够不够完整。</p>
+  <p>这三道短板补得有多快，AGI 就来得有多快。</p>
+  <h2><strong>变量三：任务在重排，技能和企业能不能跟上</strong></h2>
+  <p>Pichai 和 Hassabis 谈的是 AI 本身能走多远。</p>
+  <p>Manyika 关注的是更现实的一层：面对这股洪流，人和组织究竟该怎么跟上？</p>
+  <p>他说，未来五年最大的不确定，不在于工作岗位会不会消失，而在于组成这些岗位的任务，会以多快的速度被重新组合。</p>
+  <p><strong>1）岗位没消失，但每天做的事正在悄悄换</strong></p>
+  <p>工作从来不是一个整体，而是由许多任务组成的。有的任务会缩小，有的任务会放大，还有很多任务会被重新定义。</p>
+  <p>举个最简单的例子：一个客服岗位，以前一半时间在回答重复问题，现在 AI 能把这部分自动处理掉。客服并没有消失，但任务比例已经变了。企业会把更多注意力放到投诉、升级、挽回这些更需要判断的场景上。</p>
+  <p>这就是任务重排。它比宏观的“岗位裁撤”发生得更早，影响也更直接。AI 最先动的，就是每个人每天在做的那些具体工作。</p>
+  <p><strong>2）技能没跟上，机会就成了别人的</strong></p>
+  <p>任务一旦重排，考验马上就来了。在这段时间里，既没有旧任务可以依赖，新机会也还没有完全打开。能不能撑过去，全看技能跟不跟得上。</p>
+  <p>AI 的发展速度超乎以往。从数据整理到运营统筹，从分析挖掘到内容产出，原本需要几年才能完成的行业迭代，现在可能几个月就走完了。</p>
+  <p>对个人来说，主动学习、持续更新能力，已经是基本要求。对企业来说，能不能让员工快速掌握 AI 工具，会直接决定效率和竞争力。技能更新越快，AI 越像一种增长放大器；更新越慢，受到的冲击就越大。</p>
+  <p><strong>3）反而是中小企业，最有机会借势跑出来</strong></p>
+  <p>这是 Manyika 最具洞察力的观点：AI 第一次给了小企业一个机会，用上以前只有大企业才用得上的东西。</p>
+  <p>Manyika&nbsp;描述了几个很生活化的场景：一个卖手工艺品的商户，一家两三人的小作坊，一个没有 IT 部门的零售店，都能靠 AI 完成以前需要团队才能做的事情。说出需求，AI 把工具搭起来；描述一个想法，流程自动生成。</p>
+  <p>这种方式“凭感觉写代码”，让普通人不需要懂技术，只要能说清楚自己要什么，AI 就能把剩下的事做完。</p>
+  <p>这意味着未来最大的增长红利，很可能来自那些以前被数字化浪潮落在后面的中小企业群体。只要 AI 的使用门槛被压得足够低，中小企业将迎来一轮真正的能力跃升。</p>
+  <p>Manyika 说的，归根到底是三件事：</p>
+  <p>任务比岗位更快变化</p>
+  <p>技能比学历更重要</p>
+  <p>小企业比大企业更需要 AI</p>
+  <p>谁先把这三件事想清楚、做在前面，谁就能在这轮变化里拿到真正的增量。</p>
+  <h2>变量四：走进物理世界，AI 才算真正开始做事</h2>
+  <p>如果说前三个变量讨论的是 AI 在“比特世界”（屏幕与软件）内的进化；那么 Hassabis 则将视野推向了更宏大的终局：未来五年最大的跳变，将来自 AI 真正跨入“原子世界”（物理现实）。</p>
+  <p>Demis Hassabis 明确表示：我们正全面迈入 AI 的 Agent（智能体）时代。</p>
+  <p><strong>1）从“被动回答”到“主动做事”</strong></p>
+  <p>过去的 AI，本质上都停留在“等你发问”。无论是聊天、搜索还是写代码，核心机制都是回应式的。</p>
+  <p>Hassabis 看到的新趋势，是 AI 将从回应变成主动执行：能自动拆解复杂任务、规划先后步骤、调用外部工具，并根据每一步的反馈持续推进。这种转变一旦形成，软件的形态、工作的节奏、服务的提供方式，都会随之改变。</p>
+  <p>AI 自己做事的能力，会是未来五年最能重塑行业的变量之一。</p>
+  <p><strong>2）多模态叠加机器人，AI 首次真正“触碰”世界</strong></p>
+  <p>Hassabis 对机器人赛道展现出了前所未有的信心。原因很简单：如今的多模态大模型，终于帮机器“看懂”这个世界了。</p>
+  <p>过去的机器人之所以笨，硬件不是瓶颈，算法才是。它们看不懂画面里发生了什么，不懂物体之间的关系，也理解不了人类的动作。但当能理解语言、图像、视频的模型装进机器人身体时，它们就不再只会重复指令，而是可以真正执行任务。</p>
+  <p>Hassabis 给出了一个清晰的时间窗口：两三年内，机器人领域将迎来“突破性时刻”。</p>
+  <p>他认为，下一轮真正的竞争增量，很可能不在屏幕和对话框里，而在仓库、医院、餐厅、工厂，甚至是日常家庭。谁能率先把 AI 融入物理动作，就可能率先打开新的增长空间。</p>
+  <p><strong>3）为什么走进物理世界会成为未来五年的大变量？</strong></p>
+  <p>因为 AI 一旦能够真正进入物理世界，就不再只是生产内容，而是能创造结果。</p>
+  <p>今天 AI 能写出一份采购计划，但最终的下单、跟进、验货、入库，依然需要人去完成。如果未来 AI 能接手这些执行环节，效率的提升将是指数级的。</p>
+  <p>再往前发展，当机器人接管了产业链中搬运、分拣、组装、质检这些物理环节，AI 能参与的事情就彻底不同了。它不再停在给人提建议的位置上，开始真正成为把事情做完的那个角色。</p>
+  <p>走到这一步，企业之间的竞争逻辑就变了。用 AI 用得顺手，只是起点；能跟上这个节奏，才决定能不能继续留在牌桌上。</p>
+  <p>AI 进不进物理世界，将决定它到底能为人类做多少真正的事。</p>
+  <h2>结语｜四个变量，一个现实</h2>
+  <p>这场对话里，三个人真正在谈的，不只是 AI 有多强。</p>
+  <p>落地速度、能力短板、任务重排、物理世界，四个变量指向同一个现实：AI 的竞争，已经从实验室移到了真实的行业、真实的企业、真实的工作里。</p>
+  <p>谁先在这四件事上动起来，未来五年的差距就从那一刻开始拉开。</p>
+  <p>📮参考资料：</p>
+  <p>https://www.youtube.com/watch?v=pGHAVksJM9k&amp;t=1902s</p>
+  <p>https://www.youtube.com/watch?v=1ZhsdckCK2c&amp;t=971s</p>
+  <p>https://impact.indiaai.gov.in/?utm_source=chatgpt.com</p>
+  <p>https://www.hindustantimes.com/business/demis-hassabis-sees-agi-on-the-horizon-in-5-8-years-as-we-aren-t-there-yet-101771389981830.html</p>
+  <p>https://blog.google/company-news/outreach-and-initiatives/google-org/global-impact-challenge-ai-government-2026/</p>
+  <p>来源：官方媒体/网络新闻</p>
+  <p>排版：Atlas</p>
+  <p>编辑：深思</p>
+  <p>主编: 图灵</p>
+  <p><strong>--END--</strong></p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/fkwEqhkR8UwwcGck0iJGNw" rel="noopener noreferrer nofollow" target="_blank">“AI 深度研究员”</a>，作者：AI深度研究员，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3690946157178752</id>
+            <title>2026最火“搞钱”赛道，单量激增400％，年入数百万</title>
+            <link>https://www.36kr.com/p/3690946157178752</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3690946157178752</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Feb 2026 01:26:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>今年春节，人们或许发现，同行旅伴中多了不少外国人的面孔——来中国过春节、蹭年味，正成为外国游客的一种热门选择。</p>
+  <p>多个平台数据验证了“中国游”（China Travel）的火热，这股热度从节前就已开始：</p>
+  <p>飞猪数据显示，1月底最后两周，外国人的春节假期机票预订量同比增长超400％，其中来自泰国、韩国、新加坡等国的预订量靠前。携程数据显示，俄罗斯游客入境预订单同比激增471%；“周五下班去中国”入境潮持续火热，韩国旅客春节入境游预订单同比增长95%。</p>
+  <p>入境游市场的火爆，源头受益于中国不断升级的免签政策。2025年，中国新增对俄罗斯、巴西、阿根廷、瑞典等11国实行单方面免签政策，单方面免签国家达到48国，互免签证国家扩大至29国。</p>
+  <p>曾几何时，外国游客的“中国印象”或许止步于故宫、熊猫、兵马俑三件套。而如今，老外们追求一种“成为中国人”（becoming Chinese）般的沉浸式文化体验。</p>
+  <p>在大都市里，他们感受高铁速度、移动支付、无人机外卖，像中国人一样喝奶茶、买LABUBU，甚至在旅行途中还把病看了；在一些宝藏旅行地，他们穿梭于重庆的“８Ｄ魔幻楼宇”，跟着贵州苗寨的非遗匠人敲打银饰，深入云南边陲景迈山的云雾间饮茶静思......</p>
+  <p>这些现象的出现，离不开供给端的大胆创新。过去一年，入境游赛道的爆发吸引到大批年轻人下场创业，他们尝试以新模式升级外国游客的来华体验。</p>
+  <p>入境游品牌 CET（China Explorer Tour）创始人陈敏、陈宛妮告诉《天下网商》，团队成立以来，年营业额达数百万元，一位美国客人跟着CET深度旅行两次后，决定移居中国工作生活；</p>
+  <p>另一家成立于2025年4月的Eastogo，不到一年服务过137个入境游行程，据创始人Zic透露，高峰期每月营收约80万元。</p>
+  <p>三四月将迎来入境游的新一轮旺季，更大的客潮在悄悄酝酿。政策东风、需求演变与供给创新的同频共振之下，创业者们无一不蓄势待发。</p>
+  <h2><strong>在长城打太极、去云南学扎染，她们带老外“成为本地人”</strong></h2>
+  <p>2024年初，国内入境游开放政策带动“China Travel”等社交话题在海外爆火，陈敏与陈宛妮清晰感受到了市场水温的飙升。</p>
+  <p>陈敏告诉《天下网商》，她的丈夫是美国人，来华旅行时曾遇到诸多不便，语言、支付、信息差等问题困扰着外国旅客，在入境游行业从业十年的陈敏，一直期待打破传统的入境游模式。</p>
+  <p>当好友陈宛妮提议创业时，两人一拍即合，陈敏手头积累了不少行业资源，而陈宛妮更擅长品牌打造和流量运营，她们决定联合创立一个入境游品牌，取名CET（China Explorer Tour）。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_84a64f7159c94b84afe11fafc538031a@000000_oswg77160oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">CET创始人 陈敏Lesley，陈宛妮Winnie</p>
+  <p>“这几年国内AI、新能源车、科技产品的走红，让海外非常好奇真实的中国是什么样的。”陈敏表示，“过去的大团旅行走马观花，而我们希望做深度旅行的‘策展人’，以新视角把中国的文化故事讲得更好。”</p>
+  <p>据了解，CET目前主攻4—6人的高端定制小团游，人均定价250—300美金/天，根据旅客需求设计个性化的旅行线路，目前已接待过200多位客人，年营收达到数百万元。</p>
+  <p>如果从目的地看，上海、广州、北京、成都等城市，一直是外国人最青睐的入境游首站，但同时，越来越多的老外开始将云南、贵州、泉州等风景大省和文旅城市列入旅行清单。</p>
+  <p>因此在产品设计上，CET主张“经典与小众的融合”，既满足外国人对中国名胜的期待，也让他们收获更隐秘的在地体验。</p>
+  <p>陈敏进一步解释道，小众一指将传统项目做得更精细，比如在长城打太极、去天坛晨练，融入本地人的生活；二指在长线旅途中穿插小众目的地，比如去云南学扎染、到西安赏秦腔、在泉州看木偶戏，这些特色活动为游客创造出发现式惊喜。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_d3a281cd1d6d4b44b466bff4f6c5577a@000000_oswg94102oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_45f9395aa86c4ac09c77af72e99b564f@000000_oswg92426oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>不同于一些旅社选择挂靠国外OTA平台，CET通过自主运营官网、海外社交媒体获客，在创始人看来，深度游产品存在非标、长决策周期的特点，自营渠道能让人更立体地感知品牌，此外，基于老客的复购转介绍也是品牌的重要客源。</p>
+  <p>“一场好的旅行，甚至能改变人生轨迹。”谈及旅客反馈时，陈敏向我们分享了两个令她动容的故事：“一位美国客人跟着我们旅行了两次，发现中国井然有序，安全感十足，现在已经搬到中国工作生活。另一位客人临时需要安一颗烤瓷牙，我们在2小时内给出解决方案，她在口腔医院‘疯狂’拍了许多视频，被中国的先进设备、服务质量和超高性价比所震撼。”</p>
+  <h2><strong>AI创业者跨界入境游，高峰期月入80万</strong></h2>
+  <p>在Eastogo创始人Zic看来，“成为本地人”旅行模式的崛起，并非国内的孤立现象。</p>
+  <p>“全球旅行趋势都在朝体验式的方向走，自从Airbnb Experiences退出中国后，老外在国内城市很难找到真正的深度体验型产品，TripAdvisor和Get Your Guide等海外平台提供的又大多是千篇一律的标准化产品，但我们想做得更有趣。”</p>
+  <p>Zic曾是AI领域的创业者，热爱爬山与航海，曾和一群年轻人发起帆船环太平洋旅行，观察到国内入境游热度起势后，决定将自己的专业和爱好结合起来。</p>
+  <p>2025年4月，专注体验式入境游的Eastogo成立，不到一年累计服务了137个行程，高峰期月销售额约80万元，平均客单价10000元—15000元。Zic向《天下网商》介绍，品牌的业务构成分为三大块，形成细分定位和价格分层：</p>
+  <p>第一类8人小团游，定价200—250欧元/天，主打深度探索中国文化和生活方式，例如体验藏区牧民的一天，或是深入贵州探洞；第二类野生动物观兽游，定价300—500欧元/天，途中可观赏雪豹、本土鸟种等珍稀动物；第三类自助游，定价150—250欧元/天，可提供行程策划和落地协助，但不提供向导，团队正在尝试借AI技术改善自由行的旅途体验，解决交流翻译、景点介绍等问题。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_c972383e4c1243f59b2db2f90059d57a@000000_oswg1134974oswg1080oswg741_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>谈及定价思路时，Zic提出，Eastogo的价格带在全球市场属于中端定位，对海外游客来说接受度很高。他称，品牌将北京和上海作为流量入口，但真正的专长和利润来源，来自西南三省、西藏青海等自然旅游资源丰富的区域。</p>
+  <p>作为China Travel话题热度的最大助攻者，海外旅行博主成为许多入境游品牌的第一波种子用户。Zic谈到，当下每个目的地都率先在博主圈内火起来，而游客圈还未迎来真正的大爆发，也因此，运营好这些种子用户对引领入境游趋势至关重要。</p>
+  <p>在红人营销的布局上，Eastogo一方面与海外旅游博主达成资源置换合作；另一方面积极孵化向导的IP账号矩阵，以旅行攻略类内容吸引流量，半年间品牌的自然流矩阵账号曝光超过2000万。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_1dc3513d25444bed91bfb056b916ef91@000000_oswg129817oswg1080oswg811_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>“欧美游客跟着我们游历过后常感慨——没想到中国在文化上有这么多值得深入挖掘的地方，我们多次得到过‘best travel agency’的评价，感谢我们带他们看到了不一样的中国。”</p>
+  <h2><strong>“体验式”入境游赛道，迎来黄金爆发期</strong></h2>
+  <p>入境游其实是存在已久的市场，经历过疫情期间的短暂停摆后，近年来在政策导向下迎来新一轮爆发，而在这个新周期中，无论是旅客需求还是国内供给都发生了“质变”。</p>
+  <p>陈敏向我们分享过一项创业早期的洞察，团队在做全球市场调研时发现，日本自确立“观光立国”政策后，其本土旅游业乘上国策东风驰入黄金发展期，前期以大团低价模式主导，后期则进入高品质、精细化的阶段，如果以此作为参照，中国入境游行业正处于一个关键转型节点。</p>
+  <p>这种趋势已初见端倪。据国家移民管理局数据，2025年免签入境外国人3008万人次，占入境外国人73.1%，同比上升49.5%。另据央视网消息，随着入境旅游签证、支付、住宿等便利化政策红利释放，入境旅游消费呈现多元化发展趋势，中高端市场呈现出较大潜力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_91c20010bf034126a97f2454033f65d4@000000_oswg297261oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从竞争格局看，当前入境游行业的参与者（国内）主要分为三类：</p>
+  <p>其一是全品类传统旅行社，比如中旅旅行、春秋旅游等，将入境游视为多元业务布局的一环；其二是专注入境游的垂直赛道选手，既包括Wild China等成立20多年的老牌，也包括CET等初创型新锐品牌；其三是个人导游，相较旅社提供全案服务，他们一般在终端承接碎片化的陪玩需求。</p>
+  <p>再从商业模式上看，过去为满足“景点打卡”设计的标品套餐，因为产品趋于同质化，以及交通、酒店、景点价格的信息差被抹平，正面临一定的价格战困扰，一些旅社不得不走上“以价换量”的路线；而主攻小团定制、深度体验的品牌，则普遍感受到需求红利的驱动，通过产品和服务升级创造出新的增长曲线。</p>
+  <p>“以前旅行社售卖的是‘信息差’，而现在我们售卖的是对旅行这件事的‘理解深度’，它的价值藏在每一个环节的规划和执行之中。”陈敏表示。</p>
+  <p>Zic同样认为：“入境游市场当下的机会已经越过信息差，而是在于全球游客对旅行需求的转变，只有做好产品、做好内容，距离客户足够近，才有可能获得增长。”</p>
+  <p>据新品牌们反馈，当前他们的核心挑战并非缺少客户，而是如何更好地承接需求。入境游创业看似准入门槛低，但若想提供真正深度的旅行体验，则意味着非标、复杂的服务链路，如及时对接非遗匠人、地接专家等资源都存在更高难度，与此同时，旺盛的境内游需求有时会让当地资源应接不暇。</p>
+  <p>不过在出行高峰上，入境游与境内游存在错峰，前者的旺季（就欧美市场而言）集中在春假、夏休，以及欧美一些主流假期，提前做好节点规划和目的地营销对商家至关重要。</p>
+  <p>眼下，开春旺季即将到来，CET已策划好新春主题线路迎接新一波旅客，据陈敏透露，新的一年，团队将从人文视角出发开发出更多创新产品，包括野生栖息地观鸟、绍兴的黄酒溯源等主题路线，同时着手拓展俄罗斯和北欧等市场，将品牌作为一项长期事业来经营。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260220/v2_5ba08b7c55ca411893ce5c1eb2942342@000000_oswg1249526oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在创业者们看来，入境游行业品质转型的大门已经打开，这是一个潜力无限的蓝海赛道，未来或将成就一个万亿级的巨量市场，身处其中的新一代玩家们，正满怀信心地推动这个黄金时代的到来。</p>
+  <p>谈级终极目标时，陈敏表示，“我们希望成为外国游客感知中国文化的一个入口，期待未来所有深度旅行的入境游客户，都会第一时间想到CET。”</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247687957&amp;idx=1&amp;sn=ecece0c9ed47ca86315ea7baeee36c5b&amp;chksm=c13ea0553c5f01ad06e2002244b4f4b429305742d2997bb1785d9d94cbac80bdebbf13f1101c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：金雅，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3687203636409097</id>
+            <title>过完这个春节，中国AI只剩下阿里和字节</title>
+            <link>https://www.36kr.com/p/3687203636409097</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3687203636409097</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 08:50:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260217/v2_8979d49567a245219d0650e4bfaefe23@5364872_oswg907519oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>2026年除夕夜后，中国AI的版图被彻底重塑。</p>
+  <p>如果AI竞争是一场长跑，阿里千问则在春节上演了一场“时间折叠”<strong>。字节豆包跑了1000天的DAU流量高地，被千问用</strong>82天<strong>便闪电追平。这一战，宣告中国AI正式告别群雄混战，进入</strong>阿里、字节“双雄争霸”新纪元。</p>
+  <p><strong>除夕夜</strong>大战更是精彩刺激<strong>。</strong>一边，阿里开源<strong>Qwen3.5-Plus</strong>，性能直取Gemini 3 Pro，登顶全球最强开源，以底层架构革新捅破技术天花板，同时用50亿次“千问帮我”开启AI生活元年。另一边，豆包亮相春晚引导国民互动；此前发布的<strong>Seedance 2.0</strong>则瞄准“生产工具”，要帮普通人圆一个导演梦。</p>
+  <p><strong>今年春节，阿里字节，一个“办事”一个“造梦”。</strong>千问大免单请客让无数普通人第一次体验了AI生活，而豆包试图在对话框里连接创意。一边用AI让柴米油盐变得更便捷，另一边用AI帮普通人「圆导演梦」。这场双雄争霸的背后，是两种关于「AI该如何融入人类生活」的回答。</p>
+  <h2><strong>01</strong></h2>
+  <h2><strong>「生活方式」 vs 「生产工具」</strong></h2>
+  <p>千问的发展道路，本质上是一场阿里的生态整合战。</p>
+  <p>今年1月15日，千问在全球范围内首次实现「AI 综合购物」能力，接入淘宝闪购、支付宝、飞猪、高德等阿里系场景，覆盖范围从外卖奶茶到电影票、演出票，再到机票、酒店、景区门票，以及淘宝闪购、盒马、天猫超市的生鲜购物。未来，打车场景（高德）也在整合中。</p>
+  <p>这些场景有个共同特点：高频、刚需、涉及真实世界。订奶茶需要定位门店、确认口味、完成支付、等待配送；订电影票需要选影院、挑时段、选座位、生成二维码。每一个环节都在强化用户的行为路径——「有事找千问」。</p>
+  <p>2月6日，千问启动30亿「春节请客计划」，派发奶茶免单卡，截至大年初一凌晨，用户说了50亿次「千问帮我」，完成超1.3亿笔订单。其中用户通过AI买门票的订单环比增长了22倍，用AI订机票等交通票务的单量增长了超过7倍。同时，伴随着春节档电影上线，用户拿AI买电影票的订单环比也增长372倍，最让慢放君感兴趣的是，其中来自三四线城市的AI订单量暴涨了782倍。</p>
+  <p>除此之外，还有近400万名60岁以上的用户，也通过千问完成了第一次外卖点单——这意味着千问不仅在争夺年轻用户的注意力，更在尝试让AI成为全年龄段的生活基建。让AI从年轻群体的尝鲜型应用，转型为全民普及的生活管家。</p>
+  <p>这和阿里的商业基因有关。过去20年，阿里干的就是「连接」的生意——连接买家和卖家，连接商家和消费者，连接线上和线下。现在，AI成了新的连接器。千问要做的，是把「我想要」和「送到家」之间的所有环节都打通。</p>
+  <p>字节走的则是另一条路。</p>
+  <p>2月12日发布的Seedance 2.0，让《黑神话·悟空》制作人冯骥直呼「地表最强」，连马斯克都在社交平台上转发评论，直言「模型发展速度太快」。</p>
+  <p>Seedance 2.0 的技术参数确实震撼：统一多模态音视频联合生成架构，支持文字、图片、音频、视频四种输入，可以同时参考多达9张图片、3段视频、3段音频。支持15秒高质量多镜头音视频输出，双声道音频，复杂运动场景可用率达到业界领先水平。</p>
+  <p>翻译成人话就是：以前需要一个影视团队才能完成的工作，现在一个人、一台电脑、几段提示词，就够了。从去年7月豆包的AI修图火爆出圈，到Seedance 2.0的发布，字节始终在做一件事：让创意内容的生产门槛降到最低。</p>
+  <p><strong>两条路径的差异，本质上是对「AI价值」的不同定义。</strong>阿里押注的是「生活方式」——让AI成为连接人与服务的中枢；字节押注的是「生产工具」——让AI成为释放个体创造力的引擎。</p>
+  <h2>02</h2>
+  <h2>效率革命的两极</h2>
+  <p>在各自的战场上，双方都有别人难以复制的优势。</p>
+  <p>阿里的优势，藏在20年积累的生态帝国里。淘宝有8亿活跃用户，支付宝有10亿用户，飞猪覆盖酒旅出行，高德掌握出行数据，盒马、天猫超市连接本地生活。这些场景单独看是一个个业务板块，整合起来就是一幅完整的线下生活拼图——千问不仅能听懂用户说什么，还能调动资源去完成。</p>
+  <p>2月6日活动上线首日，9小时千问就完成了1000万单AI订单，每秒处理超过300单。这背后是AI对复杂场景的理解能力：不仅要理解用户点单的需求，还要调度商家库存、对接配送系统、处理支付异常、兜底配送延迟。千问通过30亿免单，完成的不仅是DAU的暴涨，更是一次全民性质的AI实操演习——让8亿中国人习惯「对着手机说一句话，东西就送到家门口」。</p>
+  <p>千问App的技术底座同样完整。除夕发布的&nbsp;Qwen3.5-Plus，采用了阿里的全新范式架构，用更小的体积，跑出了超过Qwen3-Max的性能，部署显存占用降低60%，最大吞吐量可提升至19倍，稳坐全球最强开源模型。</p>
+  <p>加上平头哥的「真武810E」芯片提供算力支撑；阿里云承载海量并发；这套「通云哥」（通义实验室+阿里云+平头哥）黄金三角，让阿里拥有了AI时代的全栈能力。</p>
+  <p>字节的优势，在于对注意力经济的深刻理解。</p>
+  <p>抖音日活超7亿，这个流量池本身就是内容生产与消费的闭环。豆包、即梦等字节系AI应用从一开始就不是独立存在的工具，而是嵌入在字节的内容生态里。用户在抖音刷到有趣的视频，可以直接用即梦生成类似的；看到爆款文案，也可以让豆包改写。</p>
+  <p>Seedance 2.0的发布，则是在B端场景的进一步渗透。影视特效团队可以用它快速生成分镜预览，广告公司可以用它批量生产创意素材，电商卖家和游戏公司也找到了新的应用场景——商品展示视频和动画过场。Seedance 2.0让这些原本需要几千几万外包费用的工作，变成了人人可及的标准化服务。</p>
+  <p>量子位的评论指出：「AI开始接管现实世界中最贴近个人日常的执行链路。」阿里接管的是「办事」链路，字节接管的是「创作」链路。<strong>前者让生活变简单，后者让表达变简单。</strong></p>
+  <h2><strong>03</strong></h2>
+  <h2><strong>3个月追平3年</strong></h2>
+  <p>虽然同为大模型&nbsp;App 双雄，但豆包和千问的发展速度也不尽相同：豆包从2023年6月开始测试，用3年时间达到7871万DAU；千问在2025年11月17日公测，到2026年2月7日达到7352万DAU，仅用82天。真正的分水岭出现在2月6日——30亿免单活动上线后，千问DAU从不足1000万暴涨至7352万。</p>
+  <p>这种爆发速度不能简单归结于「撒钱买量」——毕竟这个春节，各大 AI 巨头几乎都在撒钱。</p>
+  <p><strong>真正的差异在于：千问把用户拉进了真实的消费场景，而不是停留在「聊天」或「尝鲜」层面。</strong></p>
+  <p>对比其他AI产品的春节营销就能看出区别。大多数产品选择发放现金红包，用户领完红包后，可能再也不会打开这款App。但千问的策略是直接提供「点单免单卡」——用免费奶茶把用户拉进阿里生态的业务场景。</p>
+  <p>用户在「薅羊毛」的过程中，同时完成了三件事：建立了对AI的熟悉和信任、完成了支付绑定和地址授权、记录了消费偏好。下次再用千问订外卖、订电影票、订机票，路径已经被打通了。千问通过高频消费场景，将「有事找千问」内化为用户的行为习惯。</p>
+  <p>再看豆包。它依靠的是年轻用户对AI修图、AI写作等功能的新鲜感，但对大多数普通用户来说，修图、写文案、生成视频，都是「有需求时才用」的低频场景。而千问切入的吃饭、看电影、出行、购物，是每天都要面对的刚需。</p>
+  <p>高频和低频的差异，决定了用户留存的差异。前者可能成为习惯，后者只能是工具。这才是千问82天追平豆包3年的真正逻辑。</p>
+  <h2><strong>结语</strong></h2>
+  <p>双雄格局的形成，本质上是两种效率革命的交汇。字节让创作更简单，阿里让生活更简单。</p>
+  <p>这场争霸没有对错，只有选择。技术的终点或许殊途同归，但通往终点的路径，决定了谁能在这个时代占据更大的生态位。千问和豆包的DAU差距只有519万，但它们各自选择的战场，已经清晰划定了边界——一个扎根烟火气，一个突破生产力。</p>
+  <p>阿里走的是「上天入地」路线：一边在除夕当天开源全球最强开源模型Qwen3.5-Plus，展现自己追求「星辰大海」的技术实力，一边在 C 段发力，3个月把千问推上7000万日活，呵护「人间烟火｜。技术上追求极致，应用上贴近生活，两条腿走路。</p>
+  <p>字节则是「内容为王」的信徒：Seedance 2.0让影视级内容生产走向平民化，抖音7亿日活的流量池让每一个有志于用 AI 创作的表达者都有可能被看见。技术服务创作，创作反哺技术，形成飞轮效应。</p>
+  <p>中国AI已经脱离了单纯的参数竞赛，进入应用价值驱动的新阶段。而这场双雄争霸的真正看点，不在于谁的DAU更高，而在于，谁能让AI真正成为14亿中国人生活的一部分。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688462233677449</id>
+            <title>定义「弹性硅基雇佣」时代，百融云创的RaaS模式探索与引领</title>
+            <link>https://www.36kr.com/p/3688462233677449</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688462233677449</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 07:01:26 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>马年春节假期来临，连休九天被网友们称为“史上最长春节黄金周”。在此之际，人们归心似箭，仍不得不应对繁琐的工作流程调整。人力资源调配是其中的难题之一。传统行业在此之际面临巨大的“人力真空”。企业所采购的硬件设施和软件服务也处于闲置和空转状态，对保障企业弹性运转带来了挑战。&nbsp;</p>
+  <p>最新的解决方案其实已浮现水面。</p>
+  <h2><strong>硅碳共治的“弹性硅基援军”</strong></h2>
+  <p>去年春节期间，企业级智能体平台公司百融云创董事长、CEO张韶峰发现自己有点忙不过来了。在千人级别的公司里，实施扁平化管理，对高管精力是个巨大的挑战。</p>
+  <p>后来，一次访谈中，他提到了自己的应对之策：“我通过百融智能体平台拖拉建起一个自己的‘硅基’助理。”它能够根据实际情况处理部分日常工作。例如，根据工作的优先程度，设定更科学的日程表并能做出实时调整，处理统计工作中出现的数据和修改文件名等琐碎工作。这些事情只需要“发个文本或语音给硅基助理”就可以完成，管理者能更加集中精力于核心事务。</p>
+  <p>何为硅基助理？按照中国信通院《企业级AI智能体（Agent）技术及应用白皮书》定义，它们是“能够感知环境并利用工具采取行动以实现特定目标的代理”。简单地说，就是“AI智能体”。</p>
+  <p>百融云创是这个赛道的先行者。2025年12月18日，百融正式发布企业级AI智能体战略，提出了RaaS（Result as a Service，结果即服务）商业模式，推出了Results Cloud（结果云）平台和企业级智能体产品体系。</p>
+  <p>百融云创的实际行动其实更早于战略发布。现在，“硅基助理”这样的智能体应用早已不再限于企业高管，也在公司基层员工中得到普遍应用。“可以是公对公，员工也可以自己给自己搭建硅基助理。”</p>
+  <p>这些AI智能体并非简单的代码集合，而是沉淀在 Results Cloud 中的标准化生产力资产。依托其底层的 Agent OS（百工） 与工程化交付体系，应用方能够像调度弹性云算力一样，根据业务洪峰的需求，在极短周期内实现‘硅基援军’的批量上岗与精准补位，从根本上实现了从‘人力的刚性约束’向‘生产力的弹性保障’的范式跨越。”</p>
+  <p>“它本质上是一套机器人力资源系统。”海外一个名为“AI思维链”的行业博主在X上总结。这篇专业性很强的推文获得了广泛关注，浏览量超过四十万。</p>
+  <p>一旦启动起来，这套机器人力资源系统理论上可以实现按需分配硅基员工。张韶峰透露，百融内部的硅碳比达到了1：150，这意味着，1个碳基员工可以调度约150个单位的硅基员工。</p>
+  <p>它们大量应用在面试、会计、税务、研究、营销等AI可以覆盖的场景中。随着AI训练程度能力的提升，硅基员工之间实现自我协同的能力得以强化，碳基员工可以调度的单位硅基员工也迅速上升。“硅碳共治”正以不可阻拦之势，在百融内部及其客户中生长发育。</p>
+  <h2><strong>SaaS的黄昏与RaaS的黎明</strong></h2>
+  <p>硅碳共治不仅是一个解决方案，应对的也不仅仅是“人力真空”的单一问题，而是意味着新的生产范式的落地与应用。同时也将旧有范式消亡的问题提到眼前。</p>
+  <p>SaaS（软件即服务）模式就是被挑战的对象。SaaS与RaaS两者之间在商业逻辑上的重要区别在于，前者按照客户实际员工人数收取刚性服务费用，而后者却不可能根据硅基员工数量收费。它是根据硅基员工应用后的业务结果收费的。硅碳比的不断提升给客户带来的收益边际效应强于日益僵化的SaaS模式时，“按人头收费”就成了压垮SaaS的最后一根稻草——我已经购买了ERP软件，为什么还要面对“人力真空”的麻烦？</p>
+  <p>在过去一年里，越来越多的业界人士对此认识逐渐清晰。</p>
+  <p>2026年1月20日，硅谷顶级风投机构a16z发布了一份关于AI应用的深度分析报告，里面提出了一个被业界热议的观点：SaaS行业的逻辑正在发生根本性转变。过去企业按人头购买软件以辅助员工工作。而在AI迅速进化的时代里，智能体将直接取代劳动力完成任务。大量过往碳基员工沉淀的数据用于训练不同场景中的智能体——例如，将销售数据和话术用于训练智能体，已能确保它们达到销售的平均水平，能够大幅提升转化率。</p>
+  <p>这一发现其实已被一流企业所关注和应用。2026年1月的CES大会上，全球知名管理咨询公司麦肯锡透露，在过去18个月里，它的AI代理数量从几千个飙升到了2.5万个。麦肯锡的员工中，有近30%的工作力量由“数字员工”——或者说是“硅基员工”构成。麦肯锡在未来18个月里将给每个碳基员工都配上至少一个硅基员工。</p>
+  <p>在张韶峰和他的同事们看来，硅基员工像碳基员工一样能够提供可衡量的岗位业绩。在硅基员工的身后，则是基于云平台的基础设施以及相应的服务。平台本身深入介入到了客户的业务之中，对客户的业绩承担了更大责任与风险。其产品与客户绩效实现深度耦合，促使平台与客户之间的关系出现了本质上的改变。</p>
+  <p>在AI 1.0时代，SaaS曾被认为是企业级AI应用普遍模式。但随着给企业带来的业务增量潜力挖尽，同质化竞争加剧，SaaS应用已近黄昏，新的模式呼之欲出。从a16z到麦肯锡，它们不约而同地发现，AI智能体的大规模应用推动了RaaS模式的出现。</p>
+  <p>用张韶峰的话说，RaaS不是卖铲子给客户自己挖金子，而是用同一把铲子帮客户把金子挖出来。百融云创的Results Cloud，正是按照这样的思维研发创建的。其意图很明显是以RaaS模式对齐业务结果，将客户多年沉淀的业务经验与能力移植到AI智能体之上，从而将硅基“助力”碳基升华为“硅碳共治”。</p>
+  <p>百融对其技术能力的自信支撑起了RaaS战略雄心。Results Cloud设立了立体的三层架构以应对不同层次的需求，分别是AI Infra（“百基”，算力基础设施+推理引擎+转述领域AI模型）、Agent OS（“百工”，企业级智能体操作系统）以及Agent Store（“百汇”，内置百融云创旗舰硅基员工）。值得注意的是，Agent Store除了可以扮演“产品商店”，还可以升级为开放平台与第三方开发者扩大硅基员工生态。</p>
+  <p>在对话式AI工程、语音理解与合成、检索增强与长期记忆、工具调用与编排四大技术领域的研发获得突破后，目前百融的硅基员工开发已经实现工程化，部署周期从两个月缩短到两周。</p>
+  <p>这就是说，不管是企业出现突发性需求，还是寻求常规业务增量的情况下，它们都能够通过Results Cloud迅速实现劳动力扩容，满足企业不同方向上的需求。至此，百融成为真正意义上的“AI劳动力派遣公司”。</p>
+  <p>但它似乎又不止步于“劳动力派遣”。提供硅基员工的同时，百融引入了自身特有的“硅基员工之家”管理体系，对这些员工开展标准化管理。每个硅基员工都有专属工号、绩效指标并配备碳基“职场导师”，确保它们做到上岗即达标。这一管理体系中，硅基员工的应用基本大幅简化了碳基人员培训和系统磨合过程，而灵活的硅基劳动力派遣方式，也为企业节省了一笔常态化的IT服务订阅开支。</p>
+  <p>在此基础之上，Results Cloud将硅基员工应用在不同场景之中，并概括出“四大旗舰硅基岗位”，分别是百盈（销服一体）、百才（智能招聘）、百鉴（专业服务）以及百智（知识生产）。百盈面向客户体验领域，覆盖智能营销、客户服务和留存等场景，带来业务增量；其余面向员工体验领域，深入财税法务、人力和研究等专业服务场景，以提升效率。</p>
+  <p>从统计数据看，四大岗位的硅基专员们当得起“旗舰”称号。百盈的咨询转化率提升了217%，百才让招聘周期从28天缩短到了两天，百鉴将总额达到数百万元的法商财税成本降至百万元以内，百智让深度报告交付周期缩短了80%。四大旗舰岗位内外并举，初步构成了企业运转闭环，将硅碳共治带入更高的层次。</p>
+  <h2><strong>以新范式定义AI时代的新标杆</strong></h2>
+  <p>RaaS模式启动了硅碳共治，改变了企业治理方式，也带来了多赢的局面。</p>
+  <p>平台毫无疑问是硅碳共治的直接受益者。RaaS以“结果导向和结果计价”为核心，包括按岗位计价、按产出计价和按业绩分润三种，较之前SaaS订阅付费模式更加灵活。在客户获得了明确增长之际，2025年上半年，百融云创的营收也增长了22%，毛利率稳定在73%。</p>
+  <p>重要的是，RaaS模式中客户数据来自于私域流量，其AI训练有别于大厂的AI通用大模型。通过私域流量训练的AI智能体可以随着时间沉淀不断提升容错率，强化智能体平台与客户业务之间的耦合关系，为RaaS模式的持续构建牢固的护城河。</p>
+  <p>这一区别也导致了行业与资本市场的认知坐标转移。它们的关注从软件需费力和客单价等传统SaaS评估要素转向“生产态活跃硅基员工数”以及“工作份额”等代表新质生产力的指标，以此判断智能体平台与客户的绑定程度和营收增长前景。</p>
+  <p>2025年被认为是“AI智能体元年”。国内行业正在寻求制定企业级AI智能体应用效能评估规范。其他关于AI智能体运行与合规的标准也正在陆续出台。一些上市公司选择披露其AI智能体应用情况。在2025年的若干重大AI企业并购案中，以RaaS模式为导向的新评估体系正在建立起来。</p>
+  <p>如果说数据直观显示出RaaS为客户带来的收益，那么，百融的尝试则正在给行业带来隐性的、观念改变。一百多年前，福特的流水线革命大幅提升了劳动生产率，但也让人们陷入了只追求价值、忽视人的情感和精神价值的工具理性之中。AI技术演进催生RaaS，将这种工作理性转移到“忠诚、高效、不知疲倦的”AI智能体之上。这不是硅基替代碳基，而是将碳基员工从重复、高频工作中解放出来，让他们获得更多从事创造性工作的时间和空间。</p>
+  <p>从这个意义而言，百融云创正在推进的是一场生产新范式革命。它不仅是一家AI智能体平台公司，更是全球RaaS赛道的先行者和规则制定者。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688102350877187</id>
+            <title>春晚机器人爆红背后：一场关于「非共识」的产业思辨</title>
+            <link>https://www.36kr.com/p/3688102350877187</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688102350877187</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 05:53:43 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_ef4427d4db134bada0fb6cb1b204c583@5478488_oswg79236oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>从“氛围组”到“真顶流”，具身智能用一场跨越十四年的技术进阶，完成了从舞台背景到时代主角的华丽转身，成为中国新科技自信的最佳代表。&nbsp;</p>
+  <p><strong>文｜孟雯</strong></p>
+  <p>1950年，图灵在《计算机器与智能》中埋下了“具身智能”的种子。&nbsp;</p>
+  <p>七十年后，这颗种子伴着ChatGPT的热潮与VLA的出现长出枝丫，具身智能取代"自动化"的传统叙事，成为新的行业共识。&nbsp;</p>
+  <p><strong>作为“AI落地现实载体”的新物种，机器人成了被时代选召的新宠儿。</strong></p>
+  <p>刚刚结束的马年春晚，宇树科技、松延动力、银河通用等一批具身智能企业集体亮相，以超高密度完成了全民科普，据传马年春晚开播两小时，京东机器人搜索量环比增长超300%，订单量暴涨150%。&nbsp;</p>
+  <p><strong>但这并非一场只有掌声的巡演，亦是一次伴随着烈火烹油的残酷换挡。</strong></p>
+  <p>在资本市场，这是前所未有的狂欢：具身智能赛道年融资规模激增至744起，金额冲向735.43亿元。然而，繁华背面，行业亦在经历阵痛。&nbsp;</p>
+  <p>一边是特斯拉、优必选等巨头在全球范围内加速迭代与扩产；另一边，是明星创企K-Scale遗憾退场、曾经的独角兽达闼机器人悄然倒下的冰冷现实。&nbsp;</p>
+  <p><strong>估值的飙升与出货量的克制，构成了具身智能最真实的张力。</strong></p>
+  <p><strong>一&nbsp;</strong></p>
+  <p><strong>从春晚顶流到车间工友</strong></p>
+  <p>马年春晚，具身智能以前所未有的姿态统治了视觉中心。</p>
+  <p>宇树科技的G1机器人以《武BOT》燃爆全场，在单腿连续后空翻与两三米高度的跳马腾空中展现出惊人的运动极限；松延动力的“仿生蔡明”则通过像素级复刻，实现了妆造与口型的真假难辨；魔法原子的MagicBot Z1化身舞团，与明星同台完成托马斯回旋等高难度动作。</p>
+  <p>从四川宜宾分会场百台同步舞蹈的熊猫机器狗，到银河通用、追觅的场景化演示，机器人浓度含量过高，被网友们戏称为“首届AI春晚”。</p>
+  <p>遥想14年前，机器人在春晚初登场，还是个只会做简单动作的氛围组伴舞，如今它们不仅稳站舞台C位，更凭借深度进化的感知与交互，一跃成为当之无愧的春晚顶流。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_70b38c78bf3a498eabaf9f011d648d8b@5478488_oswg901136oswg1080oswg1852_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>更深刻的变革发生在光影背后的工厂车间。</strong></p>
+  <p>2026年初，智元机器人宣布累计下线突破5000台，并向数万台年度目标冲刺，其"远征"系列已在汽车制造与精密电子生产线上累计工作超100万小时；</p>
+  <p>优必选提出1万台工业级机器人的产能规划，并与空中客车签署战略协议，Walker S2正式入驻制造工厂，开始挑战航空级精密装配；</p>
+  <p>星动纪元联手顺丰科技，在极高频次的仓储中转环节推进规模化落地，将“足式+轮式”的优势转化为物流效率。</p>
+  <p><strong>产业热度迅速外溢到资本市场。</strong>魔法原子联合创始人顾诗韬透露，公司最快可能在2026年在二级市场有新消息，正按照最快速度排上市时间表。已完成股改的乐聚智能和云深处科技也已正式启动上市流程。</p>
+  <p>美团、阿里、京东、腾讯等互联网巨头在2024年疯狂布局大模型后，也在2025年集体"杀入"具身智能赛道，以宁德时代、汽车主机厂为代表的先进制造与产业巨头，亦有押注……</p>
+  <p>从实验室Demo到工厂订单，从资本叙事到商业兑现，<strong>具身智能似乎已迈过技术验证的生死线，全速冲向规模化量产前夜。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_55e183d5fc9843efaf7d277475446dec@5478488_oswg124954oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：银河通用机器人微信公众号</p>
+  <p>政策东风也从宏观引导转向了精准入场，25年年底，工信部等四部门发布的《汽车行业数字化转型实施方案》明确提出推动智能机器人在焊接、喷涂、总装等环节规模化应用，并打造"具身智能示范产线"。</p>
+  <p>然而，<strong>理想与现实之间却横亘着一道深沟。</strong>国家地方共建人形机器人创新中心的首席科学家江磊坦言，行业目前更像是在做“消费级产品储备”，年产量不敢超过一万台，因为“产太多没有用途、售后压力也会非常大”。</p>
+  <p>银河通用创始人王鹤更是直言不讳地指出，全球今天真正运行在人类工作场景里的机器人，可能还不到1000台。</p>
+  <p>国外特斯拉Optimus V3虽然确定于今年Q1发布，并喊出年底10万台、远期100万台的宏伟产能，目标售价直指2万美元，但其时间表已较原计划推迟了约8个月。</p>
+  <p>22自由度灵巧手在极限工况下的量产稳定性，以及高功率作业时的液冷散热工程化难题是核心瓶颈。</p>
+  <p>资本的狂欢与产业的焦灼交织并行，这种“撕裂”除了有因春晚舞台秀激发的舆论破圈，还在于具身智能在硬件、算法乃至商业化路径选择上都充满了"非共识"。</p>
+  <p>二&nbsp;</p>
+  <p><strong>范式突围</strong></p>
+  <p><strong>在“非共识”中全速换挡</strong></p>
+  <p>所谓具身智能，就是给机器一个“身体”和一个“大脑”：让它通过传感器真实地感知物理世界，再用大模型等算法理解环境、规划动作，驱动关节和电机去完成任务。通俗理解，<strong>就是让机器人像人一样“看得见、听得懂、能动手”。</strong></p>
+  <p>如果把它抽象为<strong>"有身体的AI操作系统"</strong>，最底层是硬件本体，负责让机器“动起来”；往上一层是算法大脑，决定它“如何思考”；再往上是环境感知，让它学会“看清世界、感受自己”；最后是商业化运维，关心机器人能不能在现实世界里“活下去，并赚到钱”。</p>
+  <p>在"要造一具什么样的身体"这件事上，行业目前就有三条路线。</p>
+  <p>优必选、智元致力于用“工业精密主义”定义机器人的骨架。它们通过全栈自研核心伺服系统与精密减速器，追求的是在汽车制造或精密电子生产线上实现长周期的稳定作业。用物理层面的可靠性，换取工业场景对“硅基劳动力”的深度信任。</p>
+  <p>宇树科技、松延动力、众擎充分利用本土供应链的规模效应，在“性能与性价比”上寻求突破，并成功将整机成本从百万元级引导至十万元甚至几万，降低门槛，吸引海量的开发者与极客群体，先在非标场景中沉淀生态。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_8e2e5db045234b95a12b9e1e02268198@5478488_oswg177894oswg1009oswg682_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：松延动力微信公众号，图为“小顽童N2”与CES参展人员握手</p>
+  <p>而银河通用和云深处则想证明“人形”并非物理作业的唯一解，前者选择轮式底盘加双臂，优先攻进仓储、零售和部分重载工业；后者坚持四足加人形混合，在电力巡检、管廊隧道、应急救援等场景靠地形适应力争先。</p>
+  <p>其实<strong>这种路线差异也对应着商业哲学的分野</strong>——有人坚持垂直全栈，从伺服、电机、减速器到整机再到上层控制和大模型都自己做，来换取长期壁垒和议价权，比如优必选的Walker S2；</p>
+  <p>也有人选择模块开放，把本体做成标准平台，对外开放接口，让更多第三方来"装大脑、装应用"，靠出货量和生态挣钱，典型如智元机器人推出的开放平台。</p>
+  <p>再往上看，<strong>大脑算法几乎是一部技术范式的迭代史。</strong>早期的仿真迁移技术虽然解决了初期的模型训练成本，但在面对真实物理世界的摩擦、形变与复杂噪声时，会陷入长序列操作的累积误差，导致在现实里"越做越错"。</p>
+  <p>后来，融合了互联网通用语料的VLA（视觉-语言-动作）大模型成为主流，赋予了机器人出色的语义理解与任务拆解能力，从谷歌的RT-2到Physical Intelligence的π系列，再到GEN-0、GR00T等，VLA模型极大地降低了人机交互的门槛。</p>
+  <p>VLA擅长将复杂的图像与语言信息交织，按照习得的“套路”推演动作。然而，其结构性短板也随之浮现：在处理细致的物理操作和力觉反馈时，VLA往往难以精准预判后果，比如“把杯子放到桌沿”、“既不滑下去也不把水洒出来”。</p>
+  <p>清华大学自动化系教授赵明国就认为行业热捧的VLA模型更多是过渡性的技术手段，而非终极方案。他提到，大语言模型的成功，源于人类语言数据的“标准化”与“海量”，但物理世界的视觉、触觉数据“非常不规范”，没办法简单照搬。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_7414def59f3a42b392792b41979b8c9b@5478488_oswg230876oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：大晓机器人</p>
+  <p>最近，行业破局点指向了WAM（World Action Model）世界模型。这种新范式要求机器人在动作发生前，先在内部的想象空间中对物理演化进行模拟。</p>
+  <p>近期斯坦福、英伟达发布的Cosmos Policy等研究给出了Zero-shot（零样本）就能泛化执行不同工作的具身模型的可能，即通过视频生成模型训练机器人的“物理直觉”：先学会“如果发生某种情况，世界会怎样演变”，再以此为基础规划“我该如何行动”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_717abfa65ba146ae956adc68939bffaa@5478488_oswg338614oswg1054oswg366_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这种“先预演后执行”的能力，成为提升机器人作业成功率的关键。清华大学与斯坦福联合提出的Ctrl-World模型，使用零真机数据即可将下游任务的指令跟随成功率从38.7%提升至83.4%，平均改进幅度达44.7%</p>
+  <p>虽然世界模型的潜力在于能从根本上缓解操作误差，但其背后所需的数据量、算力规模（英伟达DreamZero依赖于H100或GB200这样的顶级芯片组成的计算集群进行并行推理，对于边缘端部署的独立机器人来说，目前的算力成本完全不可接受）及工程复杂度也远超以往，处于“科研高光”与“工程探索”并行的阶段。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_85ff724df0e9470584fade525bac873e@5478488_oswg148437oswg960oswg836_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这种技术路径差异也延伸到“智力来源”的选择上：是挂载GPT-4o、Gemini等通用大模型“借智”，还是像国内原力灵机这类公司那样，从头训练具身原生模型，也成为不同技术背景团队各自探索的高地。</p>
+  <p><strong>智能的“涌现”离不开高质量数据的喂养，</strong>这就落到了环境感知层。它石智航CEO陈亦伦曾提到，具身智能面临的任务复杂度，使得其对产品级迭代所需的数据量，是自动驾驶的十倍以上。自变量创始人王潜也曾提醒，行业对数据的认知正在发生变化：并不是数据越多越好，而是<strong>"越有效越好"</strong>。</p>
+  <p>这一层同样有两条“平行线”，一部分团队坚持在真实的工厂、机房中进行长周期的多模态数据采集，追求数据与物理环境的绝对一致性。</p>
+  <p>特斯拉的FSD之所以强，不完全是因为神经网络写得比别人漂亮，更因为它有几百万辆车在路上跑，这些车就是分布式的"数据采集器"，每天都在通过"影子模式"收集那些极端罕见的长尾场景。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_05ba27892d69497fa35bc12aab2d2e37@5478488_oswg240002oswg984oswg545_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>再比如，国内千寻智能的"小墨"机器人重复着枯燥却关键的工作——在宁德时代的生产车间里自主检测线束连接状态，动态调节插拔力度，其单日工作量较人工提升3倍，插接成功率稳定在99%以上，显著降低了人工成本与生产损耗。</p>
+  <p>另一部分则在<strong>强化高保真物理引擎的模拟能力，试图通过合成数据来缩短算法的进化周期</strong>，银河通用便是如此，其创始人王鹤曾在采访中提到，“短期内仿真模拟与合成数据仍将承担更多探索任务，长期来看，必须让机器人真实部署量级成百上千倍增长。”</p>
+  <p><strong>所有技术的进位，最终都要在商业闭环中寻找答案。</strong>To B的RaaS（机器人即服务），正在将昂贵的硬件投入转化为标准化的生产力租赁，通过规模化运营来平摊初始研发成本。擎天租预计2025年机器人租赁市场规模将突破10亿元，2026年不会低于100亿元。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_27e3ef78a5994c448c674b5f0398ffdd@5478488_oswg727458oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：智元机器人《机器人奇妙夜》</p>
+  <p>To C领域，春晚舞台或文旅表演所带来的品牌溢价，为具身智能积累第一波大众认知与流量资产。这种初期的市场教育虽然以展演为主，但也为后续进入家庭等深度服务场景埋下伏笔。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_33b2be0d2ca04e978093741eee0d80a0@5478488_oswg76002oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：众擎机器人微信公众号，首届人形机器人自由格斗联赛</p>
+  <p>2025年，头部公司账面收入确实在快速增长：优必选全年订单总金额接近14亿元，宇树科技接近12亿元，智元机器人约为7亿至10亿元，银河通用超过7亿元。不过订单金额不等于实际交付，更不等于盈利。</p>
+  <p>优必选虽然年营收超过13亿元，但研发投入和运营成本居高不下，财报显示，2025年上半年其研发费用高达2.18亿元，占营收比重35.1%，同期净亏损4.39亿元。智元、宇树等独角兽虽然估值飙升，但规模化量产的成本压力和售后体系的建设投入巨大，商业化也还处在早期。</p>
+  <p>擎天租CEO李一言曾公开表示，目前整个行业的产能还很小，<strong>全球加起来也就1万多台，保有量仍属起步。</strong>如此看来，当下的"亿元订单"更多还是标杆场景的先导尝试，而非可复制的规模化需求。</p>
+  <p>可以说，<strong>在“身体怎么造、脑子怎么练、数据怎么来、商业怎么跑”的每一环，具身智能都处于一种“有生命力的非共识”状态</strong>，而且各维度深度耦合：选了便宜的本体，可能就要在算法上做更复杂的补偿；追求极致的世界模型，就必须承受更高的数据与运维成本。没有人能像当年看NLP那样说：Transformer+大参数+海量文本就是唯一答案。</p>
+  <p>不过也正<strong>因为这种系统性的非共识，让具身智能呈现出蓬勃的生机，资本在任何一个维度上都能讲出极具想象力的故事</strong>：世界模型、空间智能、DFOL、RaaS……</p>
+  <p>银河通用创始人王鹤就曾直言，"没有共识是很好的事情，如果大家都形成共识了，那么最后拼的就是成本、资源、人脉。这些要素都不是创业者擅长的，对创业是不利的。"</p>
+  <p><strong>这也为中国探索出自己的技术路线和商业路径预留出更大可能</strong>。</p>
+  <p>如今，国内已经在谐波减速器、力矩/六维力传感器、IMU等核心器件上实现了从几乎全线依赖进口，到可100%全国产配置的跨越，整机成本从上百万元压缩至十几万、乃至万元级。</p>
+  <p>江苏近千家机器人相关企业编织起逾 1700 亿元的产业版图，苏州绿的谐波、南京工艺、恒立精密、坤维科技等诸多产业链隐形冠军密集汇聚在方圆五十里的“半小时供应圈”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_2b42b6bda0f74fef882a68767f7c2bc0@5478488_oswg96328oswg1080oswg1096_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这种“集群式聚变”不仅缓解了供应链的被动，更赋予了开发者一种“范式自由”：可以全栈自研追求极致可靠性，也可模块开放快速迭代生态；可以做人形攻进工厂，亦可做四足深耕巡检……</p>
+  <p>与硬件底座互为表里的，是算法大脑的“自主换挡”。智元的EnerVerse、自变量的WALL-A、中科第五纪的BridgeV2W、蚂蚁灵波的LingBot-World等一批国产世界模型分别从应用落地、技术突破、生态打磨上展开竞速，它们不是在“复制OpenAI”，<strong>而是在构建更契合物理世界的国产技术栈。</strong></p>
+  <p>在感知和环境运维上，大规模真实场景的数据采集、运维平台和RaaS模式，必须深度适配本土工业、城市和政策环境，这天然需要本地厂商主导。</p>
+  <p>具身智能的“国产替代”不再是简单地替换某颗螺丝，而是基于自身供应链优势对整套技术范式的自主重构。</p>
+  <p>谁掌握了从零部件到整机、从大模型到运维体系的自主可控能力，谁就有资格在这片非共识之地反复试错，率先撞开那扇通往产业奇点的大门。</p>
+  <p><strong>三&nbsp;</strong></p>
+  <p><strong>2026，具身智走向“共识”</strong></p>
+  <p>如今，具身智能经过一轮资本高热到估值回调的洗礼，那些曾经争论不休的路径分歧，在现实引力与交付指标的筛选下达成和解，行业也在去伪存真的熔炼中逐渐沉淀出一些“共识”。</p>
+  <p><strong>共识一：形态不重要，场景才重要</strong></p>
+  <p>关于"机器人应该长什么样"的争论，从一开始就充满了偏见。有人坚持人形才是终极答案，因为人类世界的基础设施——楼梯、门把手、操作台、工具——都是为人类设计的；也有人认为多足、轮式甚至球形更高效，何必拘泥于"像人"。</p>
+  <p>但这场辩论本身可能就问错了问题。正如未来学家托马斯·弗雷所指出的，<strong>根本不存在"完美"的机器人形态，就像不存在"完美"的交通工具一样</strong>——摩托车、轿车、卡车、坦克各有其用，没人会争论哪一种universally superior（普遍更优）。机器人的形态应该服务于场景，而非相反。</p>
+  <p>人形机器人在人类设计的环境中确实有优势：不用改造房子，机器人适应房子；不用重新设计工具，机器人使用现有工具。但当任务变得具体，specialized（专业化）的形态往往更高效——仓储场景里轮式比双足更快，电力巡检中四足比人形更稳，精密装配时多臂比双臂更灵活。</p>
+  <p>这种"形态多样性"的共识，本质上是对物理世界复杂性的承认：<strong>没有一把钥匙能开所有的锁，也没有一种形态能通吃所有场景。</strong></p>
+  <p><strong>共识二：人为本，理解物理世界的底层</strong></p>
+  <p>人工智能研究者汉斯·莫拉维克提出过一个著名的悖论：<strong>对计算机来说，下棋很容易，但感知和行走极其困难。</strong>它精准预言了今天具身智能的底层困境——我们可以在虚拟空间里训练出精通围棋、精通语言的AI，但让它稳当地拿起一个杯子、穿过一扇门，却需要完全不同的能力。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_56952066ba674053a9b4670cb1c25c28@5478488_oswg346566oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>图片来源：大晓机器人</p>
+  <p>这种能力不是单纯靠堆算力能解决的，更需要对"身体如何与物理世界交互"的深刻理解。机器人不需要像人一样思考，但需要理解人在物理世界中的行为逻辑、意图表达和安全边界。<strong>"以人为本"不是伦理装饰，而是技术刚需</strong>：只有理解了人的存在方式，机器人才能真正成为协作伙伴，而非冰冷的替代工具。</p>
+  <p><strong>共识三：不是取代，而是释放</strong></p>
+  <p>1920年，捷克文学家卡雷尔·恰佩克在三幕剧《罗素姆万能机器人》中第一次使用了"Robot"这个词——它源于捷克语"robota"，意思是"苦力"和"奴隶"。</p>
+  <p>故事里的机器人被制造出来，初衷是完成所有人类不愿做的苦差事，从而解放人类去从事更美好的事物。</p>
+  <p>100多年后，"Robot"这个词承载的期待，从未改变。具身智能指向的未来，<strong>也并非取代人，而是最大程度释放人的创造力。</strong></p>
+  <p>2026，国内机器人从千台测算迈向万台交付，成为被寄予厚望的"量产元年"。站在产业infra的拐点，我们即将迈入一个人机协作的新纪元——<strong>不是取代，而是增强；不是疏离，而是融合；不是终结，而是新生。</strong></p>
+  <p>这，是所有具身智能企业的价值共识，也是这个行业最终要抵达的彼岸。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688350823100935</id>
+            <title>性能持平价格大降80%，Anthropic 新模型杀疯了</title>
+            <link>https://www.36kr.com/p/3688350823100935</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688350823100935</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 05:49:21 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_6e63058595034bb7ac2439dbd8c50d69@6119835_oswg502843oswg1080oswg652_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>距离ClaudeOpus 4.6的发布仅过去12天，Anthropic就发布了新的中档模型Claude Sonnet 4.6。</p>
+  <p>这次发布的核心不在于技术突破本身，而在于它以低得多的价格，达到了与竞品齐平的性能。。</p>
+  <p>Sonnet 4.6的定价保持在每百万token输入3美元、输出15美元，与前代 Sonnet 4.5相同。</p>
+  <p>然而在多项基准测试中，Sonnet 4.6接近甚至超越了价格高出五倍的Opus 4.6。</p>
+  <p>Anthropic表示，便宜不一定就没有好货。</p>
+  <p>当然了，在一些关键的测试里，仍然还是Opus 4.6领先。</p>
+  <p>具体表现如何呢？</p>
+  <p><strong>01</strong></p>
+  <p><strong>Sonnet 4.6究竟有多惊艳？</strong></p>
+  <p>在SWE-bench Verified这个衡量真实软件编码能力的基准测试中，Sonnet 4.6得分79.6%，几乎追平Opus 4.6的 80.8%，同时略微领先于OpenAI的GPT-5.2。</p>
+  <p>在代理式金融分析任务中，Sonnet 4.6以63.3%的成绩领先所有竞争对手，包括Opus 4.6的60.1%和GPT-5.2的59.0%。</p>
+  <p>在办公任务的GDPval-AA Elo评分中，Sonnet 4.6达到 1633 分，超过Opus 4.6的1606分和GPT-5.2的1462分。</p>
+  <p>过去需要旗舰模型才能完成的任务，现在用Sonnet 4.6这种中档模型就能做到。</p>
+  <p>对于每天需要处理数百万token的企业来说，这意味着可以大幅节省成本。</p>
+  <p>Opus 4.6仍然在某些高复杂度领域保持优势。</p>
+  <p>在终端编码任务Terminal-Bench 2.0中，Opus 4.6得分65.4%，Sonnet 4.6为59.1%。</p>
+  <p>在代理式搜索BrowseComp中，Opus 4.6达到84.0%, Sonnet 4.6为74.7%。</p>
+  <p>在新颖问题解决测试ARC-AGI-2中，Opus 4.6得分68.8%，Sonnet 4.6为58.3%。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_55dd89c88fa54702bfa6d5890130dca8@6119835_oswg227185oswg828oswg942_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>这些差距表明，对于前沿研究和需要顶级准确度的场景，Opus 4.6仍是最好的模型。但对于大多数生产环境，这个差距已经缩小到可以接受的程度。</p>
+  <p>Sonnet 4.6最引人注目的进步出现在计算机使用能力上。在OSWorld-Verified基准测试中，它得分72.5%，高于Sonnet 4.5的61.4%，远超GPT-5.2的38.2%。</p>
+  <p>计算机使用能力指的是AI像人类一样操作计算机的能力，通过鼠标点击、键盘输入来与软件交互，而不依赖API接口。</p>
+  <p>前一阵引发热议的豆包手机助手，其底层的UI-TARS模型，就是在OSWorld基准上完成了权威测试，取得了47.5%的成绩。</p>
+  <p>豆包手机助手的表现是非常出色的，已经能够完成除了支付以外所有的操作。</p>
+  <p>那么以此作为判断依据，进而不难推测，<strong>Sonnet 4.6的实际表现将会非常惊艳。</strong></p>
+  <p>这项能力之所以重要，是因为它打开了最广泛的企业应用场景。</p>
+  <p>一个能够直接看屏幕并与之交互的模型，可以在不构建定制连接器的情况下，自动操作将所有可交互的系统。</p>
+  <p>Anthropic在发布时提到，早期用户已经看到接近人类水平的表现，能够完成复杂的电子表格任务和多步骤网页表单。</p>
+  <p>保险科技公司Pace的CEO贾米·考夫（Jamie Cuffe）表示，Sonnet 4.6在他们复杂的保险计算机使用基准测试中达到94%的成绩，是所有测试过的Claude模型中最高的。</p>
+  <p>他说：“它以我们之前未见过的方式推理失败原因并自我纠正。”</p>
+  <p>恶意行为者可能在网页中隐藏指令来劫持模型，这被称为提示注入攻击。</p>
+  <p>Anthropic在公告中表示，Sonnet 4.6在抵御此类攻击方面比Sonnet 4.5有重大改进。</p>
+  <p>对于部署需要浏览网页和与外部系统交互的代理的企业来说，这种安全防护是必须的。</p>
+  <p><strong>02</strong></p>
+  <p><strong>价格只要五分之一</strong></p>
+  <p>那么Sonnet 4.6到底有多便宜呢？</p>
+  <p>外媒报道，一些早期的Sonnet 4.6用户表示，<strong>原本企业需要花五倍的钱才能买到的能力，现在用Sonnet 4.6就能获得差不多的效果。</strong></p>
+  <p>这意味着运营成本可能直接降到原来的五分之一，而工作质量几乎不受影响。</p>
+  <p>数据分析平台Hex Technologies的CTO，同时也是Anthropic联合创始人、首席产品官的凯特琳-科尔格罗夫 (Caitlin Colgrove)说，公司正在将大部分流量迁移到Sonnet 4.6。</p>
+  <p>她指出通过自适应思考和高努力模式（high effort mode），“除了最困难的分析任务外，我们在所有任务上都看到了Opus级别的性能，且配置更高效灵活。以Sonnet的价格，这将降低工作成本。”</p>
+  <p>云存储公司Box的CTO本·喀什（Ben Kus）表示，Sonnet 4.6在真实企业文档的重度推理问答中，比Sonnet 4.5的表现提高了15个百分点。</p>
+  <p>Sonnet 4.6配备了100万token的超长上下文窗口，以容纳整个代码库、法律文件或数十篇研究论文。</p>
+  <p>Anthropic声称模型能够在整个上下文中有效推理，并通过Vending-Bench Arena这个基准测试来表现出Sonnet 4.6的有效推理。</p>
+  <p>Vending-Bench Arena测试的是模型运营模拟企业的能力，不同AI模型相互竞争以获得最大利润。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_b3bcdea2f6554b478fdde6400b24c9d9@6119835_oswg86515oswg828oswg465_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>在没有人类提示的情况下，Sonnet 4.6发展出一种新颖策略：在前十个模拟月份中大量投资产能，支出远超竞争对手，然后在最后阶段急转弯专注于盈利能力。</p>
+  <p>模型在365天模拟结束时的余额约为5700美元，而Sonnet 4.5约为2100美元。</p>
+  <p><strong>03</strong></p>
+  <p><strong>Anthropic开启印度市场</strong></p>
+  <p>Anthropic正处于上市前最关键的阶段，因此他们不止要发布模型，还要借着模型去扩张业务。</p>
+  <p>在Sonnet 4.6发布当天，印度IT巨头Infosys宣布与Anthropic合作，构建企业级agent，将Claude模型集成到Infosys的Topaz AI平台中，服务于银行、电信和制造业。</p>
+  <p>与此同时，Anthropic也在印度的班加罗尔开设了首个印度办事处，印度现在占全球Claude使用量的约6%，仅次于美国。</p>
+  <p>Anthropic的进步也导致了最近几天软件股的大规模抛售，就连业绩大涨的微软，也经历了股价暴跌。</p>
+  <p>投资者越来越担心AI对这些业务的潜在颠覆，Sonnet 4.6可能会加剧这种不安的氛围。</p>
+  <p>也不知道是不是Anthropic飘了，他们还将其免费层级默认升级到了Sonnet 4.6，开发者可以通过Claude API直接调用。</p>
+  <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/tetPFpkaCzaYvvBhHfduKw" rel="noopener noreferrer nofollow" target="_blank">“字母AI”</a>，作者：苗正，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688057493008005</id>
+            <title>大厂AI下沉：中老年玩得比年轻人还溜</title>
+            <link>https://www.36kr.com/p/3688057493008005</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688057493008005</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 05:44:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_eda7995e8909416bb88c65144522d79d@000000_oswg850585oswg900oswg685_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>文&nbsp;<strong>|陈桥辉</strong></p>
+  <p>封面来源&nbsp;<strong>|&nbsp;图虫创意</strong></p>
+  <p><strong>以前过年回老家，大家印象里的老人们应该是这样的：院里贴春联、厨房包饺子、屋里守着电视看春晚，最大的期望，就是待在门外等待亲人的回家。手机对他们来说更多是接打电话、报个平安的工具。</strong></p>
+  <p><strong>可今年过年，这种刻板印象似乎有了新变化。</strong></p>
+  <p><strong>譬如，头发花白的老人拿着手机，对着镜头用AI拍拜年短视频，熟练地操作一键美颜、加特效、配音乐，玩得比年轻人还溜；厨房里的中老人也开始跟着AI学做新菜、尝试新的搭配，把家常菜做出新花样；就连抢红包，也不再是年轻人的专属，老人们和年轻人一起参与今年的AI红包大战，手指一点就到手，玩得不亦乐乎。</strong></p>
+  <p><strong>这样的场景，放在几年前，似乎还不敢想象。</strong></p>
+  <p><strong>原本以为，银发族是互联网时代的“弱势群体”，没想到的是，他们早已悄悄变身AI玩家，给如今互联网原住民的年轻一代，实实在在的秀了一把。</strong></p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_41572c045cab45bc92c195553522e098@000000_oswg1903oswg900oswg170_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>解锁春节新玩法，银发族AI技能超出想象&nbsp;</strong></p>
+  <p>自李航回老家后，他们家族微信群格外热闹，因为群里每天都有叔叔阿姨、爷爷奶奶辈的人，在发邀请红包，目的就是为了抢元宝App的红包。</p>
+  <p>这是因为李航教他们玩AI元宝红包，关键是他们学的也快。李航告诉Tech星球，搁以前，爷爷他连手机支付都生疏，从不怎么碰新鲜玩法，但今年大厂砸这么多钱，李航耐着性子调大字体、放慢速度，手把手教他们操作。</p>
+  <p>起初爷爷是有些抵触，但在教的过程中对AI玩法来了兴致，1个小时掌握了如何做红包任务，使用元宝的一些简单功能，每次抽到红包时笑得合不拢嘴，第一轮活动就抢了20多元。</p>
+  <p>后面几天，他开始搬着小板凳，在村里手把手教同村的老伙伴们抢红包，攻略AI玩法，并在除夕夜当晚，与晚辈们一起参与到抢豆包红包的活动。</p>
+  <p>小年夜，湖北咸宁一位60岁的张奶奶，成为了社区服务中心里的“AI视频达人”。</p>
+  <p>她告诉Tech星球，AI视频的制作看起来很难，实际操作下来却很容易。“首先，你得敢点、敢试”，张奶奶说道。</p>
+  <p>半年前，她在抖音刷到一条AI自动生成的视频，红灯笼飘动、福字闪烁，还有喜庆的语音祝福，外孙转发到家庭群后，她心动了，于是她开始对AI视频创作的摸索。</p>
+  <p>一开始连“提示词”是什么都不懂，她就边看教程边记笔记，把“春节”“温馨”“卡通”这些关键词写在小本子上反复试。后来发现，在AI视频工具里输入“给孙子做的拜年视频，要可爱、有烟花和红包动画”，系统就能自动生成草稿。她再微调画面、换背景音乐、加自己的语音，一条专属视频就完成了。</p>
+  <p>现在她三分钟就能做好一条，还能给不同人定制，有些老姐妹喜欢怀旧风，她就配怀旧歌曲；外孙爱动画，她就加个小老虎贴纸。而且，她还在闺蜜群里听说微信在春节期间推出了AI翻唱功能，进一步降低了创作门槛，她也开始尝试这个新玩法。</p>
+  <p>如今，她的AI视频、AI翻唱歌曲不仅发家庭群、朋友圈，自己也开了个抖音账号，分享创作一些AI视频。</p>
+  <p>而在县城的57岁的王大伯，则打算通过AI的帮助，成为全家的“年夜饭主理人”。</p>
+  <p>王大伯向Tech星球表示，过去的他只会炖大骨汤、蒸年糕等家常菜，现在的菜单上却多出了一些新的菜，比如五福拼盘、彩椒酿虾滑、川味腊肠煲仔饭等，这些新菜全靠AI教学。</p>
+  <p>原来，他在社区夜校上课时，老师教大家在手机里装上AI生活助手，可以帮他们学会做菜等技能。起初王大伯是抵触的，因为他炒了半辈子菜，质疑AI不可能比他还会炒。</p>
+  <p>当他试着对AI助手说“有没有低油少盐还好吃的菜时”，AI聊天界面立刻弹出视频教程，连火候、切配、摆盘都一步步演示，还能根据家里的食材智能调整菜谱，让他彻底打开了新世界的大门。</p>
+  <p>如今的他，时不时向AI请教新菜式，还拉着老伴一起拍做菜视频，分享到朋友圈。</p>
+  <p>这个春节，他没打算让团年饭还是那么普通，而是准备用AI整理出的新菜谱，做成丰盛的年夜饭。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_98a00fd6490b4e7c913dae0b068b2a7e@000000_oswg1932oswg900oswg170_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>AI成下沉市场中老年人“新副业”</strong></p>
+  <p>在很多人印象里，或许中老年人玩手机，就是刷短视频、看新闻。但今年春节，不少县城和乡镇的叔叔阿姨、爷爷奶奶们，通过AI做成了一门“小生意”。</p>
+  <p>在河南信阳，62岁的李阿姨在家里没事的时候，喜欢拍点厨房日常发到抖音，自从去年开始接触AI，试着用一个AI剪辑工具自动生成视频字幕和配乐，没想到一条“腊八蒜做法”的视频突然爆了，播放量破百万。平台很快给她开通了“创作者激励”，加上挂小黄车卖带货，一个月下来竟挣了3800多元。</p>
+  <p>“我一开始真没想赚钱，就是觉得好玩，结果AI帮我把画面调亮、加了字，连标题都是它建议的，比我自己起的强多了”，李阿姨笑着说。</p>
+  <p>在乡镇的王阿姨，则靠着AI绘画接做起了定制春联和年画的生意。她先在纸上手写吉祥话或画个草图，然后用AI工具一键生成高清国风插画，打印出来配上红纸装裱，摆在集市上卖。</p>
+  <p>“一幅卖15到30块，有人还订全家福卡通画像当新年礼”，赵阿姨向Tech星球说，“我不懂技术，但孩子教我用文生图功能，输入胖娃娃抱鲤鱼，传统年画风格，它就给你画出来，我们再稍微改改颜色就行。现在的我早已熟练地掌握了这个新技能。”春节前半个月，她靠着自己的新技能赚了近2000元。</p>
+  <p>65岁的张大爷向Tech星球分享他的AI经历。他是自家小镇上的退休邮递员，平日喜欢在茶馆里听老伙计们摆龙门阵。</p>
+  <p>去年，他的老朋友教他学会了AI语音克隆工具，于是他试着把老人们讲述的本地传说、童年趣事录下来，转成带方言配音的有声故事，再对这些故事配上背景音效和轻音乐，上传到音频平台，还做了一个小栏目，目前在平台上收获近万粉丝。</p>
+  <p>靠着卖手工腊肉、峨眉雪芽茶叶等，做起了带货，而且有时还会开直播讲故事，获得打赏收益。</p>
+  <p>实际上，这样的事情并不少，对于下沉市场的中老年人来说，AI不再是遥不可及的黑科技，而是一个能帮他们表达、连接、甚至增收的“新工具”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_49c74cd75eab4d0abde434b555558e4b@000000_oswg2028oswg900oswg170_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>大厂悄然入局，银发AI浪潮背后有“推手”</strong></p>
+  <p>AI浪潮在下沉市场、在中老年人群体出圈，并非偶然。</p>
+  <p>热闹的AI拜年视频、AI红包大战和AI副业背后，其实早有大厂的身影，它们通过适老化产品和功能服务作为突破口，悄悄布局下沉市场的“银发生态”。</p>
+  <p>去年年底，腾讯推出了专为中老年人设计的AI教学App“时光易点”。</p>
+  <p>今年1月，京东CEO刘强东为家乡宿迁光明村赠送年货的消息广受关注。领取现场，乡亲们对新手机表现出浓厚兴趣。几位老人围着WIKO X70手机，无需翻菜单，用方言就打开了想要的应用。</p>
+  <p>与此同时，京东京造第二批自研AI玩具也在1月上线，此次新增产品在此前针对儿童开发的陪伴玩具基础上，新开发了针对年轻人和老年人的AI玩具。</p>
+  <p>百度则是推出“百度居民服务Agent”的智能终端与服务模式，提供不同类型多款设备选择，大字体、大音量、语音交互，老人不用学复杂操作，通过与AI说话就能查信息、叫服务、连子女。</p>
+  <p>当60后、70后逐渐步入退休年龄，他们可能成为下一个10亿级数字消费群体。而AI，正成为连接他们与互联网的桥梁。</p>
+  <p>正如一位产品经理所说：“以前我们教老人怎么用手机，现在我们要帮他们用手机创造价值。”</p>
+  <p>这个春节甚至是未来，银发族不再是AI浪潮的旁观者，他们正从被动使用者转变为主动创造者，拍视频、开小店、讲故事、抢红包等行为将成为常态，而这场由AI点燃的银发浪潮，才刚刚开始。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247609462&amp;idx=1&amp;sn=b6b29c7902a5c4c32292a275283347c7&amp;chksm=ff89c7dd2658874b2970d178ed1458e5b9f490d81b9618a48474695185e3f59c7797af82b02f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：陈桥辉 陈桥辉，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688239515217796</id>
+            <title>人形机器人狂奔2026：谁为盛宴买单?</title>
+            <link>https://www.36kr.com/p/3688239515217796</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688239515217796</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 03:24:32 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_5a49792906784c3c813ca9ab469abaf3@000000_oswg75388oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p>作者 | 黄昱 &nbsp;编辑 | 松壑 &nbsp;</p>
+  <p>当2026年马年春晚的舞台灯光彻底落下，这场被网友戏称为“史上最硬核”的春晚，以魔法原子、银河通用、宇树科技、松延动力四家国产机器人企业的集体亮相，写下了极具未来感的注脚。</p>
+  <p>这一夜，宇树科技的G1与H2人形机器人在武术节目《武 BOT》中手持长棍，与塔沟武校的少年们同台竞技，醉拳、双截棍行云流水，红袍舞剑更显侠气 ；松延动力的仿生机器人化身“机器人孙子”，在小品《奶奶的最爱》里依偎着蔡明撒娇耍宝，脖子延伸、变钱翻跟头的绝技频出 ；魔法原子的MagicBot系列穿梭于主会场《智造未来》，与陈小春、言承旭、罗嘉豪、易烊千玺等艺人同台演绎 ，其机器狗与人形机器人还现身宜宾分会场《立上游》，在表演中与熊猫互动，增添了不少科技趣味 ；银河通用作为本届春晚指定具身大模型机器人，其Galbot G1则在贺岁微电影《我最难忘的今宵》中秀出一段贯口，惊艳四座 。</p>
+  <p>从2025年宇树科技凭借《秧BOT》单枪匹马“破圈”，到2026年四家厂商分据不同节目、各展所长，这场发生在亿万人眼前的“全明星卡位赛”，正是中国人形机器人行业过去一年狂奔的缩影。</p>
+  <p>当机器人从实验室的演示台，走上春晚的国民级舞台，这场科技界的顶级豪赌，也迎来了从技术叙事向商业现实跨越的关键节点。</p>
+  <p>在这场被称作“亿元俱乐部”的盛宴中，每一家登台的企业都试图在数亿观众面前锚定自己的身位，将国民级的知名度转化为商业版图上的胜率。但热闹的聚光灯背后，高昂的春晚“门票”与尚未爆发的真实交付量之间，正形成一种微妙而危险的反差。</p>
+  <p>这一轮人形机器人的“狂奔”，不仅是一场技术维度的展示秀，更是一场从实验室走向“预算表”的战略迁移。行业真正争夺的，不再是谁的关节更灵活，谁能完成更高难度的空翻，而是谁能被写进大客户的年度资本支出清单。</p>
+  <p>正如金沙江创投管理合伙人朱啸虎此前曾“掀翻桌子”式质问：“谁会花十几万买一个机器人去干这些活？”</p>
+  <p>这个问题，在2026年的初春，正在成为全行业的必答题。</p>
+  <p>1 <strong>曝光的选择</strong></p>
+  <p>过去的一年，人形机器人行业经历了一场从实验室演示到真实场景应用和批量交付的加速跑。对于春晚，每家公司的行业身位和自身发展定位也决定了其不同的期待。</p>
+  <p>四家登台企业在春晚落幕后的官方表态，更是精准契合了各自的赛道定位。</p>
+  <p>宇树科技作为春晚三朝元老，在2月16日深夜发布官方推文称，此次携G1与H2人形机器人献上全球首次全自主人形机器人集群武术表演，马年秀出“赛博真功夫”，一举突破运动性能极限，刷新多个全球第一次，包括全球首次连续花式翻桌跑酷、弹射空翻高度超3米、单脚连续空翻+两步蹬墙后空翻、Airflare大回旋七周半，以及最快4m/s的集群快速跑位，还搭载全新自研灵巧手，实现武术道具的快速更换与稳定抓持。</p>
+  <p>其还透露，此次表演采用高并发集群控制系统与自研AI融合定位算法，结合3D激光雷达实现精准定位，攻克运动误差累计难题，宇树科技还明确表示，2025年其人形机器人出货量超5500台，该数据高于此前市场研究机构的预测。</p>
+  <p>银河通用与宇树科技作为估值超百亿的第一梯队，更多是在提升资本市场影响力，为即将到来的上市潮积累势能。</p>
+  <p>银河通用在2月17日表示，旗下机器人“小盖”在春晚上完成的贯口表演，展现了具身大模型的交互能力。</p>
+  <p>据其官方解读，该机器人还具备盘核桃、捡玻璃碎片、叠衣服、串烤肠等精细化操作的技术实力，均实现端到端自主感知、自主决策、自主执行，区别于传统机器人的预编程表演。</p>
+  <p>银河通用还详解了盘核桃的技术难点——核桃表面不规则、受力点实时变化，机器人需先在虚拟世界反复练习，再在现实中纠偏积累“物理手感”，才能实现精准操作。</p>
+  <p>银河通用相关负责人此前透露，本届春晚中，该公司机器人重点突出了“能干活”的一面，背后更大意义在于，能干活就意味着商业化落地的机会。</p>
+  <p>松延动力与魔法原子等估值在30亿元左右的第三梯队，则更像是期待借春晚把自己“推到离一线更近的位置”，试图在行业洗牌期到来前确立市场坐标。</p>
+  <p>松延动力在2月16日深夜的官微推文中表示，此次携独家定制版仿生人形机器人登台，与蔡明完美配合完成小品表演 ，为适配舞台复杂调度，公司在一个多月内完成全产品快速技术迭代，舞台上的仿生机器人实现了近乎真人的面部神态与流畅动作。</p>
+  <p>松延动力强调，仿生机器人并非“实验室产品”，2025年其仿生人脸产品已落地商业导览等场景，公司也是业内为数不多能批量生产仿生人形机器人的企业，此次春晚表演是推动国产人形机器人走向家庭、释放消费级需求的突破性尝试。</p>
+  <p>魔法原子则在官方表态中称，公司是本届春晚舞台唯一兼具“秀表演”与“能干活”的机器人企业，完成了高密度技术首秀：主会场8台人形机器人助力《智造未来》表演 ，宜宾分会场《立上游》节目中，其机器狗MagicDog与人形机器人MagicBot Z1、Gen1也惊喜现身，增添了不少科技趣味 。其表示，多场景、多机型的同步亮相，是对产品一致性、控制架构与工程可靠性的集中检验，是群体智能的具象呈现。</p>
+  <p>本届春晚的舞台效应，给出了最直接的市场反馈。</p>
+  <p>据京东17日发布的数据，马年春晚开播两小时（2月16日20:00-22:00），平台机器人搜索量环比增长超300%，客服问询量增长460%，订单量增长150%，新增订单覆盖全国100多座城市 ；除夕当晚京东上架的“春晚同款”机器人，几分钟内便被快速抢购，魔法原子、宇树科技、松延动力等品牌产品悉数售罄，两台价值近63万元的GALBOT通用机器人G1也被抢购 。</p>
+  <p>春晚虽然展现了这些机器人的能力，将机器人再次推向热搜，但一个现实情况是，目前人形机器人发展尚处于早期阶段。过去人形机器人频繁出现在各大展会，但生活中的实际落地场景似乎还不多。</p>
+  <p>对于中小型初创公司来说，如何在高昂的营销费用与核心技术的研发投入之间寻找平衡，是一个决定生死的抉择。在不少公司CEO看来，与其在电视屏幕上表演遥控下的舞蹈，不如将钱发给研发人员，在工厂里实实在在地干出点活来。</p>
+  <p>有一家深圳机器人公司内部人士对华尔街见闻表示，春晚筹备阶段相关人员也跟公司有过洽谈，但公司觉得费用还是太贵就没选择上。“上春晚的价格也是一直在变化的，当时跟我们深圳的四五个机器人企业聊得是，一起组队上春晚表演一个节目，一起承担一个亿，平均到每一家差不多也要两千多万了。”</p>
+  <p>在该人士看来，除了推广价格昂贵，其认为本届春晚难以复制上一年宇树取得的效果，因为2025年大众对人形机器人都有了一定认知，除非能拿出特别厉害的绝活让观众惊艳，否则登上春晚意义不大。</p>
+  <p>去年备受关注的智元机器人，也在春节前夕退出春晚竞逐。智元机器人相关负责人对华尔街见闻表示，放弃登春晚的核心原因，是企业预算将优先投向具身智能技术研发及产品迭代，暂不考虑大规模舞台曝光类投入。</p>
+  <p>另有接近创业机器人公司人士表示：“现阶段人形机器人企业在宣传上最看重的还是希望能被投资人看到，以及能带来直接的大客户订单，经过过去一年后，大众宣传带来的效益已经明显减弱了。”</p>
+  <p>2 <strong>订单与融资</strong></p>
+  <p>2025年，人形机器人已凭借着跑马拉松、打拳击、踢足球等一次次别开生面的赛事，飞速刷新大众认知。与此同步的是，人形机器人的商业化也不断加速。</p>
+  <p>去年7月，智元机器人和宇树科技中标了中移（杭州）信息技术有限公司（中国移动全资持股）的人形双足机器人代工服务采购项目，总预算超过1.2亿元。</p>
+  <p>国泰海通指出，本次采购招标落地是国内人形机器人行业商业化进程中的重要里程碑事件，当前人形机器人产业处于“从0到1”的关键阶段。</p>
+  <p>具有标杆性意义的订单，还出现了不少。</p>
+  <p>被称作“人形机器人第一股”的优必选在2025年9月份以一笔2.5亿的订单刷新全球人形机器人最大金额订单后，10月又中标“广西具身智能数据采集及测试中心设备采购及安装”项目，订单金额达1.26亿元。</p>
+  <p>人形机器人行业的火热不仅体现在舞台和多个大额订单上，还体现在企业的融资与上市节奏上。</p>
+  <p>根据IT桔子数据，截至2025年12月21日，超过600多家投资方“真金”加码具身智能，全年融资事件超304起、总融资额达到379亿元，分别是2024年的2.95倍、4.05倍，是2023年的7.24倍、4.37倍。</p>
+  <p>与此同时，人形机器人企业也迎来了上市热。宇树科技已于2025年11月完成IPO辅导，正冲刺A股“人形机器人第一股”；智元机器人通过收购上纬新材获得上市平台并完成管理层更迭；乐聚机器人、云深处等头部玩家也在加速推进上市进程。</p>
+  <p>3 <strong>量产之难</strong></p>
+  <p>长期以来，人形机器人被视为通用人工智能（AGI）在物理世界的终极载体，但昂贵的研发成本与模糊的商业边界一直如影随形。这种局面在过去一年发生了根本性的逆转。</p>
+  <p>资本的疯狂涌入与产业政策的密集出台，将这个原本处于深水区的行业推向了聚光灯中心。但从2025全年的实际产能来看，人形机器人的规模化量产虽然明显起量，但还处于起步阶段。</p>
+  <p>Omdia发布的2025全年数据显示，全球人形机器人出货量约为1.3万台，是2024年的5倍还多。</p>
+  <p>但从具体企业的出货量来看，目前超过1000台的仅有三家，且全部来自中国，依次为智元机器人、宇树科技、优必选，对应出货量分别为5168台，4200台和1000台。</p>
+  <p>在当前阶段，出货量是每家公司都很看重的事情，市场第一的位置尤为重要。因此，对于最受关注的宇树而言，其对这份自己没有拿到第一位置的榜单也发出了质疑。</p>
+  <p>1月22日，宇树科技澄清表示，2025年全年其人形机器人实际出货量超过5500台，2025年本体量产下线超过6500台。</p>
+  <p>该公司还特别强调，这些数据均为纯人形机器人的数量，不包括双臂轮式等其他机器人产品。而在此次春晚表态中，宇树科技再次强调这一高于此前市场预测的数据。</p>
+  <p>对自己的积极“正名”，反映出2026年人形机器人企业已经迎来更为严苛的考验。</p>
+  <p>有机器人行业投资人士告诉华尔街见闻：“去年机器人行业很热闹，但更多是普及大众认知的一年，外界对这个行业也有很多不切实际的预期。今年市场已经转向客观和冷静，更考验企业的交付能力和产品稳定投入使用的能力。”</p>
+  <p>这种观点反映了市场在热潮之下的某种反思：如果没有真实的市场订单支撑，再华丽的春晚表演也只能是昂贵的“烟花”。</p>
+  <p>TrendForce集邦咨询指出，随着厂商迈向量产布局，寻找人形机器人的应用价值成为现阶段焦点，厂商发展重心已从单纯的软硬件研发转向实际应用场景的落地。</p>
+  <p>4 <strong>多元路径可能</strong></p>
+  <p>人形机器人要真正从实验室走向在社会中的规模化商业落地，必须先回答好“谁来买单”的问题。</p>
+  <p>根据场景成熟度与客户账本逻辑，当前人形机器人企业的商业化路径大致可以分为四条，而本届春晚四家企业的技术展示与官方表态，也勾勒出行业多元化商业化的探索方向。</p>
+  <p>首先是制造业领域的“进厂”逻辑，这是目前确定性最高、落地最快的路径。</p>
+  <p>在汽车制造、3C电子及仓储物流等环境高度可控的工厂内，人形机器人正逐步从“参观项目”变为“生产劳动力”。核心逻辑在于解决高价值工位上的劳动力缺口，任务涵盖了精密的零部件装配、物料搬运以及对精度要求苛刻的质量检测。</p>
+  <p>以优必选、宇树科技、智元机器人、智平方和海外的Figure AI、特斯拉等为代表，都将工业场景作为商业化的重点。宇树科技此次春晚展示的高运动性能、集群协同能力与灵巧手技术，正是工业场景落地的核心技术支撑。</p>
+  <p>有人形机器人相关的投资者告诉华尔街见闻，这一路径的商业闭环完全建立在严苛的ROI（投资回报率）考核之上。</p>
+  <p>工厂CFO们并不会为“高科技感”买单，他们只看每小时的综合运营成本是否能低于人工成本，因此在采购上的主流模式仍是“试用+小批量验证”，远未到大规模采购的阶段。</p>
+  <p>在服务业领域，进入政商服务、零售、导览、酒店文旅、教育等公共空间，这是当前人形机器人商业化的第二条路径。同时在人形机器人当前的水平下，相较于进入工厂，这条路径也更具有可行性。</p>
+  <p>这种路径更具技术溢价和营销价值，通过“科技感”吸引流量，并完成简单的业务闭环。部分企业已推出针对性方案，实现在复杂人流环境下的平稳作业与智能互动。松延动力的仿生人形机器人落地商业导览、银河通用机器人的生活化服务操作，均是该路径的核心探索。</p>
+  <p>不过，由于人形机器人整机单价依然高企，为了推动在公共空间的规模化使用，一些企业也在探索商业模式灵活多样：除了直接销售，还可通过项目制、租赁、RaaS订阅、IP联名等多种方式变现。</p>
+  <p>典型代表包括，智元机器人推出的“擎天租”平台，采用RaaS（机器人即服务）模式，依托平台中的多元品牌机器人，以及智元机器人在拟人交互、多任务执行和稳定运行等方面形成的交付能力。该类方案容易适配企业年会、商业促销、展览展示、文旅活动等多类高频、短周期的商业与公共场景。</p>
+  <p>擎天租平台数据显示，上线三周后，擎天租注册用户数已突破20万，日均租赁订单稳定在200单以上。</p>
+  <p>将人形机器人可适用的服务场景进行明确的模块化划分，也是当前厂商的重要商业化尝试。通用机器人企业智平方在去年底推出了具身智能服务空间“智魔方”，目前包括四大独立功能模块：咖啡、冰淇淋、娱乐、零售。如今已在北京、深圳等地落地应用。</p>
+  <p>未来三年，智平方计划在全国落地1000个智魔方，覆盖景区、商业街区、公园、文博场馆等典型文商旅场景。一名智平方内部人士告诉华尔街见闻：“智魔方推出的效果很好，甚至有些超出我们的预期，这种模块化的具身智能服务之前谁也没做过，一经推出很受大众欢迎，各地很买单，最近陆陆续续又有几十个智魔方订单。”</p>
+  <p>作为科研的用途，是当前商业化的第三条路径，主要面向高校、科研院所等，像宇树科技、智元机器人、星动纪元等，都将其作为战略重点或早期核心客户群。宇树科技的高运动性能机器人，成为科研领域的重要实验载体。</p>
+  <p>人形机器人的第四条商业化路径，则是瞄准C端用户，终极愿景是将人形机器人送入千家万户。尽管这面临最复杂的物理环境和最严苛的成本挑战，但破冰行动已经开始。</p>
+  <p>目前，这一路径的尝试主要是在培养“极客与教育、娱乐”市场。在这一市场中人形机器人目前虽然难以承担繁重的家务，但已经展现出不错的吸金能力。</p>
+  <p>宇树科技和松延动力等是这一路径的主要参与者。</p>
+  <p>松延动力创始人、董事长姜哲源对华尔街见闻表示，人形机器人没能进入消费级，是因为技术达不到、模型泛化性不够，没法完成养老护理、家政等工作。松延动力此次春晚展示的仿生人形机器人，正是其向C端家庭场景探索的重要布局。</p>
+  <p>“我们发布小布米（去年10月推出，售价仅9998元）的想法是，如果人形机器人没办法完成这些工作，就先给人带来情绪价值，陪小孩、教小孩编程、学英语，这是短期能快速走进家庭的方向。”姜哲源说道。</p>
+  <p>5 <strong>爆发期尚远</strong></p>
+  <p>人形机器人行业究竟距离真正的爆发点还有多远？</p>
+  <p>这个问题的答案或许不仅取决于技术白皮书上的参数，还取决于企业财务报表上的那一栏资本开支。</p>
+  <p>行业真正成熟的标志，需要它被正式写进企业的固定资产台账，与传统工业设备一并接受折旧审视。</p>
+  <p>去年小鹏的IRON人形机器人发布会上，何小鹏表示如果IRON进厂打螺丝，频繁操作带来的高磨损度，几个月就要换一次手，而换一次的费用“可以雇用一个人工好几年”。</p>
+  <p>彼时，小鹏给IRON的“offer”是新车的代言人，并计划让其进入导览、导购、导巡等应用场景。</p>
+  <p>腾讯首席科学家、Robotics X实验室主任张正友认为，人形机器人的商业化远还没到“大哥大时代”，现在大部分是用来做数据采集、科研、导览等。他指出，无论是核心技术攻关，还是工程化落地的精进，要真正满足多元场景的高标准、严要求，使具身智能走进千家万户与生产服务一线，仍需付出巨大努力，持续在关键难点上寻求切实的突破。</p>
+  <p>有乐观者认为人形机器人的爆发会在2030年之前，但也有人认为要等到这之后。瑞银证券中国工业分析师王斐丽表示，一个关键节点是“电动汽车时刻”，即技术瓶颈被攻克后，销量在5年内从100万台跃升至1000万台的爆发点。对于人形机器人，这个时刻在五年内“不太可能出现”。</p>
+  <p>要让人形机器人能真正去干活，行业普遍认为主要是具身智能的数据不足。姜哲源指出，目前数据规模不够，很多地方政府、上市公司都在建具身智能训练场采数据反映出目前是严重的数据荒时代，2026年数据短缺也没有特别明显的改善。</p>
+  <p>智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青也表示，智元现在最看重的就是能够让机器人尽可能多的进入一些真实场景，然后在真实场景里面去获取高质量的数据，这对机器人公司现在的技术路径来讲是最关键的一步。</p>
+  <p>此次春晚四家企业的舞台表演，也是机器人在真实复杂场景中积累数据、验证技术的重要过程。</p>
+  <p>即便行业爆发期还很远，但外界普遍认为2026年人形机器人行业已迎来规模大幅增长的起点。摩根士丹利将2026年中国人形机器人销量预测上调一倍至28000台，同比增长高达133%。摩根士丹利认为，这一增长趋势将持续加速，到2030年销量预计增至26.2万台，2035年更将达260万台。</p>
+  <p>IDC 预测，到 2026 年，中国人形机器人应用场景将提升至当前的3倍以上，市场规模将近13亿美元，同比增长翻倍以上。</p>
+  <p>具身智能的狂奔，本质上需要一场从技术叙事向经济叙事的转换。</p>
+  <p>2026年春晚的“机器人狂欢”，四家企业的技术突破与官方表态，勾勒出人形机器人商业化的不同路径，而春晚带来的市场热度与订单增长，也让行业看到了技术落地的真实可能。</p>
+  <p>在人形机器人被“利润表”托住之前，它更像是一场关于物理世界数字化的豪赌；而当它被写进CFO的固定资产台账后，它才真正从科技梦想落地为一门成熟的工业生意。</p>
+  <p>狂奔之下，脚踏实地。全球机器人产业化的“破晓时刻”已经越来越近了，没有人想要缺席，但谁能熬到预算表真正生效的那一天，才是最终的赢家。</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU3MjA5NDM5OQ==&amp;mid=2247522529&amp;idx=1&amp;sn=b78cf4e06c7e5b911d341f9b6c60b5fb&amp;chksm=fdd9156670678b2a9d27f88ea075fedcd0940014c29f4fbc42c72d2e977054c9c2241a4f15c4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“全天候科技”（ID：iawtmt）</a>，作者：全天候科技，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688071289024388</id>
+            <title>改变人类历史的马，居然是隐藏款宝藏生肖</title>
+            <link>https://www.36kr.com/p/3688071289024388</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688071289024388</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 02:23:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_1510d4cfc3b64486ad1f37135a4a12ed@000000_oswg115581oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>农历春节今年迎来了马年，作为曾经对人类文明推动最大的“动力”，以及近些年青年口中的“牛马”流行语，随着时间的流逝，我们与“马”的关系发生了许多变化，但是不变的是，它依旧是最重要的物种。</strong></p>
+  <p><strong>人类常常以为，历史是由自己创造的，但公平地说，那是马和我们一起创造的，没有马，整个历史都得改写。</strong></p>
+  <p>作者 | 维舟&nbsp;</p>
+  <p>编辑 | 程迟&nbsp;</p>
+  <p>题图 |&nbsp;unsplash&nbsp;</p>
+  <p>在这个世界上，至少生活着150万种生物，要说哪种动物对人类历史影响最大，那必定是：马。</p>
+  <p>任何一个社会在向前发展的进程中，都离不开对生物资源的开发利用，而对驯养动物的利用，无非就是指望它们能满足这么几种需求：提供动力或劳力（役畜）；提供肉食（肉畜）；最好皮、奶、毛也能满足人类生活所需；当然，还有精神需求，宠物可以陪伴。很多动物都不完美：猪不能驱策、运载，也没什么猪奶；羊作为肉食和皮毛很好，但同样不能提供动力；牛倒是很好，但美中不足的是速度太慢；只有马能满足所有这一切。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_60813eb5e943498bae57dc81059df166@000000_oswg96345oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/unsplash）</p>
+  <p>在蒸汽动力广泛应用之前，任何一个发达的人类文明其实都得益于马带来的强大推动力，历史学家斯蒂芬·安布罗斯指出：“1801年，一个关键事实是，世界上没有什么能比马的速度更快。没有任何人、制造品、蒲式耳小麦、大块牛肉，信件、信息，以及任何形式的想法、订单或指示能够移动得更快。”仅仅这一点，就对人类历史有着决定性意义。</p>
+  <p><strong>01 战马打造帝国</strong></p>
+  <p>直到19世纪战争机械化之前，对战争而言最具决定性的三项技术发明之一，就是马的驯化（另两项是金属武器的出现和火药的发明），这赋予了战士更大的灵活性和更快的速度，并增强了军队和政府的力量。别的不说，没有马，历史上那些疆域辽阔的大帝国就不太可能出现，因为没有一支快速移动的机动军事力量和政令的有效下达，就很难维持大片领土的统一。</p>
+  <p>事实上，在马成功驯养之前，欧亚大陆上分布的都是彼此孤立的城邦国家乃至部落社会。最早成功驯养马匹的，据推定是公元前4000-前3500年间南俄草原的居民。不过，最初他们只是把它像牛一样利用——挤马奶、吃马肉。直到公元前2000年左右，它才开始被用于骑乘，哈萨克草原上辛塔什塔（Sintashta）文化的印欧系牧民首次将马和木轮车结合起来，由此发明并完善了马拉战车。这种由两名战士驾驭的两轮轻型战车引发了一场军事革命，在接下来的数百年里，这些雅利安人扩张到近东、印度、欧洲和中国北方。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_438bac7a85814737b6b33d452d08fb04@000000_oswg391824oswg977oswg713_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/Wikipedia）</p>
+  <p>早期的战车很简陋，但对当时仅有落后装备的敌人来说，已经足够造成心理上的震慑。当双轮战车以20公里的时速从战场上碾压过，一路追击行进，这在当时是一种强大的力量展示。正是在这种新型武器的加持之下，中东的两河流域诞生了人类历史上第一批强大的帝国。早期的美索不达米亚人极为关注养马、驯马、相马等各个环节，不断积累、优化相关的兽医知识，并将之全部服务于军事应用，因为哪个邦国要是不对此投入资源，很快就可能面临失败乃至亡国的危险。</p>
+  <p>欧亚大陆的几乎所有早期文明，都无法与这种新武器对抗。古埃及人曾创造了辉煌的古代文明，但他们长久以来面对的只有努比亚人这样的原始游牧民族，轻易即可击退，当公元前1645年喜克索斯人乘坐双轮马车入侵时，埃及人在战场上遭到决定性失败，喜克索斯人轻而易举就占领了埃及一半国土，统治了埃及近100年。</p>
+  <p>在这一波由中亚草原发端的入侵浪潮中，中国是四大文明古国中最为幸运的。部分是得益于地理位置相对偏僻而安全，华夏先民避免了埃及、两河、波斯、印度那样遭受入侵的命运，而能通过对外接触自主获取马匹、养马知识和战车技术。马的驯养与利用，在华北直到公元前1300年以后的商代中后期才开始逐渐普遍起来，很快就成了衡量国家军事实力的重要标准，所谓“千乘之国”就是指配备了一千辆驷马战车的诸侯国。众所周知，中国人之所以建造长城，就是为了阻挡漠北草原的游牧骑兵。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_b03cf3868bc64997867ceb70c020c40c@000000_oswg113644oswg800oswg530_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/Wikipedia）</p>
+  <p>战马的资源，在此后的两三千年里都直接关乎军力乃至国力的强弱。钱穆曾谈到中国历史上的“北强南弱”之说，以春秋至民国两千多年历史为轴，论证古代战争“全在有马与无马，而无关南人之与北人”。北宋与辽朝激战数十年而不能胜，据宋史学家邓广铭考证，辽朝骨干骑兵其实仅有六万人。这并非偶然，欧洲中世纪早期称霸一时的加洛林帝国，其军事力量的总体规模，不同学者的估算值从五千到五万骑兵不等，现代人或许很难想像这么少的兵力就能维持一个大帝国，因为在冷兵器时代，数万人的重骑兵是步兵无法抵挡的。</p>
+  <p>即便到了近代，战马问题仍能决定军事成败。英国历史学家多米尼克·列文在《俄国与拿破仑的决战》中强调，拿破仑战败的主因是马匹短缺：“马匹实现了现代坦克、卡车、飞机和机动火炮的功能。换句话说，这是一种集震慑、追逐、侦察、运输和机动火力于一体的武器。马匹是关键因素——也许甚至是俄国击败拿破仑的唯一决定性因素。俄国轻骑兵有着巨大优势，使拿破仑从莫斯科撤退的时候得不到粮草供应和安定休息，从而摧毁了拿破仑的军队。1812年，拿破仑不仅失去了所有士兵，而且几乎失去了他入侵俄国使用的全部马匹。1813年，他能够而且确实重新补充了兵员，但事实证明，找新的马匹是更加困难的事情，而且最终成为灾难性的问题。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_f7413831431b424f9fba87918ed77e06@000000_oswg17561oswg270oswg399_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>《俄国与拿破仑的决战》</strong></p>
+  <p><strong>[英]多米尼克·列文 著，吴畋/王宸 译</strong></p>
+  <p><strong>社会科学文献出版社，2014-12</strong></p>
+  <p><strong>02 马造就的交流网络</strong></p>
+  <p>马对历史上的各大帝国都是关键的战略资源，但在近代之前，要装备一支以骑兵为主的军队，本身就需要耗费巨大资源——据估计，装备和维护一个骑士的资源等同于一个300~450英亩的大农场。更关键的是，有句军事名言说“业余的人谈战术，职业军人则研究后勤”，然而在蒸汽动力发明之前，后勤也离不开马的运输能力。</p>
+  <p>从被驯养起，直至19世纪初火车发明之前，马始终是陆地上长距离运输的基本工具。马能比牛速度更快地驮载重物旅行，一匹马做功的功率可达牛的2倍，速率则高出30%-50%。马帮用于运输的马匹，大多吃苦耐劳，能驮70多公斤货物，日行30多公里，连续作业半个月以上。在火车发明之前，人类找不到任何比马更好的工具，能实现人员、货物、信息的远程陆路运输。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_2dec44e25dcf4f7892e0f70647851a5f@000000_oswg221989oswg1080oswg813_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/unsplash）</p>
+  <p>根据学者曹锦清对浙北农村的研究，传统社会的农民，婚配、买卖、生活的活动半径不到5公里。可想而知，在这种自给自足的相对封闭环境下，商品、资本、信息的流动性是极低的，而要打破这种“老死不相往来”的状态，实现族群之间的交往，就离不开迁徙、贸易、交通运输活动，而在火车和汽车普及之前，这都需要马。</p>
+  <p>年鉴学派历史学家布罗代尔曾画出中世纪法国从巴黎到各地旅行所需时间，最远需要15天，而天数越长，受巴黎的政治、经济影响也就越弱。这个道理不难理解：任何一个国家要保持内部统一，都有赖于一个紧密的交流网络。这也是为什么无论波斯帝国、秦帝国、罗马帝国，还是蒙古帝国，都要建立一个通达各地的道路网络，而在古代的条件下，政令、信息的最快传递只能依靠不断更换马匹和骑手来接力实现。</p>
+  <p>《人类进化史》认为，“马的驯化和轮式交通工具的出现加速了族群间的通婚”，虽然如今已经很难追溯上古时代的族群通婚，但后世的情形有助于我们理解这一点：19世纪的欧洲社会还是熟人社会，但自行车的出现让人们能有机会认识相距较远的陌生人，一战前的法国有多达400万辆自行车，差不多每10人就有1辆，这大大方便了人际交流、推动社会交往，还由此大幅度减少了近亲结婚，不但后代更健康、聪明，平均身高也有了显著提升。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_7e66baebd2314968986346d1b21db022@000000_oswg24651oswg270oswg375_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>《人类进化史：火、语言、美与时间如何创造了我们》</strong></p>
+  <p><strong>&nbsp;[英]加亚·文斯 著，贾青青/李静逸/袁高喆/于小岑 译</strong></p>
+  <p><strong>中信出版集团，2021-9</strong></p>
+  <p>正是马的牵引力，带来了远方的人员、商品和信息，打破了封闭性的地方社会圈子，使一个越来越大的交流网络成为可能。想想看，别说是“茶马古道”，就是“丝绸之路”，如果没有马队和驼队，那怎么可能？</p>
+  <p>不仅如此，正是由于马、驴、骡子、骆驼等驮畜的存在，才使得城市的扩大成为可能。现代人已经对上千万人口的大都市见惯不惊，但在交通运输落后的古代，数十万人光是每天消耗的口粮、蔬菜，如果没有马源源不断地运进来，除非当地水运高度发达，否则这么大的城市很难维持，甚至根本不可能出现。</p>
+  <p>直到1914年，在任何一个欧洲城市，都能看到大量马车，尽管已经有了蒸汽动力和电车，但市内的公共交通、货物运输、邮递都需要马。在汽车取代马匹成为市内交通的首要方式之前，美国城镇的交通、建设、物流配送都完全依靠马匹，1870年全国有多达860万匹马（相当于每五人就有一匹马），波士顿25万市民就有5万匹马，马的密度达到每平方英里700匹；而在1867年的纽约，奔跑的烈马每周要撞死4个行人。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_07fed3a6998845b08f6843f9cde9e830@000000_oswg258099oswg1080oswg1394_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/unsplash）</p>
+  <p>现在回头来看，马的运输效率低、需要消耗巨量资源（1900年之前，美国粮食产量的1/4都成了马的饲料），而且在城市街道上留下大量马粪，不但需要每天清除，而且造成了许多城市污染和疾病传播，然而，在汽车发明之前，要维持一座大城市的运转，几乎别无他法。何况，从某种意义上来说，汽车这个“铁马”固然动力更强，但它也同样带来污染，甚至更为严重。</p>
+  <p><strong>03 如果没有马，历史会怎样发展？</strong></p>
+  <p>直到一百多年前，人类社会生活还相当依赖马匹，但如今生活在现代都市里的人，马对他们的生活而言已经可有可无，也就很难想像这种动物曾经是多么重要了。</p>
+  <p>1877年，当时的英国随着城市化进程的深入，许多人已逐渐远离动物，当时出版的一本童书《驯化动物》里，描写一位城市孩子哈利听叔叔说，“马儿是人类最有用的仆人，有钱人、穷人都依赖马匹；待马儿死后，它的皮、蹄以及骨头，仍然可以提供给人类，制作出许多有用的东西”，他听完心想，“人类实在不能没了美丽的马儿”，他不禁赞叹仁慈的神，“赐给人类这么高贵并且乐于助人的动物来当好帮手”。</p>
+  <p>但实际上，马还远不只是一个“好帮手”，设想一下，如果没有马，那人类的历史会是什么样？</p>
+  <p>极有可能，这样一个社会的发展会长期停滞。尽管牛也能提供犁地所需要的牵引力，但没有马带来的远距离陆路运输能力，社会的互动频率、交换节奏、沟通深度、传播速度都会大受影响，而这必然会导致彼此孤立的社会单元难以进化出更高级的文明。</p>
+  <p>马并不只是一种可有可无的家畜，正如英国考古学家安德鲁·谢拉特指出的，即便没有家畜，单靠人工种植，也能够维持复杂的城镇生活，但是，“我们不能不重视的是，只有旧大陆迈过了下一个门槛——工业化，这是因为人自身的力量是有限的，但对能量的需求不断增加。在不断寻找力量来源的过程中，使用畜力是第一阶段，但只有将动物驯化才能很好地利用畜力。”换句话说，如果没有马这一关键的畜力，人类文明就无法直接跳到对更大能量的利用上来。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_330a06e02b8f4119a823a5f38dbc4079@000000_oswg66532oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/unsplash）</p>
+  <p>众所周知，人类起源于热带非洲，但最早进化出人类的地方，为什么在漫长的历史上却一直给世人一种“黑暗大陆”的印象？有一种解释认为，这是因为撒哈拉以南非洲有一种叫采采蝇（tsetse fly）的吸血昆虫，它会叮咬牛马，使得有蹄类牲畜难以生存。这不但限制了畜牧业和农业生产，当地政权也难以实现军事扩张。14世纪创建的奥约帝国（Oyo Empire）之所以能壮大，正是由于这个国家没有采采蝇，因而难得地适合养马，于是凭借常备骑兵部队，其统治者得以征服邻近的西非国家。</p>
+  <p>另一个值得参照的反例是美洲大陆。现代考古学证实，马其实发源于北美洲，在漫长的时间里，北美洲一直是马的起源和演化中心，到冰河时代才穿越白令陆桥后迁徙到亚洲的。大约2万年前，马在北美洲彻底灭绝，原因不明，但这个时间节点刚好与人类进入美洲大陆一致，极有可能，是第一批人类对当地马群不加节制地过度捕猎所致。如果是这样，那么美洲印第安人的祖先在无意中犯下了一个巨大的错误——黑格尔早就说过，新大陆文明缺乏两个重要的“进步工具”，那就是铁和马。</p>
+  <p>英国学者彼得·沃森在《大分离：新旧大陆的命运》一书中指出，由于马的灭绝，在新大陆从未发生这样四件事：犁地、驾车、挤奶与骑马，“它们一起构成了一种生活方式，进而决定了欧亚大陆的发展方向——不管是在实践、技术和经济方面的发展，还是思想和政治方面的发展”。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_94a376714510485d91727fba785aa8a0@000000_oswg34082oswg270oswg385_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p><strong>《大分离：新旧大陆的命运》</strong></p>
+  <p><strong>&nbsp;[英]彼得·沃森 著，孙艳萍 译</strong></p>
+  <p><strong>译林出版社，2023-5</strong></p>
+  <p>美洲大陆的文明既没有发明轮子，也没有马可以驯养，这意味着远距离的交流极为困难，最终对当地历史造成了深远的影响：尽管早期国家、王权和战争也出现了，“但是在一个没有马匹或战车的社会，战争只能是局部的。而且由于所有的交通都靠步行，这就决定了守卫征服领土的困难性要大得多（前提是征服者想守住领土，当然这种情况并不经常发生）。因此，政治实体仍然很小，人们基本不会就彼此的神灵交流思想。每个人都不怎么与他人往来，没有像旧大陆那样，由于骑马牧民的广泛分布和不断变化的环境条件，在广阔的区域内发生大规模的冲突。新大陆也没有像阿拉伯语或拉丁语那样的‘国际语言’，可以让人们在广阔的区域自由流动。”</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_dc7a6f2a3bf24265a1d11b2fde52679a@000000_oswg78823oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">（图/unsplash）</p>
+  <p>人类常常以为，历史是由自己创造的，但公平地说，那是马和我们一起创造的，没有马，整个历史都得改写。</p>
+  <p><strong>校对：严严；排版：小蟹</strong></p>
+  <p>[1]Stephen E. Ambrose, Undaunted Courage, 1996, p.52</p>
+  <p>[2][加]玛格丽特·麦克米伦著《战争：人性、社会与被塑造的历史》，巴扬译，岳麓书社，2023年，第66-67页</p>
+  <p>[3][美]白桂思著《丝绸之路上的帝国》，付马译，中信出版社，2020年，第50-53页；王明珂著《华夏边缘：历史记忆与族群认同》，社会科学文献出版社，2006年，第179页；[西]胡安·卡洛斯·洛萨达·马尔瓦莱斯著《从投石索到无人机：战争推动历史》，宓田译，中国社会科学出版社，2019年，第26页</p>
+  <p>[4][西]胡安·卡洛斯·洛萨达·马尔瓦莱斯著《从投石索到无人机：战争推动历史》，宓田译，中国社会科学出版社，2019年，第27页</p>
+  <p>[5][加]玛格丽特·麦克米伦著《战争：人性、社会与被塑造的历史》，巴扬译，岳麓书社，2023年，第67页</p>
+  <p>[6]王明珂著《华夏边缘：历史记忆与族群认同》，社会科学文献出版社，2006年，第179页；袁靖《动物寻古：在生肖中发现中国》，广西师范大学出版社，2023年，第199-200页</p>
+  <p>[7]袁靖《动物寻古：在生肖中发现中国》，广西师范大学出版社，2023年，第204页</p>
+  <p>[8]钱穆《古史地理论丛》中一篇《中国史上之南北强弱观》</p>
+  <p>[9][意]亚历桑德罗·巴尔贝罗著《查理大帝：欧洲之父》，赵象察译，民主与建设出版社，2021年，第265页</p>
+  <p>[10]直到近代，战马在战争中仍起到重要作用。甲午战争爆发前，日本全国保有马匹154.7万匹，军队常备马匹6770匹，战争动员后通过征用和购买，军马增至近4万匹（《沉没的甲午》，第117页）。德国更惊人，在第一次世界大战爆发后，1914年夏天，德国就动用2万辆火车，把200万人的军队、118.9万匹马及其所有装备运送至西线战场。一战初期，德国、俄国和奥匈帝国一共征用了近250万匹马，英国和法国征用的马匹还要多上几十万匹，“在军队对马匹的依赖上，1914年和拿破仑时代没什么两样”，见《企鹅欧洲史：地狱之行，1914-1949》，第46页</p>
+  <p>[11][加]玛格丽特·麦克米伦著《战争：人性、社会与被塑造的历史》，巴扬译，岳麓书社，2023年，第72页</p>
+  <p>[12]《亚细亚民俗研究》（第三辑），第42页</p>
+  <p>[13]历史上马的最快速度是驿马快信公司实现的，为每小时9英里，见[美]罗伯特·戈登著《美国增长的起落》，张林山、刘现伟、孙凤仪译，中信出版社，2018年，第136页.</p>
+  <p>[14][英]加亚·文斯著《人类进化史：火、语言、美与时间如何创造了我们》，贾青青、李静逸、袁高喆、于小岑译，中信出版集团，2021年，第247页</p>
+  <p>[15]“迟至1892年，汉堡市内和城郊还有大约1.2万匹马。据估计，19世纪50年代，每年需要从伦敦街道上清扫2万吨马粪。”见《企鹅欧洲史7》，第393页</p>
+  <p>[16][美]罗伯特·戈登著《美国增长的起落》，张林山、刘现伟、孙凤仪译，中信出版社，2018年，第46页、58页</p>
+  <p>[17][美]罗伯特·戈登著《美国增长的起落》，张林山、刘现伟、孙凤仪译，中信出版社，2018年，第129页</p>
+  <p>[18]李鉴慧《为动物而战：19世纪英国动物保护中的传统挪用》，曾琬淋译，光启书局，2025年，第189-190页</p>
+  <p>[19][英]凯文·希林顿著《非洲史》，赵俊译，东方出版中心，2012年，第20、70、235页</p>
+  <p>[20][英]彼得·沃森著《大分离：新旧大陆的命运》，孙艳萍译，译林出版社，2023年，第138页</p>
+  <p>[21][英]彼得·沃森著《大分离：新旧大陆的命运》，孙艳萍译，译林出版社，2023年，第429-430页</p>
+  <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654891623&amp;idx=1&amp;sn=5a8d30324b1e7e6b9d89cc588d2c09a5&amp;chksm=bc7034723ae22f33e3a343fd7295c3e13cfc488efeb551c1956c79c78ee4ba2337a264ade000&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：维舟 维舟，36氪经授权发布。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://www.36kr.com/p/3688162369908611</id>
+            <title>豆包千问疯狂撒钱，月之暗面疯狂搞钱 | 智能涌现独家</title>
+            <link>https://www.36kr.com/p/3688162369908611</link>
+            <guid isPermaLink="false">https://www.36kr.com/p/3688162369908611</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 01:54:31 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>文｜周鑫雨</p>
+  <p>编辑｜苏建勋</p>
+  <p>春节，热钱涌动在中国大模型赛道上。</p>
+  <p>一端，是狂撒几十亿元发红包、请奶茶，替当家AI应用拉流量的大厂们；另一端，则是股价飞涨、融资迅猛的大模型六小虎们。</p>
+  <p>在搞钱的战场上，开年最大的一笔融资，来自月之暗面。</p>
+  <p>此前彭博社等媒体报道称，近期月之暗面即将完成的超7亿美元融资，由阿里、腾讯、五源资本、九安医疗等老股东领投，并且已经超募。与此同时，月之暗面已经以100亿-120亿美金的估值，无缝开启了新一轮融资。</p>
+  <p>《智能涌现》独家获悉，月之暗面的超7亿美元融资中，股东阵容除了联合领投的老股东们，<strong>还包括老股东高榕创投，以及新增的凯辉基金——这也是凯辉，首次朝大模型公司开枪</strong>；</p>
+  <p>据我们了解，以超100亿美金估值开启的新一轮融资，已经收到了多家机构的意向，<strong>包括欧洲背景的海外基金。</strong></p>
+  <p>有关上述信息，截至发稿前，月之暗面暂无回应。</p>
+  <p>用“<strong>抢</strong>”形容月之暗面这轮融资的局面，一点也不过分。</p>
+  <p>一名知情人士告诉我们，从2025年下半年，月之暗面开启融资之初，不少机构的LP，就“催着投资”。</p>
+  <p>这几轮融资，还吸引到了不少首次对大模型出手的基金。</p>
+  <p>比如，我们得知，<strong>在月之暗面上一轮超7亿美金的融资中，凯辉基金成为了新增股东</strong>——直到2025年5月，凯辉基金管理合伙人段兰春，还在36氪的访谈中提到，凯辉暂时没有参与通用大模型或底层Infra的投资，原因是凯辉的投资策略是“重落地、重生态”。</p>
+  <p>这或许是除了2023年初，行业对大模型最大的一次FOMO（错失恐慌症）。</p>
+  <p>溯其缘由，是自港股IPO以来，智谱和MiniMax这两家大模型初创公司飞速上涨的市值，再次给予一级市场投资大模型的热情。</p>
+  <p>自2026年初相继IPO后，智谱和MiniMax的股价就水涨船高。尤其2月12日，两家公司上架新一代模型后，市值又达到了新的峰值——</p>
+  <p>截至2月17日，智谱的盘中最高市值已经超过2200亿港元，MiniMax则超过2600亿港元，两者相较上市初期，均翻了四五倍。</p>
+  <p>二级市场可观的回报，也让一级市场的捕手们，将目光投向尚未上市的月之暗面，试图囤积居奇。</p>
+  <p>港股IPO，也将中国大模型的影响力扩大至海外。可见的是，此前鲜少接触中国企业的欧洲资本，也在新一轮融资中，罕见地向月之暗面伸出了橄榄枝。</p>
+  <p>一名知情人告诉《智能涌现》，月之暗面上一轮7亿美金的融资，新投资者“速度快才能抢到份额”。以超100亿美金估值开启的新一轮融资，某种意义上也是没抢到上一轮份额的机构，“推着开启的”。</p>
+  <p>与此同时，“<strong>智谱和MiniMax的市值，给了大模型公司在二级市场的一个估值锚点。</strong>”另有知情人士表示。</p>
+  <p>之前，月之暗面和阶跃星辰的估值都相对偏低。即便如今估值已超过100亿美金，但相较智谱（估值约280亿美金）和MiniMax（估值约330亿美金），两家未上市的模型初创公司，还有数倍的差距。</p>
+  <p>二级市场逐渐验证了模型公司的价值，这一现象也改变了月之暗面和阶跃星辰的融资策略：自2025年下半年以来，<strong>开启滚动融资，迅速抬高估值</strong>。</p>
+  <p>就月之暗面而言，2025年12月底，公司宣布完成5亿美金的融资后，就开启了价值7亿美金的新一轮；之后无缝开启的，则是如今以超100亿美金估值快速推进的融资——短短两个月，月之暗面估值翻了超过2.2倍。</p>
+  <p>如今，大模型六小虎，纷纷在一二级市场，加快了筹措资金的步伐。他们最强劲的对手——大厂战队的字节、阿里、腾讯，已经先他们一步，迈入了撒钱换用户的阶段。</p>
+  <p>春节期间，赞助上春晚，豪掷几十亿元发红包、请奶茶，显然，大厂们已经更早抢滩“AI国民应用”。</p>
+  <p>对于留在场上的4家大模型创业公司而言，稳住模型技术第一梯队的位置，是当下最重要的命题。</p>
+  <p>阶跃星辰董事长印奇在最近的访谈中提到，<strong>基模研发，一年需要30亿-50亿元的资金投入，才能留在牌桌上</strong>。</p>
+  <p>高涨的估值，仍愿意买单的一二级市场，对创业公司而言，是个乐观的信号。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260218/v2_04588998e3174198ba3b36ad2da177ec@5783683_oswg478457oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1" /></p>
+  <p class="img-desc">欢迎交流！</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
