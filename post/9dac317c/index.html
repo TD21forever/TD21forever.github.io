@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic|JetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="大一软件部上课课件,python入门资料整理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python Tutorial">
+<meta property="og:url" content="https://www.dcts.top/post/9dac317c/">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="大一软件部上课课件,python入门资料整理">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-11-05T10:40:03.000Z">
+<meta property="article:modified_time" content="2026-03-01T22:13:23.855Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="入门">
+<meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.dcts.top/post/9dac317c/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>Python Tutorial | C1oser</title>
+  
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-book">
+
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movie">
+
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-shuoshuo">
+
+    <a href="/shuoshuo/" rel="section"><i class="fab fa-qq fa-fw"></i>说说</a>
+
+  </li>
+        <li class="menu-item menu-item-onepage">
+
+    <a href="/onepage/" rel="section"><i class="far fa-angry fa-fw"></i>忠言</a>
+
+  </li>
+        <li class="menu-item menu-item-rssdocs">
+
+    <a href="/rssdocs/" rel="section"><i class="far fa-angry fa-fw"></i>rssdocs</a>
+
+  </li>
+        <li class="menu-item menu-item-gallery">
+
+    <a href="/gallery/" rel="section"><i class="fas fa-parachute-box fa-fw"></i>摄影</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%84%E6%96%99"><span class="nav-text">资料</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">标准数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String%EF%BC%88%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%89"><span class="nav-text">String（字符串）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Number%EF%BC%88%E6%95%B0%E5%AD%97%EF%BC%89"><span class="nav-text">Number（数字）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List%EF%BC%88%E5%88%97%E8%A1%A8%EF%BC%89"><span class="nav-text">List（列表）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tuple%EF%BC%88%E5%85%83%E7%BB%84%EF%BC%89"><span class="nav-text">Tuple（元组）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Set%EF%BC%88%E9%9B%86%E5%90%88%EF%BC%89"><span class="nav-text">Set（集合）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dictionary%EF%BC%88%E5%AD%97%E5%85%B8%EF%BC%89"><span class="nav-text">Dictionary（字典）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C"><span class="nav-text">其他的一些操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AA%9A%E6%93%8D%E4%BD%9C"><span class="nav-text">骚操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E6%A0%B7%E9%87%8D%E8%A6%81%E7%9A%84%E9%A2%98%E5%A4%96%E8%AF%9D"><span class="nav-text">同样重要的题外话</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/9dac317c/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Python Tutorial
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-11-05 18:40:03" itemprop="dateCreated datePublished" datetime="2018-11-05T18:40:03+08:00">2018-11-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/post/9dac317c/" class="post-meta-item leancloud_visitors" data-flag-title="Python Tutorial" title="浏览">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">浏览：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">大一软件部上课课件,python入门资料整理</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ol>
+<li>基础学习教程<ol>
+<li> <a href="https://link.zhihu.com/?target=http://www.runoob.com/python3/python3-tutorial.html">Python3 教程 | 菜鸟教程</a></li>
+<li> <a href="https://link.zhihu.com/?target=http://www.pythondoc.com/pythontutorial3/">Python tutorial 3.5.2 documentation</a></li>
+<li> <a target="_blank" rel="noopener" href="http://codingpy.com/books/thinkpython2/">《Think Python》</a></li>
+<li> 如果你不喜欢看文档,<a target="_blank" rel="noopener" href="https://morvanzhou.github.io/">莫烦Python</a>视频教程</li>
+</ol>
+</li>
+<li>练练手<ol>
+<li> github上的一些项目</li>
+<li> <a target="_blank" rel="noopener" href="https://github.com/TD21forever/Mini-Python-Project">别人的一些项目</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="标准数据类型"><a href="#标准数据类型" class="headerlink" title="标准数据类型"></a>标准数据类型</h3><p>Python3 中有六个标准的数据类型：</p>
+<ul>
+<li>  String（字符串）</li>
+<li>  Number（数字）</li>
+<li>  List（列表）</li>
+<li>  Tuple（元组）</li>
+<li>  Set（集合）</li>
+<li>  Dictionary（字典）</li>
+</ul>
+<h3 id="String（字符串）"><a href="#String（字符串）" class="headerlink" title="String（字符串）"></a>String（字符串）</h3><ol>
+<li><p>字符串的基本操作</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">"自动化科协"</span></span><br><span class="line">department = <span class="string">"软件部"</span></span><br><span class="line">print(name+department)<span class="comment">#字符串做加法</span></span><br><span class="line">print(name*<span class="number">10</span>)<span class="comment">#字符串做乘法</span></span><br><span class="line">print(name[<span class="number">0</span>])<span class="comment">#取字符串的第一位</span></span><br><span class="line">print(name[-<span class="number">1</span>])<span class="comment">#取字符串的最后一位</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>格式化字符串</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">date_1 = <span class="string">"%d年%d月%d日是%s的生日"</span> %(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_1)<span class="comment">#%d代表数字，%s代表字符串</span></span><br><span class="line">date_2 = <span class="string">"{}年{}月{}日是{}的生日"</span>.<span class="built_in">format</span>(<span class="number">1964</span>,<span class="number">9</span>,<span class="number">10</span>,<span class="string">'马云'</span>)</span><br><span class="line">print(date_2)<span class="comment">#这样就不用%了</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>切片（slice）</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="string">'自动化科协软件部'</span></span><br><span class="line">new_string = string[<span class="number">3</span>:<span class="number">5</span>]<span class="comment">#3包括5不包括</span></span><br><span class="line">print(new_string)</span><br><span class="line">a = <span class="string">'大家好这是我的联系电话110120119,大家有空请别联系我'</span></span><br><span class="line">new_a = a[<span class="number">11</span>:<span class="number">20</span>]<span class="comment">#11包括20不包括</span></span><br><span class="line">print(new_a)</span><br></pre></td></tr></tbody></table></figure>
+
+
+</li>
+</ol>
+<h3 id="Number（数字）"><a href="#Number（数字）" class="headerlink" title="Number（数字）"></a>Number（数字）</h3><blockquote>
+<p>Python3 支持 <strong>int、float、bool、complex（复数）</strong>。 在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long。</p>
+</blockquote>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a,b,c,d = <span class="number">20</span>, <span class="number">5.5</span>, <span class="literal">True</span>, <span class="number">4</span>+<span class="number">3j</span></span><br><span class="line"><span class="built_in">print</span> (a,b,c,d)</span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">type</span>(a),<span class="built_in">type</span>(b),<span class="built_in">type</span>(c)，<span class="built_in">type</span>(d))<span class="comment">#这里用到了type这个函数</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+<h3 id="List（列表）"><a href="#List（列表）" class="headerlink" title="List（列表）"></a>List（列表）</h3><ol>
+<li><p>列表的建立</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>] <span class="comment">#列表的建立用[]</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>列表的遍历（迭代）</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:<span class="comment">#用这种方式遍历</span></span><br><span class="line">	print(one)</span><br><span class="line">```</span><br><span class="line"><span class="keyword">for</span> one <span class="keyword">in</span> list_1:</span><br><span class="line">	print(<span class="built_in">type</span>(one))</span><br><span class="line">```</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+</li>
+</ol>
+<ol start="3">
+<li><p>列表的一些操作</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list_1.reverse()</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.append(<span class="string">'我添加了一个元素'</span>)</span><br><span class="line">print(list_1)</span><br><span class="line">list_1.remove(<span class="literal">None</span>)</span><br><span class="line">print(list_1)</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+</li>
+</ol>
+<h3 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h3><ol>
+<li><p>元组的建立</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tuple_1 = (<span class="number">1111</span>,<span class="string">'2222'</span>,<span class="number">3.333</span>,<span class="literal">True</span>,[<span class="string">'This is a list'</span>],<span class="literal">None</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))<span class="comment">#元组的建立用()</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>元组和列表不同之处</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">Tuple = (<span class="number">3</span>,<span class="number">4</span>)</span><br><span class="line">List[<span class="number">0</span>] = <span class="number">5</span></span><br><span class="line">print(List)</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+</li>
+</ol>
+<h3 id="Set（集合）"><a href="#Set（集合）" class="headerlink" title="Set（集合）"></a>Set（集合）</h3><ol>
+<li><p>集合的建立</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set_1 = {<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">1</span>}</span><br><span class="line">print(set_1)</span><br></pre></td></tr></tbody></table></figure>
+
+
+</li>
+</ol>
+<h3 id="Dictionary（字典）"><a href="#Dictionary（字典）" class="headerlink" title="Dictionary（字典）"></a>Dictionary（字典）</h3><ol>
+<li><p>字典的建立</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">slogan= {</span><br><span class="line">	<span class="string">'Adidas'</span>:<span class="string">'没有不可能（impossible is nothing)'</span>,</span><br><span class="line">	<span class="string">'Nike'</span> :<span class="string">'Just do it'</span>,</span><br><span class="line">	<span class="string">'Lining'</span>:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="string">'4399'</span>	:<span class="string">'一切皆有可能'</span>,</span><br><span class="line">	<span class="comment"># '4399'	:"4399v587"</span></span><br><span class="line">}</span><br><span class="line">print(slogan[<span class="string">'Lining'</span>])</span><br><span class="line">print(slogan[<span class="string">'4399'</span>])</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+</li>
+</ol>
+<hr>
+<h3 id="其他的一些操作"><a href="#其他的一些操作" class="headerlink" title="其他的一些操作"></a>其他的一些操作</h3><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_boyfriend</span>(<span class="params">face,height,money</span>):</span></span><br><span class="line">	<span class="keyword">if</span> face &gt; <span class="number">85</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> height &gt; <span class="number">185</span>:</span><br><span class="line">		print(<span class="string">"oh he is my boyfriend"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">elif</span> money &gt; <span class="number">100000000000000</span>:</span><br><span class="line">		print(<span class="string">"OH God! He must be the one!!!!"</span>)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		print(<span class="string">"Who are you?"</span>)</span><br><span class="line"></span><br><span class="line">find_boyfriend(<span class="number">12</span>,<span class="number">170</span>,<span class="number">11</span>)</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="骚操作"><a href="#骚操作" class="headerlink" title="骚操作"></a>骚操作</h3><ol>
+<li><p>语义化</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">print(<span class="number">1</span> <span class="keyword">in</span> List)</span><br><span class="line">wo = <span class="string">"帅"</span></span><br><span class="line"><span class="keyword">if</span> wo <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">"丑"</span>:</span><br><span class="line">	print(<span class="string">"我很帅"</span>)</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>列表解析</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">b = [i <span class="keyword">for</span> i <span class="keyword">in</span> List]</span><br><span class="line">print(b)</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">b = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List:</span><br><span class="line">    b.append(i)</span><br><span class="line">print(b)</span><br><span class="line">```</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>值交换</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">temp = b</span><br><span class="line">b = a</span><br><span class="line">a= temp</span><br><span class="line">print(a,b)</span><br><span class="line">a,b = b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>join函数</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">"这是一堂"</span>,<span class="string">'严肃的'</span>,<span class="string">"python课程"</span>]</span><br><span class="line">print(<span class="string">"哈哈哈哈啊哈哈"</span>.join(a))</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>列表或者字符串逆序</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="string">'123456789'</span></span><br><span class="line">print(b[<span class="number">2</span>::<span class="number">3</span>])</span><br><span class="line">print(b[::-<span class="number">1</span>])<span class="comment">#从头到尾 如果第三个参数是负数 默认从尾部开始算</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>比大小</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">b = <span class="number">10</span></span><br><span class="line"><span class="number">3</span> &lt; b <span class="keyword">and</span> b &lt; <span class="number">12</span> </span><br><span class="line">print(<span class="number">3</span>&lt;<span class="number">10</span>&lt;<span class="number">12</span>)</span><br><span class="line">print(<span class="number">4</span>&lt;<span class="number">10</span>&lt;<span class="number">9</span>)</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>列表和集合互用，消除重复元素</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">list_1 = [<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>]</span><br><span class="line">print(<span class="built_in">list</span>(<span class="built_in">set</span>(list_1)))</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+</li>
+</ol>
+<h3 id="同样重要的题外话"><a href="#同样重要的题外话" class="headerlink" title="同样重要的题外话"></a>同样重要的题外话</h3><ol>
+<li> 大一少打游戏 晚自习多看点课外书</li>
+<li> 英语很重要 四六级大一总得过了吧</li>
+<li>如果有机会之后会讲什么<ol>
+<li>Markdown<ol>
+<li> Typora…</li>
+<li> <a target="_blank" rel="noopener" href="https://www.zybuluo.com/mdeditor">作业部落</a></li>
+<li> <a target="_blank" rel="noopener" href="https://ouweiya.gitbooks.io/markdown/">常用语法笔记</a></li>
+</ol>
+</li>
+<li>Git<ol>
+<li> <a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000">廖雪峰</a></li>
+<li> <a target="_blank" rel="noopener" href="https://morvanzhou.github.io/tutorials/others/git/5-1-github/">莫烦</a></li>
+</ol>
+</li>
+<li> Linux</li>
+<li>正则表达式<ol>
+<li> <a target="_blank" rel="noopener" href="https://regex101.com/">正则表达式</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>关于问问题<ol>
+<li> 百度谷歌能解决最好</li>
+<li> 如果要问别人，请把代码贴在<a target="_blank" rel="noopener" href="https://paste.ubuntu.com/">这里</a></li>
+</ol>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <span class="post-end-item" title="updated">
+            <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
+            <time title="更新时间：2026-03-02 06:13:23" itemprop="dateModified" datetime="2026-03-02T06:13:23+08:00">
+                <span class="post-end-item-text">更新时间：2026-03-02</span>
+            </time>
+        </span>
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
+
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+              <a href="/tags/%E5%85%A5%E9%97%A8/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
+              <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/c40e0394/" rel="prev" title="CNN&Alexnet模型简单总结">
+                  <i class="fa fa-chevron-left"></i> CNN&Alexnet模型简单总结
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/ba82db5c/" rel="next" title="关于约数的数小知识">
+                  关于约数的数小知识 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+  
+
+
+
+
+
+  <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/9dac317c/',]
+      });
+      });
+  </script>
+<script>
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/post/9dac317c/"
+    }));
+  }, window.Waline);
+});
+</script>
+</body>
+</html>

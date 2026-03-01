@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic|JetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="使用FLask做了个网站参加比赛,算是第一次做前后端交互吧,本篇文章主要是记录参考的资料和建站大致流程,方便日后复习借鉴">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Flask入门（一）——在阿里云部署Flask环境">
+<meta property="og:url" content="https://www.dcts.top/post/6f15ec4d/">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="使用FLask做了个网站参加比赛,算是第一次做前后端交互吧,本篇文章主要是记录参考的资料和建站大致流程,方便日后复习借鉴">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/05/%E5%9B%BE%E7%89%871.png">
+<meta property="article:published_time" content="2019-05-26T14:03:29.000Z">
+<meta property="article:modified_time" content="2026-03-01T22:13:23.855Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="Flask">
+<meta property="article:tag" content="入门">
+<meta property="article:tag" content="阿里云">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/05/%E5%9B%BE%E7%89%871.png">
+
+
+<link rel="canonical" href="https://www.dcts.top/post/6f15ec4d/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>Flask入门（一）——在阿里云部署Flask环境 | C1oser</title>
+  
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-book">
+
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movie">
+
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-shuoshuo">
+
+    <a href="/shuoshuo/" rel="section"><i class="fab fa-qq fa-fw"></i>说说</a>
+
+  </li>
+        <li class="menu-item menu-item-onepage">
+
+    <a href="/onepage/" rel="section"><i class="far fa-angry fa-fw"></i>忠言</a>
+
+  </li>
+        <li class="menu-item menu-item-rssdocs">
+
+    <a href="/rssdocs/" rel="section"><i class="far fa-angry fa-fw"></i>rssdocs</a>
+
+  </li>
+        <li class="menu-item menu-item-gallery">
+
+    <a href="/gallery/" rel="section"><i class="fas fa-parachute-box fa-fw"></i>摄影</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2flask"><span class="nav-text">阿里云部署flask</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3"><span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AEMongoDB"><span class="nav-text">阿里云配置MongoDB</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3-1"><span class="nav-text">参考文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-1"><span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8A%E4%BC%A0MongoDB%E6%95%B0%E6%8D%AE%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">上传MongoDB数据到服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-text">参考资料</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-text">存在的问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-text">相关参考资料</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%AB%E6%8F%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%9F%A5%E7%9C%8B%E7%BD%91%E7%AB%99"><span class="nav-text">扫描二维码查看网站</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/6f15ec4d/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Flask入门（一）——在阿里云部署Flask环境
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-05-26 22:03:29" itemprop="dateCreated datePublished" datetime="2019-05-26T22:03:29+08:00">2019-05-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/post/6f15ec4d/" class="post-meta-item leancloud_visitors" data-flag-title="Flask入门（一）——在阿里云部署Flask环境" title="浏览">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">浏览：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">使用FLask做了个网站参加比赛,算是第一次做前后端交互吧,本篇文章主要是记录参考的资料和建站大致流程,方便日后复习借鉴</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h3 id="阿里云部署flask"><a href="#阿里云部署flask" class="headerlink" title="阿里云部署flask"></a>阿里云部署flask</h3><h4 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
+<li>  <a target="_blank" rel="noopener" href="https://juejin.im/post/5a5a1408518825733060e232#heading-6">通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04）</a></li>
+</ul>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
+<li><p><code>app.run(host='0.0.0.0',port=5000)   # 设置外部访问限制，本例表示所有ip均可访问，端口为5000</code></p>
+</li>
+<li><p>导出的<code>requirements.txt</code></p>
+<ul>
+<li><p>  导出方法 <code>pip freeze &gt; requirements.txt</code></p>
+</li>
+<li><p>安装方法 <code>pip install -r requirement.txt</code></p>
+  <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">alembic==<span class="number">1.0</span><span class="number">.9</span></span><br><span class="line">Babel==<span class="number">2.6</span><span class="number">.0</span></span><br><span class="line">blinker==<span class="number">1.4</span></span><br><span class="line">Click==<span class="number">7.0</span></span><br><span class="line">coverage==<span class="number">4.5</span><span class="number">.3</span></span><br><span class="line">decorator==<span class="number">4.4</span><span class="number">.0</span></span><br><span class="line">defusedxml==<span class="number">0.6</span><span class="number">.0</span></span><br><span class="line">dominate==<span class="number">2.3</span><span class="number">.5</span></span><br><span class="line">Flask==<span class="number">1.0</span><span class="number">.2</span></span><br><span class="line">Flask-Babel==<span class="number">0.12</span><span class="number">.2</span></span><br><span class="line">Flask-Bootstrap==<span class="number">3.3</span><span class="number">.7</span><span class="number">.1</span></span><br><span class="line">Flask-Login==<span class="number">0.4</span><span class="number">.1</span></span><br><span class="line">Flask-Mail==<span class="number">0.9</span><span class="number">.1</span></span><br><span class="line">Flask-Migrate==<span class="number">2.4</span><span class="number">.0</span></span><br><span class="line">Flask-OpenID==<span class="number">1.2</span><span class="number">.5</span></span><br><span class="line">Flask-SQLAlchemy==<span class="number">2.3</span><span class="number">.2</span></span><br><span class="line">Flask-WhooshAlchemy==<span class="number">0.56</span></span><br><span class="line">Flask-WTF==<span class="number">0.14</span><span class="number">.2</span></span><br><span class="line">flipflop==<span class="number">1.0</span></span><br><span class="line">guess-language==<span class="number">0.2</span></span><br><span class="line">itsdangerous==<span class="number">1.1</span><span class="number">.0</span></span><br><span class="line">Jinja2==<span class="number">2.10</span><span class="number">.1</span></span><br><span class="line">Mako==<span class="number">1.0</span><span class="number">.9</span></span><br><span class="line">MarkupSafe==<span class="number">1.1</span><span class="number">.1</span></span><br><span class="line">pbr==<span class="number">5.1</span><span class="number">.3</span></span><br><span class="line">python-dateutil==<span class="number">2.8</span><span class="number">.0</span></span><br><span class="line">python-editor==<span class="number">1.0</span><span class="number">.4</span></span><br><span class="line">python3-openid==<span class="number">3.1</span><span class="number">.0</span></span><br><span class="line">pytz==<span class="number">2019.1</span></span><br><span class="line">six==<span class="number">1.12</span><span class="number">.0</span></span><br><span class="line">SQLAlchemy==<span class="number">1.3</span><span class="number">.3</span></span><br><span class="line">sqlalchemy-migrate==<span class="number">0.12</span><span class="number">.0</span></span><br><span class="line">sqlparse==<span class="number">0.3</span><span class="number">.0</span></span><br><span class="line">Tempita==<span class="number">0.5</span><span class="number">.2</span></span><br><span class="line">visitor==<span class="number">0.1</span><span class="number">.3</span></span><br><span class="line">Werkzeug==<span class="number">0.15</span><span class="number">.2</span></span><br><span class="line">Whoosh==<span class="number">2.7</span><span class="number">.4</span></span><br><span class="line">WTForms==<span class="number">2.2</span><span class="number">.1</span></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+</li>
+</ul>
+</li>
+<li><p><code>gunicorn</code> 设置启动参数 部署到服务器上时 <strong>‘127.0.0.1’ 改为你的服务器的私有IP</strong>，<strong>并在服务器上设置相关端口（如5000）的安全组 test改为项目运行入口 如run</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gunicorn -w 4 -b 172.xxx.xxx.207:5000 run:app</span><br><span class="line">nohup gunicorn -w 4 -b xx.xx.xx.xx:xxxx <span class="built_in">test</span>:app&amp;  <span class="comment">#后台启动</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>安装和配置Nginx</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># file_name=default</span></span><br><span class="line">server {</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name example.org; <span class="comment"># 这是HOST机器的外部域名，用地址也行</span></span><br><span class="line"></span><br><span class="line">    location / {</span><br><span class="line">        proxy_pass http://your.私有IP:5000; <span class="comment"># 指向 gunicorn host 的服务地址，注意，这里填我们服务器的私有IP</span></span><br><span class="line">        proxy_set_header Host <span class="variable">$host</span>;</span><br><span class="line">        proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;</span><br><span class="line">    }</span><br><span class="line">  }</span><br></pre></td></tr></tbody></table></figure>
+
+<p>用xshell将项目的文件传到服务器上（不用传在本地建的虚拟环境中使用的包） 至此，理论上在浏览器中输入公有的ip地址，就可以访问项目</p>
+</li>
+<li><p>有关<code>gunicorn</code>的相关操作</p>
+<ul>
+<li><pre><code>  pkill gunicorn  //关闭gunicorn</code></pre>
+</li>
+<li><pre><code>  pstree -ap|grep gunicorn</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="阿里云配置MongoDB"><a href="#阿里云配置MongoDB" class="headerlink" title="阿里云配置MongoDB"></a>阿里云配置MongoDB</h3><h4 id="参考文档-1"><a href="#参考文档-1" class="headerlink" title="参考文档"></a>参考文档</h4><ul>
+<li>  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/pfnie/articles/6759105.html">Linux下MongoDB安装和配置详解</a></li>
+</ul>
+<h4 id="注意事项-1"><a href="#注意事项-1" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
+<li><p>先开启服务器Mongod，在使用Mongo操作数据库</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#必须在mongod的目录下</span></span><br><span class="line">./mongod --config /usr/<span class="built_in">local</span>/mongoDB/mongodbserver/etc/mongodb.conf</span><br><span class="line"><span class="comment">#如果已经添加到了系统路径，可以直接</span></span><br><span class="line">mongod --config /usr/<span class="built_in">local</span>/mongoDB/mongodbserver/etc/mongodb.conf</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>  错误<code>./mongod: error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory</code> 解决办法：<code>apt-get install libcurl4-openssl-dev</code></p>
+</li>
+<li><p>将mongod路径添加到系统路径中，方便随处执行mongod命令</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/<span class="built_in">local</span>/mongoDB/mongodbserver/bin</span><br><span class="line"><span class="built_in">source</span> /etc/profil  使系统环境变量立即生效</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+
+
+</li>
+</ul>
+<h3 id="上传MongoDB数据到服务器"><a href="#上传MongoDB数据到服务器" class="headerlink" title="上传MongoDB数据到服务器"></a>上传MongoDB数据到服务器</h3><h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
+<li>  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/kevingrace/p/8184087.html">MongoDB日常运维操作命令小结</a> &nbsp;</li>
+</ul>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><ol>
+<li> MongoDB没有添加访问权限</li>
+<li> MongoDB没有开机自启</li>
+<li> 配置原理不熟悉</li>
+</ol>
+<h3 id="相关参考资料"><a href="#相关参考资料" class="headerlink" title="相关参考资料"></a>相关参考资料</h3><ol>
+<li> <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/5b73444eb47d?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">新手的Flask+uwsgi+Nginx+Ubuntu部署过程 - 简书</a></li>
+<li> <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9293cc21a571">阿里云部署Flask+WSGI+Nginx 详解 - 简书</a></li>
+<li> <a target="_blank" rel="noopener" href="https://blog.csdn.net/wojiaopanpan/article/details/7286430">Linux如何查看进程、杀死进程、启动进程等常用命令 - wojiaopanpan - CSDN博客</a></li>
+<li> <a target="_blank" rel="noopener" href="https://www.cnblogs.com/kevingrace/p/8184087.html">MongoDB日常运维操作命令小结 - 散尽浮华 - 博客园</a></li>
+<li> <a target="_blank" rel="noopener" href="https://www.cnblogs.com/pfnie/articles/6759105.html">Linux下MongoDB安装和配置详解 - pfnie - 博客园</a></li>
+<li> <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/00bd136b4165">Ubuntu 16.04 mongodb enterprise 3.4 安装中遇到的错误 - 简书</a></li>
+<li> <a target="_blank" rel="noopener" href="https://juejin.im/post/5a5a1408518825733060e232">通过Gunicorn部署flask应用（阿里云服务器：Ubuntu 16.04） - 掘金</a></li>
+</ol>
+<p>&nbsp; &nbsp;</p>
+<h3 id="扫描二维码查看网站"><a href="#扫描二维码查看网站" class="headerlink" title="扫描二维码查看网站"></a>扫描二维码查看网站</h3><p><a href=""><img data-src="http://www.dcts.xyz/wordpress/wp-content/uploads/2019/05/%E5%9B%BE%E7%89%871.png" alt="网站暂时关闭"></a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <span class="post-end-item" title="updated">
+            <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
+            <time title="更新时间：2026-03-02 06:13:23" itemprop="dateModified" datetime="2026-03-02T06:13:23+08:00">
+                <span class="post-end-item-text">更新时间：2026-03-02</span>
+            </time>
+        </span>
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
+
+          <div class="post-tags">
+              <a href="/tags/Flask/" rel="tag"><i class="fa fa-tag"></i> Flask</a>
+              <a href="/tags/%E5%85%A5%E9%97%A8/" rel="tag"><i class="fa fa-tag"></i> 入门</a>
+              <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" rel="tag"><i class="fa fa-tag"></i> 阿里云</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/53dcc771/" rel="prev" title="机器学习入门（一）">
+                  <i class="fa fa-chevron-left"></i> 机器学习入门（一）
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/7bc2355c/" rel="next" title="博客待办事项">
+                  博客待办事项 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+  
+
+
+
+
+
+  <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/6f15ec4d/',]
+      });
+      });
+  </script>
+<script>
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/post/6f15ec4d/"
+    }));
+  }, window.Waline);
+});
+</script>
+</body>
+</html>

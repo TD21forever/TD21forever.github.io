@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic|JetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="黑客与画家是本值得反复咀嚼的好书，对其中一些比较有意思的话做了摘抄">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黑客与画家">
+<meta property="og:url" content="https://www.dcts.top/post/3f152ec7/">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="黑客与画家是本值得反复咀嚼的好书，对其中一些比较有意思的话做了摘抄">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-11-22T11:42:36.000Z">
+<meta property="article:modified_time" content="2026-03-01T22:13:23.856Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="摘抄">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.dcts.top/post/3f152ec7/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>黑客与画家 | C1oser</title>
+  
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-book">
+
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movie">
+
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-shuoshuo">
+
+    <a href="/shuoshuo/" rel="section"><i class="fab fa-qq fa-fw"></i>说说</a>
+
+  </li>
+        <li class="menu-item menu-item-onepage">
+
+    <a href="/onepage/" rel="section"><i class="far fa-angry fa-fw"></i>忠言</a>
+
+  </li>
+        <li class="menu-item menu-item-rssdocs">
+
+    <a href="/rssdocs/" rel="section"><i class="far fa-angry fa-fw"></i>rssdocs</a>
+
+  </li>
+        <li class="menu-item menu-item-gallery">
+
+    <a href="/gallery/" rel="section"><i class="fas fa-parachute-box fa-fw"></i>摄影</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B9%A6%E5%91%86%E5%AD%90%E4%B8%8D%E5%8F%97%E6%AC%A2%E8%BF%8E"><span class="nav-text">为什么书呆子不受欢迎</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6"><span class="nav-text">黑客与画家</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E8%AF%9D"><span class="nav-text">不能说的话</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%89%AF%E5%A5%BD%E7%9A%84%E8%87%AA%E7%94%B1"><span class="nav-text">良好的自由</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%A6%E4%B8%80%E6%9D%A1%E8%B7%AF"><span class="nav-text">另一条路</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%88%9B%E9%80%A0%E8%B4%A2%E5%AF%8C"><span class="nav-text">如何创造财富</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E6%B3%A8%E8%B4%AB%E5%AF%8C%E5%88%86%E5%8C%96"><span class="nav-text">关注贫富分化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E8%AE%A1%E8%80%85%E7%9A%84%E5%93%81%E5%91%B3"><span class="nav-text">设计者的品味</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/3f152ec7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          黑客与画家
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-11-22 19:42:36" itemprop="dateCreated datePublished" datetime="2019-11-22T19:42:36+08:00">2019-11-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%81%E5%88%86%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">十分人生</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/post/3f152ec7/" class="post-meta-item leancloud_visitors" data-flag-title="黑客与画家" title="浏览">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">浏览：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>5 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">黑客与画家是本值得反复咀嚼的好书，对其中一些比较有意思的话做了摘抄</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h4 id="为什么书呆子不受欢迎"><a href="#为什么书呆子不受欢迎" class="headerlink" title="为什么书呆子不受欢迎"></a>为什么书呆子不受欢迎</h4><ol>
+<li>在普通美国高校中,成为”强人”的标准高的吓人.青少年每时每刻都想融入群体中,都想变得更受欢迎</li>
+<li>书呆子指这个人的社交技能不够强,比起更受欢迎,他们更愿意让自己聪明</li>
+<li>讨厌书呆子的人其实并不恨书呆子,他们只是需要一个共同的目标;与不受欢迎的小孩保持距离,可以加分</li>
+<li>大部分欺处于下一等的学生,焦虑的中间层,在一个人产生了良知之前,折磨就是一种娱乐.你把水踩下去,你的身体就会被托起来</li>
+<li>除了书呆子,还有怪人(freak)</li>
+</ol>
+<h4 id="黑客与画家"><a href="#黑客与画家" class="headerlink" title="黑客与画家"></a>黑客与画家</h4><ol>
+<li>创造优美的事物往往不是从头做起,而是在现有成果的基础上,做一些小小的调整,或者将已有的观点用比较新的方式组合起来.这种类型的工作很难用研究性的论文表达</li>
+<li>黑客,并不需要知道特别多理论</li>
+<li>创业公司将设计软件的任务交给一群产品经理,这对公司来说是<strong>占优之处</strong>.但编程是一个创作的过程,前期不管对错把代码堆上去,其实是在打草稿.把整个程序想清楚的时间点,<strong>应该是在编写代码的同时</strong></li>
+<li>一份为了赚钱的工作(day job),一份为了爱好的工作</li>
+<li><strong>学会换位思考</strong>,并不意味着自我牺牲.软件的使用方式最好能符合用户的直觉</li>
+<li><strong>程序写出来是给人看的,附带能在机器上运行</strong>——《计算机程序的结构与解释》</li>
+<li>一幅优秀的绘画作品必须比它应该有的样子更好;一款优秀的软件<strong>没有人看见的部分也是优美的</strong>.</li>
+<li>黑客的出发点是原创,最终得到一个优美的结果;科学家的出发点是别人优美的结果,最终得到原创性</li>
+<li>应该<strong>定期地从头开始</strong>,而不要长年累月地在一个项目上不断工作,并且试图把所有的最新想法都以修订版的形式包括进去</li>
+</ol>
+<h4 id="不能说的话"><a href="#不能说的话" class="headerlink" title="不能说的话"></a>不能说的话</h4><ol>
+<li><p>所谓时尚,本质上就是自己看不见自己的样子</p>
+</li>
+<li><p>最令人暴跳如雷的言论,就是被认为说出了真相的言论</p>
+</li>
+<li><p>孩子眼里的世界是不真实的,是一个被灌输进她们头脑的假想世界</p>
+</li>
+<li><p>道德禁忌的最大制造者是那些有实力推行禁忌,同时有软弱到需要禁忌保护自己的利益的一方</p>
+</li>
+<li><p>有很多人接受流行,不是因为想要与众不同,而是因为<strong>害怕与众不同</strong></p>
+</li>
+<li><p>如何找到”不能说的话”?</p>
+<ul>
+<li><p>判断言论的真伪:那些听上去大逆不道的话,有没有可能是真的?</p>
+<blockquote>
+<p>早恋不会影响学习,有没有可能是真的?</p>
+</blockquote>
+</li>
+<li><p>关注”异端邪说”:不一定正确,但极富争议的言论</p>
+</li>
+<li><p>回顾过去:找过去被认为理所当然,如今却认为不可思议的事情;将当代观念 古代观念 diff;</p>
+</li>
+<li><p>寻找一本正经的卫道者,看看他们到底在捍卫什么</p>
+<blockquote>
+<p>学校 老师 家长</p>
+</blockquote>
+</li>
+<li><p>观察禁忌如何产生</p>
+</li>
+</ul>
+</li>
+<li><p>训练自己去想那些不能想的事情,获得的好处会超过所得到的思想本身</p>
+</li>
+<li><p>一个公司是否健康运作,可以用对负面评价的容忍程度来衡量</p>
+</li>
+<li><p><strong>与笨蛋辩论,你也会变成笨蛋</strong></p>
+</li>
+<li><p>思想和言论之间要有明确的界限,**在心里无所不想,但是不一定要说出来.**格斗俱乐部的第一条规则,就是不要提到格斗俱乐部</p>
+</li>
+<li><p>要对每一个人微笑,但是不要说出自己的真实想法</p>
+</li>
+<li><p>最好找一些信得过的知己,只与他们畅所欲言、无所不谈。这样不仅可以获得新观点，还可以用来选择朋友。能够一起谈论“异端邪说”，并且不会因此气急败坏的人，就是你最应该认识的朋友</p>
+</li>
+<li><p>一个人完全可以识别和抵制外界流行的带的观念，把它们与内心世界分离</p>
+</li>
+<li><p>如果自己就是潮水的部分，怎么能看见潮流的方向呢？你只能永远保持质疑，问自己什么话是我不能说的？为什么？</p>
+</li>
+</ol>
+<h4 id="良好的自由"><a href="#良好的自由" class="headerlink" title="良好的自由"></a>良好的自由</h4><ol>
+<li>对适当的不服从管教,保持宽容不会有太大坏处,不仅能吸引聪明人,还能吸引自负的人</li>
+<li>公民自由真的是国家强富的原因,而不是结果吗?</li>
+<li>“反抗政府的精神,在某些场合是如此珍贵,我希望它永远保持活跃”</li>
+</ol>
+<h4 id="另一条路"><a href="#另一条路" class="headerlink" title="另一条路"></a>另一条路</h4><ol>
+<li><p>Viaweb的开发人员总是与客服人员保持密切联系</p>
+</li>
+<li><p>计划这个词,只是将构思束之高阁的另一种表达方式,只要想到好的构思,我们就立刻着手实现</p>
+</li>
+<li><p>《人月神话》：向一个项目增加人手，往往会拖慢项目进程</p>
+</li>
+<li><p>资本支出/除以服务器所能支持的最大用户数量=为每个用户付出的成本</p>
+</li>
+<li><p>盗版软件是的你的软件多了一个用户,市场影响力就更大了一些.(价格歧视)</p>
+</li>
+<li><p>大公司购买软件付出的高价中,很大一部分是商家为了让大公司买下这个商品而付出的费用</p>
+</li>
+<li><p>1998年的时候很多人认为再推出一个新的搜索引擎已经太晚了</p>
+</li>
+<li><p>桌面软件迫使用户变成系统管理员,互联网软件则迫使程序员变成系统管理员;用户的压力变小了,程序员的压力变大了.</p>
+<blockquote>
+<p>长时间工作变成了一种必须,因为竞争者也能做到这一点.因为你能做到,所以必须做到.</p>
+</blockquote>
+</li>
+<li><p>管理企业只需要记住两点:</p>
+<ol>
+<li>做出用户喜欢的产品</li>
+<li>保证开支小于收入</li>
+</ol>
+</li>
+<li><p>要使用自己开发的产品;如果不打算自己动手设计和开发,那就不要创业</p>
+</li>
+</ol>
+<h4 id="如何创造财富"><a href="#如何创造财富" class="headerlink" title="如何创造财富"></a>如何创造财富</h4><ol>
+<li><p>创业公司其实就是解决了某个技术难题的小公司</p>
+</li>
+<li><p>创业你不再是低强度工作四十年,而是以极限强度工作四年</p>
+<blockquote>
+<p>作者是一点都没有否认创业辛苦呀,也没有否认程序员的工作时间之长</p>
+</blockquote>
+</li>
+<li><p>财富才是你的目标,金钱不是</p>
+</li>
+<li><p>大多数生意的目的是为了创造财富,做出人们真正需要的东西</p>
+</li>
+<li><p>要去思考那些着眼于你自己感兴趣的东西的商业计划,而不仅仅只是自己感兴趣的东西</p>
+</li>
+<li><p>金钱不是财富,而只是我们用来转移财富所有权的东西</p>
+</li>
+<li><p>人们需要的东西就是财富</p>
+</li>
+<li><p>公司存在的目的,就是满足人们的某种需要</p>
+</li>
+<li><p>你需要去做一些人们需要的东西</p>
+</li>
+<li><p>真正重要的是做出人们需要的东西,而不是加入某个公司</p>
+</li>
+<li><p>工作就是一个组织中,与许多人共同合作,做出某种人们需要的东西</p>
+</li>
+<li><p>如果一家公司真正能够按照贡献付薪,它将取得巨大成功</p>
+</li>
+<li><p>在大公司中,个人的表现无法单独测量,公司里其他人会拖累你</p>
+</li>
+<li><p>致富需要的东西</p>
+<ol>
+<li><p><strong>可测量性</strong>: 你的职位产生的业绩,应该是可测量的(来自小团队的合作)</p>
+<blockquote>
+<p>大学生活也一样,有一个小团队,会比一个人或者一班级为集体生活得更加愉快.</p>
+</blockquote>
+</li>
+<li><p><strong>可放大性</strong>: 做出的决定能够产生巨大的效应,是否存在可放大性,可以看失败的可能性.(来自开发新技术)</p>
+</li>
+</ol>
+</li>
+<li><p>巨大的获利可能,必定存在巨大的失败可能.如果有一个令你感到安全的工作,你是不会致富的.没有危险,就没有可放大性</p>
+</li>
+<li><p>公司越小,就越能准确估计每个人的贡献</p>
+</li>
+<li><p>找出色的人合作,因为他们的工作和你的一起平均计算.</p>
+</li>
+<li><p>创业成败取决于最早加入公司的那十个人——乔布斯</p>
+</li>
+<li><p>我们不需要小村庄的那种小,而需要全明星第一阵容的那种小</p>
+</li>
+<li><p>“一次开发,普遍使用”</p>
+</li>
+<li><p>“进入壁垒”(barriers to entry),即开发出来的技术要是竞争对手难于复制的.</p>
+</li>
+<li><p><strong>如果有两个选择,就选择比较难的那个</strong></p>
+</li>
+<li><p>促成买房掏钱的最好办法不是让买家看到有获利的可能,而是让他们感到收取机会的恐惧</p>
+</li>
+<li><p>用户数量是很重要的因素</p>
+</li>
+<li><p>懂的藏富于民,国家就会变得强大</p>
+</li>
+</ol>
+<h4 id="关注贫富分化"><a href="#关注贫富分化" class="headerlink" title="关注贫富分化"></a>关注贫富分化</h4><ol>
+<li>现在由于技术的发展,富人的生活与普通人的差距缩小了</li>
+<li>技术在加大收入差距的同时,缩小了大部分其他差距</li>
+<li>收入差距是因为,每个人创造财富的能力是不一样的,每个人技能不同,导致收入不同,这才是贫富分化的主要原因</li>
+<li>如果想创造大量财富且不扩大收入差距,只能让创造大量财富的人不获取报酬</li>
+</ol>
+<h4 id="设计者的品味"><a href="#设计者的品味" class="headerlink" title="设计者的品味"></a>设计者的品味</h4><ol>
+<li><p>品味有好坏之分</p>
+</li>
+<li><p>如果解决方法是丑陋的,那就肯定有更好的解决方法,只是还没有发现而已</p>
+</li>
+<li><p>世界上有有益的痛,也有无益的痛苦</p>
+</li>
+<li><p><strong>把事情做对比原创更加重要</strong></p>
+<blockquote>
+<p>等你逐渐对一件事情产生热情的时候,就不会满足于模仿了.你的品位就进入了第二阶段,开始自觉地进行原创</p>
+<p>足够自信地使用他人的成果,完全不用担心因此丧失个人的特点</p>
+</blockquote>
+</li>
+<li><p>风格是自然而然形成的,追求做出好的作品,完成之后再回过头看</p>
+</li>
+<li><p>优秀作品的秘诀:非常严格的品味,再加上实现这种品味的能力</p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <span class="post-end-item" title="updated">
+            <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
+            <time title="更新时间：2026-03-02 06:13:23" itemprop="dateModified" datetime="2026-03-02T06:13:23+08:00">
+                <span class="post-end-item-text">更新时间：2026-03-02</span>
+            </time>
+        </span>
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%91%98%E6%8A%84/" rel="tag"><i class="fa fa-tag"></i> 摘抄</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/da9b6b33/" rel="prev" title="操作系统实验二">
+                  <i class="fa fa-chevron-left"></i> 操作系统实验二
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/9c79ba11/" rel="next" title="使用Jupyter遇到的一些问题">
+                  使用Jupyter遇到的一些问题 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+  
+
+
+
+
+
+  <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/3f152ec7/',]
+      });
+      });
+  </script>
+<script>
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/post/3f152ec7/"
+    }));
+  }, window.Waline);
+});
+</script>
+</body>
+</html>

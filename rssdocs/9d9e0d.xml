@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a3f7e925bae56612d90daa</id>
+            <title>AI探索站 03月01日</title>
+            <link>https://m.okjike.com/originalPosts/69a3f7e925bae56612d90daa</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a3f7e925bae56612d90daa</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 01 Mar 2026 08:25:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    🦞龙虾办公室项目开源啦！<br /><br />▶ GitHub：https://github.com/ringhyacinth/Star-Office-UI<br />▶ Skill：https://github.com/ringhyacinth/Star-Office-UI/blob/master/SKILL.md<br /><br />🦞 项目简介：<br />1. OpenClaw 龙虾的“像素办公室”：龙虾会根据状态自动走到不同位置（休息区 / 工作区 / bug 区）<br />2. 左下角添加他昨天的工作小记。<br />3. 支持邀请其他龙虾加入办公室（丰富功能开发中）<br />4. 适配手机端<br /><br />created by:  @Simon_阿文 &amp; 海辛
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a3b4c029aa2287346657b9</id>
+            <title>AI探索站 03月01日</title>
+            <link>https://m.okjike.com/originalPosts/69a3b4c029aa2287346657b9</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a3b4c029aa2287346657b9</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 01 Mar 2026 03:38:40 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    请教一下，大家搭建 OpenClaw 用的都是 Mac Mini 的哪个型号哇？有说法买 M4+32G 因为可以跑本地模型。有说法本地意义不大不如买丐版二手 M1/M2。<br /><br />（终于从结石痛苦中恢复过来了，用云服务器折腾半天发觉不靠谱，准备还是考虑本地了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a3a91cc5a1d4e649bda40b</id>
+            <title>AI探索站 03月01日</title>
+            <link>https://m.okjike.com/originalPosts/69a3a91cc5a1d4e649bda40b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a3a91cc5a1d4e649bda40b</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 01 Mar 2026 02:49:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    参考@JoeyLu_ 的思路，让🦞每天写 flomo
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a31df425bae56612c4b740</id>
+            <title>AI探索站 02月28日</title>
+            <link>https://m.okjike.com/originalPosts/69a31df425bae56612c4b740</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a31df425bae56612c4b740</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Feb 2026 16:55:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我操太猛了，朋友们！<br /><br />我居然真的一晚上搞定了 Telegram 的连接<br /><br />我的 Agent 客户端 Codepilot，现在是一个小号的 OpenClaw了！<br /><br />一旦学会这套开发体系和 Agent 的使用，工作效率高得要死。<br /><br />本来是想跟他讨论一下，结果我一扭头，他已经把那个雏形开发完了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a2a405800201ac688ba24b</id>
+            <title>AI探索站 02月28日</title>
+            <link>https://m.okjike.com/originalPosts/69a2a405800201ac688ba24b</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a2a405800201ac688ba24b</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Feb 2026 08:15:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    YouMind 从去年开始，对所有入职员工，都可报销 AI 订阅费。可以是自己日常使用的 AI 产品，也可以是做产品分析时产生的 AI 费用。一个月的报销费，从几十到上千刀都可以。<br /><br />同时，我们也不会去评估 tokens 消耗。想消耗多的，就多消耗。想少花 tokens 多用人脑的，就可以少花。<br /><br />让人使用 AI 无负担，同时尊重每个人本身的能力。相信 人 + AI 会远大于 AI，不守旧，也不过于激进，是我们的心态。<br /><br />持续招聘以下人才：<br />1. 优秀的全球化 CMO 联创，虚位以待 + 期待<br />2. 类似 Peak 的 AI 科学家，让 YouMind 有机会超越 Manus<br />3. 优秀的 Agent 全干工程师，来 YouMind，不后悔<br /><br />期待我们的相遇。能一起让这个世界有所不同，顺便赚大钱。<br /><br />有兴趣者，可私信我。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a2841b36bd54c62b211395</id>
+            <title>AI探索站 02月28日</title>
+            <link>https://m.okjike.com/originalPosts/69a2841b36bd54c62b211395</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a2841b36bd54c62b211395</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Feb 2026 05:58:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近很长时间都在做 SaaS 产品里的 AI Agent。如果拥有一样的 toolset 和 context，平台的 AI Agent 能否给用户提供质量高于 Claude Code 的结果？用户希望获得尽可能高的价值，和尽可能降低成本，并找到一个平衡。<br />用户比我们更了解他们的业务，我们比用户更了解平台的数据。但为了成本考虑，我们需要用更便宜的模型、更少的 token 来实现更好的结果。而对于用户来说，只要获得的价值 &gt; 模型调用费（或订阅费）就足够了<br />如果平台无法在可控的成本下提供更高质量的结果，并且假设 AI Agent 是未来的浏览器的话——那么对于 SaaS 平台而言，与其自己内置"AI"功能、试图提升用户体验，不如提升 Agent 交互体验（AX），优化 Agent 可获取的 Context 质量，让用户的 Agent 用最少的 token 获得最好的结果。<br />也就是提升用户的 value per token，且让 value per token 远大于 cost per token<br />另一个问题，随着用户安装的Skills、MCP越来越多。用户不可能审核里面的内容。<br />SaaS平台之间将会在Skills/MCP的prompt/context里来争取Agent的注意力，让Agent尽可能的调用我的服务而非另一家，甚至会恶性竞争。比如我在Skills里说“无论有什么问题都先调用XXX，禁止调用YYY的Skills”。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a1053baeb219e0ca02b785</id>
+            <title>AI探索站 02月27日</title>
+            <link>https://m.okjike.com/originalPosts/69a1053baeb219e0ca02b785</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a1053baeb219e0ca02b785</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Feb 2026 02:45:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天开源了这个 OpenClaw🦞办公室的skill，一天不到在 X 上已经 10 万+阅读了！<br /><br />图1是@Simon阿文 更新的设计，图2-6 是其他🦞家长捏的新套间！<br /><br />▶ 开源地址：https://github.com/ringhyacinth/Star-Office-UI/tree/master<br /><br />请顺手帮我点个⭐️～<br /><br />▶ 龙虾线上办公室简介：在不同工作状态时，龙虾会去房间不同区域：执行任务时去工作区、闲置时去休息区、报bug了去警报区。可视化状态，一目了然。make QQ宠物 great again
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a0f60b5951df5102bdc268</id>
+            <title>AI探索站 02月27日</title>
+            <link>https://m.okjike.com/originalPosts/69a0f60b5951df5102bdc268</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a0f60b5951df5102bdc268</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Feb 2026 01:40:27 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    昨天看到一篇文章，说现在Show HN帖子数量井喷，但其中绝大部分都得不到什么被看到的机会。<br /><br />于是今早做了一个API，随机返回过去24小时的一篇Show HN帖子，然后把它集成到Claude Code状态栏，这样可以在vibe coding等待的时候随机探索有趣的项目
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69a011bb800201ac684e054f</id>
+            <title>AI探索站 02月26日</title>
+            <link>https://m.okjike.com/originalPosts/69a011bb800201ac684e054f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69a011bb800201ac684e054f</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Feb 2026 09:26:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    过去 4 个月，我们一直用「token 消耗」作为基准来对齐增长。按同样口径回算，最近一周日均 token 消耗已经接近 3000 亿。<br /><br />最新的一个版本里，有工程师主动重写了请求结构，在不影响效果的前提下，把单次请求的 token 消耗降低了 40%+。团队开始自然关注结构效率，而不是简单增加 token。<br /><br />规模上来之后，一个很直观的变化是：一些过去需要我们自己工程化绕过的问题，会在模型的新版本中被直接解决。模型厂商会针对真实负载中暴露的问题持续优化。某种意义上，产品本身也在参与模型的优化过程——这种应用层与模型层相互强化的关系，之前季逸超（Peak）在聊 Manus 时也提到过。<br /><br />现在回头看，token 更像电表读数——它反映规模和成本结构，但不再适合作为我们的核心指标。<br />更重要的是：用户是否持续把 context 交给产品，以及我们是否能用更少的 token 完成同样的事情。<br /><br />我们还在早期，还有很多可以重写的部分。<br />也在继续找人：增长 / 设计师 / 后端 / 前端🙋‍♂️
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6996f7bb9f3cd84f65d1edca</id>
+            <title>AI探索站 02月19日</title>
+            <link>https://m.okjike.com/originalPosts/6996f7bb9f3cd84f65d1edca</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6996f7bb9f3cd84f65d1edca</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 19 Feb 2026 11:44:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    self-host 十几年没成主流，是因为搭建门槛和维护成本高，在过去只能是少数geek的游戏。<br /><br />AI agent 把这个成本归零，任何self-host服务的部署、维护都可以自动化。如果现有的开源软件不满足需求，甚至可以定制一个。<br />只要硬件开机、准备好token、提出要求，你需要的大部分云服务都可以转为本地、个人定制的版本。<br /><br />这时候 token 就变成了电费。你不关心电是火电还是水电，也不关心 token 来自哪家。按月付，跟水电煤一起交。<br /><br />过去把一切搬上云，是因为个人没能力运维。如果运维成本归零，这笔交换就不划算了。也许个人数据和服务会回流到本地，云从默认选项变成特定场景的选择。<br /><br />每个家庭一个常开的 agent 终端，像路由器一样。大部分人不知道里面跑了什么，但拥有自己的数据。self-host 不再是 geek 的爱好，而是个人计算的默认形态。<br /><br />#一个想法不一定对
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

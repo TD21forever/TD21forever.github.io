@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=EB+Garamond:300,300italic,400,400italic,700,700italic|Noto+Serif+SC:300,300italic,400,400italic,700,700italic|Long+Cang:300,300italic,400,400italic,700,700italic|JetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.dcts.top","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"Pisces | Gemini":230},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="Metaclass，Python不得不提的黑魔法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Metaclass">
+<meta property="og:url" content="https://www.dcts.top/post/a1399864/">
+<meta property="og:site_name" content="C1oser">
+<meta property="og:description" content="Metaclass，Python不得不提的黑魔法。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-06T18:34:36.000Z">
+<meta property="article:modified_time" content="2026-03-01T22:13:23.855Z">
+<meta property="article:author" content="陈末">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.dcts.top/post/a1399864/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>Metaclass | C1oser</title>
+  
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6edb222baf771144f8b9f0cc1155bb2a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">C1oser</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-book">
+
+    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movie">
+
+    <a href="/movie" rel="section"><i class="fa fa-film fa-fw"></i>观影</a>
+
+  </li>
+        <li class="menu-item menu-item-comment">
+
+    <a href="/comment/" rel="section"><i class="fa fa-comment fa-fw"></i>留言</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-shuoshuo">
+
+    <a href="/shuoshuo/" rel="section"><i class="fab fa-qq fa-fw"></i>说说</a>
+
+  </li>
+        <li class="menu-item menu-item-onepage">
+
+    <a href="/onepage/" rel="section"><i class="far fa-angry fa-fw"></i>忠言</a>
+
+  </li>
+        <li class="menu-item menu-item-rssdocs">
+
+    <a href="/rssdocs/" rel="section"><i class="far fa-angry fa-fw"></i>rssdocs</a>
+
+  </li>
+        <li class="menu-item menu-item-gallery">
+
+    <a href="/gallery/" rel="section"><i class="fas fa-parachute-box fa-fw"></i>摄影</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B1%BB%E4%B9%9F%E6%98%AF%E5%AF%B9%E8%B1%A1"><span class="nav-text">类也是对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E5%88%9B%E5%BB%BA%E7%B1%BB"><span class="nav-text">动态创建类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Metaclasses"><span class="nav-text">Metaclasses</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#metaclass"><span class="nav-text">__metaclass__</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84metaclasses"><span class="nav-text">自定义的metaclasses</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="陈末"
+      src="/images/touxiang.jpg">
+  <p class="site-author-name" itemprop="name">陈末</p>
+  <div class="site-description" itemprop="description">在别人看不见的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TD21forever" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TD21forever" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </section>
+      </div>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.dcts.top/post/a1399864/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="name" content="陈末">
+      <meta itemprop="description" content="在别人看不见的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C1oser">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Metaclass
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-07 02:34:36" itemprop="dateCreated datePublished" datetime="2022-01-07T02:34:36+08:00">2022-01-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%89%E5%88%86%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">三分技术</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/post/a1399864/" class="post-meta-item leancloud_visitors" data-flag-title="Metaclass" title="浏览">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">浏览：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>11 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">Metaclass，Python不得不提的黑魔法。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>翻译自</p>
+<p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python?rq=1">What are metaclasses in Python?</a></p>
+<h2 id="类也是对象"><a href="#类也是对象" class="headerlink" title="类也是对象"></a>类也是对象</h2><p>在大多数编程语言中，类只是一串用于描述如何生成一个对象的代码。但在python中，类不止如此，类也是对象（object）！</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="class"><span class="keyword">class</span> <span class="title">ObjectCreator</span>(<span class="params"><span class="built_in">object</span></span>):</span></span><br><span class="line"><span class="meta">... </span>      <span class="keyword">pass</span></span><br><span class="line">...</span><br></pre></td></tr></tbody></table></figure>
+
+<p>一旦使用关键字<code>class</code>，<code>python</code>便会执行它并且生成一个<strong>对象。</strong>这个对象的名字叫做<code>ObjectCreator</code>。</p>
+<div class="note info"><p>💡 这个对象有创建其他对象的能力，所以我们也叫它，类。</p>
+</div>
+
+<p>上面的描述也许看的晕乎乎，简而言之，我们传统认知中类是用来实例化一个对象的，这当然没错，但在python中，类本身就是一个对象，既然是个对象，则有对象应该有的性质</p>
+<ul>
+<li>可以赋值给一个变量</li>
+<li>可以copy它</li>
+<li>可以为它添加属性</li>
+<li>可以当作函数的参数</li>
+</ul>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(ObjectCreator) <span class="comment"># you can print a class because it's an object</span></span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">__main__</span>.<span class="title">ObjectCreator</span>'&gt;</span></span><br><span class="line">=================================</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">echo</span>(<span class="params">o</span>):</span></span><br><span class="line"><span class="meta">... </span>      print(o)</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>echo(ObjectCreator) <span class="comment"># you can pass a class as a parameter</span></span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">__main__</span>.<span class="title">ObjectCreator</span>'&gt;</span></span><br><span class="line">=================================</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">hasattr</span>(ObjectCreator, <span class="string">'new_attribute'</span>))</span><br><span class="line"><span class="literal">False</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>ObjectCreator.new_attribute = <span class="string">'foo'</span> <span class="comment"># you can add attributes to a class</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">hasattr</span>(ObjectCreator, <span class="string">'new_attribute'</span>))</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(ObjectCreator.new_attribute)</span><br><span class="line">foo</span><br><span class="line">=================================</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>ObjectCreatorMirror = ObjectCreator <span class="comment"># you can assign a class to a variable</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(ObjectCreatorMirror.new_attribute)</span><br><span class="line">foo</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(ObjectCreatorMirror())</span><br><span class="line">&lt;__main__.ObjectCreator <span class="built_in">object</span> at <span class="number">0x8997b4c</span>&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="动态创建类"><a href="#动态创建类" class="headerlink" title="动态创建类"></a>动态创建类</h2><p>因为类也是对象，所以和其他任何的对象一样，我们可以即时(on the fly)创建一个类。</p>
+<p>比如，在函数中创建类</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">choose_class</span>(<span class="params">name</span>):</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">if</span> name == <span class="string">'foo'</span>:</span><br><span class="line"><span class="meta">... </span>        <span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span></span>):</span></span><br><span class="line"><span class="meta">... </span>            <span class="keyword">pass</span></span><br><span class="line"><span class="meta">... </span>        <span class="keyword">return</span> Foo <span class="comment"># return the class, not an instance</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">else</span>:</span><br><span class="line"><span class="meta">... </span>        <span class="class"><span class="keyword">class</span> <span class="title">Bar</span>(<span class="params"><span class="built_in">object</span></span>):</span></span><br><span class="line"><span class="meta">... </span>            <span class="keyword">pass</span></span><br><span class="line"><span class="meta">... </span>        <span class="keyword">return</span> Bar</span><br></pre></td></tr></tbody></table></figure>
+
+<p>但它看起来没那么动态，因为我们仍然需要自己写完整个类的定义。既然类也是对象，那肯定有啥东西可以创建这个对象，这个东西是啥呢？是<code>type</code>！</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">type</span>(<span class="number">1</span>))</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'int'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">type</span>(<span class="string">"1"</span>))</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'str'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">type</span>(ObjectCreator))</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'type'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="built_in">type</span>(ObjectCreator()))</span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">__main__</span>.<span class="title">ObjectCreator</span>'&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>type</code>不仅可以告诉你一个对象的类型，也可以动态地创建一个类。type可以将一个类的描述当作参数传入并返回一个类。（为了向后兼容，type通过改变参数实现了两种完全不同的功能）</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>(name, bases, attrs)</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><strong><code>name</code></strong>: 类名</li>
+<li><strong><code>bases</code></strong>: 父类元祖 (继承，可以为空)</li>
+<li><strong><code>attrs</code></strong>: 字典</li>
+</ul>
+<p>比如以下两种创建类的方式就是等价的</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span></span>):</span></span><br><span class="line"><span class="meta">... </span>      bar = <span class="literal">True</span></span><br><span class="line"></span><br><span class="line">&lt;=&gt;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Foo = <span class="built_in">type</span>(<span class="string">'Foo'</span>, (), {<span class="string">'bar'</span>:<span class="literal">True</span>})</span><br></pre></td></tr></tbody></table></figure>
+
+<p>也可以使用继承</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>  <span class="class"><span class="keyword">class</span> <span class="title">FooChild</span>(<span class="params">Foo</span>):</span></span><br><span class="line"><span class="meta">... </span>        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">&lt;=&gt;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>FooChild = <span class="built_in">type</span>(<span class="string">'FooChild'</span>, (Foo,), {})</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(FooChild)</span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">__main__</span>.<span class="title">FooChild</span>'&gt;</span></span><br><span class="line"><span class="class">&gt;&gt;&gt; <span class="title">print</span>(<span class="params">FooChild.bar</span>) # <span class="title">bar</span> <span class="title">is</span> <span class="title">inherited</span> <span class="title">from</span> <span class="title">Foo</span></span></span><br><span class="line"><span class="class"><span class="title">True</span></span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>可以添加方法</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">echo_bar</span>(<span class="params">self</span>):</span></span><br><span class="line"><span class="meta">... </span>      print(self.bar)</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>FooChild = <span class="built_in">type</span>(<span class="string">'FooChild'</span>, (Foo,), {<span class="string">'echo_bar'</span>: echo_bar})</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这就是当我们使用<code>class</code>关键字时python做的事，这一切都是通过metaclass实现的。</p>
+<h2 id="Metaclasses"><a href="#Metaclasses" class="headerlink" title="Metaclasses"></a>Metaclasses</h2><div class="note info"><p>👉🏿 metaclasses 是一些用来创建class的东西</p>
+</div>
+
+
+<p>我们定义class目的是创建对象，而class本身又是对象，metaclasses就是来创建class这个对象的，所以他们是class的类。</p>
+<p>我们可以用下面的代码表示</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MyClass = MetaClass()</span><br><span class="line">my_object = MyClass()</span><br></pre></td></tr></tbody></table></figure>
+
+<p>还记得type可以创建一个类吗</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MyClass = <span class="built_in">type</span>(<span class="string">'MyClass'</span>, (), {})</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这是因为实际上，type本身就是一个metaclass。</p>
+<div class="note info"><p>👉🏿 <code>type</code>&nbsp;is the metaclass Python uses to create all classes behind the scenes.</p>
+</div>
+
+<p>就如同<code>str</code>创建string 对象，<code>int</code>创建integer对象，<code>type</code>就用来创建class对象</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>age = <span class="number">35</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>age.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'int'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name = <span class="string">'bob'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'str'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">foo</span>():</span> <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>foo.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'function'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="class"><span class="keyword">class</span> <span class="title">Bar</span>(<span class="params"><span class="built_in">object</span></span>):</span> <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b = Bar()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b.__class__</span><br><span class="line">&lt;<span class="class"><span class="keyword">class</span> '<span class="title">__main__</span>.<span class="title">Bar</span>'&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>那<code>__class__</code>的<code>__class__</code>是什么呢？</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>age.__class__.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'type'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name.__class__.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'type'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>foo.__class__.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'type'</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b.__class__.__class__</span><br><span class="line">&lt;<span class="built_in">type</span> <span class="string">'type'</span>&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>因此，metaclass就是一个用来创建class对象的东西。而<code>type</code>是内置的metaclass，言外之意，我们还可以创建自己的metaclass</p>
+<h2 id="metaclass"><a href="#metaclass" class="headerlink" title="__metaclass__"></a><code>__metaclass__</code></h2><p>在python2中，当我们写下一个类，我们可以加入<code>__metaclass__</code> 属性</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span></span>):</span></span><br><span class="line">    __metaclass__ = something...</span><br><span class="line">    [...]</span><br></pre></td></tr></tbody></table></figure>
+
+<p>首先我们敲下<code>class Foo(object)</code>,但此时<code>Foo</code>这个类对象没有立刻在内存中创建。</p>
+<p>python会在类的定义中寻找<code>__metaclass__</code> 属性，如果有，就用<code>__metaclass__</code> 来创建<code>Foo</code>对象，否则就用<code>type</code>创建。</p>
+<p>如果我们的类是这样的</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params">Bar</span>):</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>如果有<code>__metaclass__</code> ，就用它创建一个类对象Foo，如果找不到，python会在MODULE层找，并做同样的事情。（但要保证这个类对象没有继承任何东西）。如果还是找不到，就从<code>Bar</code>类中去寻找。</p>
+<p>在python3中，设置metaclass的方式变了</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span>, metaclass=something</span>):</span></span><br><span class="line">    ...</span><br></pre></td></tr></tbody></table></figure>
+
+<p>依然可以像这种方式给metaclass增加属性</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span>, metaclass=something, kwarg1=value1, kwarg2=value2</span>):</span></span><br><span class="line">    ...</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="自定义的metaclasses"><a href="#自定义的metaclasses" class="headerlink" title="自定义的metaclasses"></a>自定义的metaclasses</h2><p>假设我希望所有我定义的类中，所有的属性都要大写，这时就可以通过设置<code>__metaclass__</code>来实现。<code>__metaclass__</code> 形式上可以是任何可以被调用的东西。比如函数</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># the metaclass will automatically get passed the same argument</span></span><br><span class="line"><span class="comment"># that you usually pass to `type`</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">upper_attr</span>(<span class="params">future_class_name, future_class_parents, future_class_attrs</span>):</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">      Return a class object, with the list of its attribute turned</span></span><br><span class="line"><span class="string">      into uppercase.</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    <span class="comment"># pick up any attribute that doesn't start with '__' and uppercase it</span></span><br><span class="line">    uppercase_attrs = {</span><br><span class="line">        attr <span class="keyword">if</span> attr.startswith(<span class="string">"__"</span>) <span class="keyword">else</span> attr.upper(): v</span><br><span class="line">        <span class="keyword">for</span> attr, v <span class="keyword">in</span> future_class_attrs.items()</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="comment"># let `type` do the class creation</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">type</span>(future_class_name, future_class_parents, uppercase_attrs)</span><br><span class="line"></span><br><span class="line">__metaclass__ = upper_attr <span class="comment"># this will affect all classes in the module</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>():</span> <span class="comment"># global __metaclass__ won't work with "object" though</span></span><br><span class="line">    <span class="comment"># but we can define __metaclass__ here instead to affect only this class</span></span><br><span class="line">    <span class="comment"># and this will work with "object" children</span></span><br><span class="line">    bar = <span class="string">'bip'</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">hasattr</span>(Foo, <span class="string">'bar'</span>)</span><br><span class="line"><span class="literal">False</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">hasattr</span>(Foo, <span class="string">'BAR'</span>)</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Foo.BAR</span><br><span class="line"><span class="string">'bip'</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>用类也可以完成同样的事情,这里<code>type</code> 就如同<code>int</code> 、<code>str</code> 当作父类被继承。<code>__new__</code> 在<code>__init__</code> 之前被调用，用于控制如何创建一个对象。</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment"># remember that `type` is actually a class like `str` and `int`</span></span><br><span class="line"><span class="comment"># so you can inherit from it</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UpperAttrMetaclass</span>(<span class="params"><span class="built_in">type</span></span>):</span></span><br><span class="line">    <span class="comment"># __new__ is the method called before __init__</span></span><br><span class="line">    <span class="comment"># it's the method that creates the object and returns it</span></span><br><span class="line">    <span class="comment"># while __init__ just initializes the object passed as parameter</span></span><br><span class="line">    <span class="comment"># you rarely use __new__, except when you want to control how the object</span></span><br><span class="line">    <span class="comment"># is created.</span></span><br><span class="line">    <span class="comment"># here the created object is the class, and we want to customize it</span></span><br><span class="line">    <span class="comment"># so we override __new__</span></span><br><span class="line">    <span class="comment"># you can do some stuff in __init__ too if you wish</span></span><br><span class="line">    <span class="comment"># some advanced use involves overriding __call__ as well, but we won't</span></span><br><span class="line">    <span class="comment"># see this</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span>(<span class="params">upperattr_metaclass, future_class_name,</span></span></span><br><span class="line"><span class="function"><span class="params">                future_class_parents, future_class_attrs</span>):</span></span><br><span class="line">        uppercase_attrs = {</span><br><span class="line">            attr <span class="keyword">if</span> attr.startswith(<span class="string">"__"</span>) <span class="keyword">else</span> attr.upper(): v</span><br><span class="line">            <span class="keyword">for</span> attr, v <span class="keyword">in</span> future_class_attrs.items()</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">type</span>(future_class_name, future_class_parents, uppercase_attrs)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>接下来，然我们用更规范、更简短的方式重新写一下上面这个类</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UpperAttrMetaclass</span>(<span class="params"><span class="built_in">type</span></span>):</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span>(<span class="params">cls, clsname, bases, attrs</span>):</span></span><br><span class="line">        uppercase_attrs = {</span><br><span class="line">            attr <span class="keyword">if</span> attr.startswith(<span class="string">"__"</span>) <span class="keyword">else</span> attr.upper(): v</span><br><span class="line">            <span class="keyword">for</span> attr, v <span class="keyword">in</span> attrs.items()</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">type</span>(clsname, bases, uppercase_attrs)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>但这不是这正确的OOP，因为我们直接调用了<code>type</code> 没有重写或是调用父类的<code>__new__</code> ，让我们来修改一下</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UpperAttrMetaclass</span>(<span class="params"><span class="built_in">type</span></span>):</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span>(<span class="params">cls, clsname, bases, attrs</span>):</span></span><br><span class="line">        uppercase_attrs = {</span><br><span class="line">            attr <span class="keyword">if</span> attr.startswith(<span class="string">"__"</span>) <span class="keyword">else</span> attr.upper(): v</span><br><span class="line">            <span class="keyword">for</span> attr, v <span class="keyword">in</span> attrs.items()</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">type</span>.__new__(cls, clsname, bases, uppercase_attrs)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>还可以用super，这样更加简洁，也更加容易继承。</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UpperAttrMetaclass</span>(<span class="params"><span class="built_in">type</span></span>):</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span>(<span class="params">cls, clsname, bases, attrs</span>):</span></span><br><span class="line">        uppercase_attrs = {</span><br><span class="line">            attr <span class="keyword">if</span> attr.startswith(<span class="string">"__"</span>) <span class="keyword">else</span> attr.upper(): v</span><br><span class="line">            <span class="keyword">for</span> attr, v <span class="keyword">in</span> attrs.items()</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">super</span>(UpperAttrMetaclass, cls).__new__(</span><br><span class="line">            cls, clsname, bases, uppercase_attrs)</span><br></pre></td></tr></tbody></table></figure>
+
+<p>对了，还有一点，如果python3中这样定义metaclass</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>(<span class="params"><span class="built_in">object</span>, metaclass=MyMetaclass, kwarg1=value1</span>):</span></span><br><span class="line">    ...</span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>kwarg1</code> 参数会被传入到<code>Mymetaclass</code> 中</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyMetaclass</span>(<span class="params"><span class="built_in">type</span></span>):</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span>(<span class="params">cls, clsname, bases, dct, kwargs1=default</span>):</span></span><br><span class="line">        ...</span><br></pre></td></tr></tbody></table></figure>
+
+<p>以上就是对metaclass的所有介绍了。其实metaclass本身并不复杂，由于metaclass经常被用于完成一些复杂、黑魔法的工作，所以让人觉得很晦涩难懂。但metaclass本身其实很简单</p>
+<ul>
+<li>拦截类的创建</li>
+<li>修改一个类</li>
+<li>返回修改后的类</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+
+<span style="margin-top:30px; color:var(--blockquote-color); font-size:0.85em">
+        <span class="post-end-item" title="updated">
+            <span class="post-end-item-icon" style="margin-right: 3px"><i class="far fa-fw fa-calendar-check"></i></span>
+            <time title="更新时间：2026-03-02 06:13:23" itemprop="dateModified" datetime="2026-03-02T06:13:23+08:00">
+                <span class="post-end-item-text">更新时间：2026-03-02</span>
+            </time>
+        </span>
+        <br>
+        <span class="post-end-item" title="copyright"">
+            <span class="post-end-item-icon" style="margin-right: 3px">
+                <i class="fab fa-fw fa-creative-commons"></i>
+            </span>
+            <span class="post-end-item-text">采用署名-非商业性使用-相同方式共享 4.0（CC BY-NC-SA 4.0）许可协议</span>
+        </span>
+</span>
+
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i> python</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/d5d7637a/" rel="prev" title="写在22岁生日">
+                  <i class="fa fa-chevron-left"></i> 写在22岁生日
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/128714c8/" rel="next" title="程序员的自我修养 | 目标文件">
+                  程序员的自我修养 | 目标文件 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">浙ICP备18047530号 </a>
+      <img src="/images/beian.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">陈末</span>
+</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+  
+
+
+
+
+
+  <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.dcts.top/post/a1399864/',]
+      });
+      });
+  </script>
+<script>
+NexT.utils.loadComments('#waline-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js', () => {
+    new Waline(Object.assign({"enable":true,"serverURL":"https://imnerd-api-rosy.vercel.app","placeholder":"Just go go","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"requiredFields":["nick","mail"]}, {
+      el: '#waline-comments',
+      path: "/post/a1399864/"
+    }));
+  }, window.Waline);
+});
+</script>
+</body>
+</html>
