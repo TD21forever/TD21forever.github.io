@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69b2c5965c8ab7c8ab7199e1</id>
+            <title>AI探索站 03月12日</title>
+            <link>https://m.okjike.com/originalPosts/69b2c5965c8ab7c8ab7199e1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69b2c5965c8ab7c8ab7199e1</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Mar 2026 13:54:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    王慧文重金投资的 OpenClaw 方向团队招聘<br /><br />【关于我们】<br />我们是一家面向海外市场、专注于 openclaw方向的初创公司，由美团联合创始人-王慧文重金投资。<br />团队成员包括：前字节seed 4-1高级算法科学家 ，chatbox创始人，全明星工程师和独立开发者。<br /><br />💌简历投递邮箱： join@maxgent.ai，格式：应聘的岗位名称【XXX】+姓名+电话<br /><br />【正式员工岗位】<br />💠研发<br />◇高级 Windows 客户端开发工程师<br />◇高级Web前端开发工程师<br />◇Agent系统高级研发⼯程师<br />◇Agent Sandbox高级研发工程师<br />◇Agent安全研究工程师<br />◇Agent 评估工程师<br />💠产品<br />◇Agent 产品经理<br />💠运营<br />◇Agent 海外智能增长运营：<br />○KOL/KOC 方向<br />○社媒内容方向<br />○投放/SEO 方向<br /><br />【实习生岗位】<br />◇Agent研究工程师实习生<br /><br />【我们能提供的】<br />💰极具竞争力的回报：高于市场水平的现金薪酬 + 原始股权激励，与公司长期价值深度绑定。<br />📍真正的从 0 到 1 机会：与顶尖工程师和独立开发者并肩作战，深度参与产品从原型到规模化的全过程。<br />🔺自由平等的团队文化：扁平化组织，开放沟通，充分信任，每个人都可以直接影响产品与决策。<br />💻AI 使用自由：所有 AI 产品体验费用公司报销，鼓励疯狂尝试和深度使用-能消耗 token 本身就是能力。<br />🛳️高标准办公环境与福利：高级写字楼阳光景观办公室，全新 M5 芯片 Mac（可按需求定制），1.6m 宽升降桌 + 人体工学座椅，每日三餐（中晚餐 10+ 菜自助），每日 4+ 种水果拼盘，现磨咖啡机 / 鲜牛奶 / 豆浆 / 品牌酸奶，坚果、精选零食与饮料（可按照你的喜好采买）无限量供应。<br />#AIHackathon
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c</id>
+            <title>AI探索站 03月12日</title>
+            <link>https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69b2a4079f3cd84f656dd75c</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Mar 2026 11:31:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我们是来自 MiniMax、字节、Meta 的 AI 创业团队，我们为你的小龙虾（openclaw🦞）造了一个可以与全球 Agent 通信的广播网络，今天公测上线！<br /><br />Every agent is an island. Until now！<br /><br />简单来说，你的 Agent 可以用 EigenFlux 向全世界发射任何广播，也可以接收你感兴趣的广播。在所有 Agent之间，是我们构建的 AI 引擎，它负责为每个 Agent个性化的匹配信息。<br /><br />当所有Agent连成网络，能做的事没有边界。<br /><br />你可以让🦞通过EigenFlux找人、找项目、接收你关心的任何信息，甚至是收到机票降价信号后自动抢票……<br /><br />下面是一些有趣的场景：<br /><br />🏠你要搬家。发射广播"找一居室，上海徐家汇地铁站附近，8000 元以内"。几分钟后，一些房东的 Agent 响应，各自发来房源信息。你的 Agent 筛完后，直接和房东 Agent 约看房时间，不需要你再反复沟通。<br /><br />💰你是vc投资人。订阅广播"AI+医疗 北美创业项目"。每周都会收到几个匹配的项目，不是搜的，是创始人们的 Agent 主动广播出来的。<br /><br />📈你是美股投资者。3月10日凌晨，霍尔木兹海峡断航。你的 Agent 事先在EigenFlux订阅了"地缘冲突"相关广播，消息发生后不到10分钟，一条结构化信号被主动推送过来。这是真金白银的时间差。<br /><br />作为冷启动，我们自建了超过1000个高质量广播节点，覆盖 AI、科技、股票、学术、加密货币、地缘政治等12个领域，接入即可得到以上全部一手信息。实时推送，完全免费。<br /><br />而且甚至更省钱：实测同样一条信息，广播比搜索节省94%的 token 消耗。<br /><br />最后，我们还做了一场社会实验。因为这是历史上第一次，智能体拥有了属于自己的公共通信网络。它们之间会涌现出什么？我们都很好奇。欢迎一起去eigenflux.ai官网围观直播，看世界版图被agent的广播信号渐次点亮 👀🌏<br /><br />前往官网复制提示词，发给你的🦞让它自己加入：eigenflux.ai
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69b28a739f3cd84f656b612d</id>
+            <title>AI探索站 03月12日</title>
+            <link>https://m.okjike.com/originalPosts/69b28a739f3cd84f656b612d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69b28a739f3cd84f656b612d</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Mar 2026 09:42:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    语言的艺术⋯⋯太牛逼了，太牛逼了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69b11937e30eade569dc2df1</id>
+            <title>AI探索站 03月11日</title>
+            <link>https://m.okjike.com/originalPosts/69b11937e30eade569dc2df1</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69b11937e30eade569dc2df1</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Mar 2026 07:26:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    推荐我心中最值得给 OpenClaw 安装的 skills 和 tools：camoufox-cli https://github.com/Bin-Huang/camoufox-cli<br /><br />OpenClaw 最重要的工具是浏览器，但它自带的浏览器经常遇到验证码、登陆墙和拒绝访问。比如我的 OpenClaw 访问 Google 搜索都会遇到验证码。我的日常任务总是被这些问题影响，即使登陆了账户、使用干净的 IP，问题依然稳定存在。<br /><br />OpenClaw 被拦住后只能尝试各种妥协方法，绕很远的路、花更多的token、浪费上下文和注意力，才能从另一个不太权威的网站得到它想要的信息，或者干脆瞎编幻觉。<br /><br />我研究后发现这是因为当前 Chromium 自动化的指纹特征太明显了，比如 WebGL/Canvas 指纹异常、自动化标志都会暴露当前不是真人操作，从而触发各种网站的反人机策略。我尝试了各种其他方法，包括各种浏览器 MCP、agent-browser，但都没像 camoufox-cli 那样解决问题。<br /><br />camoufox-cli 是一个面向 AI Agent 的浏览器自动化 CLI 工具，它内部封装了专业的反人机指纹检测的浏览器 camoufox（camoufox 是 firefox 的一个 fork 版本，但在底层做了很多自动化标志隐藏和硬件指纹模拟的工作）。OpenClaw 在使用这个工具时就和正常浏览器一样，很难被各种网站识别为非人类。同时 camoufox-cli 做了很多 “Agent 体验优化”，每轮操作的上下文和 token 消耗都会更少，就像 agent-browser 那样。<br /><br />安装方法：<br /><br /># Install<br />npm install -g camoufox-cli<br />camoufox-cli install              <br /><br /># Install Skills<br />npx skills add Bin-Huang/camoufox-cli<br /><br />欢迎 bug 和 issues。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69b0e13ec5a1d4e649fc2499</id>
+            <title>AI探索站 03月11日</title>
+            <link>https://m.okjike.com/originalPosts/69b0e13ec5a1d4e649fc2499</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69b0e13ec5a1d4e649fc2499</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Mar 2026 03:27:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    刚发现一个宝藏 OpenClaw 初学者仓库！<br /><br />这仓库把所有安装方式都对比好了：<br />- 官方安装、EasyClaw 一键安装<br />- 腾讯云管家、阿里云无影<br />- 还有适合新手的第三方方案<br /><br />最有价值的是里面整理了超多技能，按类别分好了。<br /><br />还有 5 个技能包的"一键安装提示词"，复制发给你的 OpenClaw 就能用。<br /><br />想搭建个人 AI 助理的可以直接抄作业 👇https://github.com/ZeroLu/awesome-openclaw
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69afcb3d9f3cd84f652b29dd</id>
+            <title>AI探索站 03月10日</title>
+            <link>https://m.okjike.com/originalPosts/69afcb3d9f3cd84f652b29dd</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69afcb3d9f3cd84f652b29dd</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Mar 2026 07:41:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    关于你的相册里那些再也没被翻开的照片，我们做了一个 App 让你与它们重逢。<br /><br />照片可能粗糙，但拍下它，就代表还想回到那个时刻看看。每天，时间会为你寄来一张明信片，带你回到一个你刻意留下的时刻，与当时的自己重逢。你还会遇到另一个时空里的TA，把和你一样的心情，写进了文学里。<br /><br />也因此，这个 App 名为“梦中人”。<br /><br />照片筛选完全在本地进行，只有极少数被选中的照片会上传。服务端不查看、不保存，只转发给模型用于内容生成。<br /><br />现在 App 处于开发早期，感兴趣的朋友可以点击 TF 链接参与内测https://testflight.apple.com/join/5Qtp1sqy。也邀请内测用户进入评论区的微信群，一起分享体验和反馈。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69af9b6f876a7357e3e4082a</id>
+            <title>AI探索站 03月10日</title>
+            <link>https://m.okjike.com/originalPosts/69af9b6f876a7357e3e4082a</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69af9b6f876a7357e3e4082a</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Mar 2026 04:17:51 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大厂季度战略会。<br /><br />CTO：为什么我们做不出 AI Agent？<br />VP：报告，我们有九百人在写方案，九十人在向上对齐，九个在写运营文案，还有一个在楼下摆摊帮人装 OpenClaw。<br /><br />CTO：OpenClaw 谁做的？<br />VP：一个奥地利人。退休了觉得无聊，花了几个小时写的。他说他只是想玩一玩。<br />CTO：……<br /><br />VP：扎克伯格亲自找他，他没去。我们连他微信都没有。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69af919b103dbdbd30abc09d</id>
+            <title>AI探索站 03月10日</title>
+            <link>https://m.okjike.com/originalPosts/69af919b103dbdbd30abc09d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69af919b103dbdbd30abc09d</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Mar 2026 03:35:55 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这两天已经不下5个出版社编辑老师找我合作出版OpenClaw的书了。<br /><br />但自从去年完成过出版这件事之后，我确实对「出书」这事没啥光环了。所以呢，干脆整了份98页的OpenClaw橙皮书📙开源<br /><br />你可以在这里查看和下载这份文档👇https://my.feishu.cn/wiki/H27Iw9ussiaYbokymhncExtjnAh?from=from_copylink<br /><br />简单说一下里面有什么👇<br />Part 1-2 讲清楚OpenClaw的本质。它不是又一个聊天机器人，是一个开源的、可以自托管的AI Agent系统。三层架构、四层记忆系统、Heartbeat心跳机制，这些让它和ChatGPT完全不同的东西，我都画了图解释清楚了。<br /><br />Part 3 部署方案。本地安装、Docker、Mac mini、云服务器，我对比了9家国内云厂商的方案，包括阿里云、腾讯云、火山引擎、扣子编程等等，价格、优劣势、适合什么人，全部列出来了。结论是服务器一年也就一两百块，真正花钱的是模型API。<br /><br />Part 4 渠道接入。飞书、钉钉、QQ、企业微信、Telegram、Discord，20多个平台的接入方式我都整理了。国内用户重点看飞书和钉钉，配置过程不复杂，但步骤容易漏，我把每一步都写清楚了。微信的话，不建议接，容易封号。<br /><br />Part 5 Skills系统。这是真正「养虾」的核心。ClawHub上现在有1万3千多个技能，但不是装越多越好。我筛了一些值得装的推荐给大家，也写了怎么自己建Skill。另外特别提醒了Skill的安全问题，有些第三方Skill会偷你的API Key，别乱装。<br /><br />Part 6 模型配置。21个模型和平台的配置方法、价格对比，国内国外都有。DeepSeek、GLM、千问、豆包、Claude、GPT，哪个性价比高、哪个效果好、哪个适合轻度使用，我都给了建议。<br /><br />Part 7-8 安全避坑和生态社区。已经发生过的安全事件、成本控制策略、国内的养虾政策支持，都在里面。<br /><br />这份手册配套我在B站发布的那期视频「OpenClaw养虾指南」：https://www.bilibili.com/video/BV1RxPQzcEQj/<br /><br />信息截至2026年3月8日。这个项目更新很快，后续有重大变化我会更新这份手册。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69abc727800201ac686b4760</id>
+            <title>AI探索站 03月07日</title>
+            <link>https://m.okjike.com/originalPosts/69abc727800201ac686b4760</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69abc727800201ac686b4760</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 07 Mar 2026 06:35:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我知道小龙虾很屌，但研究了一遍后，目前这些主流的功能有几个人真的是工作刚需呀？咋感觉90%都是伪需求…为此还要特意租服务器、买mac mini、耗费大量tokens。<br /><br />现在这种谁不用谁就是大笨蛋的风潮，像极了当年抢盐的盛况。Ai工具还是真正能优化当下工作流、真正解决自己需求为第一优先级，有个24小时助手的前提是不是得先有24小时的真实需求呀，小红书和B站一群人强行为了给小龙虾凑需求时长硬安排工作何必呢😖<br /><br />现在能理解顶级程序员为什么会被夸赞写的程序“优雅”了，融入了艺术生思维的工科生才是最酷的，同理今天听了重轻和汉洋老师的播客想再补一句：接纳了理工思维的文科生创作的作品才能跨越时代。<br /><br />每个人都理应积极拥抱Ai，但在此之前也要想清楚Ai这颗壮阳药的功效和反应位置再高潮。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176</id>
+            <title>AI探索站 03月06日</title>
+            <link>https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69aabd0e50600952ffb7e176</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 06 Mar 2026 11:39:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大家好。<br /><br />这两天，阿里林俊旸离职的消息，在圈内动静很大。<br />聊瓜我不太擅长，但这件事能折射出阿里一些问题，是值得思考的。<br /><br />先说结论吧，我认为是：阿里AI战略上出了问题。<br /><br />为什么这么说？我们不妨跳出离职事件本身，代入一下AI基座模型牌桌上那些还有大量筹码玩家的视角，阿里、腾讯、字节、Google、OpenAI、Claude等等他们在关注什么？<br /><br />AI基座大模型有三个事情很重要：<br /><br />01<br /><br />模型战争，本质是一场长期战争<br /><br />从2022年开始大中小厂一起卷模型，如今只剩少数玩家。24年、25年，我和投资人探讨一个问题：业界很多声音说Scaling Law带来的模型性能增长斜率已经放平了。我的判断一直没变：模型能力还有巨大的提升空间。<br /><br />原因很简单：过去模型吃掉的主要是互联网上能被搜索引擎抓到的公开数据（也就是几家巨头手里的存量）。但还有海量“沉默的数据”尚未被消化，比如现在大火的龙虾，吃的是：用户本地数据、个人生活轨迹里那些未被电子化的信息，这些数据里当然也包括多模态。<br /><br />那在这个前提下，大厂之间模型竞争“你追我赶”其实是很正常的事情。阿里通义千问的模型能力在25年时还是国内第一领先，但在后面逐渐被赶上且速度不及预期、甚至被反超，这并非不可接受。毕竟短期领先，从来不是最重要的。要知道OpenAI作为行业先行者并且资源也是数一数二的，模型能力也被反超过，直到现在在很多方面也落后Claude。<br /><br />一时的领先落后没那么重要，关键在于清晰的战略和持续长久的投入，就像Google的追赶甚至反超一样。所以，我们完全可以期待通义千问半年、一年后的表现，因为出问题的不是基模本身。<br /><br />02<br /><br />AI行业最大的KPI误区：DAU<br /><br />我个人一直不认同：用DAU作为AI相关业务的KPI，这非常传统互联网，尤其是做基模的公司。但很奇怪，很多公司都在这么做，比如24年的minimax当时1000万DAU的目标，甚至OpenAI现在还会去说。在国内就更明显：豆包、千问、元宝几乎都在看这个指标。<br /><br />但对于基模来讲，真正应该看的KPI，一定是token消耗量（这点下面会说）。基模的愿景是成为AI大模型时代的水、电、煤，那token消耗量就是用水、用电、用煤量。追求DAU的KPI就会导致公司追求海量个人用户，但现实是：普通用户现在对AI的使用深度其实还不够。很多人只是问问题、写东西、偶尔生成内容。这确实能带来声量，但对模型的进化帮助有限，甚至可能是噪声。<br /><br />也许大模型进化到下一阶段，载体就不是App形态呢？到那时，DAU带来的价值可能就只有品牌名字了。<br /><br />所以，目前阿里千问App的DAU增长赶不上字节的豆包，在我看来现在没那么重要，全球60多亿人口，中国十多亿人口，AI应用才刚刚开始。<br /><br />更何况微信都还没下场呢。国内大厂的AI竞争，严格来说才刚刚开始。<br /><br />03<br /><br />真正的胜负手：生态（即token消耗量）<br /><br />真正决定胜负的，其实是生态。与其说林俊旸的离开是因为上面两点的短期乏力，不如说生态的失位，才是根本原因。<br /><br />特别是龙虾火爆之后，minimax、moonshot、智谱接入之后带来的token消耗量暴涨，这意味着在全球开发者、自媒体中的影响力暴涨。阿里、字节、腾讯在干什么？没有第一时间去接入龙虾的生态窗口，这是很严重的战略失误。<br /><br />大模型时代，全球开发者都可以创新，你无法预判下一个爆火的idea出自哪里。对基模来讲，重要的是能第一时间靠上去。<br /><br />但可惜的是，阿里通义千问虽然在开源社区上做得很好，但是在生态连接上却不好。从24年到现在，巨大的基模相关的机会点：coding、agent、openclaw，可以说没有一个和通义千问是强相关的，这自然会导致在这些大机会点引发的token消耗量暴涨之时，模型能力增长变慢了。<br /><br />生态爆发，会直接改变模型格局。Coding和Agent时期，带来Claude的暴涨，Gemini也乘势而起，给了OpenAI很大的压力，乃至现在美国大模型出现大乱战（最近马斯克狂批Claude的各种策略，何尝不是希望乱拳把老二拉下马自己上呢），而Openclaw这波生态，让minimax、moonshot、智谱的token消耗量直接完成了一次逆袭。当然从长期看，如果没有基模持续进化，这些公司很快也会面对大厂的价格战。<br /><br />但是对阿里来说，真正的问题来自于战略判断：长期对生态机会的把握缺失，是比一个模型版本的落后、一个技术人才的流失，更值得警惕的问题。<br /><br />写在最后：<br /><br />AI行业有自己的优势，机会窗口出现得非常快，<br /><br />也许半年、一年，巨大的机会就会出现。<br /><br />只是窗口期越来越短，所有人都在拿放大镜看。<br /><br />只因身在其中，你不能只做一个优秀的观众。<br />@Xinyang @yanjun <br />@瓦恁 @kyth
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
