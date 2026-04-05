@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69d1ea9d5effd6c397382949</id>
+            <title>AI探索站 04月05日</title>
+            <link>https://m.okjike.com/originalPosts/69d1ea9d5effd6c397382949</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69d1ea9d5effd6c397382949</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 05 Apr 2026 04:52:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    你的下一个员工，何必是同事。<br /><br />同事.skill这几天火了，把同事蒸馏成AI Skill。这个项目证明了一件事：蒸馏一个人的能力，是可行的。<br /><br />但我想问一个问题：既然我们已经有了蒸馏人的能力，为什么要蒸馏身边的同事？<br /><br />去蒸馏各领域最强的人。<br /><br />而且幸运的是，这些人留下了大量可以被蒸馏的材料。芒格有《穷查理宝典》和几十年的股东会演讲。费曼有全套讲义和自传。Naval有几百条推文和长篇播客。塔勒布有五本书和无数公开辩论。这些都是高纯度的思维原矿，等着被提炼。<br /><br />我之前就一直在干这件事。今天把方法论开源了，叫女娲。<br /><br />使用极其简单：输入一个名字就行。女娲自动启动6个Agent去找书、找播客、找推文、找批评者，自己调研、自己提炼、自己验证。你不需要准备任何材料。<br /><br />6个Agent并行采集著作、播客、社交媒体、批评者视角、决策记录、时间线。然后三重验证：一个观点要被收录为心智模型，必须跨2个以上领域出现过、能预测新问题立场、不是所有聪明人都会这么想。三条全过才留。<br /><br />决策前问芒格，写教程问费曼，评估风险问塔勒布。你想蒸馏谁就蒸馏谁。<br /><br />GitHub: https://github.com/alchaincyf/nuwa-skill<br />安装: `npx skills add alchaincyf/nuwa-skill`<br /><br />MIT协议，随便用，随便改，随便造。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69d10b81c5a1d4e649e749f5</id>
+            <title>AI探索站 04月04日</title>
+            <link>https://m.okjike.com/originalPosts/69d10b81c5a1d4e649e749f5</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69d10b81c5a1d4e649e749f5</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 04 Apr 2026 13:00:49 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我是如何实现跨工具，跨电脑来管理 skill 的？<br /><br />今天在家办公，发现现在离开了Skill，根本没有办法工作，为了让自己在家里电脑也能用工作电脑的 skill，我把 100 多个 skill 做了一个同步和分类。<br /><br />可以实现跨工具、跨电脑、跨网络来使用和分享 skill。<br /><br />主要用到的方法就是用.claude/skills 来做全局 skill，其他工具如 codex 的skill 根目录做软链接同步.claude/skill。<br /><br />再对全局 skill 按类型拆分文件夹，并在 github 建仓同步，这就实现了跨网络/电脑/工具同步了，最后，再建立一个 skill-mannage 来定时自动推送 git。<br /><br />对于 git 的处理，强烈建议 GitHub CLI，可以实现让 Agent  无碍障增删改查 git。<br /><br />既然做了分类，就给大家分享一下我的四大类 skill，分类清晰更便于各位使用。<br /><br />共 100 多个 Skill 分了写作类、画图类、信息获取类、产品经理类，建了四个仓库<br /><br />1 写作类，write-skill，21 个 Skill，覆盖内容创作全流程：<br /><br />地址：https://github.com/zephyrwang6/write-skill<br /><br />2 画图类draw-skill，13 个 Skill，解决"AI 配图"全场景：<br /><br />地址：https://github.com/zephyrwang6/draw-skill<br /><br />3 信息获取类：info-skill，14 个 Skill，把散落各处的信息收回来。<br /><br />地址：https://github.com/zephyrwang6/info-skill<br /><br />4 产品经理类：protodesign，13 个 Skill，产品经理的工具箱：<br /><br />地址：https://github.com/zephyrwang6/protodesign<br /><br />所有 skill: https://github.com/zephyrwang6/myskill<br /><br />对于skill工作 的创造和管理，我已经在社群里分享过很多，如果大家感兴趣，可以点赞支持一下，后面再发长文分享制作技巧和管理方法，让你的 Agent 更有用
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69cf41e99d37c7cf83dd4494</id>
+            <title>AI探索站 04月03日</title>
+            <link>https://m.okjike.com/originalPosts/69cf41e99d37c7cf83dd4494</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69cf41e99d37c7cf83dd4494</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 03 Apr 2026 04:28:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我如何在国内用上ClaudeCode Max，用Opus4.6模型：<br />1. 准备美国静态住宅节点，我用的是PlinX:https://plinx.net/#/invitel，邀请码：ayv3y0fC <br />（https://plinx.net/#/auth/register?code=ayv3y0fC） <br />2. 打开一个干净的Google Chrome窗口（没有任何gmail登录）<br />3. 注册了一个新的邮箱（我用的是proton mail：https://mail.proton.me/）<br />4. 访问Claude官网注册<br />5. 需要美国手机号，去这里购买：https://grizzlysms.com<br />6. 先网页端订阅MAX200，再根据网页端引导安装CC
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69cd3c88800201ac68752d4f</id>
+            <title>AI探索站 04月01日</title>
+            <link>https://m.okjike.com/originalPosts/69cd3c88800201ac68752d4f</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69cd3c88800201ac68752d4f</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 01 Apr 2026 15:40:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    明明 ai帮你做了很多，为什么反而更耗？<br /><br />因为它天然对大脑认知资源收最贵的两种税，切换税和监控税，而且两者经常叠加一起出现，所以经常表现为：<br /><br />1.你总在做事和审稿之间来回跳，还得盯着一个时好时坏的系统。 <br />2.你必须持续保持半怀疑、半接纳的状态，这比纯创造更难进入稳定节律。<br /><br />这是在承担一种非常不便宜的监督负担。 <br /><br />因为太消耗，跟好几乎每天都泡在AI里的朋友聊天，他们说自己食量变大了，蛋白质需求更高了，更不爱动了，也懒得和其他人说话了，甚至大半夜会睡不着，从床上爬起起来点个宵夜，体重也蹭蹭往上涨🤦
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69cc888c25bae5661294c269</id>
+            <title>AI探索站 04月01日</title>
+            <link>https://m.okjike.com/originalPosts/69cc888c25bae5661294c269</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69cc888c25bae5661294c269</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 01 Apr 2026 02:53:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    既然Claude Code源码都泄漏了，我觉得我这75页的《CLAUDE CODE橙皮书📙》也该开源了。<br /><br />这份橙皮书是我和Claude Code花了两个多月一起写的实战手册，面向想用AI编程但不知道从哪开始的人。10章，从安装到独立做出一个完整产品。<br /><br />里面有什么：<br />• 核心工作流拆解（Plan/Auto模式、权限管理）<br />• CLAUDE.md写法——怎么给AI一张项目地图<br />• Skills、Hooks、MCP等扩展能力的实战用法<br />• 多Agent并行协作的完整机制<br />• Computer Use和Voice Mode等最新能力<br />• 一章完整的从零到上线产品实战<br /><br />信息源主要是Claude官方文档、CC之父Boris的分享、吴恩达的Claude Code课程，加上我自己用CC做了十几个产品的经验。内容更新到2026年3月底。<br /><br />和AI协作写的，内容量大，难免有幻觉。发现不准确的欢迎指正，我会持续更新。<br /><br />下载链接🔗：https://my.feishu.cn/wiki/JK1WwrRgJiYfRok7YxxceS5qn1J?from=from_copylink
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69cbdd7625bae56612855591</id>
+            <title>AI探索站 03月31日</title>
+            <link>https://m.okjike.com/originalPosts/69cbdd7625bae56612855591</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69cbdd7625bae56612855591</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 31 Mar 2026 14:43:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    最近每天烧几亿 Tokens，做了一款很有趣的 Mac「灵动岛」App - 👾 Vibe Island.<br /><br />Vibe Island 的灵感来源于我在 Vibe Coding 会同时开 5-10 个对话跑不同的任务，经常切着切着就忘了刚刚那个对话跑到哪了...任务做没做完、需不需要我审批等等问题。<br /><br />感觉人类大脑的上下文窗口已经远远不够用了。<br /><br />于是，我就给这些  Agents 造了一座灵动岛！<br /><br />装上 Vibe Island 之后：Mac 刘海区域会展示各种 Agents (Claude Code / Codex /  OpenClaw 等等）的实时工作状态：<br /><br />- 当 Agent 需要权限审批或任务完成时，灵动岛会自动展开，不用切回终端就能操作<br />- 面板聚合了所有正在运行的 Agents 对话，点击卡片，精准跳回到会话所在的终端界面<br />- 所有状态都配有定制化的 8 bit 像素风游戏音效，狠狠提升了 Vibe Coding 的氛围感<br /><br />灵动岛是一个极其优雅的形态：既能展示后台任务的状态，又不打扰前台正在进行的任务，它只在需要你注意的时候弹出，不用切换应用就能完成轻量交互，还带有一点陪伴感。<br /><br />其实最早这个 App 只能触发右上角的系统通知，后来发现只做通知远远不够，实际应该解决的是：如何在恰当的时刻，以最小的摩擦，把注意力带回到正确的位置。<br /><br />欢迎前往官网下载体验： <br />🏝️ https://vibeisland.app/ <br /><br />最后 感谢我的各种卷王朋友们 @西西弗森 @埃隆噗大可 @杨远骋Koji @Kenny_肯尼  @达尔文地雀 @白日梦想家Vivi @碎瓜 @zzzhizhi …一路以来的支持和疯狂鼓励！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69cb7091800201ac684bc57a</id>
+            <title>AI探索站 03月31日</title>
+            <link>https://m.okjike.com/originalPosts/69cb7091800201ac684bc57a</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69cb7091800201ac684bc57a</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 31 Mar 2026 06:58:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    目前日常 AI 工具的使用。<br /><br />Claude Opus 逻辑能力断档第一，润色的文本已经在发布及格线，提建议和反馈都很准确，关键问题都靠它解决。但搜索能力一般，数据源一般。<br /><br />Gemini 搜索和整理能力断档第一。像我这种日常需要海量资料搜集的工作，完全离不开。Claude 虽然幻觉不多，但知道的太少了。<br /><br />Grok 用来搜其它家产品不愿意聊或者禁止聊的话题。<br /><br />ChatGPT 5.4 没有预期中好用其实，作为替补。额度主要用来用 codex。<br /><br />Claude Code 不太舍得用。文本工作对我的价值还没有替代性。代码方面疑难杂症再找 Claude 出来解决一下。<br /><br />生活小能手，豆包。实时录音和文稿处理，千问。元宝很久没打开了。ima 还不错，知识库整理。<br /><br />Nano Banana 生图准确性断档第一。Midjourney 生图艺术性断档第一。<br />生视频 Seedance2.0 各方面断档第一。<br /><br />PPT 还没用到比较舒服的。还是手搓为主。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69c3c64bc17d4bfcdb5b606a</id>
+            <title>AI探索站 03月25日</title>
+            <link>https://m.okjike.com/originalPosts/69c3c64bc17d4bfcdb5b606a</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69c3c64bc17d4bfcdb5b606a</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Mar 2026 11:26:03 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    再次呼吁把 agent 翻译成智子<br />智能体真的太土了 ​​​
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69c3a454a013c96a6a772651</id>
+            <title>AI探索站 03月25日</title>
+            <link>https://m.okjike.com/originalPosts/69c3a454a013c96a6a772651</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69c3a454a013c96a6a772651</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Mar 2026 09:01:08 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    「疯狂星期四」北京场第 46 期，我们来五道口的原点学堂继续疯狂星期四！这儿是东升大厦新开业的创作空间，包括共享工位和日咖夜酒。欢迎在五道口、中关村附近的独立开发者、Vibe Maker 一起来喝咖啡、聊搞钱、Vibe Coding。<br /><br />* 时间：2026年3月26日 10:00～19:00（可随时加入）<br />* 导航：原点学堂 东升大厦 A 座，电梯先到 9 楼，然后跟随指引到10楼咖啡厅<br />* 报名：不需报名，点杯咖啡加入群聊即可<br />* Vibe Launch：下午3点，欢迎在现场分享你的新产品<br /><br />除了北京场以外，我们在上海、硅谷、深圳、成都都有举办疯狂星期四，你可以点击公众号详情，查看其他场地的地点和详细信息。<br />相信我们，你会喜欢 原点学堂 的 Vibe，不见不散！
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/69c3323139da4a373085473d</id>
+            <title>AI探索站 03月25日</title>
+            <link>https://m.okjike.com/originalPosts/69c3323139da4a373085473d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/69c3323139da4a373085473d</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Mar 2026 00:54:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    sora的APP关闭了<br />无数人看笑话<br />留存差 <br />瞎搞 <br />打败抖音的绝对不是另外一个抖音<br />……<br /><br />这些观点我觉得都没问题<br />类似这几年很多人常常挂在嘴边的<br />“我早就说过xxx”<br />“这不就是xxx”<br />……<br /><br />大概率这些判断最后都是“正确”的<br />但很多时候这些判断会类似“人总会死”的情境<br />尤其在变革的当下<br />所有走过的“弯路”最后可能都算数<br /><br />这个议题真的值得展开的角度，<br />我其实挺想看到的的是：<br />1.AI模型公司的架构选择（产品架构 and 组织架构）<br />2.模型公司的资源优先级或者说如何权衡自身的“token效率”<br />3.什么阶段，什么估值，什么市场竞争地位的公司如何做动态的战略取舍<br /><br />但又想<br />咳，谁会关心这些呢？<br /><br />摊手
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>

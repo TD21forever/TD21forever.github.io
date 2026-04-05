@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>宝玉的分享</title>
+        <link>https://baoyu.io</link>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-04-04/components-of-a-coding-agent</id>
+            <title>编程智能体的核心组件【译】</title>
+            <link>https://baoyu.io/translations/2026-04-04/components-of-a-coding-agent</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-04-04/components-of-a-coding-agent</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 05 Apr 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    深入拆解编程智能体的六大核心组件——代码仓库上下文、提示词缓存、工具调用、上下文瘦身、会话记忆和子智能体委派，揭示为什么 Coding harness 才是让大模型编程能力飞跃的关键。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/openai-president-greg-brockman-ai-self-improvement-the-superapp-bet-path-to-agi-scaling-compute</id>
+            <title>OpenAI 总裁 Greg Brockman：AI 自我改进、Super App 豪赌、通往 AGI 之路、算力扩张</title>
+            <link>https://baoyu.io/blog/openai-president-greg-brockman-ai-self-improvement-the-superapp-bet-path-to-agi-scaling-compute</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/openai-president-greg-brockman-ai-self-improvement-the-superapp-bet-path-to-agi-scaling-compute</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 01 Apr 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Brockman 用 90 分钟重新包装每一个被动决策，但叙事缝隙里藏着 OpenAI 的三层压力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-04-01/learn-from-open-source</id>
+            <title>Claude Code 源码泄漏了，但我不打算写源码分析分析文章</title>
+            <link>https://baoyu.io/blog/2026-04-01/learn-from-open-source</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-04-01/learn-from-open-source</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 01 Apr 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude Code 源码泄漏后满屏 AI 生成的分析文章，与其再多一篇，不如聊聊怎么真正从开源代码中学到东西。四步递进：跑起来、从功能点切入、二次开发、从零搭建。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-28/lark-cli-ai-agents</id>
+            <title>飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？</title>
+            <link>https://baoyu.io/blog/2026-03-28/lark-cli-ai-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-28/lark-cli-ai-agents</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    飞书开源 lark-cli，CLI 正在成为产品接入 AI Agent 的标准方式
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/from-note-taking-app-to-ai-workspace-the-simon-last-interview</id>
+            <title>Notion 联合创始人 Simon Last：我从去年夏天起就没写过一行代码了</title>
+            <link>https://baoyu.io/blog/from-note-taking-app-to-ai-workspace-the-simon-last-interview</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/from-note-taking-app-to-ai-workspace-the-simon-last-interview</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Notion 联合创始人讲述 AI harness 每六个月推倒重写、编码 Agent 连续跑 13 天的幕后故事。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-03-26/what-i-learned-from-two-weeks-inside-china-s-ai-ecosystem</id>
+            <title>在中国 AI 生态圈摸底了两周，我学到了什么</title>
+            <link>https://baoyu.io/translations/2026-03-26/what-i-learned-from-two-weeks-inside-china-s-ai-ecosystem</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-03-26/what-i-learned-from-two-weeks-inside-china-s-ai-ecosystem</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一位西方 VC 深入中国 AI 生态圈的第一手观察：创始人特质、硬件壁垒、软件泡沫与那个被忽视的不对称性
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/ai-learning-priority-quadrant</id>
+            <title>AI 发展太快跟不上？一张四象限图帮你做减法</title>
+            <link>https://baoyu.io/blog/ai-learning-priority-quadrant</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/ai-learning-priority-quadrant</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 20 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    两个问题帮你判断一个 AI 新东西值不值得花时间
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/gumloop-max-interview</id>
+            <title>被美国遣返、禁止入境 5 年，他在温哥华的卧室里做出了日处理 400 万工作流的 AI 平台</title>
+            <link>https://baoyu.io/blog/gumloop-max-interview</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/gumloop-max-interview</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    被遣返的微软工程师在温哥华卧室里创业，做出日处理 400 万工作流的 AI 自动化平台 Gumloop，刚拿下 Benchmark 领投的 5000 万美元 B 轮。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-03-17/claude-code-skills-lessons</id>
+            <title>构建 Claude Code 的经验：我们如何使用 Skills</title>
+            <link>https://baoyu.io/translations/2026-03-17/claude-code-skills-lessons</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-03-17/claude-code-skills-lessons</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic 内部团队分享 Claude Code Skills 的实战经验：9 大 Skills 类型分类、编写技巧和团队分发策略。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-03-11/levels-of-agentic-engineering</id>
+            <title>智能体工程的 8 个等级</title>
+            <link>https://baoyu.io/translations/2026-03-11/levels-of-agentic-engineering</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-03-11/levels-of-agentic-engineering</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 16 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 的编程能力正在超越我们驾驭它的能力，而弥合这个差距需要一步步来——总共 8 个等级。从 Tab 补全到自主智能体团队，这是完整的进阶之路。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-03-11/coding-agents-reshaping-epd</id>
+            <title>编程 Agent 如何重塑工程、产品和设计</title>
+            <link>https://baoyu.io/translations/2026-03-11/coding-agents-reshaping-epd</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-03-11/coding-agents-reshaping-epd</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    编程 Agent 让写代码变得异常简单，EPD 的角色定位会怎么变？PRD 已死、瓶颈从实现转向评审、通才比以往更有价值。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-01-07/ai-writes-most-code</id>
+            <title>当 AI 写了几乎所有代码，软件工程会怎样？</title>
+            <link>https://baoyu.io/translations/2026-01-07/ai-writes-most-code</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-01-07/ai-writes-most-code</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    资深工程师们纷纷经历"顿悟时刻"——AI 编码能力已跨过质变门槛，写代码的价值在下降，但软件"工程"的价值在上升。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-03-05/the-brand-age-pg</id>
+            <title>品牌时代</title>
+            <link>https://baoyu.io/translations/2026-03-05/the-brand-age-pg</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-03-05/the-brand-age-pg</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 08 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    瑞士制表业从精密仪器到奢侈品牌的蜕变史，揭示了当技术抹平产品差异后，品牌如何成为这个时代最强大的力量。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-05/i-built-a-translator-skill</id>
+            <title>我用 AI 翻译的三个阶段：提示词时代 → 推理模型时代 → Agent 时代</title>
+            <link>https://baoyu.io/blog/2026-03-05/i-built-a-translator-skill</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-05/i-built-a-translator-skill</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 05 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    翻译提示词谁都会写，但做成一个好用的翻译工具，要处理的问题远不止翻译本身：输入格式、分块策略、术语一致性、质量分级、个性化配置。这篇文章完整记录了一个翻译 Skill 从零到可用的迭代过程，以及我在其中学到的几个反复出现的设计原则。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-04/ai-merge-drafts-into-skills</id>
+            <title>多稿合并：从手动比稿到一键 Skill</title>
+            <link>https://baoyu.io/blog/2026-03-04/ai-merge-drafts-into-skills</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-04/ai-merge-drafts-into-skills</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 05 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 生成多个版本各有亮点但都不完美？把它们交给 AI 合并，再把流程固化成 Skill，以后一句话搞定。从手动比稿到自动合并的完整实操指南。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-04/terence-tao-mathematics-in-the-age-of-ai</id>
+            <title>陶哲轩最新演讲：AI 不是来抢数学家蛋糕的，是来把蛋糕做大的</title>
+            <link>https://baoyu.io/blog/2026-03-04/terence-tao-mathematics-in-the-age-of-ai</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-04/terence-tao-mathematics-in-the-age-of-ai</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 04 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Fields 奖得主陶哲轩在 SAIR 基金会演讲中揭示：让 50 个人三个月解决 2200 万道数学题的秘密武器不是 AI，而是形式验证。数学这个最保守的学科，正在被新技术撬动工作方式。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-01/greg-brockman</id>
+            <title>Greg Brockman（OpenAI 联合创始人）把“那场宫斗”讲完整了：董事会、请愿书、马斯克与控制权</title>
+            <link>https://baoyu.io/blog/2026-03-01/greg-brockman</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-01/greg-brockman</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 02 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 联合创始人 Greg Brockman 做客 Rick Rubin 播客，三小时深度对话。从 Sam Altman 被解雇的 72 小时危机、与马斯克的控制权谈判，到 Scaling Laws 争论、Agent-first 转型，再到北达科他小镇少年如何走到 AI 最前沿——这是科技高管极少展示的一面。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-03-01/jenny-wen-design-process</id>
+            <title>设计流程已死：Anthropic 设计负责人 Jenny Wen 谈 AI 时代的设计变革</title>
+            <link>https://baoyu.io/blog/2026-03-01/jenny-wen-design-process</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-03-01/jenny-wen-design-process</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 02 Mar 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic Claude 设计负责人 Jenny Wen 做客 Lenny's Podcast，聊了设计流程为什么走到尽头、在 AI 实验室做设计是什么感受、Co-work 怎么做出来的、以及现在招什么样的设计师。设计师做设计稿的时间从 60-70% 压缩到 30-40%，多出来的时间用于和工程师配对、甚至自己写代码。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-28/anthropic-ceo-trump-pentagon-clash</id>
+            <title>被封杀当晚，OpenAI 拿到了相同条款——Amodei 首次专访揭开 Anthropic 与五角大楼冲突内幕</title>
+            <link>https://baoyu.io/blog/2026-02-28/anthropic-ceo-trump-pentagon-clash</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-28/anthropic-ceo-trump-pentagon-clash</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 28 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    2026 年 2 月 27 日，特朗普点名封杀 Anthropic，五角大楼将其列为「国家安全供应链风险」。当晚 CEO Dario Amodei 首次面对镜头回应。而同一个晚上，OpenAI 拿到了包含完全相同限制条款的合同。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-27/from-writing-code-to-managing-agents</id>
+            <title>从写代码到管 Agent：斯坦福首门 AI 软件开发课的讲师说，大多数工程师还没准备好</title>
+            <link>https://baoyu.io/blog/2026-02-27/from-writing-code-to-managing-agents</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-27/from-writing-code-to-managing-agents</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    斯坦福首门 AI 软件开发课讲师 Mihail Eric 谈初级开发者的三重困境、多 Agent 编排的真正难点、Agent 友好代码库的标准，以及为什么初级工程师的'无知无畏'在 AI 时代反而是超能力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-26/the-ai-tsunami-is-here-dario-amodei</id>
+            <title>Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看</title>
+            <link>https://baoyu.io/blog/2026-02-26/the-ai-tsunami-is-here-dario-amodei</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-26/the-ai-tsunami-is-here-dario-amodei</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 27 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Dario Amodei 在班加罗尔接受了一场罕见的长访谈。他承认权力集中让他不安，承认 AI 终将在一切事情上超越人类，也承认社会对即将到来的变革毫无准备。海啸就在地平线上，但人们还在说那只是光线的错觉。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026-02-12/harness-engineering</id>
+            <title>驾驭工程：在「智能体优先」的世界里借力 Codex</title>
+            <link>https://baoyu.io/translations/2026-02-12/harness-engineering</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026-02-12/harness-engineering</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 26 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 团队分享了用 Codex 智能体从零构建百万行代码产品的经验：0 行人工代码，3 名工程师处理 1500 个 PR，完成时间仅为手工编码的十分之一。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-25/laura-tacho-ai-pragmatic-summit</id>
+            <title>92.6% 开发者每月使用 AI 编码助手，但每周节省时间只有 4 小时</title>
+            <link>https://baoyu.io/blog/2026-02-25/laura-tacho-ai-pragmatic-summit</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-25/laura-tacho-ai-pragmatic-summit</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    DX 公司 CTO Laura Tacho 在 Pragmatic Summit 上公布了 12 万开发者、450 家公司的最新基准数据。AI 采用率已达 92.6%，但每周节省时间卡在 4 小时不动。更关键的发现是：同样的 AI 工具，有些公司事故减半，有些事故翻倍。差别不在工具，在组织本身。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-25/coding-agent-sweet-spot</id>
+            <title>Coding Agent 有个甜蜜点，多数人直接跳过了</title>
+            <link>https://baoyu.io/blog/2026-02-25/coding-agent-sweet-spot</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-25/coding-agent-sweet-spot</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 25 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    通过 Simon Willison 和 Cloudflare vinext 两个真实案例，拆解 Coding Agent 的四个成功条件：有参照物、能自测、有架构蓝图、有人把控方向。不是所有项目都适合 Agent，但命中这四个条件，产出质量会出奇地好。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-23/claude-code-vs-cursor</id>
+            <title>同样的模型，为什么 Cursor 跑不过 Claude Code？</title>
+            <link>https://baoyu.io/blog/2026-02-23/claude-code-vs-cursor</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-23/claude-code-vs-cursor</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 24 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    同样的 Claude 模型，在 Cursor 和 Claude Code 里效果差很多。问题不在模型，而在上下文管理、使用场景和数据飞轮三个结构性差异。当编程从「人写代码」变成「人指挥 Agent 写代码」，原生 CLI 工具天然比 IDE 里长出来的 Agent 更有优势。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-21/cursor-ryo-lu-design-team</id>
+            <title>Cursor 设计负责人：只会画按钮的设计师，有麻烦了</title>
+            <link>https://baoyu.io/blog/2026-02-21/cursor-ryo-lu-design-team</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-21/cursor-ryo-lu-design-team</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 22 Feb 2026 03:46:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Cursor 设计负责人 Ryo Lu 在访谈中谈到：4 人设计团队如何管理 293 亿美元产品、用 Cursor 构建 Cursor 的递归飞轮、最强程序员也只能同时管 4 个 Agent、以及为什么 Cursor 不想做代码编辑器。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-22/openai-codex-embiricos-interview</id>
+            <title>OpenAI Codex 产品负责人：代码不再由人类编写，但我们会有更多构建者（Builder）</title>
+            <link>https://baoyu.io/blog/2026-02-22/openai-codex-embiricos-interview</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-22/openai-codex-embiricos-interview</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 22 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI Codex 产品负责人 Alexander Embiricos 在 20VC 访谈中分享了 AI 编码的现状：OpenAI 内部大多数人已不再打开 IDE，Codex 增长 20 倍，但真正的瓶颈不是模型而是人类。他还谈了开放标准、Agent 市场终局和 SaaS 的未来。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-21/the-pragmatic-summit-inside-openai</id>
+            <title>OpenAI 应用 CTO 和 Codex 负责人：AI 正在重塑构建软件的方式</title>
+            <link>https://baoyu.io/blog/2026-02-21/the-pragmatic-summit-inside-openai</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-21/the-pragmatic-summit-inside-openai</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 21 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 应用 CTO 和 Codex 工程负责人在 The Pragmatic Summit 上透露了内部真实工作状态：Codex 从工具进化成了队友，工程师合上笔记本去开会回来活已干完，设计师写的代码比半年前的工程师还多，一个 PM 靠 AI 变成了 50 倍效率的项目经理。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-19/notion-ceo-agent-future</id>
+            <title>Notion CEO：不能被 Agent 用的产品没有未来</title>
+            <link>https://baoyu.io/blog/2026-02-19/notion-ceo-agent-future</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-19/notion-ceo-agent-future</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 19 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Notion CEO Ivan Zhao 在 Access Podcast 中分享了他用 Agent 接管邮件的经历、雇佣 16 岁工程师的故事，以及 Notion 从卖工具转向卖工作、做 AI 模型中立的瑞士的战略转型。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-19/ai-writing-beyond-prompts</id>
+            <title>提示词救不了平庸的 AI 写作</title>
+            <link>https://baoyu.io/blog/2026-02-19/ai-writing-beyond-prompts</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-19/ai-writing-beyond-prompts</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 19 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很多人把 AI 写作质量不好归咎于提示词，但提示词只能决定格式和语气这些表面的东西。真正决定内容质量的是三件事：素材（你给 AI 什么料）、模型（谁来加工）、审稿能力（能不能看出好坏）。就像做菜一样，提示词只是调料，食材、厨艺和口味才是关键。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-13/claude-code-auto-commit</id>
+            <title>用 Claude Code 的 Hook + Skill，实现每次提交后自从 commit 提交变更</title>
+            <link>https://baoyu.io/blog/2026-02-13/claude-code-auto-commit</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-13/claude-code-auto-commit</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 18 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    写完文章老忘记 git commit？用 Claude Code 的 Stop Hook 拦截未提交变更，配合自定义 Commit Skill 自动分组提交，从此告别手动提交。附完整配置代码。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-17/gabriel-petersson-openai-dropout</id>
+            <title>高中辍学生靠 ChatGPT 自学成才成了 OpenAI 的研究科学家</title>
+            <link>https://baoyu.io/blog/2026-02-17/gabriel-petersson-openai-dropout</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-17/gabriel-petersson-openai-dropout</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Gabriel Petersson 没有高中文凭，没有大学学历，靠 ChatGPT 自学数学和机器学习，成了 OpenAI Sora 团队的研究科学家。他在播客中分享了辍学创业、用 AI 递归学习、绕过招聘流程找工作的完整经历，以及对教育体制的尖锐批评。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-17/claude-sonnet-4-6-release</id>
+            <title>59% 用户投票选了更便宜的那个：Sonnet 4.6 全面解读</title>
+            <link>https://baoyu.io/blog/2026-02-17/claude-sonnet-4-6-release</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-17/claude-sonnet-4-6-release</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Claude Sonnet 4.6 发布，在 Claude Code 测试中 70% 用户更喜欢它而非前代，59% 甚至选它而非旗舰 Opus 4.5。编码、Computer Use、百万 token 上下文六维全面升级，价格不变。便宜不再等于弱。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-17/jeff-dean-latent-space</id>
+            <title>Jeff Dean 深度访谈：一页纸备忘录促成 Gemini 的诞生，Google AI 的反击与 10,000 Token 的未来</title>
+            <link>https://baoyu.io/blog/2026-02-17/jeff-dean-latent-space</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-17/jeff-dean-latent-space</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 17 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Google 首席科学家 Jeff Dean 在 Latent Space 播客中回顾了蒸馏技术的真实起源、用一页纸备忘录推动 Brain 与 DeepMind 合并催生 Gemini 的幕后故事，并分享了对长上下文、AI 硬件能量效率和 10,000 token/秒未来的深度思考。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-15/fast-mode-vs-codex-spark</id>
+            <title>快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么</title>
+            <link>https://baoyu.io/blog/2026-02-15/fast-mode-vs-codex-spark</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-15/fast-mode-vs-codex-spark</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 15 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic 和 OpenAI 几乎同时推出 AI 编程的「快速模式」，但走了完全不同的技术路线：一个给同一模型加速 2.5 倍收 6 倍价格，一个用蒸馏模型跑在专用芯片上飙到 1000 token/秒。速度军备竞赛背后，藏着两种截然不同的产品哲学。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-14/dario-amodei-interview-analysis</id>
+            <title>Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点</title>
+            <link>https://baoyu.io/blog/2026-02-14/dario-amodei-interview-analysis</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-14/dario-amodei-interview-analysis</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 14 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic CEO Dario Amodei 再上 Dwarkesh Podcast，聊了两小时。收入每年翻 10 倍、刚融 300 亿、估值 3800 亿——但他不敢像 OpenAI 那样 all-in 算力。因为猜对方向容易，猜对时间几乎不可能，而猜错一年就可能破产。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-14/remove-ai-writing-flavor</id>
+            <title>别再用提示词去 AI 味了，方向就是错的</title>
+            <link>https://baoyu.io/blog/2026-02-14/remove-ai-writing-flavor</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-14/remove-ai-writing-flavor</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 14 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    所有去 AI 味提示词都是错的。真正的方案是给 AI 一份持续更新的写作风格 Skill——一份记录了你口味、做法和忌口的菜谱，让 AI 每次写作前都翻一遍。从零开始四步做出你自己的菜谱，越用越精准。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-13/nikita-bier-x-growth</id>
+            <title>只有 30 个工程师的 X，是怎么重新杀回 App Store 第二的</title>
+            <link>https://baoyu.io/blog/2026-02-13/nikita-bier-x-growth</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-13/nikita-bier-x-growth</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 13 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Nikita Bier 是硅谷最擅长做病毒式社交产品的人。他凌晨两点面试 Elon，48 小时交出产品原型，30 天把 X 从 App Store 第 78 推到第 2。这篇文章是他在 Lightspeed 节目中的完整实战复盘：链接降权的真相、Starter Packs 的冷启动、Elon 的管理风格，以及他把同一个 App 卖了两次的传奇故事。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-13/musk-coding-dead</id>
+            <title>马斯克说今年编程就要死了，你信吗？</title>
+            <link>https://baoyu.io/blog/2026-02-13/musk-coding-dead</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-13/musk-coding-dead</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 13 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    一条马斯克预言编程消亡的推文刷屏技术圈，但他真正说的和被传播的完全是两回事。回到原始发言，看看 AI 直接生成二进制的想法为什么站不住脚，以及编程真正在发生什么变化。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-12/skills-shell-tips</id>
+            <title>OpenAI 智能体工程指南：10 条实战技巧和 3 种构建模式</title>
+            <link>https://baoyu.io/blog/2026-02-12/skills-shell-tips</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-12/skills-shell-tips</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI 发布智能体工程实战手册，围绕技能（Skills）、Shell 工具和上下文压缩三个核心能力，总结 10 条生产级技巧和 3 种构建模式。来自 Glean 的案例数据显示，技能路由可将准确率提升 12 个百分点。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-12/sherwin-wu-ai-software-engineering</id>
+            <title>我们真的变成巫师了：OpenAI API 负责人谈 AI 如何重塑软件工程</title>
+            <link>https://baoyu.io/blog/2026-02-12/sherwin-wu-ai-software-engineering</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-12/sherwin-wu-ai-software-engineering</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 12 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    OpenAI API 负责人 Sherwin Wu 在 Lenny's Podcast 上的深度对话整理。从 95% 工程师用 Codex 写代码、100% Codex 代码库实验、巫师与魔法师学徒的比喻，到一人十亿美元公司的连锁效应、AI 部署为什么亏钱，以及未来 12-18 个月的方向预测。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026-02-11/xai-all-hands-meeting</id>
+            <title>xAI 全员大会实录：递归自我改进、5000 万视频/天、月球上的质量驱动器</title>
+            <link>https://baoyu.io/blog/2026-02-11/xai-all-hands-meeting</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026-02-11/xai-all-hands-meeting</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    联合创始人离职潮后，马斯克召集 xAI 全员大会。46 分钟覆盖公司重组、递归自我改进的编程模型、日均 5000 万视频的 Imagine、要模拟整个公司的 Macrohard，以及从 Memphis 超算集群到月球质量驱动器的太空算力愿景。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/11/ai-agent-software-remake</id>
+            <title>PC 软件为手机重做了一遍，现在轮到 Agent 了</title>
+            <link>https://baoyu.io/blog/2026/02/11/ai-agent-software-remake</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/11/ai-agent-software-remake</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 11 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Obsidian 发 CLI，Draw.io 发 MCP，软件正在为 AI Agent 重做接口。上一次这种事发生，诞生了微信和抖音。三种适配方式、三类人群的行动建议。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/09/anthropic-agentic-coding-trends-2026</id>
+            <title>2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势</title>
+            <link>https://baoyu.io/blog/2026/02/09/anthropic-agentic-coding-trends-2026</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/09/anthropic-agentic-coding-trends-2026</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 10 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Anthropic 发布《2026 Agent 编程趋势报告》，提出八大预测。核心观点：写代码这件事正在从“人写”变成“人指挥 AI Agent 写”，工程师角色从编码者转型为编排者，多 Agent 协同、长时间自主运行、编程民主化等趋势将重塑整个软件开发行业。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/08/prompt-engineering-matters</id>
+            <title>既然 AI 越来越聪明，那么学习提示词不是浪费时间吗？</title>
+            <link>https://baoyu.io/blog/2026/02/08/prompt-engineering-matters</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/08/prompt-engineering-matters</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 08 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    很多人觉得 AI 越来越强，提示词工程迟早过时。但这就像当年说「学英语没用」一样，把「自己用不上」等同于「没价值」。真正的提示词工程不是背咒语，而是把需求想清楚、说明白——这件事永远不会过时。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/07/segment-creator-interview</id>
+            <title>【访谈对话】造过 Codex 的人，为什么每天用 Claude Code</title>
+            <link>https://baoyu.io/blog/2026/02/07/segment-creator-interview</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/07/segment-creator-interview</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 07 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Calvin French-Owen 联合创办 Segment（32 亿美元被收购），后加入 OpenAI 带队构建 Codex。离开后他的日常编程工具却是 Claude Code。这场与 YC CEO 的对话，聊透了编程 Agent 的产品差异、上下文工程、LLM 时代的分发逻辑，以及如果今天重建 Segment 会做什么不同。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/translations/2026/02/05/claude-code-insights-command</id>
+            <title>深度解析：Claude Code /insights 命令的运作机制</title>
+            <link>https://baoyu.io/translations/2026/02/05/claude-code-insights-command</link>
+            <guid isPermaLink="false">https://baoyu.io/translations/2026/02/05/claude-code-insights-command</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 05 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    详解 Claude Code /insights 命令如何从会话日志中提取元数据、进行特征分析、生成个性化使用报告的完整流程。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/05/musk-ai-space-energy</id>
+            <title>马斯克三小时访谈实录：36 个月后，太空是训练和运行 AI 最便宜的地方</title>
+            <link>https://baoyu.io/blog/2026/02/05/musk-ai-space-energy</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/05/musk-ai-space-energy</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 05 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    SpaceX 以 1.25 万亿美元估值吞下 xAI 后第三天，马斯克录了一期信息密度极高的播客。太空数据中心的经济账、涡轮叶片供应链的终极瓶颈、TeraFab 芯片工厂的疯狂计划、中美制造业差距的残酷真相——每个数字都在为 IPO 叙事服务，但每个数字也都来自第一手经验。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/01/claude-code-tips-from-creator</id>
+            <title>Claude Code 团队的 10 个内部技巧，但你不一定都要学</title>
+            <link>https://baoyu.io/blog/2026/02/01/claude-code-tips-from-creator</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/01/claude-code-tips-from-creator</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 03 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    Boris Cherny 是 Claude Code 的创建者，他分享了 Anthropic 团队内部使用 Claude Code 的 10 个技巧，从并行运行、Plan Mode 到自定义技能，看看顶级 AI 工程师是怎么用自己做的工具的。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://baoyu.io/blog/2026/02/03/taste-engineering-thinking</id>
+            <title>品味 + 工程思维：AI 时代最难被替代的两件事</title>
+            <link>https://baoyu.io/blog/2026/02/03/taste-engineering-thinking</link>
+            <guid isPermaLink="false">https://baoyu.io/blog/2026/02/03/taste-engineering-thinking</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 03 Feb 2026 00:00:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    AI 消灭的是语法层面的痛苦，保留的是工程思维和品味。语法可以交给 AI，但你必须练出把需求想清楚、把系统设计清楚、把结果验证清楚的能力。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
