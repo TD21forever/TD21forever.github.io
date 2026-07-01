@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>豌豆花下猫 / @chinesehuazhou</title>
+        <link>https://nitter.cz/chinesehuazhou</link>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1753685988843602018#m</id>
+            <title>新一期周刊。本期送书5本，欢迎参加🐱
+春节期间停更一周，提前祝大家节日快乐！https://pythoncat.top/posts/2024-02-03-weekly</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1753685988843602018#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1753685988843602018#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 03 Feb 2024 07:44:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>新一期周刊。本期送书5本，欢迎参加🐱<br />
+春节期间停更一周，提前祝大家节日快乐！<a href="https://pythoncat.top/posts/2024-02-03-weekly">pythoncat.top/posts/2024-02-…</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1751159546498978214#m</id>
+            <title>#Python 潮流周刊#37：Python “令人失望”的动态类型超能力
+https://pythoncat.top/posts/2024-01-27-weekly</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1751159546498978214#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1751159546498978214#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 27 Jan 2024 08:25:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p><a href="https://nitter.cz/search?q=%23Python">#Python</a> 潮流周刊#37：Python “令人失望”的动态类型超能力<br />
+<a href="https://pythoncat.top/posts/2024-01-27-weekly">pythoncat.top/posts/2024-01-…</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1748909768432083348#m</id>
+            <title>#Python 技术周刊
+https://pythoncat.top/posts/2024-01-20-weekly</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1748909768432083348#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1748909768432083348#m</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 21 Jan 2024 03:25:56 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p><a href="https://nitter.cz/search?q=%23Python">#Python</a> 技术周刊<br />
+<a href="https://pythoncat.top/posts/2024-01-20-weekly">pythoncat.top/posts/2024-01-…</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1746161325271851418#m</id>
+            <title>终于把过去30几期中文周刊都翻译出了英文版，每篇都很长，没想到竟然把一个 gemini 账号弄得达到限额了。。。
+https://github.com/chinesehuazhou/python-weekly/blob/main/resources/README.md</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1746161325271851418#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1746161325271851418#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 13 Jan 2024 13:24:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>终于把过去30几期中文周刊都翻译出了英文版，每篇都很长，没想到竟然把一个 gemini 账号弄得达到限额了。。。<br />
+<a href="https://github.com/chinesehuazhou/python-weekly/blob/main/resources/README.md">github.com/chinesehuazhou/py…</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1746109676876714016#m</id>
+            <title>周刊来了 https://pythoncat.top/posts/2024-01-13-weekly</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1746109676876714016#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1746109676876714016#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 13 Jan 2024 09:59:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>周刊来了 <a href="https://pythoncat.top/posts/2024-01-13-weekly">pythoncat.top/posts/2024-01-…</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1744509981377098104#m</id>
+            <title>为什么我特别喜欢Telegram？一个原因是可以编辑多个文字链接，这点已无敌。另外就是开放的机器人/API，可以自动化要定期发布的内容，这点也无敌。欢迎关注我的频道：https://t.me/pythontrendingweekly</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1744509981377098104#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1744509981377098104#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 09 Jan 2024 00:02:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>为什么我特别喜欢Telegram？一个原因是可以编辑多个文字链接，这点已无敌。另外就是开放的机器人/API，可以自动化要定期发布的内容，这点也无敌。欢迎关注我的频道：<a href="https://t.me/pythontrendingweekly">t.me/pythontrendingweekly</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0RXLWtpTGJjQUF0eXhJLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569174134435870#m</id>
+            <title>R to @chinesehuazhou: 欢迎关注！</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569174134435870#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569174134435870#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>欢迎关注！</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569170875498979#m</id>
+            <title>R to @chinesehuazhou: 2、给 Pythonistas 的 Rust 编程入门教程 https://www.youtube.com/watch?v=MoqtsYLGCC4
+
+以面向 Python 开发者的视角来对比和学习 Rust 编程，介绍了主要特性的差异（比如 Python 的类和 Rust 的 struct）。</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569170875498979#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569170875498979#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>2、给 Pythonistas 的 Rust 编程入门教程 <a href="https://www.youtube.com/watch?v=MoqtsYLGCC4">youtube.com/watch?v=MoqtsYLG…</a><br />
+<br />
+以面向 Python 开发者的视角来对比和学习 Rust 编程，介绍了主要特性的差异（比如 Python 的类和 Rust 的 struct）。</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjIyNDQ1OTUwNDI0MjY4OC9OVHRaV2lKaz9mb3JtYXQ9anBnJm5hbWU9ODAweDMyMF8x" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569167599681823#m</id>
+            <title>R to @chinesehuazhou: 1、 捕蛇者说 Ep 44. 与 Tualatrix 聊聊独立开发使用的技术栈 https://www.xiaoyuzhoufm.com/episode/65945c8c1e736aa25c935885
+
+独立开发者怎么做技术选型？为什么图拉鼎会用 Python 作为自己项目的后端语言？（附：两年前的另一期播客 ByteTalk 3. 跟图拉鼎聊聊独立开发者的那些事 https://www.xiaoyuzhoufm.com/episode/618c9897fad86a854205b2a0）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569167599681823#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569167599681823#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>1、 捕蛇者说 Ep 44. 与 Tualatrix 聊聊独立开发使用的技术栈 <a href="https://www.xiaoyuzhoufm.com/episode/65945c8c1e736aa25c935885">xiaoyuzhoufm.com/episode/659…</a><br />
+<br />
+独立开发者怎么做技术选型？为什么图拉鼎会用 Python 作为自己项目的后端语言？（附：两年前的另一期播客 ByteTalk 3. 跟图拉鼎聊聊独立开发者的那些事 <a href="https://www.xiaoyuzhoufm.com/episode/618c9897fad86a854205b2a0">xiaoyuzhoufm.com/episode/618…</a>）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NDA2ODYzNzMxNTQ3MzQwOC9QOElfNDBsWj9mb3JtYXQ9cG5nJm5hbWU9NDIweDQyMF8y" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569162587578595#m</id>
+            <title>R to @chinesehuazhou: 13、MobileVLM：美团开源的移动设备视觉语言助手 https://github.com/Meituan-AutoML/MobileVLM
+
+在移动设备上运行的多模态视觉语言模型 （MMVLM），有 1.4B 和 2.7B 参数规模，在高通骁龙 888 CPU 和 NVIDIA Jeston Orin GPU 上分别获得每秒 21.5 个 token 和 65.3 个 token 的优秀性能。
+
+🐢播客&amp;视频</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569162587578595#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569162587578595#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>13、MobileVLM：美团开源的移动设备视觉语言助手 <a href="https://github.com/Meituan-AutoML/MobileVLM">github.com/Meituan-AutoML/Mo…</a><br />
+<br />
+在移动设备上运行的多模态视觉语言模型 （MMVLM），有 1.4B 和 2.7B 参数规模，在高通骁龙 888 CPU 和 NVIDIA Jeston Orin GPU 上分别获得每秒 21.5 个 token 和 65.3 个 token 的优秀性能。<br />
+<br />
+🐢播客&amp;视频</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjA4NjM4MzQ1Mjc4MjU5Mi84cTRwSE1IST9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569159349469460#m</id>
+            <title>R to @chinesehuazhou: 12、RecoverPy：以交互方式从终端查找和恢复已删除或覆盖的文件 https://github.com/PabloLec/RecoverPy
+
+文件的数据被覆盖或删除了，还能找回么？这是一个 Linux 上的文件&amp;数据恢复工具，支持文本搜索，支持交互式操作。（star 1.1K）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569159349469460#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569159349469460#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>12、RecoverPy：以交互方式从终端查找和恢复已删除或覆盖的文件 <a href="https://github.com/PabloLec/RecoverPy">github.com/PabloLec/RecoverP…</a><br />
+<br />
+文件的数据被覆盖或删除了，还能找回么？这是一个 Linux 上的文件&amp;数据恢复工具，支持文本搜索，支持交互式操作。（star 1.1K）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NzM2MjY1OTM1NDA5OTcxMi9PLWxnYjZ4az9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569156023480456#m</id>
+            <title>R to @chinesehuazhou: 11、mixtral-offloading：在 Colab 或个人电脑上运行 Mixtral-8x7B 模型 https://github.com/dvmazur/mixtral-offloading
+
+实现了对 Mixtral-8x7B 模型的高效推理，需要大约 16 GB 的 VRAM 和 11 GB 的 RAM。（star 1.4K）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569156023480456#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569156023480456#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:15 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>11、mixtral-offloading：在 Colab 或个人电脑上运行 Mixtral-8x7B 模型 <a href="https://github.com/dvmazur/mixtral-offloading">github.com/dvmazur/mixtral-o…</a><br />
+<br />
+实现了对 Mixtral-8x7B 模型的高效推理，需要大约 16 GB 的 VRAM 和 11 GB 的 RAM。（star 1.4K）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjAxOTgzMDc0OTMwNjg4MC95OVA3cjc1YT9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569152873537820#m</id>
+            <title>R to @chinesehuazhou: 10、oshit：放在命令行终端的 Hacker News https://github.com/davep/oshit
+
+简化的 Hacker News 阅读客户端，没有登录、投票、发布等功能，支持查看用户和评论信息。</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569152873537820#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569152873537820#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:14 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>10、oshit：放在命令行终端的 Hacker News <a href="https://github.com/davep/oshit">github.com/davep/oshit</a><br />
+<br />
+简化的 Hacker News 阅读客户端，没有登录、投票、发布等功能，支持查看用户和评论信息。</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjI3Nzg3MjkxMjY1ODQzMi9iY0tHMFJoLT9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569149299974225#m</id>
+            <title>R to @chinesehuazhou: 9、auto_job__find__chatgpt__rpa：基于 ChatGPT 的自动投简历助手 https://github.com/Frrrrrrrrank/auto_job__find__chatgpt__rpa
+
+国人作品。利用 ChatGPT 根据你的简历和某招聘网站的职位描述，自动匹配和生成求职信息，自动发送给招聘人员。求职寒冬季，祝你好运！</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569149299974225#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569149299974225#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>9、auto_job__find__chatgpt__rpa：基于 ChatGPT 的自动投简历助手 <a href="https://github.com/Frrrrrrrrank/auto_job__find__chatgpt__rpa">github.com/Frrrrrrrrank/auto…</a><br />
+<br />
+国人作品。利用 ChatGPT 根据你的简历和某招聘网站的职位描述，自动匹配和生成求职信息，自动发送给招聘人员。求职寒冬季，祝你好运！</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569146099695951#m</id>
+            <title>R to @chinesehuazhou: 8、docflow：功能强大的文档管理 API，无缝上传、下载、组织、版本控制、共享 https://github.com/jiisanda/docflow
+
+简化文档类的处理操作，支持身份验证和授权、列表权限控制、文档的增删改查、文档预览、版本控制等。</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569146099695951#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569146099695951#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>8、docflow：功能强大的文档管理 API，无缝上传、下载、组织、版本控制、共享 <a href="https://github.com/jiisanda/docflow">github.com/jiisanda/docflow</a><br />
+<br />
+简化文档类的处理操作，支持身份验证和授权、列表权限控制、文档的增删改查、文档预览、版本控制等。</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjI3Nzg3Mjk1MDM5ODk3Ni9WZXh1QUIyaj9mb3JtYXQ9cG5nJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569142777868306#m</id>
+            <title>R to @chinesehuazhou: 7、jake：在 GitHub 上轻松创建和部署自己的单链接网站 https://github.com/thevahidal/jake
+
+单链接网站（one-link website）适合用作个人主页，这个网站模板使用 Github Pages 部署，让你轻松省力地构建美观的个人主页。</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569142777868306#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569142777868306#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>7、jake：在 GitHub 上轻松创建和部署自己的单链接网站 <a href="https://github.com/thevahidal/jake">github.com/thevahidal/jake</a><br />
+<br />
+单链接网站（one-link website）适合用作个人主页，这个网站模板使用 Github Pages 部署，让你轻松省力地构建美观的个人主页。</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjI4NDg5NTQ0MDMzNDg0OC96R2o0Q05pVj9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569139556647170#m</id>
+            <title>R to @chinesehuazhou: 6、marshmallow：支持复杂对象与简单数据类型相互转换 https://github.com/marshmallow-code/marshmallow
+
+简单的对象序列化库，与 ORM/ODM/框架无关，可用于验证输入数据、序列化与反序列化，提供有丰富的字段类型，支持多种数据格式。（star 6.8K）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569139556647170#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569139556647170#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>6、marshmallow：支持复杂对象与简单数据类型相互转换 <a href="https://github.com/marshmallow-code/marshmallow">github.com/marshmallow-code/…</a><br />
+<br />
+简单的对象序列化库，与 ORM/ODM/框架无关，可用于验证输入数据、序列化与反序列化，提供有丰富的字段类型，支持多种数据格式。（star 6.8K）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjI3Nzg3MjY1MjYwNzQ4OC9HT1FHZWNfMz9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569136196973001#m</id>
+            <title>R to @chinesehuazhou: 5、apispec：可插拔的 API 规范生成器，支持 OpenAPI 规范 https://github.com/marshmallow-code/apispec
+
+自动生成 API 接口规范文档，支持 OpenAPI 规范（即 Swagger 规范），与框架无关，内置对`marshmallow` 的支持。（star 1.1K）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569136196973001#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569136196973001#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>5、apispec：可插拔的 API 规范生成器，支持 OpenAPI 规范 <a href="https://github.com/marshmallow-code/apispec">github.com/marshmallow-code/…</a><br />
+<br />
+自动生成 API 接口规范文档，支持 OpenAPI 规范（即 Swagger 规范），与框架无关，内置对`marshmallow` 的支持。（star 1.1K）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NTY0ODMyMjM2OTM4NDQ0OC9mcG5pcE9OZj9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569132963156085#m</id>
+            <title>R to @chinesehuazhou: 4、yarl：一个 URL 解析工具 https://github.com/aio-libs/yarl
+
+提供了 URL 类，可便利解析和修改 URL，支持通过属性方式访问 url 的每个部分。（star 1K）</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569132963156085#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569132963156085#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>4、yarl：一个 URL 解析工具 <a href="https://github.com/aio-libs/yarl">github.com/aio-libs/yarl</a><br />
+<br />
+提供了 URL 类，可便利解析和修改 URL，支持通过属性方式访问 url 的每个部分。（star 1K）</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NTcwNTE4MjYzMTk5NzQ0MC94S1E0eFNURT9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/chinesehuazhou/status/1743569129603510692#m</id>
+            <title>R to @chinesehuazhou: 3、pyapp：Python 应用的运行时安装器 https://github.com/ofek/pyapp
+
+使用 Rust 开发的工具，可构建运行时自启动的 Python 应用程序，为每个平台构建独立的二进制包。</title>
+            <link>https://nitter.cz/chinesehuazhou/status/1743569129603510692#m</link>
+            <guid isPermaLink="false">https://nitter.cz/chinesehuazhou/status/1743569129603510692#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 06 Jan 2024 09:44:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>3、pyapp：Python 应用的运行时安装器 <a href="https://github.com/ofek/pyapp">github.com/ofek/pyapp</a><br />
+<br />
+使用 Rust 开发的工具，可构建运行时自启动的 Python 应用程序，为每个平台构建独立的二进制包。</p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NjczMDU3MTMxMTUxMzYwMC9NSnpXM3JXST9mb3JtYXQ9anBnJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
