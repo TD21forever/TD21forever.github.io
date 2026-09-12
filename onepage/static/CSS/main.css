@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.setence-box-wrap {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setence-text-wrap {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: 'EB Garamond',
+    'Noto Serif SC';
+}
+
+#id1 {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .smaller-600 {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .smaller-900 {
+    font-size: 14px !important;
+  }
+}
