@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>AI探索站 - 即刻圈子</title>
+        <link>https://m.okjike.com/topics/63579abb6724cc583b9bba9a</link>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab69e93141b85b2926a94eb</id>
+            <title>AI探索站 09月25日</title>
+            <link>https://m.okjike.com/originalPosts/6ab69e93141b85b2926a94eb</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab69e93141b85b2926a94eb</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Sep 2026 16:17:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    有些personal ai特别像大厂里超积极巨主动的下属，当这些“下属”进入生活的时候，我感觉我没有被异化到能心安理得甚至舒服地接受这些向上管理。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a</id>
+            <title>AI探索站 09月25日</title>
+            <link>https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab628ec141b85b2925e0c5a</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Sep 2026 07:55:24 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    使用 today ai 的 aha moment 与 concern 是同步出现的。<br /><br />案例是，它关注到我有研究过 infra，然后发现了相关新闻，就整理了下推送给我。<br /><br />这种设计真的蛮好的，但我的 concern 是：<br /><br />1）成本。<br />不知道它要在后台做多少工作，才能推出这么一条信息。这部分成本如果由公司承担，长期负担太重；由用户承担，又很容易被 challenge 是不是存在浪费。（延伸一下，这种产品的定价也蛮难的。<br /><br />2）信息源的质量。<br />公开数据太容易被污染了，远没有企业、个人、订阅这些渠道的置信度高。这或许可以通过一些机制解决？但缩小搜索范围，可能又会影响到产品体验。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e</id>
+            <title>AI探索站 09月25日</title>
+            <link>https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab5f040756bbb6658924f8e</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 25 Sep 2026 03:53:36 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    扎克伯格真正在赌的是你的下一个终端不再是手机<br /><br />Meta的Muse火了之后，所有人都在讨论它能替你做什么，但几乎没人问一个更根本的问题。扎克伯格为什么这么着急地推一个免费的AI助手，还同时在做AI眼镜、AI电子宠物？<br /><br />过去20年硅谷有一个没有明说的共识，手机只是计算史上的一个阶段性形态，并不是终点。真正的下一代平台应该比手机更小、更贴身、更主动，大概率是眼镜、手表、耳机、戒指这类可穿戴设备，它们才是未来的入口。<br /><br />这个共识从Google Glass时代就开始了，到Apple Watch、AirPods、Vision Pro......每一代产品都在往这个方向试探，但没有人真正做成。因为一个硬件入口要成立，前提是生态内有足够多的服务，且服务足够聪明，聪明到不需要你再掏出手机。<br /><br />这也是扎克伯格在焦虑的，他在PC互联网时代错过了，尽管Facebook很成功，但操作系统是微软和苹果的。他在移动互联网时代也错过了，就算Instagram和WhatsApp风靡全球，但操作系统是Google和苹果的。每一次平台更迭，真正制定规则的人都是做操作系统、做硬件、做入口的，Meta永远只能做有限游戏内的玩家。<br /><br />扎克伯格不想在AI时代再错过一次，所以他做了Muse。Muse不止是一个AI助手，也是一个操作系统的雏形。它有自己的浏览器、文件系统和终端，能替你操作几乎所有数字服务。你无需打开应用和点击屏幕，跟它简单交代一声就行。<br /><br />你现在在手机上用Muse只是暂时的，Muse真正该待的地方是眼镜。<br /><br />试想当你戴着一副配有摄像头、麦克风和扬声器的AI眼镜，你看到什么Muse就能看到什么，你听到什么Muse就能听到什么，你说句话Muse就能在后台替你处理，这时你还需要再掏出手机打开各种应用吗？<br /><br />这才是扎克伯格真正想要的入口，他做了20年应用层，做到全球最大，但一直在别人的地盘上做生意。<br /><br />如果眼镜能成为下一代计算平台，Muse能成为下一代操作系统，扎克伯格就第一次掌握了底层入口。他可以决定用户怎么交互、开发者怎么接入以及数据如何流动，从遵守规则的人变成制定规则的人。<br /><br />所以对大多数人来说Muse是免费的，扎克伯格并不急于通过Muse赚钱，他要的是用户习惯。他希望人们能习惯跟一个AI助手对话，习惯让它替你做事，习惯不再频繁亲手操作应用。当这个习惯建立起来之后，AI眼镜只会让你更方便地使用。<br /><br />这是一个非常聪明的策略，硬件是最难卖的，尤其是新形态的硬件。Google Glass失败了，因为用户不知道该怎么用，以及能用来干嘛。Vision Pro卖不动，因为用户觉得它只是一个更贵、更重的家庭娱乐设备。<br /><br />但如果用户已经习惯在手机上用Muse了，那AI眼镜就不再是一个新东西，只是一个更便捷的交互入口。你不必学习如何上手使用，不必主动解锁屏幕，不必从一堆App中找到你要使用的那个。<br /><br />当这个迁移完成的时候，Meta就不再只是个靠广告生存的应用公司了。
+当下苹果和Google是既得利益者，它们需要保护现有的入口，但扎克伯格没有什么可失去的。
+因为对他来说最坏的结果是继续做应用层，跟今天没有任何区别，而最好的结果是成为下一个平台级入口。<br /><br />这才是Muse真正的战略意义，它是Meta在AI时代的一个支点。通过这个支点，扎克伯格想撬动的不仅是AI助手市场，还有下一代计算平台的控制权。<br /><br />这场战争，才刚刚拉开序幕。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab545ed141b85b292462ab8</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/6ab545ed141b85b292462ab8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab545ed141b85b292462ab8</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Sep 2026 15:46:53 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    我去，Opus 5.5 做这种前端的图像图形，做产品宣传视频太牛逼了！<br /><br />让他给我这个 CodePilot 产品做了个宣传片，太猛了，一键生成的。<br /><br />简直吊打前几天的 GPT-6 Astra 的结果<br /><br />后面也会将这些经验用在我的这个 guizang-product-video-skilll 里面。<br /><br />然后一些比较差的模型也能得到比较好的效果。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab53494756bbb66587e93b8</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/6ab53494756bbb66587e93b8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab53494756bbb66587e93b8</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Sep 2026 14:32:52 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    海德格尔说，关怀分为两种<br />- 代庖式，把对方操心的事拿过来，替他办了。让对方变成被照顾的对象，继而依赖或者被支配。<br />- 先行式，不替他操心，而是走在他前面照亮，让他看到那件事本就该他操心，让他成为能操心自己事的人。<br /><br />如果有机会，宁可做个后者这样的产品。<br />毕竟能干活的助手，太多了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab4db67cfb5d08b3e04ab96</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/6ab4db67cfb5d08b3e04ab96</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab4db67cfb5d08b3e04ab96</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Sep 2026 08:12:23 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    大部分人看个人Agent，都看错了地方<br /><br />Meta的Muse火了之后，我看到最多的一个评价是这不就是大众版的龙虾吗？Muse能干的OpenClaw也能干，无非是把门槛降低到了普通人也能用上。<br /><br />这个判断错得离谱，它错在把个人Agent当成一个工具来看。<br /><br />你拿它跟OpenClaw比，实际上比的是功能列表，比的是它能打开多少个应用，能完成多少个任务。这就像是拿微信跟短信比，然后说不就是能免费发消息吗？无非是字数多一点，能发些表情。<br /><br />功能层面看确实如此，但微信的价值从来不在“发消息”这件事上，你所有的社会关系都沉淀在里面，你的数字身份和它深度绑定，你很难换掉它。而现在除了用来接收验证码和快递信息，谁还会主动打开短信呢？<br /><br />个人Agent也一样，它真正的价值不在于能替你做什么，而在替你做的过程中积累了什么。<br /><br />诚然，OpenClaw也有记忆，它写在你本地的Markdown文件里，可以用任何文本编辑器打开、阅读、修改和删除。但它记住你是为了更好地执行你交给它的下一个任务，这种记忆天然是工具性的。<br /><br />个人Agent记住你是为了理解你这个人，你每一次在它面前暴露的偏好、犹豫、决策路径都在帮它构建一个比你自己更了解你的模型，而这个模型的价值远不止于帮你干活。<br /><br />你想想推荐引擎是怎么工作的？刚用的抖音时可能推给你的内容还十分普通，刷了一周之后你会觉得它开始渐渐懂你了。高频使用一个月后，它也许比你更清楚你会在什么时间、什么情绪、什么场景下对什么样的内容感兴趣，这个理解是从你每一次滑动、停留和划走中积累起来的。<br /><br />个人Agent正在做同样的事，你今天让它帮你订酒店，它就能知道你对位置的偏好。你明天让它帮你比价，它就了解了你对价格的敏感度。你后天让它帮你退一个东西，它就会知道你讨厌什么。这些信息日积月累，最终会构成一个比你自己更了解你的模型。<br /><br />过去的推荐引擎各自为政，可能在淘宝眼里你是一个爱比价的人，在抖音眼里你是一个爱看搞笑视频的人，在微信眼里你是一个喜欢八卦的人。但这些不同场景下的“你”只是你的碎片，平台只能“看到”你的行为，但猜不准背后的意图，这就是为什么你总会觉得一些推荐突兀且打扰。<br /><br />个人Agent要做的，就是把这些碎片拼起来。它接入你的邮箱、日历、社交账号、支付账户，根本上是想从你的全部数字生活中构建出你的完整画像。这个画像的精度，远超任何单一平台的推荐引擎。<br /><br />当这个画像足够精确的时候，它就不需要猜你想要什么了。当你还在犹豫要不要买那件外套时，它已经帮你找到了三个更便宜的同款。当你还在想周末去哪，它已经帮你选好了你大概率会喜欢的餐厅。当你还在考虑要不要换工作时，它已经帮你整理好了几个匹配的岗位信息。<br /><br />相比一个替你操作电脑和手机的工具，它更像一个持续学习和理解你的模型，你的每一次使用和交互都在帮它离你更近一步。就像每个人的首页推荐都大相径庭，每个人对个人Agent的用法和理解也是千人千面的。<br /><br />你在媒体上看到的帮你省钱、替你打杂、代你记事的案例通常只是为了方便传播的叙事，一个让你愿意把账户权限交出去的理由，然而我更在意的是它是否能够拓展我个人能力的边界、发掘我不曾在意的天赋、找到我思维的盲点、发现我潜在的需求，因为比亮眼结果更重要的是习惯。<br /><br />比如当你做完一个烘焙项目后，它会问你要不要试试别的食谱。你让它帮忙安排一次家庭旅行，它会问你要不要顺便把沿途的餐厅也订了。你让它总结一篇论文，它还问你要不要继续扩写成一份报告。当你成功跑完了半马，它接着问你要不要挑战一下全马。<br /><br />这些提议看起来是在帮你发现更多用途，同时也在悄悄定义你的需求、塑造你的习惯。<br /><br />这才是Meta真正在赌的东西，也是它为什么敢免费给你用、给每个用户配备一台固定云主机的原因。除了安全和隐私的顾虑，它更在意的是你在使用过程中所沉淀下来的那些习惯、信任和偏好。<br /><br />因为一旦你习惯了它比你还更懂自己，你就再也离不开了。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab4b600c67fa58214d3a830</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/6ab4b600c67fa58214d3a830</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab4b600c67fa58214d3a830</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Sep 2026 05:32:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    重新写一下，再展开一点关于wb的，差点忘了<br />我对于AI 办公和 personal AI 的看法是<br />举个例子<br />如果你要做AI 办公<br />现在的豆包和千问，就应该叫飞书AI 版，或者钉钉AI 版，因为这里的核心依赖是数据整合和组织搭建，这么重的场景你不可能从C端打<br />如果你要做personal AI ，就应该把人民群众喜闻乐见的项目推到前面<br />钉钉就应该叫千问办公版，飞书叫豆包办公版<br /><br />所以如果AI 办公持续做下去的话，wb团队的处境非常尴尬，因为众所周知腾讯的办公套件是一坨屎<br />当然这也是wb能跑出来的原因之一，所谓君以此兴必以此亡<br />因为办公场景按上面的逻辑聊，是强烈依赖累积的数据和后续的服务的，办公场景明显是个to b场景，wb团队在这两部分的积累都远不如阿里和字节<br />你是能把企业微信还是能把微信（是的微信某种程度也是办公产品，现在也可以是personal ai了）的汇报关系放到CSIG去<br />会议，文档和企微这么多年都没搞明白。更何况话有说回来，虽然腾讯不同bu之间的合作问题是整件事里面最大的问题<br /><br />但是CSIG内部的会议+文档，也做了这么多年了，去年又收进来ima和元宝。确实方向没有那么一致吧，但是到底要干啥<br />wb是一个短期爆量的产品，值得肯定。但是长线钉钉和飞书在帮千问办公和豆包托底，我觉得如果大家还在乎AI 办公的话，明年就能追上wb了<br /><br />哦对了还有百度搭子，百度搭子没有以上的所有东西
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab489b3141b85b29231434d</id>
+            <title>AI探索站 09月24日</title>
+            <link>https://m.okjike.com/originalPosts/6ab489b3141b85b29231434d</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab489b3141b85b29231434d</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 24 Sep 2026 02:23:47 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    开心。终于可以开始讨论一点真问题了。<br /><br />想讨论的问题是：Muse 这类 personal agent 是否有机会日活过亿，并且有良好的商业模式。<br /><br />反方代表：玉伯<br />核心观点：<br /><br />1、邮件日历是高频需求，这个确实没错。类似国内的微信。想不明白的是，通过 Muse 处理邮件日历，带来的新体验，以及需要交出去的隐私等迁移成本，是否这个体验差足够大。大到能产生某种体验单向门：用上了就回不去了。我自己的体感是，用 Town、Muse 等产品处理邮件日历的体验，并没有这么大。热度一过，会发现 Gmail 等产品的体验也不差。<br /><br />2、购物、电话催单等场景。催单看了一些案例，确实通过 Muse，有了质的飞跃，是单向门。但购物，和用千问买奶茶，不痛不痒。期待看到更多案例。<br /><br />3、问答、新闻订阅等，这些 ChatGPT 都能干。Muse 在这块的优势究竟是什么。<br /><br />综合亲身体验、观察及思考，我的观点是：Muse 要做成国民级应用，难。<br /><br />期待大家继续打我脸。脸这东西，就是用来打的。不用客气。猛猛反驳，提出你的观察和思考。
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab33debbd0563695b87ab62</id>
+            <title>AI探索站 09月23日</title>
+            <link>https://m.okjike.com/originalPosts/6ab33debbd0563695b87ab62</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab33debbd0563695b87ab62</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 23 Sep 2026 02:48:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    藏师傅 1 万多 star 的去 AI 味 Skill Humanizer-zh 迎来了一大波更新！<br /><br />这次更新增加了很多上游的迭代，同时也吸收了很多 issue 里大家提的意见。<br /><br />大家可以试试。如果有问题，可以在 issue 里反馈<br /><br />github.com/op7418/Humanizer-zh
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://m.okjike.com/originalPosts/6ab270d5bd0563695b722ca8</id>
+            <title>AI探索站 09月22日</title>
+            <link>https://m.okjike.com/originalPosts/6ab270d5bd0563695b722ca8</link>
+            <guid isPermaLink="false">https://m.okjike.com/originalPosts/6ab270d5bd0563695b722ca8</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 22 Sep 2026 12:13:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    这个有点意思。
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
