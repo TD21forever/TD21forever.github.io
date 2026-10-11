@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Airyland | code.bit / @iamairyland</title>
+        <link>https://nitter.cz/iamairyland</link>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1756177208702603280#m</id>
+            <title>把一个常用工具(即使是老需求)做到简单、稳定、精致，被收购的可能性是非常大的。</title>
+            <link>https://nitter.cz/iamairyland/status/1756177208702603280#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1756177208702603280#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 04:44:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>把一个常用工具(即使是老需求)做到简单、稳定、精致，被收购的可能性是非常大的。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1756164271879454942#m</id>
+            <title>在 GPT 之前，遇到不会的编程语言写的包，要花费一番时间才能变成接口来调用。而现在可以直接抛给 GPT 写个 http 接口和给出 Dockerfile 配置，一个提问就可以解决。</title>
+            <link>https://nitter.cz/iamairyland/status/1756164271879454942#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1756164271879454942#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 03:52:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>在 GPT 之前，遇到不会的编程语言写的包，要花费一番时间才能变成接口来调用。而现在可以直接抛给 GPT 写个 http 接口和给出 Dockerfile 配置，一个提问就可以解决。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1755484937527132646#m</id>
+            <title>不记得有多少次在各种小型大型的网站上，提交表单报错，但没有具体消息。打开调试面板看网络请求，会发现明明是有具体的错误说明，就是不显示给用户。
+
+大公司分工明确，设计、前端、产品、测试这几个角色都不能阻止这个问题的出现。</title>
+            <link>https://nitter.cz/iamairyland/status/1755484937527132646#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1755484937527132646#m</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 08 Feb 2024 06:53:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>不记得有多少次在各种小型大型的网站上，提交表单报错，但没有具体消息。打开调试面板看网络请求，会发现明明是有具体的错误说明，就是不显示给用户。<br />
+<br />
+大公司分工明确，设计、前端、产品、测试这几个角色都不能阻止这个问题的出现。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1754909569430782433#m</id>
+            <title>GPT Store 的搜索挺尴尬的，作为领先的 AI 公司，witness 搜索出来一堆 fitness。
+
+既不是语义也不是词匹配，而是单词里的部分字符匹配。</title>
+            <link>https://nitter.cz/iamairyland/status/1754909569430782433#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1754909569430782433#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 06 Feb 2024 16:47:00 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>GPT Store 的搜索挺尴尬的，作为领先的 AI 公司，witness 搜索出来一堆 fitness。<br />
+<br />
+既不是语义也不是词匹配，而是单词里的部分字符匹配。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1754468460669571539#m</id>
+            <title>小而美只是情怀，小而能赚钱才是理想形态，美是用来锦上添花的。</title>
+            <link>https://nitter.cz/iamairyland/status/1754468460669571539#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1754468460669571539#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 05 Feb 2024 11:34:12 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>小而美只是情怀，小而能赚钱才是理想形态，美是用来锦上添花的。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1754331830537630192#m</id>
+            <title>一个人要获得更大发展，应该要克服(或者避开)自身惯性、家庭的惯性、国家(社会)的惯性。
+
+最难的应该是自身的惯性。舒适圈不一定舒适，但它一定安全。</title>
+            <link>https://nitter.cz/iamairyland/status/1754331830537630192#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1754331830537630192#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 05 Feb 2024 02:31:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>一个人要获得更大发展，应该要克服(或者避开)自身惯性、家庭的惯性、国家(社会)的惯性。<br />
+<br />
+最难的应该是自身的惯性。舒适圈不一定舒适，但它一定安全。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1753404591008575647#m</id>
+            <title>_next/data/{buildId} 作为数据接口使用是非常糟糕的，比如 ChatGPT。
+
+新版本部署后前端请求便 404 了，大多数基于 next.js 网站并不会处理这个错误。对于常驻网页是灾难，用户只能学会自己刷新。</title>
+            <link>https://nitter.cz/iamairyland/status/1753404591008575647#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1753404591008575647#m</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 02 Feb 2024 13:06:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>_next/data/{buildId} 作为数据接口使用是非常糟糕的，比如 ChatGPT。<br />
+<br />
+新版本部署后前端请求便 404 了，大多数基于 next.js 网站并不会处理这个错误。对于常驻网页是灾难，用户只能学会自己刷新。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1752868879901351957#m</id>
+            <title>Campfire 的 UI 挺丑的。</title>
+            <link>https://nitter.cz/iamairyland/status/1752868879901351957#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1752868879901351957#m</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 01 Feb 2024 01:38:02 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>Campfire 的 UI 挺丑的。</p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0ZOdk1fZmJzQUFNem9iLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1752824649095020996#m</id>
+            <title>GitHub 的 markdown 只要设置图片尺寸约等于右侧文字高度并左对齐，就可以实现图片在左，文字在右的布局。
+
+具体见 https://github.com/AINativeLab/gptstore-data-backup</title>
+            <link>https://nitter.cz/iamairyland/status/1752824649095020996#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1752824649095020996#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 31 Jan 2024 22:42:16 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>GitHub 的 markdown 只要设置图片尺寸约等于右侧文字高度并左对齐，就可以实现图片在左，文字在右的布局。<br />
+<br />
+具体见 <a href="https://github.com/AINativeLab/gptstore-data-backup">github.com/AINativeLab/gptst…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0ZOSWZua2FzQUFaNWhPLnBuZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1752188631580803456#m</id>
+            <title>ChatGPT needs a better front-end development and testing. That way, bugs like the one in the builder profile wouldn't last for several months.</title>
+            <link>https://nitter.cz/iamairyland/status/1752188631580803456#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1752188631580803456#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 30 Jan 2024 04:34:58 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>ChatGPT needs a better front-end development and testing. That way, bugs like the one in the builder profile wouldn't last for several months.</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1751994600359883025#m</id>
+            <title>不喜欢写 ts 类型定义，但为了在提供给外部使用时有参数类型，现在让 GPT 根据代码来来写，可以省掉很多时间。</title>
+            <link>https://nitter.cz/iamairyland/status/1751994600359883025#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1751994600359883025#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 29 Jan 2024 15:43:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>不喜欢写 ts 类型定义，但为了在提供给外部使用时有参数类型，现在让 GPT 根据代码来来写，可以省掉很多时间。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1751811692328280142#m</id>
+            <title>255 times listed in GitHub trending</title>
+            <link>https://nitter.cz/iamairyland/status/1751811692328280142#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1751811692328280142#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 29 Jan 2024 03:37:09 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>255 times listed in GitHub trending</p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0UtdkpHQmFrQUFLVEY0LmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1750394614358638968#m</id>
+            <title>R to @iamairyland:</title>
+            <link>https://nitter.cz/iamairyland/status/1750394614358638968#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1750394614358638968#m</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 25 Jan 2024 05:46:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0VxbW5kV2FnQUFuNDRSLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1750382109871792356#m</id>
+            <title>这就是我说 .box 的奇怪之处。
+
+如果它是 web3 域名，意味着它应该是去中心化的，不应该被强制删除或者转移。但它是 web2 域名，所以它注册需要填写详细的联系信息，必须接受 ICANN 监管，可以被商标所有者投诉，没有什么特别之处。
+
+所以它事实上是一个只能用虚拟货币注册，所有权能映射到钱包地址上的 web2 域名。谨慎注册商标域名。</title>
+            <link>https://nitter.cz/iamairyland/status/1750382109871792356#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1750382109871792356#m</guid>
+            <pubDate></pubDate>
+            <updated>Thu, 25 Jan 2024 04:56:30 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>这就是我说 .box 的奇怪之处。<br />
+<br />
+如果它是 web3 域名，意味着它应该是去中心化的，不应该被强制删除或者转移。但它是 web2 域名，所以它注册需要填写详细的联系信息，必须接受 ICANN 监管，可以被商标所有者投诉，没有什么特别之处。<br />
+<br />
+所以它事实上是一个只能用虚拟货币注册，所有权能映射到钱包地址上的 web2 域名。谨慎注册商标域名。</p>
+<p><a href="https://nitter.cz/ValidatorEth/status/1750376745239245215#m">nitter.cz/ValidatorEth/status/1750376745239245215#m</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1750014269675237649#m</id>
+            <title>.box 是不是个披着 web3 外衣的 web2 域名？
+
+web2 域名 + web3 域名让我感觉是个奇怪的混合。</title>
+            <link>https://nitter.cz/iamairyland/status/1750014269675237649#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1750014269675237649#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 24 Jan 2024 04:34:50 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>.box 是不是个披着 web3 外衣的 web2 域名？<br />
+<br />
+web2 域名 + web3 域名让我感觉是个奇怪的混合。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1749785899133727112#m</id>
+            <title>在搜索引擎发展多年，向 AI 提问也如此方便后，依然会有程序员在群里问：“XX 是什么” 这种问题。</title>
+            <link>https://nitter.cz/iamairyland/status/1749785899133727112#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1749785899133727112#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 23 Jan 2024 13:27:22 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>在搜索引擎发展多年，向 AI 提问也如此方便后，依然会有程序员在群里问：“XX 是什么” 这种问题。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1748800921012994204#m</id>
+            <title>不小心翻到一条以前给 egg.js(这个框架就不要用了) 提的 issue。
+
+我提议将 disable/enable 改为 disabled/enabled，维护者理由一开始是说表示开关没必要改，后来又说改动太大没必要改。
+
+文档里类型是 boolean，没见过另一个项目用动词来表达所谓的“开关”的。
+
+https://github.com/eggjs/egg/issues/4284</title>
+            <link>https://nitter.cz/iamairyland/status/1748800921012994204#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1748800921012994204#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 20 Jan 2024 20:13:25 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>不小心翻到一条以前给 egg.js(这个框架就不要用了) 提的 issue。<br />
+<br />
+我提议将 disable/enable 改为 disabled/enabled，维护者理由一开始是说表示开关没必要改，后来又说改动太大没必要改。<br />
+<br />
+文档里类型是 boolean，没见过另一个项目用动词来表达所谓的“开关”的。<br />
+<br />
+<a href="https://github.com/eggjs/egg/issues/4284">github.com/eggjs/egg/issues/…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0VUNTV3ZWFFQUFLa09QLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1748195015669723221#m</id>
+            <title>考虑后面将 zod 换成 valibot。相比串联一堆 function 还是更喜欢配置数组结构的插件列表。valibot 看起来也更方便将 json 配置转换它的结构。</title>
+            <link>https://nitter.cz/iamairyland/status/1748195015669723221#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1748195015669723221#m</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 19 Jan 2024 04:05:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>考虑后面将 zod 换成 valibot。相比串联一堆 function 还是更喜欢配置数组结构的插件列表。valibot 看起来也更方便将 json 配置转换它的结构。</p>
+<p><a href="https://nitter.cz/FabianHiller/status/1747264082296947185#m">nitter.cz/FabianHiller/status/1747264082296947185#m</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1747321143324025208#m</id>
+            <title>Resend 扩展成类 newsletter 工具了。</title>
+            <link>https://nitter.cz/iamairyland/status/1747321143324025208#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1747321143324025208#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 16 Jan 2024 18:13:18 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>Resend 扩展成类 newsletter 工具了。</p>
+<p><a href="https://nitter.cz/zenorocha/status/1747283176731631798#m">nitter.cz/zenorocha/status/1747283176731631798#m</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/iamairyland/status/1747039504199008480#m</id>
+            <title>保持节奏比间隙性高效产出重要。
+
+在有各种琐事的情况下很难保持效率，以致于常常直接放弃，但即使是25分钟的时间间隙依然可以静下心来完成一些事。将产出的单元时间控制为两三天，而不是一周。</title>
+            <link>https://nitter.cz/iamairyland/status/1747039504199008480#m</link>
+            <guid isPermaLink="false">https://nitter.cz/iamairyland/status/1747039504199008480#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 15 Jan 2024 23:34:10 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>保持节奏比间隙性高效产出重要。<br />
+<br />
+在有各种琐事的情况下很难保持效率，以致于常常直接放弃，但即使是25分钟的时间间隙依然可以静下心来完成一些事。将产出的单元时间控制为两三天，而不是一周。</p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
