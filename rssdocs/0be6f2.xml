@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Gorden Sun / @Gorden_Sun</title>
+        <link>https://nitter.cz/Gorden_Sun</link>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757782326099239336#m</id>
+            <title>AI资讯日报，2月14日：https://gorden-sun.notion.site/2-14-AI-3dc114bd08c749ab914b4a0c04c71ee6?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757782326099239336#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757782326099239336#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 14 Feb 2024 15:02:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>AI资讯日报，2月14日：<a href="https://gorden-sun.notion.site/2-14-AI-3dc114bd08c749ab914b4a0c04c71ee6?pvs=4">gorden-sun.notion.site/2-14-…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dUbHN0WmF3QUFJNy1xLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/dotey/status/1757528229903008180#m</id>
+            <title>RT by @Gorden_Sun: Nvidia推出了Chat with RTX，一款AI聊天机器人，能够在配备至少8GB VRAM的RTX 30或40系列显卡的任何PC上运行。
+
+另外还支持检索、摘要本地文档或者YouTube视频。</title>
+            <link>https://nitter.cz/dotey/status/1757528229903008180#m</link>
+            <guid isPermaLink="false">https://nitter.cz/dotey/status/1757528229903008180#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 22:12:37 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>Nvidia推出了Chat with RTX，一款AI聊天机器人，能够在配备至少8GB VRAM的RTX 30或40系列显卡的任何PC上运行。<br />
+<br />
+另外还支持检索、摘要本地文档或者YouTube视频。</p>
+<img src="https://nitter.cz/pic/enc/ZXh0X3R3X3ZpZGVvX3RodW1iLzE3NTc1MjgwMzA5ODgxNDQ2NDAvcHUvaW1nL2lYdlpLT2daTWVrUHJjYnouanBn" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757775945602392458#m</id>
+            <title>BASE TTS：目前最大的文字生成语音模型
+亚马逊推出的TTS模型，使用10万小时的语音数据训练，模型架构中包含1B参数的Transformer。
+未开源，仅有论文。
+项目地址：https://amazon-ltts-paper.com/
+论文：https://arxiv.org/abs/2402.08093</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757775945602392458#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757775945602392458#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 14 Feb 2024 14:36:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>BASE TTS：目前最大的文字生成语音模型<br />
+亚马逊推出的TTS模型，使用10万小时的语音数据训练，模型架构中包含1B参数的Transformer。<br />
+未开源，仅有论文。<br />
+项目地址：<a href="https://amazon-ltts-paper.com/">amazon-ltts-paper.com/</a><br />
+论文：<a href="https://arxiv.org/abs/2402.08093">arxiv.org/abs/2402.08093</a></p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NTY3MTMzMDgyMzc5NDY4OC80MXlocHdlZT9mb3JtYXQ9anBnJm5hbWU9NDIweDQyMF8y" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757772234209546349#m</id>
+            <title>StableAI的新绘图模型Stable Cascade，写文字的能力非常优秀！
+在线使用：https://huggingface.co/spaces/multimodalart/stable-cascade</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757772234209546349#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757772234209546349#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 14 Feb 2024 14:22:13 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>StableAI的新绘图模型Stable Cascade，写文字的能力非常优秀！<br />
+在线使用：<a href="https://huggingface.co/spaces/multimodalart/stable-cascade">huggingface.co/spaces/multim…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dUY091UmFrQUFSR0pWLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757695219339063680#m</id>
+            <title>ChatGPT开始小范围测试永久记忆功能</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757695219339063680#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757695219339063680#m</guid>
+            <pubDate></pubDate>
+            <updated>Wed, 14 Feb 2024 09:16:11 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>ChatGPT开始小范围测试永久记忆功能</p>
+<p><a href="https://nitter.cz/OpenAI/status/1757469997742666052#m">nitter.cz/OpenAI/status/1757469997742666052#m</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757404698863432094#m</id>
+            <title>AI资讯日报，2月13日：https://gorden-sun.notion.site/2-13-AI-335214f9a5bb484e951723cc4a98c01f?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757404698863432094#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757404698863432094#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 14:01:45 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>AI资讯日报，2月13日：<a href="https://gorden-sun.notion.site/2-13-AI-335214f9a5bb484e951723cc4a98c01f?pvs=4">gorden-sun.notion.site/2-13-…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dPT1A4a2FrQUFqUXJyLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757403758387184049#m</id>
+            <title>创作领域的AI公司分布
+分生成和编辑两大类。
+包括视频、音频、图片、声音、虚拟人、3D等多个领域。</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757403758387184049#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757403758387184049#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 13:58:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>创作领域的AI公司分布<br />
+分生成和编辑两大类。<br />
+包括视频、音频、图片、声音、虚拟人、3D等多个领域。</p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dPTWFwTWJBQUF0bi15LmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757401818316087416#m</id>
+            <title>Stable Cascade：Stability AI的新的图片模型
+与扩散模型不同，Stable Cascade是类似解压缩的过程，由A、B、C三个阶段来完成图片生成。占用的显存空间更少，官方称效果也比SD好。
+开源但商业需许可。
+官方博客：https://ja.stability.ai/blog/stable-cascade
+Github：https://github.com/Stability-AI/StableCascade</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757401818316087416#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757401818316087416#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 13:50:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>Stable Cascade：Stability AI的新的图片模型<br />
+与扩散模型不同，Stable Cascade是类似解压缩的过程，由A、B、C三个阶段来完成图片生成。占用的显存空间更少，官方称效果也比SD好。<br />
+开源但商业需许可。<br />
+官方博客：<a href="https://ja.stability.ai/blog/stable-cascade">ja.stability.ai/blog/stable-…</a><br />
+Github：<a href="https://github.com/Stability-AI/StableCascade">github.com/Stability-AI/Stab…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dPTG55ZGJrQUFKYUpnLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757398695312757038#m</id>
+            <title>高斯泼溅综述
+高斯泼溅是非常新的技术，这篇论文整理了去年相关的论文，介绍了当前技术的原理、局限和潜在应用。
+论文：https://arxiv.org/abs/2402.07181</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757398695312757038#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757398695312757038#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 13:37:54 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>高斯泼溅综述<br />
+高斯泼溅是非常新的技术，这篇论文整理了去年相关的论文，介绍了当前技术的原理、局限和潜在应用。<br />
+论文：<a href="https://arxiv.org/abs/2402.07181">arxiv.org/abs/2402.07181</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dPSXZxMmFzQUFIZ0FULnBuZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757396111889973698#m</id>
+            <title>宝藏PDF：神经网络关键技术图解
+作者把机器学习和神经网络领域的重要技术，都做成了神经回路图（Neural Circuit Diagrams，作者自研的图形语言），目的是展示神经网络架构的细节，便于学习和理解
+论文地址：https://openreview.net/pdf?id=RyZB4qXEgt
+Github：https://github.com/vtabbott/Neural-Circuit-Diagrams
+
+下图是Transformer的神经回路图</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757396111889973698#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757396111889973698#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 13:27:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>宝藏PDF：神经网络关键技术图解<br />
+作者把机器学习和神经网络领域的重要技术，都做成了神经回路图（Neural Circuit Diagrams，作者自研的图形语言），目的是展示神经网络架构的细节，便于学习和理解<br />
+论文地址：<a href="https://openreview.net/pdf?id=RyZB4qXEgt">openreview.net/pdf?id=RyZB4q…</a><br />
+Github：<a href="https://github.com/vtabbott/Neural-Circuit-Diagrams">github.com/vtabbott/Neural-C…</a><br />
+<br />
+下图是Transformer的神经回路图</p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dPRjZVNmJJQUFmdEMzLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757391624957722726#m</id>
+            <title>ELaTE：能生成带笑声的TTS模型
+通过文字生成语音，可以让语音里有笑声，而且可以指定笑声是位于开始还是结尾。支持克隆语音，支持多语言。
+微软的TTS实力非常强，只可惜目前这个模型只有论文，没有开源。
+论文：https://arxiv.org/abs/2402.07383
+项目地址：https://www.microsoft.com/en-us/research/project/elate/</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757391624957722726#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757391624957722726#m</guid>
+            <pubDate></pubDate>
+            <updated>Tue, 13 Feb 2024 13:09:48 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>ELaTE：能生成带笑声的TTS模型<br />
+通过文字生成语音，可以让语音里有笑声，而且可以指定笑声是位于开始还是结尾。支持克隆语音，支持多语言。<br />
+微软的TTS实力非常强，只可惜目前这个模型只有论文，没有开源。<br />
+论文：<a href="https://arxiv.org/abs/2402.07383">arxiv.org/abs/2402.07383</a><br />
+项目地址：<a href="https://www.microsoft.com/en-us/research/project/elate/">microsoft.com/en-us/research…</a></p>
+<img src="https://nitter.cz/pic/enc/Y2FyZF9pbWcvMTc1NzI1NDgwOTg1NjY3MTc0NC82UXAwaXc4ej9mb3JtYXQ9cG5nJm5hbWU9ODAweDQxOQ==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757059229700292982#m</id>
+            <title>AI资讯日报，2月12日：https://gorden-sun.notion.site/2-12-AI-bdb910e285dc4927b8e33079d64d606d?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757059229700292982#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757059229700292982#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 12 Feb 2024 15:08:59 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>AI资讯日报，2月12日：<a href="https://gorden-sun.notion.site/2-12-AI-bdb910e285dc4927b8e33079d64d606d?pvs=4">gorden-sun.notion.site/2-12-…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dKVURWY2JNQUF0LVZZLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757058649032401392#m</id>
+            <title>大语言模型综述
+这篇论文回顾了LLM的发展历程，用一些图表梳理了LLM的技术要点，总结了GPT、LLaMa、PaLM系列模型各自的特点和局限，整理了一些训练、微调、评测数据集。
+其中的图表画的很清晰。
+论文地址：https://arxiv.org/abs/2402.06196</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757058649032401392#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757058649032401392#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 12 Feb 2024 15:06:41 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>大语言模型综述<br />
+这篇论文回顾了LLM的发展历程，用一些图表梳理了LLM的技术要点，总结了GPT、LLaMa、PaLM系列模型各自的特点和局限，整理了一些训练、微调、评测数据集。<br />
+其中的图表画的很清晰。<br />
+论文地址：<a href="https://arxiv.org/abs/2402.06196">arxiv.org/abs/2402.06196</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dKU3p6c2JrQUFSM2tvLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1757046907917275608#m</id>
+            <title>Depth Anything：把图片和视频转化成深度图
+字节推出的模型，效果非常好，实际效果见视频。
+
+项目地址：https://depth-anything.github.io/
+处理视频的在线体验：https://huggingface.co/spaces/JohanDL/Depth-Anything-Video
+处理图片的在线体验：https://huggingface.co/spaces/LiheYoung/Depth-Anything
+Github：https://github.com/LiheYoung/Depth-Anything</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1757046907917275608#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1757046907917275608#m</guid>
+            <pubDate></pubDate>
+            <updated>Mon, 12 Feb 2024 14:20:01 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>Depth Anything：把图片和视频转化成深度图<br />
+字节推出的模型，效果非常好，实际效果见视频。<br />
+<br />
+项目地址：<a href="https://depth-anything.github.io/">depth-anything.github.io/</a><br />
+处理视频的在线体验：<a href="https://huggingface.co/spaces/JohanDL/Depth-Anything-Video">huggingface.co/spaces/JohanD…</a><br />
+处理图片的在线体验：<a href="https://huggingface.co/spaces/LiheYoung/Depth-Anything">huggingface.co/spaces/LiheYo…</a><br />
+Github：<a href="https://github.com/LiheYoung/Depth-Anything">github.com/LiheYoung/Depth-A…</a></p>
+<img src="https://nitter.cz/pic/enc/ZXh0X3R3X3ZpZGVvX3RodW1iLzE3NTcwNDY4MTkyODczOTYzNTIvcHUvaW1nL1MzMjYwSmF3TzRIZlBqUFYuanBn" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1756680897246765520#m</id>
+            <title>AI资讯日报，2月11日：https://gorden-sun.notion.site/2-11-AI-3b0941dafaae44338d99f7e7f367e95a?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1756680897246765520#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1756680897246765520#m</guid>
+            <pubDate></pubDate>
+            <updated>Sun, 11 Feb 2024 14:05:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>AI资讯日报，2月11日：<a href="https://gorden-sun.notion.site/2-11-AI-3b0941dafaae44338d99f7e7f367e95a?pvs=4">gorden-sun.notion.site/2-11-…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0dENzhpdmFZQUE4VTAtLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1756294638061920712#m</id>
+            <title>AI资讯日报，2月10日：https://gorden-sun.notion.site/2-10-AI-f16f3b529d014b968740d7294287066b?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1756294638061920712#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1756294638061920712#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 12:30:46 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>AI资讯日报，2月10日：<a href="https://gorden-sun.notion.site/2-10-AI-f16f3b529d014b968740d7294287066b?pvs=4">gorden-sun.notion.site/2-10-…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0YtY3BHNGJjQUFndGRCLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1756294086699679885#m</id>
+            <title>EVA-CLIP-8B：可能是最大的开源CLIP模型
+18B参数，80.7%的准确率，优于其他开源模型。
+模型地址：https://huggingface.co/BAAI/EVA-CLIP-8B
+论文：https://arxiv.org/abs/2402.04252</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1756294086699679885#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1756294086699679885#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 12:28:35 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>EVA-CLIP-8B：可能是最大的开源CLIP模型<br />
+18B参数，80.7%的准确率，优于其他开源模型。<br />
+模型地址：<a href="https://huggingface.co/BAAI/EVA-CLIP-8B">huggingface.co/BAAI/EVA-CLIP…</a><br />
+论文：<a href="https://arxiv.org/abs/2402.04252">arxiv.org/abs/2402.04252</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0YtY0NILWFzQUF2b2k4LmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1756288389945696492#m</id>
+            <title>教程：使用Gemini+Google搜索实现智能体
+通过Gemini的function calling，来调用Google搜索。</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1756288389945696492#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1756288389945696492#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 12:05:57 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>教程：使用Gemini+Google搜索实现智能体<br />
+通过Gemini的function calling，来调用Google搜索。</p>
+<p><a href="https://nitter.cz/LangChainAI/status/1756009463943966969#m">nitter.cz/LangChainAI/status/1756009463943966969#m</a></p>
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1756270445685514733#m</id>
+            <title>被这个AI模型笑死了。
+Goody-2：全世界最安全也最没用的LLM
+不论你问什么问题，他总能告诉你这个问题有什么风险，从而拒绝回答。
+地址：https://www.goody2.ai/</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1756270445685514733#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1756270445685514733#m</guid>
+            <pubDate></pubDate>
+            <updated>Sat, 10 Feb 2024 10:54:38 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>被这个AI模型笑死了。<br />
+Goody-2：全世界最安全也最没用的LLM<br />
+不论你问什么问题，他总能告诉你这个问题有什么风险，从而拒绝回答。<br />
+地址：<a href="https://www.goody2.ai/">goody2.ai/</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0YtR3A0R2FZQUFjOFVRLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+        <item>
+            <id>https://nitter.cz/Gorden_Sun/status/1755936917206753427#m</id>
+            <title>新春快乐！
+AI资讯日报，2月9日：https://gorden-sun.notion.site/2-9-AI-ae2b3560726944f08cc3ff9d05803862?pvs=4</title>
+            <link>https://nitter.cz/Gorden_Sun/status/1755936917206753427#m</link>
+            <guid isPermaLink="false">https://nitter.cz/Gorden_Sun/status/1755936917206753427#m</guid>
+            <pubDate></pubDate>
+            <updated>Fri, 09 Feb 2024 12:49:19 GMT</updated>
+                
+                
+            <content:encoded>
+                <![CDATA[
+                    
+                    <p>新春快乐！<br />
+AI资讯日报，2月9日：<a href="https://gorden-sun.notion.site/2-9-AI-ae2b3560726944f08cc3ff9d05803862?pvs=4">gorden-sun.notion.site/2-9-A…</a></p>
+<img src="https://nitter.cz/pic/enc/bWVkaWEvR0Y1WFVDMWFZQUFGdkFXLmpwZw==" />
+                ]]>
+            </content:encoded>
+        </item>
+        
+    </channel>
+</rss>
